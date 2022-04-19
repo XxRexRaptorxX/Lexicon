@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "ageofweapons:item/early_modern_age/multi_tool_stone"
-  }
-}

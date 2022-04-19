@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "ageofweapons:item/modern_age/tank_water"
-  }
-}
