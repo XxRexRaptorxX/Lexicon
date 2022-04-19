@@ -1,0 +1,17 @@
+{
+  "name": "Pickaxes",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "ageofweapons:types",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Pickxes$() can effectively harvest stone, are not really suitable for fighting."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_pickaxe",
+      "recipe2": "ageofweapons:stone_age/hand_ax"
+    }
+  ]
+}

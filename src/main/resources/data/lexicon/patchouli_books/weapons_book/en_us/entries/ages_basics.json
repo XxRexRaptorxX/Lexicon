@@ -1,0 +1,16 @@
+{
+  "name": "Time Ages",
+  "icon": "minecraft:map",
+  "category": "ageofweapons:ages",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There were many different $(thing)Ages$() that changed the tools and weapons. They have different functions and areas of application."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)$(n)Main Ages:$() $(br)$(li)Stone Age $(li)Antiquity $(li)Middle Ages $(li)Early Modern Age $(li)Modern Age $(li)Future$() $(br2)$(l)$(n)Side Ages:$()$(br) $(li)Edo Period $(li)Golden age of piracy $(li)Fantasy$()"
+    }
+  ]
+}

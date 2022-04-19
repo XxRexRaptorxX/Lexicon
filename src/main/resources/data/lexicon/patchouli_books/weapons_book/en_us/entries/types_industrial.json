@@ -1,0 +1,26 @@
+{
+  "name": "Machines",
+  "icon": "ageofweapons:industrial_multi_tool",
+  "category": "ageofweapons:types",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Industrial Machines$() can quickly process large amounts of material."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:modern_age/industrial_miner",
+      "recipe2": "ageofweapons:modern_age/industrial_harvester"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:modern_age/industrial_excavator",
+      "recipe2": "ageofweapons:future/industrial_multi_tool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:future/industrial_pulverizer"
+    }
+  ]
+}

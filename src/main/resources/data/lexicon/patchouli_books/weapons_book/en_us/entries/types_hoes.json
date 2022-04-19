@@ -1,0 +1,16 @@
+{
+  "name": "Hoes",
+  "icon": "minecraft:iron_hoe",
+  "category": "ageofweapons:types",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Hoes$() can turn dirt into farmland, are not really suitable for fighting."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_hoe"
+    }
+  ]
+}

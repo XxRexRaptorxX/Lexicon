@@ -1,0 +1,31 @@
+{
+  "name": "Edged Weapons",
+  "icon": "minecraft:iron_sword",
+  "category": "ageofweapons:types",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Classic weapons with no special characteristics except that some of them can harvest plants and leaves."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_sword",
+      "recipe2": "ageofweapons:antiquity/knife_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:antiquity/dagger_iron",
+      "recipe2": "ageofweapons:stone_age/caveman_knife"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:stone_age/bone_knife"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:middle_ages/scythe_iron",
+      "text": "Weapons on this side can harvest plants and leaves."
+    }
+  ]
+}

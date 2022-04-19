@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ageofweapons:item/modern_age/gun_case"
+  }
+}

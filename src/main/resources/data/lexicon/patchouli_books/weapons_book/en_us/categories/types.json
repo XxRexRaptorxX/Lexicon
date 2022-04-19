@@ -1,0 +1,6 @@
+{
+  "name": "Weapon Types",
+  "description": "Here you can find everything about $(item)Tool$() and $(item)Weapon$() types.",
+  "icon": "minecraft:iron_sword",
+  "sortnum": 1
+}

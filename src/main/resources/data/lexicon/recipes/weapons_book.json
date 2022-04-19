@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  
+    " X ",
+    "XOX",
+    " X " 
+  ],
+    
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "minecraft:book"
+    }
+  },
+  
+  "result": {
+    "item": "patchouli:guide_book",
+    "nbt": {
+      "patchouli:book": "ageofweapons:weapons_book"
+    }
+  }
+}

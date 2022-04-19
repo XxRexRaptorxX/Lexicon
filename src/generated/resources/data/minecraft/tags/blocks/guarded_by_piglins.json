@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ageofweapons:nexus_blue",
+    "ageofweapons:nexus_red",
+    "ageofweapons:nexus_green",
+    "ageofweapons:nexus_yellow",
+    "ageofweapons:weapon_box_1",
+    "ageofweapons:weapon_box_2",
+    "ageofweapons:weapon_box_3"
+  ]
+}

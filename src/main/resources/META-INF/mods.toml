@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/age-of-weapons/issues"
+
+[[mods]]
+modId="ageofweapons"
+version="0.4.0"
+displayName="Age of Weapons - Reforged"
+itemIcon="ageofweapons:battle_axe_diamond"
+updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AgeOfWeapons.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/age-of-weapons"
+logoFile="logo.png"
+#credits=""
+authors="XxRexRaptorxX (RexRaptor)"
+description='''
+A mod that adds tons of new tools & weapons based on time ages!
+'''
+
+[[dependencies.ageofweapons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ageofweapons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ageofweapons]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[1.18.2-66,)"
+    ordering="NONE"
+    side="BOTH"

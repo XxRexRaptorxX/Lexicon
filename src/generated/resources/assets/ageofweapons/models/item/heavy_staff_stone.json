@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ageofweapons:item/middle_ages/heavy_staff_stone"
+  }
+}

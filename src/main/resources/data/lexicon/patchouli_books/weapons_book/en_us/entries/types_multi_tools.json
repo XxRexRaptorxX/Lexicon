@@ -1,0 +1,17 @@
+{
+  "name": "Multi Tools",
+  "icon": "ageofweapons:multi_tool_iron",
+  "category": "ageofweapons:types",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Multi Tools$() are used for harvesting a lot of materials at once. But they are unsuitable for fighting. With $(thing)right-click$() you can smooth dirt and with $(thing)right-click + shift$() you can turn dirt to farmland."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ageofweapons:early_modern_age/multi_tool_iron",
+      "recipe2": "ageofweapons:future/industrial_multi_tool"
+    }
+  ]
+}

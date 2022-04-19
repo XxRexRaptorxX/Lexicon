@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ageofweapons:nexus_blue",
+    "ageofweapons:nexus_red",
+    "ageofweapons:nexus_green",
+    "ageofweapons:nexus_yellow"
+  ]
+}

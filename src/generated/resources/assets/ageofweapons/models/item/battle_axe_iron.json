@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ageofweapons:item/middle_ages/battle_axe_iron"
+  }
+}
