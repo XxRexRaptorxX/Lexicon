@@ -12,7 +12,7 @@
   },
   "rewards": {
     "loot": [
-      "ageofweapons:grant_book_on_first_join"
+      "lexicon:grant_book_on_first_join"
     ]
   }
 }

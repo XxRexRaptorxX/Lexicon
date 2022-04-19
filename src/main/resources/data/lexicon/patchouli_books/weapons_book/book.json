@@ -1,9 +1,0 @@
-{
-  "name": "Weapons Book",
-  "landing_text": "This book explains everything you need to know about tools and weapons, their uses and time ages. $(br2)$(br2)$(br2)$(br2)$(7)by XxRexRaptorxX$()",
-  "version": 1,
-  "book_texture": "patchouli:textures/gui/book_blue.png",
-  "model": "patchouli:book_blue",
-  "show_progress": false,
-  "creative_tab": "ageofweapons_base_tab"
-}
