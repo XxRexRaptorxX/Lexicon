@@ -42,7 +42,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)The next step is searching $(item)Food$(), for quick food kill some $(thing)Animals$() with your $(item)Sword$() and cook the flesh in an $(item)Furnace$(). $(br2)You can use $(item)Wood$() or $(item)Coal$() as fuel. $(br)$(li)And if you have found $(thing)Cows$(), you can craft $(item)Armor$() out of the $(item)Leather$()."
+      "text": "$(li)The next step is searching $(item)Food$(), for quick food kill some $(thing)Animals$() with your $(item)Sword$() and cook the flesh in an $(item)Furnace$(). $(br2)You can use $(item)Wood$() or $(item)Coal$() as fuel. $(br)$(li)And if you have found $(thing)Cows$(), you should craft $(item)Armor$() out of the $(item)Leather$()."
     },
     {
       "type": "patchouli:crafting",

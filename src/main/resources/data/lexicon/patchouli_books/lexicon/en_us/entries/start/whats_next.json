@@ -1,0 +1,47 @@
+{
+  "name": "What's next?",
+  "icon": "minecraft:wheat",
+  "category": "lexicon:start",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If you are now well equipped with $(item)Iron$() and have survived the first night, you can now start building a $(thing)Food Farm$() and a base with a $(item)Bed$() to set your spawnpoint, $(thing)exploring$() the area and collecting resources! $(br2)$(br2)Some useful things that you should craft are listed on the following pages."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "recipe2": "minecraft:white_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_fence",
+      "recipe2": "minecraft:oak_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ladder",
+      "recipe2": "minecraft:oak_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bow",
+      "recipe2": "minecraft:arrow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shield",
+      "recipe2": "minecraft:compass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod",
+      "recipe2": "minecraft:stone_cutter"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blast_furnace",
+      "recipe2": "minecraft:smoker"
+    }
+  ]
+}
