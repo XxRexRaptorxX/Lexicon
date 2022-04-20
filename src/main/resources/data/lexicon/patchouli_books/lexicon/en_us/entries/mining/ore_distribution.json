@@ -1,0 +1,31 @@
+{
+  "name": "Ore Distribution",
+  "icon": "minecraft:diamond_ore",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Ores$() generate at different heights with different probability. $(br2)Some are even less likely to generate in caves (Air exposured)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Best Ore Layers",
+      "text": "$(thing)The Overworld$() $(li)$(item)Coal Ore$(): Layer 95 & 136 $(li)$(item)Copper Ore$(): Layer 48 $(li)$(item)Lapis Ore$(): Layer -1 $(li)$(item)Iron Ore$(): Layer 15 & 232 $(li)$(item)Gold Ore$(): Layer 32-256 $(li)$(item)Redstone Ore$(): Layer -59 $(li)$(item)Diamond Ore$(): Layer -59 $(li)$(item)Emerald Ore$(): Layer 236 $(br2)$(thing)The Nether$() $(li)$(item)Nether Quartz$(): Layer 10-114 $(li)$(item)Gold Ore$(): Layer 96-116 $(li)$(item)Ancient Debris$(): 13-17"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution_legend.png"
+      ],
+      "border": true
+    }
+  ]
+}

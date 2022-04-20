@@ -1,0 +1,66 @@
+{
+  "name": "Mining Techniques",
+  "icon": "minecraft:cobblestone",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are various techniques how $(item)Ores$() can be extracted from the ground, these are described on the following pages."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cave_mining.png"
+      ],
+      "border": false,
+      "title": "Cave Mining",
+      "text": "The classic way to mine. You can look for ores without mining a lot of $(item)Stone$(), but since some ores have reduced air exposure, the spawn chances are reduced a bit."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/strip_mining.png"
+      ],
+      "border": false,
+      "title": "Strip Mining",
+      "text": "Strip mining is probably the most efficient way to farm ores, many small corridors are created next to each other in order to be able to cover the entire area."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/tunnel_mining.png"
+      ],
+      "border": false,
+      "title": "Tunnel Mining",
+      "text": "Is often used if you want to travel underground in a certain direction anyway or tunnel systems are to be created."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shaft_mining.png"
+      ],
+      "border": false,
+      "title": "Shaft Mining",
+      "text": "Is used to create a shaft to a certain height, ores from different levels are be covered."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/quarry_mining.png"
+      ],
+      "border": false,
+      "title": "Quarry Mining",
+      "text": "This variant is not particularly efficient, but covers the entire area with all resources, is often used with mods that contain $(item)Quarrys$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/explosion_mining.png"
+      ],
+      "border": false,
+      "title": "Explosion Mining",
+      "text": "Mining with explosives is mainly used in conjunction with $(item)Ancient Debris$(), since it's pretty much the fastest option in the $(thing)Nether using exploding $(item)Beds$(). But $(item)TNT$() or $(thing)Flying Machines$() are also used."
+    }
+  ]
+}

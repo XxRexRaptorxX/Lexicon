@@ -1,0 +1,20 @@
+{
+  "name": "Mining Levels",
+  "icon": "minecraft:diamond",
+  "category": "lexicon:mining",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Not all $(item)Ores$() can be mined with the same $(item)Pickaxe$(). There are different mining levels depending on the material."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_levels.png"
+      ],
+      "border": false,
+      "text": "$(thing)Mods$() can add even more ores and mining levels to the game."
+    }
+  ]
+}
