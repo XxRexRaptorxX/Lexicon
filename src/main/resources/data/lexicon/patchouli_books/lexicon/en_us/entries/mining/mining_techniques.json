@@ -13,7 +13,7 @@
       "images": [
         "lexicon:textures/pictures/cave_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Cave Mining",
       "text": "The classic way to mine. You can look for ores without mining a lot of $(item)Stone$(), but since some ores have reduced air exposure, the spawn chances are reduced a bit."
     },
@@ -22,7 +22,7 @@
       "images": [
         "lexicon:textures/pictures/strip_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Strip Mining",
       "text": "Strip mining is the most efficient way to farm ores, many small corridors are created next to each other in order to be able to cover the entire area."
     },
@@ -31,7 +31,7 @@
       "images": [
         "lexicon:textures/pictures/tunnel_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Tunnel Mining",
       "text": "Is often used if you want to travel underground in a certain direction anyway or tunnel systems are to be created."
     },
@@ -40,7 +40,7 @@
       "images": [
         "lexicon:textures/pictures/shaft_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Shaft Mining",
       "text": "Is used to create a shaft to a certain height, ores from different levels are be covered."
     },
@@ -49,7 +49,7 @@
       "images": [
         "lexicon:textures/pictures/quarry_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Quarry Mining",
       "text": "This variant is not particularly efficient, but covers the entire area with all resources, is often used with $(thing)Mods$() that contain $(item)Quarrys$()."
     },
@@ -58,7 +58,7 @@
       "images": [
         "lexicon:textures/pictures/explosion_mining.png"
       ],
-      "border": false,
+      "border": true,
       "title": "Explosion Mining",
       "text": "Mining with explosives is mainly used in conjunction with $(item)Ancient Debris$(), since it's pretty much the fastest option in the $(thing)Nether$() using exploding $(item)Beds$()."
     },
@@ -67,7 +67,7 @@
       "images": [
         "lexicon:textures/pictures/mining_machine.png"
       ],
-      "border": false,
+      "border": true,
       "text": "But $(item)TNT$() or $(thing)Flying Machines$() are also used."
     }
   ]
