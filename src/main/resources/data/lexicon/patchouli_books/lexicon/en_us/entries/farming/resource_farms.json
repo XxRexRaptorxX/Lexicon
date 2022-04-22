@@ -6,15 +6,47 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)Requirements for most plant-based Farms$(): $(li)Transform $(item)Dirt$() with a $(item)Hoe$() to $(item)Farmland.$() $(br)$(li)$(item)Farmland$() needs a $(item)Water$() source up to 4 blocks away. $(br)$(li)Light is required. $(br)$(li)Many farms require their chunks to be ticked that the state of growth changes. That means a $(thing)Player$() must be nearby (within 128 blocks), or you use a $(item)Chunk Loader$() from a $(thing)Mod$()."
+      "text": "This simple farm uses the property that $(item)Cactus$() breaks and drops when it touches another block. $(br2)The drops are then fed to a $(item)Hopper$() using $(item)Water$(). $(br2)The $(item)Hopper$() then transports the items to a $(item)Chest$()."
     },
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/food_farm.png"
+        "lexicon:textures/pictures/auto_cactus_farm_1.png",
+        "lexicon:textures/pictures/auto_cactus_farm_2.png",
+        "lexicon:textures/pictures/auto_cactus_farm_3.png"
       ],
       "border": true,
-      "text": "The first farm you should always be a simple, classic $(item)Wheat$() or $(item)Vegetable$() farm."
+      "title": "Auto Cactus Farm"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Auto Sugarcane Farm",
+      "text": "This farm can harvest $(item)Bamboo$() and $(item)Sugar Cane$() fully automatically. $(br2)When $(item)Observers$() realize that something has grown in front of them, the $(item)Pistons$() below destroy the plant and $(item)Water$() transports the drops to a $(item)Hopper$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_3.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Bigger Auto Bamboo Farm",
+      "text": "Here, instead of $(item)Water$(), a $(item)Hopper Minecart$() is used to collect the items, it is more efficient and usually makes more sense on larger farms."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_double_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_3.png"
+      ],
+      "border": true
     }
 
   ]
