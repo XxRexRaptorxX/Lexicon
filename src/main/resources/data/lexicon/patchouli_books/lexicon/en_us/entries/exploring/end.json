@@ -1,0 +1,21 @@
+{
+  "name": "End Exploration",
+  "icon": "minecraft:end_stone",
+  "category": "lexicon:exploring",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are some important items that you should always have with your adventure in the $(thing)End$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

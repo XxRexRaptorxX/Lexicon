@@ -1,0 +1,20 @@
+{
+  "name": "Cave Exploration",
+  "icon": "minecraft:stone",
+  "category": "lexicon:exploring",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are some important items that you should always have with you on a mining tour!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Overworld Exploration",
+  "icon": "minecraft:grass_block",
+  "category": "lexicon:exploring",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are some important items that you should always have with your adventure in the $(thing)Overworld$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/overworld_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true,
+      "text": "On the second picture are additional rare but useful items!"
+    }
+
+  ]
+}
