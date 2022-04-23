@@ -1,0 +1,19 @@
+{
+  "name": "Support items",
+  "icon": "minecraft:shield",
+  "category": "lexicon:combat",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "In addition to weapons, you also need other items to make your life easier in intensive fighting: $(br)$(li)Food $(li)Armor $(li)Shield $(li)Potions $(li)Ender Pearls $(li)Totem of undying $(li)Lava Bucket"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/combat_equipment.png"
+      ],
+      "border": true
+    }
+  ]
+}
