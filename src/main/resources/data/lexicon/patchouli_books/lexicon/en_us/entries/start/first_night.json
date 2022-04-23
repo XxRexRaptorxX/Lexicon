@@ -11,7 +11,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:torch",
-      "text": "But don't dig too deep and watch out for $(thing)Monsters$() in caves! $(item)Torches$() and light prevent them from spawning."
+      "text": "But don't dig too deep and watch out for $(thing)Monsters$() in caves! $(br2)$(item)Torches$() and light prevent them from spawning."
     },
     {
       "type": "patchouli:crafting",
