@@ -1,0 +1,23 @@
+{
+  "name": "Weapons",
+  "icon": "minecraft:iron_sword",
+  "category": "lexicon:combat",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are many different $(item)Weapons$() and $(item)Tools$() in the game that you can use to fight. $(br2)There are a few things to consider: $(br)$(li)Attack Damage $(li)Attack Speed $(li)Attack Cooldown $(li)Critical Hits $(li)Possible Enchantments"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/item_damage_1.png",
+        "lexicon:textures/pictures/item_damage_2.png"
+      ],
+      "border": false,
+      "title": "Damage & Speed",
+      "text": "DPS = Damage per second"
+    }
+
+  ]
+}

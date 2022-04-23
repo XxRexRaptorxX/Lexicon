@@ -6,12 +6,42 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)There are a few things that make it easier for you to build:$() $(li)When you sneak ($(thing)Shift$() Key) you can't fall over block edges, useful when you build at big heights. $(br)$(li)You can also use $(thing)Shift$() to build blocks that would otherwise open her inventory. $(br)$(li)Use $(item)Scaffoldings$() when constructing tall structures."
+      "text": "$(n)Tip #1:$() $(br)$(li)Add texture to your walls. $(br2)You can put a block palette together to help. $(br2)Look at $(thing)www.blockpalettes.com$() for some good ones!"
     },
     {
-      "type": "patchouli:crafting",
-      "recipe": "minecraft:scaffolding",
-      "text": "$(li)Can be built and expanded quickly $(br)$(li)Can be easily climbed $(br)$(li)If you destroy one, all of them above collapse too"
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_1.png",
+        "lexicon:textures/pictures/block_palette.png"
+      ],
+      "title": "Texture",
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Depth",
+      "text": "$(n)Tip #2:$() $(br)$(li)Add depth to your buildings. $(br)It looks a lot more aesthetic!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_2.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Overdetailing",
+      "text": "$(n)Tip #3:$() $(br)$(li)Don't overdetailing your builds! $(br2)In most cases too many details seem too overloaded."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_3.png"
+      ],
+      "border": true
     }
   ]
 }
