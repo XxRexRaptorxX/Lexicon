@@ -31,7 +31,7 @@
     {
       "type": "patchouli:text",
       "title": "Other Weapons",
-      "text": "$(li)Bow or Crossbow with different types of arrows $(br)$(li)Splash Potions $(br)$(li)Lingering Potions $(br)$(li)Snowballs (damages only $(thing)Blazes$()) $(br)$(li)Explosives like TNT $(br)$(li)Flint and steel $(br)$(li)Lava Bucket"
+      "text": "$(li)Bow or Crossbow with different types of arrows $(li)Splash Potions $(li)Lingering Potions $(li)Snowballs (damages only $(thing)Blazes$()) $(li)Explosives like TNT $(li)Flint and steel $(li)Lava Bucket"
     }
   ]
 }

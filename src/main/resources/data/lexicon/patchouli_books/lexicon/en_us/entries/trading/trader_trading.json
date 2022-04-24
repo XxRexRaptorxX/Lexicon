@@ -1,0 +1,29 @@
+{
+  "name": "Wandering Trader",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(thing)Wandering Trader$() has 6 random trades. New trades are not unlocked after trading with it. $(br)$(li)After the player purchases the same item several times, the wandering trader locks the trade, but unlike villagers, never unlocks the trade. $(li)They do not have the novice-master trading system like $(thing)Villagers$(). Instead, the $(thing)Player$() can buy anything from the trader without the need of unlocking the previous trades. $(li)They do not increase or decrease the prices of its items being sold if attacked by the player, ..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trader_trading.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wandering_trader",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": "0.8"
+    }
+  ]
+}

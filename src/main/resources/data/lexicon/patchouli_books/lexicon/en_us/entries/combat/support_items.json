@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "In addition to weapons, you also need other items to make your life easier in intensive fighting: $(br)$(li)Food $(li)Armor $(li)Shield $(li)Potions $(li)Ender Pearls $(li)Totem of undying $(li)Lava Bucket"
+      "text": "In addition to weapons, you also need other items to make your life easier in intensive fighting: $(br)$(li)Food $(li)Armor $(li)Shield $(li)Potions $(li)Ender Pearls $(li)Totem of undying"
     },
     {
       "type": "patchouli:image",

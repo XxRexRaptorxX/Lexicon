@@ -1,0 +1,29 @@
+{
+  "name": "Piglin Bartering",
+  "icon": "minecraft:gold_ingot",
+  "category": "lexicon:trading",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To barter with a $(thing)Piglin$(), either throw by dropping a $(item)Gold Ingot$() near an adult $(thing)Piglin$() or using it on it. After the $(thing)Piglin$() takes the ingot and examines it for 6 seconds, it tosses a random item to the $(thing)Player$(). $(br2)$(thing)Piglin Brutes$() ignore gold. $(br)$(thing)Baby Piglins$() take the ingot without giving anything in return, instead holding the ingot."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bartering.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin_brute",
+      "scale": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Villager Trading",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)There's 5 career levels that can be increased by trading. $(li)A full trading bar unlocks the next level of trades. $(li)Each profession has it's own offers. $(li)Professions are assigned to each $(thing)Villager$() based on their job-site block. $(li)$(thing)Villagers$() disable an offer after a few trades. But they activate their offers again, up to twice per day. $(li)They can have a maximum of 10 trades. Each level unlocks a maximum of 2 trades."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Economic",
+      "text": "$(li)An sold out item gets a price increase when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time it resupplies. $(li)The $(thing)Hero of the Village effect$() temporarily reduces prices for the affected player. $(li)All price fluctuations affect only the first item involved in trade. $(li)A positive reputation is gained by curing $(thing)Zombie Villagers$(). $(br2)To cure a $(thing)Zombie Villager$(), splash it with a $(item)Splash Potion of Weakness$() and then feed it a $(item)Golden Apple$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trading_legend.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trading_price_changes.png"
+      ],
+      "text": "xxxxxxx",
+      "border": true
+    }
+  ]
+}
