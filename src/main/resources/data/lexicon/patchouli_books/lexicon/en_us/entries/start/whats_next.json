@@ -36,7 +36,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:fishing_rod",
-      "recipe2": "minecraft:stone_cutter"
+      "recipe2": "minecraft:stonecutter"
     },
     {
       "type": "patchouli:crafting",

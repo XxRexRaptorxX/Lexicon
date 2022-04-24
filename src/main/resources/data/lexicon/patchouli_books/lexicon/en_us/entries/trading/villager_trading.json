@@ -16,17 +16,186 @@
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/trading_legend.png"
+        "lexicon:textures/pictures/trading_price_changes.png"
       ],
-      "border": false
+      "text": "> Price changes of cured villagers",
+      "border": true
     },
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/trading_price_changes.png"
+        "lexicon:textures/pictures/trading_legend.png"
       ],
-      "text": "xxxxxxx",
-      "border": true
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/armorer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/butcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cartographer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fisherman_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fletcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/leatherworker_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/librarian_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:mason}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mason_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shepherd_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cleric_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/farmer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/toolsmith_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weaponsmith_trades.png"
+      ],
+      "border": false
     }
   ]
 }
