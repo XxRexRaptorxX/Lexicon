@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Sheep",
+  "icon": "minecraft:sheep_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 8     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on Grass $(br)> $(n)Breeding:$() Wheat     $(br)> $(n)Properties:$() $(br)Sheeps$() can be dyed and sheared."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1 Wool, 1-2 Raw Mutton, 1-2 Cooked Mutton if killed with fire"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Rabbit",
+  "icon": "minecraft:rabbit_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on Grass, Snow, Sand $(br)> $(n)Breeding:$() Carrots, Golden Carrots, Dandelions "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-1 Rabbit Hide, 0-1 Raw Rabbit, 0-1 Cooked Rabbit if killed with fire, 10% chance for Rabbit's Foot"
+    }
+  ]
+}

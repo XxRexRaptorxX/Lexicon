@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Fox",
+  "icon": "minecraft:fox_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 2, 3 on hard  $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Taigas, Grove    $(br)> $(n)Breeding:$() Sweet Berries, Glow Berries $(br)> $(n)Properties:$() $(br)Sleeps at day. Attack $(thing)Chickens$(), $(thing)Rabbits$(), $(thing)Baby Turtles$() & $(thing)Fish$(). Foxes can hold items in his mouth. Breeding two Foxes results in a tamed $(thing)Baby Fox$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:fox",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() the item in her mouth"
+    }
+  ]
+}

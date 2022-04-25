@@ -1,0 +1,17 @@
+{
+  "name": "Humans - Villager",
+  "icon": "minecraft:villager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20 $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Villages, Igloo    $(br)> $(n)Breeding:$() 3 Bread or 12 Carrots or 12 Potatoes or 12 Beetroots in her inventory + a free Bed $(br)> $(n)Properties:$() $(br)Inhabit $(thing)Villages$(), work at their professions, breed, and interact with each other. Their outfit varies according to their occupation and biome. A $(thing)Player$() can trade with $(thing)Villagers$() using $(item)Emeralds$() as currency. "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() -"
+    }
+  ]
+}

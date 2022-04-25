@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Cat",
+  "icon": "minecraft:cat_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Villages, Witch huts $(br)> $(n)Breeding/Taming:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attacks only $(thing)Rabbits$(), $(thing)Chickens$() & $(thing)Baby Turtles$(). $(br)There is a $(thing)70%$() chance for a tamed $(thing)Cat$() to give the $(thing)Player$() a gift after they wake up. $(thing)Creeper$() and $(thing)Phantoms$() avoid cats."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Strings"
+    }
+  ]
+}

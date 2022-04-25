@@ -32,7 +32,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Blast Furnace$()"
     },
     {
       "type": "patchouli:image",
@@ -45,7 +46,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Smoker$()"
     },
     {
       "type": "patchouli:image",
@@ -58,7 +60,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Cartography Table$()"
     },
     {
       "type": "patchouli:image",
@@ -71,7 +74,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Barrel$()"
     },
     {
       "type": "patchouli:image",
@@ -84,7 +88,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Fletching Table$()"
     },
     {
       "type": "patchouli:image",
@@ -97,7 +102,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Cauldron$()"
     },
     {
       "type": "patchouli:image",
@@ -110,7 +116,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Lectern$()"
     },
     {
       "type": "patchouli:image",
@@ -123,7 +130,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:mason}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Stonecutter$()"
     },
     {
       "type": "patchouli:image",
@@ -136,7 +144,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Loom$()"
     },
     {
       "type": "patchouli:image",
@@ -149,7 +158,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Brewing Stand$()"
     },
     {
       "type": "patchouli:image",
@@ -162,7 +172,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Composter$()"
     },
     {
       "type": "patchouli:image",
@@ -175,7 +186,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Smithing Table$()"
     },
     {
       "type": "patchouli:image",
@@ -188,7 +200,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
-      "scale": "1.0"
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(item)Grindstone$()"
     },
     {
       "type": "patchouli:image",
@@ -196,6 +209,19 @@
         "lexicon:textures/pictures/weaponsmith_trades.png"
       ],
       "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() -"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager",
+      "scale": "1.0",
+      "text": "Villager without job site block"
     }
   ]
 }

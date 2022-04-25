@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Ocelot",
+  "icon": "minecraft:ocelot_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Breeding/Trust:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attack $(thing)Chickens$() and $(thing)Baby Turtles$(). $(thing)Creeper$() and $(thing)Phantoms$() avoid cats."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ocelot",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -"
+    }
+  ]
+}

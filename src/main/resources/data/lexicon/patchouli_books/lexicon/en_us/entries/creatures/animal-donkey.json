@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Donkey",
+  "icon": "minecraft:donkey_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 15-30  $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Plains, Savanna, Meadows $(br)> $(n)Breeding:$() Golden Apple, Golden Carrot     $(br)> $(n)Properties:$() $(br)Can be equipped with a saddle and a chest. Can be ridden."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:donkey",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Leather"
+    }
+  ]
+}

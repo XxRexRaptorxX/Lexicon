@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Wandering Trader",
+  "icon": "minecraft:wandering_trader_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld    $(br)> $(n)Properties:$() $(br)Spawns randomly near the $(thing)Player$(). It can trade, making natural items more available, less dangerous to obtain."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wandering_trader",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() -"
+    }
+  ]
+}

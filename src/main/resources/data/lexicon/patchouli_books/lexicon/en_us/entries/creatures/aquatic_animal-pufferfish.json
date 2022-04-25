@@ -1,0 +1,17 @@
+{
+  "name": "Aquatic Animal - Pufferfish",
+  "icon": "minecraft:pufferfish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 2-3 + 2 Poison, 3-4.5 on hard + 4 Poison    $(br)> $(n)Behavior:$() Mostly Passive $(br)> $(n)Spawn:$() Warm Oceans    $(br)> $(n)Properties:$() $(br)Can be caught with a $(item)Bucket$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pufferfish",
+      "scale": "1",
+      "text": "$(n)Drops:$() 1 Pufferfish, 5% chance for Bone Meal"
+    }
+  ]
+}

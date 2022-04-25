@@ -1,0 +1,6 @@
+{
+  "name": "Creatures",
+  "description": "Here you can find out everything about the creatures in your world. $(br2)$(n)Creatures can be divided into different categories:$() $(br)$(li)Passive Mobs $(li)Neutral Mobs $(li)Hostile Mobs $(li)Boss Mobs",
+  "icon": "minecraft:pufferfish",
+  "sortnum": 10
+}
