@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Trader Llama",
+  "icon": "minecraft:trader_llama_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 15-30 $(br)> $(n)Attack Damage:$() 1    $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Spawns with a Wandering Trader $(br)> $(n)Breeding:$() Hay Bales $(br)> $(n)Properties:$() $(br)Can be equipped with $(item)Carpets$() and a $(item)Chest$(). Can be ridden."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Leather"
+    }
+  ]
+}

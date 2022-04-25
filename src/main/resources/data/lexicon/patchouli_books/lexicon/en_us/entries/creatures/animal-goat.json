@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Goat",
+  "icon": "minecraft:goat_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 1 on easy, 2 on normal, 3 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() Mountain peaks $(br)> $(n)Breeding:$() Wheat $(br)> $(n)Properties:$() $(br)Can be milked with a $(item)Bucket$(). $(thing)Goats$() can ram $(thing)Players$() and mobs for fun."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:goat",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -"
+    }
+  ]
+}

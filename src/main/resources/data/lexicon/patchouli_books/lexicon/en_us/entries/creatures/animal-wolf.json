@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Wolf",
+  "icon": "minecraft:wolf_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() wild 8, tamed 20 $(br)> $(n)Attack Damage:$() 3 on easy, 4 on normal, 6 on hard $(br)> $(n)Behavior:$() Neutral  $(br)> $(n)Spawn:$() Taigas, Grove, Forest$(br)> $(n)Taming:$() Bones   $(br)> $(n)Breeding:$() Meat    $(br)> $(n)Properties:$() $(br)Hunts $(thing)Skeletons$(), $(thing)Sheeps$(), $(thing)Rabbits$(), $(thing)Foxes$() and $(thing)Baby Turtles$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -"
+    }
+  ]
+}

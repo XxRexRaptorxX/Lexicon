@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 4     $(br)> $(n)Attack Damage:$() 3 to Blazes    $(br)> $(n)Behavior:$() Passive, Aggressive to monsters $(br)> $(n)Spawn:$() When created by a Player $(br)> $(n)Properties:$() $(br)Creating a snow golem requires the player to stack two snow blocks, then place a $(item)Carved Pumpkin$(), or a $(item)Jack o'Lantern$() on top. Throws $(item)Snowballs$(). Melt in hot biomes, and on water contact. As they move, they leave a trail of $(item)Snow$() on the ground."
+      "text": "> $(n)Health:$() 4     $(br)> $(n)Attack Damage:$() 3 to Blazes    $(br)> $(n)Behavior:$() Passive, Aggressive to monsters $(br)> $(n)Spawn:$() When created by a Player $(br)> $(n)Properties:$() $(br)Creating a snow golem requires the player to stack two snow blocks, then place a $(item)Carved Pumpkin$(), or a $(item)Jack o'Lantern$() on top. Throws $(item)Snowballs$() to monsters. Melt in hot biomes, and on water contact. As they move, they leave a trail of $(item)Snow$() on the ground."
     },
     {
       "type": "patchouli:entity",

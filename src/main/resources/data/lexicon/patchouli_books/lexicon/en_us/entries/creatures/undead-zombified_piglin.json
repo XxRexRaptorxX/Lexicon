@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Zombified Piglin",
+  "icon": "minecraft:zombified_piglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() armed: 3-5 on easy, 5-8 on normal, 7-12 on hard $(br)> $(n)Behavior:$() Neutral $(br)> $(n)Spawn:$() Nether, when a Piglin leaves the Nether, when a Pig is striked with a lightning bolt $(br)> $(n)Properties:$() $(br)Attack in groups if provoked."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombified_piglin",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-1 Rotten Flesh, 0-1 Gold Nugget, 2.5% chance for a Gold Ingot, 8.5% chance for the held Weapon"
+    }
+  ]
+}

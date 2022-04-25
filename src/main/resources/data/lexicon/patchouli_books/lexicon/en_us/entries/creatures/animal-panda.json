@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Panda",
+  "icon": "minecraft:panda_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10-20 $(br)> $(n)Attack Damage:$() 4 on easy, 6 on normal, 9 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Breeding:$() Bamboo + Bamboo plants in the near $(br)> $(n)Properties:$() $(br)Pandas have different personalities."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:panda",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1 Bamboo"
+    }
+  ]
+}
