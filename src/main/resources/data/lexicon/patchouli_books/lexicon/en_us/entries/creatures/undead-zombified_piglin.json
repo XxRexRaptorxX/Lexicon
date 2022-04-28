@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() armed: 3-5 on easy, 5-8 on normal, 7-12 on hard $(br)> $(n)Behavior:$() Neutral $(br)> $(n)Spawn:$() Nether, when a Piglin leaves the Nether, when a Pig is striked with a lightning bolt $(br)> $(n)Properties:$() $(br)Attack in groups if provoked."
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() $(br)armed: 3-5 on easy, 5-8 on normal, 7-12 on hard $(br)> $(n)Behavior:$() Neutral $(br)> $(n)Spawn:$() Nether, when a Piglin leaves the Nether, when a Pig is striked with a lightning bolt $(br)> $(n)Properties:$() $(br)Attack in groups if provoked."
     },
     {
       "type": "patchouli:entity",

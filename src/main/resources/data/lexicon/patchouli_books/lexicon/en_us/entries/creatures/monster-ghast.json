@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Ghast",
+  "icon": "minecraft:ghast_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10  $(br)> $(n)Attack Damage:$() $(br)impact: 6, $(br)explosion: 9 on easy, 17 on normal, 25 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Nether    $(br)> $(n)Properties:$() $(br)$(thing)Ghasts$() can be set on fire, but $(item)Fire$() or $(item)Lava$() does not harm them. They shoot fire balls."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ghast",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-1 Ghast Tear, ß-2 Gunpowder $(br)$(n)XP:$() 5"
+    }
+  ]
+}

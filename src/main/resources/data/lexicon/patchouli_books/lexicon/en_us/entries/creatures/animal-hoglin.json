@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Hoglin",
+  "icon": "minecraft:hoglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 40  $(br)> $(n)Attack Damage:$() $(br)adult: 2.5-5 on easy, 3-8 on normal, 4.5-12 on hard $(br)baby: 0.5, 0.75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Crimson Forest, Bastion Remnant $(br)> $(n)Breeding:$() Crimson Fungi $(br)> $(n)Properties:$() $(br)They turn outside the $(thing)Nether$() into $(thing)Zoglins$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:hoglin",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 2-4 Raw Porkchop, 2-4 Cooked Porkchop if killed with fire, 0-1 Leather $(br)$(n)XP:$() 5"
+    }
+  ]
+}

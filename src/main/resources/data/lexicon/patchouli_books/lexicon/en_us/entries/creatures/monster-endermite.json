@@ -1,0 +1,17 @@
+{
+  "name": "Arthropod - Endermite",
+  "icon": "minecraft:endermite_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 8  $(br)> $(n)Attack Damage:$() 2 on easy, 2 on normal, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() 5% chance when an Ender Pearl lands $(br)> $(n)Properties:$() $(br)$(thing)Endermen$() attacks $(thing)Endermites$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:endermite",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -   $(br)$(n)XP:$() 3"
+    }
+  ]
+}

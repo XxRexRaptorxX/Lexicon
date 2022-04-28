@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Blaze",
+  "icon": "minecraft:blaze_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10  $(br)> $(n)Attack Damage:$() $(br)ranged: 5, $(br)contact: 4 on easy, 6 on normal, 9 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Nether Fortress  $(br)> $(n)Properties:$() $(br)If a $(thing)Blaze$() is damaged by a $(thing)Player$() or other mob, it alerts other $(thing)Blazes$() within 48 blocks to target the attacker. They can fly, shoot fire balls and is taking damage from $(item)Water$() and $(item)Snowballs$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:blaze",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-1 Blaze Rod   $(br)$(n)XP:$() 10"
+    }
+  ]
+}

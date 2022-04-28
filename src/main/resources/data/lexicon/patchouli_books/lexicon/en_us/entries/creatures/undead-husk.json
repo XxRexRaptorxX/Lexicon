@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Husk",
+  "icon": "minecraft:husk_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20 + 2 Armor  $(br)> $(n)Attack Damage:$() $(br)2.5 on easy, 3 + hunger on normal, 4.5 + hunger on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Desert    $(br)> $(n)Properties:$() $(br)A $(thing)Husk$() is a variant of $(thing)Zombie$() that spawns in deserts. Unlike $(thing)Zombies$(), they do not burn in sunlight."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:husk",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Rotten Flesh, Equipment, 2.5% chance for Iron Ingots 2.5% chance for Carrots, 2.5% chance for Potatoes $(br)$(n)XP:$() adult 5-8, baby 12"
+    }
+  ]
+}

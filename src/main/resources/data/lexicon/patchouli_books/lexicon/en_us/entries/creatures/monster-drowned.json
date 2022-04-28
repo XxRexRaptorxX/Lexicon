@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Drowned",
+  "icon": "minecraft:drowned_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20 + 2 Armor $(br)> $(n)Attack Damage:$() $(br)melee: 2-6 on easy, 3-11 on normal, 4.5-16 on hard, $(br)ranged: 8   $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Rivers, Oceans, Dripstone Caves at light level 0 $(br)> $(n)Properties:$() $(br)$(thing)Drowned$() live often in $(thing)Ocean Monuments$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:drowned",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 11% chance for a Copper Ingot, 3% chance for a Nautilus Shell, Equipped Items $(br)$(n)XP:$()adult 5-8, baby 12-15"
+    }
+  ]
+}

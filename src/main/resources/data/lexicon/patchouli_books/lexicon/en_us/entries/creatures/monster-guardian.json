@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Guardian",
+  "icon": "minecraft:guardian_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 30  $(br)> $(n)Attack Damage:$() $(br)ranged: 4 on easy, 6 on normal, 9 on hard, $(br)melee: 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Ocean Monuments $(br)> $(n)Properties:$() $(br)The $(thing)Elder Guardian$() has 2 methods of attacking, including firing its laser and a defensive thorn-like attack."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:guardian",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Prismarine Shards, 40% chance of Raw Cod or Cooked Cod if killed with fire, 40% chance of Prismarine Crystals, 2.5% chance of an additional Fish         $(n)XP:$() 10"
+    }
+  ]
+}
