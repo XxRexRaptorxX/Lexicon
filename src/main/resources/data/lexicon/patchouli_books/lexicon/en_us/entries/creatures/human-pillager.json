@@ -1,0 +1,17 @@
+{
+  "name": "Human - ",
+  "icon": "minecraft:pillager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)Ranged: 3-4 on easy, 4 on normal, 4-5 on hard $(br)Melee: 2 on easy, 3 on normal, 5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Patrols, Pillager Outposts, Raids $(br)> $(n)Properties:$() $(br)$(thing)Pillagers$() are $(thing)Illagers$() that patrol the $(thing)Overworld$(), guard their outposts, and participate in raids, sometimes spawning on $(thing)Ravagers$() in later waves of a village raid."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pillager",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 8.5% for a Crossbow, 1 Ominous Banner if spawned as captain $(br)$(n)XP:$() 5-17"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Shulker",
+  "icon": "minecraft:shulker_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$()   $(br)> $(n)Attack Damage:$() 4 + Levitation $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() End Cities    $(br)> $(n)Properties:$() $(br)$(thing)Shulkers$() are box-shaped hostile mobs found in $(thing)End Cities$(). They hide in their shell to blend in with surrounding $(item)Purpur blocks$() and guard the city's various treasures. $(thing)Shulkers$() generally remain stationary, attached to an adjacent solid block. Shoots projectiles with $(thing)Levitation effect$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 50% for a Shulker Shell$(br)$(n)XP:$() 5"
+    }
+  ]
+}

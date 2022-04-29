@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Ravager",
+  "icon": "minecraft:ravager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)Melee: 7 on easy, 12 on normal, 18 on hard $(br)Roar: 6 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Raids    $(br)> $(n)Properties:$() $(br)$(thing)Ravagers$() are large hostile mobs that spawn in raids and attack $(thing)Players$(), $(thing)Villagers$(), $(thing9Wandering Traders$(), and $(thing)Iron Golems$(). They attack by ramming enemies with their head, dealing a knockback of 5 blocks."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ravager",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1 Saddle   $(br)$(n)XP:$() 20"
+    }
+  ]
+}

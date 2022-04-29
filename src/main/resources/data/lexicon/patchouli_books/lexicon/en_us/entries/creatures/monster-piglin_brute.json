@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:piglin_brute",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 8.5% chance for a Golden Axe  $(n)XP:$() 20}"
+      "text": "$(n)Drops:$() 8.5% chance for a Golden Axe  $(n)XP:$() 20"
     }
   ]
 }
