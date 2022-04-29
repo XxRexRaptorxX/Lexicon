@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:enderman",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-1 Ender Pearl"
+      "text": "$(n)Drops:$() 0-1 Ender Pearl  $(n)XP:$() 5"
     }
   ]
 }

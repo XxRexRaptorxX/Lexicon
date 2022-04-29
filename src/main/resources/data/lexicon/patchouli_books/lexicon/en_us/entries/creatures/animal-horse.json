@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:horse",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Leather"
+      "text": "$(n)Drops:$() 0-2 Leather  $(n)XP:$() 1-3"
     }
   ]
 }

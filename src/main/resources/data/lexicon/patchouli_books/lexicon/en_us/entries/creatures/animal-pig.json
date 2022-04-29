@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:pig",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1-3 Raw Porkchop, 1-3 Porkchop if killed with fire"
+      "text": "$(n)Drops:$() 1-3 Raw Porkchop, 1-3 Porkchop if killed with fire  $(n)XP:$() 1-3"
     }
   ]
 }

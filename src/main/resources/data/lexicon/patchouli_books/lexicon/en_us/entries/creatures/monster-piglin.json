@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:piglin",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 8.5% chance to drop it's held item or armor"
+      "text": "$(n)Drops:$() 8.5% chance to drop it's held item or armor  $(n)XP:$() adult 5-17, baby 1"
     }
   ]
 }

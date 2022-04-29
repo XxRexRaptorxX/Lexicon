@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:fox",
       "scale": "0.5",
-      "text": "$(n)Drops:$() the item in her mouth"
+      "text": "$(n)Drops:$() the item in her mouth  $(n)XP:$() 1-2"
     }
   ]
 }

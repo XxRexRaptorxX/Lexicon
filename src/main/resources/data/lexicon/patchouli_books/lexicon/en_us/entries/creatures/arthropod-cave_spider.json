@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:cave_spider",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Strings, 1/3 chance for a Spider Eye"
+      "text": "$(n)Drops:$() 0-2 Strings, 1/3 chance for a Spider Eye  $(n)XP:$() 5"
     }
   ]
 }

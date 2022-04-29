@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:cat",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Strings"
+      "text": "$(n)Drops:$() 0-2 Strings  $(n)XP:$() 1-3"
     }
   ]
 }

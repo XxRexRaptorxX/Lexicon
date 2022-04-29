@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:parrot",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1-3 Feathers"
+      "text": "$(n)Drops:$() 1-3 Feathers  $(n)XP:$() 1-3"
     }
   ]
 }

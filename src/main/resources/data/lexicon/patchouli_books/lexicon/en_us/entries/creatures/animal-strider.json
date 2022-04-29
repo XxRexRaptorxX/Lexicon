@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:strider",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 2-5 Strings"
+      "text": "$(n)Drops:$() 2-5 Strings  $(n)XP:$() 1-2"
     }
   ]
 }

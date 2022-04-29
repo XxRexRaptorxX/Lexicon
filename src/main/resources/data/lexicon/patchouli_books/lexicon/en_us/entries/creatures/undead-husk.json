@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:husk",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-2 Rotten Flesh, Equipment, 2.5% chance for Iron Ingots 2.5% chance for Carrots, 2.5% chance for Potatoes $(br)$(n)XP:$() adult 5-8, baby 12"
+      "text": "$(n)Drops:$() 0-2 Rotten Flesh, Equipment, 2.5% chance for Iron Ingots 2.5% chance for Carrots, 2.5% chance for Potatoes $(br)$(n)XP:$() adult 5-17, baby 12"
     }
   ]
 }

@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:panda",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1 Bamboo"
+      "text": "$(n)Drops:$() 1 Bamboo  $(n)XP:$() 1-3"
     }
   ]
 }

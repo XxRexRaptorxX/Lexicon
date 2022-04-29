@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:iron_golem",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 3-5 Iron Ingots, 0-2 Poppies"
+      "text": "$(n)Drops:$() 3-5 Iron Ingots, 0-2 Poppies  $(n)XP:$() 0"
     }
   ]
 }

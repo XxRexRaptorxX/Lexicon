@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:zombified_piglin",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-1 Rotten Flesh, 0-1 Gold Nugget, 2.5% chance for a Gold Ingot, 8.5% chance for the held Weapon"
+      "text": "$(n)Drops:$() 0-1 Rotten Flesh, 0-1 Gold Nugget, 2.5% chance for a Gold Ingot, 8.5% chance for the held Weapon  $(n)XP:$() adult 5, baby 12"
     }
   ]
 }

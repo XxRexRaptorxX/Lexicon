@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:chicken",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Feathers, 1 Raw Chicken, 1 Cooked Chicken if killed with fire"
+      "text": "$(n)Drops:$() 0-2 Feathers, 1 Raw Chicken, 1 Cooked Chicken if killed with fire  $(n)XP:$() 1-3"
     }
   ]
 }

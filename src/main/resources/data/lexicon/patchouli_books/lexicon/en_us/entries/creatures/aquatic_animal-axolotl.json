@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:axolotl",
       "scale": "0.5",
-      "text": "$(n)Drops:$() -"
+      "text": "$(n)Drops:$() -  $(n)XP:$() 0"
     }
   ]
 }

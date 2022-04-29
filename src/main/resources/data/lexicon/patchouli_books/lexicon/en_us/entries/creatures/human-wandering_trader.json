@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:wandering_trader",
       "scale": "1.0",
-      "text": "$(n)Drops:$() -"
+      "text": "$(n)Drops:$() -  $(n)XP:$() 0"
     }
   ]
 }

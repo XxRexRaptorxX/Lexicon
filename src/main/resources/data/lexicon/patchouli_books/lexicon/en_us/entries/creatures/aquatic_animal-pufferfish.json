@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:pufferfish",
       "scale": "1",
-      "text": "$(n)Drops:$() 1 Pufferfish, 5% chance for Bone Meal"
+      "text": "$(n)Drops:$() 1 Pufferfish, 5% chance for Bone Meal  $(n)XP:$() 1-3"
     }
   ]
 }

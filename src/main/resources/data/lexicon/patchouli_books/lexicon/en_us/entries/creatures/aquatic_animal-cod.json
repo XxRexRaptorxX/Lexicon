@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:cod",
       "scale": "0.5",
-      "text": "$(n)Drops:$() Raw Cod, 1 Cooked Cod if killed with fire, 5% chance for Bone Meal"
+      "text": "$(n)Drops:$() Raw Cod, 1 Cooked Cod if killed with fire, 5% chance for Bone Meal  $(n)XP:$() 1-3"
     }
   ]
 }

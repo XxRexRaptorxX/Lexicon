@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:skeleton_horse",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1-3 Bones"
+      "text": "$(n)Drops:$() 1-3 Bones  $(n)XP:$() 1-3"
     }
   ]
 }

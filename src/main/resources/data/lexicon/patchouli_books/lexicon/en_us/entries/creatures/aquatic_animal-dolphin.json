@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:dolphin",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-1 Raw Cod, 0-1 Cooked Cod if killed with fire"
+      "text": "$(n)Drops:$() 0-1 Raw Cod, 0-1 Cooked Cod if killed with fire  $(n)XP:$() 1-3"
     }
   ]
 }

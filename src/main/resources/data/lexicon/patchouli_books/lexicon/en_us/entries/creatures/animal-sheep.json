@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:sheep",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1 Wool, 1-2 Raw Mutton, 1-2 Cooked Mutton if killed with fire"
+      "text": "$(n)Drops:$() 1 Wool, 1-2 Raw Mutton, 1-2 Cooked Mutton if killed with fire  $(n)XP:$() 1-3"
     }
   ]
 }

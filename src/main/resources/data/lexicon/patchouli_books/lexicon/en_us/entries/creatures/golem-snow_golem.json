@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:snow_golem",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-15 Snowballs"
+      "text": "$(n)Drops:$() 0-15 Snowballs  $(n)XP:$() 0"
     }
   ]
 }

@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:polar_bear",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 3/4 chance for 0-2 Raw Cod, 1/4 chance for 0-2 Raw Salmon"
+      "text": "$(n)Drops:$() 3/4 chance for 0-2 Raw Cod, 1/4 chance for 0-2 Raw Salmon  $(n)XP:$() 1-3"
     }
   ]
 }
