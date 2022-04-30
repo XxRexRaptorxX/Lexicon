@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Slime",
+  "icon": "minecraft:slime_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() big 16, 4 medium, 1 small $(br)> $(n)Attack Damage:$() $(br)big 4-9, medium 3-6, small 2.5-4.5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld in Slime Chunks below layer 40, Swamps in layer 50-70 in light level < 8 $(br)> $(n)Properties:$() $(br)$(thing)When a $(thing)Slime$() larger than small once dies, it spawns 2-4 new $(thing)Slimes$() equivalent to its size divided by 2, rounding down."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:slime",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Slimeballs $(br)$(n)XP:$() 4-1"
+    }
+  ]
+}

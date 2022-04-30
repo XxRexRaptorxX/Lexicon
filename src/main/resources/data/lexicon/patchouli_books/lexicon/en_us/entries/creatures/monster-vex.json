@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Vex",
+  "icon": "minecraft:vex_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 14  $(br)> $(n)Attack Damage:$() $(br)5.5 on easy, 9 on normal, 13.5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Summoned by Evokers $(br)> $(n)Properties:$() $(br)$(thing)Vexes$() are tiny flying mobs summoned in small groups of 3 by the spell-casting $(thing)Evoker$(). They are capable of flying through the air, and can freely pass through any block, including $(item)Water$() and $(item)Lava$(), without taking damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:vex",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -   $(br)$(n)XP:$() 5"
+    }
+  ]
+}

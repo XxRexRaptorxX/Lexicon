@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Giant",
+  "icon": "minecraft:zombie_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)26 on easy, 50 on normal, 75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Unknown  $(br)> $(n)Properties:$() $(br)Giants$() are close to 12 blocks tall $(thing)Zombies$(). They cannot spawn without commands or mods."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:giant",
+      "scale": "1.3",
+      "text": "$(n)Drops:$() Equipment   $(br)$(n)XP:$() 5"
+    }
+  ]
+}

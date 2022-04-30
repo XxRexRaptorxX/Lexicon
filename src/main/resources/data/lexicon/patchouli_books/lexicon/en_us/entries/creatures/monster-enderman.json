@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 40     $(br)> $(n)Attack Damage:$() 4.5 on easy, 7 on normal, 10.5 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Overworld, Nether, End$(br)> $(n)Properties:$() $(br)$(thing)Enderman$() can be provoked by looking them in the eyes (Can be prevented if looking through a transparent block or wearing a $(item)Carved Pumpkin$()). They can teleport and pick up blocks. Take damage from water."
+      "text": "> $(n)Health:$() 40     $(br)> $(n)Attack Damage:$() $(br)4.5 on easy, 7 on normal, 10.5 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Overworld, Nether, End$(br)> $(n)Properties:$() $(br)$(thing)Enderman$() can be provoked by looking them in the eyes (Can be prevented if looking through a transparent block or wearing a $(item)Carved Pumpkin$()). They can teleport and pick up blocks. Take damage from water."
     },
     {
       "type": "patchouli:entity",

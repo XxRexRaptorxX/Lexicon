@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 22 on easy, 43 on normal, 64 on hard    $(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() Overworld at light level 0    $(br)> $(n)Properties:$() $(br)$(thing)Creepers$() chase any $(thing)Player$() within a 16 block radius. They do not voluntarily attack any other mob. When within 3 blocks of a $(thing)Player$(), a $(thing)Creeper$() stops moving, hisses, flashes and expands and explodes after 1.5 seconds, destroying blocks in the area as well as significantly damaging the target. It can be charged with a lightning bolt."
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)22 on easy, 43 on normal, 64 on hard    $(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() Overworld at light level 0    $(br)> $(n)Properties:$() $(br)$(thing)Creepers$() chase any $(thing)Player$() within a 16 block radius. They do not voluntarily attack any other mob. When within 3 blocks of a $(thing)Player$(), a $(thing)Creeper$() stops moving, hisses, flashes and expands and explodes after 1.5 seconds, destroying blocks in the area as well as significantly damaging the target. It can be charged with a lightning bolt."
     },
     {
       "type": "patchouli:entity",

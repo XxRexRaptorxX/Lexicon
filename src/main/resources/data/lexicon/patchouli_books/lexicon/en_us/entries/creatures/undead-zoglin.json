@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Zoglin",
+  "icon": "minecraft:zoglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 40  $(br)> $(n)Attack Damage:$() $(br)adult: 3-5 on easy, 3-8 on normal, 4.5-12 on hard $(br)baby: 0.5, 0.75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When a Hoglin left the Nether  $(br)> $(n)Properties:$() $(br)They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zoglin",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1-3 Rotten Flesh $(br)$(n)XP:$() 5"
+    }
+  ]
+}

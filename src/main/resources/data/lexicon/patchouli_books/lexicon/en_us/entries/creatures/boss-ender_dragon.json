@@ -1,0 +1,18 @@
+{
+  "name": "Boss - Ender Dragon",
+  "icon": "minecraft:dragon_head",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 200  $(br)> $(n)Attack Damage:$() $(br) 3-6 on easy, 5-10 on normal, 7-15 on hard, breath deals 3 d/s, fireball deals 6 d/s $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() End    $(br)> $(n)Properties:$() $(br)The $(thing)Ender Dragon$() is a gigantic flying boss found when first entering the $(thing)End$(). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all status effects, can fly, shoot fire balls, spit dragons breath, and can destroy the most blocks by contact. It generates health out of $(thing)End Crystals$(). Can be re-summoned."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ender_dragon",
+      "scale": "1.5",
+      "offset": "-0.7",
+      "text": "$(n)Drops:$() 1 Dragon Egg, End Gateway Portal Structure, Exit Portal Structure $(br)$(n)XP:$() 12.000, re-summoned 500"
+    }
+  ]
+}

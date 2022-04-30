@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Zombie Horse",
+  "icon": "minecraft:zombie_horse_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 15  $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Unknown    $(br)> $(n)Properties:$() $(br)They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie_horse",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Rotten Flesh   $(br)$(n)XP:$() 1-3"
+    }
+  ]
+}

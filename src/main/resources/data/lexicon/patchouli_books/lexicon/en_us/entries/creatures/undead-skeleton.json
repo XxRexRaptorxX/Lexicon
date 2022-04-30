@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Skeleton",
+  "icon": "minecraft:skeleton_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)2-4 on easy, 3-4 on normal, 4-5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld at light level 0, Nether Fortress, Soul Sand Valley $(br)> $(n)Properties:$() $(br)$(thing)Skeletons$() are equiped with Bows, they burn in sunlight and flee from $(thing)Wolves$(). They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Bones, 0-2 Arrows, 8.5% chance for Equipment, 1 Skeleton Skull if killed by a Charged Creeper $(br)$(n)XP:$() 5-8"
+    }
+  ]
+}

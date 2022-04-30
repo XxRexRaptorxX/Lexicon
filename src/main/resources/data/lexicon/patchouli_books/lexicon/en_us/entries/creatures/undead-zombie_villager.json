@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Zombie Villager",
+  "icon": "minecraft:zombie_villager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)2.5 on easy, 3 on normal, 4.5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When a Villager is killed by a Zombie (50% on normal, 100% on hard) $(br)> $(n)Properties:$()$(thing)Zombie Villagers$() can be cured by first giving them the $(thing)Weakness effect$(), and then using a non enchanting $(item)Golden Apple$(). They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie_villager",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Rotten Flesh, 2.5% chance for Iron Ingot / Carrot / Potato / Baked Potato if killed with fire, 1 Zombie Head if killed by a Charged Creeper $(br)$(n)XP:$() adults 5-17, baby 12-24"
+    }
+  ]
+}

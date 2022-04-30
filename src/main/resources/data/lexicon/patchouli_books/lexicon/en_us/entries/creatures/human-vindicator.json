@@ -1,0 +1,17 @@
+{
+  "name": "Human - Vindicator",
+  "icon": "minecraft:vindicator_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)7 on easy, 13 on normal, 19 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Woodland Mansions, Raids $(br)> $(n)Properties:$() $(br)A $(thing)Vindicator$() is an illager equipped with an $(item)Iron Axe$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:vindicator",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-1 Emerald, 1 Ominous Banner if they are a Raid Captain, 8.5% chance for a Iron Axe $(br)$(n)XP:$() 5"
+    }
+  ]
+}

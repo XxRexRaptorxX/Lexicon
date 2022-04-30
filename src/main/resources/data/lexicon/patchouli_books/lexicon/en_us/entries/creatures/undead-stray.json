@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Stray",
+  "icon": "minecraft:stray_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 3-5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Snow and Ice biomes $(br)> $(n)Properties:$() $(br)$(thing)Strays$() behave the same as normal $(thing)Skeletons$(), however, they shoot $(item)Tipped Arrows$() that inflict $(thing)Slowness$() for 30 seconds on any target that they hit."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:stray",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Bones, 0-2 Arrows, 0-1 Tipped Arrows, 8.5% chance for Equipment $(br)$(n)XP:$() 5"
+    }
+  ]
+}

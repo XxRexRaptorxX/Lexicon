@@ -1,0 +1,17 @@
+{
+  "name": "Arthropod - Silverfish",
+  "icon": "minecraft:silverfish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 8  $(br)> $(n)Attack Damage:$() 2, 2.5 on hard$(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$()Strongholds or after mining infested blocks $(br)> $(n)Properties:$() $(br)$(thing)Silverfish$() are small mobs found hiding in stone-like blocks in mountains, strongholds, igloo basements and woodland mansions."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:silverfish",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -   $(br)$(n)XP:$() 5"
+    }
+  ]
+}

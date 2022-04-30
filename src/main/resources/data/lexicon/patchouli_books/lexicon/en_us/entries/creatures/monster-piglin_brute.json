@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 50     $(br)> $(n)Attack Damage:$() 4-7 on easy, 7-14 on normal, 10-19 on hard $(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() Bastion Remnants $(br)> $(n)Properties:$() $(br)A $(thing)Piglin Brute$() is a hostile and stronger variant of $(thing)Piglins$() that appears in all types of bastion remnants. They always attack the $(thing)Player$(). They do not barter, they do not retreat, and they cannot be distracted by gold. They zombify outside the $(thing)Nether$()."
+      "text": "> $(n)Health:$() 50     $(br)> $(n)Attack Damage:$() $(br)4-7 on easy, 7-14 on normal, 10-19 on hard $(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() Bastion Remnants $(br)> $(n)Properties:$() $(br)A $(thing)Piglin Brute$() is a hostile and stronger variant of $(thing)Piglins$() that appears in all types of bastion remnants. They always attack the $(thing)Player$(). They do not barter, they do not retreat, and they cannot be distracted by gold. They zombify outside the $(thing)Nether$()."
     },
     {
       "type": "patchouli:entity",
