@@ -1,0 +1,16 @@
+{
+  "name": "Structures",
+  "icon": "minecraft:compass",
+  "category": "lexicon:world",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Structures are randomly-generated features found throughout your world. $(br)Structures can be found in many biomes in all dimensions. $(br2)Some of these structures can be found by doing the $(thing)/locate$() command."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "More coming soon!"
+    }
+  ]
+}

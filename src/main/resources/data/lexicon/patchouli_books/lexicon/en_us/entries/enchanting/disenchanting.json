@@ -1,0 +1,20 @@
+{
+  "name": "Disenchanting",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:enchanting",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "The only way to disenchant items is via the $(item)Grindstone$() or by repairing the items via the crafting grid. $(br2)Using the $(item)Grindstone$() removes all enchantments (except curses) and gives experience back based on the level of the enchantment(s) and their value."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/disenchanting.png"
+      ],
+      "border": false
+    }
+  ]
+}

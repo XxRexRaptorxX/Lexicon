@@ -1,0 +1,19 @@
+{
+  "name": "Biomes",
+  "icon": "minecraft:filled_map",
+  "category": "lexicon:world",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A biome is a region in a world with distinct geographical features, flora, temperatures, humidity ratings, and sky, water, grass and foliage colors. $(br2)Biomes separate every generated world into different environments, such as forests, deserts and taigas."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/biomes.png"
+      ],
+      "border": true
+    }
+  ]
+}

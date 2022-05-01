@@ -1,6 +1,6 @@
 {
   "name": "Brewing",
-  "description": "Here you can find out everything about brewing.",
+  "description": "Brewing is the process of creating potions, splash potions, and lingering potions by adding various ingredients to water bottles in a brewing stand.",
   "icon": "minecraft:brewing_stand",
   "sortnum": 17
 }

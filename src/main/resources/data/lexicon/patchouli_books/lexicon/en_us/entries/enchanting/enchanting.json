@@ -1,0 +1,30 @@
+{
+  "name": "Enchanting",
+  "icon": "minecraft:enchanting_table",
+  "category": "lexicon:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)There are a few ways to enchant items:$() $(li)Through an $(item)Enchanting Table$() in exchange for experience points and $(item)Lapis Lazuli$(). Only unenchanted items may be enchanted this way. $(li)Through an $(item)Anvil$(), combining an $(item)Enchanted Book$() with an item. $(li)Through an $(item)Anvil$(), combining two of the same item with different existing enchantments into a single item that has the enchantments of both. $(li)Through a librarian $(thing)Villager$(), which may enchant $(item)Books$() respectively for emeralds instead of $(item)Lapis Lazuli$() and experience."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanting_table",
+      "text": "An item can be enchanted by using an $(item)Enchanting Table$() and placing the item in the input slots and 1–3 $(item)Lapis Lazuli$() in its dedicated slot. Upon placing the item, three randomized enchanting options appear on the right."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Increasing the level",
+      "text": "To increase the enchantment level, $(item)Bookshelves$() can be placed next to the $(item)Enchanting Table$() while keeping one block of air between them. $(br2)The only choices available have a level requirement equal to or below the player's current level and a $(item)Lapis Lazuli$() requirement equal to or below the number of lapis placed in the table."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/enchanting_table.png",
+        "lexicon:textures/pictures/enchanting.png"
+      ],
+      "border": true
+    }
+  ]
+}
