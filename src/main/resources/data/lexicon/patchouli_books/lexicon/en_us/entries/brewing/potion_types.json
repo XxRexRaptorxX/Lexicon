@@ -1,0 +1,30 @@
+{
+  "name": "Potion Types",
+  "icon": "minecraft:potion",
+  "category": "lexicon:brewing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)There are 3 different potion types:$() $(br)$(li)Potion $(br)$(li)Splash Potion $(br)$(li)Lingering Potion"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion",
+      "title": "Potion",
+      "text": "$(item)Potions$() can be used by pressing and holding use, similarly to eating food. $(br)Upon using, they apply the corresponding status effect to the $(thing)Player$(). "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:splash_potion",
+      "title": "Splash Potion",
+      "text": "$(item)Splash Potions$() are thrown by using them. $(br2)On impact they explode, applying status effects to nearby entities."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lingering_potion",
+      "title": "Lingering Potion",
+      "text": "$(item)Lingering Potions$() are thrown, like $(item)Splash Potions$(), by using them. $(br2)On impact they explode, creating a cloud. $(br2)The cloud is made of the potion particles corresponding to the potion that was thrown."
+    }
+  ]
+}

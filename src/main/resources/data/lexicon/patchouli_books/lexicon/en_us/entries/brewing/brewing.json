@@ -1,0 +1,38 @@
+{
+  "name": "Brewing",
+  "icon": "minecraft:brewing_stand",
+  "category": "lexicon:brewing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "By placing at least one or more $(item)Water Bottles$() in the lower three slots of the brewing interface, an ingredient in the upper slot, and $(item)Blaze Powder$() in the fuel slot, a $(thing)Player$() can distill the ingredients into each $(item)Bottle$() and brew $(item)Potions$() that may be consumed to grant an effect to the $(thing)Player$(). "
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/brewing.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_types.png"
+      ],
+      "border": false,
+      "title": "Base Potions",
+      "text": "Base potions are $(item)Potions$() without effects, brewed by adding a single base ingredient to a $(item)Water Bottle$(). Of these, only the $(item)Awkward Potion$() can be imbued with an effect ingredient to produce a $(thing)Potion Effect$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/effect_potion_types_1.png",
+        "lexicon:textures/pictures/effect_potion_types_2.png"
+      ],
+      "border": false,
+      "title": "Effect Potions",
+      "text": "$(item)Potions$() are bottled substances which give $(thing)Players$() and mobs a limited-time or instant status effect if drunk or within its splash radius when thrown (in the case of $(item)Lingering$() and $(item)Splash Potions$())."
+    }
+  ]
+}
