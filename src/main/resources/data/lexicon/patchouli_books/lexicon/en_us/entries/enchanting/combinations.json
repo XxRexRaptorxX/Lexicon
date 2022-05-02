@@ -12,6 +12,10 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:anvil",
       "text": "Combining two enchanted items, $(item)Books$() or one of each with the same enchantment at the same level produces an item or book with the next higher level of that enchantment up to the maximum. $(br2)To combine items, the $(thing)Player$() places the target item in the $(item)Anvil's$() first slot and the sacrifice item in the second slot. "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil"
     }
   ]
 }

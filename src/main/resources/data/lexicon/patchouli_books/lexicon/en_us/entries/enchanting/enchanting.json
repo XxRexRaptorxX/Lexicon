@@ -25,6 +25,15 @@
         "lexicon:textures/pictures/enchanting.png"
       ],
       "border": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:book",
+      "recipe2": "minecraft:bookshelf"
     }
   ]
 }
