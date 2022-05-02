@@ -33,6 +33,19 @@
       "border": false,
       "title": "Effect Potions",
       "text": "$(item)Potions$() are bottled substances which give $(thing)Players$() and mobs a limited-time or instant status effect if drunk or within its splash radius when thrown (in the case of $(item)Lingering$() and $(item)Splash Potions$())."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_upgrades.png"
+      ],
+      "border": false,
+      "title": "Potion Upgrades",
+      "text": "Generally, upgrading a $(item)Potion$() involves a trade-off between duration and potency. A $(item)Potion$() with an enhanced effect has shorter duration, and a $(item)Potion$() with extended duration cannot have an enhanced effect."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brewing_stand"
     }
   ]
 }
