@@ -41,7 +41,7 @@
       ],
       "border": false,
       "title": "Potion Upgrades",
-      "text": "Generally, upgrading a $(item)Potion$() involves a trade-off between duration and potency. A $(item)Potion$() with an enhanced effect has shorter duration, and a $(item)Potion$() with extended duration cannot have an enhanced effect."
+      "text": "Upgrading a $(item)Potion$() involves a trade-off between duration and potency. An enhanced effect has shorter duration, and extended duration cannot have an enhanced effect."
     },
     {
       "type": "patchouli:crafting",
