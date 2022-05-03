@@ -138,8 +138,8 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.5.174:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.5.174")
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66")
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-67:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-67")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
