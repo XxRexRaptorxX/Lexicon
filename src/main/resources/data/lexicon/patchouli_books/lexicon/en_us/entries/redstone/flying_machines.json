@@ -1,0 +1,12 @@
+{
+  "name": "Flying Machines",
+  "icon": "minecraft:slime_block",
+  "category": "lexicon:redstone",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Coming soon!"
+    }
+  ]
+}

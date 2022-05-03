@@ -45,7 +45,8 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "minecraft:brewing_stand"
+      "recipe": "minecraft:brewing_stand",
+      "recipe2": "minecraft:glass_bottle"
     }
   ]
 }

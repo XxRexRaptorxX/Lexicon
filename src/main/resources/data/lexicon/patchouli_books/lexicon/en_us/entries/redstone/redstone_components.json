@@ -1,0 +1,59 @@
+{
+  "name": "Redstone Components",
+  "icon": "minecraft:redstone_torch",
+  "category": "lexicon:redstone",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Different categories:$() $(br)$(li)A $(n)power component$() provides power to other parts of a circuit [eg. $(item)Redstone Torch$()] $(br)$(li)A $(n)transmission component$() passes power from one part of the circuit to another [eg. $(item)Redstone Dust$()] $(br)$(li) A $(n)mechanism component$() affects the environment (by moving, light, etc..) [eg. $(item)Piston$()]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone",
+      "text": "$(item)Redstone Dust$() is the core of redstone mechanics. $(br2)Mined from $(item)Redstone Ore$(), the dust can be placed to form redstone wires to carry signals, or crafted into other devices."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_torch",
+      "text": "$(item)Redstone Torches$() can be used to power blocks and transmission components such as $(item)Redstone Dust$(), activate mechanism components such as $(item)Pistons$(), or invert redstone signals like a $(thing)NOT Gate$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_torch",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_block",
+      "text": "A $(item)Redstone Block$() acts as a permanently powered redstone power source that can be pushed by $(item)Pistons$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_block",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:repeater",
+      "text": "A $(item)Repeater$() is a block used in redstone circuits to repeat redstone signals back to full strength, delay signals, prevent signals moving backwards, or to lock signals in one state. $(br)$(li)Transmits signals only from its back to its front $(br)$(li)They can repeat a redstone signal, boosting it back up"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:repeater",
+      "title": " ",
+      "text": "$(li)$(item)Repeater$() delay signals, the delay can be changed by right clicking $(li)Repeater can be locked by another powered $(item)Repeater$() or $(item)Comparator$() facing it's side. When locked, the repeater does not change its output"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:comparator",
+      "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(br)Has 2 $(item)Redstone Torches$() at the back and one at the front. $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:comparator",
+      "title": " ",
+      "text": "$(li)Can take a signal strength input from its rear as well as from both sides. $(br)$(li)Side inputs are accepted only from $(item)Redstone Dust$(), $(item)Redstone Block$(), $(item)Repeaters$(), other $(item)Comparators$(), & $(item)Observers$() in specific scenarios. $(br)The front is the output."
+    }
+  ]
+}

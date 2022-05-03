@@ -1,0 +1,12 @@
+{
+  "name": "Redstone Behavior",
+  "icon": "minecraft:redstone",
+  "category": "lexicon:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Coming soon!"
+    }
+  ]
+}
