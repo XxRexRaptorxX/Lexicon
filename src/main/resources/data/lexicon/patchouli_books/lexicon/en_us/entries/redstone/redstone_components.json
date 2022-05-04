@@ -54,6 +54,68 @@
       "recipe": "minecraft:comparator",
       "title": " ",
       "text": "$(li)Can take a signal strength input from its rear as well as from both sides. $(br)$(li)Side inputs are accepted only from $(item)Redstone Dust$(), $(item)Redstone Block$(), $(item)Repeaters$(), other $(item)Comparators$(), & $(item)Observers$() in specific scenarios. $(br)The front is the output."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_button",
+      "text": "When activated, a $(item)Wooden Button$() remains active for 15 redstone ticks (1.5 seconds, barring lag), while a $(item)Stone Button$() remains active for 10 redstone ticks (1 second, barring lag). $(br2)A $(item)Wooden Button$() activated by a fired $(item)Arrow$() or a $(item)Trident$() remains active until the projectile despawns or is picked up."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_button",
+      "recipe2": "minecraft:oak_button",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lever",
+      "text": "A $(item)Lever$() emits redstone power when activated."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lever",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_pressure_plate",
+      "text": "$(li)$(item)Wooden Plates$() can detect all entities, giving out a signal of 15 $(br)$(li)$(item)Stone Plates$() can detect only $(thing)Players$() and $(thing)Mobs$(), giving out a signal of 15 $(br)$(li)$(item)Light Weighted Plates$() can detect all entities and the signal strength that it outputs increases as more entities are added $(br)$(li)$(item)Heavy Weighted Plates$() measures groups of 10 entities"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_pressure_plate",
+      "recipe2": "minecraft:heavy_weighted_pressure_plate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:tripwire_hook",
+      "text": "A $(item)Tripwire Hook$() can be used to detect $(thing)Mobs$(), $(thing)Items$(), and other $(thing)Entities$() over a large area. $(br2)To use it you have to place 2 hooks opposite each other on walls and connect them with $(item)Strings$(), now when an entity touches the thread the hooks emit a signal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tripwire_hook",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:observer",
+      "text": "A $(item)Observer$() detects changes in its target's block states, or the breaking or placing of a block (i.e. changes in its block state). $(br2)This means that changes like the age of $(item)Crops$() can be detected because they are part of the block states."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:observer",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:daylight_detector",
+      "text": "A $(item)Daylight Detector$() is a block that outputs a redstone signal based on sunlight. $(br2)The detector can be inverted when $(thing)right-clicked$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:daylight_detector",
+      "title": " "
     }
   ]
 }
