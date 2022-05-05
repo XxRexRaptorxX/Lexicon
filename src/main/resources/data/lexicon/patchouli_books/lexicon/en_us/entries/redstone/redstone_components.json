@@ -79,6 +79,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stone_pressure_plate",
+      "title": "Pressure Plates",
       "text": "$(li)$(item)Wooden Plates$() can detect all entities, giving out a signal of 15 $(br)$(li)$(item)Stone Plates$() can detect only $(thing)Players$() and $(thing)Mobs$(), giving out a signal of 15 $(br)$(li)$(item)Light Weighted Plates$() can detect all entities and the signal strength that it outputs increases as more entities are added $(br)$(li)$(item)Heavy Weighted Plates$() measures groups of 10 entities"
     },
     {
@@ -116,6 +117,135 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:daylight_detector",
       "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:piston",
+      "text": "A $(item)Piston$() is capable of pushing blocks, $(thing)Players$(), and $(thing)Mobs$() when given a redstone pulse. $(br2)A $(item)Sticky Piston$() has the same function as a $(item)Piston$() but can also pull the block on its face back when it retracts, unlike the regular one, which leaves the pushed block in place."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:piston",
+      "recipe2": "minecraft:sticky_piston",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dispenser",
+      "text": "A $(item)Dispenser$() is a block used as a redstone component to dispense items. $(br2)Most items are just thrown out, but a few behave differently (eg. $(item)Armor$() equips on a $(thing)Player$() of $(thing)Mob$(), projectiles are fired out, $(item)Buckets$() or some tools are used, ...)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dispenser",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dropper",
+      "text": "A $(item)Dropper$() is a block that can be used to drop items or to push items into another container."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dropper",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:note_block",
+      "text": "A $(item)Note Block$() is a musical block that emits sounds when used or powered with redstone. $(br)$(li)The sound type depends on the block below $(br) $(li)Pressing use on the block increases the note pitch up a semitone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:note_block",
+      "text": "$(li)A $(item)Note Block$() must have air in the space directly above it to play a sound.",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:hopper",
+      "text": "While a $(item)Hopper$() is not powered by redstone signals, it operates with three functions: $(br)$(li)Collect item entities (free-floating items in the world) into its inventory from above it $(br)$(li)Pull a single item into its inventory from a container above it $(br)$(li)Push a single item from its own inventory into a container it faces"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:hopper",
+      "title": " ",
+      "text": "You can control the direction while aiming at the surface to which its output should face. $(br2)To place a $(item)Hopper$() directly on the face of an already interactable block, the $(thing)Player$() can sneak while placing the $(item)Hopper$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_door",
+      "title": "Doors & Gates",
+      "text": "$(item)Doors$() or $(item)Gates$() are blocks that can be used as a barrier that can be opened by hand or with redstone. $(br2)But $(item)Iron Doors$() can only be opened with redstone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_door",
+      "recipe2": "minecraft:iron_door",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_trapdoor",
+      "recipe2": "minecraft:iron_trapdoor",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_fence_gate",
+      "recipe2": "minecraft:jungle_fence_gate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_lamp",
+      "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_lamp",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "A $(item)Trapped Chest$() functions as a normal $(item)Chest$() for item storage, but it produces redstone power when opened. $(br2)It can be visually distinguished from normal $(item)Chests$() by a red coloration around the latch."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:detector_rail",
+      "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:detector_rail",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:command_block",
+      "text": "A $(item)Command Block$() is a block that can execute $(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chain_command_block",
+      "title": " ",
+      "text": "Because it $(n)cannot be obtained or edited in Survival mode without cheats$(), it is primarily used on multiplayer servers, in Creative worlds, and custom maps."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_block",
+      "text": "A $(item)Structure Block$() is used to generate structures manually. $(br2)They can also be used to save and load structures, alongside $(item)Structure Void$() blocks."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_void",
+      "title": " ",
+      "text": "Because it $(n)cannot be obtained or edited in Survival mode without cheats$(), it is primarily used on multiplayer servers, in Creative worlds, and custom maps."
     }
   ]
 }
