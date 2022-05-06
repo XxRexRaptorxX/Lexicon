@@ -7,6 +7,97 @@
     {
       "type": "patchouli:text",
       "text": "Coming soon!"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+          "pattern": [
+            [
+              "   0  "
+            ],
+            [
+              "OMTXWL"
+            ]
+          ],
+          "mapping": {
+            "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+            "W": "minecraft:redstone_wire[north=side,south=side]",
+            "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+            "X": "minecraft:gold_block",
+            "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+            "O": "minecraft:redstone_lamp[lit=true]"
+          }
+      },
+        "name": "NOT-Gate",
+        "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "       ",
+            "   0   ",
+            "   MT  ",
+            "       ",
+            "       "
+          ],
+          [
+            "    L  ",
+            "    w  ",
+            "OWtXXWL",
+            "    w  ",
+            "    L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "OR-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "     ",
+            "     ",
+            "  0  ",
+            "     ",
+            "     "
+          ],
+          [
+            "  L  ",
+            "  w  ",
+            "OWXWL",
+            "  w  ",
+            "  L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "X": "minecraft:redstone_wire[north=side,south=side,west=side,east=side]"
+        }
+      },
+      "name": "Simple OR-Gate",
+      "text": "xxx"
     }
+
   ]
 }
