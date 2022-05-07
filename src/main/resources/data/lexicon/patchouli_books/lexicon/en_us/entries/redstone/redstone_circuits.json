@@ -60,7 +60,7 @@
           "X": "minecraft:gold_block",
           "T": "minecraft:redstone_torch[lit=true]",
           "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
-          "O": "minecraft:redstone_lamp[lit=true]"
+          "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
       "name": "OR-Gate",
@@ -91,13 +91,180 @@
           "L": "minecraft:lever[facing=north,face=floor,powered=false]",
           "W": "minecraft:redstone_wire[north=side,south=side]",
           "w": "minecraft:redstone_wire[east=side,west=side]",
-          "O": "minecraft:redstone_lamp[lit=true]",
+          "O": "minecraft:redstone_lamp[lit=false]",
           "X": "minecraft:redstone_wire[north=side,south=side,west=side,east=side]"
         }
       },
       "name": "Simple OR-Gate",
       "text": "xxx"
-    }
+    },
 
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "      ",
+            "      ",
+            "   0  ",
+            "      ",
+            "      "
+          ],
+          [
+            "   L  ",
+            "   w  ",
+            "OMTXWL",
+            "   w  ",
+            "   L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "NOR-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "       ",
+            "       ",
+            "   T   ",
+            "   MT0 ",
+            "   T   ",
+            "       ",
+            "       "
+          ],
+          [
+            "   L   ",
+            "   w   ",
+            "   X   ",
+            "OWtXXWL",
+            "   X   ",
+            "   w   ",
+            "   L   "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[east=side,west=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "w": "minecraft:redstone_wire[east=side,west=side]"
+        }
+      },
+      "name": "AND-Gate",
+      "text": "xxx"
+    },
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   T  ",
+            "   M0 ",
+            "   T  "
+          ],
+          [
+            "   XWL",
+            "OWtX  ",
+            "   XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[east=side,west=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "AND-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  T  ",
+            "  M0 ",
+            "  T  "
+          ],
+          [
+            "  XWL",
+            "OwX  ",
+            "  XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "NAND-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   w  T  ",
+            "    0wM  ",
+            "   w  T  "
+          ],
+          [
+            "  YXjtXWL",
+            "OWI YXX  ",
+            "  YXitXWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "i": "minecraft:redstone_wire[east=side,south=side,north=up,power=15]",
+          "j": "minecraft:redstone_wire[west=side,south=side,north=up,power=15]",
+          "I": "minecraft:redstone_wire[east=side,north=side,west=side]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "Y": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "XOR-Gate",
+      "text": "xxx"
+    }
   ]
 }
