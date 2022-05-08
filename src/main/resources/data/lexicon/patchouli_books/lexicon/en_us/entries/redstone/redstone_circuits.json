@@ -332,6 +332,269 @@
       },
       "name": "IMPLY-Gate",
       "text": "This gate turns on either if both inputs are $(l)on$(), or if the first input is $(l)off$(). $(br)Unlike the other gates, the inputs are not interchangeable; it's not commutative."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OCh",
+            " 0H"
+          ]
+        ],
+        "mapping": {
+          "C": "minecraft:comparator[facing=south,mode=compare,powered=true]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "H": "minecraft:hopper[enabled=true,facing=west]",
+          "h": "minecraft:hopper[enabled=true,facing=east]"
+        }
+      },
+      "name": "Hopper-Clock",
+      "text": "A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 hoppers."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OW1CL",
+            " 023 "
+          ]
+        ],
+        "mapping": {
+          "C": "minecraft:comparator[facing=south,mode=subtract,powered=true]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "L": "minecraft:lever[face=floor,facing=north,powered=true]",
+          "W": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "1": "minecraft:redstone_wire[north=side,south=side,east=side,power=15]",
+          "2": "minecraft:redstone_wire[west=side,south=side,power=14]",
+          "3": "minecraft:redstone_wire[west=side,north=side,power=13]"
+        }
+      },
+      "name": "Comparator-Clock",
+      "text": "The clock of short or moderate cycle length utilizing $(item)Comparator's$() subtraction or signal fading feature."
+    },
+
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OW2a1 ",
+            "  b0d ",
+            "  3c4B"
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "1": "minecraft:redstone_wire[north=side,east=side]",
+          "2": "minecraft:redstone_wire[east=side,south=side,north=side,power=15]",
+          "3": "minecraft:redstone_wire[west=side,south=side,power=15]",
+          "4": "minecraft:redstone_wire[north=side,west=side,south=side,power=0]",
+          "a": "minecraft:repeater[powered=true,delay=4,facing=north]",
+          "b": "minecraft:repeater[powered=true,delay=4,facing=east]",
+          "c": "minecraft:repeater[powered=false,delay=4,facing=south]",
+          "d": "minecraft:repeater[powered=false,delay=4,facing=west]"
+        }
+      },
+      "name": "Repeater-Clock",
+      "text": "This clock consists of a loop of $(item)Repeaters$() with occasional dust or blocks to draw off the appropriate pulses."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   TXWB",
+            "  01   ",
+            "OMX2WY ",
+            "  t33y "
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[south=side,north=side,power=15]",
+          "Y": "minecraft:redstone_wire[east=side,north=side]",
+          "y": "minecraft:redstone_wire[west=side,north=side]",
+          "X": "minecraft:gold_block",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=east,lit=false]",
+          "1": "minecraft:repeater[powered=true,delay=1,facing=west]",
+          "2": "minecraft:repeater[powered=true,delay=3,facing=south,locked=true]",
+          "3": "minecraft:repeater[powered=false,delay=4,facing=north]"
+
+        }
+      },
+      "name": "T Flip-flop",
+      "text": "Also known as 'toggles'. Whenever the input changes from $(l)off$() to $(l)on$(), the output will toggle its state."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "L XP0OPWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "L": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "P": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=south]",
+          "X": "minecraft:redstone_block"
+        }
+      },
+      "name": "Observer T Flip-flop",
+      "text": ""
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "WWWCHDWB"
+          ],
+          [
+            "OOO 0   "
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "D": "minecraft:dropper[facing=north]",
+          "H": "minecraft:hopper[facing=south,enabled=true]",
+          "C": "minecraft:comparator[facing=south]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "Randomizer",
+      "text": "Put items of varying stack size into the $(item)Dropper$(), e.g. a $(item)Sword$() and a piece of $(item)Dirt$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  IWi0 ",
+            "OWYRYWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "Y": "minecraft:redstone_wire[north=side,south=side,west=side]",
+          "i": "minecraft:redstone_wire[north=side,east=side]",
+          "I": "minecraft:redstone_wire[south=side,east=side]",
+          "R": "minecraft:repeater[facing=south]"
+        }
+      },
+      "name": "Input Stabilizator",
+      "text": "This circuit responds to an input pulse by turning its input $(l)on$() and leaving it $(l)on$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " O   ",
+            " I0  ",
+            "YtXWb",
+            "I R  ",
+            "I T  ",
+            "yWXWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "b": "minecraft:crimson_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "I": "minecraft:redstone_wire[east=side,west=side]",
+          "Y": "minecraft:redstone_wire[east=side,south=side]",
+          "y": "minecraft:redstone_wire[south=side,west=side]",
+          "R": "minecraft:repeater[facing=east,powered=true]",
+          "T": "minecraft:redstone_wall_torch[facing=west,lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "RS-ISR Latch",
+      "text": "This is a $(thing)Input Stabilizator$() with reset option."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "ORXWL"
+          ],
+          [
+            " 0P  "
+          ]
+
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "P": "minecraft:sticky_piston[facing=up]",
+          "R": "minecraft:repeater[facing=south]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "Pulse Generator",
+      "text": "A $(thing)Pulse Generator$() creates an output pulse when triggered."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "      0      ",
+            " XRXRXRXRXRy ",
+            "OWWWWWWWWWXYB"
+          ]
+
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "Y": "minecraft:redstone_wire[west=side,south=side]",
+          "y": "minecraft:redstone_wire[east=side,north=side]",
+          "R": "minecraft:repeater[facing=south,delay=4]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "Pulse Extender",
+      "text": "This circuit increases the duration of a pulse. $(br)Can be built as long as you like."
     }
   ]
 }
