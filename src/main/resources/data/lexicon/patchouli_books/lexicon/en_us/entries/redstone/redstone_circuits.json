@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Coming soon!"
+      "text": "A logic gate can be thought of as a simple device that will return a number of outputs, determined by the pattern of inputs and rules that the logic gate follows. $(br2)These gates can be used to build large circuits for machines. $(br2)The $(item)Lever$() in this circuits represent inputs and the $(item)Lamps$() the output."
     },
     {
       "type": "patchouli:multiblock",
@@ -29,7 +29,7 @@
           }
       },
         "name": "NOT-Gate",
-        "text": "xxx"
+        "text": "Also known as inverter. $(br)This gate is used when an opposite output is wanted from the input given."
     },
 
 
@@ -64,7 +64,7 @@
         }
       },
       "name": "OR-Gate",
-      "text": "xxx"
+      "text": "A gate which is used 2 or more inputs and whenever any input is $(l)on$(), the output is $(l)off$()."
     },
 
 
@@ -96,7 +96,7 @@
         }
       },
       "name": "Simple OR-Gate",
-      "text": "xxx"
+      "text": "But an OR-Gate in minecraft can also be a simple redstone connection."
     },
 
 
@@ -130,7 +130,7 @@
         }
       },
       "name": "NOR-Gate",
-      "text": "xxx"
+      "text": "This gate is the opposite of the $(thing)OR-Gate$(). Whenever at least one switch is toggeled to $(l)on$(), the output is toggeled to $(l)off."
     },
 
 
@@ -169,7 +169,7 @@
         }
       },
       "name": "AND-Gate",
-      "text": "xxx"
+      "text": "The output is toggled to $(l)on$() only when $(n)all$() inputs are $(l)on$(). Otherwise, the output will remain $(l)off$()."
     },
 
     {
@@ -198,7 +198,7 @@
         }
       },
       "name": "AND-Gate",
-      "text": "xxx"
+      "text": "The previous variant of the AND-Gate is for 3 inputs and this one for 2."
     },
 
 
@@ -229,7 +229,7 @@
         }
       },
       "name": "NAND-Gate",
-      "text": "xxx"
+      "text": "This gate turns the output $(l)off$() only when $(n)all$() inputs are $(l)on$(), the reverse of an $(thing)AND-Gate$()."
     },
 
 
@@ -264,7 +264,7 @@
         }
       },
       "name": "XOR-Gate",
-      "text": "xxx"
+      "text": "This gate that uses 2 inputs and the output is toggled to $(l)on$() when one switch is $(l)on$() and one switch is $(l)off$()."
     },
 
 
@@ -299,7 +299,7 @@
         }
       },
       "name": "XNOR-Gate",
-      "text": "xxx"
+      "text": "The opposite of an $(thing)XOR-Gate$(). It uses 2 inputs. When both switches are in the same state (both switches are $(l)on$() or both are $(l)off$()), then the output is toggled to $(l)on$()."
     },
 
 
@@ -331,7 +331,7 @@
         }
       },
       "name": "IMPLY-Gate",
-      "text": "xxx"
+      "text": "This gate turns on either if both inputs are $(l)on$(), or if the first input is $(l)off$(). $(br)Unlike the other gates, the inputs are not interchangeable; it's not commutative."
     }
   ]
 }
