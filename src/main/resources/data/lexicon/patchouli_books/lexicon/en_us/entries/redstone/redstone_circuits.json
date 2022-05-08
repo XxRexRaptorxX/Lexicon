@@ -238,14 +238,49 @@
       "multiblock": {
         "pattern": [
           [
+            "       ",
+            "   0   ",
+            "       ",
+            "       "
+          ],
+          [
+            "  iTXWL",
+            "OWCY   ",
+            " XCY   ",
+            "  ITXWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "Y": "minecraft:redstone_wire[east=side,north=side,west=side,power=15]",
+          "i": "minecraft:redstone_wire[east=side,south=side,power=15]",
+          "I": "minecraft:redstone_wire[west=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "C": "minecraft:comparator[facing=south,mode=subtract]",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "XOR-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
             "   w  T  ",
             "    0wM  ",
             "   w  T  "
           ],
           [
-            "  YXjtXWL",
+            "  YXitXWL",
             "OWI YXX  ",
-            "  YXitXWL"
+            "  YXjtXWL"
           ]
         ],
         "mapping": {
@@ -263,7 +298,39 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "XOR-Gate",
+      "name": "XNOR-Gate",
+      "text": "xxx"
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  Y  ",
+            "  M0 ",
+            "  T  "
+          ],
+          [
+            "  XiL",
+            "OwX  ",
+            "  XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=up,power=15]",
+          "i": "minecraft:redstone_wire[north=up,south=side,power=13]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "Y": "minecraft:redstone_wire[south=side,east=side,power=14]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "IMPLY-Gate",
       "text": "xxx"
     }
   ]
