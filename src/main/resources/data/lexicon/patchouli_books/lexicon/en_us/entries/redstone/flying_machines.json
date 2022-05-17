@@ -6,7 +6,75 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Coming soon!"
+      "text": "$(thing)Flying machines$() are mechanisms that move a structure of blocks in one or more directions, moving freely through air or water without support. $(br2)They can also be designed to carry along a $(thing)Player$() and/or other entities, which may be riding in a $(thing)Minecart$() or towed along by $(item)Honey Blocks$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " R 0R"
+          ],
+          [
+            "PSXPS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:piston[facing=south]",
+          "p": "minecraft:piston[facing=south]",
+          "X": "minecraft:sticky_piston[facing=north]",
+          "R": "minecraft:redstone_block"
+        }
+      },
+      "name": "Simple Flying Machine",
+      "text": "The central $(item)Sticky Piston$() is the starter that needs to be powered."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "0O",
+            "O "
+          ],
+          [
+            "PS",
+            "Sp"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Two-way Flying Machine",
+      "text": "The $(item)Observer$() on each side start the machine and control the flight direction."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "TRW0"
+          ],
+          [
+            " OXL"
+          ]
+        ],
+        "mapping": {
+          "T": "minecraft:iron_trapdoor[facing=north,half=bottom]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "R": "minecraft:repeater[facing=south,delay=2]",
+          "O": "minecraft:observer[facing=north]",
+          "X": "minecraft:obsidian",
+          "L": "minecraft:lever[face=wall,facing=south]"
+        }
+      },
+      "name": "Dock Flying Machines",
+      "text": "Needed to stop $(thing)Flying Machines$() or reverse their flying direction."
     }
   ]
 }
