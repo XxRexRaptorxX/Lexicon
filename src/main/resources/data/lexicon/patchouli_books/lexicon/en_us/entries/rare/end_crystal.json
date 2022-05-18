@@ -1,0 +1,18 @@
+{
+  "name": "End Crystal",
+  "icon": "minecraft:end_crystal",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:end_crystal",
+      "text": "Spawn also in $(thing)The End$(), their primary purpose is to recharge the health of the $(thing)Ender Dragon$(). $(br2)If 4 are placed on the end exit portal, one on each of the flat sides, the crystals respawn the original $(item)End Crystals$() on the $(item)Obsidian$() pillars, as well as resurrect the $(thing)Dragon$() itself!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_crystal",
+      "title": " ",
+      "text": "$(br)$(item)End Crystals$() explode when attacked or damaged in most ways and do a lot of damage."
+    }
+  ]
+}

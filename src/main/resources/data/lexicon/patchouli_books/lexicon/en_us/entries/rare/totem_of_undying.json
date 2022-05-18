@@ -1,0 +1,16 @@
+{
+  "name": "Totem of Undying",
+  "icon": "minecraft:totem_of_undying",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:totem_of_undying",
+      "text": "If a $(thing)Player$() is holding a $(item)Totem of Undying$() in their off-hand or main-hand slot and receives otherwise fatal damage, the totem saves them from death. $(br2)It is dropped from $(thing)Evokers$(), which spawn in woodland mansions and raids."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When activated, the totem restores 1 life, removes all existing status effects and grants you: $(br)$(li)$(thing)Regeneration II$() for 45s $(li)$(thing)Fire Resistance$() for 40s $(li)$(thing)Absorption II$() for 5s"
+    }
+  ]
+}

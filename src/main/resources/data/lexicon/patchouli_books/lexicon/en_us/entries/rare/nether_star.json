@@ -1,0 +1,16 @@
+{
+  "name": "Nether Star",
+  "icon": "minecraft:nether_star",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:nether_star",
+      "text": "The $(item)Nether Star$() is a rare item dropped by the $(thing)Wither$() that is used to craft endgame items like the $(item)Beacon$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon"
+    }
+  ]
+}

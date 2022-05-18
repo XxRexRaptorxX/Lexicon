@@ -1,0 +1,12 @@
+{
+  "name": "Elytra",
+  "icon": "minecraft:elytra",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:elytra",
+      "text": "$(item)Elytras$() are rare wings found in $(thing)End Ships$(). $(br2)Can be equipped in the chestplate slot and allows you to fly! $(br2)You can use $(item)Firework Rockets$() as a speed boost!"
+    }
+  ]
+}

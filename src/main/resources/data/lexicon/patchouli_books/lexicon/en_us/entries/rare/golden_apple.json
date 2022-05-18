@@ -1,0 +1,17 @@
+{
+  "name": "Enchanted Golden Apple",
+  "icon": "minecraft:enchanted_golden_apple",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_golden_apple",
+      "text": "The $(item)Enchanted Golden Apple$() is a rare, uncraftable variant of the $(item)Golden Apple$() that has stronger effects. $(br2)Can be found in $(item)Chests$(). $(br2)$(n)Effects:$() $(li)$(thing)Absorption IV$() for 2min $(li)$(thing)Regeneration II$() for 30s $(li)$(thing)Fire Resistance$() for 5min $(li)$(thing)Resistance$() for 5min"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_apple",
+      "text": "> Recipe for the regular $(item)Golden Apple$(). $(br)$(br2)$(n)Effects:$() $(li)$(thing)Absorption$() for 2min $(li)$(thing)Regeneration II$() for 5s"
+    }
+  ]
+}
