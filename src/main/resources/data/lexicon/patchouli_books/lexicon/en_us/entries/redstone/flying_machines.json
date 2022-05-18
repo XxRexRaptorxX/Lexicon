@@ -75,6 +75,73 @@
       },
       "name": "Dock Flying Machines",
       "text": "Needed to stop $(thing)Flying Machines$() or reverse their flying direction."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "0O",
+            "O ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  "
+          ],
+          [
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            "PS",
+            "Sp",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S "
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Harvesting Flying Machine",
+      "text": "This machine with it's outlets can be used for harvesting in e.g. $(item)Bamboo$() farms"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/flying_machine_harvester.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_1.png"
+      ],
+      "border": true
     }
   ]
 }
