@@ -1,0 +1,18 @@
+{
+  "name": "Heart of the Sea",
+  "icon": "minecraft:heart_of_the_sea",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heart_of_the_sea",
+      "text": "The $(item)Heart of the Sea$() can be obtained from a buried treasure. $(br2)The location is marked with a noticeable red $(l)X$() on a buried $(item)Treasure Map$(), which is found in $(thing)Ocean Ruins$() and $(thing)Shipwrecks$(). $(br2)Feeding $(item)Raw Cod$() or $(item)Raw Salmon$() to a $(thing)Dolphin$() causes them to swim toward the nearest structure."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:conduit",
+      "title": " ",
+      "text": "$(br)The heart be used to craft a $(item)Conduit$()."
+    }
+  ]
+}

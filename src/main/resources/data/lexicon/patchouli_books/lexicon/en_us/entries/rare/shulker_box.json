@@ -1,0 +1,19 @@
+{
+  "name": "Shulker Box",
+  "icon": "minecraft:shulker_box",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shulker_box",
+      "text": "$(item)Shulker Boxes$() are portable $(item)Chests$(): they keep their items when broken, which can be retrieved when placed again. $(br2)This is different from other containers, which drop their contained items as item entities when broken. $(br2)These boxes are made out of $(item)Shulker Shells$() that are dropped by $(item)Shulkers$() in The End."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "recipe2": "minecraft:cyan_shulker_box",
+      "title": " ",
+      "text": "$(br)$(item)Shulker Boxes$() are dyeable!"
+    }
+  ]
+}

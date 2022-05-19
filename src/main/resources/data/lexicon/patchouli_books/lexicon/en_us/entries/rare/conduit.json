@@ -1,0 +1,71 @@
+{
+  "name": "Conduit",
+  "icon": "minecraft:conduit",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:conduit",
+      "text": "A $(item)Conduit$() is a beacon-like block that provides $(thing)Conduit Power$() and attacks hostile mobs underwater. $(br2)The $(thing)Conduit Power$() effect restores oxygen, gives underwater night vision and increases mining speed."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:conduit",
+      "title": " "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To activate, a $(item)Conduit$() needs to be in the center of a 3×3×3 volume of $(item)Water$(), which itself must be enclosed within an activation frame. $(br2)Only $(item)Prismarine$(), $(item)Dark Prismarine$(), $(item)Prismarine Bricks$(), and $(item)Sea Lantern$() blocks in the frame contribute to activation. $(br)These blocks can be found in $(thing)Ocean Monuments$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  #  ",
+            "  #  ",
+            "#####",
+            "  #0 ",
+            "  #  "
+          ],
+          [
+            "  #  ",
+            " OOO ",
+            "#OOO#",
+            " OOO ",
+            "  #  "
+          ],
+          [
+            "#####",
+            "#OOO#",
+            "#OXO#",
+            "#OOO#",
+            "#####"
+          ],
+          [
+            "  #  ",
+            " OOO ",
+            "#OOO#",
+            " OOO ",
+            "  #  "
+          ],
+          [
+            "  #  ",
+            "  #  ",
+            "#####",
+            "  #  ",
+            "  #  "
+          ]
+        ],
+        "mapping": {
+          "#": "minecraft:prismarine",
+          "O": "minecraft:water",
+          "X": "minecraft:conduit"
+        }
+      },
+      "name": "Conduit Activation Frame",
+      "text": "This frame can be extended with additional blocks for better effects."
+    }
+
+  ]
+}
