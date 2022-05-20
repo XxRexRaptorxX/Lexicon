@@ -1,0 +1,17 @@
+{
+  "name": "Trapped Chest",
+  "icon": "minecraft:trapped_chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "A $(item)Trapped Chest$() functions as a normal $(item)Chest$() for item storage, but it produces redstone power when opened. $(br2)It can be visually distinguished from normal $(item)Chests$() by a red coloration around the latch."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    }
+  ]
+}

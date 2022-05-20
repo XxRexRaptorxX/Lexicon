@@ -1,0 +1,17 @@
+{
+  "name": "Loom",
+  "icon": "minecraft:loom",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:loom",
+      "text": "A $(item)Loom$() is used to apply patterns on banners. $(br2)It is also used as a $(thing)Shepherd's$() job site block that is found in $(thing)Villages$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:loom",
+      "title": " "
+    }
+  ]
+}

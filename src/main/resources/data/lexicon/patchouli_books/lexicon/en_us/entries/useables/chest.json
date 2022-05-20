@@ -1,0 +1,17 @@
+{
+  "name": "Chest",
+  "icon": "minecraft:chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chest",
+      "text": "A $(item)Chest$() is a block that stores items. $(br2)You can place to of them next to each other to create a large $(item)Chest$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "title": " "
+    }
+  ]
+}

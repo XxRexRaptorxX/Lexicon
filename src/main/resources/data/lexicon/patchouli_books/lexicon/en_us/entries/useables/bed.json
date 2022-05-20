@@ -1,0 +1,18 @@
+{
+  "name": "Bed",
+  "icon": "minecraft:red_bed",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:white_bed",
+      "text": "A $(item)Bed$() is a block that allows a $(thing)Player$() to sleep and to reset their spawn point to within a few blocks of the $(item)Bed$() in the $(thing)Overworld$(). $(br2)$(item)Beds$() are dyeable."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_bed",
+      "recipe2": "minecraft:purple_bed_from_white_bed",
+      "title": " "
+    }
+  ]
+}

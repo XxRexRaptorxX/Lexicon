@@ -1,0 +1,17 @@
+{
+  "name": "Barrel",
+  "icon": "minecraft:barrel",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrel",
+      "text": "A $(item)Barrel$() is a $(thing)Fisherman's$() job site block, used to store items. $(br)It functions like a single $(item)Chest$() although it requires no air space above it to be opened."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:barrel",
+      "title": " "
+    }
+  ]
+}

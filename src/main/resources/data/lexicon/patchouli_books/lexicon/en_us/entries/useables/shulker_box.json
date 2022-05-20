@@ -1,0 +1,17 @@
+{
+  "name": "Shulker Box",
+  "icon": "minecraft:shulker_box",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shulker_box",
+      "text": "$(item)Shulker Boxes$() are portable $(item)Chests$(): they keep their items when broken, which can be retrieved when placed again. $(br2)This is different from other containers, which drop their contained items as item entities when broken."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "title": " "
+    }
+  ]
+}

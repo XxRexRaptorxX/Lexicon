@@ -1,0 +1,17 @@
+{
+  "name": "Crafting Table",
+  "icon": "minecraft:crafting_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:crafting_table",
+      "text": "A $(item)Crafting Table$() is a utility block that allows the $(thing)Player$() to craft a variety of blocks and items. $(br2)It offers a 3x3 crafting grid."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafting_table",
+      "title": " "
+    }
+  ]
+}

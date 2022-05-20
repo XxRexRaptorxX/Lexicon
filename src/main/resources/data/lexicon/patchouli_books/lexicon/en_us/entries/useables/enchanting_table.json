@@ -1,0 +1,17 @@
+{
+  "name": "Enchanting Table",
+  "icon": "minecraft:enchanting_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanting_table",
+      "text": "An $(item)Enchanting Table$() is a block that allows $(thing)Players$() to spend their XP levels to enchant tools, weapons, books, armor, and certain other items."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table",
+      "title": " "
+    }
+  ]
+}

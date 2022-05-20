@@ -1,0 +1,17 @@
+{
+  "name": "Composter",
+  "icon": "minecraft:composter",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:composter",
+      "text": "A $(item)Composter$() is a block that converts some biological material into $(item)Bone Meal$(). $(br)It also serves as a $(thing)Farmer Villager's$() job site block."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:composter",
+      "title": " "
+    }
+  ]
+}

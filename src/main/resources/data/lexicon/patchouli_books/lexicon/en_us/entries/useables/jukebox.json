@@ -1,0 +1,17 @@
+{
+  "name": "Jukebox",
+  "icon": "minecraft:jukebox",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:jukebox",
+      "text": "A $(item)Jukebox$() is a block used to play $(item)Music Discs$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox",
+      "title": " "
+    }
+  ]
+}

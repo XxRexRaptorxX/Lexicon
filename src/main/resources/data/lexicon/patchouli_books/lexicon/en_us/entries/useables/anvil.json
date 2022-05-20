@@ -1,0 +1,17 @@
+{
+  "name": "Anvil",
+  "icon": "minecraft:anvil",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:anvil",
+      "text": "An $(item)Anvil$() is a block that allows $(thing)Players$() to repair items, rename items, and combine enchantments. $(br2)The $(item)Anvil$() breaks after a few uses."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "title": " "
+    }
+  ]
+}

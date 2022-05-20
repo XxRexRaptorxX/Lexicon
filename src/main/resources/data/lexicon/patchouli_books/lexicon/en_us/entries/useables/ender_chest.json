@@ -1,0 +1,17 @@
+{
+  "name": "Ender Chest",
+  "icon": "minecraft:ender_chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ender_chest",
+      "text": "$(item)Ender Chests$() are a type of $(item)Chest$() whose contents are exclusive to each $(thing)Player$(), and can be accessed from anywhere in the world."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ender_chest",
+      "title": " "
+    }
+  ]
+}
