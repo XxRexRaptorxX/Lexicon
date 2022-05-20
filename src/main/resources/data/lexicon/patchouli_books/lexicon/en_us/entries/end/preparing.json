@@ -1,0 +1,16 @@
+{
+  "name": "Preparing",
+  "icon": "minecraft:bundle",
+  "category": "lexicon:end",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Getting to the $(thing)End$() in Minecraft is no simple feat. $(br2)Unlike getting to the $(thing)Nether$(), you can't build a portal wherever you want and hop to the End on the way back from the grocery store. $(br)There's a whole process involved, and a pinch of luck, if you want a chance to face the $(thing)Ender Dragon$(). $(br2)If you do it, you also get access to a whole new dimension filled with new stuff!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you're thinking of making the trip, you need to prepare: $(br)$(li)A full set of $(item)Diamond$() or $(item)Netherite Armor$() $(li)The weapon of your choice $(li)A $(item)Bow$() or $(item)Crossbow$() $(li)$(item)Eyes of Ender$() i suggest around 20 $(li)$(item)Ender Pearls$() or a $(item)Water Bucket$() to avoid fall damage $(li)Healing items like $(item)Potions$() $(li)Enough $(item)Arrows$(), $(item)Food$(), $(item)Wood$(), building blocks like $(item)Cobblestone$() and repair material"
+    }
+  ]
+}

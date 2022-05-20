@@ -1,0 +1,34 @@
+{
+  "name": "The journey to the End",
+  "icon": "minecraft:end_portal_frame",
+  "category": "lexicon:end",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The first important thing on your way to the $(thing)End$() are $(item)Eyes of Ender$(). $(br2)You can craft them with $(item)Ender Pearls$() which you get from $(thing)Endermen$() or from bartering in the $(thing)Nether$() and $(item)Blaze Dust$() which you also get in the $(thing)Nether$() from $(thing)Blazes$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blaze_powder",
+      "recipe2": "minecraft:ender_eye",
+      "text": "You need around 20 of them"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The next step is to find a $(thing)Stronghold$(). $(br2)You can find one by throwing $(item)Eyes of Ender$() in the air, they will fly straight in the direction of the $(thing)Stronghold$(). $(br)If they stop and burst in mid-air, it's underneath."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_portal_raw.png"
+      ],
+      "border": true,
+      "text": "Locate the $(thing)End Portal$() and fill in the empty frame blocks with $(item)Eyes of Ender$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Before you go through the portal, make sure you have everything with you, once you go through you can't go back until you defeat the $(thing)Ender Dragon$() (the endboss of Minecraft) or die."
+    }
+  ]
+}

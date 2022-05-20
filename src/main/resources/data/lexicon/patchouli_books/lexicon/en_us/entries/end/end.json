@@ -1,0 +1,28 @@
+{
+  "name": "The End Fight",
+  "icon": "minecraft:dragon_head",
+  "category": "lexicon:end",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When you enter the $(thing)End$(), get to the center of the island as quickly as possible, and if you see the $(thing)Ender Dragon$() diving at you, quickly jump out of its way. $(br2)Before fighting, you need to do destroy all $(item)End Crystals$() above the $(item)Obsidian$() pillars, because they heal the dragon. $(br2)The best way to do this, with a $(item)Bow$() or $(item)Crossbow$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)$(n)How to fight the dragon:$() $(br2)While the dragon is flying you can shoot it. $(br2)When it's hovering over the portal, it is immune to $(item)Arrow$() damage, and you are forced to use your $(item)Sword$(). $(br2)Here, get as many critical hits as possible, which deal more damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ender_dragon",
+      "scale": "1.5",
+      "offset": "-5",
+      "text": "It's useful to collect the $(item)Dragon's Breath$() with a $(item)Glass Bottle$() during the fight because it can be used to make $(item)Lingering Potions$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_egg",
+      "text": "When you kill the $(thing)Ender Dragon$() you will get a lot of XP, the rare $(item)Dragon Egg$(), a portal back to the $(thing)Overworld$() and a gateway portal to the outer end islands."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "What's next?",
+  "icon": "minecraft:end_stone",
+  "category": "lexicon:end",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After defeating the final boss of Minecraft and seeing the credits, the game is still not over, there are still many things to discover! $(br2)Minecraft has endless potential!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_gateway_portal.png",
+        "lexicon:textures/pictures/end_highlands.png"
+      ],
+      "border": true,
+      "text": "Search the new generated end gateway portal und explore the outer lands of the $(thing)End$()!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Collect rare endgame items $(br)$(li)Explore your world in all dimensions $(br)$(li)Get all Advancements $(br)$(li)Kill the other bosses like the $(thing)Wither$() $(br)$(li)Build massive bases and structures $(br)$(li)Install and play with mods $(br)$(li)And much more!"
+    }
+  ]
+}
