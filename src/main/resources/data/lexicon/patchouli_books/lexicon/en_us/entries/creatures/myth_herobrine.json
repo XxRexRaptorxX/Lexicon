@@ -1,0 +1,50 @@
+{
+  "name": "Myth - Herobrine",
+  "icon": "minecraft:ravager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() ?  $(br)> $(n)Attack Damage:$() ? $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Unknown    $(br)> $(n)Properties:$() $(br)$(thing)Herobrine$() is said to be $(thing)Notch's$() dead brother, somehow embedded into Minecraft. $(br2)He has bright white eyes that glow in the darkness, and is able to hold $(item)Tools$() and $(item)Weapons$() that deal massive damage."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/herobrine.png"
+      ],
+      "border": false,
+      "text": "$(n)Drops:$() ?  $(br)$(n)XP:$() ?"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " F ",
+            " 0 "
+          ],
+          [
+            " T ",
+            "TNT",
+            " T "
+          ],
+          [
+            "GGG",
+            "GXG",
+            "GGG"
+          ]
+        ],
+        "mapping": {
+          "G": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch",
+          "N": "minecraft:netherrack",
+          "F": "minecraft:fire",
+          "X": "minecraft:soul_sand"
+        }
+      },
+      "name": "Herobrine Shrine",
+      "text": "Legends say that this shrine calls $(thing)Herobrine$()."
+    }
+  ]
+}
