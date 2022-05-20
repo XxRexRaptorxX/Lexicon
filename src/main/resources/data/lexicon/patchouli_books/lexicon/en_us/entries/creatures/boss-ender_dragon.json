@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:ender_dragon",
       "scale": "1.5",
-      "offset": "-0.7",
+      "offset": "-5",
       "text": "$(n)Drops:$() 1 Dragon Egg, End Gateway Portal Structure, Exit Portal Structure $(br)$(n)XP:$() 12.000, re-summoned 500"
     }
   ]
