@@ -1,0 +1,16 @@
+{
+  "name": "Music Discs",
+  "icon": "minecraft:music_disc_11",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_13",
+      "text": "Most discs are dropped from a $(thing)Creeper$() when killed by any $(thing)Skeleton$() or $(thing)Stray$() or generates as chest loot. $(br2)The $(item)Music Discs$() can be played on a $(item)Jukebox$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox"
+    }
+  ]
+}

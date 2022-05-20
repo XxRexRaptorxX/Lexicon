@@ -1,0 +1,12 @@
+{
+  "name": "Dragon Egg",
+  "icon": "minecraft:dragon_egg",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_egg",
+      "text": "The $(item)Dragon Egg$() is a trophy item, and is the $(n)rarest$() item obtainable in the game, as it generates only once per world. $(br2)It's generated on top of the exit portal when the first $(thing)Ender Dragon$() is defeated. $(br2)The egg usually cannot be mined directly, as trying to do so causes it to teleport."
+    }
+  ]
+}

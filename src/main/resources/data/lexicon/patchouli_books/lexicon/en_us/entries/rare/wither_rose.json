@@ -1,0 +1,12 @@
+{
+  "name": "Wither Rose",
+  "icon": "minecraft:wither_rose",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_rose",
+      "text": "A $(item)Wither Rose$() is a unique flower with negative properties. $(br2)Any $(thing)Player$() or mob that touches it will be granted the $(thing)Wither$() effect. $(br2)They can only be obtained when the $(thing)Wither$() kills a mob."
+    }
+  ]
+}

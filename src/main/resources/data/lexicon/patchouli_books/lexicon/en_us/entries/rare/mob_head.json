@@ -1,0 +1,27 @@
+{
+  "name": "Mob Heads",
+  "icon": "minecraft:creeper_head",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "text": "A $(thing)Wither Skeleton$() has a 2.5% chance of dropping a $(item)Wither Skeleton Skull$() when killed by a $(thing)Player$(). $(br2)The chance is increased by 1% per level of Looting."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:creeper_head",
+      "text": "$(thing)Skeleton$(), $(thing)Wither Skeleton$(), $(thing)Zombie$(), and $(thing)Creeper$() $(item)Heads$() are also always dropped by the respective mob if it dies due to a $(thing)Charged Creeper's$() explosion. $(br2)Wearing the corresponding mob head reduces the detection range to 50% of the normal range."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_head",
+      "text": "$(item)Dragon Heads$() generate on $(thing)End Ships$() found in $(thing)End Cities$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:player_head",
+      "text": "$(item)Player Heads$() can't  have an extra usage for map makers, they can be given NBT data so that they appear with the skin of any Minecraft account. But they cannot be reached in survival by default."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Dragon's Breath",
+  "icon": "minecraft:dragon_breath",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_breath",
+      "text": "The $(item)Dragon's Breath$() can be obtained by scooping up the $(thing)Ender Dragon's$() breath attack or the purple effect clouds caused by dragon fireballs in an $(item)Empty Bottle$(). $(br2)The $(item)Dragon's Breath$() is a brewing item that is used to make $(item)Lingering Potions$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle"
+    }
+  ]
+}
