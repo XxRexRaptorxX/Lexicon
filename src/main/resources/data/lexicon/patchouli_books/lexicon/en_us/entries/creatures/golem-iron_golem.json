@@ -12,6 +12,27 @@
       "entity": "minecraft:iron_golem",
       "scale": "1.0",
       "text": "$(n)Drops:$() 3-5 Iron Ingots, 0-2 Poppies  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " O0"
+          ],
+          [
+            "XXX"
+          ],
+          [
+            " X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin[facing=east]",
+          "X": "minecraft:iron_block"
+        }
+      },
+      "text": "How to build a $(thing)Iron Golem$()."
     }
   ]
 }

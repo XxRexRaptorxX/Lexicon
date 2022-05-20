@@ -12,6 +12,27 @@
       "entity": "minecraft:snow_golem",
       "scale": "0.5",
       "text": "$(n)Drops:$() 0-15 Snowballs  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "O "
+          ],
+          [
+            "X0"
+          ],
+          [
+            "X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin",
+          "X": "minecraft:snow_block"
+        }
+      },
+      "text": "How to build a $(thing)Snow Golem$()."
     }
   ]
 }

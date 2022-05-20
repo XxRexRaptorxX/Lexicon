@@ -12,6 +12,27 @@
       "entity": "minecraft:wither",
       "scale": "1.0",
       "text": "$(n)Drops:$() 1 Nether Star   $(br)$(n)XP:$() 50"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OOO"
+          ],
+          [
+            "XXX"
+          ],
+          [
+            " X0"
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:wither_skeleton_skull[rotation=4]",
+          "X": "minecraft:soul_sand"
+        }
+      },
+      "text": "How to summon a $(thing)Wither$()."
     }
   ]
 }
