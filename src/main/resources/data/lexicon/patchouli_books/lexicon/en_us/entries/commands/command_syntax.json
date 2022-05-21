@@ -2,7 +2,7 @@
   "name": "Command Syntax",
   "icon": "minecraft:name_tag",
   "category": "lexicon:commands",
-  "sortnum": 1,
+  "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
