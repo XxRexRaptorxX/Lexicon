@@ -217,6 +217,16 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "minecraft:target",
+      "text": "A $(item)Target$() is a block that provides a temporary redstone charge when hit by a projectile. It also has utility in redstone circuitry for redirecting redstone dust, making it a useful redstone component."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:target",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "minecraft:detector_rail",
       "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
     },
