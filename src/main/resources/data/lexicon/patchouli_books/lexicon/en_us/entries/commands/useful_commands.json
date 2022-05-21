@@ -1,0 +1,12 @@
+{
+  "name": "Useful Commands",
+  "icon": "minecraft:command_block",
+  "category": "lexicon:commands",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)/help$() = Provides a list of all commands $(li)$(l)/help <command>$() shows usages of selected command"
+    }
+  ]
+}

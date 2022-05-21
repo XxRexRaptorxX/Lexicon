@@ -1,0 +1,25 @@
+{
+  "name": "Selectors",
+  "icon": "minecraft:hopper",
+  "category": "lexicon:commands",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Target selectors are used in commands to select $(thing)Players$() and entities arbitrarily, without needing to specify an exact name. $(br2)One or more entities can be selected with a target selector variable, and targets can be filtered from the selection based on certain criteria using the target selector arguments. $(br)$(l)/gamemode creative @a $()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)$(l)@p$() = nearest player $(br2)$(l)@r$() = random player $(br2)$(l)@a$() = all players $(br2)$(l)@e$() = all entities $(br2)$(l)@s$() = entity executing the command"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Selector Arguments",
+      "text": "After a target selector, optional arguments can be used to narrow down the set of targets to a group that also matches certain criteria. $(br)$(li)$(l)!$() = inverts the argument $(br)$(li)Arguments can also be stacked $(br2)$(l)/gamemode creative @a[distance=5] $(br)$(l)/gamemode creative @a[!distance=10,level=13]"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)x$(), $(l)y$(), $(l)z$() = coordinate$(br)$(l)distance$() = the distance $(br)$(l)dx$(), $(l)dy$(), $(l)dz$()$() = volume dimensions $(br)$(l)scores$() = specific scores $(br)$(l)tag$() = scoreboard tag $(br)$(l)team$() = scoreboard team $(br)$(l)name$() = entity name $(br)$(l)type$() = entity type $(br)$(l)predicate$() = entity predicate $(br)$(l)x_rotation$() = vertical entity rotation $(br)$(l)y_rotation$() = horizontal entity rotation $(br)$(l)nbt$() = entity nbt data $(br)$(l)level$() = XP level $(br)$(l)gamemode$() = player game mode $(br)$(l)advancements$() = advancements $(br)$(l)limit$(), $(l)sort$() = trait limit"
+    }
+  ]
+}
