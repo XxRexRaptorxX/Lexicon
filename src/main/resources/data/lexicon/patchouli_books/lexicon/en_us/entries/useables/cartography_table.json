@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:cartography_table",
-      "text": "A $(item)Cartography Table$() is a $(thing)Cartographer's$() job site block that generates in $(thing)Villages$().$(br) It is used for cloning, zooming out and locking $(item)Maps$()."
+      "text": "A $(item)Cartography Table$() is a $(thing)Cartographer's$() job site block that generates in $(thing)Villages$(). $(br2)It is used for cloning, zooming out and locking $(item)Maps$()."
     },
     {
       "type": "patchouli:crafting",

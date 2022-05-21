@@ -1,0 +1,17 @@
+{
+  "name": "Smithing Table",
+  "icon": "minecraft:smithing_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smithing_table",
+      "text": "A $(item)Smithing Table$() is a $(thing)Toolsmith's$() job site block that generates in villages. $(br2)It can be used to upgrade $(item)Diamond$() gear into $(item)Netherite$() gear."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smithing_table",
+      "title": " "
+    }
+  ]
+}

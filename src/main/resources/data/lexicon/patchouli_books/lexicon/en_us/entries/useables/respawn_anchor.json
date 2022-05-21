@@ -1,0 +1,18 @@
+{
+  "name": "Respawn Anchor",
+  "icon": "minecraft:respawn_anchor",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:respawn_anchor",
+      "text": "The $(item)Respawn Anchor$() is a block that allows $(thing)Players$() to set their spawn point in the $(thing)Nether$(). $(br2)The anchor must be charged with $(item)Glowstone$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crying_obsidian",
+      "recipe2": "minecraft:respawn_anchor",
+      "title": " "
+    }
+  ]
+}

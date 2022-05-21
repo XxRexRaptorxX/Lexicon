@@ -1,0 +1,17 @@
+{
+  "name": "Stonecutter",
+  "icon": "minecraft:stonecutter",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stonecutter",
+      "text": "The $(item)Stonecutter$() is used to craft $(item)Stone$() and $(item)Copper$() related blocks in smaller and more precise quantities than crafting, and is more efficient than crafting for certain recipes. $(br2)It also serves as a $(thing)Stone Mason's$() job site block."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stonecutter",
+      "title": " "
+    }
+  ]
+}

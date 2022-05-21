@@ -1,0 +1,17 @@
+{
+  "name": "Grindstone",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "A $(item)Grindstone$() is a block that repairs items and tools as well as removing enchantments from them. $(br2)It also serves as a $(thing)Weaponsmith's$() job site block."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone",
+      "title": " "
+    }
+  ]
+}

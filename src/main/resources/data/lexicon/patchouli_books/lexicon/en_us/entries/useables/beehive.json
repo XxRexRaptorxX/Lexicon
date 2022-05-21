@@ -1,0 +1,17 @@
+{
+  "name": "Beehive",
+  "icon": "minecraft:beehive",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:beehive",
+      "text": "Each time a $(thing)Bee$() enters a nest or hive covered in pollen, it starts converting it to $(item)Honey$() and $(item)Honeycomb$(). $(br2)Once it's full, it changes its appearance to show honey oozing out. $(br2)To harvest $(item)Honey$(), the $(thing)Player$() uses a $(item)Glass Bottle$() on the hive. $(br)To harvest $(item)Honeycomb$(), the $(thing)Player$() uses $(item)Shears$() on the nest or hive."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beehive",
+      "title": " "
+    }
+  ]
+}
