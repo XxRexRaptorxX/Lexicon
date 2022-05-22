@@ -1,0 +1,23 @@
+{
+  "name": "Shader Packs",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With $(thing)Shader packs$() you add new light, shadow and water effects to the game. $(br2)Shaders use quite a lot of power, so you should have a strong computer. $(br2)To use shader, you need $(thing)Mods$() like Optifine or Iris. $(br)$(li)They can be placed in the folder $(l)shaderpacks$() within the $(l).minecraft$() folder."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shader_1.png",
+        "lexicon:textures/pictures/shader_2.png",
+        "lexicon:textures/pictures/shader_3.png",
+        "lexicon:textures/pictures/shader_4.png"
+      ],
+      "border": true,
+      "text": "$(li)You can find shaders $(l:https://www.curseforge.com/minecraft/customization/search?search=shader)here$()"
+    }
+  ]
+}

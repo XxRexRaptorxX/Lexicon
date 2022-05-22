@@ -1,0 +1,16 @@
+{
+  "name": "Mod Packs",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Mod packs$() are collections of $(thing)Mods$() that have been put together and configured so that they all work together. $(br2)These packs are often centered around a general theme like tech, quests, or magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(thing)Mod packs$() often have either custom launchers or installers that make installing and running the pack easy. $(br)$(li)You can find mods $(l:https://www.curseforge.com/minecraft/modpacks)here$()"
+    }
+  ]
+}

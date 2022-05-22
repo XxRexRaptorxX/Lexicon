@@ -1,0 +1,24 @@
+{
+  "name": "Textures Packs",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Texture packs are the most common $(thing)Resource Packs$(), they change the look of the game with other textures and sometimes new block/item models. $(br2)These packs can be stacked $(br)$(li)$(thing)Texture packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/texturepack_1.png",
+        "lexicon:textures/pictures/texturepack_2.png",
+        "lexicon:textures/pictures/texturepack_3.png",
+        "lexicon:textures/pictures/texturepack_4.png",
+        "lexicon:textures/pictures/texturepack_5.png"
+      ],
+      "border": true,
+      "text": "$(li)You can find new packs $(l:https://www.curseforge.com/minecraft/texture-packs)here$()"
+    }
+  ]
+}

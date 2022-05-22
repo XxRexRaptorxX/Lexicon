@@ -1,0 +1,24 @@
+{
+  "name": "Resource Packs",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Resource packs$() provides a way to customize textures, models, music, sounds, languages, texts such as the end poem, splashes, credits, and fonts without any code modification. $(br2)These packs can be stacked. $(thing)Resource packs$() type. $(br)$(li)$(thing)Resource packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/texturepack_1.png",
+        "lexicon:textures/pictures/texturepack_2.png",
+        "lexicon:textures/pictures/texturepack_3.png",
+        "lexicon:textures/pictures/texturepack_4.png",
+        "lexicon:textures/pictures/texturepack_5.png"
+      ],
+      "border": true,
+      "text": "$(li)You can find new packs $(l:https://www.curseforge.com/minecraft/texture-packs)here$()"
+    }
+  ]
+}

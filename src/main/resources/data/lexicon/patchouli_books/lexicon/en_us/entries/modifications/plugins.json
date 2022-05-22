@@ -1,0 +1,16 @@
+{
+  "name": "Plugins",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(thing)Plugin$() (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. $(br2)$(thing)Plugins$() are often used to change certain aspects of the game, such as adding user rankings, or the addition of game modes, economy and more."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(thing)Plugins$() do not change the game itself, as a $(thing)Mod$() does. $(br)$(li)You can find new plugins $(l:https://www.curseforge.com/minecraft/bukkit-plugins)here$()"
+    }
+  ]
+}

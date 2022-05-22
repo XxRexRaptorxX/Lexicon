@@ -1,0 +1,16 @@
+{
+  "name": "Data Packs",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(thing)Data pack$() provides a way for $(thing)Players$() to further customize their Minecraft experience. $(br2)These packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, recipes, structures, tags, world generation settings, and biomes without any code modification."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(li)You can find mods $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)here$()"
+    }
+  ]
+}
