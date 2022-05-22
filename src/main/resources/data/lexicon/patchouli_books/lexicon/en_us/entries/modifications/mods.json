@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)$()Mods change Minecraft's game content in some way, such as to make minor adjustments to the game's mechanics or implement entirely new features. $(br2)Most mods require a $(thing)Modloader$() like $(l:https://files.minecraftforge.net/net/minecraftforge/forge)Forge$() or $(l:https://fabricmc.net/use/installer)Fabric$()."
+      "text": "$(thing)$()Mods change Minecraft's game content in some way, such as to make minor adjustments to the game's mechanics or implement entirely new features. $(br2)Most mods require a $(thing)Modloader$() like $(l:https://files.minecraftforge.net/net/minecraftforge/forge)Forge$() or $(l:https://fabricmc.net/use/installer)Fabric$(). $(br2)$(li)You can find a lot of mods $(l:https://www.curseforge.com/minecraft/mc-mods)here$()"
     },
     {
       "type": "patchouli:image",
@@ -18,7 +18,7 @@
         "lexicon:textures/pictures/mod_5.png"
       ],
       "border": true,
-      "text": "$(li)You can find mods $(l:https://www.curseforge.com/minecraft/mc-mods)here$()"
+      "text": "And here you will find a few more mods from me :) $(l:https://www.curseforge.com/members/xxrexraptorxx/projects)*shameless self-promotion*$()"
     }
   ]
 }
