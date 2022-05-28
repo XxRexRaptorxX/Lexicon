@@ -1,0 +1,18 @@
+{
+  "name": "Speed Boat",
+  "icon": "minecraft:blue_ice",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If $(thing)Players$() drive $(item)Boats$() on $(item)Ice$(), they will suddenly find themselves launching at speeds that they didn't think were possible. $(br2)This is a great way to travel from one area to another extremely fast. $(br2)While all types of $(thing)Ice$() will provide this effect when combined with $(item)Boats$(), $(item)Blue Ice$() will provide the fastest travel."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/speed_boat.png"
+      ],
+      "border": true
+    }
+  ]
+}
