@@ -1,0 +1,18 @@
+{
+  "name": "Slowing Blocks",
+  "icon": "minecraft:soul_sand",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Soul Sand$() usually slows down the movement of mobs and $(thing)Players$()  walking on it. $(br2)This slowing effect can be increased by placing $(item)Soul Sand$() directly on any $(item)Ice Block$() or $(item)Slime Blocks$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slow_walking.png"
+      ],
+      "border": true
+    }
+  ]
+}

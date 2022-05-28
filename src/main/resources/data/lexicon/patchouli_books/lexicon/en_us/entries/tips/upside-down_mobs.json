@@ -1,0 +1,18 @@
+{
+  "name": "Upside-down Mobs",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Any mob (with a few exeptions) named $(o)Dinnerbone$() or $(o)Grumm$() through $(item)Name Tags$() or commands, cause it to render upside-down. $(br2)The mob's behavior does not change."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/upside-down.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Coloring Sheeps",
+  "icon": "minecraft:blue_wool",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Sheeps$() wool can be dyed by pressing the use key or the interact button while holding any dye. $(br2)If a $(thing)Sheep$() is dyed and then sheared, it retains its new dyed $(item)Wool$() color after the it regrows."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Easter Egg:$() $(br2)If a $(thing)Sheep$() is named $(o)jeb_$() with a $(item)Name Tag$(), its $(item)Wool$() cycles with interpolation through all dye colors. $(br2)This does not affect the dropped $(item)Wool$()."
+    }
+  ]
+}
