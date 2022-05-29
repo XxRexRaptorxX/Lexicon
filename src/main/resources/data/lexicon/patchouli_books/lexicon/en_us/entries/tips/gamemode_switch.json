@@ -1,0 +1,19 @@
+{
+  "name": "Fast Gamemode Switch",
+  "icon": "minecraft:grass_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If you want to change your gamemode in game, there is a faster way than the $(thing)/gamemode$() command: $(br2)$(thing)F3$() + $(thing)F4$() opens the gamemode switcher menu. $(br2)While holding down $(thing)F3$(), a $(thing)Player$() can cycle between the game modes by pressing $(thing)F4$() and enter the selected gamemode after releasing $(thing)F3$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/gamemode_switch.png"
+      ],
+      "border": true,
+      "text": "You need operator rights to do this."
+    }
+  ]
+}
