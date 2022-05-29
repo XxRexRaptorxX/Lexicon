@@ -1,0 +1,18 @@
+{
+  "name": "Colored Beacon Beam",
+  "icon": "minecraft:beacon",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The color of the $(item)Beacon$() beam may be changed by placing blocks of $(item)Stained Glass$() or $(item)Stained Glass Panes$() anywhere above the $(item)Beacon Block$(). $(br2)The beam changes colors according to the colors of $(item)Glass$() placed above it: the first block sets the beam color, while each additional block sets the color by averaging the red, green, and blue components of the current beam color and the block's color."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/colored_beacon_beam.png"
+      ],
+      "border": true
+    }
+  ]
+}

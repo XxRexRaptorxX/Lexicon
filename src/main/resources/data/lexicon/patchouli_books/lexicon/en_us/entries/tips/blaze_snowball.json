@@ -1,0 +1,18 @@
+{
+  "name": "Snowballs against Blazes",
+  "icon": "minecraft:snowball",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Blazes$() can be quite dangerous, but they have a big weak point, they take damage from $(item)Snowballs$(). $(br2)The good thing is that these are easy to obtain."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/blaze_snowball.png"
+      ],
+      "border": true
+    }
+  ]
+}

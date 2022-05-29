@@ -1,0 +1,19 @@
+{
+  "name": "Beds in other Dimensions",
+  "icon": "minecraft:yellow_bed",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Beds$() don't work in many other dimensions, and would explode if you tried to use them. $(br2)Instead, for example, a $(item)Respawn Anchor$() must be used in the $(thing)Nether$(), to set the spawn point. $(br2)But the $(item)Bed$() can be useful for cheaply blowing up terrain."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether_bed_1.png",
+        "lexicon:textures/pictures/nether_bed_2.png"
+      ],
+      "border": true
+    }
+  ]
+}
