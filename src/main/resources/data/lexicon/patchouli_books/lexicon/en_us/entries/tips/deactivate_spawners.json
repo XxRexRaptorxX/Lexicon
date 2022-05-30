@@ -1,0 +1,19 @@
+{
+  "name": "Deactivate Spawners",
+  "icon": "minecraft:spawner",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You should never mine $(item)Spawners$(), they can still be very useful for e.g. mob traps or simply farming. $(br2)You should try deactivating them with light instead. $(br)Just put a $(item)Torch$() or something like that on the $(item)Spawner$(). $(br2)Only $(thing)Blaze$() & $(thing)Silverfish$() $(item)Spawners$() need a lot more light in the area to disable it."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/spawner_1.png",
+        "lexicon:textures/pictures/spawner_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

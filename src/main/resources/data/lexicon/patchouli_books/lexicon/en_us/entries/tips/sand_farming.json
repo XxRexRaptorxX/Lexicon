@@ -1,0 +1,18 @@
+{
+  "name": "Fast Sand farming",
+  "icon": "minecraft:sand",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Gravity blocks such as $(item)Sand$() or $(item)Gravel$() can be farmed quickly in large quantities by breaking down the bottom block and then $(n)quickly$() setting a $(item)Torch$(). $(br2)That causes all falling blocks to drop."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/sand_farming.png"
+      ],
+      "border": true
+    }
+  ]
+}
