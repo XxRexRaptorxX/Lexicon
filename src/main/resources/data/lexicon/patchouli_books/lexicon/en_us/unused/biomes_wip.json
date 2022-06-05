@@ -1,0 +1,169 @@
+
+    {
+      "type": "patchouli:text",
+      "title": "Snowy Plains",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() 0.0   $(br2)$(n)Rainfall:$() 0.5    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Stray, Rabbit, Polar Bear   $(br2)$(n)Structures:$() Villages, Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/snowy_plains.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Ice Spikes",
+      "text": "$(n)Climate:$() Icy   $(br2)$(n)Temperature:$() 0.0   $(br2)$(n)Rainfall:$() 0.5    $(br2)$(n)Rarity:$() Rare $(br2)$(n)Creatures:$() Stray, Rabbit, Polar Bear $(br2)$(n)Structures:$() Ice Spikes, Ice Patches"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ice_spikes.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Snowy Taiga",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() -0.5   $(br2)$(n)Rainfall:$() 0.4    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Wolve, Rabbit, Fox $(br2)$(n)Structures:$() Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/snowy_taiga.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Snowy Beach",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() 0.05   $(br2)$(n)Rainfall:$() 0.3    $(br2)$(n)Rarity:$() Uncommon   $(br2)$(n)Creatures:$() Rabbit   $(br)$(n)Structures:$() Buried Treasures, Shipwrecks"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/snowy_beach.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Grove",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() -0.2   $(br2)$(n)Rainfall:$() 0.8    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Rabbit, Wolf, Fox  $(br)$(n)Structures:$() /"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/grove.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Snowy Slopes",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() -0.3   $(br2)$(n)Rainfall:$() 0.9    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Goat, Rabbit, Silverfish  $(br)$(n)Structures:$() Igloos, Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/snowy_slopes.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Jagged Peaks",
+      "text": "$(n)Climate:$() Snowy   $(br2)$(n)Temperature:$() -0.7   $(br2)$(n)Rainfall:$() 0.9    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Goat, Silverfish  $(br)$(n)Structures:$() Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/jagged_peaks.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Frozen Peaks",
+      "text": "$(n)Climate:$() Icy   $(br2)$(n)Temperature:$() -0.7   $(br2)$(n)Rainfall:$() 0.9    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Goat, Silverfish  $(br)$(n)Structures:$() Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/frozen_peaks.png"
+      ],
+      "border": true
+    },
+
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Windswept Hills",
+      "text": "$(n)Climate:$() Cold   $(br2)$(n)Temperature:$() 0.2   $(br2)$(n)Rainfall:$() 0.3    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Sheep, Pig, Chicken, Cow, Llama, Silverfish  $(br)$(n)Structures:$() /"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/windswept_hills.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Windswept Forest",
+      "text": "$(n)Climate:$() Cold   $(br2)$(n)Temperature:$() 0.2   $(br2)$(n)Rainfall:$() 0.3    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Sheep, Pig, Chicken, Cow, Llama, Silverfish  $(br)$(n)Structures:$() /"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/windswept_forest.png"
+      ],
+      "border": true
+    },
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Taiga",
+      "text": "$(n)Climate:$() Cold   $(br2)$(n)Temperature:$() 0.25   $(br2)$(n)Rainfall:$() 0.8    $(br2)$(n)Rarity:$() Common $(br2)$(n)Creatures:$() Sheep, Pig, Chicken, Cow, Wolf, Rabbit, Fox  $(br)$(n)Structures:$() Villages, Pillager Outposts"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/taiga.png"
+      ],
+      "border": true
+    },
+
+
+
+    {
+      "type": "patchouli:text",
+      "title": "Old Growth Pine Taiga",
+      "text": "$(n)Climate:$() Cold   $(br2)$(n)Temperature:$() 0.3   $(br2)$(n)Rainfall:$() 0.8    $(br2)$(n)Rarity:$() Uncommon $(br2)$(n)Creatures:$() Sheep, Pig, Chicken, Cow, Fox, Wolf, Rabbit  $(br)$(n)Structures:$() "
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/old_growth_pine_taiga.png"
+      ],
+      "border": true
+    }

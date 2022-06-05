@@ -9,8 +9,211 @@
       "text": "Structures are randomly-generated features found throughout your world. $(br2)Structures can be found in many biomes in all dimensions. $(br2)Some of these structures can be found by doing the $(thing)/locate$() command."
     },
     {
-      "type": "patchouli:text",
-      "text": "More coming soon!"
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mineshaft.png"
+      ],
+      "border": false,
+      "title": "Mineshaft",
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/stronghold.png"
+      ],
+      "border": false,
+      "title": "Stronghold",
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Very Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/buried_treasure.png"
+      ],
+      "border": true,
+      "title": "Buried Treasure",
+      "text": "$(n)Locations:$() Beach (Underground) $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/desert_pyramid.png"
+      ],
+      "border": false,
+      "title": "Desert Pyramid",
+      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/igloo.png"
+      ],
+      "border": false,
+      "title": "Igloo",
+      "text": "$(n)Locations:$() Snowy Plains, Snowy Taiga $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/jungle_temple.png"
+      ],
+      "border": false,
+      "title": "Jungle Temple",
+      "text": "$(n)Locations:$() Jungle $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_outpost.png"
+      ],
+      "border": false,
+      "title": "Pillager Outpost",
+      "text": "$(n)Locations:$() Plains, Desert, Savanna, (Snowy-)Taiga $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/swamp_hut.png"
+      ],
+      "border": false,
+      "title": "Swamp Hut",
+      "text": "$(n)Locations:$() Swamp $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/village.png"
+      ],
+      "border": true,
+      "title": "Village",
+      "text": "$(n)Locations:$() (Snowy-)Plains, Desert, Savanna, Taiga $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mansion.png"
+      ],
+      "border": false,
+      "title": "Woodland Mansion",
+      "text": "$(n)Locations:$() Dark Forest $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ruined_portal.png"
+      ],
+      "border": false,
+      "title": "Ruined Portal",
+      "text": "$(n)Locations:$() Overworld, Nether $(br)$(n)Rarity:$() Common"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ocean_ruin.png"
+      ],
+      "border": false,
+      "title": "Ocean Ruin",
+      "text": "$(n)Locations:$() Ocean, Beach $(br)$(n)Rarity:$() Common"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shipwreck.png"
+      ],
+      "border": false,
+      "title": "Shipwreck",
+      "text": "$(n)Locations:$() Ocean, Beach, Stony Shore, Snowy Beach $(br)$(n)Rarity:$() Common"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ocean_monument.png"
+      ],
+      "border": false,
+      "title": "Ocean Monument",
+      "text": "$(n)Locations:$() All Oceans $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether_fortress.png"
+      ],
+      "border": true,
+      "title": "Nether Fortress",
+      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bastion.png"
+      ],
+      "border": false,
+      "title": "Bastion Remnant",
+      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fossil.png"
+      ],
+      "border": false,
+      "title": "Fossil",
+      "text": "$(n)Locations:$() Desert, Swamp, Soul Sand Valley $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_city.png"
+      ],
+      "border": false,
+      "title": "End City",
+      "text": "$(n)Locations:$() The End $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/dungeon.png"
+      ],
+      "border": false,
+      "title": "Dungeon",
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/desert_well.png"
+      ],
+      "border": false,
+      "title": "Desert Well",
+      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/rock.png"
+      ],
+      "border": false,
+      "title": "Forest Rock",
+      "text": "$(n)Locations:$() Old Growth Taiga $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/geode.png"
+      ],
+      "border": false,
+      "title": "Geode",
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Rare"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/iceberg.png"
+      ],
+      "border": false,
+      "title": "Iceberg",
+      "text": "$(n)Locations:$() Frozen Ocean $(br)$(n)Rarity:$() Uncommon"
     }
   ]
 }

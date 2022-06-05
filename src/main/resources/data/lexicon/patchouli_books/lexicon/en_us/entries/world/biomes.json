@@ -14,7 +14,7 @@
         "lexicon:textures/pictures/biomes.png"
       ],
       "border": true,
-      "text": "$(br2)You can found specific biomes by doing the $(thing)/locatebiomes$() command."
+      "text": "$(br)You can found specific biomes by doing the $(thing)/locatebiomes$() command."
     }
   ]
 }
