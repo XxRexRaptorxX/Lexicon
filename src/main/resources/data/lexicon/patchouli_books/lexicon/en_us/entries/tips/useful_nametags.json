@@ -1,0 +1,28 @@
+{
+  "name": "Useful Nametags",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(item)Name Tag$() is an item used to name mobs in the world and prevent them from $(n)despawning$() naturally."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "title": " ",
+      "text": "To use a tag, it must first be renamed with an $(item)Anvil$(), costing 1 experience level."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Easter Eggs:$() $(br)$(li)Most mobs named $(o)Dinnerbone$() or $(o)Grumm$() causes it to render upside-down. $(br)$(li)Naming a $(thing)Sheep$() $(o)jeb_$() causes it's wool to fade between the dye colors, producing a rainbow effect. $(br)$(li)Naming a $(thing)Rabbit$() $(o)Toast$() causes it to hava a special skin. $(br)$(li)Naming a $(thing)Vindicator$() $(o)Johnny$() causes it to be aggressive to all mobs."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/upside-down.png"
+      ],
+      "border": true
+    }
+  ]
+}

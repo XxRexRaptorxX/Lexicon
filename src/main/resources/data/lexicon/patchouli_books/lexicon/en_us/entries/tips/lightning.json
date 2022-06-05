@@ -1,0 +1,15 @@
+{
+  "name": "Lightning Effects",
+  "icon": "minecraft:lightning_rod",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lightning is spawned during a thunderstorm with higher chances on a $(item)Lightning Rod$() or when a $(item)Trident$() enchanted with $(thing)Channeling$() is thrown. $(br2)$(n)Lightning bolts can have many different effects:$() $(li)Hurt entities and set them on fire$(br)$(li)Creates fires on impact $(br)$(li)Spawns with a 0.75-6.75% chance a $(thing)Skeleton Trap Horse$() which transforms into 4 $(thing)Skeletal Horsemen$() when triggered"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)A lightning strike affects certain mobs differently:$() $(br)$(li)A $(thing)Pig$() turns into a $(thing)Zombified Piglin$() $(br)$(li)A $(thing)Creeper$() becomes a $(thing)Charged Creeper$() $(br)$(li)A $(thing)Villager$() turns into a $(thing)Witch$() $(br)$(li)A Red $(thing)Mooshroom$() turns into a Brown $(thing)Mooshroom$() $(br)$(li)A Brown $(thing)Mooshroom$() turns into a Red $(thing)Mooshroom$()"
+    }
+  ]
+}
