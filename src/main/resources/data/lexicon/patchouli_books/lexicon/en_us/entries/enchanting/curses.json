@@ -1,0 +1,12 @@
+{
+  "name": "Curses",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:enchanting",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Coming soon!"
+    }
+  ]
+}
