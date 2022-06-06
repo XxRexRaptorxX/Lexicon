@@ -6,7 +6,190 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Coming soon!"
+      "text": "The following pages describe all enchantments in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(item)Enchanting Table$().$(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(item)Anvil$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Aqua Affinity",
+      "text": "$(n)Effect:$() $(br)Increases underwater mining speed.  $(br2)$(n)Incompatible Enchantments:$() / $(br2)$(n)Primary Items:$() Helmets  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bane of Arthropods",
+      "text": "$(n)Effect:$() $(br)Increases damage and applies $(thing)Slowness IV$() to arthropod mobs.$(br2)$(n)Incompatible Enchantments:$() Smite, Sharpness  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Blast Protection",
+      "text": "$(n)Effect:$() $(br)Reduces explosion damage and knockback.    $(br2)$(n)Incompatible Enchantments:$() $(br)Fire Protection, Protection, Projectile Protection   $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Channeling",
+      "text": "$(n)Effect:$() $(br)During thunderstorms, tridents will be able to strike hit enemies with a lightning bolt.$(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Depth Strider",
+      "text": "$(n)Effect:$() $(br)Increases underwater movement speed.    $(br2)$(n)Incompatible Enchantments:$() Frost Walker    $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Efficiency",
+      "text": "$(n)Effect:$() $(br)Increases tool speed, as well as the chance for axes to disable shields.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() All common tools  $(br2)$(n)Secondary Items:$() Shears  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Feather Falling",
+      "text": "$(n)Effect:$() $(br)Reduces fall damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fire Aspect",
+      "text": "$(n)Effect:$() $(br)Sets target on fire.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fire Protection",
+      "text": "$(n)Effect:$() $(br)Reduces fire damage and burn time. Mutually exclusive with other protections.    $(br2)$(n)Incompatible Enchantments:$() Blast Protection, Protection, Projectile Protection   $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Flame",
+      "text": "$(n)Effect:$() $(br)Arrows shot are ignited and deal fire damage to the target.$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fortune",
+      "text": "$(n)Effect:$() $(br)Increases the amount of block drops.   $(br2)$(n)Incompatible Enchantments:$() $(br)Silk Touch   $(br2)$(n)Primary Items:$() All common tools  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Frost Walker",
+      "text": "$(n)Effect:$() $(br)Allows the player to walk on water by freezing the water under their feet.    $(br2)$(n)Incompatible Enchantments:$() Depth Strider  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Impaling",
+      "text": "$(n)Effect:$() $(br)Increases damage against aquatic mobs.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Tridents  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Infinity",
+      "text": "$(n)Effect:$() $(br)Prevents consumption of arrows.    $(br2)$(n)Incompatible Enchantments:$() Mending  $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Knockback.",
+      "text": "$(n)Effect:$() $(br)Increases knockback.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Looting",
+      "text": "$(n)Effect:$() $(br)Increases mob loot.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Loyalty",
+      "text": "$(n)Effect:$() $(br)Trident returns after being thrown.    $(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Tridents  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Luck of the Sea",
+      "text": "$(n)Effect:$() $(br)Increases rate of good loot.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Fishing Rod   $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Lure",
+      "text": "$(n)Effect:$() $(br)Decreases time for bites.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Fishing Rod  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mending",
+      "text": "$(n)Effect:$() $(br)Repairs the item using experience.    $(br2)$(n)Incompatible Enchantments:$() Infinity  $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() $(br)All useable items with durability  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Multishot",
+      "text": "$(n)Effect:$() $(br)Fires 3 arrows at the same time.    $(br2)$(n)Incompatible Enchantments:$() Piercing  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Piercing",
+      "text": "$(n)Effect:$() $(br)Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.    $(br2)$(n)Incompatible Enchantments:$() Multishot  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Power",
+      "text": "$(n)Effect:$() $(br)Increases arrow damage.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Bows   $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Projectile Protection",
+      "text": "$(n)Effect:$() $(br)Reduces damage from projectiles.    $(br2)$(n)Incompatible Enchantments:$() Protection, Blast Protection, Fire Protection  $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Protection",
+      "text": "$(n)Effect:$() $(br)Reduces generic damage.    $(br2)$(n)Incompatible Enchantments:$() Blast Protection, Fire Protection, Projectile Protection  $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Punch",
+      "text": "$(n)Effect:$() $(br)Increases arrow knockback.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quick Charge",
+      "text": "$(n)Effect:$() $(br)Decreases crossbow charging time.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Respiration",
+      "text": "$(n)Effect:$() $(br)Extends underwater breathing time.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Helmets  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Riptide",
+      "text": "$(n)Effect:$() $(br)Trident launches player with itself when thrown while in water or rain.    $(br2)$(n)Incompatible Enchantments:$() Channeling, Loyalty  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sharpness",
+      "text": "$(n)Effect:$() $(br)Increases melee damage.    $(br2)$(n)Incompatible Enchantments:$() $(br)Bane of Arthropods, Smite  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Silk Touch",
+      "text": "$(n)Effect:$() $(br)Mined blocks drop themselves.$(br2)$(n)Incompatible Enchantments:$() Fortune$(br2)$(n)Primary Items:$() All common tools$(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Smite",
+      "text": "$(n)Effect:$() $(br)Increases damage to the undead.    $(br2)$(n)Incompatible Enchantments:$() $(br)Bane of Arthropods, Sharpness$(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Soul Speed",
+      "text": "$(n)Effect:$() $(br)Increases movement speed on soul soil.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sweeping Edge",
+      "text": "$(n)Effect:$() $(br)Increases sweeping attack damage.   $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Thorns",
+      "text": "$(n)Effect:$() $(br)Taking damage causes the attacker to also take damage.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Chestplate   $(br2)$(n)Secondary Items:$() Armor $(br2)$(n)Max Level:$()  "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Unbreaking",
+      "text": "$(n)Effect:$() $(br)Reduces durability damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() $(br)All common tools, weapons, armor  $(br2)$(n)Secondary Items:$() All other items with durability $(br2)$(n)Max Level:$() III "
     }
+
+
+
   ]
 }
