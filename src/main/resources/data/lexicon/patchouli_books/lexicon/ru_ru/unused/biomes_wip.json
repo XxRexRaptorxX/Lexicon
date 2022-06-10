@@ -1,0 +1,146 @@
+[
+  {
+    "type": "patchouli:text",
+    "title": "Snowy Plains",
+    "text": "$(n)Климат:$() Снег $(br2)$(n)Температура:$() 0.0 $(br2)$(n)Осадки:$() 0.5 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Бродяга, Кролик, Белый Медведь $(br2)$(n)Постройки:$() Деревни, Аванпосты разбойников"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/snowy_plains.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Ice Spikes",
+    "text": "$(n)Климат:$() Ледяной $(br2)$(n)Температура:$() 0.0 $(br2)$(n)Осадки:$() 0.5 $(br2)$(n)Редкость:$() Редкие $(br2)$(n)Существа:$() Бродяга, Кролик, Белый Медведь $(br2)$(n)Постройки:$() Ледяные шипы, Ледяные пятна"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/ice_spikes.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Snowy Taiga",
+    "text": "$(n)Климат:$() Снег $(br2)$(n)Температура:$() -0,5 $(br2)$(n)Осадки:$() 0,4 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Волк, Кролик, Лиса $(br2)$(n)Постройки:$() Заставы разбойников"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/snowy_taiga.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Snowy Beach",
+    "text": "$(n)Климат:$() Снег $(br2)$(n)Температура:$() 0,05 $(br2)$(n)Осадки:$() 0,3 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Кролик $(br)$(n)Постройки:$() Сокровища, Обломки кораблей"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/snowy_beach.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Grove",
+    "text": "$(n)Климат:$() Снежный $(br2)$(n)Температура:$() -0,2 $(br2)$(n)Осадки:$() 0,8 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Кролик, Волк, Лиса $(br)$(n)Структуры:$() /"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/grove.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Snowy Slopes",
+    "text": "$(n)Климат:$() Снег $(br2)$(n)Температура:$() -0,3 $(br2)$(n)Осадки:$() 0,9 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Коза, Кролик, Чешуйница $(br)$(n)Постройки:$() Иглу, Аванпосты разбойников"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/snowy_slopes.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Jagged Peaks",
+    "text": "$(n)Климат:$() Снег $(br2)$(n)Температура:$() -0,7 $(br2)$(n)Осадки:$() 0,9 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Коза, Чешуйница $(br)$(n)Постройки:$() Аванпосты разбойников"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/jagged_peaks.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Frozen Peaks",
+    "text": "$(n)Климат:$() Ледяной $(br2)$(n)Температура:$() -0,7 $(br2)$(n)Осадки:$() 0,9 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Коза, Чешуйница $(br)$(n)Постройки:$() Аванпосты разбойников"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/frozen_peaks.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Windswept Hills",
+    "text": "$(n)Климат:$() Холодно $(br2)$(n)Температура:$() 0,2 $(br2)$(n)Осадки:$() 0,3 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Овца, Свинья, Курица, Корова, Лама, Чешуйница $(br)$(n)Структуры:$() /"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/windswept_hills.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Windswept Forest",
+    "text": "$(n)Климат:$() Холодно $(br2)$(n)Температура:$() 0,2 $(br2)$(n)Осадки:$() 0,3 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Овца, Свинья, Курица, Корова, Лама, Чешуйница $(br)$(n)Структуры:$() /"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/windswept_forest.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Taiga",
+    "text": "$(n)Климат:$() Холодно $(br2)$(n)Температура:$() 0,25 $(br2)$(n)Осадки:$() 0,8 $(br2)$(n)Редкость:$() Обычные $(br2)$(n)Существа:$() Овца, Свинья, Курица, Корова, Волк, Кролик, Лиса $(br)$(n)Постройки:$() Деревни, Аванпосты грабителей"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/taiga.png"
+    ],
+    "border": true
+  },
+  {
+    "type": "patchouli:text",
+    "title": "Old Growth Pine Taiga",
+    "text": "$(n)Климат:$() Холодно $(br2)$(n)Температура:$() 0,3 $(br2)$(n)Осадки:$() 0,8 $(br2)$(n)Редкость:$() Необычные $(br2)$(n)Существа:$() Овца, Свинья, Курица, Корова, Лиса, Волк, Кролик $(br)$(n)Структуры:$()"
+  },
+  {
+    "type": "patchouli:image",
+    "images": [
+      "lexicon:textures/pictures/old_growth_pine_taiga.png"
+    ],
+    "border": true
+  }
+]

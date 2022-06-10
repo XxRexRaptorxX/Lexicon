@@ -1,0 +1,17 @@
+{
+  "name": "Животное - Попугай",
+  "icon": "minecraft:parrot_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 6 $(br)> $(n)Урон от атаки:$() 0 $(br)> $(n)Поведение:$() Пассив $(br)> $(n)Создание:$() Джунгли $(br)> $(n)Приручение:$() Семена $(br)> $(n)Свойства:$() $(br)Попугаи танцуют возле $(item)Jukebox$(), если он включен. Попугаи имитируют праздные звуки ближайших мобов."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1-3 Перья $(n)XP:$() 1-3"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Ухищрения из Редстоуна",
+  "icon": "minecraft:observer",
+  "category": "lexicon:redstone",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вскоре!"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Пивоварение",
+  "icon": "minecraft:brewing_stand",
+  "category": "lexicon:brewing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Поместив хотя бы одну или несколько $(item)Бутылки с водой$() в три нижних слота интерфейса заваривания, ингредиент в верхний слот и $(item)Blaze Powder$() в топливный слот, $(thing)Player$() может перегонять ингредиенты в каждую $(item)Bottle$() и варить $(item)Potions$(), которые могут быть использованы для предоставления эффекта $(thing)Player$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/brewing.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_types.png"
+      ],
+      "border": false,
+      "title": "Base Potions",
+      "text": "Базовые зелья — это $(item)Зелья$() без эффектов, сваренные путем добавления одного базового ингредиента в $(item)Бутылку с водой$(). Из них только $(item)Неудобное зелье$() может быть наполнено ингредиентом эффекта для получения $(thing)Эффекта зелья$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/effect_potion_types_1.png",
+        "lexicon:textures/pictures/effect_potion_types_2.png"
+      ],
+      "border": false,
+      "title": "Effect Potions",
+      "text": "$(item)Зелья$() — это вещества в бутылках, которые дают $(thing)Player$() и мобам временный или мгновенный статусный эффект, если они выпиты или находятся в радиусе разбрызгивания при броске (в случае $(item)Lingering $() и $(item)Взрывные зелья$())."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_upgrades.png"
+      ],
+      "border": false,
+      "title": "Potion Upgrades",
+      "text": "Улучшение $(item)Potion$() требует компромисса между длительностью и эффективностью. Усиленный эффект имеет более короткую продолжительность, а увеличенная продолжительность не может иметь усиленный эффект."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brewing_stand",
+      "recipe2": "minecraft:glass_bottle"
+    }
+  ]
+}

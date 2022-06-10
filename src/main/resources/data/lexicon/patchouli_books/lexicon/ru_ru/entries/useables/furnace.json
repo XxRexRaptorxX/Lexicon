@@ -1,0 +1,17 @@
+{
+  "name": "печь",
+  "icon": "minecraft:furnace",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:furnace",
+      "text": "$(item)Furnace$() — это вспомогательный блок, используемый для плавки блоков и предметов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace",
+      "title": " "
+    }
+  ]
+}

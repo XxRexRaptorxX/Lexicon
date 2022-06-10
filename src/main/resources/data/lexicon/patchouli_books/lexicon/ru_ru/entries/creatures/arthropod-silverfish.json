@@ -1,0 +1,17 @@
+{
+  "name": "Членистоногие - Чешуйницы",
+  "icon": "minecraft:silverfish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 8 $(br)> $(n)Урон от атаки:$() 2, 2,5 на высокой сложности$(br)> $(n)Поведение:$() Враждебное $(br) > $(n)Spawn:$() Strongholds или после добычи зараженных блоков $(br)> $(n)Properties:$() $(br)$(thing)Silverfish$() — маленькие мобы, прячущиеся в камне- как блоки в горах, крепости, подвалы иглу и лесные особняки."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:silverfish",
+      "scale": "0.5",
+      "text": "$(n)Выпадает:$() - $(br)$(n)Опыт:$() 5"
+    }
+  ]
+}

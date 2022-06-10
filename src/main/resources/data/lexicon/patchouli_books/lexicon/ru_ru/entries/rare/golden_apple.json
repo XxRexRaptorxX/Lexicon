@@ -1,0 +1,17 @@
+{
+  "name": "Зачарованное золотое яблоко",
+  "icon": "minecraft:enchanted_golden_apple",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanted_golden_apple",
+      "text": "$(item)Зачарованное золотое яблоко$() — это редкий, не поддающийся обработке вариант $(item)Golden Apple$(), обладающий более сильными эффектами. $(br2)Можно найти в $(item)Сундуках$(). $(br2)$(n)Эффекты:$() $(li)$(thing)Поглощение IV$() на 2 минуты $(li)$(thing)Регенерация II$() на 30 секунд $(li)$(thing)Сопротивление огню$() на 5 минут $(li)$(thing)Сопротивление$() на 5 минут"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_apple",
+      "text": "> Рецепт обычного $(item)Golden Apple$(). $(br)$(br2)$(n)Эффекты:$() $(li)$(thing)Поглощение$() на 2 минуты $(li)$(thing)Регенерация II$() на 5 секунд"
+    }
+  ]
+}

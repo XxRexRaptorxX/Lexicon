@@ -1,0 +1,18 @@
+{
+  "name": "Бесконечная вода",
+  "icon": "minecraft:water_bucket",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Простейший бесконечный источник воды:$() $(br)$(li)$(n)Шаг 1:$() Выкопайте яму на 1 блок вниз, 2 блока в ширину и 2 блока в длину. $(br)$(li)$(n)Шаг 2:$() Заполните 2 противоположных угла исходными блоками $(item)Water$(). $(br)$(li)$(n)Шаг 3:$() Получите $(item)Ведро$() и возьмите столько $(item)Воды$(), сколько хотите!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/infinite_water_source.png"
+      ],
+      "border": true
+    }
+  ]
+}

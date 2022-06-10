@@ -1,0 +1,18 @@
+{
+  "name": "Лодочная ловушка",
+  "icon": "minecraft:oak_boat",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Boats$() можно использовать для защиты от мобов. $(br2)Вы просто должны поставить их на пути, и они попадут в ловушку в $(item)Лодке$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/boat_trap.png"
+      ],
+      "border": true
+    }
+  ]
+}

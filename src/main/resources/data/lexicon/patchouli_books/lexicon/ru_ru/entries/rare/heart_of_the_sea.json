@@ -1,0 +1,18 @@
+{
+  "name": "Сердце моря",
+  "icon": "minecraft:heart_of_the_sea",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heart_of_the_sea",
+      "text": "$(item)Сердце моря$() можно получить из закопанного сокровища. $(br2)Местоположение отмечено заметным красным $(l)X$() на зарытой $(item)Карте сокровищ$(), которая находится в $(thing)Океанских руинах$() и $(thing)Кораблекрушения$(). $(br2)Скармливание $(item)Сырой трески$() или $(item)Сырого лосося$() $(thing)Delphin$() заставляет их плыть к ближайшей структуре."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:conduit",
+      "title": " ",
+      "text": "$(br)Сердце можно использовать для изготовления $(item)Conduit$()."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Распределение руды",
+  "icon": "minecraft:diamond_ore",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Ores$() генерируются на разных высотах с разной вероятностью. $(br2)Некоторые еще реже генерируются в пещерах (воздействие воздуха)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Best Ore Layers",
+      "text": "$(thing)Сверхмир$() $(li)$(item)Угольная руда$(): Слои 95 и 136 $(li)$(item)Медная руда$(): Слой 48 $(li)$(item)Лазуритовая руда$(): Слой -1 $(li)$(item)Железная руда$(): Слой 15 и 232 $(li)$(item)Золотая руда$(): Слой -16 $(li)$(item)Красная руда$(): Слой -59 $(li)$(item)Алмазная руда$(): Слой -59 $(li)$(item)Изумрудная руда$(): Слой 236 $(br2)$(thing)Нижний мир$() $(li)$(item)Кварц Пустоты$(): Слой 10-114 $(li)$(item)Золотая руда$(): Слой 96-116 $(li)$(item)Древние обломки$(): 13-17"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution_legend.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Водный лифт",
+  "icon": "minecraft:magma_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Когда $(item)Water$() $(n)source$() находится непосредственно над $(item)Magma Block$(), создается столбец водоворота, идущий вниз от самого высокого исходного блока. $(br)Все, что встречается в колонке пузырьков, вытягивается вниз, включая предметы, $(item)Boats$(), $(thing)Players$() и мобов. $(br2)И $(item)Soulsand$() делают то же самое вверх. $(br2)Этот факт делает его идеальным для строительства лифта, системы транспортировки предметов или ловушки для мобов."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_elevator.png"
+      ],
+      "border": true
+    }
+  ]
+}

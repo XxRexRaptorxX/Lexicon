@@ -1,0 +1,17 @@
+{
+  "name": "Магнит",
+  "icon": "minecraft:lodestone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lodestone",
+      "text": "$(item)Lodestone$() — это блок, который можно использовать для изменения $(item)Compasses$(), чтобы он указывал на него. $(br2)Можно использовать во всех трех измерениях."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lodestone",
+      "title": " "
+    }
+  ]
+}

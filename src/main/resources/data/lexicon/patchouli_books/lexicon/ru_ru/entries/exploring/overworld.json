@@ -1,0 +1,22 @@
+{
+  "name": "Исследование мира",
+  "icon": "minecraft:grass_block",
+  "category": "lexicon:exploring",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот некоторые важные предметы, которые вы всегда должны иметь при себе в своем приключении в $(thing)Overworld$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/overworld_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true,
+      "text": "На второй картинке дополнительные редкие, но полезные предметы!"
+    }
+
+  ]
+}

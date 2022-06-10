@@ -1,0 +1,24 @@
+{
+  "name": "Моды",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Моды $(thing)$() каким-то образом изменяют игровой контент Minecraft, например, вносят небольшие коррективы в игровую механику или реализуют совершенно новые функции. $(br2)Для большинства модов требуется $(thing)Modloader$(), например $(l:https://files.minecraftforge.net/net/minecraftforge/forge)Forge$() или $(l:https:// Fabricmc.net/use/installer)Fabric$(). $(br2)$(li)Вы можете найти множество модов $(l:https://www.curseforge.com/minecraft/mc-mods)здесь$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mod_1.png",
+        "lexicon:textures/pictures/mod_2.png",
+        "lexicon:textures/pictures/mod_3.png",
+        "lexicon:textures/pictures/mod_4.png",
+        "lexicon:textures/pictures/mod_5.png"
+      ],
+      "border": true,
+      "text": "А здесь вы найдете еще несколько модов от меня :) $(l:https://www.curseforge.com/members/xxrexraptorxx/projects)*бесстыдная самореклама*$()"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Водное животное - тропическая рыба",
+  "icon": "minecraft:tropical_fish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 3 $(br)> $(n)Урон от атаки:$() 0 $(br)> $(n)Поведение:$() Пассив $(br)> $(n))Спаун:$() Теплые океаны, Пышные пещеры, Мангровые болота $(br)> $(n)Свойства:$() $(br)Можно поймать с помощью $(item)Ведра$(). Существует 2700 встречающихся в природе вариантов."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tropical_fish",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() Tropical Fish, 5% шанс получить Bone Meal $(n)XP:$() 1-3"
+    }
+  ]
+}

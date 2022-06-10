@@ -1,0 +1,17 @@
+{
+  "name": "Курильщик",
+  "icon": "minecraft:smoker",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smoker",
+      "text": "$(item)Smoker$() — это тип $(item)Furnace$(), который готовит продукты, но в два раза быстрее и с меньшим выходом. $(br2)Он также служит блоком на сайте вакансий $(thing)Butcher's$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smoker",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Точильный камень",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "$(item)Grindstone$() — это блок, который ремонтирует предметы и инструменты, а также снимает с них чары. $(br2)Он также служит блоком на сайте $(thing)Weaponsmith's$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone",
+      "title": " "
+    }
+  ]
+}

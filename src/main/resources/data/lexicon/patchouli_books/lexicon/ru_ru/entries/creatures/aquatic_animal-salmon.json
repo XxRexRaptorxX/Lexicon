@@ -1,0 +1,17 @@
+{
+  "name": "Водное животное - лосось",
+  "icon": "minecraft:salmon_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 3 $(br)> $(n)Урон от атаки:$() 0 $(br)> $(n)Поведение:$() Пассив $(br)> $(n))Спаун:$() Реки, холодные океаны $(br)> $(n)Свойства:$() $(br)Можно поймать с помощью $(item)Ведра$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:salmon",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() Сырой лосось, 1 приготовленный лосось при убийстве огнем, 5% шанс получить Bone Meal $(n)XP:$() 1-3"
+    }
+  ]
+}

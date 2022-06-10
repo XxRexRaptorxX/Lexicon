@@ -1,0 +1,20 @@
+{
+  "name": "Карта исследователя",
+  "icon": "minecraft:filled_map",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:filled_map",
+      "text": "$(item)Explorer Map$() — это специальная $(item)Map$(), используемая для помощи в поиске редких сгенерированных структур, включая $(thing)Woodland Mansions$(), $(thing)Ocean Monuments$(). и $(thing)Зарытые сокровища$(). $(br2)Эти карты можно продать у $(thing)Жителя-картографа$() или найти в $(thing)Подводных руинах$() или $(thing)Кораблекрушения$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/explorer_map_1.png",
+        "lexicon:textures/pictures/explorer_map_2.png"
+      ],
+      "border": false
+    }
+  ]
+}

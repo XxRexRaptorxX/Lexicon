@@ -1,0 +1,74 @@
+{
+  "name": "Методы добычи",
+  "icon": "minecraft:cobblestone",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Существуют различные методы извлечения $(item)Ores$() из земли, они описаны на следующих страницах."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cave_mining.png"
+      ],
+      "border": true,
+      "title": "Cave Mining",
+      "text": "Классический способ шахты. Вы можете искать руды, не добывая много $(item)Stone$(), но, поскольку некоторые руды меньше подвержены воздействию воздуха, шансы появления немного уменьшаются."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/strip_mining.png"
+      ],
+      "border": true,
+      "title": "Strip Mining",
+      "text": "Открытая добыча — самый эффективный способ добычи руды, рядом друг с другом создается множество небольших коридоров, чтобы можно было охватить всю территорию."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/tunnel_mining.png"
+      ],
+      "border": true,
+      "title": "Tunnel Mining",
+      "text": "Часто используется, если вы все равно хотите путешествовать под землей в определенном направлении или должны быть созданы системы туннелей."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shaft_mining.png"
+      ],
+      "border": true,
+      "title": "Shaft Mining",
+      "text": "Используется для создания шахты на определенную высоту, покрывается руда с разных уровней."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/quarry_mining.png"
+      ],
+      "border": true,
+      "title": "Quarry Mining",
+      "text": "Этот вариант не особенно эффективен, но покрывает всю область со всеми ресурсами, часто используется с $(thing)Mods$(), которые содержат $(item)Quarrys$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/explosion_mining.png"
+      ],
+      "border": true,
+      "title": "Explosion Mining",
+      "text": "Добыча полезных ископаемых с помощью взрывчатки в основном используется в сочетании с $(item)Ancient Debris$(), так как это самый быстрый вариант в $(thing)Nether$() с использованием взрывающихся $(item)Beds$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_machine.png"
+      ],
+      "border": true,
+      "text": "Но также используются $(item)TNT$() или $(thing)Flying Machines$()."
+    }
+  ]
+}

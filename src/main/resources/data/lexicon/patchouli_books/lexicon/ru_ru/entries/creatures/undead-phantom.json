@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Фантом",
+  "icon": "minecraft:phantom_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 20 $(br)> $(n)Урон от атаки:$() 2, 3 на высокой сложности $(br)> $(n)Поведение:$() Враждебное $(br) > $(n)Spawn:$() Сверху в ночное время или во время грозы, когда игрок не пытался лечь в кровать в течение 3+ дней $(br)> $(n)Свойства:$() $(br)$(thing)Фантомы$() могут перемещаться по воздуху и $(item)Воде. Они боятся $(вещей)Кошек$() и $(вещей)Оцелотов$(). Они излечиваются с помощью $(thing)Instant Damage$() и получают урон с помощью $(thing)Instant Health$(), невосприимчивы к $(thing)Regeneration$() и $(thing)Poison Effects$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:phantom",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-1 Фантомная мембрана $(br)$(n)XP:$() 5"
+    }
+  ]
+}

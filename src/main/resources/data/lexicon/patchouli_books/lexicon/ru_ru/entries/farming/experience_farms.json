@@ -1,0 +1,13 @@
+{
+  "name": "Фермы опыта",
+  "icon": "minecraft:experience_bottle",
+  "category": "lexicon:farming",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вскоре..."
+    }
+
+  ]
+}

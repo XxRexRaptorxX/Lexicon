@@ -1,0 +1,17 @@
+{
+  "name": "Монстр - Опустошитель",
+  "icon": "minecraft:ravager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 100 $(br)> $(n)Урон от атаки:$() $(br)Ближний бой: 7 на легком, 12 на обычном, 18 на сложном $(br)Рев: 6 $(br)> $(n)Поведение:$() Враждебное $(br)> $(n)Создание:$() Рейды $(br)> $(n)Свойства:$() $(br)$(thing)Опустошители$() — это большие враждебные мобы, которые появляются в рейдах и атакуют $(thing)Players$(), $(thing)Villers$(), $(thing9Wandering Traders$() и $(thing)Iron Golems$() Они атакуют, тараня врагов головой, отбрасывая их на 5 блоков."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ravager",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1 Седло $(br)$(n)XP:$() 20"
+    }
+  ]
+}

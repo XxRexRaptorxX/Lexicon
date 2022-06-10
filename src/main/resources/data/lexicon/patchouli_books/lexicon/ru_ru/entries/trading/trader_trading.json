@@ -1,0 +1,29 @@
+{
+  "name": "Странствующий торговец",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Wandering Trader$() имеет 6 случайных сделок. Новые сделки не разблокируются после торговли с ним. $(br)$(li)После того, как игрок покупает один и тот же предмет несколько раз, странствующий торговец блокирует сделку, но, в отличие от сельских жителей, никогда не открывает сделку. $(li)У них нет торговой системы «новичок-мастер», как у $(thing)Villers$(). Вместо этого $(thing)Player$() может купить что угодно у торговца без необходимости разблокировать предыдущие сделки. $(li)Они не увеличивают и не уменьшают цены на продаваемые предметы, если на них нападает игрок, ..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trader_trading.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wandering_trader",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": "0.8"
+    }
+  ]
+}

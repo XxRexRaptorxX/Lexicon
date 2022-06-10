@@ -1,0 +1,18 @@
+{
+  "name": "Скоростной катер",
+  "icon": "minecraft:blue_ice",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если $(thing)Players$() управляют $(item)Boats$() на $(item)Ice$(), они внезапно обнаружат, что стартуют со скоростью, которую они не считали возможной. $(br2)Это отличный способ очень быстро путешествовать из одного места в другое. $(br2)В то время как все типы $(thing)Ice$() обеспечивают этот эффект в сочетании с $(item)Boats$(), $(item)Blue Ice$() обеспечит самое быстрое перемещение."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/speed_boat.png"
+      ],
+      "border": true
+    }
+  ]
+}

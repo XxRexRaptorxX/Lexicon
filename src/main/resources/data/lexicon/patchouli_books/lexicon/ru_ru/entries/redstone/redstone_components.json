@@ -1,0 +1,261 @@
+{
+  "name": "Компоненты Редстоуна",
+  "icon": "minecraft:redstone_torch",
+  "category": "lexicon:redstone",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Различные категории:$() $(br)$(li)А $(n)силовой компонент$() обеспечивает питание других частей схемы [например. $(item)Redstone Torch$()] $(br)$(li)$(n)передающий компонент$() передает мощность от одной части цепи к другой [например. $(item)Redstone Dust$()] $(br)$(li) Компонент $(n)механизма$() влияет на окружающую среду (движением, светом и т. д.) [например. $(элемент)Поршень$()]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone",
+      "text": "$(item)Redstone Dust$() — это ядро ​​механики красного камня. $(br2)Добытая из $(item)красной руды$(), пыль может быть помещена в провода из красного камня для передачи сигналов или превращена в другие устройства."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_torch",
+      "text": "$(item)Redstone Torches$() можно использовать для питания блоков и компонентов передачи, таких как $(item)Redstone Dust$(), активировать компоненты механизма, такие как $(item)Pistons$(), или инвертировать сигналы Redstone, такие как $(thing)НЕ ворота$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_torch",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_block",
+      "text": "$(item)Redstone Block$() действует как постоянный источник питания из красного камня, который может толкать $(item)Pistons$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_block",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:repeater",
+      "text": "$(item)Repeater$() — это блок, используемый в цепях редстоуна для повторения сигналов редстоуна до полной силы, задержки сигналов, предотвращения движения сигналов назад или для блокировки сигналов в одном состоянии. $(br)$(li)Передает сигналы только сзади вперед $(br)$(li)Они могут повторять сигнал красного камня, усиливая его обратно"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:repeater",
+      "title": " ",
+      "text": "Сигналы задержки $(li)$(item)Repeater$(), задержку можно изменить, щелкнув правой кнопкой мыши $(li)Repeater можно заблокировать с помощью другого включенного $(item)Repeater$() или $(item)Comparator$() лицом к его стороне. При блокировке репитер не меняет свой вывод"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:comparator",
+      "text": "$(item)Comparator$() используется для поддержания, сравнения или вычитания уровня сигнала или для измерения определенных состояний блока (в первую очередь наполненности контейнеров). $(br)Имеет 2 $(item)Redstone Torches$() сзади и один спереди. $(li)Задние факелы включаются, когда выход больше нуля. $(li)Передний фонарик имеет два состояния, которые можно переключать с помощью: $(br)> Включен и выключен (указывает на то, что компаратор находится в $(n)режиме сравнения$()) $(br)> Включен и включен ( указывает, что компаратор находится в режиме вычитания $(n)$())"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:comparator",
+      "title": " ",
+      "text": "$(li)Может принимать входной уровень сигнала сзади, а также с обеих сторон. $(br)$(li)Боковые входы принимаются только от $(item)Redstone Dust$(), $(item)Redstone Block$(), $(item)Repeaters$(), других $(item)Comparators$(), & $(item)Observers$() в определенных сценариях. $(br)Фронт – это выход."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_button",
+      "text": "При активации $(item)Деревянная кнопка$() остается активной в течение 15 тиков красного камня (1,5 секунды, без задержки), а $(item)Каменная кнопка$() остается активной в течение 10 тиков красного камня (1 секунда, без задержки).). $(br2)$(item)Деревянная кнопка$(), активируемая выстреленной $(item)стрелой$() или $(item)трезубцем$(), остается активной до тех пор, пока снаряд не исчезнет или не будет подобран."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_button",
+      "recipe2": "minecraft:oak_button",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lever",
+      "text": "$(item)Lever$() излучает энергию красного камня при активации."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lever",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_pressure_plate",
+      "title": "Pressure Plates",
+      "text": "$(li)$(item)Деревянные тарелки$() могут обнаруживать всех объектов, выдавая сигнал 15 $(br)$(li)$(item)Каменные тарелки$() могут обнаруживать только $(thing)Игроки$() и $(thing)Mobs$(), выдавая сигнал 15 $(br)$(li)$(item)Light Weighted Plates$() могут обнаруживать все объекты, и сила сигнала, который он выводит, увеличивается по мере увеличения добавлены объекты $(br)$(li)$(item)тяжелые утяжеленные плиты$() измеряет группы из 10 объектов"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_pressure_plate",
+      "recipe2": "minecraft:heavy_weighted_pressure_plate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:tripwire_hook",
+      "text": "$(item)Tripwire Hook$() можно использовать для обнаружения $(thing)Mobs$(), $(thing)Items$() и других $(thing)Entities$() на большой площади. $(br2)Чтобы использовать его, вы должны разместить 2 крючка напротив друг друга на стенах и соединить их с помощью $(item)Strings$(), теперь, когда сущность касается нити, крючки излучают сигнал."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tripwire_hook",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:observer",
+      "text": "$(item)Observer$() обнаруживает изменения в состоянии блока своей цели, а также разрыв или размещение блока (т. е. изменения в состоянии блока). $(br2)Это означает, что такие изменения, как возраст $(item)Crops$(), могут быть обнаружены, поскольку они являются частью состояний блока."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:observer",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:daylight_detector",
+      "text": "$(item)Daylight Detector$() — это блок, который выводит сигнал красного камня на основе солнечного света. $(br2)Детектор можно инвертировать, если $(thing)щелкнуть правой кнопкой мыши$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:daylight_detector",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:piston",
+      "text": "$(item)Piston$() может толкать блоки, $(thing)Players$() и $(thing)Mobs$() при наличии импульса красного камня. $(br2)A $(item)Sticky Piston$() имеет ту же функцию, что и $(item)Piston$(), но также может тянуть блок лицом назад, когда он втягивается, в отличие от обычного блока, который оставляет поставил блок на место."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:piston",
+      "recipe2": "minecraft:sticky_piston",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dispenser",
+      "text": "$(item)Dispenser$() — это блок, используемый в качестве компонента красного камня для выдачи предметов. $(br2)Большинство предметов просто выбрасываются, но некоторые ведут себя иначе (например, $(item)Armor$() надевается на $(thing)Player$() из $(thing)Mob$(), снаряды уволен, $(item)Buckets$() или используются какие-то инструменты, ...)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dispenser",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dropper",
+      "text": "$(item)Dropper$() — это блок, который можно использовать для удаления элементов или для перемещения элементов в другой контейнер."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dropper",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:note_block",
+      "text": "$(item)Note Block$() — это музыкальный блок, который издает звуки при использовании или работе с красным камнем. $(br)$(li)Тип звука зависит от блока ниже $(br) $(li)Нажатие на блок увеличивает высоту ноты на полтона."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:note_block",
+      "text": "$(li)A $(item)Note Block$() должен иметь воздух в пространстве прямо над ним, чтобы воспроизвести звук.",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:hopper",
+      "text": "Хотя $(item)Hopper$() не питается от сигналов красного камня, он выполняет три функции: $(br)$(li)Собирает сущности предметов (свободно плавающие в мире предметы) в свой инвентарь сверху $(br)$(li)Втянуть один предмет в свой инвентарь из контейнера над ним $(br)$(li)Втолкнуть один предмет из своего инвентаря в контейнер, обращенный к нему"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:hopper",
+      "title": " ",
+      "text": "Вы можете управлять направлением, нацеливаясь на поверхность, к которой должен быть обращен его вывод. $(br2)Чтобы поместить $(item)Hopper$() прямо на лицевую сторону блока, с которым уже можно взаимодействовать, $(thing)Player$() может подкрасться, размещая $(item)Hopper$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_door",
+      "title": "Doors & Gates",
+      "text": "$(item)Doors$() или $(item)Gates$() — это блоки, которые можно использовать в качестве барьера, который можно открыть вручную или с помощью красного камня. $(br2)Но $(item)Железные двери$() можно открыть только с помощью красного камня."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_door",
+      "recipe2": "minecraft:iron_door",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_trapdoor",
+      "recipe2": "minecraft:iron_trapdoor",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_fence_gate",
+      "recipe2": "minecraft:jungle_fence_gate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_lamp",
+      "text": "$(item)Redstone Lamp$() — это блок, излучающий свет при активации сигналом красного камня."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_lamp",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "Сундук $(item)Trapped$() функционирует как обычный $(item)Chest$() для хранения предметов, но при открытии он производит силу красного камня. $(br2)Его можно визуально отличить от обычных $(item)Сундуков$() по красной окраске вокруг защелки."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:target",
+      "text": "$(item)Target$() — это блок, который обеспечивает временный заряд красного камня при попадании снаряда. Он также полезен в схемах красного камня для перенаправления пыли красного камня, что делает его полезным компонентом красного камня."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:target",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:detector_rail",
+      "text": "Если $(item)Minecart$() на $(item)Detector Rail$() является $(item)Minecart$() с Chest$() или $(item)Minecart с Hopper$(), соседняя $(item)Comparator$(), направленный в сторону от $(item)Detector Rail$(), выводит уровень мощности, пропорциональный наполненности контейнера."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:detector_rail",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:command_block",
+      "text": "Командный блок $(item)$() — это блок, который может выполнять $(thing)Commands$(). $(br2)$(n)Есть 3 варианта:$() $(li)Командный блок $(item)Импульс$() является типом блока по умолчанию, он выполняется только один раз при активации. $(br)$(li)Командный блок $(item)Chain$() выполняется каждый раз при срабатывании. $(br)$(li)A $(item)Повторяющийся командный блок$() выполняет каждый игровой тик, пока он активирован."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chain_command_block",
+      "title": " ",
+      "text": "Поскольку его $(n) нельзя получить или отредактировать в режиме выживания без читов$(), он в основном используется на многопользовательских серверах, в творческих мирах и на пользовательских картах."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_block",
+      "text": "$(item)Structure Block$() используется для создания структур вручную. $(br2)Их также можно использовать для сохранения и загрузки структур вместе с блоками $(item)Structure Void$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_void",
+      "title": " ",
+      "text": "Поскольку его $(n) нельзя получить или отредактировать в режиме выживания без читов$(), он в основном используется на многопользовательских серверах, в творческих мирах и на пользовательских картах."
+    }
+  ]
+}

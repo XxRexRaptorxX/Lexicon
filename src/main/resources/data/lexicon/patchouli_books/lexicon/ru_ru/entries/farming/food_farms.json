@@ -1,0 +1,88 @@
+{
+  "name": "Продовольственные фермы",
+  "icon": "minecraft:bread",
+  "category": "lexicon:farming",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Требования для большинства ферм, основанных на растениях$(): $(li)Преобразование $(item)Грязь$() с помощью $(item)Мотыги$() в $(item)Farmland.$() $(br)$(li)$(item)Farmland$() нуждается в источнике $(item)Water$() на расстоянии до 4 блоков. $(br)$(li)Требуется свет. $(br)$(li)Многие фермы требуют, чтобы их фрагменты были отмечены галочкой, чтобы изменить состояние роста. Это означает, что $(thing)Player$() должен быть поблизости (в пределах 128 блоков), или вы используете $(item)Chunk Loader$() из $(thing)Mod$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/food_farm.png"
+      ],
+      "border": true,
+      "title": "Manual Food Farms",
+      "text": "Первой фермой всегда должна быть простая классическая ферма $(item)Wheat$() или $(item)Vegetable$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Semi-auto Wheat Farm",
+      "text": "Это все еще простая ферма $(n)semi-auto$() $(item)Wheat$(). $(br2)(Стакан иллюстрирует конструкцию) $(br)$(li)Переворачивание $(item)Рычага$() заставляет $(item)Pistons$() опускаться, позволяя $(item)Воде $() течет по полям и сбрасывает капли в $(item)Hopper$() в $(item)Chest$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/semi_auto_wheat_farm_1.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_2.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_3.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_4.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно бесконечно расширять вниз."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Auto Chicken Farm",
+      "text": "Эта ферма автоматически даст вам $(item)Cooked Chicken$() и $(item)Feathers$() при полной загрузке. $(br)$(li)$(item)Золотые блоки$() должны быть сплошными блоками, чтобы правильно проводить сигнал $(item)Redstone$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_chicken_farm_1.png",
+        "lexicon:textures/pictures/auto_chicken_farm_2.png",
+        "lexicon:textures/pictures/auto_chicken_farm_3.png",
+        "lexicon:textures/pictures/auto_chicken_farm_4.png",
+        "lexicon:textures/pictures/auto_chicken_farm_5.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Auto Melon/Pumpkin Farm",
+      "text": "Эта ферма будет собирать для вас $(item)дыни$() или $(item)тыквы$() автоматически."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_melon_farm_1.png",
+        "lexicon:textures/pictures/auto_melon_farm_2.png",
+        "lexicon:textures/pictures/auto_melon_farm_3.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно расширять в стороны."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Semi-auto Pig/Cow Farm",
+      "text": "Здесь можно выращивать таких животных, как $(thing)Pigs$() и $(thing)Cows$(). $(br2)Некоторых взрослых нужно держать в клетке наверху и спаривать, чтобы младенцы падали вниз и жарились на гриле, когда вырастут."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/semi_auto_pig_farm_1.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_2.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_3.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_4.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

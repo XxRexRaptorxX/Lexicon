@@ -1,0 +1,16 @@
+{
+  "name": "Тотем бессмертия",
+  "icon": "minecraft:totem_of_undying",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:totem_of_undying",
+      "text": "Если $(thing)Player$() держит $(item)Totem of Undying$() в своей левой или основной руке и получает смертельный урон, тотем спасает его от смерти. $(br2)Выпадает из $(thing)Evokers$(), которые появляются в лесных особняках и рейдах."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "При активации тотем восстанавливает 1 жизнь, снимает все существующие статусные эффекты и дает вам: $(br)$(li)$(thing)Регенерация II$() на 45 с $(li)$(thing)Сопротивление огню$() на 40 с $(li)$(thing)Поглощение II$() на 5 с"
+    }
+  ]
+}

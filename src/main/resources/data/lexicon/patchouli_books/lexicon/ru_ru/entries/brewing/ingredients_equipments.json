@@ -1,0 +1,33 @@
+{
+  "name": "Оборудование и ингредиенты",
+  "icon": "minecraft:fermented_spider_eye",
+  "category": "lexicon:brewing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brewing_stand",
+      "recipe2": "minecraft:cauldron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle"
+
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fermented_spider_eye",
+      "recipe2": "minecraft:sugar_from_sugar_cane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glistering_melon_slice",
+      "recipe2": "minecraft:golden_carrot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magma_cream",
+      "recipe2": "minecraft:turtle_helmet"
+    }
+  ]
+}

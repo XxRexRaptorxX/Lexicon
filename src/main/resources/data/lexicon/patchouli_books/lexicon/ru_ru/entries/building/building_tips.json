@@ -1,0 +1,47 @@
+{
+  "name": "Советы по строительству",
+  "icon": "minecraft:gold_nugget",
+  "category": "lexicon:building",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Совет №1:$() $(br)$(li)Добавьте текстуру своим стенам. $(br2)Вы можете собрать палитру блоков, чтобы помочь. $(br2)Посмотрите на $(thing)www.blockpalettes.com$(), там есть хорошие!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_1.png",
+        "lexicon:textures/pictures/block_palette.png"
+      ],
+      "title": "Texture",
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Depth",
+      "text": "$(n)Совет №2:$() $(br)$(li)Добавьте глубину своим зданиям. $(br)Выглядит намного эстетичнее!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_2.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Overdetailing",
+      "text": "$(n)Совет №3:$() $(br)$(li)Не переусердствуйте со своими сборками! $(br2)В большинстве случаев слишком много деталей кажутся слишком перегруженными."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_3.png"
+      ],
+      "border": true
+    }
+  ]
+}

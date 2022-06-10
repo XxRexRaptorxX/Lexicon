@@ -1,0 +1,17 @@
+{
+  "name": "Монстр - Шалкер",
+  "icon": "minecraft:shulker_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() $(br)> $(n)Урон от атаки:$() 4 + Левитация $(br)> $(n)Поведение:$() Враждебное $(br)> $(n)Spawn:$() End Cities $(br)> $(n)Свойства:$() $(br)$(thing)Shulkers$() — враждебные мобы коробчатой ​​формы, найденные в $(thing)End Cities$(). Они прячутся в своей раковине, чтобы сливаться с окружающими $(item)Пурпурными блоками$() и охраняют различные сокровища города. $(thing)Shulkers$() обычно остаются неподвижными, прикрепленными к соседнему сплошному блоку. Стреляет снарядами с $(thing)эффектом левитации$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 50% за Shell Shulker$(br)$(n)XP:$() 5"
+    }
+  ]
+}

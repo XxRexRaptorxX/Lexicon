@@ -1,0 +1,17 @@
+{
+  "name": "Грудь",
+  "icon": "minecraft:chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chest",
+      "text": "$(item)Chest$() — это блок, в котором хранятся предметы. $(br2)Вы можете разместить их рядом друг с другом, чтобы создать большой $(item)Сундук$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "title": " "
+    }
+  ]
+}
