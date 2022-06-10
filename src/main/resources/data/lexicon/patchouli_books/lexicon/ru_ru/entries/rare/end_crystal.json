@@ -1,0 +1,18 @@
+{
+  "name": "Кристалл Края",
+  "icon": "minecraft:end_crystal",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:end_crystal",
+      "text": "Появляются также в $(thing)The End$(), их основная цель — восстановить здоровье $(thing)Ender Dragon$(). $(br2)Если 4 разместить на портале выхода, по одному на каждой из плоских сторон, кристаллы возродят исходные $(item)Кристаллы Края$() на столбах $(item)Obsidian$(), а также как воскресить самого $(thing)Dragon$()!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_crystal",
+      "title": " ",
+      "text": "$(br)$(item)Кристаллы Края$() взрываются при атаке или повреждении большинством способов и наносят большой урон."
+    }
+  ]
+}

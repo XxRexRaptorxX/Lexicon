@@ -1,0 +1,17 @@
+{
+  "name": "Кузнечный стол",
+  "icon": "minecraft:smithing_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smithing_table",
+      "text": "$(item)Кузнечный стол$() — это блок сайта $(thing)Toolsmith's$(), который генерируется в деревнях. $(br2)Его можно использовать для улучшения снаряжения $(item)Diamond$() в снаряжение $(item)Netherite$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smithing_table",
+      "title": " "
+    }
+  ]
+}

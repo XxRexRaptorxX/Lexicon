@@ -1,0 +1,19 @@
+{
+  "name": "Кровати в других измерениях",
+  "icon": "minecraft:yellow_bed",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Beds$() не работает во многих других измерениях и взорвется, если вы попытаетесь их использовать. $(br2)Вместо этого, например, $(item)Respawn Anchor$() должен использоваться в $(thing)Nether$(), чтобы установить точку появления. $(br2)Но $(item)Кровать$() может быть полезна для дешёвого взрыва местности."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether_bed_1.png",
+        "lexicon:textures/pictures/nether_bed_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

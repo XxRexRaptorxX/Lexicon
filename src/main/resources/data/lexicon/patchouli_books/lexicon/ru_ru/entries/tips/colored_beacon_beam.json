@@ -1,0 +1,18 @@
+{
+  "name": "Цветной сигнальный луч",
+  "icon": "minecraft:beacon",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Цвет луча $(item)Beacon$() можно изменить, поместив блоки $(item)Stained Glass$() или $(item)Stained Glass Panes$() в любом месте над $(item)Beacon Block$. (). $(br2)Луч меняет цвет в соответствии с цветами $(item)Glass$(), расположенного над ним: первый блок задает цвет луча, а каждый дополнительный блок задает цвет, усредняя красную, зеленую и синюю составляющие. текущего цвета луча и цвета блока."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/colored_beacon_beam.png"
+      ],
+      "border": true
+    }
+  ]
+}

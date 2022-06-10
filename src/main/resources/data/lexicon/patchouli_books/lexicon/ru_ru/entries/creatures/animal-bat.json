@@ -1,0 +1,17 @@
+{
+  "name": "Животное - летучая мышь",
+  "icon": "minecraft:bat_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 6 $(br)> $(n)Урон от атаки:$() 0 $(br)> $(n)Поведение:$() Пассив $(br)> $(n)Спаун:$() Темные пещеры ниже слоя 63"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bat",
+      "scale": "0.5",
+      "text": "$(n)Выпадает:$() - $(n)Опыт:$() 0"
+    }
+  ]
+}

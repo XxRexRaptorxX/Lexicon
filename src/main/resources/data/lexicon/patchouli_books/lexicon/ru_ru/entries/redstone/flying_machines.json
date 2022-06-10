@@ -1,0 +1,147 @@
+{
+  "name": "Летающие машины",
+  "icon": "minecraft:slime_block",
+  "category": "lexicon:redstone",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Летающие машины$() — это механизмы, которые перемещают конструкцию из блоков в одном или нескольких направлениях, свободно перемещаясь по воздуху или воде без поддержки. $(br2)Они также могут быть предназначены для переноски $(thing)Player$() и/или других объектов, которые могут ехать в $(thing)Minecart$() или буксироваться $(item)Honey. Блоки$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " R 0R"
+          ],
+          [
+            "PSXPS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:piston[facing=south]",
+          "p": "minecraft:piston[facing=south]",
+          "X": "minecraft:sticky_piston[facing=north]",
+          "R": "minecraft:redstone_block"
+        }
+      },
+      "name": "Простая летающая машина",
+      "text": "Центральный $(item)Sticky Piston$() — это стартер, который нуждается в питании."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "0O",
+            "O "
+          ],
+          [
+            "PS",
+            "Sp"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Двусторонний летательный аппарат",
+      "text": "$(item)Observer$() с каждой стороны запускает машину и контролирует направление полета."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "TRW0"
+          ],
+          [
+            " OXL"
+          ]
+        ],
+        "mapping": {
+          "T": "minecraft:iron_trapdoor[facing=north,half=bottom]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "R": "minecraft:repeater[facing=south,delay=2]",
+          "O": "minecraft:observer[facing=north]",
+          "X": "minecraft:obsidian",
+          "L": "minecraft:lever[face=wall,facing=south]"
+        }
+      },
+      "name": "Док летающие машины",
+      "text": "Требуется, чтобы остановить $(thing)летающие машины$() или изменить направление их полета."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "0O",
+            "O ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  "
+          ],
+          [
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            "PS",
+            "Sp",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S "
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Сбор урожая Летающая машина",
+      "text": "Эта машина с выходными отверстиями может использоваться, например, для уборки урожая. $(item)Бамбуковые$() фермы"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/flying_machine_harvester.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_1.png"
+      ],
+      "border": true
+    }
+  ]
+}

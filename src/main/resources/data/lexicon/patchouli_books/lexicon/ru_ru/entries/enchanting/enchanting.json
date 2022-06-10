@@ -1,0 +1,39 @@
+{
+  "name": "Чары",
+  "icon": "minecraft:enchanting_table",
+  "category": "lexicon:enchanting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Есть несколько способов зачарования предметов:$() $(li)Через $(item)Стол зачарования$() в обмен на очки опыта и $(item)Лазурит$(). Только незачарованные предметы могут быть зачарованы таким образом. $(li)Через $(item)Наковальню$(), объединяя $(item)Зачарованную книгу$() с предметом. $(li)Через $(item)Anvil$(), объединяя два одинаковых предмета с разными существующими чарами в один предмет, который имеет чары обоих. $(li)Через библиотекаря $(thing)Villager$(), который может зачаровать $(item)Books$() соответственно на изумруды вместо $(item)Lapis Lazuli$() и опыта."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanting_table",
+      "text": "Предмет можно зачаровать, используя $(item)Таблицу зачарования$() и поместив предмет во входные слоты и 1–3 $(item)Лазурита$() в выделенный слот. После размещения предмета справа появляются три случайных варианта зачарования."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Increasing the level",
+      "text": "Чтобы повысить уровень зачарования, $(item)Книжные полки$() можно разместить рядом со $(item)Столом для зачарования$(), оставив между ними один блок воздуха. $(br2)Единственные доступные варианты имеют требование уровня, равное или ниже текущего уровня игрока, и требование $(item)Lapis Lazuli$(), равное или меньше количества лазуритов, размещенных в таблице."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/enchanting_table.png",
+        "lexicon:textures/pictures/enchanting.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:book",
+      "recipe2": "minecraft:bookshelf"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Монстр - Гаст",
+  "icon": "minecraft:ghast_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 10 $(br)> $(n)Урон от атаки:$() $(br)удар: 6, $(br)взрыв: 9 на легком, 17 на обычном, 25 на жесткий $(br)> $(n)Поведение:$() Враждебный $(br)> $(n)Создание:$() Пустота $(br)> $(n)Свойства:$() $(br)$(thing)Ghasts$() можно поджечь, но $(item)Fire$() или $(item)Lava$() не причинят им вреда. Они стреляют огненными шарами."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ghast",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-1 Ghast Tear, ß-2 Порох $(br)$(n)XP:$() 5"
+    }
+  ]
+}

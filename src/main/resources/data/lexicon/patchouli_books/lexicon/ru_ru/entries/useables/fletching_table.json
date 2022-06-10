@@ -1,0 +1,17 @@
+{
+  "name": "Таблица оперения",
+  "icon": "minecraft:fletching_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:fletching_table",
+      "text": "$(item)Fletching Table$() – это блок сайта $(thing)Fletcher's$(), который может естественным образом генерироваться в деревнях. $(br2)The $(item)Fletching Table$() используется для превращения безработного $(thing)Viller$() в $(thing)Fletcher$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fletching_table",
+      "title": " "
+    }
+  ]
+}

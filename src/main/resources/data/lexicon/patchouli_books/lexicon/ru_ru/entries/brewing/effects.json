@@ -1,0 +1,12 @@
+{
+  "name": "Последствия",
+  "icon": "minecraft:blaze_powder",
+  "category": "lexicon:brewing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вскоре!"
+    }
+  ]
+}

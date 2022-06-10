@@ -1,0 +1,50 @@
+{
+  "name": "Миф - Хиробрин",
+  "icon": "minecraft:charcoal",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() ? $(br)> $(n)Урон от атаки:$() ? $(br)> $(n)Поведение:$() Враждебное $(br)> $(n)Создание:$() Неизвестно $(br)> $(n)Свойства:$() $(br)$(thing)Herobrine$() считается мертвым братом $(thing)Notch$(), каким-то образом встроенным в Minecraft. $(br2)У него ярко-белые глаза, которые светятся в темноте, и он может держать $(item)Инструменты$() и $(item)Оружие$(), которые наносят огромный урон."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/herobrine.png"
+      ],
+      "border": false,
+      "text": "$(n)Капли:$() ? $(br)$(n)Опыт:$() ?"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " F ",
+            " 0 "
+          ],
+          [
+            " T ",
+            "TNT",
+            " T "
+          ],
+          [
+            "GGG",
+            "GXG",
+            "GGG"
+          ]
+        ],
+        "mapping": {
+          "G": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch",
+          "N": "minecraft:netherrack",
+          "F": "minecraft:fire",
+          "X": "minecraft:soul_sand"
+        }
+      },
+      "name": "Святилище Херобрина",
+      "text": "Легенды гласят, что это святилище называется $(thing)Herobrine$()."
+    }
+  ]
+}

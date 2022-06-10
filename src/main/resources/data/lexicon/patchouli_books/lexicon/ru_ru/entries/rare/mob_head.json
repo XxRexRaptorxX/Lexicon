@@ -1,0 +1,27 @@
+{
+  "name": "Головы мобов",
+  "icon": "minecraft:creeper_head",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "text": "$(thing)Скелет-иссушитель$() имеет 2,5% шанс получить $(item)Череп скелета-иссушителя$() при убийстве $(вещью)Игроком$(). $(br2)Шанс увеличивается на 1% за каждый уровень мародерства."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:creeper_head",
+      "text": "$(thing)Skeleton$(), $(thing)Wither Skeleton$(), $(thing)Zombie$() и $(thing)Creeper$() $(item)Heads$() также всегда выпадают соответствующий моб, если он умирает из-за взрыва $(thing)Charged Creeper’s$(). $(br2)Ношение соответствующей головы моба уменьшает дальность обнаружения до 50% от нормальной дальности."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_head",
+      "text": "$(item)Dragon Heads$() генерируются на $(thing)End Ships$(), найденных в $(thing)End Cities$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:player_head",
+      "text": "$(item)Player Heads$() не может использоваться дополнительно для создателей карт, им могут быть предоставлены данные NBT, чтобы они отображались со скином любой учетной записи Minecraft. Но они не могут быть достигнуты в выживании по умолчанию."
+    }
+  ]
+}

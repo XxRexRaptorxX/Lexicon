@@ -1,0 +1,17 @@
+{
+  "name": "Водное животное - Черепаха",
+  "icon": "minecraft:turtle_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 30 $(br)> $(n)Урон от атаки:$() 0 $(br)> $(n)Поведение:$() Пассив $(br)> $(n)Создание:$() Пляж $(br)> $(n)Размножение:$() Морская трава $(br)> $(n)Свойства:$() $(br)Откладывает яйца, которые можно собрать с помощью $(вещи)Шелковое прикосновение$(). $(thing)Baby Turtles$() роняют $(item)Scute$(), когда становятся взрослыми."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:turtle",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Seagrass, 1 Bowl, если убит ударом молнии $(n)XP:$() 1-3"
+    }
+  ]
+}

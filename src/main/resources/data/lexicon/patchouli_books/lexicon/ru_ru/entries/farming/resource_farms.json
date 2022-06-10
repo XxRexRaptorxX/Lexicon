@@ -1,0 +1,68 @@
+{
+  "name": "Ресурсные фермы",
+  "icon": "minecraft:bamboo",
+  "category": "lexicon:farming",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта простая ферма использует свойство, которое $(item)Cactus$() ломает и отбрасывает, когда касается другого блока. $(br2)Капли затем подаются в $(item)Hopper$() с помощью $(item)Water$(). $(br2)$(item)Hopper$() затем переносит предметы в $(item)Chest$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_cactus_farm_1.png",
+        "lexicon:textures/pictures/auto_cactus_farm_2.png",
+        "lexicon:textures/pictures/auto_cactus_farm_3.png"
+      ],
+      "border": true,
+      "title": "Auto Cactus Farm"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Auto Sugarcane Farm",
+      "text": "Эта ферма может полностью автоматически собирать $(item)Bamboo$() и $(item)Sugar Cane$(). $(br2)Когда $(item)Наблюдатели$() понимают, что перед ними что-то выросло, $(item)Поршни$() внизу уничтожают растение, а $(item)Вода$() переносит капли в $(item)Хоппер$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_3.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Bigger Auto Bamboo Farm",
+      "text": "Здесь вместо $(item)Water$() для сбора предметов используется $(item)Hopper Minecart$(), это более эффективно и обычно имеет больше смысла на больших фермах."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_double_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_3.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Flying Machine Bamboo Farm",
+      "text": "Если есть большие площади, которые необходимо обработать, лучше всего использовать $(thing)Flying Machine$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_1.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_2.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_3.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_4.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

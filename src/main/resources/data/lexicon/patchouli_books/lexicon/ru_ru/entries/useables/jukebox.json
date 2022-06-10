@@ -1,0 +1,17 @@
+{
+  "name": "Музыкальный автомат",
+  "icon": "minecraft:jukebox",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:jukebox",
+      "text": "$(item)Jukebox$() — это блок, используемый для воспроизведения $(item)Music Discs$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox",
+      "title": " "
+    }
+  ]
+}

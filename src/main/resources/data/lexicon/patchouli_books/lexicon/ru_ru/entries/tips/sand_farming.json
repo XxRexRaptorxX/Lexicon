@@ -1,0 +1,18 @@
+{
+  "name": "Быстрое земледелие в песке",
+  "icon": "minecraft:sand",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Гравитационные блоки, такие как $(item)Sand$() или $(item)Gravel$(), можно быстро обработать в больших количествах, разбив нижний блок, а затем $(n)quickly$() установив $(item) Факел$(). $(br2)Это приводит к падению всех падающих блоков."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/sand_farming.png"
+      ],
+      "border": true
+    }
+  ]
+}

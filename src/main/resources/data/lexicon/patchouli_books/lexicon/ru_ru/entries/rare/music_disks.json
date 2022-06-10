@@ -1,0 +1,16 @@
+{
+  "name": "Музыкальные диски",
+  "icon": "minecraft:music_disc_11",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_13",
+      "text": "Большинство дисков выпадают из $(thing)Creeper$() при убийстве любым $(thing)Skeleton$() или $(thing)Stray$() или генерируются как сундуки. $(br2)Музыкальные диски $(item)$() можно проигрывать на $(item)Jukebox$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox"
+    }
+  ]
+}

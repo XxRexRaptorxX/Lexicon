@@ -1,0 +1,111 @@
+{
+  "name": "Плавка",
+  "icon": "minecraft:furnace",
+  "category": "lexicon:mining",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Есть несколько видов топлива, которые можно использовать для плавки предметов. $(br)Тип топлива, который следует использовать, зависит от количества рассматриваемых предметов. $(br2)$(n)Разные типы плавильных печей:$() $(li)$(l)Печь$() плавит все возможные предметы $(li)$(l)Доменная печь$() плавит только руду, но в два раза быстрее и меньше на выходе $(li)$(l)Smoker$() плавит только еду, но в два раза быстрее и меньше на выходе"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fuel_chart_1.png",
+        "lexicon:textures/pictures/fuel_chart_2.png"
+      ],
+      "border": false,
+      "text": "$(l)Smelt/Fuel Item$() = Сколько предметов выплавляется с 1 топливом $(br2)$(l)Fuel for 1 Stack Items$() = Сколько топлива необходимо для 64 предметов (1 Stack)"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_smelter_1.png"
+      ],
+      "border": true,
+      "title": "Auto-Smelter"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " C "
+          ],
+          [
+            " hC"
+          ],
+          [
+            "0FH"
+          ],
+          [
+            "CH "
+          ]
+        ],
+        "mapping": {
+          "F": "minecraft:furnace[facing=north]",
+          "H": "minecraft:hopper[enabled=true,facing=north]",
+          "h": "minecraft:hopper[enabled=true]",
+          "C": "minecraft:chest[facing=north]"
+        }
+      },
+      "name": ""
+    },
+
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/super_smelter_1.png",
+        "lexicon:textures/pictures/super_smelter_2.png"
+      ],
+      "border": true,
+      "title": "Super Smelter",
+      "text": "Лучший способ переплавить много руд после майнинга."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "            ",
+            "cC          ",
+            "            "
+          ],
+          [
+            "cCX      X  ",
+            "OrrrRRRRrrrO",
+            "            "
+          ],
+          [
+            "OrrrRRRRrrrO",
+            " hhhhhhhhhh ",
+            "     0      "
+          ],
+          [
+            " HHHHHHHHHH ",
+            " FFFFFFFFFF ",
+            "            "
+          ],
+          [
+            "            ",
+            " HYYYYYYYYY ",
+            "cC          "
+          ]
+        ],
+        "mapping": {
+          "F": "minecraft:furnace[facing=east]",
+          "R": "minecraft:rail[shape=north_south]",
+          "r": "minecraft:powered_rail[shape=north_south,powered=true]",
+          "H": "minecraft:hopper[enabled=true,facing=east]",
+          "Y": "minecraft:hopper[enabled=true,facing=north]",
+          "h": "minecraft:hopper[enabled=true]",
+          "O": "minecraft:cobblestone",
+          "X": "minecraft:redstone_block",
+          "C": "minecraft:chest[facing=east,type=right]",
+          "c": "minecraft:chest[facing=east,type=left]"
+        }
+      },
+      "title": " "
+    }
+  ]
+}

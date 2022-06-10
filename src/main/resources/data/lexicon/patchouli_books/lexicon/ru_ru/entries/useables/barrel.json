@@ -1,0 +1,17 @@
+{
+  "name": "Бочка",
+  "icon": "minecraft:barrel",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrel",
+      "text": "$(item)Barrel$() — это блок сайта $(thing)Fisherman's$(), используемый для хранения предметов. $(br2)Он функционирует как одиночный $(item)Cундук$(), хотя для его открытия не требуется воздушного пространства над ним."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:barrel",
+      "title": " "
+    }
+  ]
+}

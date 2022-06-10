@@ -1,0 +1,24 @@
+{
+  "name": "Пакеты текстур",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пакеты текстур являются наиболее распространенными пакетами ресурсов $(thing)$(), они меняют внешний вид игры с помощью других текстур, а иногда и новых моделей блоков/предметов. $(br2)Эти пакеты можно складывать друг в друга $(br)$(li)$(thing)Паки текстур$() можно размещать в папке $(l)resourcepacks$() внутри $(l).minecraft$() папка."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/texturepack_1.png",
+        "lexicon:textures/pictures/texturepack_2.png",
+        "lexicon:textures/pictures/texturepack_3.png",
+        "lexicon:textures/pictures/texturepack_4.png",
+        "lexicon:textures/pictures/texturepack_5.png"
+      ],
+      "border": true,
+      "text": "$(li)Вы можете найти новые пакеты $(l:https://www.curseforge.com/minecraft/texture-packs)здесь$()"
+    }
+  ]
+}

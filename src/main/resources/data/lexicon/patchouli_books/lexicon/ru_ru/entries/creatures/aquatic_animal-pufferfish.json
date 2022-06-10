@@ -1,0 +1,17 @@
+{
+  "name": "Водное животное - рыба-фугу",
+  "icon": "minecraft:pufferfish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 3 $(br)> $(n)Урон от атаки:$() 2-3 + 2 яд, 3-4,5 на высокой сложности + 4 яд $(br)> $(n) Поведение:$() В основном пассивное $(br)> $(n)Создание:$() Теплые океаны $(br)> $(n)Свойства:$() $(br)Можно поймать $(предметом) Ведро$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pufferfish",
+      "scale": "1",
+      "text": "$(n)Drops:$() 1 Иглобрюх, 5% шанс получить Bone Meal $(n)XP:$() 1-3"
+    }
+  ]
+}

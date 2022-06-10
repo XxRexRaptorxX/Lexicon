@@ -1,0 +1,16 @@
+{
+  "name": "Дыхание дракона",
+  "icon": "minecraft:dragon_breath",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_breath",
+      "text": "$(item)Dragon's Breath$() можно получить, подобрав $(thing)Ender Dragon's$() дыхательную атаку или фиолетовые облака эффекта, вызванные драконьими огненными шарами в $(item)Empty Bottle$(). $(br2)$(item)Дыхание дракона$() — это пивоваренный предмет, который используется для приготовления $(item)Затяжных зелий$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle"
+    }
+  ]
+}

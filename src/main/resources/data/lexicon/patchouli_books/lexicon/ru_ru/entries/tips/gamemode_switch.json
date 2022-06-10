@@ -1,0 +1,19 @@
+{
+  "name": "Быстрое переключение режима игры",
+  "icon": "minecraft:grass_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если вы хотите изменить игровой режим в игре, есть более быстрый способ, чем команда $(thing)/gamemode$(): $(br2)$(thing)F3$() + $(thing)F4$() открывает меню переключения игровых режимов. $(br2)Удерживая нажатой $(thing)F3$(), $(thing)Player$() может переключаться между игровыми режимами, нажимая $(thing)F4$(), и переходить в выбранный игровой режим после отпускания $(thing)F3$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/gamemode_switch.png"
+      ],
+      "border": true,
+      "text": "Для этого вам потребуются права оператора."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Урон магматических блоков",
+  "icon": "minecraft:magma_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Магматические блоки$() наносят урон большинству живых существ, стоящих на них, даже если они находятся под водой. $(br2)$(thing)Player$() может избежать любого урона, крадясь, находясь под эффектом $(thing)Сопротивление огню$() или надевая $(thing)Frost Walker$() $(item) Сапоги$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/magma_sneak_1.png",
+        "lexicon:textures/pictures/magma_sneak_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

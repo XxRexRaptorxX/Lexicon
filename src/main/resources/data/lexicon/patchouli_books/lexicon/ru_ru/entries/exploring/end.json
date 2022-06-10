@@ -1,0 +1,21 @@
+{
+  "name": "Завершить исследование",
+  "icon": "minecraft:end_stone",
+  "category": "lexicon:exploring",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот некоторые важные предметы, которые вы всегда должны иметь при себе в своем приключении в $(thing)End$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

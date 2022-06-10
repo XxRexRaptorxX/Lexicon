@@ -1,0 +1,17 @@
+{
+  "name": "Сундук Эндера",
+  "icon": "minecraft:ender_chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ender_chest",
+      "text": "$(item)Ender Chests$() — это тип $(item)Chest$(), содержимое которого является эксклюзивным для каждого $(thing)Player$() и может быть доступно из любой точки мира."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ender_chest",
+      "title": " "
+    }
+  ]
+}

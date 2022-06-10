@@ -1,0 +1,19 @@
+{
+  "name": "Элементы поддержки",
+  "icon": "minecraft:shield",
+  "category": "lexicon:combat",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В дополнение к оружию вам также понадобятся другие предметы, которые облегчат вам жизнь в интенсивных боях: $(br)$(li)Еда $(li)Броня $(li)Щит $(li)Зелья $(li)Жемчуг Края $(li) Тотем бессмертия"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/combat_equipment.png"
+      ],
+      "border": false
+    }
+  ]
+}

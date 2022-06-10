@@ -1,0 +1,17 @@
+{
+  "name": "Человек - грабитель",
+  "icon": "minecraft:pillager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 24 $(br)> $(n)Урон от атаки:$() $(br)Дальний бой: 3-4 на легком, 4 на обычном, 4-5 на сложном $(br))Ближний бой: 2 на легком, 3 на обычном, 5 на сложном (br)> $(n)Properties:$() $(br)$(thing)Pillagers$() — это $(thing)Illagers$(), которые патрулируют $(thing)Overworld$(), охраняют свои аванпосты, и участвовать в рейдах, иногда появляясь на $(thing)Ravagers$() в более поздних волнах деревенского рейда."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pillager",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 8,5% для арбалета, 1 Зловещее знамя, если создан как капитан $(br)$(n)XP:$() 5-17"
+    }
+  ]
+}

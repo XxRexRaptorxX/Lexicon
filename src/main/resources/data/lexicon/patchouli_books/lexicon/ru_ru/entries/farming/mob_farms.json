@@ -1,0 +1,26 @@
+{
+  "name": "Мобильные фермы",
+  "icon": "minecraft:skeleton_skull",
+  "category": "lexicon:farming",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта классическая универсальная ферма не фокусируется на каких-то конкретных монстрах. Это позволяет им появляться, которые затем выталкиваются из воды в яму, где их убивают с помощью $(item)Magma Blocks$(). $(br)Дропы затем транспортируются в $(item)сундук$() с помощью $(item)Hopper Minecart$(). $(br2)$(n)Несколько вещей, на которые следует обратить внимание:$() $(li)Место возрождения должно быть темным. $(li)Сделайте место возрождения высотой всего в 2 блока, чтобы предотвратить $(thing)Enderman$() от нереста $(li)Сделайте рвы шириной не менее 2-3 блоков, чтобы $(thing)Пауки$() их не блокировали"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/classic_mob_farm_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_2.png",
+        "lexicon:textures/pictures/classic_mob_farm_3.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_2.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно бесконечно расширять вниз.",
+      "title": "Classic Mob Farm"
+    }
+
+  ]
+}

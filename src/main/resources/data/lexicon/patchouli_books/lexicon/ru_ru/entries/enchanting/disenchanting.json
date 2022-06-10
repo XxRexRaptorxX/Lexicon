@@ -1,0 +1,24 @@
+{
+  "name": "Распыление",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:enchanting",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "Единственный способ распылить предметы — использовать $(item)Grindstone$() или ремонтировать предметы через сетку крафта. $(br2)Использование $(item)Grindstone$() снимает все чары (кроме проклятий) и возвращает опыт в зависимости от уровня чар(ов) и их значения."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/disenchanting.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone"
+    }
+  ]
+}

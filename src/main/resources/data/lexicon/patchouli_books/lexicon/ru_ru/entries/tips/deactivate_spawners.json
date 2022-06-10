@@ -1,0 +1,19 @@
+{
+  "name": "Деактивировать генераторы",
+  "icon": "minecraft:spawner",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы никогда не должны майнить $(item)Spawners$(), они все еще могут быть очень полезны, например. ловушки для мобов или просто фарм. $(br2)Вместо этого попробуйте деактивировать их светом. $(br)Просто поместите $(item)Torch$() или что-то подобное в $(item)Spawner$(). $(br2)Только $(thing)Blaze$() и $(thing)Silverfish$() $(item)Spawners$() нужно намного больше света в области, чтобы отключить его."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/spawner_1.png",
+        "lexicon:textures/pictures/spawner_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

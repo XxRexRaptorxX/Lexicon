@@ -1,0 +1,85 @@
+{
+  "name": "Поведение Редстоуна",
+  "icon": "minecraft:redstone",
+  "category": "lexicon:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Redstone Wire$() может передавать энергию, которая может использоваться для управления компонентами механизма (дверями, поршнями и т. д.). $(br2)Уровень мощности падает на 1 за каждый блок $(item)Redstone Wire$(), который он пересекает. $(br2)Таким образом, провод может передавать мощность не более чем на $(n)15 блоков$(). $(br)Чтобы идти дальше, уровень силы должен быть повторно усилен – обычно с помощью $(item)Repeater$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_wires.png",
+        "lexicon:textures/pictures/redstone_wire_length.png"
+      ],
+      "border": true,
+      "text": "Примеры конфигураций проводов из красного камня."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_1.png"
+      ],
+      "border": false,
+      "text": "На следующих страницах показано, как различные компоненты красного камня передают свои сигналы."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_2.png"
+      ],
+      "border": false,
+      "text": "Настенный рычаг"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_3.png"
+      ],
+      "border": false,
+      "text": "Редстоун Провода"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_4.png"
+      ],
+      "border": false,
+      "text": "Репитер на стену"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_5.png"
+      ],
+      "border": false,
+      "text": "Постоянный факел"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_6.png"
+      ],
+      "border": false,
+      "text": "Настенный факел"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_7.png"
+      ],
+      "border": false,
+      "text": "Настенный рычаг"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_8.png"
+      ],
+      "border": false,
+      "text": "Факелы из красного камня меняют состояние при включении."
+    }
+  ]
+}

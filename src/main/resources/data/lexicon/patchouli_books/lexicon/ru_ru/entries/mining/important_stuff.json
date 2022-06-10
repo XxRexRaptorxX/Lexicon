@@ -1,0 +1,19 @@
+{
+  "name": "Важные вещи для майнинга!",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "lexicon:mining",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот некоторые важные предметы, которые вы всегда должны иметь при себе в горнодобывающем туре!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_equipment.png"
+      ],
+      "border": true
+    }
+  ]
+}
