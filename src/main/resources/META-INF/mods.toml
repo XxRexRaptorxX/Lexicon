@@ -11,7 +11,7 @@ itemIcon="minecraft:written_book"
 updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/lexicon"
 logoFile="logo.png"
-credits="The Minecraft Wiki for some graphics and informations"
+credits="The Minecraft Wiki for some graphics and informations, Translators: pandim"
 authors="XxRexRaptorxX (RexRaptor)"
 description='''
 This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!
