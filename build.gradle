@@ -16,7 +16,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.1'
+version = '1.1.0'
 group = 'xxrexraptorxx.lexicon.main' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lexicon'
 
@@ -26,8 +26,8 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
 
-    //mappings channel: 'official', version: '1.18.1'
-    mappings channel: 'parchment', version: '2022.03.13-1.18.2'
+    mappings channel: 'official', version: '1.19'
+    //mappings channel: 'parchment', version: '2022.03.13-1.18.2'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -133,13 +133,16 @@ repositories {
 
 dependencies {
 
-    minecraft 'net.minecraftforge:forge:1.18.2-40.0.44'
+    minecraft 'net.minecraftforge:forge:1.19-41.0.35'
 
-    compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.5.174:api")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.5.174")
+    compileOnly fg.deobf("mezz.jei:jei-1.19-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-1.19-forge-api:${jei_version}")
+    // at runtime, use the full JEI
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19-common:${jei_version}")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19-forge:${jei_version}")
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-67:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-67")
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
