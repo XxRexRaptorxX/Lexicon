@@ -1,0 +1,17 @@
+{
+  "name": "Recovery Compass",
+  "icon": "minecraft:recovery_compass",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:recovery_compass",
+      "text": "A $(item)Recovery Compass$() is an item used to point to the location of the $(thing)Player's$() last death."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:recovery_compass",
+      "text": "$(br)The rare $(item)Echo Shards$() can be found in $(thing)Ancient Cities$()."
+    }
+  ]
+}

@@ -214,6 +214,17 @@
       "border": false,
       "title": "Iceberg",
       "text": "$(n)Locations:$() Frozen Ocean $(br)$(n)Rarity:$() Uncommon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ancient_city.png"
+      ],
+      "border": true,
+      "title": "Ancient City",
+      "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare"
     }
+
+
   ]
 }

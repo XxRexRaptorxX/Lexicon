@@ -1,0 +1,17 @@
+{
+  "name": "Boss - Warden",
+  "icon": "minecraft:warden_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 500$(br)> $(n)Attack Damage:$() $(br)16 on easy, 30 on normal, 45 on hard$(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When naturally generated $(item)Sculk Shriekers$() activates 4 times $(br)> $(n)Properties:$() $(br)$(thing)Wardens$() are completely blind and wander randomly around the world after spawning. $(br)They are immune to $(item)Fire$() and $(item)Lava$() damage, and are not affected by $(thing)Knockback$(). $(br)Nearby vibrations agitate the $(thing)Warden$(), and it moves toward where the sound originated. $(br)They can spread out $(thing)Darkness Effects$() and sniff the area around it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:warden",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 Sculk Catalyst   $(br)$(n)XP:$() 5"
+    }
+  ]
+}

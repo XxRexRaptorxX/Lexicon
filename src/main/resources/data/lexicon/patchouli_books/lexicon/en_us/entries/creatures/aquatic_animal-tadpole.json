@@ -1,0 +1,17 @@
+{
+  "name": "Aquatic Animal - Tadpole",
+  "icon": "minecraft:tadpole_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 6 $(br)> $(n)Attack Damage:$() 0 $(br)> $(n)Behavior:$() Passive $(br)> $(n)Spawn:$() from Frogspawn $(br)> $(n)Properties:$() $(br)$(thing)Tadpoles$() follow a $(thing)Player$() that is holding a $(item)Slimeball$().$(br2)$(thing)Tadpoles$() grows up into one of the variants of a $(thing)Frog$() depending on the biome. $(br2)Its growth may be accelerated by feeding it $(item)Slimeballs$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tadpole",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() - $(br)$(n)XP:$() 0"
+    }
+  ]
+}

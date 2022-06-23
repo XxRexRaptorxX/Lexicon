@@ -10,7 +10,8 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "minecraft:jukebox"
+      "recipe": "minecraft:music_disc_5",
+      "recipe2": "minecraft:jukebox"
     }
   ]
 }

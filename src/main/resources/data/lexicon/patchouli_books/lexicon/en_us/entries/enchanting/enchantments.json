@@ -187,9 +187,12 @@
       "type": "patchouli:text",
       "title": "Unbreaking",
       "text": "$(n)Effect:$() $(br)Reduces durability damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() $(br)All common tools, weapons, armor  $(br2)$(n)Secondary Items:$() All other items with durability $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Swift Sneak",
+      "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
     }
-
-
 
   ]
 }

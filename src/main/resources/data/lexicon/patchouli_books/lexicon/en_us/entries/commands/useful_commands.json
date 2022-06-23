@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l)/help$() provides a list of all commands$(br2)$(l)/help <command>$() shows usages of selected command  $(br2)$(l)/clear$() clears all items in the inventory$(br2)$(l)/gamemode$() changes your gamemode $(br2)$(l)/gamerule sets a gamerule $(br2)$(l)/xp$() add or remove xp  $(br2)$(l)/kill$() kills entities  $(br2)$(l)/locate$() Locates the closest structure  $(br2)$(l)/locatebiome$() locates the closest biome"
+      "text": "$(l)/help$() provides a list of all commands$(br2)$(l)/help <command>$() shows usages of selected command  $(br2)$(l)/clear$() clears all items in the inventory$(br2)$(l)/gamemode$() changes your gamemode $(br2)$(l)/gamerule sets a gamerule $(br2)$(l)/xp$() add or remove xp  $(br2)$(l)/kill$() kills entities  $(br2)$(l)/locate$() Locates the closest structure, biome or point of interest"
     },
     {
       "type": "patchouli:text",

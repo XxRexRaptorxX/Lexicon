@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Allay",
+  "icon": "minecraft:allay_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Villager Outpost, Mansion $(br)> $(n)Properties:$() $(br)The $(thing)Allay$() wanders around until a $(thing)Player$() gives it an item with their use key. $(br)It starts following the $(thing)Player$(), seeking out dropped versions of the same item and delivering them to it's owner. $(br)If it hears a $(item)Note Block$() play, it spends 30 seconds around that particular note block, seeking items around it and returning them."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:allay",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -  $(br)$(n)XP:$() 0"
+    }
+  ]
+}

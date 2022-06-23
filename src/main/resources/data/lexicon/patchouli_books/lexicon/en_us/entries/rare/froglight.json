@@ -1,0 +1,22 @@
+{
+  "name": "Froglight",
+  "icon": "minecraft:verdant_froglight",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:pearlescent_froglight",
+      "text": "A $(item)Froglight$() is a luminous natural block that can be obtained if a $(thing)Frog$() eats a tiny $(thing)Magma Cube$(). $(br2)It is used for decoration."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ochre_froglight",
+      "text": "There are three colors of $(thing)Froglight$() that drop depending the type of frog: $(br)$(li)$(n)Pearlescent$() from warm (white) frogs $(br)$(li)$(n)Verdant$() from cold (green) frogs $(br)$(li)$(n)Ochre$() from temperate (orange) frogs"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:verdant_froglight",
+      "text": "They emit light level 15, the highest level possible for a light-emitting block."
+    }
+  ]
+}
