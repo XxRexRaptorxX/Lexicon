@@ -51,7 +51,7 @@
     },    {
       "type": "patchouli:text",
       "title": "Mining Fatigue",
-      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Decreases mining and attack speed, higher levels decrease the mining and attack speed."
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases mining and attack speed, higher levels decrease the mining and attack speed."
     },
     {
       "type": "patchouli:image",
