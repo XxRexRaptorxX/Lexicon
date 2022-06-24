@@ -147,7 +147,7 @@
     {
       "type": "patchouli:text",
       "title": "Fire Resistance",
-      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Prevents the affected entity from taking damage due to fire, lava and other sources of fire damage."
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Prevents the affected entity from taking damage due to $(item)Fire$(), $(item)Lava$() and other sources of fire damage."
     },
     {
       "type": "patchouli:image",
@@ -206,7 +206,7 @@
     {
       "type": "patchouli:text",
       "title": "Hunger",
-      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Increases food exhaustion, higher levels cause the player to starve quicker."
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Increases food exhaustion, higher levels cause the $(thing)Player$() to starve quicker."
     },
     {
       "type": "patchouli:image",
