@@ -1,0 +1,26 @@
+{
+  "name": "Suspicious Stew",
+  "icon": "minecraft:suspicious_stew",
+  "category": "lexicon:brewing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Another way to get items with effects besides brewing are $(item)Suspicious Stews$(). $(br2)They are food items that can give the $(thing)Player$() a status effect that depends on the flower used to craft it."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/suspicious_stew_recipe.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/suspicious_stew_ingredients.png"
+      ],
+      "border": false
+    }
+  ]
+}
