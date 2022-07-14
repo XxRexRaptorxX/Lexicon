@@ -11,13 +11,18 @@ public class Config {
     public static final String CATEGORY_GENERAL = "general";
 
     public static ForgeConfigSpec CLIENT_CONFIG;
+    public static ForgeConfigSpec SERVER_CONFIG;
 
     public static ForgeConfigSpec.BooleanValue UPDATE_CHECKER;
+    public static ForgeConfigSpec.BooleanValue PATREON_REWARDS;
 
     public static void init() {
         initClient();
+        initServer();
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, CLIENT_CONFIG);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, SERVER_CONFIG);
+
     }
 
 
@@ -31,5 +36,15 @@ public class Config {
         CLIENT_CONFIG = builder.build();
     }
 
+
+    public static void initServer() {
+        ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
+
+        builder.comment("General").push(CATEGORY_GENERAL);
+        PATREON_REWARDS = builder.comment("Enables ingame rewards on first spawn for Patreons").define("patreon_rewards", true);
+        builder.pop();
+
+        SERVER_CONFIG = builder.build();
+    }
 
 }
