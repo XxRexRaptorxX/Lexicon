@@ -12,6 +12,39 @@
       "entity": "minecraft:llama",
       "scale": "0.5",
       "text": "$(n)Drops:$() 0-2 Leather  $(n)XP:$() 1-3"
-    }
-  ]
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama{ChestedHorse:1}",
+      "scale": "0.5",
+      "name": "Llama with Chest"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama{Variant:3}",
+      "scale": "0.5",
+      "name": "Gray Llama",
+      "text": "Variant ID: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama{Variant:2}",
+      "scale": "0.5",
+      "name": "Brown Llama",
+      "text": "Variant ID: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama{Variant:1}",
+      "scale": "0.5",
+      "name": "White Llama",
+      "text": "Variant ID: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama{Variant:0}",
+      "scale": "0.5",
+      "name": "Creamy Llama",
+      "text": "Variant ID: 0"
+      ]
 }
