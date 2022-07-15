@@ -12,6 +12,71 @@
       "entity": "minecraft:cat",
       "scale": "0.5",
       "text": "$(n)Drops:$() 0-2 Strings  $(n)XP:$() 1-3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:tabby}",
+      "scale": "0.5",
+      "name": "Tabby Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:black}",
+      "scale": "0.5",
+      "name": "Black Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:red}",
+      "scale": "0.5",
+      "name": "Red Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:siamese}",
+      "scale": "0.5",
+      "name": "Siamese Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:british_shorthair}",
+      "scale": "0.5",
+      "name": "British Shorthair Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:calico}",
+      "scale": "0.5",
+      "name": "Calico Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:persian}",
+      "scale": "0.5",
+      "name": "Persian Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:ragdoll}",
+      "scale": "0.5",
+      "name": "Ragdoll Cat"
+    },    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:white}",
+      "scale": "0.5",
+      "name": "White Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:jellie}",
+      "scale": "0.5",
+      "name": "Jellie Cat"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cat{variant:all_black}",
+      "scale": "0.5",
+      "name": "All Black Cat"
     }
   ]
 }

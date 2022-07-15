@@ -12,6 +12,41 @@
       "entity": "minecraft:axolotl",
       "scale": "0.5",
       "text": "$(n)Drops:$() -  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:4}",
+      "scale": "0.5",
+      "name": "Blue Axolotl",
+      "text": "Variant ID: 4"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:3}",
+      "scale": "0.5",
+      "name": "Cyan Axolotl",
+      "text": "Variant ID: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:2}",
+      "scale": "0.5",
+      "name": "Gold Axolotl",
+      "text": "Variant ID: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:1}",
+      "scale": "0.5",
+      "name": "Wild Axolotl",
+      "text": "Variant ID: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:0}",
+      "scale": "0.5",
+      "name": "Lucy Axolotl",
+      "text": "Variant ID: 0"
     }
   ]
 }

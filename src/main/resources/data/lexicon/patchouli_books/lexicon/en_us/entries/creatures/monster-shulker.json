@@ -9,9 +9,21 @@
     },
     {
       "type": "patchouli:entity",
-      "entity": "minecraft:shulker",
+      "entity": "minecraft:shulker{Peek:16}",
       "scale": "0.5",
       "text": "$(n)Drops:$() 50% for a Shulker Shell$(br)$(n)XP:$() 5"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:9}",
+      "scale": "0.5",
+      "name": "Colored Shulker"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:14}",
+      "scale": "0.5",
+      "name": "Colored Shulker"
     }
   ]
 }
