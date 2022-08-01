@@ -1,11 +1,11 @@
 modLoader="javafml"
-loaderVersion="[41,)"
+loaderVersion="[42,)"
 license="All rights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/lexicon/issues"
 
 [[mods]]
 modId="lexicon"
-version="1.1.1"
+version="1.1.2"
 displayName="Lexicon"
 itemIcon="minecraft:written_book"
 updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon.json"
@@ -20,14 +20,14 @@ This mod adds a lexicon to the game that explains almost every aspect of minecra
 [[dependencies.lexicon]]
     modId="forge"
     mandatory=true
-versionRange="[41.0.98,)"
+versionRange="[42,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.lexicon]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19,1.20)"
+    versionRange="[1.19.1,1.20)"
     ordering="NONE"
     side="BOTH"
 
