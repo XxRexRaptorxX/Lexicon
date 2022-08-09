@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There are multiple fuels that can be used to smelt items. $(br)The type of fuel that should be used depends on the number of items in question. $(br2)$(n)Different types of smelter:$() $(li)$(l)Furnace$() smelts all possible items $(li)$(l)Blast Furnace$() smelts only ores, but twice as fast and fewer output $(li)$(l)Smoker$() smelts only food, but twice as fast and fewer output"
+      "text": "There are multiple fuels that can be used to smelt items. $(br)The type of fuel that should be used depends on the number of items in question. $(br2)$(n)Different types of smelter:$() $(li)$(l)Furnace$() smelts all possible items $(li)$(l)Blast Furnace$() smelts only ores, but twice as fast $(li)$(l)Smoker$() smelts only food, but twice as fast"
     },
     {
       "type": "patchouli:image",
