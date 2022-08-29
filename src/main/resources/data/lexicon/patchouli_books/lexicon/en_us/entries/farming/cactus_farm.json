@@ -1,0 +1,20 @@
+{
+  "name": "Auto Cactus Farm",
+  "icon": "minecraft:cactus",
+  "category": "lexicon:farming",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This simple farm uses the property that $(item)Cactus$() breaks and drops when it touches another block. $(br2)The drops are then fed to a $(item)Hopper$() using $(item)Water$(). $(br2)The $(item)Hopper$() then transports the items to a $(item)Chest$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_cactus_farm_1.png",
+        "lexicon:textures/pictures/auto_cactus_farm_2.png",
+        "lexicon:textures/pictures/auto_cactus_farm_3.png"
+      ],
+      "border": true
+    }
+  ]
+}

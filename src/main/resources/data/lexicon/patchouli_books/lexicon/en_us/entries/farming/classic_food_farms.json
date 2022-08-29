@@ -1,0 +1,20 @@
+{
+  "name": "Classic Food Farms",
+  "icon": "minecraft:bread",
+  "category": "lexicon:farming",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Requirements for most plant-based Farms$(): $(li)Transform $(item)Dirt$() with a $(item)Hoe$() to $(item)Farmland.$() $(br)$(li)$(item)Farmland$() needs a $(item)Water$() source up to 4 blocks away. $(br)$(li)Light is required. $(br)$(li)Many farms require their chunks to be ticked that the state of growth changes. That means a $(thing)Player$() must be nearby (within 128 blocks), or you use a $(item)Chunk Loader$() from a $(thing)Mod$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/food_farm.png"
+      ],
+      "border": true,
+      "text": "The first farm you should always be a simple, classic $(item)Wheat$() or $(item)Vegetable$() farm."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "Exploit Farms",
-  "icon": "minecraft:barrier",
+  "name": "Entity Cramming Farm",
+  "icon": "minecraft:beef",
   "category": "lexicon:farming",
   "sortnum": 5,
   "pages": [
@@ -15,11 +15,6 @@
         "lexicon:textures/pictures/entity_cramming_farm_2.png"
       ],
       "border": true
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Iron Golem Farm",
-      "text": "This farm pretends to the game that a $(thing)Village$() would be generated here. $(br)And thereby constantly spawns new $(item)Iron Golems$() which are then killed for $(item)Iron Ingots$()."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Waterflow Food Farms",
+  "icon": "minecraft:wheat",
+  "category": "lexicon:farming",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "That's still a simple $(n)semi-auto$() farm for crops that can be destroyed by $(item)Water$() (like $(item)Wheat$(), $(item)Potatoes$(), $(item)Carrots$(),...). $(br2)(The glass is to illustrate the construction) $(br)$(li)Flipping the $(item)Lever$() causes the $(item)Pistons$() to lower, allowing $(item)Water$() to flow down over the fields and flushing the drops into a $(item)Hopper$() to a $(item)Chest$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/semi_auto_wheat_farm_1.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_2.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_3.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_4.png"
+      ],
+      "border": true,
+      "text": "This farm can be expanded infinitely downwards.",
+      "title": "Semi-auto Wheat Farm"
+    }
+  ]
+}

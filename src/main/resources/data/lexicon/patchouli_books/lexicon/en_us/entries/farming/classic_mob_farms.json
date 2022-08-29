@@ -1,0 +1,25 @@
+{
+  "name": "Classic Mob Farm",
+  "icon": "minecraft:skeleton_skull",
+  "category": "lexicon:farming",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This farm doesn't focus on any specific monsters. It let them spawn which then pushed from the $(item)Water$() into a pit where they are killed by $(item)Magma Blocks$(). $(br)The drops are then transported into a $(item)Chest$() by a $(item)Hopper Minecart$(). $(br2)$(n)A few things to note:$() $(li)The spawn area has to be dark $(li)Make the spawn are only 2 blocks high to prevent $(thing)Enderman$() from spawning $(li)Make the moats at least 2-3 blocks wide, that $(thing)Spiders$() don't block them"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/classic_mob_farm_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_2.png",
+        "lexicon:textures/pictures/classic_mob_farm_3.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_2.png"
+      ],
+      "border": true,
+      "text": "This farm can be expanded infinitely downwards."
+    }
+
+  ]
+}
