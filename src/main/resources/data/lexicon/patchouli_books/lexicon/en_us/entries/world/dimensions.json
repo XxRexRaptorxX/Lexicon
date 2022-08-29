@@ -40,7 +40,7 @@
     {
       "type": "patchouli:text",
       "title": "The End",
-      "text": "The End is a space-like dimension with floating $(item)End Stone$() islands. It's a barren environment, but it's the only place where some of the most unique and useful items in the game can be obtained $(br) $(li)direct access to the void $(li)home of the Ender Dragon $(li)floating islands of $(item)End Stone$() $(li)big pillars of $(item)Obsidian$() $(li)256 block world height"
+      "text": "The End is a space-like dimension with floating $(item)End Stone$() islands. It's a barren environment, but it's the only place where some of the most unique and useful items in the game can be obtained $(br) $(li)direct access to the void $(li)home of the $(thing)Ender Dragon$() $(li)floating islands of $(item)End Stone$() $(li)big pillars of $(item)Obsidian$() $(li)256 block world height"
     },
     {
       "type": "patchouli:image",
