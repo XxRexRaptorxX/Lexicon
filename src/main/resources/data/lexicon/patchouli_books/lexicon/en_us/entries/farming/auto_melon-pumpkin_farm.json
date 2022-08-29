@@ -2,6 +2,7 @@
   "name": "Auto Melon/Pumpkin Farm",
   "icon": "minecraft:melon_slice",
   "category": "lexicon:farming",
+  "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",

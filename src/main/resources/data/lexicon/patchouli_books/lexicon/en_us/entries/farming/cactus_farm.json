@@ -2,6 +2,7 @@
   "name": "Auto Cactus Farm",
   "icon": "minecraft:cactus",
   "category": "lexicon:farming",
+  "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",

@@ -2,6 +2,7 @@
   "name": "Auto Chicken Farm",
   "icon": "minecraft:cooked_chicken",
   "category": "lexicon:farming",
+  "sortnum": 8,
   "pages": [
     {
       "type": "patchouli:text",

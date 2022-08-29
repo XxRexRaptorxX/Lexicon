@@ -2,6 +2,7 @@
   "name": "Bamboo/SugarCane Farm",
   "icon": "minecraft:bamboo",
   "category": "lexicon:farming",
+  "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
