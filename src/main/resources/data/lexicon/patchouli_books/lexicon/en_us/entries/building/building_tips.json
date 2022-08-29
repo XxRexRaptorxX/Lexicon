@@ -42,6 +42,27 @@
         "lexicon:textures/pictures/building_tip_3.png"
       ],
       "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Step by Step",
+      "text": "$(n)Tip #4:$() $(br)$(li)Don't mix everything up, build step by step."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_step_1.png",
+        "lexicon:textures/pictures/building_step_2.png",
+        "lexicon:textures/pictures/building_step_3.png",
+        "lexicon:textures/pictures/building_step_4.png",
+        "lexicon:textures/pictures/building_step_5.png",
+        "lexicon:textures/pictures/building_step_6.png",
+        "lexicon:textures/pictures/building_step_7.png",
+        "lexicon:textures/pictures/building_step_8.png",
+        "lexicon:textures/pictures/building_step_9.png"
+      ],
+      "border": true
     }
   ]
 }
