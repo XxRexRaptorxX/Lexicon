@@ -237,6 +237,16 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "minecraft:sculk_sensor",
+      "text": "The $(item)Sculk Sensor$() is a block that detects vibrations caused by actions and events, and emits a redstone signal. $(br2)These sensors can also be used to realize wireless redstone mechanics."
+    },
+    {
+      "type": "patchouli:text",
+      "title": " ",
+      "text": "$(item)Sculk Sensors$() generate within the $(thing)Deep Dark$() biome and $(item)Ancient Cities$()."
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "minecraft:command_block",
       "text": "A $(item)Command Block$() is a block that can execute $(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
     },
