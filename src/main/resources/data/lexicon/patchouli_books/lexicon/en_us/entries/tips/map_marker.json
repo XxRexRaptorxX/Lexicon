@@ -17,6 +17,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:map",
+      "recipe2": "minecraft:cartography_table",
       "text": "$(br)If the banner is renamed, the name appears below the marker."
     },
     {

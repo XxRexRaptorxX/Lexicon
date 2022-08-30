@@ -58,7 +58,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stone_button",
-      "text": "When activated, a $(item)Wooden Button$() remains active for 15 redstone ticks (1.5 seconds, barring lag), while a $(item)Stone Button$() remains active for 10 redstone ticks (1 second, barring lag). $(br2)A $(item)Wooden Button$() activated by a fired $(item)Arrow$() or a $(item)Trident$() remains active until the projectile despawns or is picked up."
+      "text": "When activated, a $(item)Wooden Button$() remains active for 15 redstone ticks (1.5s, barring lag), while a $(item)Stone Button$() remains active for 10 redstone ticks (1s, barring lag). $(br2)A $(item)Wooden Button$() activated by a fired $(item)Arrow$() or a $(item)Trident$() remains active until the projectile despawns or is picked up."
     },
     {
       "type": "patchouli:crafting",
