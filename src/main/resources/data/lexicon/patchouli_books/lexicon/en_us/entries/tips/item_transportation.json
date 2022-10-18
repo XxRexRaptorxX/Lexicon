@@ -1,0 +1,107 @@
+{
+  "name": "Item Transportation",
+  "icon": "minecraft:dropper",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Hopper",
+      "text": "By placing a line of $(item)Hoppers$() all pointing into each other, items can be transported in all directions except up. $(br2)On large scale, $(item)Hoppers$() have been known to create lag."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hopper_transportation_1.png",
+        "lexicon:textures/pictures/hopper_transportation_2.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Water streams",
+      "text": "A less iron expensive method is the use of $(item)Water$() streams. This uses the mechanic of dropped items moving in flowing water streams. $(br2)Since $(item)Water$() can only flow 7 blocks from the source, it is usually necessary to use multiple sources. To handle the breaks, a $(item)Packed Ice$() block and $(item)Sign$() can be used. When the items come out of one stream, they will slide across the ice to the next."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_transportation.png"
+      ],
+      "border": true,
+      "text": "Water flowing on $(item)Packed Ice$() or $(item)Blue Ice$() makes the items go faster, reducing the delay."
+    },
+    {
+      "title": "Water elevators",
+      "type": "patchouli:text",
+      "text": "When a $(item)Water$() $(n)source$() is directly above a $(item)Magma Block$(), a whirlpool bubble column is created, going downward from the highest source block. $(br)Anything encountering the bubble column is pulled down, including items, $(item)Boats$(), $(thing)Players$() and mobs. $(br2)And $(item)Soulsand$() do the same thing upwards."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_elevator.png"
+      ],
+      "border": true
+    },
+    {
+      "title": "Rails",
+      "type": "patchouli:text",
+      "text": "Items can also be transported on $(item)Rails$(), they can be transferred into and out of $(item)Minecart with a Chest$() using $(item)Hoppers$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/rail_transportation.png"
+      ],
+      "border": true
+    },
+    {
+      "title": "Dropper",
+      "type": "patchouli:text",
+      "text": "$(item)Dropper$() transportation usually work by having a line of them pointing into each other. $(br2)When the $(item)Droppers$() are powered, items can travel to the next $(item)Dropper$(). $(br2)This works in all directions."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "text": "This design is a self powering item elevator.",
+      "multiblock": {
+        "pattern": [
+          [
+            "C  ",
+            "   "
+          ],
+          [
+            "OX ",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ],
+          [
+            "OX0",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ],
+          [
+            "OX ",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:cobblestone",
+          "C": "minecraft:chest",
+          "O": "minecraft:dropper[facing=up]",
+          ">": "minecraft:comparator[facing=north]",
+          "I": "minecraft:redstone_wall_torch[facing=east,lit=true]",
+          "i": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "_": "minecraft:redstone_wire[east=side,west=side,north=side,south=side,power=15]"
+        }
+      }
+    }
+  ]
+}
