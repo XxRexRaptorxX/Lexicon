@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "To prevent them from overworking themselves as they so often did, prevent them wasting their dreams of life, the godly entities seen in the credits create $(thing)Phantoms$(); taking the souls of those who perished from exhaustion or overworking themselves constantly mining and building without rest. $(br2)The Phantoms attack those who do not sleep enough for this reason, and its why they don't attack with any great power or hostile tactics. They aren't a punishment, just a warning."
+      "text": "To prevent them from overworking themselves as they so often did, prevent them wasting their dreams of life, the godly entities seen in the credits create $(thing)Phantoms$(); taking the souls of those who perished from exhaustion or overworking themselves constantly mining and building without rest. $(br2)The $(thing)Phantoms$() attack those who do not sleep enough for this reason, and its why they don't attack with any great power or hostile tactics. They aren't a punishment, just a warning."
     },
     {
       "type": "patchouli:text",
@@ -34,7 +34,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "But Builders must build, and a relatively small community broke away to form the first $(thing)Villages$(). $(br2)Over years of seclusion and evolution these Builders become $(thing)Villagers$(), retaining some of their intelligence but having long ago lost the abilities to Mine and to Craft."
+      "text": "But Builders must build, and a relatively small community broke away to form the first $(thing)Villages$(). $(br2)Over years of seclusion and evolution these Builders become $(thing)Villagers$(), retaining some of their intelligence but having long ago lost most of their abilities."
     },
     {
       "type": "patchouli:entity",
@@ -45,7 +45,8 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Meanwhile, the Builders become obsessed with the idea of creating life, an idea sparked by those first few experiments with golems. $(br2)And its here that another split occurs. $(br2)The discover of magic in the form of $(item)Potions$() and enchanting leads those who did not approve of such arcane madness to leave the Builder community on moral/philosophical grounds. $(br2)After all, if the $(thing)Villagers$() had done it, why not them?"
+      "title": "2. Division of society",
+      "text": "Meanwhile, the Builders become obsessed with the idea of creating life, an idea sparked by those first few experiments with golems. $(br2)And its here that another split occurs. $(br)The discover of magic in the form of $(item)Potions$() and enchanting leads those who did not approve of such arcane madness to leave the Builder community on moral/philosophical grounds. $(br2)After all, if the $(thing)Villagers$() had done it, why not them?"
     },
     {
       "type": "patchouli:text",
@@ -59,6 +60,7 @@
     },
     {
       "type": "patchouli:text",
+      "title": "3. Nether Colonization",
       "text": "Imagine the amounts of $(item)Gold$() and soon to be discovered $(item)Netherite$() they could haul out? And just think of the magic.. $(br2)And when the Builders entered the $(thing)Nether$(), they found it remarkably hot, hotter even then we know it today; with the only native inhabitants being the $(thing)Blaze$(); beings of magic and fire and essentially nothing else."
     },
     {
@@ -79,7 +81,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Just like some dogs were bred to hunt specific animals, the $(thing)Pigs$() were bred for three different tasks: $(br2)$(li)traveling the $(thing)Nether$() $(br)$(li)locating gold $(br)$(li)food stock"
+      "text": "Just like some dogs were bred to hunt specific animals, the $(thing)Pigs$() were bred for three different tasks: $(br2)$(li)traveling the $(thing)Nether$() $(br)$(li)locating gold $(br)$(li)as a food stock"
     },
     {
       "type": "patchouli:text",
@@ -106,7 +108,7 @@
       "entity": "minecraft:wither_skeleton",
       "scale": "1.0",
       "rotate": false,
-      "name": " ",
+      "name": "4. Bad things happened",
       "text": "And horrifying as this is, some became intrigued."
     },
     {
@@ -123,6 +125,7 @@
     },
     {
       "type": "patchouli:text",
+      "title": "5. The escape",
       "text": "Others, though, escape the $(thing)Nether$(), destroying their portals and sailing away to far off islands. $(br2)Fearing that they would have the same fate as the $(thing)Ghast$(), they arm their ships with cannons. $(br2)But knowing that it wouldn't be enough, they put Builder ingenuity to good use and create an automaton of their own:"
     },
     {
@@ -141,7 +144,8 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Meanwhile back with the Builders, the experimentation on life and death reaches its fever pitch, and the $(thing)Wither$() is created accidentally. $(br2)The damage it deals is not only in raw destruction that levels structures with ease, but the $(thing)Curse of Withering$() it`s distributed like you`re gonna burn to death."
+      "title": "6. Beginning of the End",
+      "text": "Meanwhile back with the Builders, the experimentation on life and death reaches its fever pitch, and the $(thing)Wither$() is created accidentally. $(br2)The damage it deals is not only in raw destruction that levels structures with ease, but the $(thing)Curse of Withering$() it's distributed is like you're gonna burn inside to death."
     },
     {
       "type": "patchouli:entity",
@@ -168,28 +172,30 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Not only did this allow several of them to become infected by the curse, either from traditional $(thing)Zombies$() or the now existent $(thing)Zombie Villagers$(), but it also lead to them simply wandering in a state of starvation induced torpor, a trance brought on from their suffering and hours spent baking in the sun,"
+      "text": "Not only did this allow several of them to become infected by the curse, either from traditional $(thing)Zombies$() or the now existent $(thing)Zombie Villagers$(), but it also lead to them simply wandering in a state of starvation induced torpor, a trance brought on from their suffering and hours spent baking in the sun, combined with the curse of the $(thing)Wither$(), they became like ghouls."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:zombie",
       "scale": "1.0",
       "rotate": false,
-      "name": " "
+      "name": " ",
+      "text": "$(br)Cannibals who were so desperately hungry they'd even attack and eat their own kind."
     },
     {
       "type": "patchouli:text",
-      "text": "Combined with the curse of the $(thing)Wither$(), they became like ghouls; cannibals who were so desperately hungry they'd even attack and eat their own kind. $(br2)They became *husks* of themselves, and in death, continued to hunt and feed, the curse granting them the power to inflict the hunger that drove them to madness onto those they attack. $(br2)The hubris of the royals and the curse of the $(thing)Wither$() brought the desert kingdom that seemed so safe to its knees."
+      "text": "They became *husks* of themselves, and in death, continued to hunt and feed, the curse granting them the power to inflict the hunger that drove them to madness onto those they attack. $(br2)The hubris of the royals and the curse of the $(thing)Wither$() brought the desert kingdom that seemed so safe to its knees."
     },
     {
       "type": "patchouli:text",
+      "title": "7. Protection at all costs",
       "text": "At the same time, the rising $(item)Water$() levels only continued to rise. $(br2)The $(thing)Nether$() was cooling because of magic and thus heat being imported to the $(thing)Overworld$(), and the result of that is the Overworld getting hotter. $(br2)Frozen land melts into more ocean, and the Island Builders begin searching for the $(item)Heart of the Sea$() while those back on the islands collect $(item)Nautilus Shells$() so that when someone returns with the Heart,"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:conduit",
       "title": " ",
-      "text": "$(br)they can create a $(item)Conduit$(), and use its power to survive the rising water, as well as the $(item)Sponge$() room in the $(thing)Ocean Monuments$() being used to stall and buy time. $(br2)But they aren't fast enough, having wasted too much time on the $(thing)Guardians$() and $(thing)Elder Guardians$(), too much time on weapons of war. $(br2)The waters rise and their island home sinks."
+      "text": "they can create a $(item)Conduit$(), and use its power to survive the rising water, as well as the $(item)Sponge$() room in the $(thing)Ocean Monuments$() being used to stall and buy time. $(br2)But they aren't fast enough, having wasted too much time on the $(thing)Guardians$() and $(thing)Elder Guardians$(), too much time on weapons of war. $(br2)The waters rise and their island home sinks."
     },
     {
       "type": "patchouli:text",
@@ -204,28 +210,8 @@
       "text": "Across the $(thing)Overworld$() and throughout the $(thing)Nether$() before the curse finally killed everyone off, all faced the problem of what to do with the dead bodies. $(br2)You can't bury them, lest you be infected. $(br2)Can't simply leave them about, as they'd rise again and infect you with their bite."
     },
     {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:sculk",
-      "title": " ",
-      "text": "$(br)The remaining members of the Builder community migrate underground into deep caves and tunnels to hide from horrors up above, creating cities in the $(thing)Deep Dark$(), where they either discovered or created a new kind of organism which would be known as the $(item)Sculk$()."
-    },
-    {
       "type": "patchouli:text",
-      "text": "Its unclear if it existed and was experimented on, was created entirely by Builders, or existed as it is now already, but all roads lead to the same path: $(br2)the consumption of souls. $(br2)We were shown and told outright that the $(item)Sculk$() spreads by absorbing souls."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "The Builders once again need to flee, but have nowhere left to go. $(br2)They'd escaped to another world before however, so why not again? $(br2)They steal $(item)Sculk Catalyst$() blocks, using them to create $(item)End Frames$(), and creating the $(thing)Stronghold$() to protect themselves from the $(thing)Wardens$() crafted by the $(item)Sculk$() in retaliation."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:warden",
-      "scale": "1.0",
-      "rotate": false,
-      "name": " "
-    },
-    {
-      "type": "patchouli:text",
+      "title": "8. More experiments",
       "text": "The horrific experiments of the Builders had lead to bad blood increasing more and more, with the $(thing)Wither$() incident resulting in the $(thing)Villagers$() rejecting not just advancement, but demonizing experimentation altogether. $(br2)They would survive off local trades and nothing more, food from bakers and butchers, materials from blacksmith, knowledge from librarians and cartographers, and healing from clerics."
     },
     {
@@ -243,7 +229,8 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:witch",
-      "scale": "0.5",
+      "scale": "0.8",
+      "offset": "0.2",
       "rotate": false,
       "name": " "
     },
@@ -253,11 +240,44 @@
     },
     {
       "type": "patchouli:text",
+      "title": "9. Worse and worse..",
+      "text": "The remaining members of the Builder community migrate underground into deep caves and tunnels to hide from horrors up above, creating lage cities in the $(thing)Deep Dark$() where they conducted further experiments with redstone and magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "But one day, someone was out, when suddenly they see a $(thing)Wither$(), he fled back towards the underground city, but the $(thing)Wither$() followed him to the city gates. $(br2)The army mobilizes, ready to fight, but many warriors died. $(br2)As a last resort, they tried to activate the large portal in the city center. $(br2)And they succeeded!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They hope to find a new dimension they can escape. $(br2)However, what happens is not what they expect. $(br2)A huge monster, known today as the $(thing)Warden$(), comes OUT from the lit portal and has a devastating battle with the $(thing)Wither$(). $(br2)In the end, the strange monster wins. $(br2)It's not the solution the Builders were hoping, but it works."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:warden",
+      "scale": "1.0",
+      "rotate": false,
+      "name": " ",
+      "text": "After the fight, the $(thing)Warden$() buried himself underground. $(br2)Full of joy and humility they worshiped the new creature."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:sculk",
+      "title": " ",
+      "text": "However, a mushroom-like life form, the $(item)Sculk$(), quickly spread from the portal. $(br2)The portal was closed again to prevent further spread. $(br2)But it was already too late. $(br2)Loud noises activated the $(item)Sculk$() and summoned one or more $(thing)Wardens$() that attacked the builders and made it impossible to live here any longer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Builders once again need to flee, but have nowhere left to go. $(br2)They'd escaped to another world before however, so why not again? $(br2)They steal $(item)Sculk Catalyst$() blocks, using them to create $(item)End Frames$(), and creating the $(thing)Stronghold$() to protect themselves from the $(thing)Wardens$() crafted by the $(item)Sculk$() in retaliation."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "10. The corruption",
       "text": "A $(thing)Villager$() got lost one day, maybe even one of the newly rejected $(thing)Witches$(). $(br)They find themselves trapped in a cave, and in their attempts to escape, stumble upon the $(thing)Stronghold$(). $(br)The remaining Builders give the $(item)Orb of Dominance$() to them, telling them to simply follow its instructions and it's knowledge and power would let them fix the ruin that had been broken for so long. $(br)And with that, they left through the portal to $(thing)The End$()."
     },
     {
       "type": "patchouli:text",
-      "text": "But the Builders are nothing if not a hubristic bunch, and somehow I suspect that crystalizing them into a crystal of pure power with no physical form to allow them empathy would only amplify their worse tendencies, and proximity to a cast out $(thing)Villager$() might just amplify their own as well as they become corrupted by the magic of the Orb, their skin turning grey either from corruptive energy or from hours spent lacking sunlight, forced to continue experimented with life, death, and magic."
+      "text": "But the Builders are nothing if not a hubristic bunch, and that crystalizing them into a crystal of pure power with no physical form to allow them empathy would only amplify their worse tendencies, and proximity to a cast out $(thing)Villager$() might just amplify their own as well as they become corrupted by the magic of the Orb, their skin turning grey either from corruptive energy or from hours spent lacking sunlight, forced to continue experimented with life, death, and magic."
     },
     {
       "type": "patchouli:text",
@@ -282,9 +302,10 @@
       "entity": "minecraft:ender_dragon",
       "scale": "1.5",
       "offset": "-5",
+      "default_rotation": "120",
       "rotate": false,
-      "name": " ",
-      "text": "$(br2)And so finally we reach $(thing)The End$()."
+      "name": "11. The End",
+      "text": "$(br)And so finally we reach $(thing)The End$()."
     },
     {
       "type": "patchouli:text",
@@ -303,11 +324,21 @@
       "entity": "minecraft:enderman",
       "scale": "1.0",
       "rotate": false,
-      "name": " "
+      "name": " ",
+      "text": "$(br)The chaotic nature of their teleportation allows some to end up in all the other Dimensions,"
     },
     {
       "type": "patchouli:text",
-      "text": "The chaotic nature of their teleportation allows some to end up in all the other Dimensions, and over generations this creates a stable population of $(thing)Endermen$() both in the $(thing)Overworld$(), where their inverted vision leads them to become nocturnal, and the $(thing)Nether$(), where it leads them to relax in the calming Warped Forests, while the $(thing)Silverfish$() that had evolved to live within $(item)Ender Pearls$() become parasitic in nature, evolving into $(thing)Endermites$()."
+      "text": "and over generations this creates a stable population of $(thing)Endermen$() both in the $(thing)Overworld$(), where their inverted vision leads them to become nocturnal, and the $(thing)Nether$(), where it leads them to relax in the calming Warped Forests, while the $(thing)Silverfish$() that had evolved to live within $(item)Ender Pearls$() become parasitic in nature, evolving into $(thing)Endermites$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "12. Your role",
+      "text": "And now finally let's talk about who you are, you are one of the Builders, not just any one but $(n)the one$() who built the $(thing)Wither$() and started all the chaos. $(br2)That's why the $(thing)Endermen$() attack upon seeing our face, and why the $(thing)Piglins$() do the same, why the $(thing)Illagers$() fear you, why the $(thing)Iron Golem$() has no issue flattening you if you show hostility, and why the cosmic entities talk with such pride in all you've done when you $(l)Free the End$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " "
     },
     {
       "type": "patchouli:text",
