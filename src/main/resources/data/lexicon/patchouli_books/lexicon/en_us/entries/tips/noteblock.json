@@ -1,0 +1,27 @@
+{
+  "name": "Note Blocks",
+  "icon": "minecraft:note_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Note Blocks$() play a musical note when hit or powered by $(item)Redstone$(). $(br2)A $(item)Note Block$() must have air in the space directly above it to play a sound. $(br2)Pressing the use button on the block increases the note pitch up a semitone."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/noteblock_tuning_color.png"
+      ],
+      "border": false,
+      "text": "The tuning can also be checked by looking at the right side of the debug screen (pressing $(thing)F3$())"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The instrument played depends on the material of the block underneath the $(thing)Note Block$(): $(br)$(li)$(l)Wood$() = Bass $(li)$(l)Sand/Gravel$() = Snare Drum $(li)$(l)Glass$() = Clicks & Sticks $(li)$(l)Stone type$() = Bass Drum $(li)$(l)Gold Block$() = Bells $(li)$(l)Clay/Honeycomp$() = Flute $(li)$(l)Packed Ice$() = Chimes $(li)$(l)Wool$() = Guitar $(li)$(l)Bone Block$() = Xylophone $(li)$(l)Iron Block$() = Iron Xylophone $(li)$(l)Soul Sand$() = Cow Bell "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Pumpkin$() = Didgeridoo $(li)$(l)Emerald Block$() = Bit $(li)$(l)Hay Bale$() = Banjo $(li)$(l)Glowstone$() = Pling $(li)$(l)all other$() = Harp / piano"
+    }
+  ]
+}
