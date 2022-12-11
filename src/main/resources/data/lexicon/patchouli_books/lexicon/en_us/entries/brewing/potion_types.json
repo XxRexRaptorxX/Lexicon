@@ -12,18 +12,21 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:potion",
       "title": "Potion",
-      "text": "$(item)Potions$() can be used by pressing and holding use, similarly to eating food. $(br)Upon using, they apply the corresponding status effect to the $(thing)Player$(). "
+      "anchor": "potion",
+      "text": "$(item)Potions$() can be used by pressing and holding use, similarly to eating food. $(br)Upon using, they apply the corresponding status effect to the $(l:creatures/human-player)$(thing)Player$(). "
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:splash_potion",
       "title": "Splash Potion",
+      "anchor": "splash_potion",
       "text": "$(item)Splash Potions$() are thrown by using them. $(br2)On impact they explode, applying status effects to nearby entities."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:lingering_potion",
       "title": "Lingering Potion",
+      "anchor": "lingering_potion",
       "text": "$(item)Lingering Potions$() are thrown, like $(item)Splash Potions$(), by using them. $(br2)On impact they explode, creating a cloud. $(br2)The cloud is made of the potion particles corresponding to the potion that was thrown."
     }
   ]

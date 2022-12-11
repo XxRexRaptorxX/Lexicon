@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Target selectors are used in commands to select $(thing)Players$() and entities arbitrarily, without needing to specify an exact name. $(br2)One or more entities can be selected with a target selector variable, and targets can be filtered from the selection based on certain criteria using the target selector arguments. $(br)$(l)/gamemode creative @a $()"
+      "text": "Target selectors are used in commands to select $(l:creatures/human-player)$(thing)Players$() and entities arbitrarily, without needing to specify an exact name. $(br2)One or more entities can be selected with a target selector variable, and targets can be filtered from the selection based on certain criteria using the target selector arguments. $(br)$(l)/gamemode creative @a $()"
     },
     {
       "type": "patchouli:text",

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive  $(br)> $(n)Spawn:$() Swamp, Mangrove Swamp$(br)> $(n)Breeding:$() Slimeball (requires water nearby)$(br)> $(n)Properties:$() $(br)A $(thing)Frog$() can produce one of three kinds of $(item)Froglights$() from eating $(thing)Magma Cubes$(), depending on the kind of $(thing)Frog$()."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive  $(br)> $(n)Spawn:$() Swamp, Mangrove Swamp$(br)> $(n)Breeding:$() Slimeball (requires water nearby)$(br)> $(n)Properties:$() $(br)A $(thing)Frog$() can produce one of three kinds of $(l:rare/froglight)$(item)Froglights$() from eating $(l:creatures/monster-magma_cube)$(thing)Magma Cubes$(), depending on the kind of $(thing)Frog$()."
     },
     {
       "type": "patchouli:entity",

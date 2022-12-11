@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Mushroom Fields $(br)> $(n)Breeding:$() Wheat     $(br)> $(n)Properties:$() $(br)Theres a red and a brown variant. Shearing turns them to a $(thing)Cow$(). Mooshroom can be milked with a $(item)Bucket$() to get milk and with a $(item)Bowl$() to get $(item)Mushroom Stew$(). $(thing)Brown Mooshrooms$(), can produce $(item)Suspicious Stew$() if fed with a small flower."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Mushroom Fields $(br)> $(n)Breeding:$() Wheat     $(br)> $(n)Properties:$() $(br)Theres a red and a brown variant. Shearing turns them to a $(l:creatures/animal-cow)$(thing)Cow$(). Mooshroom can be milked with a $(item)Bucket$() to get milk and with a $(item)Bowl$() to get $(item)Mushroom Stew$(). $(thing)Brown Mooshrooms$(), can produce $(l:brewing/suspicious_stew)$(item)Suspicious Stew$() if fed with a small flower."
     },
     {
       "type": "patchouli:entity",

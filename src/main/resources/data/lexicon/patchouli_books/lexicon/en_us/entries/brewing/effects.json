@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "An effect is a helpful or harmful condition that affects an entity. $(br2)Effects can be inflicted in various ways throughout the game, including consuming $(thing)Potions$() and some food items, being in the range of $(item)Beacons$() and $(item)Conduits$(), and being attacked by or close to certain mobs."
+      "text": "An effect is a helpful or harmful condition that affects an entity. $(br2)Effects can be inflicted in various ways throughout the game, including consuming $(l:brewing/brewing#potions)$(item)Potions$() and some food items, being in the range of $(l:rare/beacon)$(item)Beacons$() and $(l:rare/conduit)$(item)Conduits$(), and being attacked by or close to certain mobs."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:milk_bucket",
-      "text": "When drinking from $(item)Milk Bucket$(), dying, being saved from death by a $(item)Totem of Undying$(), or traveling through the return portal in $(thing)The End$(), all status effects are removed."
+      "text": "When drinking from $(item)Milk Bucket$(), dying, being saved from death by a $(l:rare/totem_of_undying)$(item)Totem of Undying$(), or traveling through the return portal in $(l:exploring/end)$(thing)The End$(), all status effects are removed."
     },
     {
       "type": "patchouli:text",
@@ -123,6 +123,7 @@
     {
       "type": "patchouli:text",
       "title": "Regeneration",
+      "anchor": "regeneration",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Regenerates health over time, higher levels make health regenerate quicker. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Beacon, Suspicious Stew, Golden Apples, Totem of Undying"
     },
     {
@@ -230,6 +231,7 @@
     {
       "type": "patchouli:text",
       "title": "Poison",
+      "anchor": "poison",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Inflicts damage over time (but can't kill), higher levels do more damage per second, doesn't affect undead. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Poisonous Potato, Pufferfish, Suspicious Stew, Spider Eye, Cave Spider, Bee"
     },
     {
@@ -362,7 +364,8 @@
     {
       "type": "patchouli:text",
       "title": "Dolphin's Grace",
-      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Increases swimming speed. $(br2)$(n)Sources:$() $(br)swimming with Dolphins"
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Increases swimming speed. $(br2)$(n)Sources:$() $(br)swimming with Dolphins",
+      "anchor": "grace"
     },
     {
       "type": "patchouli:image",
@@ -398,6 +401,7 @@
     {
       "type": "patchouli:text",
       "title": "Darkness",
+      "anchor": "darkness",
       "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)Darkens the screen. $(br2)$(n)Sources:$() $(br)Sculk Shrieker, Warden"
     },
     {

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 2.5 - 3, 4.5 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Warm Oceans, Oceans $(br)> $(n)Trust:$() Raw Cod, Raw Salmon $(br)> $(n)Properties:$() $(br)$(thing)Players$() who swim with a $(thing)Dolphin$() receive a $(thing)Dolphin's Grace$() effect. $(thing)Dolphins$() play with dropped items. When they are fed $(item)Raw Cod$() or $(item)Raw Salmon$(), they swim to the nearest structure or buried treasure."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 2.5 - 3, 4.5 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Warm Oceans, Oceans $(br)> $(n)Trust:$() Raw Cod, Raw Salmon $(br)> $(n)Properties:$() $(br)$(l:creatures/human-player)$(thing)Players$() who swim with a $(thing)Dolphin$() receive a $(l:brewing/effects#grace)$(thing)Dolphin's Grace$() effect. $(thing)Dolphins$() play with dropped items. When they are fed $(item)Raw Cod$() or $(item)Raw Salmon$(), they swim to the nearest structure or $(l:world/structure#treasure)$(thing)Buried Treasure$()."
     },
     {
       "type": "patchouli:entity",

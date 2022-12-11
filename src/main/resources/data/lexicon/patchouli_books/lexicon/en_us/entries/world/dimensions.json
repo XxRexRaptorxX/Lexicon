@@ -15,6 +15,7 @@
     {
       "type": "patchouli:text",
       "title": "The Overworld",
+      "anchor": "overworld",
       "text": "The Overworld is the primary dimension in Minecraft. It has a wide variety of unique biomes to explore, and is easily the most diverse of the dimensions.   $(br) $(li)large biome variation $(li)Lage mob variation $(li)oceans of water $(li)daylight circle $(li)weather $(li)384 block world height"
     },
     {
@@ -27,6 +28,7 @@
     {
       "type": "patchouli:text",
       "title": "The Nether",
+      "anchor": "nether",
       "text": "The Nether is a hostile dimension containing huge lava oceans. The ground consists of mainly $(item)Netherrack$() and is considered as the underworld of the game. $(br) $(li)chaotic, messy, dangerous, cave-like terrain $(li)oceans of lava $(li)ceiling of $(item)Bedrock$() $(li)increased travel speed $(li)using a charged $(item)Respawn Anchor$() sets spawn point $(li)256 block world height"
     },
     {
@@ -40,6 +42,7 @@
     {
       "type": "patchouli:text",
       "title": "The End",
+      "anchor": "end",
       "text": "The End is a space-like dimension with floating $(item)End Stone$() islands. It's a barren environment, but it's the only place where some of the most unique and useful items in the game can be obtained $(br) $(li)direct access to the void $(li)home of the $(thing)Ender Dragon$() $(li)floating islands of $(item)End Stone$() $(li)big pillars of $(item)Obsidian$() $(li)256 block world height"
     },
     {

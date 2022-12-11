@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Breeding/Trust:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attack $(thing)Chickens$() and $(thing)Baby Turtles$(). $(thing)Creeper$() and $(thing)Phantoms$() avoid cats."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Breeding/Trust:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attacks $(l:creatures/animal-chicken)$(thing)Chickens$() and $(l:creatures/aquatic_animal-turtle)$(thing)Baby Turtles$(). $(l:creatures/monster-creeper)$(thing)Creeper$() & $(l:creatures/undead-phantom)$(thing)Phantoms$() avoid ocelots."
     },
     {
       "type": "patchouli:entity",

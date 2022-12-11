@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 200  $(br)> $(n)Attack Damage:$() $(br) 3-6 on easy, 5-10 on normal, 7-15 on hard, breath deals 3 d/s, fireball deals 6 d/s $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() End    $(br)> $(n)Properties:$() $(br)The $(thing)Ender Dragon$() is a gigantic flying boss found when first entering the $(thing)End$(). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all status effects, can fly, shoot fire balls, spit dragons breath, and can destroy the most blocks by contact. It generates health out of $(thing)End Crystals$(). Can be re-summoned."
+      "text": "> $(n)Health:$() 200  $(br)> $(n)Attack Damage:$() $(br) 3-6 on easy, 5-10 on normal, 7-15 on hard, breath deals 3 d/s, fireball deals 6 d/s $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/dimensions#end)End$()    $(br)> $(n)Properties:$() $(br)The $(thing)Ender Dragon$() is a gigantic flying boss found when first entering the $(l:world/dimensions#end)$(thing)End$(). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all $(l:brewing/effects)status effects$(), can fly, shoot fire balls, spit $(l:rare/dragons/breath)$(thing)dragons breath$(), and can destroy the most blocks by contact. It generates health out of $(l:rare/end_crystal)$(thing)End Crystals$(). Can be re-summoned."
     },
     {
       "type": "patchouli:entity",

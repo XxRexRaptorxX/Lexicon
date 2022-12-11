@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 14     $(br)> $(n)Attack Damage:$() 2     $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Lush Caves    $(br)> $(n)Breeding:$() Bucket of tropical fish  $(br)> $(n)Properties:$() $(br)If an axolotl takes damage underwater, it may play dead, dropping to the ground for 200 game ticks (10 seconds) while gaining $(thing)Regeneration I$(). Hostile aquatic mobs ignore healing axolotls."
+      "text": "> $(n)Health:$() 14     $(br)> $(n)Attack Damage:$() 2     $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Lush Caves    $(br)> $(n)Breeding:$() Bucket of tropical fish  $(br)> $(n)Properties:$() $(br)If an axolotl takes damage underwater, it may play dead, dropping to the ground for 200 game ticks (10 seconds) while gaining $(l:brewing/effects#regeneration)$(thing)Regeneration I$(). Hostile aquatic mobs ignore healing axolotls."
     },
     {
       "type": "patchouli:entity",

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Pillager Outpost, Mansion $(br)> $(n)Breeding:$() Duplicates when holding a Amethyst Shard while dancing$(br)> $(n)Properties:$() $(br)The $(thing)Allay$() wanders around until a $(thing)Player$() gives it an item with their use key. It starts following the $(thing)Player$(), seeking out dropped versions of the same item and delivering them to it's owner. $(br)If it hears a $(item)Note Block$() play, it spends 30 seconds around that particular note block, seeking items around it and returning them. $(br)When an $(thing)Allay$() hears a $(item)Jukebox$() playing, it will do a dance."
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/structures#outpost)Pillager Outpost$(), $(l:world/structures#mansion)Mansion$() $(br)> $(n)Breeding:$() Duplicates when holding a $(item)Amethyst Shard$() while dancing$(br)> $(n)Properties:$() $(br)Wanders around until a $(l:creatures/human-player)$(thing)Player$() gives it an item with their use key. It starts following the $(l:creatures/human-player)$(thing)Player$(), seeking out dropped versions of the same item and delivering them to it's owner. $(br)If it hears a $(l:redstone/redstone_components#noteblock)$(item)Note Block$() play, it spends 30 seconds around that particular note block, seeking items around it and returning them."
     },
     {
       "type": "patchouli:entity",

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 15-30  $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() When a Horse and a Donkey breed $(br)> $(n)Breeding:$() -     $(br)> $(n)Properties:$() $(br)Can be equipped with a saddle and a chest. Can be ridden."
+      "text": "> $(n)Health:$() 15-30  $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() When a $(l:creatures/animal-horse)Horse$() and a $(l:creatures/animal-donkey)Donkey$() breed $(br)> $(n)Breeding:$() -     $(br)> $(n)Properties:$() $(br)Can be equipped with a $(item)Saddle$() and a $(l:useables/chest)$(item)Chest$(). Can be ridden."
     },
     {
       "type": "patchouli:entity",

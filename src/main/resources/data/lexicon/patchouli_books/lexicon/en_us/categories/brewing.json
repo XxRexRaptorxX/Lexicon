@@ -1,6 +1,6 @@
 {
   "name": "Brewing",
-  "description": "Brewing is the process of creating potions, splash potions, and lingering potions by adding various ingredients to water bottles in a brewing stand.",
+  "description": "Brewing is the process of creating $(l:brewing/potion_types#potion)$(item)Potions$(), $(l:brewing/potion_types#splash_potion)$(item)Splash Potions$(), and $(l:brewing/potion_types#lingering_potion)$(item)Lingering Potions$() by adding various ingredients to $(item)Water Bottles$() in a $(l:useables/brewing_stand)$(item)Brewing Stand$().",
   "icon": "minecraft:brewing_stand",
   "sortnum": 17
 }

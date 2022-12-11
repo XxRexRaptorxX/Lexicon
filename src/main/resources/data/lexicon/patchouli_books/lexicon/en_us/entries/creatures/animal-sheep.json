@@ -21,9 +21,115 @@
     },
     {
       "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:1}",
+      "scale": "0.5",
+      "name": "Orange Colored Sheep",
+      "text": "Color ID: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:2}",
+      "scale": "0.5",
+      "name": "Magenta Colored Sheep",
+      "text": "Color ID: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:3}",
+      "scale": "0.5",
+      "name": "Light Blue Colored Sheep",
+      "text": "Color ID: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:4}",
+      "scale": "0.5",
+      "name": "Yellow Colored Sheep",
+      "text": "Color ID: 4"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:5}",
+      "scale": "0.5",
+      "name": "Lime Colored Sheep",
+      "text": "Color ID: 5"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:6}",
+      "scale": "0.5",
+      "name": "Pink Colored Sheep",
+      "text": "Color ID: 6"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:7}",
+      "scale": "0.5",
+      "name": "Gray Colored Sheep",
+      "text": "Color ID: 7"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:8}",
+      "scale": "0.5",
+      "name": "Light Gray Colored Sheep",
+      "text": "Color ID: 8"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:9}",
+      "scale": "0.5",
+      "name": "Cyan Colored Sheep",
+      "text": "Color ID: 9"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:10}",
+      "scale": "0.5",
+      "name": "Purple Colored Sheep",
+      "text": "Color ID: 10"
+    },
+    {
+      "type": "patchouli:entity",
       "entity": "minecraft:sheep{Color:11}",
       "scale": "0.5",
-      "name": "Colored Sheep"
+      "name": "Blue Colored Sheep",
+      "text": "Color ID: 11"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:12}",
+      "scale": "0.5",
+      "name": "Brown Colored Sheep",
+      "text": "Color ID: 12"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:13}",
+      "scale": "0.5",
+      "name": "Green Colored Sheep",
+      "text": "Color ID: 13"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:14}",
+      "scale": "0.5",
+      "name": "Red Colored Sheep",
+      "text": "Color ID: 14"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:15}",
+      "scale": "0.5",
+      "name": "Black Colored Sheep",
+      "text": "Color ID: 15"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sheep{Color:0}",
+      "scale": "0.5",
+      "name": "White Colored Sheep",
+      "text": "Color ID: 0"
     }
   ]
 }

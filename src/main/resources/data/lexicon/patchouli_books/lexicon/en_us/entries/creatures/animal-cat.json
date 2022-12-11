@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Villages, Witch huts $(br)> $(n)Breeding/Taming:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attacks only $(thing)Rabbits$(), $(thing)Chickens$() & $(thing)Baby Turtles$(). $(br)There is a $(thing)70%$() chance for a tamed $(thing)Cat$() to give the $(thing)Player$() a gift after they wake up. $(thing)Creeper$() and $(thing)Phantoms$() avoid cats."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 3     $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/structures#village)Villages$(), $(l:world/structures#hut)Witch huts$() $(br)> $(n)Breeding/Taming:$() Raw Cod, Raw Salmon     $(br)> $(n)Properties:$() $(br)Attacks only $(l:creatures/animal-rabbit)$(thing)Rabbits$(), $(l:creatures/animal-chicken)$(thing)Chickens$() & $(l:creatures/aquatic_animal-turtle)$(thing)Baby Turtles$(). $(br)There is a $(thing)70%$() chance for a tamed $(thing)Cat$() to give the $(l:creatures/human-player)$(thing)Player$() a gift after they wake up. $(l:creatures/monster-creeper)$(thing)Creeper$() & $(l:creatures/undead-phantom)$(thing)Phantoms$() avoid cats."
     },
     {
       "type": "patchouli:entity",

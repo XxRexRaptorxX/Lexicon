@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 30     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Beach    $(br)> $(n)Breeding:$() Seagrass (requires a beach nearby)$(br)> $(n)Properties:$() $(br)Lay eggs that can be harvested with $(thing)Silk Touch$(). $(thing)Baby Turtles$() drop $(item)Scute$() when they grow up to adults."
+      "text": "> $(n)Health:$() 30     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Beach    $(br)> $(n)Breeding:$() Seagrass (requires a beach nearby)$(br)> $(n)Properties:$() $(br)Lay eggs that can be harvested with $(l:enchanting/enchantments#silk_touch)$(thing)Silk Touch$(). $(thing)Baby Turtles$() drop $(item)Scute$() when they grow up to adults."
     },
     {
       "type": "patchouli:entity",

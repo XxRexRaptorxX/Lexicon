@@ -81,6 +81,7 @@
     {
       "type": "patchouli:text",
       "title": "Knockback.",
+      "anchor": "knockback",
       "text": "$(n)Effect:$() $(br)Increases knockback.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
     },
     {
@@ -161,6 +162,7 @@
     {
       "type": "patchouli:text",
       "title": "Silk Touch",
+      "anchor": "silk_touch",
       "text": "$(n)Effect:$() $(br)Mined blocks drop themselves.$(br2)$(n)Incompatible Enchantments:$() Fortune$(br2)$(n)Primary Items:$() All common tools$(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
     },
     {

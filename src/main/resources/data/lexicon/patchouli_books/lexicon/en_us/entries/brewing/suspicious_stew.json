@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Another way to get items with effects besides brewing are $(item)Suspicious Stews$(). $(br2)They are food items that can give the $(thing)Player$() a status effect that depends on the flower used to craft it."
+      "text": "Another way to get items with effects besides brewing are $(item)Suspicious Stews$(). $(br2)They are food items that can give the $(l:creatures/human-player)$(thing)Player$() a status effect that depends on the flower used to craft it."
     },
     {
       "type": "patchouli:image",

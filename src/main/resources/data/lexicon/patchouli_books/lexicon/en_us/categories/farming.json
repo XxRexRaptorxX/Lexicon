@@ -1,6 +1,6 @@
 {
   "name": "Farming",
-  "description": "Farms are used to acquire various resources efficiently. $(br)$(li)$(n)Manual farms$() rely mostly or solely on the $(thing)Player$() to harvest and restart the farm. $(br)$(li)$(n)Semi-automatic farms$() use mechanisms to automatically harvest the farm, but they are manually activated by the $(thing)Player$(). $(br)$(li)$(n)Fully automatic farms$() do not rely on the $(thing)Player$() at all and usually use $(thing)Mobs$() or more complicated mechanisms.",
+  "description": "Farms are used to acquire various resources efficiently. $(br)$(li)$(n)Manual farms$() rely mostly or solely on the $(l:creatures/human-player)$(thing)Player$() to harvest and restart the farm. $(br)$(li)$(n)Semi-automatic farms$() use mechanisms to automatically harvest the farm, but they are manually activated by the $(l:creatures/human-player)$(thing)Player$(). $(br)$(li)$(n)Fully automatic farms$() do not rely on the $(l:creatures/human-player)$(thing)Player$() at all and usually use $(thing)Mobs$() or more complicated mechanisms.",
   "icon": "minecraft:diamond_hoe",
   "sortnum": 2
 }

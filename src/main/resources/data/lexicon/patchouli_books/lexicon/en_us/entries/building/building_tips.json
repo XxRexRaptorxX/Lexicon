@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)Tip #1:$() $(br)$(li)Add texture to your walls. $(br2)You can put a block palette together to help. $(br2)Look at $(thing)www.blockpalettes.com$() for some good ones!"
+      "text": "$(n)Tip #1:$() $(br)$(li)Add texture to your walls. $(br2)You can put a block palette together to help. $(br2)Look at $(l:https://www.blockpalettes.com)www.blockpalettes.com$() for some good ones!"
     },
     {
       "type": "patchouli:image",
