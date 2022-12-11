@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)Ranged: 3-4 on easy, 4 on normal, 4-5 on hard $(br)Melee: 2 on easy, 3 on normal, 5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Patrols, Pillager Outposts, Raids $(br)> $(n)Properties:$() $(br)$(thing)Pillagers$() are $(thing)Illagers$() that patrol the $(thing)Overworld$(), guard their outposts, and participate in raids, sometimes spawning on $(thing)Ravagers$() in later waves of a village raid."
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)Ranged: 3-4 on easy, 4 on normal, 4-5 on hard $(br)Melee: 2 on easy, 3 on normal, 5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Patrols, $(l:world/structures#outpost)Pillager Outposts$(), Raids $(br)> $(n)Properties:$() $(br)$(thing)Pillagers$() are $(thing)Illagers$() that patrol the $(l:world/dimensions#overworld)$(thing)Overworld$(), guard their $(l:world/structures#outpost)$(thing)Outposts$(), and participate in raids, sometimes spawning on $(l:creatures/monster#ravanger)$(thing)Ravagers$() in later waves of a $(l:world/structures#village)$(thing)Village$() raid."
     },
     {
       "type": "patchouli:entity",

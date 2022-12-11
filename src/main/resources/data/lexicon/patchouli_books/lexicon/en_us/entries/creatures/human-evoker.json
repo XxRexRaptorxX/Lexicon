@@ -5,13 +5,13 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() 6    $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Mansions, Raids $(br)> $(n)Properties:$() $(br)The $(thing)Evoker$() has two different attack methods: fang attack and summoning $(thing)Vexes$()."
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() 6    $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#mansion)Mansions$(), Raids $(br)> $(n)Properties:$() $(br)The $(thing)Evoker$() has two different attack methods: fang attack and summoning $(l:creatures/monster-vex)$(thing)Vexes$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:evoker",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 1 Totem of Undying, 0-1 Emerald, 1 Ominous Banner in Raids $(br)$(n)XP:$() 10"
+      "text": "$(n)Drops:$() 1 $(l:rare/totem_of_undying)Totem of Undying$(), 0-1 Emerald, 1 Ominous Banner in Raids $(br)$(n)XP:$() 10"
     }
   ]
 }

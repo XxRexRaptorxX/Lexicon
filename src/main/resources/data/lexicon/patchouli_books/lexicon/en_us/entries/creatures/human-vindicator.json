@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)7 on easy, 13 on normal, 19 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Woodland Mansions, Raids $(br)> $(n)Properties:$() $(br)A $(thing)Vindicator$() is an illager equipped with an $(item)Iron Axe$()."
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)7 on easy, 13 on normal, 19 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#mansion)Woodland Mansions$(), Raids $(br)> $(n)Properties:$() $(br)A $(thing)Vindicator$() is an $(thing)Illager$() equipped with an $(item)Iron Axe$()."
     },
     {
       "type": "patchouli:entity",
