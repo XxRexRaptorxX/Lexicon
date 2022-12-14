@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld at nighttime or during thunderstorms, when Player has not attempted to enter a bed for 3+ days $(br)> $(n)Properties:$() $(br)$(thing)Phantoms$() can move through air and $(item)Water. They are scared of $(thing)Cats$() and $(thing)Ocelots$(). They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/dimensions#overworld)Overworld$() at nighttime or during thunderstorms, when $(l:creatures/human-player)Player$() has not attempted to enter a bed for 3+ days $(br)> $(n)Properties:$() $(br)$(thing)Phantoms$() can move through air and $(item)Water$(). They are scared of $(l:creatures/animal-cat)$(thing)Cats$() and $(l:creatures/animal-ocelot)$(thing)Ocelots$(). They are healed by $(l:brewing/effects#instant_damage)$(thing)Instant Damage$() and harmed by $(l:brewing/effects#instant_health)$(thing)Instant Health$() effects, are immune to $(l:brewing/effects#regeneration)$(thing)Regeneration$() and $(l:brewing/effects#poison)$(thing)Poison effects$()."
     },
     {
       "type": "patchouli:entity",

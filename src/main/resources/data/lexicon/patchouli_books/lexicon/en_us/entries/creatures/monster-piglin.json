@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 16     $(br)> $(n)Attack Damage:$() $(br)Ranged: 2-5, Melee: 5 on easy, 8 on normal, 12 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() Nether $(br)> $(n)Properties:$() $(br)They become hostile unless the $(thing)Player$() is equipped with at least one piece of $(item)Golden armor$(). $(thing)Players$() can use $(item)Gold Ingots$() to barter with them for various items. $They retreat $(thing)Zombiefied Piglins$(), $(thing)Zoglins$() and Soul fire items. They zombify outside the $(thing)Nether$()."
+      "text": "> $(n)Health:$() 16     $(br)> $(n)Attack Damage:$() $(br)Ranged: 2-5, Melee: 5 on easy, 8 on normal, 12 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$() $(br)> $(n)Properties:$() $(br)They become hostile unless the $(l:creatures/human-player)$(thing)Player$() is equipped with at least one piece of $(item)Golden armor$(). $(l:creatures/human-player)$(thing)Players$() can use $(item)Gold Ingots$() to $(l:trading/piglin_bartering)barter$() with them for various items. They retreat $(l:creatures/undead-zombiefied_piglin)$(thing)Zombiefied Piglins$(), $(l:creatures/undead-zoglin)$(thing)Zoglins$() and soul fire items. They zombify outside the $(l:world/dimensions#nether)$(thing)Nether$()."
     },
     {
       "type": "patchouli:entity",

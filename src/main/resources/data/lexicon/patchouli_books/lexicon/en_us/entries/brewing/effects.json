@@ -28,6 +28,7 @@
     {
       "type": "patchouli:text",
       "title": "Slowness",
+      "anchor": "slowness",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases walking speed; higher levels make the affected entity slower. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows"
     },
     {
@@ -51,6 +52,7 @@
     },    {
       "type": "patchouli:text",
       "title": "Mining Fatigue",
+      "anchor": "mining_fatigue",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases mining and attack speed, higher levels decrease the mining and attack speed. $(br2)$(n)Sources:$() $(br)Elder Guardian"
     },
     {
@@ -75,6 +77,7 @@
     {
       "type": "patchouli:text",
       "title": "Instant Health",
+      "anchor": "instant_health",
       "text": "$(n)Type:$() Positive, Negative for Undead $(br2)$(n)Effect:$() $(br)Heals living entities, damages undead, higher levels heal more health and do more damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows"
     },
     {
@@ -87,6 +90,7 @@
     {
       "type": "patchouli:text",
       "title": "Instant Damage",
+      "anchor": "instant_damage",
       "text": "$(n)Type:$() Negative, Positive for Undead $(br2)$(n)Effect:$() $(br)Damages living entities, heals undead, higher levels do more damage and heal more health. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows"
     },
     {
@@ -136,6 +140,7 @@
     {
       "type": "patchouli:text",
       "title": "Resistance",
+      "anchor": "resistance",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Reduces damage, higher levels reduce more damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Beacon, Enchanted Golden Apple"
     },
     {
@@ -219,6 +224,7 @@
     {
       "type": "patchouli:text",
       "title": "Weakness",
+      "anchor": "weakness",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases melee damage, higher levels decrease more melee damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Suspicious Stew"
     },
     {
@@ -244,6 +250,7 @@
     {
       "type": "patchouli:text",
       "title": "Wither",
+      "anchor": "wither",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Inflicts damage over time (can kill), higher levels do more damage per second. $(br2)$(n)Sources:$() $(br)Potions, Suspicious Stew, Wither, Wither Skeleton, Wither Rose"
     },
     {
@@ -304,6 +311,7 @@
     {
       "type": "patchouli:text",
       "title": "Levitation",
+      "anchor": "levitation",
       "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)Floats the affected entity upward. $(br2)$(n)Sources:$() $(br)Shulker"
     },
     {

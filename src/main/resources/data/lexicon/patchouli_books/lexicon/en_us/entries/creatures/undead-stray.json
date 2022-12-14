@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 3-5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Snow and Ice biomes $(br)> $(n)Properties:$() $(br)$(thing)Strays$() behave the same as normal $(thing)Skeletons$(), however, they shoot $(item)Tipped Arrows$() that inflict $(thing)Slowness$() for 30 seconds on any target that they hit."
+      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() 3-5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Snow- and Ice biomes $(br)> $(n)Properties:$() $(br)$(thing)Strays$() behave the same as normal $(l:creatures/undead-skeleton)$(thing)Skeletons$(), however, they shoot $(item)Tipped Arrows$() that inflict $(l:brewing/effects#slowness)$(thing)Slowness$() for 30 seconds on any target that they hit."
     },
     {
       "type": "patchouli:entity",

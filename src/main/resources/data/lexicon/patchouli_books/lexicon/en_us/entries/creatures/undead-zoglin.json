@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 40  $(br)> $(n)Attack Damage:$() $(br)adult: 3-5 on easy, 3-8 on normal, 4.5-12 on hard $(br)baby: 0.5, 0.75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When a Hoglin left the Nether  $(br)> $(n)Properties:$() $(br)They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
+      "text": "> $(n)Health:$() 40  $(br)> $(n)Attack Damage:$() $(br)adult: 3-5 on easy, 3-8 on normal, 4.5-12 on hard $(br)baby: 0.5, 0.75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When a $(l:creatures/animal-hoglin)$(thing)Hoglin$() left the $(l:world/dimensions#nether)Nether$()  $(br)> $(n)Properties:$() $(br)They are healed by $(l:brewing/effects#instant_damage)$(thing)Instant Damage$() and harmed by $(l:brewing/effects#instant_health)$(thing)Instant Health$() effects, are immune to $(l:brewing/effects#regeneration)$(thing)Regeneration$() and $(l:brewing/effects#poison)$(thing)Poison effects$()."
     },
     {
       "type": "patchouli:entity",

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$()   $(br)> $(n)Attack Damage:$() 4 + Levitation $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() End Cities    $(br)> $(n)Properties:$() $(br)$(thing)Shulkers$() are box-shaped hostile mobs found in $(thing)End Cities$(). They hide in their shell to blend in with surrounding $(item)Purpur blocks$() and guard the city's various treasures. $(thing)Shulkers$() generally remain stationary, attached to an adjacent solid block. Shoots projectiles with $(thing)Levitation effect$()."
+      "text": "> $(n)Health:$()   $(br)> $(n)Attack Damage:$() 4 + $(l:brewing/effects#levitation)$(thing)Levitation$() $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#end_city)End Cities$()    $(br)> $(n)Properties:$() $(br)$(thing)Shulkers$() are box-shaped hostile mobs found in $(l:world/structures#end_city)$(thing)End Cities$(). They hide in their shell to blend in with surrounding $(item)Purpur blocks$() and guard the city's various treasures. $(thing)Shulkers$() generally remain stationary, attached to an adjacent solid block. Shoots projectiles with $(l:brewing/effects#levitation)$(thing)Levitation effect$()."
     },
     {
       "type": "patchouli:entity",
@@ -15,15 +15,122 @@
     },
     {
       "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:16}",
+      "scale": "0.5",
+      "name": "(Natural) Shulker",
+      "text": "Color ID: 16"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:0}",
+      "scale": "0.5",
+      "name": "White Colored Shulker",
+      "text": "Color ID: 0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:1}",
+      "scale": "0.5",
+      "name": "Orange Colored Shulker",
+      "text": "Color ID: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:2}",
+      "scale": "0.5",
+      "name": "Magenta Colored Shulker",
+      "text": "Color ID: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:3}",
+      "scale": "0.5",
+      "name": "Light Blue Colored Shulker",
+      "text": "Color ID: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:4}",
+      "scale": "0.5",
+      "name": "Yellow Colored Shulker",
+      "text": "Color ID: 4"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:5}",
+      "scale": "0.5",
+      "name": "Lime Colored Shulker",
+      "text": "Color ID: 5"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:6}",
+      "scale": "0.5",
+      "name": "Pink Colored Shulker",
+      "text": "Color ID: 6"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:7}",
+      "scale": "0.5",
+      "name": "Gray Colored Shulker",
+      "text": "Color ID: 7"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:8}",
+      "scale": "0.5",
+      "name": "Light Gray Colored Shulker",
+      "text": "Color ID: 8"
+    },
+    {
+      "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:9}",
       "scale": "0.5",
-      "name": "Colored Shulker"
+      "name": "Cyan Colored Shulker",
+      "text": "Color ID: 9"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:10}",
+      "scale": "0.5",
+      "name": "Purple Colored Shulker",
+      "text": "Color ID: 10"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:11}",
+      "scale": "0.5",
+      "name": "Blue Colored Shulker",
+      "text": "Color ID: 11"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:12}",
+      "scale": "0.5",
+      "name": "Brown Colored Shulker",
+      "text": "Color ID: 12"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:13}",
+      "scale": "0.5",
+      "name": "Green Colored Shulker",
+      "text": "Color ID: 13"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:14}",
       "scale": "0.5",
-      "name": "Colored Shulker"
+      "name": "Red Colored Shulker",
+      "text": "Color ID: 14"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:15}",
+      "scale": "0.5",
+      "name": "Black Colored Shulker",
+      "text": "Color ID: 15"
     }
   ]
 }

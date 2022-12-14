@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 80  $(br)> $(n)Attack Damage:$() $(br)ranged: 5 on easy, 8 on normal, 12 on hard, $(br)melee: 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Ocean Monuments $(br)> $(n)Properties:$() $(br)The $(thing)Elder Guardian$() has 3 methods of attacking, including firing its laser, inflicting $(thing)Mining Fatigue$(), and a defensive thorn-like attack."
+      "text": "> $(n)Health:$() 80  $(br)> $(n)Attack Damage:$() $(br)ranged: 5 on easy, 8 on normal, 12 on hard, $(br)melee: 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#monument)Ocean Monuments$() $(br)> $(n)Properties:$() $(br)The $(thing)Elder Guardian$() has 3 methods of attacking, including firing its laser, inflicting $(l:brewing/effects#mining_fatigue)$(thing)Mining Fatigue$(), and a defensive thorn-like attack."
     },
     {
       "type": "patchouli:entity",
