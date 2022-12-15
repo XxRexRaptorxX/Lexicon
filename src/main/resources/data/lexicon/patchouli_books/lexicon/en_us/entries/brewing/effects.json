@@ -16,6 +16,7 @@
     {
       "type": "patchouli:text",
       "title": "Speed",
+      "anchor": "speed",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases walking speed; higher levels make the affected entity faster. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Beacon"
     },
     {
@@ -41,6 +42,7 @@
     {
       "type": "patchouli:text",
       "title": "Haste",
+      "anchor": "haste",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases mining and attack speed, higher levels increase the mining and attack speed. $(br2)$(n)Sources:$() $(br)Beacon"
     },
     {
@@ -65,6 +67,7 @@
     {
       "type": "patchouli:text",
       "title": "Strength",
+      "anchor": "strength",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases melee damage, higher levels make the affected entity do more melee damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Beacon"
     },
     {
@@ -103,6 +106,7 @@
     {
       "type": "patchouli:text",
       "title": "Jump Boost",
+      "anchor": "jump_boost",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases jump height and reduces fall damage, higher levels make the affected entity jump higher and reduces more fall damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Beacon, Suspicious Stew"
     },
     {
@@ -153,6 +157,7 @@
     {
       "type": "patchouli:text",
       "title": "Fire Resistance",
+      "anchor": "fire_resistance",
       "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Prevents the affected entity from taking damage due to $(item)Fire$(), $(item)Lava$() and other sources of fire damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Enchanted Golden Apple, Suspicious Stew, Totem of Undying"
     },
     {
@@ -275,6 +280,7 @@
     {
       "type": "patchouli:text",
       "title": "Absorption",
+      "anchor": "absorption",
       "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Adds damage absorption (additional hearts that can't be regenerated), higher levels give more absorption. $(br2)$(n)Sources:$() $(br)Golden Apples, Totem of Undying"
     },
     {
@@ -360,6 +366,7 @@
     {
       "type": "patchouli:text",
       "title": "Conduit Power",
+      "anchor": "conduit_power",
       "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Increases underwater visibility and mining speed, prevents drowning. $(br2)$(n)Sources:$() $(br)Conduit"
     },
     {

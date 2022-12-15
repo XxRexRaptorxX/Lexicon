@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:pearlescent_froglight",
-      "text": "A $(item)Froglight$() is a luminous natural block that can be obtained if a $(thing)Frog$() eats a tiny $(thing)Magma Cube$(). $(br2)It is used for decoration."
+      "text": "A $(item)Froglight$() is a luminous natural block that can be obtained if a $(l:creatures/aquatic_animal-frog)$(thing)Frog$() eats a tiny $(l:creatures/monster-magma_cube)$(thing)Magma Cube$(). $(br2)It is used for decoration."
     },
     {
       "type": "patchouli:spotlight",

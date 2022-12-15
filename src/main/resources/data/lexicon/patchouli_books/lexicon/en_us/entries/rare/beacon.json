@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:beacon",
-      "text": "A $(item)Beacon$() is a block that projects a light beam skyward and can provide status effects such as $(thing)Speed$(), $(thing)Jump Boost$(), $(thing)Haste$(), $(thing)Regeneration$(), $(thing)Resistance$(), or $(thing)Strength$() to nearby $(thing)Players$() when activated with a pyramid."
+      "text": "A $(item)Beacon$() is a block that projects a light beam skyward and can provide status effects such as $(l:brewing/effects#speed)$(thing)Speed$(), $(l:brewing/effects#jump_boost)$(thing)Jump Boost$(), $(l:brewing/effects#haste)$(thing)Haste$(), $(l:brewing/effects#regeneration)$(thing)Regeneration$(), $(l:brewing/effects#resistance)$(thing)Resistance$(), or $(l:brewing/effects#strength)$(thing)Strength$() to nearby $(l:creatures/human-player)$(thing)Players$() when activated with a pyramid."
     },
     {
       "type": "patchouli:crafting",

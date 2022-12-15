@@ -7,7 +7,7 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:netherite_scrap",
       "title": "Netherite",
-      "text": "$(item)Netherite$() is a rare material from the $(thing)Nether$(), used primarily to upgrade $(item)Diamond$() gear. $(br2)$(item)Netherite$() items are more powerful and durable than $(item)Diamond$(), can float in lava, and cannot burn. $(br)$(li)For $(item)Netherite$(), you must first find $(item)Ancient Debris$() in the $(thing)Nether$()!"
+      "text": "$(item)Netherite$() is a rare material from the $(l:world/dimensions#nether)$(thing)Nether$(), used primarily to upgrade $(item)Diamond$() gear. $(br2)$(item)Netherite$() items are more powerful and durable than $(item)Diamond$(), can float in lava, and cannot burn. $(br)$(li)For $(item)Netherite$(), you must first find $(item)Ancient Debris$() in the $(l:world/dimensions/nether)$(thing)Nether$()!"
     },
     {
       "type": "patchouli:smelting",
@@ -17,7 +17,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:netherite_ingot",
-      "text": "$(item)Netherite$() gear is made by upgrading $(item)Diamond$() gear using a $(item)Smithing Table$()."
+      "text": "$(item)Netherite$() gear is made by upgrading $(item)Diamond$() gear using a $(l:useables/smithing_table)$(item)Smithing Table$()."
     }
   ]
 }

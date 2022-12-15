@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:music_disc_13",
-      "text": "Most discs are dropped from a $(thing)Creeper$() when killed by any $(thing)Skeleton$() or $(thing)Stray$() or generates as chest loot. $(br2)The $(item)Music Discs$() can be played on a $(item)Jukebox$()."
+      "text": "Most discs are dropped from a $(l:creatures/monster-creeper)$(thing)Creeper$() when killed by any $(l:creatures/undead-skeleton)$(thing)Skeleton$() or $(l:creatures/undead-stray)$(thing)Stray$() or generates as chest loot. $(br2)The $(item)Music Discs$() can be played on a $(l:useables/jukebox)$(item)Jukebox$()."
     },
     {
       "type": "patchouli:crafting",

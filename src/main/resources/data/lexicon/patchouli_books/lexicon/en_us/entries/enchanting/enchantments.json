@@ -87,6 +87,7 @@
     {
       "type": "patchouli:text",
       "title": "Looting",
+      "anchor": "looting",
       "text": "$(n)Effect:$() $(br)Increases mob loot.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
     },
     {
