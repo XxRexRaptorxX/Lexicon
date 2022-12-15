@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "When you enter the $(thing)End$(), get to the center of the island as quickly as possible, and if you see the $(thing)Ender Dragon$() diving at you, quickly jump out of its way. $(br2)Before fighting, you need to do destroy all $(item)End Crystals$() above the $(item)Obsidian$() pillars, because they heal the dragon. $(br2)The best way to do this, with a $(item)Bow$() or $(item)Crossbow$()."
+      "text": "When you enter the $(l:world/dimensions#end)$(thing)End$(), get to the center of the island as quickly as possible, and if you see the $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() diving at you, quickly jump out of its way. $(br2)Before fighting, you need to do destroy all $(item)End Crystals$() above the $(item)Obsidian$() pillars, because they heal the dragon. $(br2)The best way to do this, with a $(item)Bow$() or $(item)Crossbow$()."
     },
     {
       "type": "patchouli:text",
@@ -17,12 +17,12 @@
       "entity": "minecraft:ender_dragon",
       "scale": "1.5",
       "offset": "-5",
-      "text": "It's useful to collect the $(item)Dragon's Breath$() with a $(item)Glass Bottle$() during the fight because it can be used to make $(item)Lingering Potions$()."
+      "text": "It's useful to collect the $(l:rare/dragons_breath)$(item)Dragon's Breath$() with a $(item)Glass Bottle$() during the fight because it can be used to make $(l:brewing/potion_types#lingering_potion)$(item)Lingering Potions$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dragon_egg",
-      "text": "When you kill the $(thing)Ender Dragon$() you will get a lot of XP, the rare $(item)Dragon Egg$(), a portal back to the $(thing)Overworld$() and a gateway portal to the outer end islands."
+      "text": "When you kill the $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() you will get a lot of XP, the rare & unique $(l:rare/dragon_egg)$(item)Dragon Egg$(), a portal back to the $(l:world/dimensions#overworld)$(thing)Overworld$() and a gateway portal to the outer end islands."
     }
   ]
 }

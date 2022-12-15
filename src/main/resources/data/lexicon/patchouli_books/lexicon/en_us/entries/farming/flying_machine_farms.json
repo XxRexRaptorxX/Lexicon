@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If there are large areas that need to be farmed, the best way is with a $(thing)Flying Machine$(). $(br2)They can be used for a variety of farms  e.g. $(item)Bamboo$(), $(item)Sugar Cane$(), $(item)Cactus, $(item)Kelp$(), ..."
+      "text": "If there are large areas that need to be farmed, the best way is with a $(l:redstone/flying_machines)$(thing)Flying Machine$(). $(br2)They can be used for a variety of farms  e.g. $(item)Bamboo$(), $(item)Sugar Cane$(), $(item)Cactus, $(item)Kelp$(), ..."
     },
     {
       "type": "patchouli:image",

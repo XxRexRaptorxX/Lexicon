@@ -14,7 +14,7 @@
         "lexicon:textures/pictures/mining_levels.png"
       ],
       "border": false,
-      "text": "$(thing)Mods$() can add even more ores and mining levels to the game."
+      "text": "$(l:modifications/mods)$(thing)Mods$() can add even more ores and mining levels to the game."
     }
   ]
 }

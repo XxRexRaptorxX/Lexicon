@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Mod packs$() are collections of $(thing)Mods$() that have been put together and configured so that they all work together. $(br2)These packs are often centered around a general theme like tech, quests, or magic."
+      "text": "$(thing)Mod packs$() are collections of $(l:modifications/mods)$(thing)Mods$() that have been put together and configured so that they all work together. $(br2)These packs are often centered around a general theme like tech, quests, or magic."
     },
     {
       "type": "patchouli:text",

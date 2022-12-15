@@ -69,6 +69,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:lever",
+      "anchor": "lever",
       "text": "A $(item)Lever$() emits redstone power when activated."
     },
     {
@@ -101,6 +102,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:observer",
+      "anchor": "observer",
       "text": "A $(item)Observer$() detects changes in its target's block states, or the breaking or placing of a block (i.e. changes in its block state). $(br2)This means that changes like the age of $(item)Crops$() can be detected because they are part of the block states."
     },
     {
@@ -121,6 +123,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:piston",
+      "anchor": "piston",
       "text": "A $(item)Piston$() is capable of pushing blocks, $(thing)Players$(), and $(thing)Mobs$() when given a redstone pulse. $(br2)A $(item)Sticky Piston$() has the same function as a $(item)Piston$() but can also pull the block on its face back when it retracts, unlike the regular one, which leaves the pushed block in place."
     },
     {
@@ -164,6 +167,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:hopper",
+      "anchor": "hopper",
       "text": "While a $(item)Hopper$() is not powered by redstone signals, it operates with three functions: $(br)$(li)Collect item entities (free-floating items in the world) into its inventory from above it $(br)$(li)Pull a single item into its inventory from a container above it $(br)$(li)Push a single item from its own inventory into a container it faces"
     },
     {

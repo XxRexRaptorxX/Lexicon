@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Animals such as $(thing)Pigs$(), $(thing)Cows$() & $(thing)Sheeps$() can be farmed here. $(br2)Some adults have to be caged above and paired so that the babies fall down and are grilled when they grow up."
+      "text": "Animals such as $(l:creatures/animal-pig)$(thing)Pigs$(), $(l:creatures/animal-cow)$(thing)Cows$() & $(l:creatures/animal-sheep)$(thing)Sheeps$() can be farmed here. $(br2)Some adults have to be caged above and paired so that the babies fall down and are grilled when they grow up."
     },
     {
       "type": "patchouli:image",

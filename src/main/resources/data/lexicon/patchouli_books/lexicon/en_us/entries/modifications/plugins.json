@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)$(thing)Plugins$() do not change the game itself, as a $(thing)Mod$() does. $(br)$(li)You can find new plugins $(l:https://www.curseforge.com/minecraft/bukkit-plugins)here$()"
+      "text": "$(br)$(thing)Plugins$() do not change the game code itself, as a $(l:modifications/mods)$(thing)Mod$() does. $(br)$(li)You can find new plugins $(l:https://www.curseforge.com/minecraft/bukkit-plugins)here$()"
     }
   ]
 }

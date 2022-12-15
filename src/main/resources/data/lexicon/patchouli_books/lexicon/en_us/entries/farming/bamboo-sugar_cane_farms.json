@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm can harvest $(item)Bamboo$() and $(item)Sugar Cane$() fully automatically. $(br2)When $(item)Observers$() realize that something has grown in front of them, the $(item)Pistons$() below destroy the plant and $(item)Water$() transports the drops to a $(item)Hopper$()."
+      "text": "This farm can harvest $(item)Bamboo$() and $(item)Sugar Cane$() fully automatically. $(br2)When $(l:redstone/redstone_components#observer)$(item)Observers$() realize that something has grown in front of them, the $(l:redstone/redstone_components#piston)$(item)Pistons$() below destroy the plant and $(item)Water$() transports the drops to a $(l:redstone/redstone_components#hopper)$(item)Hopper$()."
     },
     {
       "type": "patchouli:image",

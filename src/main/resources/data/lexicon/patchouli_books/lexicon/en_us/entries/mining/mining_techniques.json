@@ -51,7 +51,7 @@
       ],
       "border": true,
       "title": "Quarry Mining",
-      "text": "This variant is not particularly efficient, but covers the entire area with all resources, is often used with $(thing)Mods$() that contain $(item)Quarrys$()."
+      "text": "This variant is not particularly efficient, but covers the entire area with all resources, is often used with $(l:modifications/mods)$(thing)Mods$() that contain $(item)Quarrys$()."
     },
     {
       "type": "patchouli:image",
@@ -60,7 +60,7 @@
       ],
       "border": true,
       "title": "Explosion Mining",
-      "text": "Mining with explosives is mainly used in conjunction with $(item)Ancient Debris$(), since it's pretty much the fastest option in the $(thing)Nether$() using exploding $(item)Beds$()."
+      "text": "Mining with explosives is mainly used in conjunction with $(l:rare/netherite)$(item)Ancient Debris$(), since it's pretty much the fastest option in the $(l:world/dimensions#nether)$(thing)Nether$() using exploding $(l:useables/bed)$(item)Beds$()."
     },
     {
       "type": "patchouli:image",
@@ -68,7 +68,7 @@
         "lexicon:textures/pictures/mining_machine.png"
       ],
       "border": true,
-      "text": "But $(item)TNT$() or $(thing)Flying Machines$() are also used."
+      "text": "But $(item)TNT$() or $(l:redstone/flying_machines)$(thing)Flying Machines$() are also used."
     }
   ]
 }

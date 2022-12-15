@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm doesn't focus on any specific monsters. It let them spawn which then pushed from the $(item)Water$() into a pit where they are killed by $(item)Magma Blocks$(). $(br)The drops are then transported into a $(item)Chest$() by a $(item)Hopper Minecart$(). $(br2)$(n)A few things to note:$() $(li)The spawn area has to be dark $(li)Make the spawn are only 2 blocks high to prevent $(thing)Enderman$() from spawning $(li)Make the moats at least 2-3 blocks wide, that $(thing)Spiders$() don't block them"
+      "text": "This farm doesn't focus on any specific monsters. It let them spawn which then pushed from the $(item)Water$() into a pit where they are killed by $(item)Magma Blocks$(). $(br)The drops are then transported into a $(l:useables/chest)$(item)Chest$() by a $(item)Hopper Minecart$(). $(br2)$(n)A few things to note:$() $(li)The spawn area has to be dark $(li)Make the spawn are only 2 blocks high to prevent $(l:creatures/monster-enderman)$(thing)Enderman$() from spawning $(li)Make the moats at least 2-3 blocks wide, that $(l:creatures/arthropod-spider)$(thing)Spiders$() don't block them"
     },
     {
       "type": "patchouli:image",

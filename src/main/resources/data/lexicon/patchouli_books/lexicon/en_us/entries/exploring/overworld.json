@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some important items that you should always have with your adventure in the $(thing)Overworld$()!"
+      "text": "Here are some important items that you should always have with your adventure in the $(l:world/dimensions#overworld)$(thing)Overworld$()!"
     },
     {
       "type": "patchouli:image",

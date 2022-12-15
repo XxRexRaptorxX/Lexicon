@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(thing)Data pack$() provides a way for $(thing)Players$() to further customize their Minecraft experience. $(br2)These packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, recipes, structures, tags, world generation settings, and biomes without any code modification."
+      "text": "A $(thing)Data pack$() provides a way for $(l:creatures/human-player)$(thing)Players$() to further customize their Minecraft experience. $(br2)These packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, recipes, structures, tags, world generation settings, and biomes without any code modification."
     },
     {
       "type": "patchouli:text",

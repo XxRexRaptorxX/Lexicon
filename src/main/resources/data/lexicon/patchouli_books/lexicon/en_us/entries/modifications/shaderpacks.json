@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "With $(thing)Shader packs$() you add new light, shadow and water effects to the game. $(br2)Shaders use quite a lot of power, so you should have a strong computer. $(br2)To use shader, you need $(thing)Mods$() like Optifine or Iris. $(br)$(li)They can be placed in the folder $(l)shaderpacks$() within the $(l).minecraft$() folder."
+      "text": "With $(thing)Shader packs$() you add new light, shadow and water effects to the game. $(br2)Shaders use quite a lot of power, so you should have a strong computer. $(br2)To use shader, you need $(l:modifications/mods)$(thing)Mods$() like $(n)Optifine$() or $(n)Iris$(). $(br)$(li)They can be placed in the folder $(l)shaderpacks$() within the $(l).minecraft$() folder."
     },
     {
       "type": "patchouli:image",
