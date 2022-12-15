@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Magma Blocks$() damage most living entities standing on top of them, even if underwater. $(br2)The $(thing)Player$() can avoid all damage by sneaking, being under the $(thing)Fire Resistance$() effect, or by wearing $(thing)Frost Walker$() $(item)Boots$()."
+      "text": "$(item)Magma Blocks$() damage most living entities standing on top of them, even if underwater. $(br2)The $(l:creatures/human-player)$(thing)Player$() can avoid all damage by sneaking, being under the $(l:brewing/effect#fire_resistance)$(thing)Fire Resistance$() effect, or by wearing $(l:enchanting/enchantments#frost_walker)$(thing)Frost Walker$() $(item)Boots$()."
     },
     {
       "type": "patchouli:image",

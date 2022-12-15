@@ -404,6 +404,7 @@
     {
       "type": "patchouli:text",
       "title": "Hero of the Village",
+      "anchor": "village_hero",
       "text": "$(n)Type:$() Positive  $(br2)$(n)Effect:$() $(br)Gives discounts on trades with $(thing)Villagers$(), and makes them throw items at the $(thing)Player$() depending on their profession. $(br2)$(n)Sources:$() $(br)Completing a village raid"
     },
     {

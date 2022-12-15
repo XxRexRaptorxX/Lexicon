@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If a $(item)Turtle Shell$() or $(item)Potion of Water Breathing$() is not available at the moment, theres also simpler tricks to be used. $(br2)If you place a block that is smaller than a full block underwater, air is created that you can breathe."
+      "text": "If a $(item)Turtle Shell$() or $(l:brewing/brewing)$(item)Potion of Water Breathing$() is not available at the moment, theres also simpler tricks to be used. $(br2)If you place a block that is smaller than a full block underwater, air is created that you can breathe."
     },
     {
       "type": "patchouli:image",

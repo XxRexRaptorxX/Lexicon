@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:smoker",
-      "text": "A $(item)Smoker$() is a type of $(item)Furnace$() that cooks food items, but twice as fast and fewer output. $(br2)It also serves as a $(thing)Butcher's$() job site block."
+      "text": "A $(item)Smoker$() is a type of $(l:useables/furnace)$(item)Furnace$() that cooks food items, but twice as fast and fewer output. $(br2)It also serves as a $(l:creatures/human-villager#butcher)$(thing)Butcher's$() job site block."
     },
     {
       "type": "patchouli:crafting",

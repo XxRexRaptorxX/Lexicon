@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If $(thing)Players$() drive $(item)Boats$() on $(item)Ice$(), they will suddenly find themselves launching at speeds that they didn't think were possible. $(br2)This is a great way to travel from one area to another extremely fast. $(br2)While all types of $(thing)Ice$() will provide this effect when combined with $(item)Boats$(), $(item)Blue Ice$() will provide the fastest travel."
+      "text": "If $(l:creatures/human-player)$(thing)Players$() drive $(item)Boats$() on $(item)Ice$(), they will suddenly find themselves launching at speeds that they didn't think were possible. $(br2)This is a great way to travel from one area to another extremely fast. $(br2)While all types of $(thing)Ice$() will provide this effect when combined with $(item)Boats$(), $(item)Blue Ice$() will provide the fastest travel."
     },
     {
       "type": "patchouli:image",

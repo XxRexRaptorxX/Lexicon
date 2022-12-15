@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The first thing you need to do, when you spawn into a new world is to search for a $(thing)Tree$() and punching it until $(item)Logs$() drops. $(br)$(li)Gather a bunch of Logs then open your inventory to turn the $(item)Logs$() into $(item)Planks$(). $(br)$(li)Then use 4 $(item)Planks$() in your mini crafting grid to create a $(item)Crafting Table$()."
+      "text": "The first thing you need to do, when you spawn into a new world is to search for a $(thing)Tree$() and punching it until $(item)Logs$() drops. $(br)$(li)Gather a bunch of Logs then open your inventory to turn the $(item)Logs$() into $(item)Planks$(). $(br)$(li)Then use 4 $(item)Planks$() in your mini crafting grid to create a $(l:useables/crafting_table)$(item)Crafting Table$()."
     },
     {
       "type": "patchouli:crafting",
@@ -42,7 +42,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)The next step is searching $(item)Food$(), for quick food kill some $(thing)Animals$() with your $(item)Sword$() and cook the flesh in an $(item)Furnace$(). $(br2)You can use $(item)Wood$() or $(item)Coal$() as fuel. $(br)$(li)And if you have found $(thing)Cows$(), you should craft $(item)Armor$() out of the $(item)Leather$()."
+      "text": "$(li)The next step is searching $(item)Food$(), for quick food kill some $(thing)Animals$() with your $(item)Sword$() and cook the flesh in an $(l:useables/furnace)$(item)Furnace$(). $(br2)You can use $(item)Wood$() or $(item)Coal$() as fuel. $(br)$(li)And if you have found $(l:creatures/animal-cow)$(thing)Cows$(), you should craft $(item)Armor$() out of the $(item)Leather$()."
     },
     {
       "type": "patchouli:crafting",

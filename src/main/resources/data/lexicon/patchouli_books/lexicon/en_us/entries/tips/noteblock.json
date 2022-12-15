@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Note Blocks$() play a musical note when hit or powered by $(item)Redstone$(). $(br2)A $(item)Note Block$() must have air in the space directly above it to play a sound. $(br2)Pressing the use button on the block increases the note pitch up a semitone."
+      "text": "$(l:redstone/redstone_components#noteblock)$(item)Note Blocks$() play a musical note when hit or powered by $(l:redstone/redstone_behavior)$(item)Redstone$(). $(br2)A $(l:redstone/redstone_components#noteblock)$(item)Note Block$() must have air in the space directly above it to play a sound. $(br2)Pressing the use button on the block increases the note pitch up a semitone."
     },
     {
       "type": "patchouli:image",

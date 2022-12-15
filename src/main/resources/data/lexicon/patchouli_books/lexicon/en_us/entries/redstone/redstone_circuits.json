@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A logic gate can be thought of as a simple device that will return a number of outputs, determined by the pattern of inputs and rules that the logic gate follows. $(br2)These gates can be used to build large circuits for machines. $(br2)The $(item)Lever$() in this circuits represent inputs and the $(item)Lamps$() the output."
+      "text": "A logic gate can be thought of as a simple device that will return a number of outputs, determined by the pattern of inputs and rules that the logic gate follows. $(br2)These gates can be used to build large circuits for machines. $(br2)The $(l:redstone/redstone_components#lever)$(item)Lever$() in this circuits represent inputs and the $(l:redstone/redstone_components#lamp)$(item)Lamps$() the output."
     },
     {
       "type": "patchouli:multiblock",
@@ -352,7 +352,7 @@
         }
       },
       "name": "Hopper-Clock",
-      "text": "A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 hoppers."
+      "text": "A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
     },
 
 
@@ -376,7 +376,7 @@
         }
       },
       "name": "Comparator-Clock",
-      "text": "The clock of short or moderate cycle length utilizing $(item)Comparator's$() subtraction or signal fading feature."
+      "text": "The clock of short or moderate cycle length utilizing $(l:redstone/redstone_components#comparator)$(item)Comparator's$() subtraction or signal fading feature."
     },
 
 
@@ -406,7 +406,7 @@
         }
       },
       "name": "Repeater-Clock",
-      "text": "This clock consists of a loop of $(item)Repeaters$() with occasional dust or blocks to draw off the appropriate pulses."
+      "text": "This clock consists of a loop of $(l:redstone/redstone_components#repeater)$(item)Repeaters$() with occasional dust or blocks to draw off the appropriate pulses."
     },
 
 
@@ -485,7 +485,7 @@
         }
       },
       "name": "Randomizer",
-      "text": "Put items of varying stack size into the $(item)Dropper$(), e.g. a $(item)Sword$() and a piece of $(item)Dirt$()."
+      "text": "Put items of varying stack size into the $(l:redstone/redstone_components#dropper)$(item)Dropper$(), e.g. a $(item)Sword$() and a piece of $(item)Dirt$()."
     },
 
 

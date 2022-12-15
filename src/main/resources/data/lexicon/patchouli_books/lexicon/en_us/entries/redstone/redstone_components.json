@@ -11,6 +11,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone",
+      "anchor": "redstone",
       "text": "$(item)Redstone Dust$() is the core of redstone mechanics. $(br2)Mined from $(item)Redstone Ore$(), the dust can be placed to form redstone wires to carry signals, or crafted into other devices."
     },
     {
@@ -36,6 +37,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:repeater",
+      "anchor": "repeater",
       "text": "A $(item)Repeater$() is a block used in redstone circuits to repeat redstone signals back to full strength, delay signals, prevent signals moving backwards, or to lock signals in one state. $(br)$(li)Transmits signals only from its back to its front $(br)$(li)They can repeat a redstone signal, boosting it back up"
     },
     {
@@ -47,6 +49,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:comparator",
+      "anchor": "comparator",
       "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(br)Has 2 $(item)Redstone Torches$() at the back and one at the front. $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
     },
     {
@@ -92,6 +95,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:tripwire_hook",
+      "anchor": "tripwire",
       "text": "A $(item)Tripwire Hook$() can be used to detect $(thing)Mobs$(), $(thing)Items$(), and other $(thing)Entities$() over a large area. $(br2)To use it you have to place 2 hooks opposite each other on walls and connect them with $(item)Strings$(), now when an entity touches the thread the hooks emit a signal."
     },
     {
@@ -145,6 +149,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dropper",
+      "anchor": "dropper",
       "text": "A $(item)Dropper$() is a block that can be used to drop items or to push items into another container."
     },
     {
@@ -203,6 +208,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_lamp",
+      "anchor": "lamp",
       "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal"
     },
     {

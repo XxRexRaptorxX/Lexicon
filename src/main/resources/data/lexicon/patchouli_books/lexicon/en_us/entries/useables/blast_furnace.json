@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:blast_furnace",
-      "text": "A $(item)Blast Furnace$() is a block that smelts ores, raw metals, metal armor and tools, similar to a $(item)Furnace$(), but at twice the speed and fewer output. $(br2)It also serves as an $(thing)Armorer's$() job site block."
+      "text": "A $(item)Blast Furnace$() is a block that smelts ores, raw metals, metal armor and tools, similar to a $(l:useables/furnace)$(item)Furnace$(), but at twice the speed and fewer output. $(br2)It also serves as an $(l:creatures/human-villager#armorer)$(thing)Armorer's$() job site block."
     },
     {
       "type": "patchouli:crafting",

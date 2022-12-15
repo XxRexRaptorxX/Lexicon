@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:brewing_stand",
-      "text": "A $(item)Brewing Stand$() is a block used for brewing $(item)Potions$() using $(item)Bottles$() and suitable ingredients. $(br2)It also serves as a $(thing)Cleric's$() job site block."
+      "text": "A $(item)Brewing Stand$() is a block used for brewing $(l:brewing/potion_types)$(item)Potions$() using $(item)Bottles$() and suitable ingredients. $(br2)It also serves as a $(l:creatures/human-villager#cleric)$(thing)Cleric's$() job site block."
     },
     {
       "type": "patchouli:crafting",

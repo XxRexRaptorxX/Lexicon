@@ -26,6 +26,7 @@
     {
       "type": "patchouli:text",
       "title": "Channeling",
+      "anchor": "channeling",
       "text": "$(n)Effect:$() $(br)During thunderstorms, tridents will be able to strike hit enemies with a lightning bolt.$(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
     },
     {
@@ -41,6 +42,7 @@
     {
       "type": "patchouli:text",
       "title": "Feather Falling",
+      "anchor": "feather falling",
       "text": "$(n)Effect:$() $(br)Reduces fall damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
     },
     {
@@ -66,6 +68,7 @@
     {
       "type": "patchouli:text",
       "title": "Frost Walker",
+      "anchor": "frost_walker",
       "text": "$(n)Effect:$() $(br)Allows the player to walk on water by freezing the water under their feet.    $(br2)$(n)Incompatible Enchantments:$() Depth Strider  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
     },
     {

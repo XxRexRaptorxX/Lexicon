@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Villager trading halls maximize the number of $(thing)Villagers$() that can be easily reached. $(br2)You can easily change the jobs and thus the trades of the $(thing)Villagers$() with the job site blocks."
+      "text": "Villager trading halls maximize the number of $(l:creatures/human-villager)$(thing)Villagers$() that can be easily reached. $(br2)You can easily change the jobs and thus the trades of the $(l:creatures/human-villager)$(thing)Villagers$() with the job site blocks."
     },
     {
       "type": "patchouli:image",
@@ -189,11 +189,11 @@
         }
       },
       "name": "Trading Hall",
-      "text": "$(n)Tip:$() Place the $(item)Strings$() for the $(item)Tripwires$() last, so that the $(item)Pistons$() behave correctly."
+      "text": "$(n)Tip:$() Place the $(item)Strings$() for the $(l:redstone/redstone_components#tripwire)$(item)Tripwires$() last, so that the $(l:redstone/redstone_components#piston)$(item)Pistons$() behave correctly."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)If the trades don't fit with a $(thing)Villager$(), you simply have to remove the job site block, wait and place a new one. $(br2)You can also choose the job site blocks freely, depending on which profession you want to have."
+      "text": "$(br)If the trades don't fit with a $(l:creatures/human-villager)$(thing)Villager$(), you simply have to remove the job site block, wait and place a new one. $(br2)You can also choose the job site blocks freely, depending on which profession you want to have."
     }
   ]
 }

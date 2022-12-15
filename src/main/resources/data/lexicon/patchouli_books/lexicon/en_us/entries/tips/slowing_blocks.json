@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Soul Sand$() usually slows down the movement of mobs and $(thing)Players$() walking on it. $(br2)This slowing effect can be increased by placing $(item)Soul Sand$() directly on any $(item)Ice Block$() or $(item)Slime Blocks$()."
+      "text": "$(item)Soul Sand$() usually slows down the movement of mobs and $(l:creatures/human-player)$(thing)Players$() walking on it. $(br2)This slowing effect can be increased by placing $(item)Soul Sand$() directly on any $(item)Ice Block$() or $(item)Slime Blocks$()."
     },
     {
       "type": "patchouli:image",

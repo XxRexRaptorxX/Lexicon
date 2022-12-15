@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If you are now well equipped with $(item)Iron$() and have survived the first night, you can now start building a $(thing)Food Farm$() and a base with a $(item)Bed$() to set your spawnpoint, $(thing)exploring$() the area and collecting resources! $(br2)$(br)Some useful things that you should craft are listed on the following pages."
+      "text": "If you are now well equipped with $(item)Iron$() and have survived the first night, you can now start building a $(thing)Food Farm$() and a base with a $(l:useables/bed)$(item)Bed$() to set your spawnpoint, $(thing)exploring$() the area and collecting resources! $(br2)$(br)Some useful things that you should craft are listed on the following pages."
     },
     {
       "type": "patchouli:crafting",

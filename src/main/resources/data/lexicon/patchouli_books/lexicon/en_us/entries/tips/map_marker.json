@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Using on a $(item)Banner$() with a $(item)Map$() selected places a marker of the banner's position on the selected $(item)Map$(), and using on the $(item)Banner$() again removes the marker. $(br2)The marker has the same color as the banner. $(br2)The marker is removed if the banner is destroyed unless the map is locked using a $(item)Cartography Table$()."
+      "text": "Using on a $(item)Banner$() with a $(item)Map$() selected places a marker of the banner's position on the selected $(item)Map$(), and using on the $(item)Banner$() again removes the marker. $(br2)The marker has the same color as the banner. $(br2)The marker is removed if the banner is destroyed unless the map is locked using a $(l:useables/cartography_table)$(item)Cartography Table$()."
     },
     {
       "type": "patchouli:image",
