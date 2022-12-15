@@ -46,7 +46,7 @@
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
-      "anchor": "leatherworker"
+      "anchor": "leatherworker",
       "scale": "1.0"
     },
     {
