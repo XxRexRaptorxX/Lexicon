@@ -174,6 +174,107 @@
       "multiblock": {
         "pattern": [
           [
+            "     ",
+            "     ",
+            "     ",
+            "     ",
+            "XXXXX",
+            "XXXXX",
+            "     ",
+            "     ",
+            "     ",
+            "     "
+          ],
+          [
+            "     ",
+            "  R  ",
+            "  W  ",
+            "XXXXX",
+            "     ",
+            "!   !",
+            "XXXXX",
+            "$ E $",
+            "  R  ",
+            "     "
+          ],
+          [
+            "  1  ",
+            "  #  ",
+            "  W  ",
+            "XXXXX",
+            "     ",
+            "  0  ",
+            "XXXXX",
+            "O E O",
+            "  #  ",
+            "  2  "
+          ],
+          [
+            "  #3 ",
+            "     ",
+            "     ",
+            "     ",
+            "XXXXX",
+            "XXXXX",
+            "     ",
+            "rrr9r",
+            "   R ",
+            "  #4 "
+          ],
+          [
+            "   # ",
+            "   5 ",
+            "   R ",
+            "   R ",
+            "   R ",
+            "   R ",
+            "   8 ",
+            "#####",
+            "   # ",
+            "   # "
+          ],
+          [
+            "     ",
+            "   # ",
+            "   # ",
+            "   # ",
+            "   # ",
+            "   # ",
+            "   # ",
+            "     ",
+            "     ",
+            "     "
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:stone_bricks",
+          "#": "minecraft:white_wool",
+          "$": "minecraft:note_block",
+          "O": "minecraft:observer[facing=up]",
+          "W": "minecraft:sticky_piston[facing=east]",
+          "E": "minecraft:sticky_piston[facing=west]",
+          "!": "minecraft:lever[facing=west,face=wall]",
+          "R": "minecraft:redstone_wire[east=side,north=none,south=none,west=side,power=0]",
+          "r": "minecraft:redstone_wire[east=none,north=side,south=side,west=none,power=0]",
+          "1": "minecraft:redstone_wire[east=up,north=none,south=side,west=none,power=0]",
+          "2": "minecraft:redstone_wire[east=none,north=none,south=side,west=up,power=0]",
+          "3": "minecraft:redstone_wire[east=side,north=up,south=none,west=none,power=0]",
+          "4": "minecraft:redstone_wire[east=none,north=up,south=none,west=side,power=0]",
+          "5": "minecraft:redstone_wire[east=side,north=none,south=none,west=up,power=0]",
+          "6": "minecraft:redstone_wire[east=none,north=up,south=none,west=side,power=0]",
+          "7": "minecraft:redstone_wire[east=none,north=side,south=none,west=side,power=0]",
+          "8": "minecraft:redstone_wire[east=up,north=none,south=none,west=side,power=0]",
+          "9": "minecraft:redstone_wire[east=side,north=side,south=side,west=side,power=0]"
+        }
+      },
+      "name": "2-Way 2x2 Piston Door",
+      "text": "This is a relative simple 2x2 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
             "      ",
             "   ß  ",
             "   r  ",
@@ -297,7 +398,45 @@
         }
       },
       "name": "2-Way 3x3 Piston Door",
-      "text": "This is a fast 3x3 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
+      "text": "This is a fast complex 3x3 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " X ",
+            " X ",
+            " X "
+          ],
+          [
+            " X ",
+            " 1 ",
+            " X!"
+          ],
+          [
+            " X ",
+            "_20",
+            " X "
+          ],
+          [
+            "##O",
+            "##O",
+            "##O"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:stone_bricks",
+          "#": "minecraft:oak_planks",
+          "O": "minecraft:grass_block",
+          "_": "minecraft:stone_pressure_plate",
+          "!": "minecraft:oak_button[face=wall,facing=south]",
+          "1": "minecraft:iron_door[facing=north,half=upper]",
+          "2": "minecraft:iron_door[facing=north,half=lower]"
+        }
+      },
+      "name": "Self-closing Door",
+      "text": "This is a self-closing monster safe door."
     }
   ]
 }
