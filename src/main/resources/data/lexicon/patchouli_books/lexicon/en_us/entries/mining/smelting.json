@@ -27,6 +27,7 @@
     },
     {
       "type": "patchouli:multiblock",
+      "anchor": "smelter",
       "multiblock": {
         "pattern": [
           [

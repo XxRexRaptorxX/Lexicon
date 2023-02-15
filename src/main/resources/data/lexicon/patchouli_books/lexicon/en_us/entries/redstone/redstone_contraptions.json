@@ -6,7 +6,298 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Coming soon!"
+      "text": "The following pages contain blueprints for useful redstone contraptions. $(br2)$(li) You can find even more redstone contraptions in the $(l:farming)Farming Chapter$() and $(l:mining/smelting#smelter)Smelting Chapter$()"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " i ",
+            "   "
+          ],
+          [
+            "   ",
+            " I ",
+            "   "
+          ],
+          [
+            " a ",
+            "s-w",
+            " d "
+          ],
+          [
+            " 6 ",
+            "7X5",
+            " 8 "
+          ],
+          [
+            "   ",
+            " V ",
+            "   "
+          ],
+          [
+            "   ",
+            " i ",
+            "   "
+          ],
+          [
+            "   ",
+            " i ",
+            "   "
+          ],
+          [
+            "   ",
+            " I ",
+            " 0 "
+          ],
+          [
+            " 4 ",
+            "1O3",
+            " 2 "
+          ]
+        ],
+        "mapping": {
+          "I": "minecraft:stone_brick_wall[up=true]",
+          "V": "minecraft:hopper",
+          "-": "minecraft:daylight_detector[inverted=true]",
+          "i": "minecraft:spruce_fence",
+          "O": "minecraft:chiseled_stone_bricks",
+          "X": "minecraft:redstone_lamp[lit=false]",
+          "1": "minecraft:spruce_trapdoor[open=true,half=bottom,facing=north]",
+          "2": "minecraft:spruce_trapdoor[open=true,half=bottom,facing=east]",
+          "3": "minecraft:spruce_trapdoor[open=true,half=bottom,facing=south]",
+          "4": "minecraft:spruce_trapdoor[open=true,half=bottom,facing=west]",
+          "5": "minecraft:spruce_fence[north=true]",
+          "6": "minecraft:spruce_fence[east=true]",
+          "7": "minecraft:spruce_fence[south=true]",
+          "8": "minecraft:spruce_fence[west=true]",
+          "w": "minecraft:stone_brick_stairs[facing=north,half=bottom]",
+          "a": "minecraft:stone_brick_stairs[facing=east,half=bottom]",
+          "s": "minecraft:stone_brick_stairs[facing=south,half=bottom]",
+          "d": "minecraft:stone_brick_stairs[facing=west,half=bottom]"
+
+        }
+      },
+      "name": "Street Lamp",
+      "text": "This is a street lamp that turns itself on at night."
+    },
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  X-",
+            "  X_",
+            " WX_",
+            "  X_",
+            "  X-"
+          ],
+          [
+            "  XI",
+            "  71",
+            "w50 ",
+            "  63",
+            "  XI"
+          ],
+          [
+            "  XI",
+            "rR72",
+            "x5! ",
+            "lR64",
+            "  XI"
+          ],
+          [
+            "  XX",
+            "XXXX",
+            "uW8X",
+            "XXXX",
+            "  XX"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:stone_bricks",
+          "x": "minecraft:smooth_stone_slab[type=top]",
+          "!": "minecraft:stone_pressure_plate",
+          "2": "minecraft:spruce_door[facing=south,half=lower,hinge=right]",
+          "1": "minecraft:spruce_door[facing=south,half=upper,hinge=right]",
+          "4": "minecraft:spruce_door[facing=south,half=lower,hinge=left]",
+          "3": "minecraft:spruce_door[facing=south,half=upper,hinge=left]",
+          "I": "minecraft:oak_log",
+          "-": "minecraft:oak_slab",
+          "_": "minecraft:spruce_trapdoor",
+          "5": "minecraft:dispenser[facing=south]",
+          "6": "minecraft:dispenser[facing=west]",
+          "7": "minecraft:dispenser[facing=east]",
+          "8": "minecraft:dispenser[facing=up]",
+          "W": "minecraft:redstone_wire[east=none,north=side,south=side,west=none,power=0]",
+          "w": "minecraft:redstone_wire[east=side,north=none,south=up,west=side,power=0]",
+          "l": "minecraft:redstone_wire[east=none,north=none,south=side,west=side,power=0]",
+          "r": "minecraft:redstone_wire[east=side,north=none,south=side,west=none,power=0]",
+          "u": "minecraft:redstone_wire[east=up,north=none,south=side,west=up,power=0]",
+          "R": "minecraft:repeater[facing=north]"
+        }
+      },
+      "name": "Armor Equipper",
+      "text": "This contraption equips you with armor & tools that you previously placed in the $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() when entering the $(l:redstone/redstone_components#pressure_plate)$(item)Pressure Plate$() $(br)(one $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() per item type)"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  ",
+            "O ",
+            "X "
+          ],
+          [
+            "d ",
+            "o0",
+            "D "
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:respawn_anchor",
+          "O": "minecraft:observer[facing=east]",
+          "o": "minecraft:observer[facing=west]",
+          "D": "minecraft:dispenser[facing=up]",
+          "d": "minecraft:dispenser[facing=west]"
+        }
+      },
+      "name": "Refilling Respawn Anchor",
+      "text": "This contraption will add $(item)Glowstone$() whenever you die from the $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() below to the $(l:useables/respawn_anchor)$(item)Respawn Anchor$() and refills it."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "      ",
+            "   ß  ",
+            "   r  ",
+            "   D  ",
+            "   r  ",
+            "   2  ",
+            "      ",
+            "      ",
+            "      "
+          ],
+          [
+            "      ",
+            "  3#  ",
+            "XXXXXX",
+            "XXXXXX",
+            "XXXXXX",
+            "  4#  ",
+            "      ",
+            "      ",
+            "      "
+          ],
+          [
+            "  5W  ",
+            "XXXXXX",
+            "      ",
+            "      ",
+            "      ",
+            "XXXXXX",
+            "  6E  ",
+            "      ",
+            "      "
+          ],
+          [
+            "  #W  ",
+            "XXXXXX",
+            "      ",
+            "      ",
+            "!    !",
+            "XXXXXX",
+            "$ #E $",
+            "      ",
+            "      "
+          ],
+          [
+            "  dW  ",
+            "XXXXXX",
+            "      ",
+            "  0   ",
+            "      ",
+            "XXXXXX",
+            "u dE u",
+            "      ",
+            "      "
+          ],
+          [
+            "  $   ",
+            "   W  ",
+            "XXXXXX",
+            "XXXXXX",
+            "XXXXXX",
+            "      ",
+            "r $  r",
+            "      ",
+            "      "
+          ],
+          [
+            "  #R  ",
+            "  w#  ",
+            "  wd  ",
+            "1tnU  ",
+            "r ew  ",
+            "5 ed  ",
+            "# #  #",
+            "8    8",
+            "9tttt7"
+          ],
+          [
+            "   L  ",
+            "  ue  ",
+            "  e$  ",
+            "##eU  ",
+            "# #   ",
+            "# P   ",
+            "#     ",
+            "#    #",
+            "######"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:stone_bricks",
+          "#": "minecraft:white_wool",
+          "L": "minecraft:redstone_lamp",
+          "$": "minecraft:note_block",
+          "u": "minecraft:observer[facing=up]",
+          "d": "minecraft:observer[facing=down]",
+          "w": "minecraft:observer[facing=east]",
+          "e": "minecraft:observer[facing=west]",
+          "n": "minecraft:observer[facing=north]",
+          "s": "minecraft:observer[facing=south]",
+          "U": "minecraft:sticky_piston[facing=up]",
+          "D": "minecraft:sticky_piston[facing=down]",
+          "W": "minecraft:sticky_piston[facing=east]",
+          "E": "minecraft:sticky_piston[facing=west]",
+          "N": "minecraft:sticky_piston[facing=north]",
+          "S": "minecraft:sticky_piston[facing=south]",
+          "P": "minecraft:piston[facing=south]",
+          "!": "minecraft:lever[facing=west,face=wall]",
+          "R": "minecraft:redstone_wire[east=side,north=side,south=side,west=side,power=0]",
+          "r": "minecraft:redstone_wire[east=side,north=none,south=none,west=side,power=0]",
+          "t": "minecraft:redstone_wire[east=none,north=side,south=side,west=none,power=0]",
+          "1": "minecraft:redstone_wire[east=side,north=none,south=side,west=none,power=0]",
+          "2": "minecraft:redstone_wire[east=none,north=side,south=none,west=side,power=0]",
+          "3": "minecraft:redstone_wire[east=none,north=none,south=up,west=side,power=0]",
+          "4": "minecraft:redstone_wire[east=side,north=none,south=up,west=none,power=0]",
+          "5": "minecraft:redstone_wire[east=up,north=none,south=none,west=side,power=0]",
+          "6": "minecraft:redstone_wire[east=side,north=none,south=none,west=up,power=0]",
+          "7": "minecraft:redstone_wire[east=none,north=side,south=none,west=side,power=0]",
+          "8": "minecraft:redstone_wire[east=side,north=none,south=none,west=up,power=0]",
+          "9": "minecraft:redstone_wire[east=none,north=none,south=side,west=side,power=0]",
+          "ß": "minecraft:redstone_wire[east=side,north=side,south=none,west=none,power=0]"
+        }
+      },
+      "name": "2-Way 3x3 Piston Door",
+      "text": "This is a fast 3x3 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
     }
   ]
 }

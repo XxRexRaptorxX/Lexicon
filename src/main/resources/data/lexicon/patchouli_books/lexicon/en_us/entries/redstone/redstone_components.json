@@ -83,6 +83,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stone_pressure_plate",
+      "anchor": "pressure_plate",
       "title": "Pressure Plates",
       "text": "$(li)$(item)Wooden Plates$() can detect all entities, giving out a signal of 15 $(br)$(li)$(item)Stone Plates$() can detect only $(thing)Players$() and $(thing)Mobs$(), giving out a signal of 15 $(br)$(li)$(item)Light Weighted Plates$() can detect all entities and the signal strength that it outputs increases as more entities are added $(br)$(li)$(item)Heavy Weighted Plates$() measures groups of 10 entities"
     },
@@ -139,6 +140,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dispenser",
+      "anchor": "dispenser",
       "text": "A $(item)Dispenser$() is a block used as a redstone component to dispense items. $(br2)Most items are just thrown out, but a few behave differently (eg. $(item)Armor$() equips on a $(thing)Player$() of $(thing)Mob$(), projectiles are fired out, $(item)Buckets$() or some tools are used, ...)"
     },
     {
