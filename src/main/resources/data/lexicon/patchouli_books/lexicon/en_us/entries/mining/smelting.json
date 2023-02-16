@@ -94,7 +94,7 @@
           ]
         ],
         "mapping": {
-          "F": "minecraft:furnace[facing=east]",
+          "F": "minecraft:blast_furnace[facing=east]",
           "R": "minecraft:rail[shape=north_south]",
           "r": "minecraft:powered_rail[shape=north_south,powered=true]",
           "H": "minecraft:hopper[enabled=true,facing=east]",
