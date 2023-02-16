@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)The daylight cycle and weather may work differently or not exist in different dimensions, as well as respawn points (such as beds and respawn anchors) and travel speed. $(br2)Other dimensions can be access with portals."
+      "text": "$(br2)The daylight cycle and weather may work differently or not exist in different dimensions, as well as respawn points (such as $(l:useables/bed)$(item)Beds$() and $(l:useables/respawn_anchor)$(item)Respawn Anchors$()) and travel speed. $(br2)Other dimensions can be access with portals."
     },
     {
       "type": "patchouli:text",
