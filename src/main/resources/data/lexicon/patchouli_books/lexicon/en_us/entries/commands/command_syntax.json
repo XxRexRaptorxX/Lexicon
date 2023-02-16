@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l)plain text$() = command text $(br2)$(l)<argument>$() = argument that should replaced with the value$(br2)$(l)<entry>$() = optional entry $(br2)$(l)(entry|entry)$() = Pick one of the required entries $(br2)$(l)[entry|entry]$() = Pick one of the optional entries $(br2)$(l)ellipsis ...$() = another sub-command required"
+      "text": "$(l)plain text$() = command text$(br2)$(l)<argument>$() = argument that should replaced with the value$(br2)$(l)<entry>$() = optional entry $(br2)$(l)(entry|entry)$() = Pick one of the required entries $(br2)$(l)[entry|entry]$() = Pick one of the optional entries $(br2)$(l)ellipsis ...$() = another sub-command required"
     }
   ]
 }
