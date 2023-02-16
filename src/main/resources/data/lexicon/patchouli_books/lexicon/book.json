@@ -5,6 +5,5 @@
   "book_texture": "patchouli:textures/gui/book_purple.png",
   "model": "lexicon:lexicon",
   "show_progress": false,
-  "pause_game": false,
-  "creative_tab": "misc"
+  "pause_game": false
 }
