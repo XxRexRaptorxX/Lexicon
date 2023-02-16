@@ -5,7 +5,7 @@ issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/lexicon/issues"
 
 [[mods]]
 modId="lexicon"
-version="1.4.1"
+version="1.4.2"
 displayName="Lexicon"
 itemIcon="minecraft:written_book"
 updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon.json"
@@ -14,8 +14,7 @@ logoFile="logo.png"
 credits="The Minecraft Wiki for some graphics and informations, Translators: pandim"
 authors="XxRexRaptorxX (RexRaptor)"
 description='''
-This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!
-'''
+This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!'''
 
 [[dependencies.lexicon]]
     modId="forge"
