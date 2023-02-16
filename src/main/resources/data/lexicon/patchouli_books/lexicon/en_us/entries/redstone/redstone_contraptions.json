@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages contain blueprints for useful redstone contraptions. $(br2)$(li) You can find even more redstone contraptions in the $(l:farming)Farming Chapter$() and $(l:mining/smelting#smelter)Smelting Chapter$()"
+      "text": "The following pages contain blueprints for useful redstone contraptions. $(br2)$(li) You can find even more redstone contraptions in the $(l:farming)Farming Chapter$()."
     },
     {
       "type": "patchouli:multiblock",
