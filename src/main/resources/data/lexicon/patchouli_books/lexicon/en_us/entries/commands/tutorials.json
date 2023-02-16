@@ -1,0 +1,12 @@
+{
+  "name": "Tutorials",
+  "icon": "minecraft:chain_command_block",
+  "category": "lexicon:commands",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:https://www.youtube.com/watch?v=w3MBp-2Oxa4&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5)Introduction$()  $(li)$(l:https://www.youtube.com/watch?v=iurIhHVK-hk&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=2)Command Basics$()  $(li)$(l:https://www.youtube.com/watch?v=Byf0nHnIBhM&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=3)Repeating Commands$()  $(li)$(l:https://www.youtube.com/watch?v=xEXRGRnvrRI&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=4)Command Chains$()  $(li)$(l:https://www.youtube.com/watch?v=DmsjJFwaPDw&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=5)Relative Coordinates$()  $(li)$(l:https://www.youtube.com/watch?v=hl9WLdYOYzc&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=6)Block States$()   $(li)$(l:https://www.youtube.com/watch?v=U4WlKem4FwM&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=7)World changing Commands$()   $(li)$(l:https://www.youtube.com/watch?v=SjG4DmDlL2k&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=8)Entity Selecting$()  $(li)$(l:https://www.youtube.com/watch?v=y9I3X8R_HEw&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=9)Summoning & Tagging Entities$()   $(li)$(l:https://www.youtube.com/watch?v=Jnn8Um9tjbM&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=10)Execute Commands$()   $(li)$(l:https://www.youtube.com/watch?v=GwRfluFO3Tk&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=11)Scoreboards$()   $(li)$(l:https://www.youtube.com/watch?v=mEUpxev-1Eg&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=12)Execute Conditionals$()"
+    }
+  ]
+}
