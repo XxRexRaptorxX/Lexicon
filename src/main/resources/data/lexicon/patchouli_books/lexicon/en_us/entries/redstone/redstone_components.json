@@ -275,6 +275,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:structure_block",
+      "anchor": "structure_block",
       "text": "A $(item)Structure Block$() is used to generate structures manually. $(br2)They can also be used to save and load structures, alongside $(item)Structure Void$() blocks."
     },
     {
