@@ -6,6 +6,10 @@
   "pages": [
     {
       "type": "patchouli:text",
+      "text": "The syntax shows you which arguments are possible for the individual keywords of the commands. $(br2)You can see the syntax in the $(l)/help$() command or on sites like the $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
+    },
+    {
+      "type": "patchouli:text",
       "text": "$(l)plain text$() = command text$(br2)$(l)<argument>$() = argument that should replaced with the value$(br2)$(l)<entry>$() = optional entry $(br2)$(l)(entry|entry)$() = Pick one of the required entries $(br2)$(l)[entry|entry]$() = Pick one of the optional entries $(br2)$(l)ellipsis ...$() = another sub-command required"
     }
   ]

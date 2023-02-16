@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)/gamemode creative @a $() $(br2)$(l)@p$() = nearest player $(br2)$(l)@r$() = random player $(br2)$(l)@a$() = all players $(br2)$(l)@e$() = all entities $(br2)$(l)@s$() = entity executing the command"
+      "text": "$(br)$(l)/gamemode creative @a $() $(br2)$(l)@p$() = nearest player $(br2)$(l)@r$() = random player $(br2)$(l)@a$() = all players $(br2)$(l)@e$() = all entities $(br2)$(l)@s$() = entity executing the command"
     },
     {
       "type": "patchouli:text",

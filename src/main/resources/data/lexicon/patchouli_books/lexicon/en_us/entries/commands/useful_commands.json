@@ -11,6 +11,10 @@
     {
       "type": "patchouli:text",
       "text": "$(l)/setblock$() changes a block to another  $(br2)$(l)/fill$() fill a region with a specific block  $(br2)$(l)/summon$() spawns a entity $(br2)$(l)/time$() changes the world time $(br2)$(l)/tp$() teleports  $(br2)$(l)/ban$() ban player from a server  $(br2)$(l)/spawnpoint$() set the player's spawnpoint  $(br2)$(l)/setworldspawn$() sets the world spawn  $(br2)$(l)/weather$() controls the weather"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A list of all commands and it's detailed description can be found in the $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
     }
   ]
 }
