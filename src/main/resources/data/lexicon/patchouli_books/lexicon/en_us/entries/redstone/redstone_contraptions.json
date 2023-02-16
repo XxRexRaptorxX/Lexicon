@@ -508,8 +508,8 @@
           "C": "minecraft:chest[facing=north]"
         }
       },
-      "name": "Automatic Smelter",
-      "text": "this contraption automatically fills material and fuel into the $(l:useables/furnace)$(item)Furnace$() and melts it through automatically."
+      "name": "Auto-Smelter",
+      "text": "this contraption automatically fills fuel and material into the $(l:useables/furnace)$(item)Furnace$() and melts it through automatically."
     },
     {
       "type": "patchouli:multiblock",
