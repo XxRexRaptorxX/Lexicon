@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[44,)"
+loaderVersion="[42,)"
 license="All rights reserved"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-mods/lexicon/issues"
 
@@ -19,7 +19,7 @@ This mod adds a lexicon to the game that explains almost every aspect of minecra
 [[dependencies.lexicon]]
     modId="forge"
     mandatory=true
-versionRange="[44,)"
+    versionRange="[42,)"
     ordering="NONE"
     side="BOTH"
 
