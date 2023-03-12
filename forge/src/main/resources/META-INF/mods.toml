@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[${libs.versions.forge.loader.get().substring(7,9)},)"
+license = "${MOD_LICENSE}"
+issueTrackerURL = "${MOD_ISSUES}"
+
+[[mods]]
+modId = "${MOD_ID}"
+version = "${MOD_VERSION}"
+displayName = "${MOD_NAME}"
+# updateJSONURL="${MOD_UPDATE_URL}"
+displayURL = "${MOD_HOMEPAGE}"
+logoFile = "logo.png"
+credits = "${MOD_CREDITS}"
+authors = "${MOD_AUTHOR}"
+description = "${MOD_DESCRIPTION}"
+
+[[dependencies.${ MOD_ID }]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[${libs.versions.forge.loader.get().substring(7)},)"
+    ordering = "AFTER"
+    side = "BOTH"
+[[dependencies.${ MOD_ID }]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[${libs.versions.minecraft.get()},)"
+    ordering = "AFTER"
+    side = "BOTH"
+[[dependencies.${ MOD_ID }]]
+    modId = "patchouli"
+    mandatory = true
+    versionRange = "[${libs.versions.minecraft.get()},)"
+    ordering = "NONE"
+    side = "BOTH"

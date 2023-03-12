@@ -5,6 +5,7 @@ bin
 .metadata
 .classpath
 .project
+eclipse
 
 # idea
 out
@@ -18,8 +19,7 @@ build
 .gradle
 
 # other
-eclipse
 run
 
-# Files from Forge MDK
-forge*changelog.txt
+# Ignore generated data files
+**/generated/**
