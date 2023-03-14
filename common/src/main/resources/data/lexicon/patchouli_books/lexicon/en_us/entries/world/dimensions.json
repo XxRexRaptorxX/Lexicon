@@ -1,0 +1,57 @@
+{
+  "name": "Dimensions",
+  "icon": "minecraft:end_portal_frame",
+  "category": "lexicon:world",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dimensions are accessible realms within a world characterized by a way of generation, biomes and structures, and other things unique to one dimension. $(br2)$(l:creatures/human-player)$(thing)Players$() can explore and discover various dimensions in Minecraft, typically through the use of portals. "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)The daylight cycle and weather may work differently or not exist in different dimensions, as well as respawn points (such as $(l:useables/bed)$(item)Beds$() and $(l:useables/respawn_anchor)$(item)Respawn Anchors$()) and travel speed. $(br2)Other dimensions can be access with portals."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Overworld",
+      "anchor": "overworld",
+      "text": "The Overworld is the primary dimension in Minecraft. It has a wide variety of unique biomes to explore, and is easily the most diverse of the dimensions.   $(br) $(li)large biome variation $(li)Lage mob variation $(li)oceans of water $(li)daylight circle $(li)weather $(li)384 block world height"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/overworld.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Nether",
+      "anchor": "nether",
+      "text": "The Nether is a hostile dimension containing huge lava oceans. The ground consists of mainly $(item)Netherrack$() and is considered as the underworld of the game. $(br) $(li)chaotic, messy, dangerous, cave-like terrain $(li)oceans of lava $(li)ceiling of $(item)Bedrock$() $(li)increased travel speed $(li)using a charged $(l:useables/respawn_anchor)$(item)Respawn Anchor$() sets spawn point $(li)256 block world height"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether.png",
+        "lexicon:textures/pictures/nether_portal.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The End",
+      "anchor": "end",
+      "text": "The End is a space-like dimension with floating $(item)End Stone$() islands. It's a barren environment, but it's the only place where some of the most unique and useful items in the game can be obtained $(br) $(li)direct access to the void $(li)home of the $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() $(li)floating islands of $(item)End Stone$() $(li)big pillars of $(item)Obsidian$() $(li)256 block world height"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end.png",
+        "lexicon:textures/pictures/end_portal.png"
+      ],
+      "border": true
+    }
+  ]
+}

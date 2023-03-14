@@ -1,6 +1,0 @@
-{
-  "name": "Redstone",
-  "description": "Redstone is the $(thing)Minecraft$() equivalent of electricity. $(br2)Knowing the basics of redstone allows you to create amazing inventions. $(br2)Redstone is one of the more advanced concepts of the game. $(br2)You can obtain $(item)Redstone Dust$() by mining $(item)Redstone Ore$() underground. $(br2)You can spread this dust across the ground as wire, attach it to $(item)Levers$() or $(item)Doors$(), and craft it into $(item)Torches$() and $(item)Repeaters$() to build huge machines.",
-  "icon": "minecraft:redstone",
-  "sortnum": 15
-}
