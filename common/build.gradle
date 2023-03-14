@@ -1,0 +1,24 @@
+architectury {
+    def platforms = rootProject
+            .subprojects
+            .findAll { it.hasProperty('loom.platform') }
+            .collect { it.property('loom.platform') as String }
+            .toSet()
+
+    println("Platforms: ${platforms.toListString()}")
+    common(platforms)
+}
+
+dependencies {
+    compileOnly(libs.mixin)
+    modImplementation(libs.forge.config.api.port)
+    modCompileOnly(libs.patchouli.asProvider()) { artifact { classifier = "api" } }
+}
+
+idea.module {
+    excludeDirs += [
+            file('.gradle'),
+            file('build'),
+            file('run')
+    ]
+}
