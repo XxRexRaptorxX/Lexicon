@@ -35,7 +35,7 @@ Useful for all newcomers and players who want to expand their knowledge about th
 
 ## 🗒️ License
 
-All Rights Reserved
+All rights reserved to it's Authors.
 
 [cf_lexicon]: https://www.curseforge.com/minecraft/mc-mods/lexicon
 
