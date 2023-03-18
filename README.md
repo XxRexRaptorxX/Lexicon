@@ -1,6 +1,6 @@
 [![CurseForge Downloads](https://cf.way2muchnoise.eu/615275.svg?badge_style=for_the_badge)][cf_lexicon] [![CurseForge Game Versions](https://cf.way2muchnoise.eu/versions/615275.svg?badge_style=for_the_badge)][cf_lexicon]
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/7RSp3ivG?label=Modrinth&logo=modrinth&style=for-the-badge)][mr_lexicon] [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/7RSp3ivG?label=Available%20for&logo=modrinth&style=for-the-badge)][mr_lexicon]
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/7RSp3ivG?label=Modrinth&logo=modrinth&style=for-the-badge)][mr_lexicon] [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/7RSp3ivG?label=Available%20for&logo=modrinth&style=flat)][mr_lexicon]
 
 # Lexicon for Minecraft
 
