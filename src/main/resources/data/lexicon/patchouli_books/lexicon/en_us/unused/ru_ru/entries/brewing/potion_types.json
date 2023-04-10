@@ -1,0 +1,30 @@
+{
+  "name": "Типы зелий",
+  "icon": "minecraft:potion",
+  "category": "lexicon:brewing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Есть 3 разных типа зелий:$() $(br)$(li)Зелье $(br)$(li)Зелье брызг $(br)$(li)Зелье задержки"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:potion",
+      "title": "Potion",
+      "text": "$(item)Potions$() можно использовать, нажав и удерживая кнопку использования, аналогично еде. $(br)При использовании они применяют соответствующий статусный эффект к $(thing)Player$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:splash_potion",
+      "title": "Splash Potion",
+      "text": "$(item)Splash Potions$() выбрасываются при их использовании. $(br2)При ударе они взрываются, применяя статусные эффекты к ближайшим существам."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lingering_potion",
+      "title": "Lingering Potion",
+      "text": "$(item)Lingering Potions$() выбрасываются, как и $(item)Splash Potions$(), при их использовании. $(br2)При ударе они взрываются, создавая облако. $(br2)Облако состоит из частиц зелья, соответствующего брошенному зелью."
+    }
+  ]
+}

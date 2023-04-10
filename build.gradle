@@ -1,155 +1,84 @@
 plugins {
-    alias(libs.plugins.architectury.plugin).apply(false)
-    alias(libs.plugins.architectury.loom).apply(false)
-    alias(libs.plugins.idea.ext).apply(false)
-    alias(libs.plugins.shadow).apply(false)
+	id 'fabric-loom' version '1.1-SNAPSHOT'
+	id 'maven-publish'
+	
 }
 
-subprojects {
-    apply plugin: 'java-library'
-    apply plugin: 'idea'
-    apply plugin: 'maven-publish'
-    apply plugin: libs.plugins.architectury.plugin.get().pluginId
-    apply plugin: libs.plugins.architectury.loom.get().pluginId
-    apply plugin: libs.plugins.idea.ext.get().pluginId
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
-    project.ext {
-        accessWidenerFile = rootProject.file("common/src/main/resources/${MOD_ID}.accesswidener")
-    }
+archivesBaseName = project.archives_base_name
+version = project.mod_version
+group = project.maven_group
 
-    group = "$MOD_GROUP.$project.name"
-    version = "$MOD_VERSION+${libs.versions.minecraft.get()}"
-    archivesBaseName = "$MOD_ID-$project.name"
-
-    sourceSets.test {
-        java.srcDirs = []
-        resources.srcDirs = []
-    }
-
-    architectury {
-        minecraft = "${libs.versions.minecraft.get()}"
-    }
-
-    loom {
-        silentMojangMappingsLicense()
-
-        if (accessWidenerFile.exists()) {
-            accessWidenerPath = accessWidenerFile
-        }
-    }
-
-    repositories {
-        mavenLocal()
-        maven {
-            name = "ParchmentMC"
-            url = "https://maven.parchmentmc.org"
-        }
-
-        maven {
-            name = "CurseMaven"
-            url = "https://www.cursemaven.com"
-            content { includeGroup "curse.maven" }
-        }
-
-        maven {
-            name = "Modrinth Maven"
-            url = "https://api.modrinth.com/maven"
-            content { includeGroup "maven.modrinth" }
-        }
-        maven {
-            name = "BlameJared Maven"
-            url = "https://maven.blamejared.com"
-        }
-        maven {
-            name = "Fuzs Mod Resources"
-            url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/"
-        }
-    }
-
-    dependencies {
-        minecraft(libs.minecraft)
-
-        mappings(loom.layered {
-            officialMojangMappings()
-
-            if (USE_PARCHMENT_MAPPINGS == 'true') {
-                parchment("org.parchmentmc.data:parchment-${libs.versions.parchment.get()}@zip")
-            }
-        })
-
-        compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-        compileOnly("com.google.errorprone:error_prone_annotations:2.11.0")
-    }
-
-    processResources {
-        project.properties.each {
-            inputs.property "${it.key}", "${it.value}"
-        }
-
-        filesMatching(['*.mixins.json', 'pack.mcmeta', 'META-INF/mods.toml', 'fabric.mod.json', 'architectury.common.json']) {
-            expand project.properties
-        }
-    }
-
-    java {
-        toolchain {
-            languageVersion.set(JavaLanguageVersion.of("${libs.versions.java.get()}"))
-        }
-        withSourcesJar()
-    }
-
-    tasks.withType(JavaCompile).configureEach {
-        options.encoding = 'UTF-8'
-        options.release.set(JavaLanguageVersion.of("${libs.versions.java.get()}").asInt())
-
-        javaToolchains {
-            compilerFor {
-                languageVersion.set(JavaLanguageVersion.of("${libs.versions.java.get()}"))
-            }
-        }
-    }
-
-    jar {
-        manifest {
-            attributes([
-                    'Specification-Title'     : "${MOD_ID}",
-                    'Specification-Vendor'    : "${MOD_AUTHOR}",
-                    'Specification-Version'   : "${libs.versions.minecraft.get()}",
-                    'Implementation-Title'    : "${project.name}",
-                    'Implementation-Version'  : "${project.version}",
-                    'Implementation-Vendor'   : "${MOD_AUTHOR}",
-                    'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-            ])
-        }
-    }
-
-    publishing {
-        publications {
-            mavenCommon(MavenPublication) {
-                groupId = "${project.group}"
-                artifactId = "${project.archivesBaseName}"
-                version = "${project.version}"
-                loom.disableDeprecatedPomGeneration(it)
-
-                artifact remapJar
-                artifact sourcesJar
-            }
-        }
-
-        repositories {
-            maven {
-                url "file://${project.projectDir}/mcmodsrepo"
-            }
-        }
-    }
+repositories {
+	// Patchouli maven
+	maven { url 'https://maven.blamejared.com' }
 }
 
-apply plugin: libs.plugins.idea.ext.get().pluginId
+loom {
+    splitEnvironmentSourceSets()
 
-idea.module {
-    excludeDirs += [
-            file('.idea'),
-            file('.gradle'),
-            file('gradle')
-    ]
+    mods {
+        modid {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+
+}
+
+dependencies {
+	// To change the versions see the gradle.properties file
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Fabric API. This is technically optional, but you probably want it anyway.
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Patchouli Mod
+	modImplementation "vazkii.patchouli:Patchouli:${project.minecraft_version}-${project.patchouli_version}-FABRIC"
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+}
+
+java {
+	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+	// if it is present.
+	// If you remove this line, sources will not be generated.
+	withSourcesJar()
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.archivesBaseName}"}
+	}
+}
+
+// configure the maven publication
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+
+	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
+	repositories {
+		// Add repositories to publish to here.
+		// Notice: This block does NOT have the same function as the block in the top level.
+		// The repositories here will be used for publishing your artifact, not for
+		// retrieving dependencies.
+	}
 }
