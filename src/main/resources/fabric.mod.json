@@ -25,7 +25,7 @@
 		"minecraft": "~1.19.3",
 		"java": ">=17",
 		"fabric-api": "*",
-		"patchouli": ">=0.14.19"
+		"patchouli": ">=1.19.3"
 	},
 	"suggests": {
 		"another-mod": "*"
