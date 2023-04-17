@@ -1,0 +1,17 @@
+{
+  "name": "Членистоногие - эндермит",
+  "icon": "minecraft:endermite_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 8 $(br)> $(n)Урон от атаки:$() $(br)2 на легком, 2 на обычном, 3 на сложном $(br)> $(n) Поведение:$() Враждебное $(br)> $(n)Создание:$() Шанс 5% при приземлении Жемчужины Края $(br)> $(n)Свойства:$() $(br)$(thing) Endermen$() атакует $(thing)Endermites$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:endermite",
+      "scale": "0.5",
+      "text": "$(n)Выпадает:$() - $(br)$(n)Опыт:$() 3"
+    }
+  ]
+}

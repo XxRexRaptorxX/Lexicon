@@ -1,0 +1,71 @@
+{
+  "name": "Проводник",
+  "icon": "minecraft:conduit",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:conduit",
+      "text": "$(item)Conduit$() — это блок, похожий на маяк, который обеспечивает $(thing)Conduit Power$() и атакует враждебных мобов под водой. $(br2)Эффект $(thing)Conduit Power$() восстанавливает кислород, дает ночное видение под водой и увеличивает скорость добычи."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:conduit",
+      "title": " "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для активации $(item)Conduit$() должен находиться в центре 3Г—3Г—3 объема $(item)Воды$(), который сам должен быть заключен в активационную рамку. $(br2)Только блоки $(item)Prismarine$(), $(item)Dark Prismarine$(), $(item)Prismarine Bricks$() и $(item)Sea Lantern$() в кадре способствуют активация. $(br)Эти блоки можно найти в $(thing)Ocean Monuments$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  #  ",
+            "  #  ",
+            "#####",
+            "  #0 ",
+            "  #  "
+          ],
+          [
+            "  #  ",
+            " OOO ",
+            "#OOO#",
+            " OOO ",
+            "  #  "
+          ],
+          [
+            "#####",
+            "#OOO#",
+            "#OXO#",
+            "#OOO#",
+            "#####"
+          ],
+          [
+            "  #  ",
+            " OOO ",
+            "#OOO#",
+            " OOO ",
+            "  #  "
+          ],
+          [
+            "  #  ",
+            "  #  ",
+            "#####",
+            "  #  ",
+            "  #  "
+          ]
+        ],
+        "mapping": {
+          "#": "minecraft:prismarine",
+          "O": "minecraft:water",
+          "X": "minecraft:conduit"
+        }
+      },
+      "name": "Рамка активации проводника",
+      "text": "Этот кадр можно расширить дополнительными блоками для лучшего эффекта."
+    }
+
+  ]
+}

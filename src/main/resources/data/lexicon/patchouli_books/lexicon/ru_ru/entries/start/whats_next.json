@@ -1,0 +1,47 @@
+{
+  "name": "Что дальше?",
+  "icon": "minecraft:wheat",
+  "category": "lexicon:start",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если вы теперь хорошо экипированы $(item)Iron$() и пережили первую ночь, теперь вы можете начать строить $(thing)Food Farm$() и базу с $(item)Кровать$() установить точку возрождения, $(thing)исследовать$() область и собирать ресурсы! $(br2)$(br2)Некоторые полезные вещи, которые вам следует изготовить, перечислены на следующих страницах."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "recipe2": "minecraft:white_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_fence",
+      "recipe2": "minecraft:oak_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ladder",
+      "recipe2": "minecraft:oak_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bow",
+      "recipe2": "minecraft:arrow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shield",
+      "recipe2": "minecraft:compass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod",
+      "recipe2": "minecraft:stonecutter"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blast_furnace",
+      "recipe2": "minecraft:smoker"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 8  $(br)> $(n)Attack Damage:$() $(br)2 on easy, 2 on normal, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() 5% chance when an $(thing)Ender Pearl$() lands $(br)> $(n)Properties:$() $(br)$(l:creatures/monster-enderman)$(thing)Endermen$() attack $(thing)Endermites$()."
+      "text": "> $(n)Health:$() 8  $(br)> $(n)Attack Damage:$() $(br)2 on easy, 2 on normal, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() 5% chance when an Ender Pearl lands $(br)> $(n)Properties:$() $(br)$(thing)Endermen$() attacks $(thing)Endermites$()."
     },
     {
       "type": "patchouli:entity",

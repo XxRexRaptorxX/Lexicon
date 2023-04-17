@@ -1,0 +1,16 @@
+{
+  "name": "Звезда Пустоты",
+  "icon": "minecraft:nether_star",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:nether_star",
+      "text": "$(item)Звезда Нижнего мира$() — это редкий предмет, выпадающий из $(thing)Wither$(), который используется для создания предметов эндгейма, таких как $(item)Beacon$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon"
+    }
+  ]
+}

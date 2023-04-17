@@ -1,0 +1,20 @@
+{
+  "name": "Исследование пещеры",
+  "icon": "minecraft:stone",
+  "category": "lexicon:exploring",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот некоторые важные предметы, которые вы всегда должны иметь при себе в горнодобывающем туре!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

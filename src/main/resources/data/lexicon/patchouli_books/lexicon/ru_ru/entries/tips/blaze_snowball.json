@@ -1,0 +1,18 @@
+{
+  "name": "Снежки против огней",
+  "icon": "minecraft:snowball",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Blazes$() может быть довольно опасным, но у них есть большое слабое место, они получают урон от $(item)Snowballs$(). $(br2)Хорошо то, что их легко получить."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/blaze_snowball.png"
+      ],
+      "border": true
+    }
+  ]
+}

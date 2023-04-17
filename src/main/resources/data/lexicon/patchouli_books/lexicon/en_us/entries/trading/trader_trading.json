@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(l:creatures/human-wandering_trader)$(thing)Wandering Trader$() has 6 random trades. New trades are not unlocked after trading with it. $(br)$(li)After the $(l:creatures/human-player)$(thing)Player$() purchases the same item several times, the wandering trader locks the trade, but unlike $(l:creatures/human-villager)$(thing)Villagers$(), never unlocks the trade. $(li)They do not have the novice-master trading system like $(l:creatures/human-villager)$(thing)Villagers$(). Instead, the $(l:creatures/human-player)$(thing)Player$() can buy anything from the trader without the need of unlocking the previous trades. $(li)They do not increase or decrease the prices of its items being sold if attacked by the player, ..."
+      "text": "The $(thing)Wandering Trader$() has 6 random trades. New trades are not unlocked after trading with it. $(br)$(li)After the player purchases the same item several times, the wandering trader locks the trade, but unlike villagers, never unlocks the trade. $(li)They do not have the novice-master trading system like $(thing)Villagers$(). Instead, the $(thing)Player$() can buy anything from the trader without the need of unlocking the previous trades. $(li)They do not increase or decrease the prices of its items being sold if attacked by the player, ..."
     },
     {
       "type": "patchouli:image",

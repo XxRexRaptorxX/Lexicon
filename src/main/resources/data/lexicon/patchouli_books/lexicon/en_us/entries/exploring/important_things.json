@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Before you travel and explore, you should make sure that you can find your way back! $(br)$(li)Use a $(item)Compass$(), it always points to the $(thing)Spawnpoint$() of your world, you should always be able to find your base from there. $(li)Alternatively, you can use the $(thing)F3$() key to display your coordinates in the world. $(li)You can also mark your way with $(item)Torches$() or towers! $(li)It's also important that you always have a $(l:useables/bed)$(item)Bed$() in your base where you can respawn!"
+      "text": "Before you travel and explore, you should make sure that you can find your way back! $(br)$(li)Use a $(item)Compass$(), it always points to the $(thing)Spawnpoint$() of your world, you should always be able to find your base from there. $(li)Alternatively, you can use the $(thing)F3$() key to display your coordinates in the world. $(li)You can also mark your way with $(item)Torches$() or towers! $(li)It's also important that you always have a $(item)Bed$() in your base where you can respawn!"
     },
     {
       "type": "patchouli:image",

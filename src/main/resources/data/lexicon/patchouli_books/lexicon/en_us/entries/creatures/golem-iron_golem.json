@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 100    $(br)> $(n)Attack Damage:$() 7.5-21.5 to mobs, 4.75-11.75 on easy, 7.5-21.5 on normal, 11.25-32.25 on hard to Players $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() $(l:world/structures#village)$(thing)Villages$(), $(l:world/structures#outpost)$(thing)Pillager Outposts$(), when created by a $(l:creatures/human-player)$(thing)Player$() $(br)> $(n)Properties:$() $(br)$(thing)Iron Golems$() are created by placing 4 $(item)Iron Blocks$() in a T shape, and then placing a $(item)Carved Pumpkin$(), $(item)Jack o'Lantern$() on top of the center upper block. Attack monsters."
+      "text": "> $(n)Health:$() 100    $(br)> $(n)Attack Damage:$() 7.5-21.5 to mobs, 4.75-11.75 on easy, 7.5-21.5 on normal, 11.25-32.25 on hard to Players $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Villages, Pillager Outposts, when created by a Player $(br)> $(n)Properties:$() $(br)$(thing)Iron Golems$() are created by placing 4 $(item)Iron Blocks$() in a T shape, and then placing a $(item)Carved Pumpkin$(), $(item)Jack o'Lantern$() on top of the center upper block. Attack monsters."
     },
     {
       "type": "patchouli:entity",

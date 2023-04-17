@@ -1,0 +1,23 @@
+{
+  "name": "Незерит",
+  "icon": "minecraft:netherite_ingot",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:netherite_scrap",
+      "title": "Netherite",
+      "text": "$(item)Netherite$() — это редкий материал из $(thing)Nether$(), используемый в основном для улучшения снаряжения $(item)Diamond$(). $(br2)$(item)Netherite$() предметы более мощные и долговечные, чем $(item)Diamond$(), могут плавать в лаве и не могут гореть. $(br)$(li)Для $(item)Netherite$(), вы должны сначала найти $(item)Ancient Debris$() в $(thing)Nether$()!"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "minecraft:netherite_scrap",
+      "recipe2": "minecraft:netherite_scrap_from_blasting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_ingot",
+      "text": "Снаряжение $(item)Netherite$() изготавливается путем улучшения снаряжения $(item)Diamond$() с помощью $(item)Smithing Table$()."
+    }
+  ]
+}

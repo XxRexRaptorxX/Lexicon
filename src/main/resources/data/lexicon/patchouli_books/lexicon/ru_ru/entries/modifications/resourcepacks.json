@@ -1,0 +1,24 @@
+{
+  "name": "Пакеты ресурсов",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пакеты ресурсов $(thing)$() позволяют настраивать текстуры, модели, музыку, звуки, языки, тексты, такие как финальная поэма, заставки, титры и шрифты без какой-либо модификации кода. $(br2)Эти пакеты можно складывать друг в друга. Тип $(thing)Ресурсные пакеты$(). Пакеты ресурсов $(br)$(li)$(thing)$() можно поместить в папку $(l)resourcepacks$() внутри папки $(l).minecraft$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/texturepack_1.png",
+        "lexicon:textures/pictures/texturepack_2.png",
+        "lexicon:textures/pictures/texturepack_3.png",
+        "lexicon:textures/pictures/texturepack_4.png",
+        "lexicon:textures/pictures/texturepack_5.png"
+      ],
+      "border": true,
+      "text": "$(li)Вы можете найти новые пакеты $(l:https://www.curseforge.com/minecraft/texture-packs)здесь$()"
+    }
+  ]
+}

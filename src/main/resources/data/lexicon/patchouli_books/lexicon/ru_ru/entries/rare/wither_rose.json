@@ -1,0 +1,12 @@
+{
+  "name": "Увядшая роза",
+  "icon": "minecraft:wither_rose",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_rose",
+      "text": "$(item)Увядшая роза$() — это уникальный цветок с отрицательными свойствами. $(br2)Любой $(thing)Игрок$() или моб, который коснется его, получит эффект $(thing)Иссушение$(). $(br2)Их можно получить, только когда $(thing)Wither$() убивает моба."
+    }
+  ]
+}

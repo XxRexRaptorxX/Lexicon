@@ -1,0 +1,38 @@
+{
+  "name": "Голем - Снежный голем",
+  "icon": "minecraft:carved_pumpkin",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 4 $(br)> $(n)Урон от атаки:$() 3 до Пламени $(br)> $(n)Поведение:$() Пассивно, агрессивно к монстрам $(br)> $(n)Spawn:$() При создании игроком $(br)> $(n)Свойства:$() $(br)Создание снежного голема требует, чтобы игрок сложил два снежных блока, а затем поместил $(item)Резная тыква$() или $(item)Светильник Джека$() сверху. Бросает $(item)Snowballs$() в монстров. Расплавляются в горячих биомах и при контакте с водой. При движении они оставляют на земле след из $(item)Snow$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:snow_golem",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-15 Snowballs $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "O "
+          ],
+          [
+            "X0"
+          ],
+          [
+            "X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin",
+          "X": "minecraft:snow_block"
+        }
+      },
+      "text": "Как построить $(thing)Снежный голем$()."
+    }
+  ]
+}

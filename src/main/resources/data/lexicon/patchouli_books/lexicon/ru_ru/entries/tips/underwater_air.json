@@ -1,0 +1,18 @@
+{
+  "name": "Воздух под водой",
+  "icon": "minecraft:water_bucket",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если $(item)Turtle Shell$() или $(item)Potion of Water Breathing$() в данный момент недоступны, можно использовать и более простые приемы. $(br2)Если вы поместите под воду блок размером меньше целого блока, появится воздух, которым вы сможете дышать."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/underwater_air.png"
+      ],
+      "border": true
+    }
+  ]
+}

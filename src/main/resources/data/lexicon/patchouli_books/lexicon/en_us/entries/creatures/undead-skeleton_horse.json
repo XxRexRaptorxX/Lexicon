@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 15     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/dimensions#overworld)Overworld$() by thunderstorms $(br)> $(n)Properties:$() $(br)The $(thing)Skeleton Horses$() becomes passive and tamed if the $(l:creatures/human-player)$(thing)Player$() kills the $(l:creatures/undead-skeleton)$(thing)Skeleton$() rider. Can be equipped with a $(item)Saddle$() and ridden."
+      "text": "> $(n)Health:$() 15     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld by thunderstorms $(br)> $(n)Properties:$() $(br)The $(thing)Skeleton Horses$() becomes passive and tamed if the $(thing)Player$() kills the $(thing)Skeleton$() rider. Can be equipped with a $(item)Saddle$() and ridden."
     },
     {
       "type": "patchouli:entity",

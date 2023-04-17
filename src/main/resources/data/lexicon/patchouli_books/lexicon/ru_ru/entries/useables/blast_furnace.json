@@ -1,0 +1,17 @@
+{
+  "name": "Доменная печь",
+  "icon": "minecraft:blast_furnace",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:blast_furnace",
+      "text": "$(item)Blast Furnace$() — это блок, который плавит руду, необработанные металлы, металлическую броню и инструменты, подобно $(item)Furnace$(), но в два раза быстрее и с меньшей производительностью. $(br2)Он также служит блоком на сайте $(thing)оружейника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blast_furnace",
+      "title": " "
+    }
+  ]
+}

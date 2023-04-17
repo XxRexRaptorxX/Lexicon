@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() big 16, 4 medium, 1 small $(br)> $(n)Attack Damage:$() $(br)big 4-9, medium 3-6, small 2.5-4.5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$()  $(br)> $(n)Properties:$() $(br)$(thing)Magma Cubes$() cannot be hurt by fall damage or burning. They can swim upward in $(item)Lava$() and leap above its surface. Their jump height depends on their size. Their forward speed is twice that of most other mobs. When a $(thing)Magma Cube$() is killed, it splits into 2-4 smaller once. Tiny $(thing)Magma Cubes$() disappear when killed, like other mobs."
+      "text": "> $(n)Health:$() big 16, 4 medium, 1 small $(br)> $(n)Attack Damage:$() $(br)big 4-9, medium 3-6, small 2.5-4.5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Nether    $(br)> $(n)Properties:$() $(br)$(thing)Magma Cubes$() cannot be hurt by fall damage or burning. They can swim upward in $(item)Lava$() and leap above its surface. Their jump height depends on their size. Their forward speed is twice that of most other mobs. When a $(thing)Magma Cube$() is killed, it splits into 2-4 smaller once. Tiny $(thing)Magma Cubes$() disappear when killed, like other mobs."
     },
     {
       "type": "patchouli:entity",

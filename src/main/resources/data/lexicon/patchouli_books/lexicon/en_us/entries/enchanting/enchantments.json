@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages describe all enchantments in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(l:useables/enchanting_table)$(item)Enchanting Table$().$(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(l:useables/enchanting_table)$(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(l:useables/anvil)$(item)Anvil$()."
+      "text": "The following pages describe all enchantments in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(item)Enchanting Table$().$(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(item)Anvil$()."
     },
     {
       "type": "patchouli:text",
@@ -26,7 +26,6 @@
     {
       "type": "patchouli:text",
       "title": "Channeling",
-      "anchor": "channeling",
       "text": "$(n)Effect:$() $(br)During thunderstorms, tridents will be able to strike hit enemies with a lightning bolt.$(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
     },
     {
@@ -42,7 +41,6 @@
     {
       "type": "patchouli:text",
       "title": "Feather Falling",
-      "anchor": "feather falling",
       "text": "$(n)Effect:$() $(br)Reduces fall damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
     },
     {
@@ -68,7 +66,6 @@
     {
       "type": "patchouli:text",
       "title": "Frost Walker",
-      "anchor": "frost_walker",
       "text": "$(n)Effect:$() $(br)Allows the player to walk on water by freezing the water under their feet.    $(br2)$(n)Incompatible Enchantments:$() Depth Strider  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
     },
     {
@@ -84,13 +81,11 @@
     {
       "type": "patchouli:text",
       "title": "Knockback.",
-      "anchor": "knockback",
       "text": "$(n)Effect:$() $(br)Increases knockback.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
     },
     {
       "type": "patchouli:text",
       "title": "Looting",
-      "anchor": "looting",
       "text": "$(n)Effect:$() $(br)Increases mob loot.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
     },
     {
@@ -166,7 +161,6 @@
     {
       "type": "patchouli:text",
       "title": "Silk Touch",
-      "anchor": "silk_touch",
       "text": "$(n)Effect:$() $(br)Mined blocks drop themselves.$(br2)$(n)Incompatible Enchantments:$() Fortune$(br2)$(n)Primary Items:$() All common tools$(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
     },
     {
@@ -193,12 +187,9 @@
       "type": "patchouli:text",
       "title": "Unbreaking",
       "text": "$(n)Effect:$() $(br)Reduces durability damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() $(br)All common tools, weapons, armor  $(br2)$(n)Secondary Items:$() All other items with durability $(br2)$(n)Max Level:$() III "
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Swift Sneak",
-      "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
     }
+
+
 
   ]
 }

@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:fletching_table",
-      "text": "A $(item)Fletching Table$() is a $(l:creatures/human-villager#fletcher)$(thing)Fletcher's$() job site block that can generate naturally in $(l:world/structures#village)$(thing)Villages$(). $(br2)The $(item)Fletching Table$() is used to turn an unemployed $(l:creatures/human-villager)$(thing)Villager$() into a $(l:creatures/human-villager#fletcher)$(thing)Fletcher$()."
+      "text": "A $(item)Fletching Table$() is a $(thing)Fletcher's$() job site block that can generate naturally in villages. $(br2)The $(item)Fletching Table$() is used to turn an unemployed $(thing)Villager$() into a $(thing)Fletcher$()."
     },
     {
       "type": "patchouli:crafting",

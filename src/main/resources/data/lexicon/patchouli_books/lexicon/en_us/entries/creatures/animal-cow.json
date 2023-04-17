@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on grass, shearing $(l:creatures/animal-mooshrooms)Mooshrooms $(br)> $(n)Breeding:$() Wheat     $(br)> $(n)Properties:$() $(br)An adult Cow can be milked by using a $(item)Bucket$()."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on grass, shearing Mooshrooms $(br)> $(n)Breeding:$() Wheat     $(br)> $(n)Properties:$() $(br)An adult Cow can be milked by using a $(item)Bucket$()."
     },
     {
       "type": "patchouli:entity",

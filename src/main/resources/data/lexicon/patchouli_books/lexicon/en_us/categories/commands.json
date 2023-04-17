@@ -1,6 +1,6 @@
 {
   "name": "Commands",
-  "description": "Commands, are advanced features activated by typing certain strings of text. $(br2)In the client, commands are entered via $(l:redstone/redstone_components#command_block)$(item)Command Block$() or chat window, which is displayed by pressing the $(l)T$() or $(l)/ key$(). $(br2)Pressing $(l)Tab$() while entering commands cycles through possible commands or arguments, and can be used to auto-enter them.",
+  "description": "Commands, are advanced features activated by typing certain strings of text. $(br2)In the client, commands are entered via $(item)Command Block$() or chat window, which is displayed by pressing the $(l)T$() or $(l)/ key$(). $(br2)Pressing $(l)Tab$() while entering commands cycles through possible commands or arguments, and can be used to auto-enter them.",
   "icon": "minecraft:command_block",
   "sortnum": 20
 }

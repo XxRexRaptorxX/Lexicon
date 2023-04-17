@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:ender_chest",
-      "text": "$(item)Ender Chests$() are a type of $(l:useables/chest)$(item)Chest$() whose contents are exclusive to each $(l:creatures/human-player)$(thing)Player$(), and can be accessed from anywhere in the world."
+      "text": "$(item)Ender Chests$() are a type of $(item)Chest$() whose contents are exclusive to each $(thing)Player$(), and can be accessed from anywhere in the world."
     },
     {
       "type": "patchouli:crafting",

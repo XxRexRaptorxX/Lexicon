@@ -1,0 +1,20 @@
+{
+  "name": "Уровни майнинга",
+  "icon": "minecraft:diamond",
+  "category": "lexicon:mining",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Не все $(item)руды$() можно добыть одной и той же $(item)киркой$(). Существуют различные уровни добычи в зависимости от материала."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_levels.png"
+      ],
+      "border": false,
+      "text": "$(thing)Mods$() может добавить в игру еще больше руд и уровней добычи."
+    }
+  ]
+}

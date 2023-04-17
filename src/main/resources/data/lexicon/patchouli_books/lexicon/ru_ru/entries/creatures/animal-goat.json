@@ -1,0 +1,17 @@
+{
+  "name": "Животное - Коза",
+  "icon": "minecraft:goat_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 10 $(br)> $(n)Урон от атаки:$() 1 на легком, 2 на обычном, 3 на сложном $(br)> $(n)Поведение:$() В основном нейтральное $(br)> $(n)Порождение:$() Горные вершины $(br)> $(n)Размножение:$() Пшеница $(br)> $(n)Свойства:$() $(br)Можно доить с помощью $(item)Bucket$(). $(thing)Goats$() может таранить $(thing)Players$() и мобов для развлечения."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:goat",
+      "scale": "0.5",
+      "text": "$(n)Выпадает:$() - $(n)Опыт:$() 1-3"
+    }
+  ]
+}

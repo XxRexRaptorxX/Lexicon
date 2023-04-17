@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:enchanting_table",
-      "text": "An $(item)Enchanting Table$() is a block that allows $(l:creatures/human-player)$(thing)Players$() to spend their XP levels to enchant tools, weapons, books, armor, and certain other items."
+      "text": "An $(item)Enchanting Table$() is a block that allows $(thing)Players$() to spend their XP levels to enchant tools, weapons, books, armor, and certain other items."
     },
     {
       "type": "patchouli:crafting",

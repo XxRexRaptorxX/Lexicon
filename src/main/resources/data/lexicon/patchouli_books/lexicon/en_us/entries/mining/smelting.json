@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There are multiple fuels that can be used to smelt items. $(br)The type of fuel that should be used depends on the number of items in question. $(br2)$(n)Different types of smelter:$() $(li)$(l:useables/furnace)$(l)Furnace$() smelts all possible items $(li)$(l:useables/blast_furnace)$(l)Blast Furnace$() smelts only ores, but twice as fast $(li)$(l:useables/smoker)$(l)Smoker$() smelts only food, but twice as fast"
+      "text": "There are multiple fuels that can be used to smelt items. $(br)The type of fuel that should be used depends on the number of items in question. $(br2)$(n)Different types of smelter:$() $(li)$(l)Furnace$() smelts all possible items $(li)$(l)Blast Furnace$() smelts only ores, but twice as fast and fewer output $(li)$(l)Smoker$() smelts only food, but twice as fast and fewer output"
     },
     {
       "type": "patchouli:image",
@@ -27,7 +27,6 @@
     },
     {
       "type": "patchouli:multiblock",
-      "anchor": "smelter",
       "multiblock": {
         "pattern": [
           [
@@ -94,7 +93,7 @@
           ]
         ],
         "mapping": {
-          "F": "minecraft:blast_furnace[facing=east]",
+          "F": "minecraft:furnace[facing=east]",
           "R": "minecraft:rail[shape=north_south]",
           "r": "minecraft:powered_rail[shape=north_south,powered=true]",
           "H": "minecraft:hopper[enabled=true,facing=east]",

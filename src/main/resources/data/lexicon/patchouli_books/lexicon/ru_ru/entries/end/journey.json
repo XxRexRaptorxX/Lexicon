@@ -1,0 +1,34 @@
+{
+  "name": "Путешествие в конец",
+  "icon": "minecraft:end_portal_frame",
+  "category": "lexicon:end",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Первая важная вещь на пути к $(thing)End$() — это $(item)Eyes of Ender$(). $(br2)Вы можете создать их с помощью $(item)Ender Pearls$(), которые вы получаете от $(thing)Endermen$() или при обмене в $(thing)Nether$() и $(item)Blaze Dust. $(), который вы также получаете в $(thing)Nether$() от $(thing)Blazes$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blaze_powder",
+      "recipe2": "minecraft:ender_eye",
+      "text": "Вам нужно около 20 из них"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Следующий шаг — найти $(thing)крепость$(). $(br2)Вы можете найти его, бросив $(item)Глаза Эндера$() в воздух, они полетят прямо в направлении $(thing)Крепости$(). $(br)Если они остановятся и взорвутся в воздухе, то под ними."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_portal_raw.png"
+      ],
+      "border": true,
+      "text": "Найдите $(thing)End Portal$() и заполните пустые блоки кадра $(item)Eyes of Ender$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Прежде чем пройти через портал, убедитесь, что у вас есть все с собой, как только вы пройдете, вы не сможете вернуться, пока не победите $(thing)Ender Dragon$() (конечный босс Minecraft) или не умрете."
+    }
+  ]
+}

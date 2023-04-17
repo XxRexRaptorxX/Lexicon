@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "When a $(item)Water$() $(n)source$() is directly above a $(item)Magma Block$(), a whirlpool bubble column is created, going downward from the highest source block. $(br)Anything encountering the bubble column is pulled down, including items, $(item)Boats$(), $(l:creatures/human-player)$(thing)Players$() and mobs. $(br2)And $(item)Soulsand$() do the same thing upwards. $(br2)This fact makes it perfect for building an elevator, item transport system or mob trap."
+      "text": "When a $(item)Water$() $(n)source$() is directly above a $(item)Magma Block$(), a whirlpool bubble column is created, going downward from the highest source block. $(br)Anything encountering the bubble column is pulled down, including items, $(item)Boats$(), $(thing)Players$() and mobs. $(br2)And $(item)Soulsand$() do the same thing upwards. $(br2)This fact makes it perfect for building an elevator, item transport system or mob trap."
     },
     {
       "type": "patchouli:image",

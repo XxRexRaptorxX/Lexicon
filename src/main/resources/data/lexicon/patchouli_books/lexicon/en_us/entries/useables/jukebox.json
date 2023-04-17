@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:jukebox",
-      "text": "A $(item)Jukebox$() is a block used to play $(l:rare/music_discs)$(item)Music Discs$()."
+      "text": "A $(item)Jukebox$() is a block used to play $(item)Music Discs$()."
     },
     {
       "type": "patchouli:crafting",

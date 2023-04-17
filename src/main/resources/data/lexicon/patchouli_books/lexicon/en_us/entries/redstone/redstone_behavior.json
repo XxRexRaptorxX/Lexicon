@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l:redstone/redstone_components#redstone)$(item)Redstone Wire$() can transmit power, which can be used to operate mechanism components (doors, pistons, etc). $(br2)The power level drops by 1 for every block of $(l:redstone/redstone_components#redstone)$(item)Redstone Wire$() it crosses. $(br2)Thus, wire can transmit power for no more than $(n)15 blocks$(). $(br)To go further, the power level must be re-strengthened – typically with a $(l:redstone/redstone_components#repeater)$(item)Repeater$()."
+      "text": "$(item)Redstone Wire$() can transmit power, which can be used to operate mechanism components (doors, pistons, etc). $(br2)The power level drops by 1 for every block of $(item)Redstone Wire$() it crosses. $(br2)Thus, wire can transmit power for no more than $(n)15 blocks$(). $(br)To go further, the power level must be re-strengthened – typically with a $(item)Repeater$()."
     },
     {
       "type": "patchouli:image",

@@ -1,0 +1,17 @@
+{
+  "name": "Человек - Вызыватель",
+  "icon": "minecraft:evoker_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 24 $(br)> $(n)Урон от атаки:$() 6 $(br)> $(n)Поведение:$() Враждебное $(br)> $(n)Spawn:$() Особняки, Рейды $(br)> $(n)Свойства:$() $(br)$(thing)Evoker$() имеет два разных метода атаки: атака клыком и призыв $(thing) Раздражение$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:evoker",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 Тотем бессмертия, 0-1 Изумруд, 1 Зловещее знамя в рейдах $(br)$(n)XP:$() 10"
+    }
+  ]
+}

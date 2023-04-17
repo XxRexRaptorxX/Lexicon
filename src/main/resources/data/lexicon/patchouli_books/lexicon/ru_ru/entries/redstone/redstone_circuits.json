@@ -1,0 +1,600 @@
+{
+  "name": "Схемы Редстоуна",
+  "icon": "minecraft:comparator",
+  "category": "lexicon:redstone",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Логический вентиль можно рассматривать как простое устройство, которое будет возвращать ряд выходных данных, определяемых шаблоном входов и правилами, которым следует логический вентиль. $(br2)Эти вентили можно использовать для создания больших схем для машин. $(br2)$(item)Lever$() в этой схеме представляет входы, а $(item)Lamps$() – выход."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+          "pattern": [
+            [
+              "   0  "
+            ],
+            [
+              "OMTXWL"
+            ]
+          ],
+          "mapping": {
+            "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+            "W": "minecraft:redstone_wire[north=side,south=side]",
+            "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+            "X": "minecraft:gold_block",
+            "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+            "O": "minecraft:redstone_lamp[lit=true]"
+          }
+      },
+        "name": "НЕ-Ворота",
+        "text": "Также известен как инвертор. $(br)Этот вентиль используется, когда требуется противоположный выход от заданного входа."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "       ",
+            "   0   ",
+            "   MT  ",
+            "       ",
+            "       "
+          ],
+          [
+            "    L  ",
+            "    w  ",
+            "OWtXXWL",
+            "    w  ",
+            "    L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "ИЛИ-ворота",
+      "text": "Гейт, который использует 2 или более входов, и всякий раз, когда любой вход равен $(l)on$(), выход равен $(l)off$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "     ",
+            "     ",
+            "  0  ",
+            "     ",
+            "     "
+          ],
+          [
+            "  L  ",
+            "  w  ",
+            "OWXWL",
+            "  w  ",
+            "  L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "X": "minecraft:redstone_wire[north=side,south=side,west=side,east=side]"
+        }
+      },
+      "name": "Простой OR-Gate",
+      "text": "Но OR-Gate в майнкрафте также может быть простым соединением из красного камня."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "      ",
+            "      ",
+            "   0  ",
+            "      ",
+            "      "
+          ],
+          [
+            "   L  ",
+            "   w  ",
+            "OMTXWL",
+            "   w  ",
+            "   L  "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[east=side,west=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "NOR-ворота",
+      "text": "Эти ворота являются противоположностью $(thing)OR-Gate$(). Всякий раз, когда хотя бы один переключатель переключается в положение $(l)on$(), выход переключается в положение $(l)off."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "       ",
+            "       ",
+            "   T   ",
+            "   MT0 ",
+            "   T   ",
+            "       ",
+            "       "
+          ],
+          [
+            "   L   ",
+            "   w   ",
+            "   X   ",
+            "OWtXXWL",
+            "   X   ",
+            "   w   ",
+            "   L   "
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[east=side,west=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "w": "minecraft:redstone_wire[east=side,west=side]"
+        }
+      },
+      "name": "И-ворота",
+      "text": "Выход переключается на $(l)on$() только тогда, когда $(n)all$() входные данные равны $(l)on$(). В противном случае вывод останется $(l)off$()."
+    },
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   T  ",
+            "   M0 ",
+            "   T  "
+          ],
+          [
+            "   XWL",
+            "OWtX  ",
+            "   XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[east=side,west=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "И-ворота",
+      "text": "Предыдущий вариант AND-Gate рассчитан на 3 входа, а этот на 2."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  T  ",
+            "  M0 ",
+            "  T  "
+          ],
+          [
+            "  XWL",
+            "OwX  ",
+            "  XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "NAND-Gate",
+      "text": "Этот вентиль отключает выход $(l)off$() только тогда, когда входы $(n)all$() находятся в состоянии $(l)on$(), что является обратным $(thing)AND-Gate$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "       ",
+            "   0   ",
+            "       ",
+            "       "
+          ],
+          [
+            "  iTXWL",
+            "OWCY   ",
+            " XCY   ",
+            "  ITXWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "Y": "minecraft:redstone_wire[east=side,north=side,west=side,power=15]",
+          "i": "minecraft:redstone_wire[east=side,south=side,power=15]",
+          "I": "minecraft:redstone_wire[west=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "C": "minecraft:comparator[facing=south,mode=subtract]",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "XOR-ворота",
+      "text": "Этот вентиль, использующий 2 входа и выход, переключается на $(l)on$(), когда один переключатель находится в положении $(l)on$(), а другой — в положении $(l)off$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   w  T  ",
+            "    0wM  ",
+            "   w  T  "
+          ],
+          [
+            "  YXitXWL",
+            "OWI YXX  ",
+            "  YXjtXWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "i": "minecraft:redstone_wire[east=side,south=side,north=up,power=15]",
+          "j": "minecraft:redstone_wire[west=side,south=side,north=up,power=15]",
+          "I": "minecraft:redstone_wire[east=side,north=side,west=side]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "Y": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "XNOR-ворота",
+      "text": "Противоположность $(thing)XOR-Gate$(). Он использует 2 входа. Когда оба переключателя находятся в одном и том же состоянии (оба переключателя находятся в состоянии $(l)on$() или оба в состоянии $(l)off$()), то выход переключается на $(l)on$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  Y  ",
+            "  M0 ",
+            "  T  "
+          ],
+          [
+            "  XiL",
+            "OwX  ",
+            "  XWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "w": "minecraft:redstone_wire[north=side,south=up,power=15]",
+          "i": "minecraft:redstone_wire[north=up,south=side,power=13]",
+          "M": "minecraft:redstone_wire[east=side,west=side,north=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch[lit=true]",
+          "Y": "minecraft:redstone_wire[south=side,east=side,power=14]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
+      },
+      "name": "IMPLY-Gate",
+      "text": "Этот вентиль включается либо в том случае, если оба входа равны $(l)on$(), либо если первый вход равен $(l)off$(). $(br)В отличие от других вентилей, входы не взаимозаменяемы; это не коммутативно."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OCh",
+            " 0H"
+          ]
+        ],
+        "mapping": {
+          "C": "minecraft:comparator[facing=south,mode=compare,powered=true]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "H": "minecraft:hopper[enabled=true,facing=west]",
+          "h": "minecraft:hopper[enabled=true,facing=east]"
+        }
+      },
+      "name": "Хоппер-часы",
+      "text": "Часы — это генератор импульсов, который многократно генерирует петлю определенных импульсов. Часы бункера производят синхронизированные импульсы, перемещая предметы вперед и назад между двумя бункерами."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OW1CL",
+            " 023 "
+          ]
+        ],
+        "mapping": {
+          "C": "minecraft:comparator[facing=south,mode=subtract,powered=true]",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "L": "minecraft:lever[face=floor,facing=north,powered=true]",
+          "W": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "1": "minecraft:redstone_wire[north=side,south=side,east=side,power=15]",
+          "2": "minecraft:redstone_wire[west=side,south=side,power=14]",
+          "3": "minecraft:redstone_wire[west=side,north=side,power=13]"
+        }
+      },
+      "name": "Компаратор-часы",
+      "text": "Часы с короткой или средней продолжительностью цикла, использующие функцию вычитания $(item)Comparator$() или затухания сигнала."
+    },
+
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OW2a1 ",
+            "  b0d ",
+            "  3c4B"
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side,power=14]",
+          "1": "minecraft:redstone_wire[north=side,east=side]",
+          "2": "minecraft:redstone_wire[east=side,south=side,north=side,power=15]",
+          "3": "minecraft:redstone_wire[west=side,south=side,power=15]",
+          "4": "minecraft:redstone_wire[north=side,west=side,south=side,power=0]",
+          "a": "minecraft:repeater[powered=true,delay=4,facing=north]",
+          "b": "minecraft:repeater[powered=true,delay=4,facing=east]",
+          "c": "minecraft:repeater[powered=false,delay=4,facing=south]",
+          "d": "minecraft:repeater[powered=false,delay=4,facing=west]"
+        }
+      },
+      "name": "Ретранслятор-часы",
+      "text": "Эти часы состоят из цикла $(item)Repeaters$() со случайной пылью или блоками для получения соответствующих импульсов."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   TXWB",
+            "  01   ",
+            "OMX2WY ",
+            "  t33y "
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[south=side,north=side,power=15]",
+          "Y": "minecraft:redstone_wire[east=side,north=side]",
+          "y": "minecraft:redstone_wire[west=side,north=side]",
+          "X": "minecraft:gold_block",
+          "O": "minecraft:redstone_lamp[lit=true]",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=east,lit=false]",
+          "1": "minecraft:repeater[powered=true,delay=1,facing=west]",
+          "2": "minecraft:repeater[powered=true,delay=3,facing=south,locked=true]",
+          "3": "minecraft:repeater[powered=false,delay=4,facing=north]"
+
+        }
+      },
+      "name": "Т-триггер",
+      "text": "Также известен как «переключатели». Всякий раз, когда ввод изменяется с $(l)off$() на $(l)on$(), выход будет переключать свое состояние."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "L XP0OPWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "L": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "P": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=south]",
+          "X": "minecraft:redstone_block"
+        }
+      },
+      "name": "Наблюдатель T Триггер",
+      "text": ""
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "WWWCHDWB"
+          ],
+          [
+            "OOO 0   "
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "D": "minecraft:dropper[facing=north]",
+          "H": "minecraft:hopper[facing=south,enabled=true]",
+          "C": "minecraft:comparator[facing=south]",
+          "O": "minecraft:redstone_lamp[lit=false]"
+        }
+      },
+      "name": "Рандомизатор",
+      "text": "Поместите элементы с разным размером стека в $(item)Dropper$(), например $(item)Sword$() и кусок $(item)Dirt$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  IWi0 ",
+            "OWYRYWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "Y": "minecraft:redstone_wire[north=side,south=side,west=side]",
+          "i": "minecraft:redstone_wire[north=side,east=side]",
+          "I": "minecraft:redstone_wire[south=side,east=side]",
+          "R": "minecraft:repeater[facing=south]"
+        }
+      },
+      "name": "Входной стабилизатор",
+      "text": "Эта схема реагирует на входной импульс, включая вход и выход $(l)вкл$() и оставляя $(l)вкл$()."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " O   ",
+            " I0  ",
+            "YtXWb",
+            "I R  ",
+            "I T  ",
+            "yWXWB"
+          ]
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "b": "minecraft:crimson_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "I": "minecraft:redstone_wire[east=side,west=side]",
+          "Y": "minecraft:redstone_wire[east=side,south=side]",
+          "y": "minecraft:redstone_wire[south=side,west=side]",
+          "R": "minecraft:repeater[facing=east,powered=true]",
+          "T": "minecraft:redstone_wall_torch[facing=west,lit=true]",
+          "t": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "Защелка RS-ISR",
+      "text": "Это $(thing)Input Stabilizator$() с опцией сброса."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "ORXWL"
+          ],
+          [
+            " 0P  "
+          ]
+
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "P": "minecraft:sticky_piston[facing=up]",
+          "R": "minecraft:repeater[facing=south]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "Генератор импульсов",
+      "text": "$(thing)Pulse Generator$() создает выходной импульс при срабатывании."
+    },
+
+
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "      0      ",
+            " XRXRXRXRXRy ",
+            "OWWWWWWWWWXYB"
+          ]
+
+        ],
+        "mapping": {
+          "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",
+          "O": "minecraft:redstone_lamp[lit=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "Y": "minecraft:redstone_wire[west=side,south=side]",
+          "y": "minecraft:redstone_wire[east=side,north=side]",
+          "R": "minecraft:repeater[facing=south,delay=4]",
+          "X": "minecraft:gold_block"
+        }
+      },
+      "name": "Импульсный удлинитель",
+      "text": "Эта схема увеличивает длительность импульса. $(br)Можно строить сколько угодно."
+    }
+  ]
+}

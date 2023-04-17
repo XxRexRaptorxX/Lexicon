@@ -1,0 +1,19 @@
+{
+  "name": "Шалкер Ящик",
+  "icon": "minecraft:shulker_box",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shulker_box",
+      "text": "$(item)Shulker Boxes$() являются портативными $(item)сундуками$(): они сохраняют свои предметы, когда они сломаны, которые можно получить при повторном размещении. $(br2)Это отличается от других контейнеров, которые сбрасывают содержащиеся в них элементы как сущности элементов при поломке. $(br2)Эти ящики сделаны из $(item)Shulker Shells$(), которые выпадают из $(item)Shulkers$() в The End."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "recipe2": "minecraft:cyan_shulker_box",
+      "title": " ",
+      "text": "$(br)$(item)Shulker Boxes$() можно красить!"
+    }
+  ]
+}

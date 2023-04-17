@@ -11,11 +11,11 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:anvil",
       "title": " ",
-      "text": "To use a tag, it must first be renamed with an $(l:useables/anvil)$(item)Anvil$(), costing 1 experience level."
+      "text": "To use a tag, it must first be renamed with an $(item)Anvil$(), costing 1 experience level."
     },
     {
       "type": "patchouli:text",
-      "text": "$(n)Easter Eggs:$() $(br)$(li)Most mobs named $(o)Dinnerbone$() or $(o)Grumm$() causes it to render upside-down. $(br)$(li)Naming a $(l:creatures/animal-sheep)$(thing)Sheep$() $(o)jeb_$() causes it's wool to fade between the dye colors, producing a rainbow effect. $(br)$(li)Naming a $(l:creatures/animal-rabbit)$(thing)Rabbit$() $(o)Toast$() causes it to hava a special skin. $(br)$(li)Naming a $(l:creatures/human-vindicator)$(thing)Vindicator$() $(o)Johnny$() causes it to be aggressive to all mobs."
+      "text": "$(n)Easter Eggs:$() $(br)$(li)Most mobs named $(o)Dinnerbone$() or $(o)Grumm$() causes it to render upside-down. $(br)$(li)Naming a $(thing)Sheep$() $(o)jeb_$() causes it's wool to fade between the dye colors, producing a rainbow effect. $(br)$(li)Naming a $(thing)Rabbit$() $(o)Toast$() causes it to hava a special skin. $(br)$(li)Naming a $(thing)Vindicator$() $(o)Johnny$() causes it to be aggressive to all mobs."
     },
     {
       "type": "patchouli:image",

@@ -1,0 +1,17 @@
+{
+  "name": "Каменотес",
+  "icon": "minecraft:stonecutter",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stonecutter",
+      "text": "$(item)Stonecutter$() используется для изготовления блоков, связанных с $(item)Stone$() и $(item)Copper$(), в меньших и более точных количествах, чем крафт, и более эффективен, чем крафт для определенных рецептов. . $(br2)Он также служит в качестве блока на рабочем месте $(thing)Stone Mason's$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stonecutter",
+      "title": " "
+    }
+  ]
+}

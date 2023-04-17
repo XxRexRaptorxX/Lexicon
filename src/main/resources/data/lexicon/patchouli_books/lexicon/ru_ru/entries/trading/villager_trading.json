@@ -1,0 +1,227 @@
+{
+  "name": "Деревенский трейдинг",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Существует 5 уровней карьеры, которые можно повысить с помощью торговли. $(li)Полная торговая полоса открывает следующий уровень сделок. $(li)Каждая профессия имеет свои предложения. $(li)Профессии назначаются каждому $(thing)Village$() в зависимости от их блока на рабочем месте. $(li)$(thing)Villagers$() отключает предложение после нескольких сделок. Но они снова активируют свои предложения, до двух раз в день. $(li)Они могут иметь максимум 10 сделок. Каждый уровень открывает максимум 2 сделки."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Economic",
+      "text": "$(li)Распроданный товар получает повышение цены при повторном поступлении. Если игрок не обменивает предмет на более дорогой, цена снижается при следующем пополнении запасов. $(li)Эффект $(thing)Hero of the Village$() временно снижает цены для затронутого игрока. $(li)Все колебания цен влияют только на первый предмет, участвующий в торговле. $(li)Положительная репутация достигается за счет лечения $(thing)зомби-жителей$(). $(br2)Чтобы вылечить $(thing)Зомби-жителя$(), обрызгайте его $(предметом)Взрывным зельем слабости$(), а затем накормите его $(предметом)Золотым яблоком$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trading_price_changes.png"
+      ],
+      "text": "> Изменения цен на вылеченных жителей деревни",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trading_legend.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
+      "scale": "1.0",
+      "text": "$(n)Блок рабочей площадки:$() $(item)Доменная печь$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/armorer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Курильщик$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/butcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Картографический стол$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cartographer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Бочка$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fisherman_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Fletching Table$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fletcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Cauldron$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/leatherworker_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Кафедра$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/librarian_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:mason}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Камнерез$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mason_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Loom$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shepherd_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
+      "scale": "1.0",
+      "text": "$(n)Блок рабочего места:$() $(item)Пивоварочная стойка$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cleric_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Компостер$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/farmer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)Кузнечный стол$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/toolsmith_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() $(item)точильный камень$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weaponsmith_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",
+      "scale": "1.0",
+      "text": "$(n)Блок сайта вакансий:$() -"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager",
+      "scale": "1.0",
+      "text": "Сельский житель без блока места работы"
+    }
+  ]
+}

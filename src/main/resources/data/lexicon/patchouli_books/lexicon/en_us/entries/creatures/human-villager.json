@@ -1,101 +1,17 @@
 {
-  "name": "Humanoid - Villager",
+  "name": "Human - Villager",
   "icon": "minecraft:villager_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20 $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/structures#village)Villages$(), $(l:world/structures#igloo)Igloo$()    $(br)> $(n)Breeding:$() 3 Bread or 12 Carrots or 12 Potatoes or 12 Beetroots in her inventory + a free Bed $(br)> $(n)Properties:$() $(br)Inhabit $(l:world/structures#village)$(thing)Villages$(), work at their professions, breed, and interact with each other. Their outfit varies according to their occupation and biome. A $(l:creatures/human-player)$(thing)Player$() can trade with $(thing)Villagers$() using $(item)Emeralds$() as currency. "
+      "text": "> $(n)Health:$() 20$(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Villages, Igloo    $(br)> $(n)Breeding:$() 3 Bread or 12 Carrots or 12 Potatoes or 12 Beetroots in her inventory + a free Bed $(br)> $(n)Properties:$() $(br)Inhabit $(thing)Villages$(), work at their professions, breed, and interact with each other. Their outfit varies according to their occupation and biome. A $(thing)Player$() can trade with $(thing)Villagers$() using $(item)Emeralds$() as currency. "
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager",
       "scale": "1.0",
       "text": "$(n)Drops:$() -  $(n)XP:$() 3-6 for trading"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
-      "anchor": "armorer",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
-      "anchor": "butcher",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
-      "anchor": "cartographer",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
-      "anchro": "fisherman",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
-      "anchor": "fletcher",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
-      "anchor": "leatherworker",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
-      "anchor": "librarian",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:mason}}",
-      "anchor": "mason",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
-      "anchor": "shepherd",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
-      "anchor": "cleric",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
-      "anchor": "farmer",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
-      "anchor": "toolsmith",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
-      "anchor": "weaponsmith",
-      "scale": "1.0"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",
-      "anchor": "nitwit",
-      "scale": "1.0"
     }
   ]
 }

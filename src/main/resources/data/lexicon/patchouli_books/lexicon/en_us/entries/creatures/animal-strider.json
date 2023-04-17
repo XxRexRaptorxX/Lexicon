@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$() on lava lakes $(br)> $(n)Breeding:$() Warped Fungus     $(br)> $(n)Properties:$() $(br)Walk on $(item)Lava$(). Can be equipped with a $(item)Saddle$() and ridden with a $(item)Warped fungus on a stick$(). Take damage by $(item)Water$()."
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Nether on lava lakes $(br)> $(n)Breeding:$() Warped Fungus     $(br)> $(n)Properties:$() $(br)Walk on $(item)Lava$(). Can be equipped with a $(item)Saddle$() and ridden with a $(item)Warped fungus on a stick$(). Take damage by $(item)Water$()."
     },
     {
       "type": "patchouli:entity",

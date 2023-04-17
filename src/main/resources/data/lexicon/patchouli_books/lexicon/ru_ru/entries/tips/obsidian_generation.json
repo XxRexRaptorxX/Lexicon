@@ -1,0 +1,18 @@
+{
+  "name": "Обсидиановое поколение",
+  "icon": "minecraft:obsidian",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Obsidian$() образуется, когда $(item)Flowing Water$() касается блока $(item)Lava Source$(), и его можно найти естественным образом там, где $(item)Water$() из источника или озеро перетекло в ближайший бассейн $(item)Lava$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/obsidian_generation.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)There are a variety of ways to avoid fall damage:$() $(br)$(li)Some blocks can reduce fall damage: $(item)Hay Balls$(), $(item)Slime Blocks$(), $(item)Honey Blocks$(), $(l:useables/bed)$(item)Beds$(), $(item)Cobwebs$(), $(item)Powdered Snow$(), ... $(br)$(li)Landing in $(item)Water$() prevents all fall damage. If you are falling from a height you should quickly empty a $(item)Water Bucket$() onto the block you'll land on so the $(item)Water$() can break your fall."
+      "text": "$(n)There are a variety of ways to avoid fall damage:$() $(br)$(li)Some blocks can reduce fall damage: $(item)Hay Balls$(), $(item)Slime Blocks$(), $(item)Honey Blocks$(), $(item)Beds$(), $(item)Cobwebs$(), $(item)Powdered Snow$(), ... $(br)$(li)Landing in $(item)Water$() prevents all fall damage. If you are falling from a height you should quickly empty a $(item)Water Bucket$() onto the block you'll land on so the $(item)Water$() can break your fall."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(li)$(item)Boats$() can completely nullify fall damage for themselves and any $(l:creatures/human-player)$(thing)Players$()/$(thing)Mobs$() inside, making them useful for travel through $(thing)Mountains$() or through the $(l:world/dimensions#nether)$(thing)Nether$(). $(br)$(li)$(item)Boots$() with $(l:enchanting/enchantments#feather_falling)$(thing)Feather Falling$() Enchantment. $(br)$(li)$(l:brewing/brewing)$(item)Potions of Slow Falling$()"
+      "text": "$(br2)$(li)$(item)Boats$() can completely nullify fall damage for themselves and any $(thing)Players$()/$(thing)Mobs$() inside, making them useful for travel through $(thing)Mountains$() or through the $(thing)Nether$(). $(br)$(li)$(item)Boots$() with $(thing)Feather Falling$() Enchantment. $(br)$(li)$(item)Potions of Slow Falling$()"
     }
   ]
 }

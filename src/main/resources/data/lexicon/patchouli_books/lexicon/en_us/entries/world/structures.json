@@ -15,8 +15,7 @@
       ],
       "border": false,
       "title": "Mineshaft",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
-      "anchor": "mineshaft"
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common"
     },
     {
       "type": "patchouli:image",
@@ -25,8 +24,7 @@
       ],
       "border": false,
       "title": "Stronghold",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Very Rare",
-      "anchor": "stronghold"
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Very Rare"
     },
     {
       "type": "patchouli:image",
@@ -35,8 +33,7 @@
       ],
       "border": true,
       "title": "Buried Treasure",
-      "text": "$(n)Locations:$() Beach (Underground) $(br)$(n)Rarity:$() Rare",
-      "anchor": "treasure"
+      "text": "$(n)Locations:$() Beach (Underground) $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -45,8 +42,7 @@
       ],
       "border": false,
       "title": "Desert Pyramid",
-      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "pyramid"
+      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon"
     },
     {
       "type": "patchouli:image",
@@ -55,8 +51,7 @@
       ],
       "border": false,
       "title": "Igloo",
-      "text": "$(n)Locations:$() Snowy Plains, Snowy Taiga $(br)$(n)Rarity:$() Rare",
-      "anchor": "igloo"
+      "text": "$(n)Locations:$() Snowy Plains, Snowy Taiga $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -65,8 +60,7 @@
       ],
       "border": false,
       "title": "Jungle Temple",
-      "text": "$(n)Locations:$() Jungle $(br)$(n)Rarity:$() Rare",
-      "anchor": "temple"
+      "text": "$(n)Locations:$() Jungle $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -75,8 +69,7 @@
       ],
       "border": false,
       "title": "Pillager Outpost",
-      "text": "$(n)Locations:$() Plains, Desert, Savanna, (Snowy-)Taiga $(br)$(n)Rarity:$() Rare",
-      "anchor": "outpost"
+      "text": "$(n)Locations:$() Plains, Desert, Savanna, (Snowy-)Taiga $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -85,8 +78,7 @@
       ],
       "border": false,
       "title": "Swamp Hut",
-      "text": "$(n)Locations:$() Swamp $(br)$(n)Rarity:$() Rare",
-      "anchor": "hut"
+      "text": "$(n)Locations:$() Swamp $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -95,8 +87,7 @@
       ],
       "border": true,
       "title": "Village",
-      "text": "$(n)Locations:$() (Snowy-)Plains, Desert, Savanna, Taiga $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "village"
+      "text": "$(n)Locations:$() (Snowy-)Plains, Desert, Savanna, Taiga $(br)$(n)Rarity:$() Uncommon"
     },
     {
       "type": "patchouli:image",
@@ -105,8 +96,7 @@
       ],
       "border": false,
       "title": "Woodland Mansion",
-      "text": "$(n)Locations:$() Dark Forest $(br)$(n)Rarity:$() Rare",
-      "anchor": "mansion"
+      "text": "$(n)Locations:$() Dark Forest $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -115,8 +105,7 @@
       ],
       "border": false,
       "title": "Ruined Portal",
-      "text": "$(n)Locations:$() Overworld, Nether $(br)$(n)Rarity:$() Common",
-      "anchor": "portal"
+      "text": "$(n)Locations:$() Overworld, Nether $(br)$(n)Rarity:$() Common"
     },
     {
       "type": "patchouli:image",
@@ -125,8 +114,7 @@
       ],
       "border": false,
       "title": "Ocean Ruin",
-      "text": "$(n)Locations:$() Ocean, Beach $(br)$(n)Rarity:$() Common",
-      "anchor": "ruin"
+      "text": "$(n)Locations:$() Ocean, Beach $(br)$(n)Rarity:$() Common"
     },
     {
       "type": "patchouli:image",
@@ -135,8 +123,7 @@
       ],
       "border": false,
       "title": "Shipwreck",
-      "text": "$(n)Locations:$() Ocean, Beach, Stony Shore, Snowy Beach $(br)$(n)Rarity:$() Common",
-      "anchor": "shipwreck"
+      "text": "$(n)Locations:$() Ocean, Beach, Stony Shore, Snowy Beach $(br)$(n)Rarity:$() Common"
     },
     {
       "type": "patchouli:image",
@@ -145,8 +132,7 @@
       ],
       "border": false,
       "title": "Ocean Monument",
-      "text": "$(n)Locations:$() All Oceans $(br)$(n)Rarity:$() Rare",
-      "anchor": "monument"
+      "text": "$(n)Locations:$() All Oceans $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -155,8 +141,7 @@
       ],
       "border": true,
       "title": "Nether Fortress",
-      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "fortress"
+      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon"
     },
     {
       "type": "patchouli:image",
@@ -165,8 +150,7 @@
       ],
       "border": false,
       "title": "Bastion Remnant",
-      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "bastion"
+      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon"
     },
     {
       "type": "patchouli:image",
@@ -175,8 +159,7 @@
       ],
       "border": false,
       "title": "Fossil",
-      "text": "$(n)Locations:$() Desert, Swamp, Soul Sand Valley $(br)$(n)Rarity:$() Rare",
-      "anchor": "fossil"
+      "text": "$(n)Locations:$() Desert, Swamp, Soul Sand Valley $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -185,8 +168,7 @@
       ],
       "border": false,
       "title": "End City",
-      "text": "$(n)Locations:$() The End $(br)$(n)Rarity:$() Rare",
-      "anchor": "end_city"
+      "text": "$(n)Locations:$() The End $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -195,8 +177,7 @@
       ],
       "border": false,
       "title": "Dungeon",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
-      "anchor": "dungeon"
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common"
     },
     {
       "type": "patchouli:image",
@@ -205,8 +186,7 @@
       ],
       "border": false,
       "title": "Desert Well",
-      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "well"
+      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon"
     },
     {
       "type": "patchouli:image",
@@ -224,8 +204,7 @@
       ],
       "border": false,
       "title": "Geode",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Rare",
-      "anchor": "geode"
+      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Rare"
     },
     {
       "type": "patchouli:image",
@@ -234,20 +213,7 @@
       ],
       "border": false,
       "title": "Iceberg",
-      "text": "$(n)Locations:$() Frozen Ocean $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "iceberg"
-    },
-    {
-      "type": "patchouli:image",
-      "images": [
-        "lexicon:textures/pictures/ancient_city.png"
-      ],
-      "border": true,
-      "title": "Ancient City",
-      "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare",
-      "anchor": "ancient_city"
+      "text": "$(n)Locations:$() Frozen Ocean $(br)$(n)Rarity:$() Uncommon"
     }
-
-
   ]
 }

@@ -21,17 +21,17 @@
     {
       "type": "patchouli:text",
       "title": "Attack Cooldown",
-      "text": "When the $(l:creatures/human-player)$(thing)Player$() attacks too quickly, it reduces the strength of the attacks. $(br2)The base damage done (as a fraction of the full possible damage) depends on the time between attacks, which is also reflected in the height of the held $(item)Weapon$() on screen and the attack indicator bar"
+      "text": "When the $(thing)Player$() attacks too quickly, it reduces the strength of the attacks. $(br2)The base damage done (as a fraction of the full possible damage) depends on the time between attacks, which is also reflected in the height of the held $(item)Weapon$() on screen and the attack indicator bar"
     },
     {
       "type": "patchouli:text",
       "title": "Critical Hits",
-      "text": "A critical hit is an attack that deals extra damage compared to a regular attack. Critical melee strikes, regardless of the weapon used, cause small star particles to fly out of the target who was critically hit. $(item)Arrows$() shot from fully charged bows have a $(thing)25%$() chance of becoming critical. $(br2)In melee combat, a critical hit occurs when a $(l:creatures/human-player)$(thing)Player$() attacks a mob while falling, including while coming down from a jump, but not while jumping up. $(br)The attack deals $(thing)150%$() of the attack's base damage."
+      "text": "A critical hit is an attack that deals extra damage compared to a regular attack. Critical melee strikes, regardless of the weapon used, cause small star particles to fly out of the target who was critically hit. $(item)Arrows$() shot from fully charged bows have a $(thing)25%$() chance of becoming critical. $(br2)In melee combat, a critical hit occurs when a $(thing)Player$() attacks a mob while falling, including while coming down from a jump, but not while jumping up. $(br)The attack deals $(thing)150%$() of the attack's base damage."
     },
     {
       "type": "patchouli:text",
       "title": "Other Weapons",
-      "text": "$(li)Bow or Crossbow with different types of arrows $(l:brewing/potion_types#splash_potion)$(li)Splash Potions $(l:brewing/potion_types#lingering_potion)$(li)Lingering Potions $(li)Snowballs (damages only $(l:creatures/monster-blaze)$(thing)Blazes$()) $(li)Explosives like TNT $(li)Flint and steel $(li)Lava Bucket"
+      "text": "$(li)Bow or Crossbow with different types of arrows $(li)Splash Potions $(li)Lingering Potions $(li)Snowballs (damages only $(thing)Blazes$()) $(li)Explosives like TNT $(li)Flint and steel $(li)Lava Bucket"
     }
   ]
 }

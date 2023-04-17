@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:filled_map",
-      "text": "An $(item)Explorer Map$() is a special $(item)Map$() used to aid in finding rare generated structures, including $(l:world/structures#mansion)$(thing)Woodland Mansions$(), $(l:world/structures#monument)$(thing)Ocean Monuments$(), and $(l:world/structures#treasure)$(thing)Buried Treasures$(). $(br2)These maps can be traded from a $(l:creatures/human-villager#cartographer)$(thing)Cartographer Villager$() or found in $(l:world/structures#ruin)$(thing)Ocean Ruins$() or $(l:world/structures#shipwreck)$(thing)Shipwrecks$()."
+      "text": "An $(item)Explorer Map$() is a special $(item)Map$() used to aid in finding rare generated structures, including $(thing)Woodland Mansions$(), $(thing)Ocean Monuments$(), and $(thing)Buried Treasures$(). $(br2)These maps can be traded from a $(thing)Cartographer Villager$() or found in $(thing)Underwater Ruins$() or $(thing)Shipwrecks$()."
     },
     {
       "type": "patchouli:image",

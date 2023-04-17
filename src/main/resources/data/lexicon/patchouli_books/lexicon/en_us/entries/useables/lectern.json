@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:lectern",
-      "text": "A $(item)Lectern$() is a $(l:creatures/human-villager#librarian)$(thing)Librarian's$() job site block found in $(l:world/structures#village)$(thing)Villages$(). $(br2)It is used to hold books for multiple $(l:creatures/human-player)$(thing)Players$() to read in multiplayer."
+      "text": "A $(item)Lectern$() is a $(thing)Librarian's$() job site block found in villages. $(br2)It is used to hold books for multiple $(thing)Players$() to read in multiplayer."
     },
     {
       "type": "patchouli:crafting",

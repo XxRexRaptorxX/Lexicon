@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Texture packs are the most common $(l:modifications/resourcepacks)$(thing)Resource Packs$(), they change the look of the game with other textures and sometimes new block/item models. $(br2)These packs can be stacked $(br)$(li)$(thing)Texture packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
+      "text": "Texture packs are the most common $(thing)Resource Packs$(), they change the look of the game with other textures and sometimes new block/item models. $(br2)These packs can be stacked $(br)$(li)$(thing)Texture packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
     },
     {
       "type": "patchouli:image",

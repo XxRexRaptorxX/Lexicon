@@ -15,11 +15,11 @@
         "lexicon:textures/pictures/end_highlands.png"
       ],
       "border": true,
-      "text": "Search the new generated end gateway portal und explore the outer lands of the $(l:world/dimensions#end)$(thing)End$()!"
+      "text": "Search the new generated end gateway portal und explore the outer lands of the $(thing)End$()!"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Collect rare endgame items $(br)$(li)Explore your world in all dimensions $(br)$(li)Get all Advancements $(br)$(li)Kill the other bosses like the $(l:creatures/boss-wither)$(thing)Wither$() $(br)$(li)Build massive bases and structures $(br)$(li)Install and play with $(l:modifications/mods)$(thing)Mods$() $(br)$(li)And much more!"
+      "text": "$(li)Collect rare endgame items $(br)$(li)Explore your world in all dimensions $(br)$(li)Get all Advancements $(br)$(li)Kill the other bosses like the $(thing)Wither$() $(br)$(li)Build massive bases and structures $(br)$(li)Install and play with mods $(br)$(li)And much more!"
     }
   ]
 }

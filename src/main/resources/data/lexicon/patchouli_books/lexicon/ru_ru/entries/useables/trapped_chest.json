@@ -1,0 +1,17 @@
+{
+  "name": "Сундук-ловушка",
+  "icon": "minecraft:trapped_chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "Сундук $(item)Trapped$() функционирует как обычный $(item)Chest$() для хранения предметов, но при открытии он производит силу красного камня. $(br2)Его можно визуально отличить от обычных $(item)Сундуков$() по красной окраске вокруг защелки."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    }
+  ]
+}

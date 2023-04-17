@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)26 on easy, 50 on normal, 75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Not natural  $(br)> $(n)Properties:$() $(br)Giants$() are close to 12 blocks tall $(l:creatures/undead-zombie)$(thing)Zombies$(). They cannot spawn without $(l:commands)commands$() or $(l:modifications/mods)mods$()."
+      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)26 on easy, 50 on normal, 75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Unknown  $(br)> $(n)Properties:$() $(br)Giants$() are close to 12 blocks tall $(thing)Zombies$(). They cannot spawn without commands or mods."
     },
     {
       "type": "patchouli:entity",

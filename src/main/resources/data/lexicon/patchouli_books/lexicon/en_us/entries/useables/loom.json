@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:loom",
-      "text": "A $(item)Loom$() is used to apply patterns on $(item)Banners$(). $(br2)It is also used as a $(l:creatures/human-villager#shepherd)$(thing)Shepherd's$() job site block that is found in $(l:world/structures#village)$(thing)Villages$()."
+      "text": "A $(item)Loom$() is used to apply patterns on $(item)Banners$(). $(br2)It is also used as a $(thing)Shepherd's$() job site block that is found in $(thing)Villages$()."
     },
     {
       "type": "patchouli:crafting",

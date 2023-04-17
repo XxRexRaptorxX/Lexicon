@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20 + 2 Armor  $(br)> $(n)Attack Damage:$() $(br)2.5 on easy, 3 + hunger on normal, 4.5 + hunger on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Desert    $(br)> $(n)Properties:$() $(br)A $(thing)Husk$() is a variant of $(l:creatures/undead-zombie)$(thing)Zombie$() that spawns in deserts. Unlike $(l:creatures/undead-zombie)$(thing)Zombies$(), they do not burn in sunlight. They are healed by $(l:brewing/effects#instant_damage)$(thing)Instant Damage$() and harmed by $(l:brewing/effects#instant_health)$(thing)Instant Health$() effects, are immune to $(l:brewing/effects#regeneration)$(thing)Regeneration$() and $(l:brewing/effects#poison)$(thing)Poison effects$()."
+      "text": "> $(n)Health:$() 20 + 2 Armor  $(br)> $(n)Attack Damage:$() $(br)2.5 on easy, 3 + hunger on normal, 4.5 + hunger on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Desert    $(br)> $(n)Properties:$() $(br)A $(thing)Husk$() is a variant of $(thing)Zombie$() that spawns in deserts. Unlike $(thing)Zombies$(), they do not burn in sunlight. They are healed by $(thing)Instant Damage$() and harmed by $(thing)Instant Health$() effects, are immune to $(thing)Regeneration$() and $(thing)Poison effects$()."
     },
     {
       "type": "patchouli:entity",

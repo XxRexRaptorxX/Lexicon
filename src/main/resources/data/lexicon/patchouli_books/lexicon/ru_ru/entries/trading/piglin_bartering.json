@@ -1,0 +1,29 @@
+{
+  "name": "Пиглин Бартер",
+  "icon": "minecraft:gold_ingot",
+  "category": "lexicon:trading",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Для обмена с $(вещью)Пиглин$() бросьте $(item)Золотой слиток$() рядом со взрослым $(вещью)Пиглин$() или используйте его на нем. После того, как $(thing)Piglin$() берет слиток и исследует его в течение 6 секунд, он бросает случайный предмет $(thing)Player$(). $(br2)$(thing)Пиглин Бруты$() игнорируют золото. $(br)$(thing)Baby Piglins$() берет слиток, не давая ничего взамен, вместо этого держит слиток."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bartering.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin_brute",
+      "scale": "1.0"
+    }
+  ]
+}

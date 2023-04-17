@@ -1,0 +1,28 @@
+{
+  "name": "Полезные бейджи",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Тег $(item)Name$() — это предмет, используемый для присвоения имени мобам в мире и предотвращения их естественного $(n)исчезновения$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "title": " ",
+      "text": "Чтобы использовать тег, его нужно сначала переименовать в $(item)Anvil$(), что стоит 1 уровень опыта."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Easter Eggs:$() $(br)$(li)Большинство мобов с именами $(o)Dinnerbone$() или $(o)Grumm$() заставляют его отображаться вверх ногами. $(br)$(li)Присвоение имени $(thing)Sheep$() $(o)jeb_$() приводит к тому, что его шерсть бледнеет между цветами красителя, создавая эффект радуги. $(br)$(li)Присвоение имени $(thing)Rabbit$() $(o)Toast$() приводит к тому, что у него появляется особый скин. $(br)$(li)Присвоение имени $(thing)Vindicator$() $(o)Johnny$() делает его агрессивным по отношению ко всем мобам."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/upside-down.png"
+      ],
+      "border": true
+    }
+  ]
+}

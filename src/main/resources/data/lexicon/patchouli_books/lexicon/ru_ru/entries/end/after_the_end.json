@@ -1,0 +1,25 @@
+{
+  "name": "Что дальше?",
+  "icon": "minecraft:end_stone",
+  "category": "lexicon:end",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "После победы над финальным боссом Minecraft и просмотра титров игра еще не окончена, впереди еще много интересного! $(br2)Minecraft имеет бесконечный потенциал!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_gateway_portal.png",
+        "lexicon:textures/pictures/end_highlands.png"
+      ],
+      "border": true,
+      "text": "Найдите новый сгенерированный портал конечных ворот и исследуйте внешние земли $(thing)End$()!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Собирайте редкие предметы эндгейма $(br)$(li)Исследуйте свой мир во всех измерениях $(br)$(li)Получите все достижения $(br)$(li)Убейте других боссов, таких как $(thing)Wither$() $(br)$(li)Создайте массивные базы и сооружения $(br)$(li)Установите моды и играйте с ними $(br)$(li)И многое другое!"
+    }
+  ]
+}

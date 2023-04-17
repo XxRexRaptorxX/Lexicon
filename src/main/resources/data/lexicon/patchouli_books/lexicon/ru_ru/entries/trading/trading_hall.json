@@ -1,0 +1,12 @@
+{
+  "name": "Торговый зал",
+  "icon": "minecraft:lectern",
+  "category": "lexicon:trading",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вскоре!"
+    }
+  ]
+}

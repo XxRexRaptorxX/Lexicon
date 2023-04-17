@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages describe all curses in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(l:useables/enchanting_table)$(item)Enchanting Table$().  $(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(l:useables/enchanting_table)$(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(l:useables/anvil)$(item)Anvil$()."
+      "text": "The following pages describe all curses in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(item)Enchanting Table$().  $(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(item)Anvil$()."
     },
     {
       "type": "patchouli:text",

@@ -1,0 +1,25 @@
+{
+  "name": "Маяк",
+  "icon": "minecraft:beacon",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:beacon",
+      "text": "$(item)Beacon$() — это блок, который проецирует луч света в небо и может обеспечивать статусные эффекты, такие как $(thing)Speed$(), $(thing)Jump Boost$(), $(thing)Haste$. (), $(thing)Регенерация$(), $(thing)Сопротивление$() или $(thing)Сила$() для ближайших $(вещей)Игроков$() при активации с помощью пирамиды."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon",
+      "title": " "
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/beacon.png"
+      ],
+      "border": true,
+      "text": "Возможны четыре высоты пирамиды. Чем больше уровней, тем больше возможностей доступно. $(br)Можно построить из блоков $(item)Iron/Gold/Emerald/Diamond/Netherite$()."
+    }
+  ]
+}

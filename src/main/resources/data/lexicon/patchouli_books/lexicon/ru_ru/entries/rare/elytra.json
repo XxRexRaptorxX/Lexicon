@@ -1,0 +1,12 @@
+{
+  "name": "Надкрылья",
+  "icon": "minecraft:elytra",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:elytra",
+      "text": "$(item)Elytras$() — это редкие крылья, которые можно найти в $(thing)End Ships$(). $(br2)Можно разместить в слоте для нагрудника, и вы сможете летать! $(br2)Вы можете использовать $(item)Firework Rockets$() для увеличения скорости!"
+    }
+  ]
+}

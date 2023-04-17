@@ -11,14 +11,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone",
-      "anchor": "redstone",
       "text": "$(item)Redstone Dust$() is the core of redstone mechanics. $(br2)Mined from $(item)Redstone Ore$(), the dust can be placed to form redstone wires to carry signals, or crafted into other devices."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_torch",
-      "anchor": "torch",
-      "text": "$(item)Redstone Torches$() can be used to power blocks and transmission components such as $(item)Redstone Dust$(), activate mechanism components such as $(l:redstone/redstone_components#piston)$(item)Pistons$(), or invert redstone signals like a $(l:redstone/redstone_circuits)$(thing)NOT Gate$()."
+      "text": "$(item)Redstone Torches$() can be used to power blocks and transmission components such as $(item)Redstone Dust$(), activate mechanism components such as $(item)Pistons$(), or invert redstone signals like a $(thing)NOT Gate$()."
     },
     {
       "type": "patchouli:crafting",
@@ -28,7 +26,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_block",
-      "text": "A $(item)Redstone Block$() acts as a permanently powered redstone power source that can be pushed by $(l:redstone/redstone_components#piston)$(item)Pistons$()."
+      "text": "A $(item)Redstone Block$() acts as a permanently powered redstone power source that can be pushed by $(item)Pistons$()."
     },
     {
       "type": "patchouli:crafting",
@@ -38,7 +36,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:repeater",
-      "anchor": "repeater",
       "text": "A $(item)Repeater$() is a block used in redstone circuits to repeat redstone signals back to full strength, delay signals, prevent signals moving backwards, or to lock signals in one state. $(br)$(li)Transmits signals only from its back to its front $(br)$(li)They can repeat a redstone signal, boosting it back up"
     },
     {
@@ -50,7 +47,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:comparator",
-      "anchor": "comparator",
       "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(br)Has 2 $(item)Redstone Torches$() at the back and one at the front. $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
     },
     {
@@ -62,7 +58,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stone_button",
-      "text": "When activated, a $(item)Wooden Button$() remains active for 15 redstone ticks (1.5s, barring lag), while a $(item)Stone Button$() remains active for 10 redstone ticks (1s, barring lag). $(br2)A $(item)Wooden Button$() activated by a fired $(item)Arrow$() or a $(item)Trident$() remains active until the projectile despawns or is picked up."
+      "text": "When activated, a $(item)Wooden Button$() remains active for 15 redstone ticks (1.5 seconds, barring lag), while a $(item)Stone Button$() remains active for 10 redstone ticks (1 second, barring lag). $(br2)A $(item)Wooden Button$() activated by a fired $(item)Arrow$() or a $(item)Trident$() remains active until the projectile despawns or is picked up."
     },
     {
       "type": "patchouli:crafting",
@@ -73,7 +69,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:lever",
-      "anchor": "lever",
       "text": "A $(item)Lever$() emits redstone power when activated."
     },
     {
@@ -84,9 +79,8 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stone_pressure_plate",
-      "anchor": "pressure_plate",
       "title": "Pressure Plates",
-      "text": "$(li)$(item)Wooden Plates$() can detect all entities, giving out a signal of 15 $(br)$(li)$(item)Stone Plates$() can detect only $(l:creatures/human-player)$(thing)Players$() and $(l:creatures)$(thing)Mobs$(), giving out a signal of 15 $(br)$(li)$(item)Light Weighted Plates$() can detect all entities and the signal strength that it outputs increases as more entities are added $(br)$(li)$(item)Heavy Weighted Plates$() measures groups of 10 entities"
+      "text": "$(li)$(item)Wooden Plates$() can detect all entities, giving out a signal of 15 $(br)$(li)$(item)Stone Plates$() can detect only $(thing)Players$() and $(thing)Mobs$(), giving out a signal of 15 $(br)$(li)$(item)Light Weighted Plates$() can detect all entities and the signal strength that it outputs increases as more entities are added $(br)$(li)$(item)Heavy Weighted Plates$() measures groups of 10 entities"
     },
     {
       "type": "patchouli:crafting",
@@ -97,8 +91,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:tripwire_hook",
-      "anchor": "tripwire",
-      "text": "A $(item)Tripwire Hook$() can be used to detect $(l:creatures)$(thing)Mobs$(), $(thing)Items$(), and other $(thing)Entities$() over a large area. $(br2)To use it you have to place 2 hooks opposite each other on walls and connect them with $(item)Strings$(), now when an entity touches the thread the hooks emit a signal."
+      "text": "A $(item)Tripwire Hook$() can be used to detect $(thing)Mobs$(), $(thing)Items$(), and other $(thing)Entities$() over a large area. $(br2)To use it you have to place 2 hooks opposite each other on walls and connect them with $(item)Strings$(), now when an entity touches the thread the hooks emit a signal."
     },
     {
       "type": "patchouli:crafting",
@@ -108,7 +101,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:observer",
-      "anchor": "observer",
       "text": "A $(item)Observer$() detects changes in its target's block states, or the breaking or placing of a block (i.e. changes in its block state). $(br2)This means that changes like the age of $(item)Crops$() can be detected because they are part of the block states."
     },
     {
@@ -129,8 +121,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:piston",
-      "anchor": "piston",
-      "text": "A $(item)Piston$() is capable of pushing blocks, $(l:creatures/human-player)$(thing)Players$(), and $(l:creatures)$(thing)Mobs$() when given a redstone pulse. $(br2)A $(item)Sticky Piston$() has the same function as a $(item)Piston$() but can also pull the block on its face back when it retracts, unlike the regular one, which leaves the pushed block in place."
+      "text": "A $(item)Piston$() is capable of pushing blocks, $(thing)Players$(), and $(thing)Mobs$() when given a redstone pulse. $(br2)A $(item)Sticky Piston$() has the same function as a $(item)Piston$() but can also pull the block on its face back when it retracts, unlike the regular one, which leaves the pushed block in place."
     },
     {
       "type": "patchouli:crafting",
@@ -141,8 +132,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dispenser",
-      "anchor": "dispenser",
-      "text": "A $(item)Dispenser$() is a block used as a redstone component to dispense items. $(br2)Most items are just thrown out, but a few behave differently (eg. $(item)Armor$() equips on a $(l:creatures/human-player)$(thing)Player$() of $(l:creatures)$(thing)Mob$(), projectiles are fired out, $(item)Buckets$() or some tools are used, ...)"
+      "text": "A $(item)Dispenser$() is a block used as a redstone component to dispense items. $(br2)Most items are just thrown out, but a few behave differently (eg. $(item)Armor$() equips on a $(thing)Player$() of $(thing)Mob$(), projectiles are fired out, $(item)Buckets$() or some tools are used, ...)"
     },
     {
       "type": "patchouli:crafting",
@@ -152,7 +142,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dropper",
-      "anchor": "dropper",
       "text": "A $(item)Dropper$() is a block that can be used to drop items or to push items into another container."
     },
     {
@@ -163,7 +152,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:note_block",
-      "anchor": "noteblock",
       "text": "A $(item)Note Block$() is a musical block that emits sounds when used or powered with redstone. $(br)$(li)The sound type depends on the block below $(br) $(li)Pressing use on the block increases the note pitch up a semitone."
     },
     {
@@ -175,19 +163,17 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:hopper",
-      "anchor": "hopper",
       "text": "While a $(item)Hopper$() is not powered by redstone signals, it operates with three functions: $(br)$(li)Collect item entities (free-floating items in the world) into its inventory from above it $(br)$(li)Pull a single item into its inventory from a container above it $(br)$(li)Push a single item from its own inventory into a container it faces"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:hopper",
       "title": " ",
-      "text": "You can control the direction while aiming at the surface to which its output should face. $(br2)To place a $(item)Hopper$() directly on the face of an already interactable block, the $(l:creatures/human-player)$(thing)Player$() can sneak while placing the $(item)Hopper$()."
+      "text": "You can control the direction while aiming at the surface to which its output should face. $(br2)To place a $(item)Hopper$() directly on the face of an already interactable block, the $(thing)Player$() can sneak while placing the $(item)Hopper$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:oak_door",
-      "anchor": "door",
       "title": "Doors & Gates",
       "text": "$(item)Doors$() or $(item)Gates$() are blocks that can be used as a barrier that can be opened by hand or with redstone. $(br2)But $(item)Iron Doors$() can only be opened with redstone."
     },
@@ -212,7 +198,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_lamp",
-      "anchor": "lamp",
       "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal"
     },
     {
@@ -223,7 +208,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:trapped_chest",
-      "text": "A $(item)Trapped Chest$() functions as a normal $(l:useables/chest)$(item)Chest$() for item storage, but it produces redstone power when opened. $(br2)It can be visually distinguished from normal $(l:useables/chest)$(item)Chests$() by a red coloration around the latch."
+      "text": "A $(item)Trapped Chest$() functions as a normal $(item)Chest$() for item storage, but it produces redstone power when opened. $(br2)It can be visually distinguished from normal $(item)Chests$() by a red coloration around the latch."
     },
     {
       "type": "patchouli:crafting",
@@ -252,19 +237,8 @@
     },
     {
       "type": "patchouli:spotlight",
-      "item": "minecraft:sculk_sensor",
-      "text": "The $(item)Sculk Sensor$() is a block that detects vibrations caused by actions and events, and emits a redstone signal. $(br2)These sensors can also be used to realize wireless redstone mechanics."
-    },
-    {
-      "type": "patchouli:text",
-      "title": " ",
-      "text": "$(item)Sculk Sensors$() generate within the $(thing)Deep Dark$() biome and $(l:world/structures#ancient_city)$(thing)Ancient Cities$()."
-    },
-    {
-      "type": "patchouli:spotlight",
       "item": "minecraft:command_block",
-      "anchor": "command_block",
-      "text": "A $(item)Command Block$() is a block that can execute $(l:commands)$(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
+      "text": "A $(item)Command Block$() is a block that can execute $(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
     },
     {
       "type": "patchouli:spotlight",
@@ -275,7 +249,6 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:structure_block",
-      "anchor": "structure_block",
       "text": "A $(item)Structure Block$() is used to generate structures manually. $(br2)They can also be used to save and load structures, alongside $(item)Structure Void$() blocks."
     },
     {

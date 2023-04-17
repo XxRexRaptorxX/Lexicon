@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The first important thing on your way to the $(l:world/dimensions#end)$(thing)End$() are $(item)Eyes of Ender$(). $(br2)You can craft them with $(item)Ender Pearls$() which you get from $(l:creatures/monster-enderman)$(thing)Endermen$() or from bartering in the $(l:world/dimensions#nether)$(thing)Nether$() and $(item)Blaze Dust$() which you also get in the $(l:world/dimensions#nether)$(thing)Nether$() from $(l:creatures/monster-blaze)$(thing)Blazes$()."
+      "text": "The first important thing on your way to the $(thing)End$() are $(item)Eyes of Ender$(). $(br2)You can craft them with $(item)Ender Pearls$() which you get from $(thing)Endermen$() or from bartering in the $(thing)Nether$() and $(item)Blaze Dust$() which you also get in the $(thing)Nether$() from $(thing)Blazes$()."
     },
     {
       "type": "patchouli:crafting",
@@ -16,7 +16,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "The next step is to find a $(l:world/structures#stronghold)$(thing)Stronghold$(). $(br2)You can find one by throwing $(item)Eyes of Ender$() in the air, they will fly straight in the direction of the $(l:world/structures#stronghold)$(thing)Stronghold$(). $(br)If they stop and burst in mid-air, it's underneath."
+      "text": "The next step is to find a $(thing)Stronghold$(). $(br2)You can find one by throwing $(item)Eyes of Ender$() in the air, they will fly straight in the direction of the $(thing)Stronghold$(). $(br)If they stop and burst in mid-air, it's underneath."
     },
     {
       "type": "patchouli:image",
@@ -28,7 +28,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Before you go through the portal, make sure you have everything with you, once you go through you can't go back until you defeat the $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() (the endboss of Minecraft) or die."
+      "text": "Before you go through the portal, make sure you have everything with you, once you go through you can't go back until you defeat the $(thing)Ender Dragon$() (the endboss of Minecraft) or die."
     }
   ]
 }

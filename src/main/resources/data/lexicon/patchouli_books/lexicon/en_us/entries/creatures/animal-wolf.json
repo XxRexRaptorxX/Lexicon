@@ -5,25 +5,13 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() wild 8, tamed 20 $(br)> $(n)Attack Damage:$() 3 on easy, 4 on normal, 6 on hard $(br)> $(n)Behavior:$() Neutral  $(br)> $(n)Spawn:$() Taigas, Grove, Forest$(br)> $(n)Taming:$() Bones   $(br)> $(n)Breeding:$() Meat    $(br)> $(n)Properties:$() $(br)Hunts $(l:creatures/undead-skeleton)$(thing)Skeletons$(), $(l:creatures/animal-sheep)$(thing)Sheeps$(), $(l:creatures/animal-rabbit)$(thing)Rabbits$(), $(l:creatures/animal-fox)$(thing)Foxes$() and $(l:creatures/aquatic_animal-turtle)$(thing)Baby Turtles$()."
+      "text": "> $(n)Health:$() wild 8, tamed 20 $(br)> $(n)Attack Damage:$() 3 on easy, 4 on normal, 6 on hard $(br)> $(n)Behavior:$() Neutral  $(br)> $(n)Spawn:$() Taigas, Grove, Forest$(br)> $(n)Taming:$() Bones   $(br)> $(n)Breeding:$() Meat    $(br)> $(n)Properties:$() $(br)Hunts $(thing)Skeletons$(), $(thing)Sheeps$(), $(thing)Rabbits$(), $(thing)Foxes$() and $(thing)Baby Turtles$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf",
       "scale": "0.5",
       "text": "$(n)Drops:$() -  $(n)XP:$() 1-3"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:wolf{Sitting:1}",
-      "scale": "0.5",
-      "name": "Sitting Wolf"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:wolf{CollarColor:5}",
-      "scale": "0.5",
-      "name": "Aggressive Wolf"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "name": "Наковальня",
+  "icon": "minecraft:anvil",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:anvil",
+      "text": "$(item)Anvil$() — это блок, который позволяет $(thing)Players$() ремонтировать предметы, переименовывать предметы и комбинировать чары. $(br2)Наковальня $(item)$() ломается после нескольких использований."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Стол зачаровывания",
+  "icon": "minecraft:enchanting_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:enchanting_table",
+      "text": "Таблица $(item)Enchanting Table$() — это блок, который позволяет $(thing)Players$() тратить свои уровни XP на зачарование инструментов, оружия, книг, доспехов и некоторых других предметов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table",
+      "title": " "
+    }
+  ]
+}

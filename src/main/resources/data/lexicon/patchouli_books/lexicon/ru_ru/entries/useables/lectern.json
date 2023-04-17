@@ -1,0 +1,17 @@
+{
+  "name": "Кафедра",
+  "icon": "minecraft:lectern",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lectern",
+      "text": "$(item)Lectern$() — это блок $(thing)Librarian's$(), который можно найти в деревнях. $(br2)Он используется для хранения книг для нескольких $(thing)Players$() для чтения в мультиплеере."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lectern",
+      "title": " "
+    }
+  ]
+}

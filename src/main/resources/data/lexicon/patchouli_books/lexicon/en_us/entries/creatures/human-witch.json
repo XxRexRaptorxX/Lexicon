@@ -1,17 +1,17 @@
 {
-  "name": "Humanoid - Witch",
+  "name": "Human - Witch",
   "icon": "minecraft:witch_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 26  $(br)> $(n)Attack Damage:$() 6, Poison $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld at light level 0, $(l:world/structures#hut)Witch Huts$(), Raids, when a $(l:creature/human-villager)$(thing)Villager$() is striked by a lightning bolt $(br)> $(n)Properties:$() $(br)$(thing)Witches$() are 85% resistant to some magical damage sources. $(br)They can trow $(l:brewing/potion_types#splash_potion)$(item)Splash Potions$() to to negatively enchant the opponent. $(br)They can heal themself."
+      "text": "> $(n)Health:$() 26  $(br)> $(n)Attack Damage:$() 6, Poison $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld at light level 0, Witch Huts, Raids, when a Villager is striked by a lightning bolt $(br)> $(n)Properties:$() $(br)"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:witch",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 12.5% chance for Glass Bottles / Glowstone Dust / Gunpowder / Redstone / Spider Eyes / Sugar, 25% chance for Sticks, 8.5% chance for it's $(l:brewing/potion_types#potion)Potion$() if killed when drinking"
+      "text": "$(n)Drops:$() 12.5% chance for Glass Bottles / Glowstone Dust / Gunpowder / Redstone / Spider Eyes / Sugar, 25% chance for Sticks, 8.5% chance for it's Potion if killed when drinking"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "name": "Ткацкий станок",
+  "icon": "minecraft:loom",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:loom",
+      "text": "$(item)Loom$() используется для применения шаблонов к $(item)баннерам$(). $(br2)Он также используется как блок сайта работы $(thing)Shepherd's$(), который можно найти в $(thing)Villages$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:loom",
+      "title": " "
+    }
+  ]
+}

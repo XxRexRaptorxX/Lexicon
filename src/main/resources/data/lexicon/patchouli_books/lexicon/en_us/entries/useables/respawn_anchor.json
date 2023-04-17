@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:respawn_anchor",
-      "text": "The $(item)Respawn Anchor$() is a block that allows $(l:creatures/human-player)$(thing)Players$() to set their spawn point in the $(l:world/dimensions#nether)$(thing)Nether$(). $(br2)The anchor must be charged with $(item)Glowstone$()."
+      "text": "The $(item)Respawn Anchor$() is a block that allows $(thing)Players$() to set their spawn point in the $(thing)Nether$(). $(br2)The anchor must be charged with $(item)Glowstone$()."
     },
     {
       "type": "patchouli:crafting",

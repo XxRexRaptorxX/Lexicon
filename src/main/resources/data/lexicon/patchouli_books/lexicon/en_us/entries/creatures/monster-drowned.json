@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20 + 2 Armor $(br)> $(n)Attack Damage:$() $(br)melee: 2-6 on easy, 3-11 on normal, 4.5-16 on hard, $(br)ranged: 8   $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Rivers, Oceans, Dripstone Caves at light level 0 $(br)> $(n)Properties:$() $(br)$(thing)Drowned$() live often in $(l:world/structures#monument)$(thing)Ocean Monuments$()."
+      "text": "> $(n)Health:$() 20 + 2 Armor $(br)> $(n)Attack Damage:$() $(br)melee: 2-6 on easy, 3-11 on normal, 4.5-16 on hard, $(br)ranged: 8   $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Rivers, Oceans, Dripstone Caves at light level 0 $(br)> $(n)Properties:$() $(br)$(thing)Drowned$() live often in $(thing)Ocean Monuments$()."
     },
     {
       "type": "patchouli:entity",

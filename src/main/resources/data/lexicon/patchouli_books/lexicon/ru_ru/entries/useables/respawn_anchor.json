@@ -1,0 +1,18 @@
+{
+  "name": "Якорь возрождения",
+  "icon": "minecraft:respawn_anchor",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:respawn_anchor",
+      "text": "$(item)Respawn Anchor$() — это блок, который позволяет $(thing)Players$() устанавливать свою точку появления в $(thing)Nether$(). $(br2)Якорь должен быть заряжен $(item)Glowstone$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crying_obsidian",
+      "recipe2": "minecraft:respawn_anchor",
+      "title": " "
+    }
+  ]
+}

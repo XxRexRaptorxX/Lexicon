@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 12     $(br)> $(n)Attack Damage:$() 2 + 6 Poison, 3 + 12 Poison on hard $(br)> $(n)Behavior:$() Hostile in light levels < 8, Neutral in light levels > 7 $(br)> $(n)Spawn:$() $(l:world/structures#mineshaft)$(thing)Mineshafts$() $(br)> $(n)Properties:$() $(br)Can climb walls. $(l:brewing/effects#poison)$(thing)Poison$() the enemy on hit."
+      "text": "> $(n)Health:$() 12     $(br)> $(n)Attack Damage:$() 2 + 6 Poison, 3 + 12 Poison on hard $(br)> $(n)Behavior:$() Hostile in light levels < 8, Neutral in light levels > 7 $(br)> $(n)Spawn:$() Mineshafts $(br)> $(n)Properties:$() $(br)Can climb walls."
     },
     {
       "type": "patchouli:entity",

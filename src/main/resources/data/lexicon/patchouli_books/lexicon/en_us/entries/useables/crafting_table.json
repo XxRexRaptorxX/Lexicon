@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:crafting_table",
-      "text": "A $(item)Crafting Table$() is a utility block that allows the $(l:creatures/human-player)$(thing)Player$() to craft a variety of blocks and items. $(br2)It offers a 3x3 crafting grid."
+      "text": "A $(item)Crafting Table$() is a utility block that allows the $(thing)Player$() to craft a variety of blocks and items. $(br2)It offers a 3x3 crafting grid."
     },
     {
       "type": "patchouli:crafting",

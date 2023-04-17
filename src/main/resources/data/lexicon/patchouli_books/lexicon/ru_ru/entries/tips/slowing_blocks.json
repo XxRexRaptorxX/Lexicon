@@ -1,0 +1,18 @@
+{
+  "name": "Блоки замедления",
+  "icon": "minecraft:soul_sand",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Soul Sand$() обычно замедляет движение мобов и $(thing)Players$(), идущих по нему. $(br2)Этот эффект замедления можно усилить, поместив $(item)Песок души$() непосредственно на любую $(item)Ледяную глыбу$() или $(item)Слизневую глыбу$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slow_walking.png"
+      ],
+      "border": true
+    }
+  ]
+}
