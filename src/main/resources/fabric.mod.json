@@ -19,6 +19,13 @@
 			"xxrexraptorxx.lexicon.Lexicon"
 		]
 	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/ycRJJk8EXV"
+			}
+		}
+	},
 
 	"depends": {
 		"fabricloader": ">=0.14.19",
