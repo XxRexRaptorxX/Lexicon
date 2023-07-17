@@ -178,17 +178,17 @@ dependencies {
 }
 
 // MixinGradle Settings
-mixin {
-    // Refmaps for each SourceSet
-    add sourceSets.main, "mixins.${mod_id}.refmap.json"
-
-    // Configs to add to runs and jars
-    config "mixins.${mod_id}.json"
-
-    // Specify options for dev run configs
-    debug.verbose = true
-    debug.export = true
-}
+//mixin {
+//    // Refmaps for each SourceSet
+//    add sourceSets.main, "mixins.${mod_id}.refmap.json"
+//
+//    // Configs to add to runs and jars
+//    config "mixins.${mod_id}.json"
+//
+//    // Specify options for dev run configs
+//    debug.verbose = true
+//    debug.export = true
+//}
 
 // This block of code expands all declared replace properties in the specified resource targets.
 // A missing property will result in an error. Properties are expanded using ${} Groovy notation.
