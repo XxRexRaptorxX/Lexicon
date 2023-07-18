@@ -262,6 +262,16 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "minecraft:calibrated_sculk_sensor",
+      "text": "Similarly to its counterpart it detects vibrations, but with twice the range, and can detect multiple vibrations in quicker succession. $(br2)It outputs a signal on all sides except for its input, which can receive power to make the sensor only listen to specific vibrations, depending on the input signal strength."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:calibrated_sculk_sensor",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "minecraft:command_block",
       "anchor": "command_block",
       "text": "A $(item)Command Block$() is a block that can execute $(l:commands)$(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
