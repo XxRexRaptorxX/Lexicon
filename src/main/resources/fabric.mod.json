@@ -32,7 +32,7 @@
 		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*",
-		"patchouli": ">=1.20"
+		"patchouli": ">=1.20-80"
 	},
 	"suggests": {
 		"another-mod": "*"
