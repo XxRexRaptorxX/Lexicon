@@ -1,0 +1,17 @@
+{
+  "name": "Lectern",
+  "icon": "minecraft:chiseled_bookshelf",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chiseled_bookshelf",
+      "text": "$(item)Chiseled Bookshelves$() can hold up to six $(item)Books$(), $(item)Books and Quills$(), $(item)Written Books$(), $(item)Enchanted Books$(), and/or other types of books."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_bookshelf",
+      "title": " "
+    }
+  ]
+}

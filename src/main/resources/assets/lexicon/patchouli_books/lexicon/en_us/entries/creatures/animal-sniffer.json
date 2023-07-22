@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Sniffer",
+  "icon": "minecraft:sniffer_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 14     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:rare/sniffer_egg)$(item)Sniffer Eggs$() $(br)> $(n)Breeding:$() Torchflower seeds $(br)> $(n)Properties:$() $(br)It sniffs out and digs seeds for various unique decorative plants out of $(item)Dirt$(), $(item)Grass$(), $(item)Mud$() and $(item)Moss blocks$(). A baby sniffer is called a $(thing)Snifflet$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sniffer",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -  $(n)XP:$() 1-3"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:creeper_head",
-      "text": "$(thing)Skeleton$(), $(thing)Wither Skeleton$(), $(thing)Zombie$(), and $(thing)Creeper$() $(item)-Heads$() are also always dropped by the respective mob if it dies due to a $(l:creatures/monster-creeper)$(thing)Charged Creeper's$() explosion. $(br2)Wearing the corresponding mob head reduces the detection range to 50% of the normal range."
+      "text": "$(l:creatures/undead-skeleton)$(thing)Skeleton$(), $(l:creatures/undead-wither_skeleton)$(thing)Wither Skeleton$(), $(l:creatures/undead-zombie)$(thing)Zombie$(), $(l:creatures/monster-piglin)$(thing)Piglins$() and $(l:creatures/monster-creeper)$(thing)Creeper$() $(item)-Heads$() are also always dropped by the respective mob if it dies due to a $(l:creatures/monster-creeper)$(thing)Charged Creeper's$() explosion. $(br2)Wearing the corresponding mob head reduces the detection range to 50% of the normal range."
     },
     {
       "type": "patchouli:spotlight",

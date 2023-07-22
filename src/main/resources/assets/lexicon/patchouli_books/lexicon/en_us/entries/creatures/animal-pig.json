@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on grass $(br)> $(n)Breeding:$() Carrots, Potatoes, Beetroots $(br)> $(n)Properties:$() $(br)It is possible to ride a pig by using a $(item)Saddle$() on it. Saddled pigs are controllable with a $(item)Carrot on a Stick$()."
+      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on grass $(br)> $(n)Breeding:$() Carrots, Potatoes, Beetroots $(br)> $(n)Properties:$() $(br)It is possible to ride a $(thing)Pig$() by using a $(item)Saddle$() on it. Saddled pigs are controllable with a $(item)Carrot on a Stick$()."
     },
     {
       "type": "patchouli:entity",

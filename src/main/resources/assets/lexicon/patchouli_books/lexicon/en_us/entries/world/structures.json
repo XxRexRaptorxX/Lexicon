@@ -131,6 +131,16 @@
     {
       "type": "patchouli:image",
       "images": [
+        "lexicon:textures/pictures/trail_ruin.png"
+      ],
+      "border": true,
+      "title": "Trail Ruin",
+      "text": "$(n)Locations:$() Jungle, (Snowy-)Taigas, 'Old Growth'-Biomes $(br)$(n)Rarity:$() Uncommon",
+      "anchor": "trail_ruin"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
         "lexicon:textures/pictures/shipwreck.png"
       ],
       "border": false,
@@ -145,7 +155,7 @@
       ],
       "border": false,
       "title": "Ocean Monument",
-      "text": "$(n)Locations:$() All Oceans $(br)$(n)Rarity:$() Rare",
+      "text": "$(n)Locations:$() Ocean $(br)$(n)Rarity:$() Rare",
       "anchor": "monument"
     },
     {
@@ -247,7 +257,6 @@
       "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare",
       "anchor": "ancient_city"
     }
-
 
   ]
 }
