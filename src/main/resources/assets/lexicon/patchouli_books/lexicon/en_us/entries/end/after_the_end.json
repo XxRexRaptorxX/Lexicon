@@ -19,7 +19,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Collect rare endgame items $(br)$(li)Explore your world in all dimensions $(br)$(li)Get all Advancements $(br)$(li)Kill the other bosses like the $(l:creatures/boss-wither)$(thing)Wither$() $(br)$(li)Build massive bases and structures $(br)$(li)Install and play with $(l:modifications/mods)$(thing)Mods$() $(br)$(li)And much more!"
+      "text": "$(li)Collect $(l:rare)$(item)rare endgame items$() $(br)$(li)Explore your world in all $(l:world/dimensions)$(thing)Dimensions$() $(br)$(li)Get all Advancements $(br)$(li)Kill the other bosses like the $(l:creatures/boss-wither)$(thing)Wither$() $(br)$(li)Build massive bases and structures $(br)$(li)Install and play with $(l:modifications/mods)$(thing)Mods$() $(br)$(li)And much more!"
     }
   ]
 }
