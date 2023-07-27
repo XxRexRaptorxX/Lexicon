@@ -21,7 +21,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)$(l)Pumpkin$() = Didgeridoo $(li)$(l)Emerald Block$() = Bit $(li)$(l)Hay Bale$() = Banjo $(li)$(l)Glowstone$() = Pling $(li)$(l)all other$() = Harp / piano"
+      "text": "$(li)$(l)Pumpkin$() = Didgeridoo $(li)$(l)Emerald Block$() = Bit $(li)$(l)Hay Bale$() = Banjo $(li)$(l)Glowstone$() = Pling $(li)$(l)all other$() = Harp / piano $(br2)Placing a $(l:rare/mob_head)$(item)Head$() $(n)above$() a note block causes the block to play the corresponding mob's sound when activated."
     }
   ]
 }
