@@ -21,7 +21,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:player_head",
-      "text": "$(item)Player Heads$() have an extra usage for map makers, they can be given NBT data so that they appear with the skin of any Minecraft account. But they cannot be reached in survival by default."
+      "text": "$(item)Player Heads$() have an extra usage for map makers, they can be given $(l:commands/nbt-data)$(thing)NBT Data$() so that they appear with the skin of any Minecraft account. But they cannot be reached in survival by default. $(br2)To get this heads, use this $(l:commands)$(thing)Command$(): $(n)/give @p minecraft:player_head{SkullOwner:$(o)ACCOUNT_NAME$()$(n)}$()"
     }
   ]
 }

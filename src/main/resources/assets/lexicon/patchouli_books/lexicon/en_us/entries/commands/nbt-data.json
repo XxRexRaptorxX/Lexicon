@@ -1,0 +1,12 @@
+{
+  "name": "NBT Data",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:commands",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The syntax shows you which arguments are possible for the individual keywords of the commands. $(br2)You can see the syntax in the $(l)/help$() command or on sites like the $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
+    }
+  ]
+}
