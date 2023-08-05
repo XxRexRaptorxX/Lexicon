@@ -2,7 +2,7 @@
   "name": "Tutorials",
   "icon": "minecraft:chain_command_block",
   "category": "lexicon:commands",
-  "sortnum": 4,
+  "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",

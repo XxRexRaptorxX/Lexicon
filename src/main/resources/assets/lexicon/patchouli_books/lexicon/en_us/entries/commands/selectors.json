@@ -15,7 +15,7 @@
     {
       "type": "patchouli:text",
       "title": "Selector Arguments",
-      "text": "After a target selector, optional arguments can be used to narrow down the set of targets to a group that also matches certain criteria. $(br)$(li)$(l)!$() = inverts the argument $(li)Arguments can also be stacked $(br2)$(l)/gamemode creative @a[distance=5] $(br2)$(l)/gamemode creative @a[!distance=10,level=13]"
+      "text": "After a target selector, optional arguments can be used to narrow down the set of targets to a group that also matches certain criteria. $(br)$(li)$(l)!$() = inverts the argument $(li)Arguments can also be stacked $(br2)$(o)/gamemode creative @a[!distance=5] $(br2)$(o)/gamemode creative @a[distance=10,level=13]"
     },
     {
       "type": "patchouli:text",

@@ -1,0 +1,221 @@
+{
+  "name": "Special Recipes",
+  "icon": "minecraft:smoker",
+  "category": "lexicon:crafting",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_sign",
+      "recipe2": "minecraft:acacia_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_sign",
+      "recipe2": "minecraft:bamboo_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_sign",
+      "recipe2": "minecraft:birch_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_sign",
+      "recipe2": "minecraft:cherry_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_sign",
+      "recipe2": "minecraft:crimson_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_sign",
+      "recipe2": "minecraft:dark_oak_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_sign",
+      "recipe2": "minecraft:jungle_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_sign",
+      "recipe2": "minecraft:mangrove_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_sign",
+      "recipe2": "minecraft:oak_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_sign",
+      "recipe2": "minecraft:spruce_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_sign",
+      "recipe2": "minecraft:warped_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "recipe2": "minecraft:armor_stand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:barrel",
+      "recipe2": "minecraft:beacon"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beehive"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_bed",
+      "recipe2": "minecraft:blue_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_bed",
+      "recipe2": "minecraft:cyan_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_bed",
+      "recipe2": "minecraft:green_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_bed",
+      "recipe2": "minecraft:light_gray_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_bed",
+      "recipe2": "minecraft:magenta_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_bed",
+      "recipe2": "minecraft:pink_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_bed",
+      "recipe2": "minecraft:red_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_bed",
+      "recipe2": "minecraft:yellow_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_black_bed",
+      "recipe2": "minecraft:dye_blue_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_bed",
+      "recipe2": "minecraft:dye_cyan_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_gray_bed",
+      "recipe2": "minecraft:dye_green_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_bed",
+      "recipe2": "minecraft:dye_light_gray_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_bed",
+      "recipe2": "minecraft:dye_magenta_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_orange_bed",
+      "recipe2": "minecraft:dye_pink_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_purple_bed",
+      "recipe2": "minecraft:dye_red_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_bed",
+      "recipe2": "minecraft:dye_yellow_bed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace",
+      "recipe2": "minecraft:blast_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smoker",
+      "recipe2": "minecraft:brewing_stand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:campfire",
+      "recipe2": "minecraft:soul_campfire"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cartography_table",
+      "recipe2": "minecraft:crafting_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:enchanting_table",
+      "recipe2": "minecraft:fletching_table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smithing_table",
+      "recipe2": "minecraft:loom"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "recipe2": "minecraft:ender_chest"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cauldron",
+      "recipe2": "minecraft:chiseled_bookshelf"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:composter",
+      "recipe2": "minecraft:grindstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:item_frame",
+      "recipe2": "minecraft:glow_item_frame"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lectern",
+      "recipe2": "minecraft:lodestone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:respawn_anchor",
+      "recipe2": "minecraft:scaffolding"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "recipe2": "minecraft:stonecutter"
+    }
+  ]
+}

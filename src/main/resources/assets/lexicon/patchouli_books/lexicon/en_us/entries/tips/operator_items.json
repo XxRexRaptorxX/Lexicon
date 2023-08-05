@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "In the operator utilities you will find functional items and blocks that are primarily intended for server owners, creators, map makers or experienced users. $(br2)They are only accessible via the $(l)/give$() command or in the creative inventory by activating it at $(n)$(o)options/controls/operator item tab$()."
+      "text": "In the operator utilities you will find functional items and blocks that are primarily intended for server owners, creators, map makers or experienced users. $(br2)They are only accessible via the $(l)/give$() $(l:commands)$(thing)Command$() or in the creative inventory by activating it at $(n)$(o)options/controls/operator item tab$()."
     },
     {
       "type": "patchouli:image",

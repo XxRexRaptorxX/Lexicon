@@ -1,0 +1,826 @@
+{
+  "name": "Other Recipes",
+  "icon": "minecraft:sea_lantern",
+  "category": "lexicon:crafting",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_boat",
+      "recipe2": "minecraft:acacia_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_boat",
+      "recipe2": "minecraft:birch_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_boat",
+      "recipe2": "minecraft:cherry_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_boat",
+      "recipe2": "minecraft:dark_oak_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_boat",
+      "recipe2": "minecraft:jungle_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_boat",
+      "recipe2": "minecraft:mangrove_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_boat",
+      "recipe2": "minecraft:oak_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_boat",
+      "recipe2": "minecraft:spruce_chest_boat"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_raft",
+      "recipe2": "minecraft:bamboo_chest_raft"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_fence",
+      "recipe2": "minecraft:bamboo_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_fence",
+      "recipe2": "minecraft:cherry_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_fence",
+      "recipe2": "minecraft:dark_oak_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_fence",
+      "recipe2": "minecraft:mangrove_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:nether_brick_fence",
+      "recipe2": "minecraft:oak_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_fence",
+      "recipe2": "minecraft:warped_fence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_copper_slab",
+      "recipe2": "minecraft:waxed_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:exposed_cut_copper_slab",
+      "recipe2": "minecraft:waxed_exposed_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oxidized_cut_copper_slab",
+      "recipe2": "minecraft:waxed_oxidized_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:weathered_cut_copper_slab",
+      "recipe2": "minecraft:waxed_weathered_cut_copper_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_cut_copper_slab_from_honeycomb",
+      "recipe2": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb",
+      "recipe2": "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_copper_stairs",
+      "recipe2": "minecraft:waxed_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:exposed_cut_copper_stairs",
+      "recipe2": "minecraft:waxed_exposed_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oxidized_cut_copper_stairs",
+      "recipe2": "minecraft:waxed_oxidized_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:weathered_cut_copper_stairs",
+      "recipe2": "minecraft:waxed_weathered_cut_copper_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_cut_copper_stairs_from_honeycomb",
+      "recipe2": "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb",
+      "recipe2": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_banner",
+      "recipe2": "minecraft:blue_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_banner",
+      "recipe2": "minecraft:cyan_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_banner",
+      "recipe2": "minecraft:green_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_banner",
+      "recipe2": "minecraft:light_gray_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_banner",
+      "recipe2": "minecraft:magenta_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_banner",
+      "recipe2": "minecraft:pink_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_banner",
+      "recipe2": "minecraft:red_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_banner",
+      "recipe2": "minecraft:yellow_banner"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:creeper_banner_pattern",
+      "recipe2": "minecraft:flower_banner_pattern"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mojang_banner_pattern",
+      "recipe2": "minecraft:skull_banner_pattern"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_candle",
+      "recipe2": "minecraft:blue_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_candle",
+      "recipe2": "minecraft:cyan_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_candle",
+      "recipe2": "minecraft:green_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_candle",
+      "recipe2": "minecraft:light_gray_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_candle",
+      "recipe2": "minecraft:magenta_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_candle",
+      "recipe2": "minecraft:pink_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_candle",
+      "recipe2": "minecraft:red_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_candle",
+      "recipe2": "minecraft:yellow_candle"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_black_wool",
+      "recipe2": "minecraft:dye_blue_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_wool",
+      "recipe2": "minecraft:dye_cyan_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_gray_wool",
+      "recipe2": "minecraft:dye_green_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_wool",
+      "recipe2": "minecraft:dye_light_gray_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_wool",
+      "recipe2": "minecraft:dye_magenta_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_orange_wool",
+      "recipe2": "minecraft:dye_pink_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_purple_wool",
+      "recipe2": "minecraft:dye_red_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_wool",
+      "recipe2": "minecraft:dye_yellow_wool"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_wool_from_string",
+      "recipe2": "minecraft:moss_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_carpet",
+      "recipe2": "minecraft:blue_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_carpet",
+      "recipe2": "minecraft:cyan_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_carpet",
+      "recipe2": "minecraft:green_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_carpet",
+      "recipe2": "minecraft:light_gray_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_carpet",
+      "recipe2": "minecraft:magenta_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_carpet",
+      "recipe2": "minecraft:pink_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_carpet",
+      "recipe2": "minecraft:red_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_carpet",
+      "recipe2": "minecraft:yellow_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_black_carpet",
+      "recipe2": "minecraft:dye_blue_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_brown_carpet",
+      "recipe2": "minecraft:dye_cyan_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_gray_carpet",
+      "recipe2": "minecraft:dye_green_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_light_blue_carpet",
+      "recipe2": "minecraft:dye_light_gray_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_lime_carpet",
+      "recipe2": "minecraft:dye_magenta_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_orange_carpet",
+      "recipe2": "minecraft:dye_pink_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_purple_carpet",
+      "recipe2": "minecraft:dye_red_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dye_white_carpet",
+      "recipe2": "minecraft:dye_yellow_carpet"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_dye",
+      "recipe2": "minecraft:black_dye_from_wither_rose"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_dye",
+      "recipe2": "minecraft:blue_dye_from_cornflower"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_dye",
+      "recipe2": "minecraft:cyan_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cyan_dye_from_pitcher_plant",
+      "recipe2": "minecraft:gray_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_dye_from_blue_orchid",
+      "recipe2": "minecraft:light_blue_dye_from_blue_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_azure_bluet",
+      "recipe2": "minecraft:light_gray_dye_from_black_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_gray_white_dye",
+      "recipe2": "minecraft:light_gray_dye_from_oxeye_daisy"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_gray_dye_from_white_tulip",
+      "recipe2": "minecraft:lime_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_allium",
+      "recipe2": "minecraft:magenta_dye_from_blue_red_pink"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_blue_red_white_dye",
+      "recipe2": "minecraft:magenta_dye_from_lilac"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magenta_dye_from_purple_and_pink",
+      "recipe2": "minecraft:orange_dye_from_orange_tulip"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_dye_from_red_yellow",
+      "recipe2": "minecraft:orange_dye_from_torchflower"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_peony",
+      "recipe2": "minecraft:pink_dye_from_pink_petals"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:pink_dye_from_pink_tulip",
+      "recipe2": "minecraft:pink_dye_from_red_white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_dye",
+      "recipe2": "minecraft:red_dye_from_beetroot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_poppy",
+      "recipe2": "minecraft:red_dye_from_rose_bush"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_dye_from_tulip",
+      "recipe2": "minecraft:white_dye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_dye_from_lily_of_the_valley",
+      "recipe2": "minecraft:yellow_dye_from_dandelion"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:yellow_dye_from_sunflower"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_stained_glass",
+      "recipe2": "minecraft:blue_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_stained_glass",
+      "recipe2": "minecraft:cyan_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_stained_glass",
+      "recipe2": "minecraft:green_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass",
+      "recipe2": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_stained_glass",
+      "recipe2": "minecraft:magenta_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_stained_glass",
+      "recipe2": "minecraft:pink_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_stained_glass",
+      "recipe2": "minecraft:red_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_stained_glass",
+      "recipe2": "minecraft:yellow_stained_glass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_stained_glass_pane",
+      "recipe2": "minecraft:blue_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_stained_glass_pane",
+      "recipe2": "minecraft:cyan_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_stained_glass_pane",
+      "recipe2": "minecraft:green_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass_pane",
+      "recipe2": "minecraft:light_gray_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_stained_glass_pane",
+      "recipe2": "minecraft:magenta_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_stained_glass_pane",
+      "recipe2": "minecraft:pink_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_stained_glass_pane",
+      "recipe2": "minecraft:red_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_stained_glass_pane",
+      "recipe2": "minecraft:yellow_stained_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:blue_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:cyan_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:green_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:light_gray_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:magenta_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:pink_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:red_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_stained_glass_pane_from_glass_pane",
+      "recipe2": "minecraft:yellow_stained_glass_pane_from_glass_pane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blaze_powder",
+      "recipe2": "minecraft:chain"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blue_ice",
+      "recipe2": "minecraft:packed_ice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bone_meal",
+      "recipe2": "minecraft:bone_meal_from_bone_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bone_block",
+      "recipe2": "minecraft:chain"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:book",
+      "recipe2": "minecraft:bookshelf"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coarse_dirt"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coal",
+      "recipe2": "minecraft:coal_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_ingot_from_iron_block",
+      "recipe2": "minecraft:iron_ingot_from_nuggets"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gold_ingot_from_gold_block",
+      "recipe2": "minecraft:gold_ingot_from_nuggets"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_block",
+      "recipe2": "minecraft:gold_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_ingot",
+      "recipe2": "minecraft:copper_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_copper",
+      "recipe2": "minecraft:exposed_cut_copper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oxidized_cut_copper",
+      "recipe2": "minecraft:weathered_cut_copper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raw_copper",
+      "recipe2": "minecraft:raw_copper_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_ingot_from_waxed_copper_block",
+      "recipe2": "minecraft:waxed_copper_block_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_cut_copper",
+      "recipe2": "minecraft:waxed_cut_copper_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_exposed_cut_copper",
+      "recipe2": "minecraft:waxed_exposed_cut_copper_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_exposed_copper_from_honeycomb",
+      "recipe2": "minecraft:waxed_oxidized_copper_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_oxidized_cut_copper",
+      "recipe2": "minecraft:waxed_oxidized_cut_copper_from_honeycomb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_weathered_copper_from_honeycomb",
+      "recipe2": "minecraft:waxed_weathered_cut_copper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:waxed_weathered_cut_copper_from_honeycomb",
+      "recipe2": "minecraft:decorated_pot_simple"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond",
+      "recipe2": "minecraft:diamond_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gold_block",
+      "recipe2": "minecraft:gold_nugget"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raw_gold",
+      "recipe2": "minecraft:raw_gold_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_block",
+      "recipe2": "minecraft:iron_nugget"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raw_iron",
+      "recipe2": "minecraft:raw_iron_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_bars"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:emerald",
+      "recipe2": "minecraft:emerald_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dried_kelp",
+      "recipe2": "minecraft:dried_kelp_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_crystal",
+      "recipe2": "minecraft:end_rod"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ender_eye",
+      "recipe2": "minecraft:fire_charge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:firework_rocket_simple",
+      "recipe2": "minecraft:flower_pot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_pane",
+      "recipe2": "minecraft:jack_o_lantern"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wheat",
+      "recipe2": "minecraft:hay_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:honey_block",
+      "recipe2": "minecraft:honeycomb_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ladder",
+      "recipe2": "minecraft:lead"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lantern",
+      "recipe2": "minecraft:soul_lantern"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:torch",
+      "recipe2": "minecraft:soul_torch"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lapis_lazuli",
+      "recipe2": "minecraft:lapis_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather",
+      "recipe2": "minecraft:lightning_rod"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magma_cream"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:melon_seeds",
+      "recipe2": "minecraft:pumpkin_seeds"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:muddy_mangrove_roots",
+      "recipe2": "minecraft:music_disc_5"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_block",
+      "recipe2": "minecraft:netherite_ingot_from_netherite_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_ingot",
+      "recipe2": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:painting",
+      "recipe2": "minecraft:paper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sea_lantern",
+      "recipe2": "minecraft:nether_wart_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:slime_ball",
+      "recipe2": "minecraft:slime_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:snow",
+      "recipe2": "minecraft:snow_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stick",
+      "recipe2": "minecraft:stick_from_bamboo_item"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sugar_from_honey_bottle",
+      "recipe2": "minecraft:sugar_from_sugar_cane"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tinted_glass"
+    }
+  ]
+}
