@@ -1,0 +1,22 @@
+{
+  "name": "General",
+  "icon": "minecraft:crafting_table",
+  "category": "lexicon:crafting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crafting is the process of constructing tools, items, and blocks. $(br2)$(l:creatures/human-player)$(thing)Players$() can craft by moving items from their inventory to a crafting grid, arranging them according to a recipe. $(br2)A 2×2 crafting grid can be accessed from the inventory and a 3×3 grid can be accessed by using a $(l:useables/crafting_table)$(item)Crafting Table$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafting_table",
+      "text": "$(br)Items crafted in the 2×2 grid can also be crafted in the 3x3 grid."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:knowledge_book",
+      "text": "The $(item)Recipe Book$() is a mechanic that serves as a catalog of recipes and as a crafting guide. $(br2)It shows every crafting recipe that the $(l:creatures/human-player)$(thing)Players$() has had materials for."
+    }
+  ]
+}

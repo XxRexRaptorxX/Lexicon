@@ -1,0 +1,52 @@
+{
+  "name": "Food Recipes",
+  "icon": "minecraft:cake",
+  "category": "lexicon:crafting",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bowl",
+      "recipe2": "minecraft:beetroot_soup"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mushroom_stew",
+      "recipe2": "minecraft:rabbit_stew_from_brown_mushroom"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:rabbit_stew_from_red_mushroom"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bread",
+      "recipe2": "minecraft:cookie"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cake",
+      "recipe2": "minecraft:pumpkin_pie"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glistering_melon_slice",
+      "recipe2": "minecraft:golden_apple"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_apple",
+      "recipe2": "minecraft:golden_carrot"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wheat",
+      "recipe2": "minecraft:fermented_spider_eye"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:honey_bottle",
+      "recipe2": "minecraft:melon"
+    }
+  ]
+}
