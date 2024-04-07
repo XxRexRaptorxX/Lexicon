@@ -8,7 +8,7 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 itemIcon="minecraft:written_book"
-updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon.json"
+updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon_NEO.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/lexicon"
 logoFile="logo.png"
 credits="The Minecraft Wiki for some graphics and informations"
@@ -17,8 +17,9 @@ description='''This mod adds a lexicon to the game that explains almost every as
 
 
 [[dependencies.${mod_id}]]
-modId="forge"
+modId="neoforge"
 mandatory=true
+type="required"
 versionRange="${forge_version_range}"
 ordering="NONE"
 side="BOTH"
@@ -26,6 +27,7 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="minecraft"
 mandatory=true
+type="required"
 versionRange="${mc_version_range}"
 ordering="NONE"
 side="BOTH"
@@ -33,6 +35,7 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="patchouli"
 mandatory=true
+type="required"
 versionRange="[1.20,)"
 ordering="NONE"
 side="BOTH"
