@@ -83,7 +83,7 @@
     },
     {
       "type": "patchouli:text",
-      "title": "Knockback.",
+      "title": "Knockback",
       "anchor": "knockback",
       "text": "$(n)Effect:$() $(br)Increases knockback.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
     },
@@ -197,6 +197,7 @@
     {
       "type": "patchouli:text",
       "title": "Swift Sneak",
+      "anchor": "swift_sneak",
       "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
     }
 
