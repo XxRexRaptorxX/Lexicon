@@ -556,6 +556,38 @@
       },
       "name":  "Super Smelter",
       "text": "The best way to smelt a lot of ores after a mining session. You have to place $(item)Hopper Minecarts$() on the $(item)Rails$(), they distribute the materials."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " _ ",
+            "_0_",
+            " _ "
+          ],
+          [
+            "#O#",
+            "OSO",
+            "#O#"
+          ],
+          [
+            " + ",
+            "+T+",
+            " + "
+          ]
+        ],
+        "mapping": {
+          "#": "minecraft:cobblestone",
+          "O": "minecraft:obsidian",
+          "T": "minecraft:sticky_piston[facing=up]",
+          "S": "minecraft:slime_block",
+          "_": "minecraft:stone_pressure_plate",
+          "+": "minecraft:redstone_wire[east=side,west=side,south=side,north=side]"
+        }
+      },
+      "name": "Elytra Launcher",
+      "text": "Is used to throw you into the air for an $(item)Elytra$() launch."
     }
   ]
 }
