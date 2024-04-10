@@ -14,7 +14,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "A list of all commands and it's detailed description can be found in the $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
+      "text": "A list of all commands and it's detailed description can be found in the $(l:https://minecraft.wiki/w/Commands)Minecraft Wiki$()."
     }
   ]
 }
