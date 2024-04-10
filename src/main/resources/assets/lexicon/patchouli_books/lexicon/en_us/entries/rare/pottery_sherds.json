@@ -1,0 +1,113 @@
+{
+  "name": "Pottery Sherds",
+  "icon": "minecraft:prize_pottery_sherd",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:skull_pottery_sherd",
+      "text": "A $(item)Pottery Sherd$() is an item used to craft $(l:useables/decorated_pot)$(item)Decorated Pots$() with ornamental designs. $(br2)These sherds are mainly found in $(l:rare/suspicious_sand)$(item)Suspicious Sand$() or $(l:rare/suspicious_sand#gravel)$(item)Suspicious Gravel$() blocks of various $(l:world/structures)$(thing)Structures$() by searching them with a $(item)Brush$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:angler_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruin)$(thing)(Warm Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:archer_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Pyramid$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 12.5%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:arms_up_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#well)$(thing)Desert Well$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 25%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:blade_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruin)$(thing)(Cold Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:brewer_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#well)$(thing)Desert Well$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 25%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:burn_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:danger_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruins)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:explorer_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Cold Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:friend_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heart_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heartbreak_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:howl_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:miner_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Pyramid$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 12.5%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:mourner_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Cold Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:plenty_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Cold Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:prize_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Pyramid$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 12.5%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:sheaf_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$() $(br2)$(n)Chance:$() 8.3%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shelter_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Warm Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:skull_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Pyramid$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 12.5%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:snort_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Warm Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 6.7%"
+    }
+
+  ]
+}
