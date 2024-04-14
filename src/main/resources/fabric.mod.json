@@ -28,11 +28,11 @@
 	},
 
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20",
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*",
-		"patchouli": ">=1.20-80"
+		"patchouli": ">=1.20.4-85"
 	},
 	"suggests": {
 		"another-mod": "*"

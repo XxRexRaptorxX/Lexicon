@@ -1,6 +1,6 @@
 {
   "name": "Operator Items",
-  "icon": "minecraft:debug_stick",
+  "icon": "minecraft:command_block",
   "category": "lexicon:tips_tricks",
   "pages": [
     {

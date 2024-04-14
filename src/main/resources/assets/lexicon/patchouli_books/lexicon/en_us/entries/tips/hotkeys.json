@@ -1,0 +1,30 @@
+{
+  "name": "Hotkeys",
+  "icon": "minecraft:debug_stick",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here is a list of the default hotkeys: $(br2)$(l)[F1]$() Toggles HUD $(br)$(l)[F2]$() Takes a screenshot $(br)$(l)[F3]$() Toggles debug menu $(br)$(l)[F5]$() Toggle perspectives $(br)$(l)[F11]$() Toggle fullscreen $(br)$(l)[Esc]$() Opens the game menu $(br)$(l)[Q]$() Drop item $(br)$(l)[Ctrl] + [Q]$() Drop item stack $(br)$(l)[E]$() Open Inventory $(br)$(l)[F]$() Swap held items to offhand $(br)$(l)[L]$() Advancements"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Debug Menu hotkeys",
+      "text": "If you are in the debug menu $(l)[F3]$(), you have additional hotkeys available: $(br2)$(l)[1-9]$() A more detailed view of the graph $(br)$(l)[0]$() Displays a less displayed graph $(br)$(l)[F3] + [1]$() Display profiler graph$(br)$(l)[F3] + [Q]$() Displays help menu with all debug hotkeys $(br)$(l)[F3] + [A]$() Reloads all chunks $(br)$(l)[F3] + [T]$() Reloads resourcepacks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(l)[F3] + [P]$() Toggle the auto-pause for menus $(br)$(l)[F3] + [H]$() Toggle detailed item description $(br)$(l)[F3] + [C]$() Hold for 10s to trigger a manual debug crash $(br)$(l)[F3] + [B]$() Toggle showing hitboxes $(br)$(l)[F3] + [D]$() Clear chat history $(br)$(l)[F3] + [N]$() Cycles between gamemodes $(br)$(l)[F3] + [G]$() Show the chunk boundaries"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Creative Mode hotkeys",
+      "text": "If you are in the creative menu, you can use shortcuts to save and load the blocks in your hotbar: $(br2)$(l)[X] + [1-9]$() Loads Toolbar Activator $(br)$(l)[C] + [1-9]$() Saves Toolbar Activator"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Multiplayer hotkeys",
+      "text": "$(br)$(l)[TAB]$() See the list of players $(br)$(l)[T]$() Open chat $(br)$(l)[/]$() Open chat for commands"
+    }
+  ]
+}

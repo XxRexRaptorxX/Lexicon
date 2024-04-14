@@ -51,7 +51,7 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:comparator",
       "anchor": "comparator",
-      "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(br)Has 2 $(item)Redstone Torches$() at the back and one at the front. $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
+      "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
     },
     {
       "type": "patchouli:crafting",
@@ -253,12 +253,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:sculk_sensor",
-      "text": "The $(item)Sculk Sensor$() is a block that detects vibrations caused by actions and events, and emits a redstone signal. $(br2)These sensors can also be used to realize wireless redstone mechanics."
+      "text": "The $(item)Sculk Sensor$() is a block that detects vibrations caused by actions and events, and emits a redstone signal. $(br2)These sensors can also be used to realize wireless redstone mechanics. $(br2)Each vibration in the game falls under a certain $(l:https://minecraft.fandom.com/wiki/Sculk_Sensor#Vibration_Resonance)amplitude value$(). This value can be measured with a $(l:redstone/redstone_components#comparator)$(item)Comparator$()."
     },
     {
       "type": "patchouli:text",
       "title": " ",
-      "text": "$(item)Sculk Sensors$() generate within the $(thing)Deep Dark$() biome and $(l:world/structures#ancient_city)$(thing)Ancient Cities$()."
+      "text": " If a $(item)Wool$() or $(item)Carpet$() is placed between a sensor and a vibration source, the sensor is not able to detect the placed $(item)Wool$() nor vibrations behind it. $(br2)$(item)Sculk Sensors$() generate within the $(thing)Deep Dark$() biome and $(l:world/structures#ancient_city)$(thing)Ancient Cities$()."
     },
     {
       "type": "patchouli:spotlight",
@@ -274,7 +274,7 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:command_block",
       "anchor": "command_block",
-      "text": "A $(item)Command Block$() is a block that can execute $(l:commands)$(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(br)$(li)A $(item)Chain Command Block$() executes every time when triggered. $(br)$(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
+      "text": "A $(item)Command Block$() is a block that can execute $(l:commands)$(thing)Commands$(). $(br2)$(n)There are 3 variants:$() $(li)An $(item)Impulse Command Block$() is the default block type, it executes only once when activated. $(li)A $(item)Chain Command Block$() executes every time when triggered. $(li)A $(item)Repeating Command Block$() executes every game tick as long as it is activated."
     },
     {
       "type": "patchouli:spotlight",

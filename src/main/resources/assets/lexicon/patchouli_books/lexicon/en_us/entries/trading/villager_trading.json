@@ -16,14 +16,6 @@
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/trading_price_changes.png"
-      ],
-      "text": "> Price changes of cured villagers",
-      "border": true
-    },
-    {
-      "type": "patchouli:image",
-      "images": [
         "lexicon:textures/pictures/trading_legend.png"
       ],
       "border": false

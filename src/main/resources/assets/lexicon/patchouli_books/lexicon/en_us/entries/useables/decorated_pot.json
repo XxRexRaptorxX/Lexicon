@@ -1,0 +1,18 @@
+{
+  "name": "Decorated Pots",
+  "icon": "minecraft:decorated_pot",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:decorated_pot",
+      "text": "A $(item)Decorated Pot$() is a storage block crafted from $(item)Bricks$() and/or $(l:rare/pottery:sherds)$(item)Pottery Sherds$(), with the items used individually affecting the appearance of its four side faces. $(br2)It can store a single inventory slot's worth of items, which cannot be seen or retrieved by hand without breaking the pot."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:decorated_pot_simple",
+      "title": " ",
+      "text": "The pot's sides correspond to the item used in the crafting. $(br2)If a $(l:rare/pottery_sherds)$(item)Pottery Sherd$() is used, that side bears the texture of that sherd, if a $(item)Brick$() is used, that side bears the default texture."
+    }
+  ]
+}
