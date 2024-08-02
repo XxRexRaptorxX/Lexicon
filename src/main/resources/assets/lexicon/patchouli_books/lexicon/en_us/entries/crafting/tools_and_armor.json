@@ -195,10 +195,15 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:spectral_arrow",
       "recipe2": "minecraft:tipped_arrow"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:turtle_helmet",
       "recipe2": "minecraft:writable_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wolf_armor"
     }
   ]
 }
