@@ -95,7 +95,7 @@
       "entity": "minecraft:horse{Variant:261}",
       "scale": "0.5",
       "name": "White-Gray",
-      "text": "Variant ID:261"
+      "text": "Variant ID: 261"
     },
     {
       "type": "patchouli:entity",
