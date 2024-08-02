@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Armadillo",
+  "icon": "minecraft:armadillo_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 6     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Savanna, Badlands $(br)> $(n)Breeding:$() Spider Eye     $(br)> $(n)Properties:$() $(br)When a $(item)Brush$() is used on it, the mob drops an $(item)Armadillo Scute$(). $(br)Feeding $(item)Spider Eyes$() to a baby $(thing)Armadillo$() will accelerate its growth by 10% $(br2)$(l:creatures/arthropod-spider)$(thing)Spiders$() are afraid of them."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:armadillo",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -  $(n)XP:$() 3"
+    }
+  ]
+}
