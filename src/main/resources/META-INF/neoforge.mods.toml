@@ -13,7 +13,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/lexicon"
 logoFile="logo.png"
 credits="The Minecraft Wiki for some graphics and informations"
 authors="${mod_authors}"
-description='''This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!'''
+description='''This mod adds a lexicon to the game that explains almost every aspect of Minecraft ingame!'''
 
 
 [[dependencies.${mod_id}]]
@@ -36,6 +36,6 @@ side="BOTH"
 modId="patchouli"
 mandatory=true
 type="required"
-versionRange="[1.20,)"
+versionRange="[1.21,)"
 ordering="NONE"
 side="BOTH"

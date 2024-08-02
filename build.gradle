@@ -3,7 +3,7 @@ plugins {
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.142'
+    id 'net.neoforged.gradle.userdev' version '7.0.145'
 }
 
 
@@ -126,7 +126,7 @@ dependencies {
     compileOnly ("mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}")
     runtimeOnly ("mezz.jei:jei-${mc_version}-neoforge:${jei_version}")
     //Patchouli
-    runtimeOnly ("vazkii.patchouli:Patchouli:${mc_version}-${patchouli_version}")
+    runtimeOnly ("vazkii.patchouli:Patchouli:${patchouli_version}")
 }
 
 
