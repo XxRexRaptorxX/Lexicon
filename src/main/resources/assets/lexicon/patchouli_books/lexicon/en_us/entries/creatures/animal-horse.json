@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 15-30     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Plains, Savanna, $(l:world/structures#village)Villages$() $(br)> $(n)Breeding:$() Golden Apple, Golden Carrot     $(br)> $(n)Properties:$() $(br)Can be equipped with a $(item)Saddle$() and then ridden. When ridden, they are able to move faster and jump higher than a normal player. $(thing)Horses$() can be used to climb hills and jump $(item)Fences$(), as some can jump high enough to clear up to five block heights."
+      "text": "> $(n)Health:$() 15-30 $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Plains, Savanna, $(l:world/structures#village)Villages$() $(br)> $(n)Breeding:$() Golden Apple, Golden Carrot     $(br)> $(n)Properties:$() $(br)Can be equipped with a $(item)Saddle$() and then ridden. When ridden, they are able to move faster and jump higher than a normal player. $(thing)Horses$() can be used to climb hills and jump $(item)Fences$(), as some can jump high enough to clear up to five block heights."
     },
     {
       "type": "patchouli:entity",

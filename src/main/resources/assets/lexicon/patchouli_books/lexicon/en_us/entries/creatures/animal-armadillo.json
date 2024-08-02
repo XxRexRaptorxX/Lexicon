@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 6     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Savanna, Badlands $(br)> $(n)Breeding:$() Spider Eye     $(br)> $(n)Properties:$() $(br)When a $(item)Brush$() is used on it, the mob drops an $(item)Armadillo Scute$(). $(br)Feeding $(item)Spider Eyes$() to a baby $(thing)Armadillo$() will accelerate its growth by 10% $(br2)$(l:creatures/arthropod-spider)$(thing)Spiders$() are afraid of them."
+      "text": "> $(n)Health:$() 6     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Savanna, Badlands $(br)> $(n)Breeding:$() Spider Eye     $(br)> $(n)Properties:$() $(br)When a $(item)Brush$() is used on it, the mob drops an $(item)Armadillo Scute$(). $(br)Feeding $(item)Spider Eyes$() to a baby $(thing)Armadillo$() will accelerate its growth by 10% $(br)Rolls up when it detects a threat, reducing damage taken. $(br)$(l:creatures/arthropod-spider)$(thing)Spiders$() are afraid of them."
     },
     {
       "type": "patchouli:entity",
