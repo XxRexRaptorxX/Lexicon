@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "patchouli"
+    }
+  ],
   "type": "advancement_reward",
   "pools": [
     {
@@ -9,8 +15,10 @@
           "name": "patchouli:guide_book",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{\"patchouli:book\": \"lexicon:lexicon\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "patchouli:book": "lexicon:lexicon"
+              }
             }
           ]
         }

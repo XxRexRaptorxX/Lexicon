@@ -1,7 +1,7 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "patchouli"
     }
   ],
@@ -21,8 +21,8 @@
     }
   },
   "result": {
-    "item": "patchouli:guide_book",
-    "nbt": {
+    "id": "patchouli:guide_book",
+    "components": {
       "patchouli:book": "lexicon:lexicon"
     }
   }
