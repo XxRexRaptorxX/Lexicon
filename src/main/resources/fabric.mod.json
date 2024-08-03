@@ -3,7 +3,7 @@
 	"id": "lexicon",
 	"version": "${version}",
 	"name": "Lexicon",
-	"description": "This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!",
+	"description": "This mod adds a lexicon to the game that explains almost every aspect of Minecraft ingame!",
 	"authors": [
 		"XxRexRaptorxX"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/lexicon-fabric",
 		"sources": "https://github.com/XxRexRaptorxX/Lexicon"
 	},
-	"license": "All rights reserved to it's authors.",
+	"license": "All rights reserved to its authors.",
 	"icon": "assets/lexicon/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -29,10 +29,10 @@
 
 	"depends": {
 		"fabricloader": ">=0.15.10",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
 		"fabric-api": "*",
-		"patchouli": ">=1.20.4-85"
+		"patchouli": ">=1.20.6-86"
 	},
 	"suggests": {
 		"another-mod": "*"

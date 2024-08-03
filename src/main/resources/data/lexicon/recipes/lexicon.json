@@ -1,10 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "patchouli"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
@@ -21,8 +15,8 @@
     }
   },
   "result": {
-    "item": "patchouli:guide_book",
-    "nbt": {
+    "id": "patchouli:guide_book",
+    "components": {
       "patchouli:book": "lexicon:lexicon"
     }
   }

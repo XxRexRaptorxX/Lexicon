@@ -19,6 +19,11 @@
       ],
       "border": true,
       "text": "$(li)You can find new packs $(l:https://www.curseforge.com/minecraft/texture-packs)here$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Pack format",
+      "text": "Pack format, sometimes referred to as pack version, is a number used in $(l)pack.mcmeta$() to describe what Java Edition versions a $(l:modifications/resourcepacks)$(thing)Resource Pack$() or $(l:modifications/datapacks)$(thing)Data Pack$() is compatible with. $(br2)Each version specifies the pack formats it supports in its $(l)version.json$() $(br2)You can find a list with all pack format numbers $(l:https://minecraft.wiki/w/Pack_format)here$()"
     }
   ]
 }

@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)$(li)You can find mods $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)here$()"
+      "text": "$(br)$(li)You can find data packs $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)here$()"
     }
   ]
 }
