@@ -122,9 +122,9 @@ dependencies {
     implementation "net.neoforged:neoforge:${forge_version}"
 
     //JEI
-    compileOnly ("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
-    compileOnly ("mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}")
-    runtimeOnly ("mezz.jei:jei-${mc_version}-neoforge:${jei_version}")
+    compileOnly ("mezz.jei:jei-1.21.1-common-api:${jei_version}")
+    compileOnly ("mezz.jei:jei-1.21.1-neoforge-api:${jei_version}")
+    runtimeOnly ("mezz.jei:jei-1.21.1-neoforge:${jei_version}")
     //Patchouli
     runtimeOnly ("vazkii.patchouli:Patchouli:${patchouli_version}")
 }
