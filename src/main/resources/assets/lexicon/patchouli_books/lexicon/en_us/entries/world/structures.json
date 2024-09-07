@@ -250,9 +250,22 @@
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/ancient_city.png"
+        "lexicon:textures/pictures/trial_chambers_1.png",
+        "lexicon:textures/pictures/trial_chambers_2.png",
+        "lexicon:textures/pictures/trial_chambers_top.png"
       ],
-      "border": true,
+      "border": false,
+      "title": "Trial Chambers",
+      "text": "$(n)Locations:$() Overworld (except Deep Dark) $(br)$(n)Rarity:$() Uncommon",
+      "anchor": "trial_chambers"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ancient_city.png",
+        "lexicon:textures/pictures/ancient_city_top.png"
+      ],
+      "border": false,
       "title": "Ancient City",
       "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare",
       "anchor": "ancient_city"
