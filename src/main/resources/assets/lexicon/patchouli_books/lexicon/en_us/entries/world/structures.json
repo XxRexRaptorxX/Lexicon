@@ -133,7 +133,7 @@
       "images": [
         "lexicon:textures/pictures/trail_ruin.png"
       ],
-      "border": true,
+      "border": false,
       "title": "Trail Ruin",
       "text": "$(n)Locations:$() Jungle, (Snowy-)Taigas, 'Old Growth'-Biomes $(br)$(n)Rarity:$() Uncommon",
       "anchor": "trail_ruin"
@@ -256,14 +256,15 @@
       ],
       "border": false,
       "title": "Trial Chambers",
-      "text": "$(n)Locations:$() Overworld (except Deep Dark) $(br)$(n)Rarity:$() Uncommon",
+      "text": "$(n)Locations:$() Overworld (except Deep Dark) $(br)$(n)Rarity:$() Rare",
       "anchor": "trial_chambers"
     },
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/ancient_city.png",
-        "lexicon:textures/pictures/ancient_city_top.png"
+        "lexicon:textures/pictures/ancient_city_1.png",
+        "lexicon:textures/pictures/ancient_city_top.png",
+        "lexicon:textures/pictures/ancient_city_2.png"
       ],
       "border": false,
       "title": "Ancient City",
