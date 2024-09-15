@@ -6,12 +6,12 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:enchanted_golden_apple",
-      "text": "The $(item)Enchanted Golden Apple$() is a rare, uncraftable variant of the $(item)Golden Apple$() that has stronger effects. $(br2)Can be found in $(l:useables/chest)$(item)Chests$(). $(br2)$(n)Effects:$() $(li)$(thing)$(l:brewing/effects#absorption)Absorption IV$() for 2min $(li)$(l:brewing/effects#regeneration)$(thing)Regeneration II$() for 30s $(li)$(l:brewing/effects#fire_resistance)$(thing)Fire Resistance$() for 5min $(li)$(l:brewing/effects#resistance)$(thing)Resistance$() for 5min"
+      "text": "The $(item)Enchanted Golden Apple$() is a rare, uncraftable variant of the $(item)Golden Apple$() that has stronger effects. $(br2)Can be found in $(l:useables/chest)$(item)Chests$(). $(br2)$(n)Effects:$() $(li)$(l:brewing/effects#absorption)$(thing)Absorption IV$() for 2min $(li)$(l:brewing/effects#regeneration)$(thing)Regeneration II$() for 30s $(li)$(l:brewing/effects#fire_resistance)$(thing)Fire Resistance$() for 5min $(li)$(l:brewing/effects#resistance)$(thing)Resistance$() for 5min"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:golden_apple",
-      "text": "> Recipe for the regular $(item)Golden Apple$(). $(br)$(br2)$(n)Effects:$() $(li)$(thing)$(l:brewing/effects#absorption)Absorption$() for 2min $(li)$(l:brewing/effects#regeneration)$(thing)Regeneration II$() for 5s"
+      "text": "> Recipe for the regular $(item)Golden Apple$(). $(br)$(br2)$(n)Effects:$() $(li)$(l:brewing/effects#absorption)$(thing)Absorption$() for 2min $(li)$(l:brewing/effects#regeneration)$(thing)Regeneration II$() for 5s"
     }
   ]
 }
