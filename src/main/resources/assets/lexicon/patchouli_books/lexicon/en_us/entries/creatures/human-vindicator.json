@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:vindicator",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-1 Emerald, 1 Ominous Banner if they are a Raid Captain, 8.5% chance for a Iron Axe $(br)$(n)XP:$() 5"
+      "text": "$(n)Drops:$() 0-1 Emerald, 1 Ominous Banner if spawned as $(l:creatures/boss-raid_captain)$(thing)Captain$(), 8.5% chance for a Iron Axe $(br)$(n)XP:$() 5"
     }
   ]
 }

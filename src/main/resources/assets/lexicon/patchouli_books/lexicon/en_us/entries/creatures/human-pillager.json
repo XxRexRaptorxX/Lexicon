@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:pillager",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 8.5% for a Crossbow, 1 Ominous Banner if spawned as captain $(br)$(n)XP:$() 5-17"
+      "text": "$(n)Drops:$() 8.5% for a Crossbow, 1 Ominous Banner if spawned as $(l:creatures/boss-raid_captain)$(thing)Captain$() $(br)$(n)XP:$() 5-17"
     }
   ]
 }

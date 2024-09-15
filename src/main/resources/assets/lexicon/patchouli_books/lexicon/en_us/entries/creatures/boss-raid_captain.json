@@ -1,0 +1,51 @@
+{
+  "name": "Miniboss - Raid Captain",
+  "icon": "minecraft:ominous_bottle",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A $(thing)Raid Captain$() is the occurrence of an illager spawning with an $(l:rare/ominous_banner)$(item)Ominous Banner$() on top of its head, usually a $(l:creatures/human-pillager)$(thing)Pillager$() or $(l:creatures/human-vindicator)$(thing)Vindicator$(), or rarely an $(l:creatures/human-evoker)$(thing)Evoker$(). $(br2)$(thing)Raid Captains$() usually act the same as if they were a normal illager, but other illagers follow behind them."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br) $(n)Drops:$()$(br) $(li)1 Ominous Banner $(li)1 Ominous Bottle $(li)default drops of each mob"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_captain.png"
+      ],
+      "text": "$(n)Spawning:$() Illager Patrol, Raid, $(l:world/structures#outpost)$(thing)Pillager Outpost$()",
+      "title": "Pillager Captain",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/vindicator_captain.png"
+      ],
+      "text": "$(n)Spawning:$() Raid",
+      "title": "Vindicator Captain",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/evoker_captain.png"
+      ],
+      "text": "$(n)Spawning:$() Raid (rare)",
+      "title": "Evoker Captain",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/illusioner_captain.png"
+      ],
+      "text": "$(n)Spawning:$() only with $(l:commands)$(thing)Commands$() or $(l:modifications/mods)$(thing)Mods$()",
+      "title": "Illusioner Captain",
+      "border": false
+    }
+  ]
+}
