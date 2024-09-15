@@ -6,7 +6,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:trial_spawner",
-      "text": "A $(item)Trial Spawner$() is a type of $(l:rare/spawner)$(item)Spawner$() found only within $(l:world/structures#trial_chambers)$(thing)Trial Chambers$(). $(br2)It spawns mobs in waves, which increase in number the more $(l:creatures/human-player)$(thing)Players$() are nearby. $(br2)When all of its spawned mobs are defeated, it ejects a combination of consumable items and/or $(l:rare/trial_key)$(item)Trial Keys$(), then goes inactive for 30 minutes."
+      "text": "A $(item)Trial Spawner$() is a type of $(l:rare/spawner)$(item)Spawner$() found only within $(l:world/structures#trial_chambers)$(thing)Trial Chambers$(). $(br2)It spawns mobs in waves, which increase in number the more $(l:creatures/human-player)$(thing)Players$() are nearby. $(br2)When all of its spawned mobs are defeated, it ejects a combination of consumable items and/or $(l:rare/trial_keys)$(item)Trial Keys$(), then goes inactive for 30 minutes."
     },
     {
       "type": "patchouli:text",
