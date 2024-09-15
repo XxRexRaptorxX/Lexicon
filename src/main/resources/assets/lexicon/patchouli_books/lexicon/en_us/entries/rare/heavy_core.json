@@ -1,0 +1,17 @@
+{
+  "name": "Heavy Core",
+  "icon": "minecraft:heavy_core",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heavy_core",
+      "text": "A $(item)Heavy Core$() is a rare block that can be obtained from $(l:rare/vault)$(item)Ominous Vaults$() found in $(l:world/structures#trial_chambers)$(thing)Trial Chambers$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mace",
+      "title": " "
+    }
+  ]
+}

@@ -243,18 +243,18 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:crafter",
-      "text": "When a $(item)Crafter$() receives a signal, it ejects one crafted item using the ingredients from the nine inventory slots. $(br)If the front of a $(item)Crafter$() is facing a container (including another $(item)Crafter$()), the crafted items are transferred into the container."
+      "text": "When a $(item)Crafter$() receives a signal, it ejects one crafted item using the ingredients from the nine inventory slots. $(br)If the front of a $(item)Crafter$() is facing a container (including another $(item)Crafter$()), the crafted items are transferred into the container. $(br)For shaped recipes, the position of the items in the inventory matters."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:crafter",
       "title": " ",
-      "text": "For shaped recipes, the position of the items in the inventory matters. Because disabled slots prevent items from entering the slot, $(item)Crafters$() can be used to craft any item automatically without any input from the $(l:creatures/human-player)Player$(), using a series of $(l:redstone/redstone_components#hopper)Hoppers$() and/or $(l:redstone/redstone_components#dropper)Droppers$() & the correct configuration of disabled slots for the recipe."
+      "text": "Because disabled slots prevent items from entering the slot, $(item)Crafters$() can be used to craft any item automatically without any input from the $(l:creatures/human-player)$(thing)Player$(), using a series of $(l:redstone/redstone_components#hopper)$(item)Hoppers$() and/or $(l:redstone/redstone_components#dropper)$(item)Droppers$() & the correct configuration of disabled slots for the recipe."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:detector_rail",
-      "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
+      "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(l:redstone/redstone_components#comparator)$(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
     },
     {
       "type": "patchouli:crafting",

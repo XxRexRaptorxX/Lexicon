@@ -1,0 +1,16 @@
+{
+  "name": "Vault",
+  "icon": "minecraft:vault",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:vault",
+      "text": "A $(item)Vault$() is a block found in $(l:world/structures#trial_chambers)$(thing)Trial Chambers$(). $(br2)It dispenses loot when unlocked using a $(l:rare/trial_key)$(item)Trial Key$(). $(br2)Each $(item)Vault$() can be looted by an unlimited number of $(l:creatures/human-player)$(thing)Players$(), but each one can unlock a specific $(item)Vault$() only once."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Vaults$() cannot be obtained in Survival and cannot be moved with a $(l:redstone/redstone_components#piston)$(item)Piston$(). $(br2)Theres also an $(item)Ominous Vault$(), it dispenses more valuable loot when unlocked using an $(l:rare/trial_key)$(item)Ominous Trial Key$()."
+    }
+  ]
+}

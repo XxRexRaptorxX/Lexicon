@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() ?  $(br)> $(n)Attack Damage:$() ? $(br)> $(n)Behavior:$() Very hostile     $(br)> $(n)Spawn:$() Unknown    $(br)> $(n)Properties:$() $(br)The $(thing)Wither Storm$() is a more destructive version of the $(l:creatures/boss-wither)Wither$(). $(br)It sucks blocks and mobs to make it bigger and stronger. $(br)It eventually becomes a giant monster with 5 tentacles and three heads that can fire a tractor beam!  "
+      "text": "> $(n)Health:$() ?  $(br)> $(n)Attack Damage:$() ? $(br)> $(n)Behavior:$() Very hostile     $(br)> $(n)Spawn:$() Unknown    $(br)> $(n)Properties:$() $(br)The $(thing)Wither Storm$() is a more destructive version of the $(l:creatures/boss-wither)$(thing)Wither$(). $(br)It sucks blocks and mobs to make it bigger and stronger. $(br)It eventually becomes a giant monster with 5 tentacles and three heads that can fire a tractor beam!  "
     },
     {
       "type": "patchouli:image",

@@ -392,6 +392,7 @@
     {
       "type": "patchouli:text",
       "title": "Bad Omen",
+      "anchor": "bad_omen",
       "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)Causes an $(thing)Illager$() raid to start upon entering a village, higher levels cause a more difficult raid. $(br2)$(n)Sources:$() $(br)Killing an Illager Captain"
     },
     {
