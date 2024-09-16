@@ -70,8 +70,17 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe2": "minecraft:netherite_upgrade_smithing_template",
-      "recipe2": "minecraft:shears"
+      "recipe": "minecraft:flow_armor_trim_smithing_template",
+      "recipe2": "minecraft:bolt_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shears",
+      "recipe2": "minecraft:wind_charge"
     },
     {
       "type": "patchouli:crafting",

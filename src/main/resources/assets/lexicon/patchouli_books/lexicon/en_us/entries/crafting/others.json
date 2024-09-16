@@ -820,7 +820,8 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "minecraft:tinted_glass"
+      "recipe": "minecraft:tinted_glass",
+      "recipe2": "minecraft:heavy_core"
     }
   ]
 }
