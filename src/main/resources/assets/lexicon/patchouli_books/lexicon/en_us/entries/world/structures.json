@@ -204,7 +204,7 @@
         "lexicon:textures/pictures/dungeon.png"
       ],
       "border": false,
-      "title": "Dungeon",
+      "title": "Monster Room (or Dungeon)",
       "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
       "anchor": "dungeon"
     },
