@@ -6,13 +6,13 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:jukebox",
-      "text": "A $(l:useables/jukebox)$(item)Jukebox$() playing music from a $(l:rare/music_discs)$(item)Music Disc$() emits a level 15 signal, powering any adjacent $(l:redstone/redstone_components#redstone)$(item)Redstone Wires$(), $(l:redstone/redstone_components#repeater)$(item)Repeaters$(), and mechanism components. $(br2)The signal turns off when the music track ends or if the disc is removed before the track ends. $(br2)If the $(l:creatures/human-player)$(thing)Player$() places a $(l:redstone/redstone_components#comparator)$(item)Comparator$() besides a $(item)Jukebox$(),"
+      "text": "A $(l:useables/jukebox)$(item)Jukebox$() playing music from a $(l:rare/music_discs)$(item)Music Disc$() emits a level 15 signal, powering any adjacent $(l:redstone/redstone_components#redstone)$(item)Redstone Wires$(), $(l:redstone/redstone_components#repeater)$(item)Repeaters$(), and mechanism components. $(br2)The signal turns off when the music track ends or if the disc is removed before the track ends. $(br)If the $(l:creatures/human-player)$(thing)Player$() places a $(l:redstone/redstone_components#comparator)$(item)Comparator$() besides a $(item)Jukebox$(),"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:jukebox",
       "title": " ",
-      "text": "the intensity of the redstone signal depends on the disc currently inserted. $(br2)The $(l:redstone_components/comparator)$(item)Comparator$() is powered as long as a disc is stored inside the $(item)Jukebox$(), even if it has stopped playing."
+      "text": "the intensity of the redstone signal depends on the disc currently inserted. $(br2)The $(l:redstone/redstone_components#comparator)$(item)Comparator$() is powered as long as a disc is stored inside the $(item)Jukebox$(), even if it has stopped playing."
     }
   ]
 }
