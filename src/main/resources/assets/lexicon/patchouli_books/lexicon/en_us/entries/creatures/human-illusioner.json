@@ -1,0 +1,17 @@
+{
+  "name": "Humanoid - Illusioner",
+  "icon": "minecraft:vindicator_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 32  $(br)> $(n)Attack Damage:$() $(br)2-5, 3-5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() not natural $(br)> $(n)Properties:$() $(br)The $(thing)Illusioner$() attacks with its spells and its $(item)Bow$(). $(br)He has two spells: $(li)A spell that blinds its opponent $(li)A spell that summons visual pseudo-duplicates and makes the $(thing)Illusioner$() invisible."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:illusioner",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 Ominous Banner if spawned as $(l:creatures/boss-raid_captain)$(thing)Captain$(), 8.5% chance for a Bow$(br)$(n)XP:$() 5"
+    }
+  ]
+}
