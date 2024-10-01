@@ -213,11 +213,23 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_lamp",
       "anchor": "lamp",
-      "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal"
+      "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:redstone_lamp",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:copper_bulb",
+      "anchor": "bulb",
+      "text": "$(item)Copper Bulbs$() can be activated to emit light, with the light level emitted decreasing for each stage of oxidation. $(br)When the bulb receives a redstone pulse, it immediately toggles between its lit and unlit states. $(br)A $(l:redstone/redstone_components#comparator)$(item)Comparator$() can read the state and it emits a signal strength of 15 if the bulb is lit. $(br)If the bulb is unlit, the $(l:redstone/redstone_components#comparator)$(item)Comparator$() does not emit any power, allowing this $(l:redstone/redstone_components#comparator)$(item)Comparator$() and $(item)Copper Bulb$() combination to act as a compact $(l:redstone/redstone_circuits#t-flip-flop)T Flip-Flop$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_bulb",
+      "recipe2": "minecraft:waxed_copper_bulb_from_honeycomb",
       "title": " "
     },
     {
