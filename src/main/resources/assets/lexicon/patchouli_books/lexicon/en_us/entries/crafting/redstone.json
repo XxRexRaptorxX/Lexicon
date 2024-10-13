@@ -237,6 +237,10 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:target",
       "recipe2": "minecraft:tnt"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafter"
     }
   ]
 }

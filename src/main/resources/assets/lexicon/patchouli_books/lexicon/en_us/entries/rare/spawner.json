@@ -1,0 +1,16 @@
+{
+  "name": "Monster Spawner",
+  "icon": "minecraft:spawner",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:spawner",
+      "text": "A $(item)Monster Spawner$() activates when a $(l:creatures/human-player)$(thing)Player$() comes within a spherical radius of 16 blocks from the center point of the block and constantly spawns instances of that mob as long as a $(l:creatures/human-player)$(item)Player$() is nearby and, if applicable for the mob it spawns, if there are valid dark areas nearby."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It cannot be obtained as an item in survival mode or moved by a $(l:redstone/redstone_components#piston)$(item)Piston$(), and it drops only experience orbs when broken. $(br2)The $(item)Spawner$() can be configured to spawn a desired mob by using a $(item)Spawn Egg$() on the placed block."
+    }
+  ]
+}

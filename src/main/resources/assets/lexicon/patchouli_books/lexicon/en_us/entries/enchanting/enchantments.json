@@ -198,8 +198,25 @@
       "type": "patchouli:text",
       "title": "Swift Sneak",
       "anchor": "swift_sneak",
-      "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
+      "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking.$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Density",
+      "anchor": "density",
+      "text": "$(n)Effect:$() $(br)Increases the damage dealt per block fallen.$(br2)$(n)Incompatible Enchantments:$()$(br) Bane of Arthropods, Smite, Sharpness, Breach$(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() V "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Breach",
+      "anchor": "breach",
+      "text": "$(n)Effect:$() $(br)Reduces the effectiveness of the armor of attacked entities.$(br2)$(n)Incompatible Enchantments:$()$(br) Bane of Arthropods, Smite, Sharpness, Density$(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() IV "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wind Burst",
+      "anchor": "wind_burst",
+      "text": "$(n)Effect:$() $(br)Creates a powerful upward knockback effect upon executing a smash attack.$(br2)$(n)Incompatible Enchantments:$() / $(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() III"
     }
-
   ]
 }

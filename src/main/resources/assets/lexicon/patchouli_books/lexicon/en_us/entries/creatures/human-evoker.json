@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:evoker",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 1 $(l:rare/totem_of_undying)Totem of Undying$(), 0-1 Emerald, 1 Ominous Banner in Raids $(br)$(n)XP:$() 10"
+      "text": "$(n)Drops:$() 1 $(l:rare/totem_of_undying)Totem of Undying$(), 0-1 Emerald, 1 Ominous Banner if spawned as $(l:creatures/boss-raid_captain)$(thing)Captain$()$(br)$(n)XP:$() 10"
     }
   ]
 }

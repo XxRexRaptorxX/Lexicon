@@ -11,7 +11,7 @@
       "type": "patchouli:entity",
       "entity": "minecraft:witch",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 12.5% chance for Glass Bottles / Glowstone Dust / Gunpowder / Redstone / Spider Eyes / Sugar, 25% chance for Sticks, 8.5% chance for it's $(l:brewing/potion_types#potion)Potion$() if killed when drinking"
+      "text": "$(n)Drops:$() 4-8 Redstone, chance for 0-2: Glass Bottles / Glowstone Dust / Gunpowder / Spider Eyes / Sugar / Sticks, 8.5% chance for it's $(l:brewing/potion_types#potion)Potion$() if killed when drinking $(br)$(n)XP:$() 5"
     }
   ]
 }

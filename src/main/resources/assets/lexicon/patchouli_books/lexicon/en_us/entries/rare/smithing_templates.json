@@ -113,6 +113,18 @@
       "title": "Tide Armor Trim",
       "recipe": "minecraft:tide_armor_trim_smithing_template",
       "text": "$(br)$(n)Location:$() $(l:world/structures#monument)$(thing)Ocean Monument$() $(br2)$(n)Container:$() $(l:creatures/monster-elder_guardian)$(thing)Elder Guardian$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Flow Armor Trim",
+      "recipe": "minecraft:flow_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Ominous Vault$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bolt Armor Trim",
+      "recipe": "minecraft:bolt_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Vault$()"
     }
   ]
 }

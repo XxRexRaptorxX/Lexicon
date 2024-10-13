@@ -1,0 +1,17 @@
+{
+  "name": "Wind Charge",
+  "icon": "minecraft:wind_charge",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wind_charge",
+      "text": "A $(item)Wind Charge$() is a consumable ranged weapon that can knock entities back and interact with certain $(l:redstone/redstone_components)Redstone components$(). $(br2)It is used by $(l:creatures/monster-breeze)$(thing)Breezes$() as their main attack and can also be shot by $(l:creatures/human-player)$(thing)Players$() and $(l:redstone/redstone_components#dispenser)$(item)Dispensers$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wind_charge",
+      "title": " "
+    }
+  ]
+}

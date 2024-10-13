@@ -107,7 +107,21 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:snort_pottery_sherd",
       "text": "$(n)Location:$() $(l:world/structures#ruins)$(thing)(Warm Water) Ocean Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Sand$() $(br2)$(n)Chance:$() 6.7%"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:flow_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(item)Decorated Pots$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:guster_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(item)Decorated Pots$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:scrape_pottery_sherd",
+      "text": "$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(item)Decorated Pots$()"
     }
-
   ]
 }

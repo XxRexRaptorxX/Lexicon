@@ -133,7 +133,7 @@
       "images": [
         "lexicon:textures/pictures/trail_ruin.png"
       ],
-      "border": true,
+      "border": false,
       "title": "Trail Ruin",
       "text": "$(n)Locations:$() Jungle, (Snowy-)Taigas, 'Old Growth'-Biomes $(br)$(n)Rarity:$() Uncommon",
       "anchor": "trail_ruin"
@@ -204,7 +204,7 @@
         "lexicon:textures/pictures/dungeon.png"
       ],
       "border": false,
-      "title": "Dungeon",
+      "title": "Monster Room (or Dungeon)",
       "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
       "anchor": "dungeon"
     },
@@ -250,9 +250,23 @@
     {
       "type": "patchouli:image",
       "images": [
-        "lexicon:textures/pictures/ancient_city.png"
+        "lexicon:textures/pictures/trial_chambers_1.png",
+        "lexicon:textures/pictures/trial_chambers_2.png",
+        "lexicon:textures/pictures/trial_chambers_top.png"
       ],
-      "border": true,
+      "border": false,
+      "title": "Trial Chambers",
+      "text": "$(n)Locations:$() Overworld (except Deep Dark) $(br)$(n)Rarity:$() Rare",
+      "anchor": "trial_chambers"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ancient_city_1.png",
+        "lexicon:textures/pictures/ancient_city_top.png",
+        "lexicon:textures/pictures/ancient_city_2.png"
+      ],
+      "border": false,
       "title": "Ancient City",
       "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare",
       "anchor": "ancient_city"

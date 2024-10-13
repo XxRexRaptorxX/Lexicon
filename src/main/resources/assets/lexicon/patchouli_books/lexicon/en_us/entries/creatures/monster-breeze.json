@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Breeze",
+  "icon": "minecraft:breeze_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 30$(br)> $(n)Attack Damage:$() $(br)1 on easy, 1 on normal, 1.5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#trial_chambers)Trial Chambers$()  $(br)> $(n)Properties:$() $(br)When attacking something, a $(thing)Breeze$() moves via jumping large distances and attacks by firing $(item)Wind Charges$(), which deal high knockback. $(br)It can repel all projectiles, taking no damage from them."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:breeze",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1-2 Breeze Rod   $(br)$(n)XP:$() 10"
+    }
+  ]
+}

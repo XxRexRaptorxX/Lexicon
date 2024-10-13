@@ -412,6 +412,7 @@
 
     {
       "type": "patchouli:multiblock",
+      "anchor": "t-flip-flop",
       "multiblock": {
         "pattern": [
           [

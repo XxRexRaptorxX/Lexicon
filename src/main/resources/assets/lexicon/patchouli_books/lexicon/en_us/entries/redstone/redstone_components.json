@@ -51,7 +51,7 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:comparator",
       "anchor": "comparator",
-      "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states (primarily the fullness of containers). $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
+      "text": "A $(item)Comparator$() is used to maintain, compare, or subtract signal strength, or to measure certain block states. $(li)The back torches turn on when the output is greater than zero. $(li)The front torch has two states that can be toggled by using: $(br)> Down and unpowered (indicating the comparator is in $(n)comparison mode$()) $(br)> Up and powered (indicating the comparator is in $(n)subtraction mode$())"
     },
     {
       "type": "patchouli:crafting",
@@ -213,11 +213,23 @@
       "type": "patchouli:spotlight",
       "item": "minecraft:redstone_lamp",
       "anchor": "lamp",
-      "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal"
+      "text": "A $(item)Redstone Lamp$() is a block that produces light when activated with a redstone signal."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:redstone_lamp",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:copper_bulb",
+      "anchor": "bulb",
+      "text": "$(item)Copper Bulbs$() can be activated to emit light, with the light level emitted decreasing for each stage of oxidation. $(br)When the bulb receives a redstone pulse, it immediately toggles between its lit and unlit states. $(br)A $(l:redstone/redstone_components#comparator)$(item)Comparator$() can read the state and it emits a signal strength of 15 if the bulb is lit. $(br)If the bulb is unlit, the $(l:redstone/redstone_components#comparator)$(item)Comparator$() does not emit any power, allowing this $(l:redstone/redstone_components#comparator)$(item)Comparator$() and $(item)Copper Bulb$() combination to act as a compact $(l:redstone/redstone_circuits#t-flip-flop)T Flip-Flop$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_bulb",
+      "recipe2": "minecraft:waxed_copper_bulb_from_honeycomb",
       "title": " "
     },
     {
@@ -242,8 +254,19 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "minecraft:crafter",
+      "text": "When a $(item)Crafter$() receives a signal, it ejects one crafted item using the ingredients from the nine inventory slots. $(br)If the front of a $(item)Crafter$() is facing a container (including another $(item)Crafter$()), the crafted items are transferred into the container. $(br)For shaped recipes, the position of the items in the inventory matters."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafter",
+      "title": " ",
+      "text": "Because disabled slots prevent items from entering the slot, $(item)Crafters$() can be used to craft any item automatically without any input from the $(l:creatures/human-player)$(thing)Player$(), using a series of $(l:redstone/redstone_components#hopper)$(item)Hoppers$() and/or $(l:redstone/redstone_components#dropper)$(item)Droppers$() & the correct configuration of disabled slots for the recipe."
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "minecraft:detector_rail",
-      "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
+      "text": "If the $(item)Minecart$() on the $(item)Detector Rail$() is a $(item)Minecart$() with Chest$() or $(item)Minecart with Hopper$(), an adjacent $(l:redstone/redstone_components#comparator)$(item)Comparator$() facing away from the $(item)Detector Rail$() outputs a power level proportional to the container's fullness."
     },
     {
       "type": "patchouli:crafting",
