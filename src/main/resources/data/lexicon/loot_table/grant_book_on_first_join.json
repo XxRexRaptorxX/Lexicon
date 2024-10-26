@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "patchouli:guide_book",
           "functions": [
             {
