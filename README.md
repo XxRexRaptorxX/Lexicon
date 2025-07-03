@@ -1,42 +1,125 @@
-[![CurseForge Downloads](https://cf.way2muchnoise.eu/615275.svg?badge_style=for_the_badge)][cf_lexicon] [![CurseForge Game Versions](https://cf.way2muchnoise.eu/versions/615275.svg?badge_style=for_the_badge)][cf_lexicon]
+<p align="center">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/lexicon"><img src="http://cf.way2muchnoise.eu/short_615275_(Neo-)Forge.svg?badge_style=flat" alt="Curseforge"></a> 
+  <a href="https://www.curseforge.com/minecraft/mc-mods/lexicon-fabric"><img src="http://cf.way2muchnoise.eu/short_838803_Fabric.svg?badge_style=flat" alt="Curseforge"></a> 
+  <a href="https://modrinth.com/mod/lexicon"><img src="https://img.shields.io/modrinth/dt/lexicon?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c" alt="Modrinth"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/lexicon"><img src="https://cf.way2muchnoise.eu/versions/615275(266fff).svg?badge_style=flat" alt="Supported Versions"></a>
+  <a href="https://discord.gg/hmaD7Se"><img src="https://img.shields.io/discord/523112426913267713?color=282828&logo=discord&style=flat&label=&labelColor=B6BCEA" alt="Discord"></a>
+</p>
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/Lexicon/blob/main/src/main/resources/logo.png?raw=true" alt="logo" width="400"/><br>
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line_curved.png?raw=true" alt="line" width="2000"/>
+</p>
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/7RSp3ivG?label=Modrinth&logo=modrinth&style=for-the-badge)][mr_lexicon] [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/7RSp3ivG?label=Available%20for&logo=modrinth&style=for-the-badge)][mr_lexicon]
-
-# Lexicon for Minecraft
-
-## 🗃️ Dependencies
-
-- Forge:
-    - **Patchouli**
-        - [CurseForge][cf_patchouli] | [Modrinth][mr_patchouli]
 
 ## 📖 Description
 
-This mod adds a lexicon to the game that explains almost every aspect of Minecraft in-game!
-
+This mod adds a lexicon to the game that explains almost every aspect of minecraft ingame!
 From your first night through descriptions of all monsters, redstone circuits, tips, tricks, brewing, enchanting, commands to how to complete the game!
 
 Useful for all newcomers and players who want to expand their knowledge about the game without having to go to the internet again and again..
 
-- In-game wiki
-- Uses Patchouli as base
-- Update checker (on Forge)
-- Get book on first join can be enable/disable with config
+ -----
 
-![home](https://i.imgur.com/EHckbE2.png)
-![recipes](https://i.imgur.com/SQHv9XD.png)
-![ores](https://i.imgur.com/4mrqFRm.png)
+### Features:
 
-## 🗒️ License
+- ingame wiki
+- uses [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) as base
+- update checker
 
-All rights reserved to it's Authors.
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
+</p>
 
-[cf_lexicon]: https://www.curseforge.com/minecraft/mc-mods/lexicon
+## 📷 Presentation
 
-[mr_lexicon]: https://modrinth.com/mod/lexicon
+![](https://i.imgur.com/EHckbE2.png)
+
+![](https://i.imgur.com/SQHv9XD.png)
+
+![](https://i.imgur.com/4mrqFRm.png)
+
+![](https://i.imgur.com/k0mzncT.png)
+
+![](https://i.imgur.com/ErHi32t.png)
+
+![](https://i.imgur.com/j1D6xsJ.png)
+
+![](https://i.imgur.com/ovz9Udb.png)
+
+![](https://i.imgur.com/lCySCJo.png)
+
+![](https://i.imgur.com/yKNXhKM.png)
+
+![](https://i.imgur.com/9MdwsIx.png)
+
+![](https://i.imgur.com/ByxM5ph.png)
+
+![](https://i.imgur.com/2apkK7R.png)
+
+![](https://i.imgur.com/JCDPLnY.png)
+
+![](https://i.imgur.com/6gBIZEw.png)
+
+
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
+</p>
+
+## 🗃️ Dependencies
+
+### Required:
+- **Patchouli**
+  - Provides the base of the lexicon
+  - [CurseForge][cf_patchouli] | [Modrinth][mr_patchouli]
+
+
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
+</p>
+
+## 🎮 My other mods!
+
+<p align="center">
+  <a href="https://www.curseforge.com/minecraft/mc-mods/additional-structures"><img src="https://github.com/XxRexRaptorxX/Additional-Structures/blob/master/src/main/resources/logo.png?raw=true" alt="Additional Structures" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/bedrock-miner"><img src="https://github.com/XxRexRaptorxX/Bedrock-Miner/blob/main/src/main/resources/logo.png?raw=true" alt="Bedrock Miner" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/tool-upgrades"><img src="https://github.com/XxRexRaptorxX/ToolUpgrades/blob/main/src/main/resources/logo.png?raw=true" alt="Tool Upgrades" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/all-the-compatibility"><img src="https://github.com/XxRexRaptorxX/AllTheCompatibility/blob/main/src/main/resources/logo.png?raw=true" alt="All The Compatibility" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/customized-dungeon-loot"><img src="https://camo.githubusercontent.com/2291f5f13114f09294ce5e079f8a61b8a2617a8692e68ca453674e93f1982b62/687474703a2f2f692e696d6775722e636f6d2f427065525748442e706e67" alt="Customized Dungeon Loot" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/advanced-sticks"><img src="https://github.com/XxRexRaptorxX/AdvancedSticks/blob/master/src/main/resources/logo.png?raw=true" alt="Advanced Tools" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/age-of-weapons"><img src="https://camo.githubusercontent.com/e8e1315b08a3bd1fb144ccd47488b1df4033418ad3aee01e61cc9d6e83fa55a5/68747470733a2f2f692e696d6775722e636f6d2f586d324332576a2e706e67" alt="Age of Weapons" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/rune-craft"><img src="https://github.com/XxRexRaptorxX/RuneCraft/blob/main/src/main/resources/logo.png?raw=true" alt="Rune Craft" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/collectibles"><img src="https://github.com/XxRexRaptorxX/Collectibles/blob/main/src/main/resources/logo.png?raw=true" alt="Collectibles" width="85"/></a> <br> 
+  <a href="https://www.curseforge.com/minecraft/mc-mods/extra-gems"><img src="https://github.com/XxRexRaptorxX/ExtraGems/blob/main/src/main/resources/logo.png?raw=true" alt="Extra Gems" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/minetraps"><img src="https://github.com/XxRexRaptorxX/MineTraps/blob/main/src/main/resources/logo.png?raw=true" alt="Mine Traps" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/exo-craft"><img src="https://github.com/XxRexRaptorxX/ExoCraft/blob/main/src/main/resources/logo.png?raw=true" alt="ExoCraft" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/city-craft"><img src="https://github.com/XxRexRaptorxX/CityCraft/blob/master/src/main/resources/logo.png?raw=true" alt="City Craft" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/upcycle"><img src="https://github.com/XxRexRaptorxX/Upcycle/blob/main/src/main/resources/logo.png?raw=true" alt="Upcycle" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/lexicon"><img src="https://github.com/XxRexRaptorxX/Lexicon/blob/main/src/main/resources/logo.png?raw=true" alt="Lexicon" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/nexus-battle-mode"><img src="https://github.com/XxRexRaptorxX/Nexus/blob/master/src/main/resources/logo.png?raw=true" alt="Nexus" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/block-detective"><img src="https://github.com/XxRexRaptorxX/BlockDetective/blob/main/src/main/resources/logo.png?raw=true" alt="Block Detective" width="85"/></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/suspicious-pots"><img src="https://github.com/XxRexRaptorxX/Suspicious-Pots/blob/main/src/main/resources/logo.png?raw=true" alt="Suspicious Pots" width="85"/></a>
+</p>
+
+<p align="center">
+  <img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/line.png?raw=true" alt="line" width="2000"/>
+</p>
+
+<p align="center">
+<br>
+  <a href="https://discord.com/invite/ycRJJk8EXV"><img src="https://github.com/XxRexRaptorxX/General/blob/main/page_decorations/message.png?raw=true" alt="message"/></a>
+</p>
+
+
+<p align="center">
+  <a href="https://github.com/XxRexRaptorxX"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/github_icon_bg.png?raw=true" alt="Github" width="70"/></a>
+  <a href="https://ko-fi.com/xxrexraptorxx"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/kofi_icon_bg.png?raw=true" alt="Ko-Fi" width="70"/></a>
+  <a href="https://www.patreon.com/bePatron?u=75131568"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/patreon_icon_bg.png?raw=true" alt="Patreon" width="70"/></a>
+  <a href="https://discord.com/invite/ycRJJk8EXV"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/discord_icon_bg.png?raw=true" alt="Discord" width="70"/></a>
+  <a href="https://x.com/XxRexRaptorxX"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/xtwitter_icon_bg.png?raw=true" alt="X" width="70"/></a>
+  <a href="https://github.com/XxRexRaptorxX/General/blob/main/FAQ.md"><img src="https://github.com/XxRexRaptorxX/General/blob/main/icons/wikipedia_icon_bg.png?raw=true" alt="FAQ" width="70"/></a>
+<br> <br>
+  <a href="https://bisecthosting.com/REXRAPTOR"><img src="https://github.com/XxRexRaptorxX/General/blob/main/BH_REX_Bisect.png?raw=true" alt="Bisect Hosting - 25% off with code: REXRAPTOR"/></a>
+</p>
 
 [cf_patchouli]: https://www.curseforge.com/minecraft/mc-mods/patchouli
-
-[cf_patchouli_fabric]: https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric
-
 [mr_patchouli]: https://modrinth.com/mods/patchouli
