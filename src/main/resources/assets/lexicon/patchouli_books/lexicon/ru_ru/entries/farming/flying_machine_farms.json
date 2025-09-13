@@ -1,12 +1,12 @@
 {
-  "name": "Flying Machine Farms",
+  "name": "Фермы с летающими машинами",
   "icon": "minecraft:slime_block",
   "category": "lexicon:farming",
   "sortnum": 9,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If there are large areas that need to be farmed, the best way is with a $(l:redstone/flying_machines)$(thing)Flying Machine$(). $(br2)They can be used for a variety of farms  e.g. $(item)Bamboo$(), $(item)Sugar Cane$(), $(item)Cactus, $(item)Kelp$(), ..."
+      "text": "Если нужно обрабатывать большие площади, лучше всего использовать $(l:redstone/flying_machines)$(thing)Летающую машину$(). $(br2)Их можно применять для различных ферм, например $(item)Бамбука$(), $(item)Сахарного тростника$(), $(item)Кактуса$(), $(item)Ламинарии$(), ..."
     },
     {
       "type": "patchouli:image",
@@ -18,6 +18,6 @@
       ],
       "border": true
     }
-
   ]
 }
+

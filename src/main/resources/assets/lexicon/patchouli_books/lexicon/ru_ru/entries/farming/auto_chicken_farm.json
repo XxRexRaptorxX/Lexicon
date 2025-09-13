@@ -1,12 +1,12 @@
 {
-  "name": "Auto Chicken Farm",
+  "name": "Автоматическая ферма кур",
   "icon": "minecraft:cooked_chicken",
   "category": "lexicon:farming",
   "sortnum": 8,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm will give you $(item)Cooked Chicken$() and $(item)Feathers$() automatically when fully loaded. $(br)$(li)The $(item)Gold Blocks$() must be solid blocks to properly conduct $(l:redstone/redstone_behavior)$(item)Redstone$() signal."
+      "text": "Эта ферма будет автоматически давать вам $(item)Жареную курятину$() и $(item)Перья$() при полной загрузке. $(br)$(li)$(item)Золотые блоки$() должны быть полноразмерными блоками, чтобы корректно проводить сигнал $(l:redstone/redstone_behavior)$(item)Редстоуна$()."
     },
     {
       "type": "patchouli:image",
@@ -21,3 +21,4 @@
     }
   ]
 }
+

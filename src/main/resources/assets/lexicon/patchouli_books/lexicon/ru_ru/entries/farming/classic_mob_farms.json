@@ -1,12 +1,12 @@
 {
-  "name": "Classic Mob Farm",
+  "name": "Классическая ферма мобов",
   "icon": "minecraft:skeleton_skull",
   "category": "lexicon:farming",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm doesn't focus on any specific monsters. It let them spawn which then pushed from the $(item)Water$() into a pit where they are killed by $(item)Magma Blocks$(). $(br)The drops are then transported into a $(l:useables/chest)$(item)Chest$() by a $(item)Hopper Minecart$(). $(br2)$(n)A few things to note:$() $(li)The spawn area has to be dark $(li)Make the spawn are only 2 blocks high to prevent $(l:creatures/monster-enderman)$(thing)Enderman$() from spawning $(li)Make the moats at least 2-3 blocks wide, that $(l:creatures/arthropod-spider)$(thing)Spiders$() don't block them"
+      "text": "Эта ферма не фокусируется на каких-либо конкретных монстрах. Она позволяет им появляться, после чего $(item)Вода$() толкает их в яму, где они гибнут от $(item)Блоков магмы$(). $(br)Дроп затем транспортируется в $(l:useables/chest)$(item)Сундук$() с помощью $(item)Вагонетки с воронкой$(). $(br2)$(n)Несколько замечаний:$() $(li)Область спавна должна быть тёмной $(li)Сделайте область спавна высотой лишь 2 блока, чтобы предотвратить появление $(l:creatures/monster-enderman)$(thing)Эндерменов$() $(li)Сделайте канавы шириной как минимум 2–3 блока, чтобы $(l:creatures/arthropod-spider)$(thing)Пауки$() не блокировали их"
     },
     {
       "type": "patchouli:image",
@@ -18,8 +18,8 @@
         "lexicon:textures/pictures/classic_mob_farm_shape_2.png"
       ],
       "border": true,
-      "text": "This farm can be expanded infinitely downwards."
+      "text": "Эту ферму можно бесконечно расширять вниз."
     }
-
   ]
 }
+

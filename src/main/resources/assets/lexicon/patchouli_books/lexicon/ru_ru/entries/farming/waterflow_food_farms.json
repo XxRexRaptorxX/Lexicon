@@ -1,12 +1,12 @@
 {
-  "name": "Waterflow Food Farms",
+  "name": "Фермы еды с потоками воды",
   "icon": "minecraft:wheat",
   "category": "lexicon:farming",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "That's still a simple $(n)semi-auto$() farm for crops that can be destroyed by $(item)Water$() (like $(item)Wheat$(), $(item)Potatoes$(), $(item)Carrots$(),...). $(br2)(The glass is to illustrate the construction) $(br)$(li)Flipping the $(l:redstone/redstone_components#lever)$(item)Lever$() causes the $(l:redstone/redstone_components#piston)$(item)Pistons$() to lower, allowing $(item)Water$() to flow down over the fields and flushing the drops into a $(l:redstone/redstone_components#hopper)$(item)Hopper$() to a $(l:useables/chest)$(item)Chest$()."
+      "text": "Это всё ещё простая $(n)полуавтоматическая$() ферма для культур, которые можно разрушить $(item)Водой$() (например, $(item)Пшеницу$(), $(item)Картофель$(), $(item)Морковь$(),...). $(br2)(Стекло показано для иллюстрации постройки) $(br)$(li)Переключение $(l:redstone/redstone_components#lever)$(item)Рычаг$() опускает $(l:redstone/redstone_components#piston)$(item)Поршни$(), позволяя $(item)Воде$() стекать по полям и смывая дроп в $(l:redstone/redstone_components#hopper)$(item)Воронку$() и далее в $(l:useables/chest)$(item)Сундук$()."
     },
     {
       "type": "patchouli:image",
@@ -17,8 +17,9 @@
         "lexicon:textures/pictures/semi_auto_wheat_farm_4.png"
       ],
       "border": true,
-      "text": "This farm can be expanded infinitely downwards.",
-      "title": "Semi-auto Wheat Farm"
+      "text": "Эту ферму можно бесконечно расширять вниз.",
+      "title": "Полуавтоматическая ферма пшеницы"
     }
   ]
 }
+

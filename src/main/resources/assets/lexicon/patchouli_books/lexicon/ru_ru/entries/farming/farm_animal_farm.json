@@ -1,12 +1,12 @@
 {
-  "name": "Pig/Cow/Sheep Farm",
+  "name": "Ферма свиней/коров/овец",
   "icon": "minecraft:cooked_porkchop",
   "category": "lexicon:farming",
   "sortnum": 7,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Animals such as $(l:creatures/animal-pig)$(thing)Pigs$(), $(l:creatures/animal-cow)$(thing)Cows$() & $(l:creatures/animal-sheep)$(thing)Sheeps$() can be farmed here. $(br2)Some adults have to be caged above and paired so that the babies fall down and are grilled when they grow up."
+      "text": "Здесь можно разводить таких животных, как $(l:creatures/animal-pig)$(thing)Свиньи$(), $(l:creatures/animal-cow)$(thing)Коровы$() и $(l:creatures/animal-sheep)$(thing)Овцы$(). $(br2)Некоторых взрослых нужно держать в клетке сверху и спаривать, чтобы детёныши падали вниз и жарились, когда вырастут."
     },
     {
       "type": "patchouli:image",
@@ -20,3 +20,4 @@
     }
   ]
 }
+

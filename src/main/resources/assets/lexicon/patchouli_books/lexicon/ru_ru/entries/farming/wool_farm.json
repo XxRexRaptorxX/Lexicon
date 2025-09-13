@@ -1,12 +1,12 @@
 {
-  "name": "Wool Farm",
+  "name": "Ферма шерсти",
   "icon": "minecraft:white_wool",
   "category": "lexicon:farming",
   "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm automatically shears the $(l:creatures/animal-sheep)$(thing)Sheep$() by testing with an $(l:redstone/redstone_components#observer)$(item)Observer$() if the $(l:creatures/animal-sheep)$(thing)Sheep$() have grown new $(item)Wool$() from eating the $(item)Grass$() block. $(br2)It's important that there are still additional $(item)Grass$() blocks to let the $(item)Dirt$() grow back."
+      "text": "Эта ферма автоматически стрижёт $(l:creatures/animal-sheep)$(thing)Овец$(), проверяя с помощью $(l:redstone/redstone_components#observer)$(item)Наблюдателя$(), выросла ли у $(l:creatures/animal-sheep)$(thing)Овец$() новая $(item)Шерсть$() после поедания $(item)Блока травы$(). $(br2)Важно, чтобы поблизости были дополнительные $(item)Блоки травы$(), позволяющие $(item)Земле$() снова зарастать."
     },
     {
       "type": "patchouli:image",
@@ -18,3 +18,4 @@
     }
   ]
 }
+

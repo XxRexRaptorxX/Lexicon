@@ -1,12 +1,12 @@
 {
-  "name": "Auto Cactus Farm",
+  "name": "Автоматическая ферма кактусов",
   "icon": "minecraft:cactus",
   "category": "lexicon:farming",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This simple farm uses the property that $(item)Cactus$() breaks and drops when it touches another block. $(br2)The drops are then fed to a $(l:redstone/redstone_components#hopper)$(item)Hopper$() using $(item)Water$(). $(br2)The $(item)$(l:redstone/redstone_components#hopper)Hopper$() then transports the items to a $(l:useables/chest)$(item)Chest$()."
+      "text": "Эта простая ферма использует свойство $(item)Кактуса$(), который ломается и выпадает при соприкосновении с другим блоком. $(br2)Дроп затем с помощью $(item)Воды$() направляется в $(l:redstone/redstone_components#hopper)$(item)Воронку$(). $(br2)$(item)$(l:redstone/redstone_components#hopper)Воронка$() затем переносит предметы в $(l:useables/chest)$(item)Сундук$()."
     },
     {
       "type": "patchouli:image",
@@ -19,3 +19,4 @@
     }
   ]
 }
+

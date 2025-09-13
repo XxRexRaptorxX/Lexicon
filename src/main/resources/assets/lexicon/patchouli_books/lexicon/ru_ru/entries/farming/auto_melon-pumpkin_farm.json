@@ -1,12 +1,12 @@
 {
-  "name": "Auto Melon/Pumpkin Farm",
+  "name": "Автоматическая ферма арбузов/тыкв",
   "icon": "minecraft:melon_slice",
   "category": "lexicon:farming",
   "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This farm will harvest $(item)Melons$() or $(item)Pumpkins$() automatically for you."
+      "text": "Эта ферма будет автоматически собирать для вас $(item)Арбузы$() или $(item)Тыквы$()."
     },
     {
       "type": "patchouli:image",
@@ -16,7 +16,8 @@
         "lexicon:textures/pictures/auto_melon_farm_3.png"
       ],
       "border": true,
-      "text": "This farm can be expanded sideways."
+      "text": "Эту ферму можно расширять в ширину."
     }
   ]
 }
+

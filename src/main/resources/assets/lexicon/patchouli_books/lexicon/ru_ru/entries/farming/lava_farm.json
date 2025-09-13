@@ -1,12 +1,12 @@
 {
-  "name": "Auto Lava/Water Farm",
+  "name": "Автоферма лавы/воды",
   "icon": "minecraft:lava_bucket",
   "category": "lexicon:farming",
   "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This simple farm uses the fact that $(item)Dripstones$() drain liquids that are above them downwards, so that they can be slowly collected with $(item)Cauldrons$(). $(br2)This does not use up the liquids."
+      "text": "Эта простая ферма использует то, что $(item)Капельники$() сливают находящиеся над ними жидкости вниз, так что их можно медленно собирать в $(item)Котлы$(). $(br2)Это не расходует сами жидкости."
     },
     {
       "type": "patchouli:image",
@@ -17,3 +17,4 @@
     }
   ]
 }
+
