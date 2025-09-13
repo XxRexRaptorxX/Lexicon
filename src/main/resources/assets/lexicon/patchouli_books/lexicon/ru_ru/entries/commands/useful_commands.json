@@ -1,20 +1,20 @@
 {
-  "name": "Useful Commands",
+  "name": "Полезные команды",
   "icon": "minecraft:command_block",
   "category": "lexicon:commands",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l)/help$() shows a list of all commands$(br2)$(l)/help <command>$() shows usages of selected command  $(br2)$(l)/clear$() clears all items in the inventory$(br2)$(l)/gamemode$() changes your gamemode $(br2)$(l)/gamerule$() sets a gamerule $(br2)$(l)/xp$() add or remove xp  $(br2)$(l)/kill$() kills entities  $(br2)$(l)/locate$() Locates the closest structure, biome or point of interest"
+      "text": "$(l)/help$() показывает список всех команд$(br2)$(l)/help <command>$() показывает использование выбранной команды  $(br2)$(l)/clear$() очищает все предметы в инвентаре$(br2)$(l)/gamemode$() изменяет ваш режим игры $(br2)$(l)/gamerule$() устанавливает правило игры$(br2)$(l)/xp$() добавляет или удаляет опыт  $(br2)$(l)/kill$() убивает сущности  $(br2)$(l)/locate$() находит ближайшую структуру, биом или точку интереса"
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)/setblock$() changes a block to another  $(br2)$(l)/fill$() fill a region with a specific block  $(br2)$(l)/summon$() spawns a entity $(br2)$(l)/time$() changes the world time $(br2)$(l)/tp$() teleports  $(br2)$(l)/ban$() ban player from a server  $(br2)$(l)/spawnpoint$() set the player's spawnpoint  $(br2)$(l)/setworldspawn$() sets the world spawn  $(br2)$(l)/weather$() controls the weather"
+      "text": "$(l)/setblock$() заменяет блок $(br2)$(l)/fill$() заполняет область указанным блоком  $(br2)$(l)/summon$() призывает сущность $(br2)$(l)/time$() изменяет время мира $(br2)$(l)/tp$() телепортирует  $(br2)$(l)/ban$() банит игрока на сервере  $(br2)$(l)/spawnpoint$() устанавливает точку возрождения игрока  $(br2)$(l)/setworldspawn$() устанавливает мировую точку возрождения  $(br2)$(l)/weather$() управляет погодой"
     },
     {
       "type": "patchouli:text",
-      "text": "A list of all commands and it's detailed description can be found in the $(l:https://minecraft.wiki/w/Commands)Minecraft Wiki$()."
+      "text": "Полный список всех команд и их подробное описание можно найти на $(l:https://minecraft.wiki/w/Commands)Minecraft Wiki$()."
     }
   ]
 }

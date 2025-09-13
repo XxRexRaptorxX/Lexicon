@@ -1,16 +1,16 @@
 {
-  "name": "Command Syntax",
+  "name": "Синтаксис команд",
   "icon": "minecraft:name_tag",
   "category": "lexicon:commands",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The syntax shows you which arguments are possible for the individual keywords of the commands. $(br2)You can see the syntax in the $(l)/help$() command or on sites like the $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
+      "text": "Синтаксис показывает, какие аргументы возможны для отдельных ключевых слов команд. $(br2)Вы можете увидеть синтаксис в команде $(l)/help$() или на сайтах вроде $(l:https://minecraft.fandom.com/wiki/Commands)Minecraft Wiki$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(l)plain text$() = command text$(br2)$(l)<argument>$() = argument that should replaced with the value$(br2)$(l)<entry>$() = optional entry $(br2)$(l)(entry|entry)$() = Pick one of the required entries $(br2)$(l)[entry|entry]$() = Pick one of the optional entries $(br2)$(l)ellipsis ...$() = another sub-command required"
+      "text": "$(l)обычный текст$() = текст команды$(br2)$(l)<аргумент>$() = аргумент, который следует заменить значением$(br2)$(l)<запись>$() = необязательная запись $(br2)$(l)(запись|запись)$() = выберите одну из требуемых записей $(br2)$(l)[запись|запись]$() = выберите одну из необязательных записей $(br2)$(l)многоточие ...$() = требуется другая подкоманда"
     }
   ]
 }
