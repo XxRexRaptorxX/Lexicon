@@ -1,11 +1,11 @@
 {
-  "name": "Operator Items",
+  "name": "Операторские предметы",
   "icon": "minecraft:command_block",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "In the operator utilities you will find functional items and blocks that are primarily intended for server owners, creators, map makers or experienced users. $(br2)They are only accessible via the $(l)/give$() $(l:commands)$(thing)Command$() or in the creative inventory by activating it at $(n)$(o)options/controls/operator item tab$()."
+      "text": "В разделе операторских утилит находятся функциональные предметы и блоки, предназначенные в основном для владельцев серверов, создателей карт или опытных игроков. $(br2)Они доступны только через $(l)/give$() $(l:commands)$(thing)Command$() или в творческом инвентаре при активации $(n)$(o)options/controls/operator item tab$()."
     },
     {
       "type": "patchouli:image",
@@ -17,7 +17,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(n)Operator Utilities:$() $(br)$(li)$(l:redstone/redstone_components#command_block)$(item)Command Blocks$(): Can execute commands $(br)$(li)$(l:redstone/redstone_components#structure_block)$(item)Structure Blocks$(): Can export, import or save structures $(br)$(li)$(item)Light Blocks$(): A invisible light source $(br)$(li)$(item)Barrier Block$(): A invisible indestructible barrier $(br)$(li)$(item)Debug Stick$(): A tool for changing block states"
+      "text": "$(n)Операторские утилиты:$() $(br)$(li)$(l:redstone/redstone_components#command_block)$(item)Command Blocks$(): выполняют команды $(br)$(li)$(l:redstone/redstone_components#structure_block)$(item)Structure Blocks$(): экспорт, импорт и сохранение структур $(br)$(li)$(item)Light Blocks$(): невидимый источник света $(br)$(li)$(item)Barrier Block$(): невидимый неразрушимый барьер $(br)$(li)$(item)Debug Stick$(): инструмент для изменения состояний блоков"
     }
   ]
 }

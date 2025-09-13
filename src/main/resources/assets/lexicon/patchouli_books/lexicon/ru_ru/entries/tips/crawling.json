@@ -1,11 +1,11 @@
 {
-  "name": "Crawling",
+  "name": "Ползание",
   "icon": "minecraft:player_head",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Crawling is a mechanic that prevents the $(l:creatures/human-player)$(thing)Players$() from suffocating when inside small gaps. $(br2)Crawling covers a pose that occurs when the $(l:creatures/human-player)$(thing)Players$() is in an area less than 1.5 blocks high. $(br2)The crawling speed equals sneaking speed."
+      "text": "Ползание — механика, предотвращающая удушье $(l:creatures/human-player)$(thing)Players$() в узких проходах. $(br2)Ползание — это поза, возникающая, когда $(l:creatures/human-player)$(thing)Players$() находятся в области менее 1.5 блока высотой. $(br2)Скорость ползания равна скорости красться."
     },
     {
       "type": "patchouli:image",
@@ -13,16 +13,16 @@
         "lexicon:textures/pictures/crawling.png"
       ],
       "border": false,
-      "text": "The speed can be increased with the $(l:enchanting/enchantments#swift_sneak)$(thing)Swift Sneak$() enchantment."
+      "text": "Скорость можно увеличить зачарованием $(l:enchanting/enchantments#swift_sneak)$(thing)Swift Sneak$()."
     },
     {
       "type": "patchouli:text",
-      "title": "Entering crawling",
-      "text": "Crawling is initiated automatically in any situation that would cause the player's head to intersect a block in such a way that the area underneath the block is less than 1.5 blocks. $(br2)$(n)For example:$() $(li)Closing a $(l:redstone/redstone_components#trapdoor)$(item)Trapdoor$() on the $(l:creatures/human-player)$(thing)Player$() $(li)Closing a $(item)Fence Gate$() when it is at the same altitude as the head $(li)Using a $(l:redstone/redstone_components#piston)$(item)Piston$() to push a block into the $(l:creatures/human-player)$(thing)Player$()"
+      "title": "Вход в ползание",
+      "text": "Ползание включается автоматически, если голова игрока пересекает блок так, что пространство под блоком меньше 1.5 блока. $(br2)$(n)Например:$() $(li)Закрытие $(l:redstone/redstone_components#trapdoor)$(item)Trapdoor$() над $(l:creatures/human-player)$(thing)Player$() $(li)Закрытие $(item)Fence Gate$() на уровне головы $(li)$(l:redstone/redstone_components#piston)$(item)Piston$() толкает блок в $(l:creatures/human-player)$(thing)Player$()"
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Exiting swimming mode in a one-block-high space $(li)Exiting $(item)Elytra$() mode in a one-block-high space $(li)Throwing an $(item)Ender Pearl$() into a one block space $(li)Having a $(l:useables/shulker_box)$(item)Shulker Box$() push the $(l:creatures/human-player)$(thing)Player$() down $(li)Getting off a $(l:creatures/animal-pig)$(thing)Pig$() with a $(item)Saddle$() if it's under a one-block-high space $(li)Having a $(item)Boat$() land on the player's head"
+      "text": "$(li)Выход из режима плавания в одноблочном пространстве $(li)Выход из режима $(item)Elytra$() в одноблочном пространстве $(li)Бросок $(item)Ender Pearl$() в одноблочное пространство $(li)$(l:useables/shulker_box)$(item)Shulker Box$() толкает $(l:creatures/human-player)$(thing)Player$() вниз $(li)Спрыгивание со $(l:creatures/animal-pig)$(thing)Pig$() с $(item)Saddle$() под одноблочным потолком $(li)Когда $(item)Boat$() падает на голову игрока"
     }
   ]
 }

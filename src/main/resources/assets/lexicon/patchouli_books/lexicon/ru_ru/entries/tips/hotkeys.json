@@ -1,30 +1,30 @@
 {
-  "name": "Hotkeys",
+  "name": "Горячие клавиши",
   "icon": "minecraft:debug_stick",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here is a list of the default hotkeys: $(br2)$(l)[F1]$() Toggles HUD $(br)$(l)[F2]$() Takes a screenshot $(br)$(l)[F3]$() Toggles debug menu $(br)$(l)[F5]$() Toggle perspectives $(br)$(l)[F11]$() Toggle fullscreen $(br)$(l)[Esc]$() Opens the game menu $(br)$(l)[Q]$() Drop item $(br)$(l)[Ctrl] + [Q]$() Drop item stack $(br)$(l)[E]$() Open Inventory $(br)$(l)[F]$() Swap held items to offhand $(br)$(l)[L]$() Advancements"
+      "text": "Вот список стандартных горячих клавиш: $(br2)$(l)[F1]$() скрыть HUD $(br)$(l)[F2]$() сделать снимок экрана $(br)$(l)[F3]$() открыть меню отладки $(br)$(l)[F5]$() сменить перспективу $(br)$(l)[F11]$() переключить полноэкранный режим $(br)$(l)[Esc]$() открыть меню игры $(br)$(l)[Q]$() выбросить предмет $(br)$(l)[Ctrl] + [Q]$() выбросить стопку $(br)$(l)[E]$() открыть инвентарь $(br)$(l)[F]$() переложить предмет в другую руку $(br)$(l)[L]$() достижения"
     },
     {
       "type": "patchouli:text",
-      "title": "Debug Menu hotkeys",
-      "text": "If you are in the debug menu $(l)[F3]$(), you have additional hotkeys available: $(br2)$(l)[1-9]$() A more detailed view of the graph $(br)$(l)[0]$() Displays a less displayed graph $(br)$(l)[F3] + [1]$() Display profiler graph$(br)$(l)[F3] + [Q]$() Displays help menu with all debug hotkeys $(br)$(l)[F3] + [A]$() Reloads all chunks $(br)$(l)[F3] + [T]$() Reloads resourcepacks"
+      "title": "Горячие клавиши отладки",
+      "text": "Если открыто меню отладки $(l)[F3]$(), доступны дополнительные сочетания: $(br2)$(l)[1-9]$() более детальный график $(br)$(l)[0]$() менее детальный график $(br)$(l)[F3] + [1]$() показать график профайлера $(br)$(l)[F3] + [Q]$() помощь по горячим клавишам $(br)$(l)[F3] + [A]$() перезагрузить все чанки $(br)$(l)[F3] + [T]$() перезагрузить ресурспаки"
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)$(l)[F3] + [P]$() Toggle the auto-pause for menus $(br)$(l)[F3] + [H]$() Toggle detailed item description $(br)$(l)[F3] + [C]$() Hold for 10s to trigger a manual debug crash $(br)$(l)[F3] + [B]$() Toggle showing hitboxes $(br)$(l)[F3] + [D]$() Clear chat history $(br)$(l)[F3] + [N]$() Cycles between gamemodes $(br)$(l)[F3] + [G]$() Show the chunk boundaries"
+      "text": "$(br)$(l)[F3] + [P]$() переключить автопаузу меню $(br)$(l)[F3] + [H]$() подробное описание предмета $(br)$(l)[F3] + [C]$() удерживайте 10с для ручного краша $(br)$(l)[F3] + [B]$() показать хитбоксы $(br)$(l)[F3] + [D]$() очистить историю чата $(br)$(l)[F3] + [N]$() сменить режим игры $(br)$(l)[F3] + [G]$() показать границы чанков"
     },
     {
       "type": "patchouli:text",
-      "title": "Creative Mode hotkeys",
-      "text": "If you are in the creative menu, you can use shortcuts to save and load the blocks in your hotbar: $(br2)$(l)[X] + [1-9]$() Loads Toolbar Activator $(br)$(l)[C] + [1-9]$() Saves Toolbar Activator"
+      "title": "Горячие клавиши творческого режима",
+      "text": "В творческом меню можно сохранять и загружать панели инструментов: $(br2)$(l)[X] + [1-9]$() загрузить панель $(br)$(l)[C] + [1-9]$() сохранить панель"
     },
     {
       "type": "patchouli:text",
-      "title": "Multiplayer hotkeys",
-      "text": "$(br)$(l)[TAB]$() See the list of players $(br)$(l)[T]$() Open chat $(br)$(l)[/]$() Open chat for commands"
+      "title": "Горячие клавиши мультиплеера",
+      "text": "$(br)$(l)[TAB]$() список игроков $(br)$(l)[T]$() открыть чат $(br)$(l)[/]$() открыть чат для команд"
     }
   ]
 }

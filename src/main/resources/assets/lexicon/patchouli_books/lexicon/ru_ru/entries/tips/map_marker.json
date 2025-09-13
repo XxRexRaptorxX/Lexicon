@@ -1,11 +1,11 @@
 {
-  "name": "Map Marker",
+  "name": "Метка на карте",
   "icon": "minecraft:filled_map",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Using on a $(item)Banner$() with a $(item)Map$() selected places a marker of the banner's position on the selected $(item)Map$(), and using on the $(item)Banner$() again removes the marker. $(br2)The marker has the same color as the banner. $(br2)The marker is removed if the banner is destroyed unless the map is locked using a $(l:useables/cartography_table)$(item)Cartography Table$()."
+      "text": "Использование $(item)Map$() на $(item)Banner$() ставит на карту маркер положения знамени, повторное использование удаляет маркер. $(br2)Маркер имеет тот же цвет, что и знамя. $(br2)Маркер удаляется, если знамя разрушено, если только карту не заперли на $(l:useables/cartography_table)$(item)Cartography Table$()."
     },
     {
       "type": "patchouli:image",
@@ -18,13 +18,13 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:map",
       "recipe2": "minecraft:cartography_table",
-      "text": "$(br)If the banner is renamed, the name appears below the marker."
+      "text": "$(br)Если знамя переименовано, имя появится под маркером."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:light_blue_banner",
       "recipe2": "minecraft:red_banner",
-      "text": "$(item)Banners$() can have different colors."
+      "text": "$(item)Banners$() могут быть разных цветов."
     }
   ]
 }

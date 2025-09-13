@@ -1,12 +1,12 @@
 {
-  "name": "Item Transportation",
+  "name": "Транспортировка предметов",
   "icon": "minecraft:dropper",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Hopper",
-      "text": "By placing a line of $(l:redstone/redstone_components#hopper)$(item)Hoppers$() all pointing into each other, items can be transported in all directions except up. $(br2)On large scale, $(l:redstone/redstone_components#hopper)$(item)Hoppers$() have been known to create lag."
+      "title": "Хоппер",
+      "text": "Разместив ряд $(l:redstone/redstone_components#hopper)$(item)Hoppers$(), направленных друг в друга, можно перевозить предметы во всех направлениях, кроме вверх. $(br2)При большом количестве $(l:redstone/redstone_components#hopper)$(item)Hoppers$() могут вызывать лаги."
     },
     {
       "type": "patchouli:image",
@@ -18,8 +18,8 @@
     },
     {
       "type": "patchouli:text",
-      "title": "Water streams",
-      "text": "A less iron expensive method is the use of $(item)Water$() streams. This uses the mechanic of dropped items moving in flowing water streams. $(br2)Since $(item)Water$() can only flow 7 blocks from the source, it is usually necessary to use multiple sources. To handle the breaks, a $(item)Packed Ice$() block and $(item)Sign$() can be used. When the items come out of one stream, they will slide across the ice to the next."
+      "title": "Водные потоки",
+      "text": "Менее затратный по железу способ — использовать потоки $(item)Water$(). Он основан на механике перемещения выпавших предметов течением. $(br2)Так как $(item)Water$() течёт только на 7 блоков от источника, обычно требуется несколько источников. Чтобы преодолеть промежутки, можно использовать блок $(item)Packed Ice$() и $(item)Sign$(): предметы будут скользить по льду к следующему потоку."
     },
     {
       "type": "patchouli:image",
@@ -27,12 +27,12 @@
         "lexicon:textures/pictures/water_transportation.png"
       ],
       "border": true,
-      "text": "Water flowing on $(item)Packed Ice$() or $(item)Blue Ice$() makes the items go faster, reducing the delay."
+      "text": "Вода, текущая по $(item)Packed Ice$() или $(item)Blue Ice$(), ускоряет предметы, уменьшая задержку."
     },
     {
-      "title": "Water elevators",
+      "title": "Водяные лифты",
       "type": "patchouli:text",
-      "text": "When a $(item)Water$() $(n)source$() is directly above a $(item)Magma Block$(), a whirlpool bubble column is created, going downward from the highest source block. $(br)Anything encountering the bubble column is pulled down, including items, $(item)Boats$(), $(l:creatures/human-player)$(thing)Players$() and mobs. $(br2)And $(item)Soulsand$() do the same thing upwards."
+      "text": "Если источник $(item)Water$() находится прямо над $(item)Magma Block$(), создаётся пузырьковая колонна, тянущая вниз от верхнего источника. $(br)Всё, что попадёт в неё — предметы, $(item)Boats$(), $(l:creatures/human-player)$(thing)Players$() и мобы — затягивается вниз. $(br2)$(item)Soulsand$() делает то же самое вверх."
     },
     {
       "type": "patchouli:image",
@@ -42,9 +42,9 @@
       "border": true
     },
     {
-      "title": "Rails",
+      "title": "Рельсы",
       "type": "patchouli:text",
-      "text": "Items can also be transported on $(item)Rails$(), they can be transferred into and out of $(item)Minecart with a Chest$() using $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
+      "text": "Предметы также можно перевозить по $(item)Rails$(): их можно загружать в $(item)Minecart with a Chest$() и выгружать из неё с помощью $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
     },
     {
       "type": "patchouli:image",
@@ -54,13 +54,13 @@
       "border": true
     },
     {
-      "title": "Dropper",
+      "title": "Выбрасыватель",
       "type": "patchouli:text",
-      "text": "$(l:redstone/redstone_components#dropper)$(item)Dropper$() transportation usually work by having a line of them pointing into each other. $(br2)When the $(l:redstone/redstone_components#dropper)$(item)Droppers$() are powered, items can travel to the next $(l:redstone/redstone_components#dropper)$(item)Dropper$(). $(br2)This works in all directions."
+      "text": "Транспорт с $(l:redstone/redstone_components#dropper)$(item)Dropper$() обычно строится из цепочки, направленной друг в друга. $(br2)Когда $(l:redstone/redstone_components#dropper)$(item)Droppers$() активируются, предметы перемещаются в следующий $(l:redstone/redstone_components#dropper)$(item)Dropper$(). $(br2)Это работает во всех направлениях."
     },
     {
       "type": "patchouli:multiblock",
-      "text": "This design is a self powering item elevator.",
+      "text": "Эта конструкция — самопитающийся лифт для предметов.",
       "multiblock": {
         "pattern": [
           [
@@ -104,9 +104,9 @@
       }
     },
     {
-      "title": "Allays",
+      "title": "Аллеи",
       "type": "patchouli:text",
-      "text": "$(l:creatures/animal-allay)$(thing)Allays$() collect and delivers items for any $(l:creatures/human-player)$(thing)Player$() that gives it something, or any $(l:redstone/redstone_components#noteblock)$(item)Noteblock$() it hears."
+      "text": "$(l:creatures/animal-allay)$(thing)Allays$() собирают и доставляют предметы любому $(l:creatures/human-player)$(thing)Player$(), который дал им предмет, или к любому $(l:redstone/redstone_components#noteblock)$(item)Noteblock$(), который они слышат."
     },
     {
       "type": "patchouli:entity",

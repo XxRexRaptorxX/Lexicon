@@ -1,11 +1,11 @@
 {
-  "name": "Get your own Head",
+  "name": "Получить свою голову",
   "icon": "minecraft:player_head",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "You can get your own $(l:rare/mob_head)$(item)Head$() with your $(l:creatures/human-player)$(thing)Player$() skin in game with a simple $(l:commands)$(thing)Command$(): $(br2)/give @p minecraft:player_head{SkullOwner:$(o)PLAYER_NAME$()}"
+      "text": "Вы можете получить собственную $(l:rare/mob_head)$(item)Head$() со своим скином простой $(l:commands)$(thing)Command$(): $(br2)/give @p minecraft:player_head{SkullOwner:$(o)PLAYER_NAME$()}"
     },
     {
       "type": "patchouli:image",

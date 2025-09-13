@@ -1,11 +1,11 @@
 {
-  "name": "Carpet Fence Trick",
+  "name": "Фокус с ковром на заборе",
   "icon": "minecraft:cyan_carpet",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Carpets$() on $(item)Fences$() have a special property, they allow you to easily climb over the $(thing)Fence$(), but prevent animals and monsters from climbing over them. $(br2)That can be used for enclosures and monster defense screens."
+      "text": "$(item)Carpets$() на $(item)Fences$() имеют особое свойство: они позволяют вам легко перелезать через $(thing)Fence$(), но мешают животным и монстрам. $(br2)Это можно использовать для загонов и защитных ограждений."
     },
     {
       "type": "patchouli:image",

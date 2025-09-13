@@ -1,11 +1,11 @@
 {
-  "name": "Obsidian Generation",
+  "name": "Получение обсидиана",
   "icon": "minecraft:obsidian",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Obsidian$() is formed when $(item)Flowing Water$() touches a $(item)Lava Source$() block, and can be found naturally where $(item)Water$() from a spring or lake has flowed over a nearby $(item)Lava$() pool."
+      "text": "$(item)Obsidian$() образуется, когда $(item)Flowing Water$() соприкасается с $(item)Lava Source$(), и его можно найти там, где $(item)Water$() из источника или озера затекает на $(item)Lava$()."
     },
     {
       "type": "patchouli:image",

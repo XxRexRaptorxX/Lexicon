@@ -1,11 +1,11 @@
 {
-  "name": "Boat Trap",
+  "name": "Ловушка из лодки",
   "icon": "minecraft:oak_boat",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Boats$() can be used to fend off mobs. $(br2)You just have to put them in their way and they get trapped in the $(item)Boat$()."
+      "text": "$(item)Boats$() можно использовать, чтобы отражать мобов. $(br2)Просто поставьте их на пути, и они окажутся в ловушке $(item)Boat$()."
     },
     {
       "type": "patchouli:image",

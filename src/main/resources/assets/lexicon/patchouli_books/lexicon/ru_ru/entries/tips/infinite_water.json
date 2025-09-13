@@ -1,11 +1,11 @@
 {
-  "name": "Infinite Water",
+  "name": "Бесконечная вода",
   "icon": "minecraft:water_bucket",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)The simplest infinite water source:$() $(br)$(li)$(n)Step 1:$() Dig a hole 1 block down, 2 blocks wide and 2 blocks long. $(br)$(li)$(n)Step 2:$() Fill in 2 opposite corners with $(item)Water$() source blocks. $(br)$(li)$(n)Step 3:$() Get a $(item)Bucket$() and take all the $(item)Water$() you want!"
+      "text": "$(n)Самый простой источник бесконечной воды:$() $(br)$(li)$(n)Шаг 1:$() выкопайте яму глубиной 1 блок, шириной 2 и длиной 2 блока. $(br)$(li)$(n)Шаг 2:$() заполните два противоположных угла источниками $(item)Water$(). $(br)$(li)$(n)Шаг 3:$() возьмите $(item)Bucket$() и набирайте сколько угодно $(item)Water$()!"
     },
     {
       "type": "patchouli:image",

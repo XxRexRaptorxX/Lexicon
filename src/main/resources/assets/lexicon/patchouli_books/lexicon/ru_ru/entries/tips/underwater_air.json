@@ -1,11 +1,11 @@
 {
-  "name": "Air underwater",
+  "name": "Воздух под водой",
   "icon": "minecraft:water_bucket",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If a $(item)Turtle Shell$() or $(l:brewing/brewing)$(item)Potion of Water Breathing$() is not available at the moment, theres also simpler tricks to be used. $(br2)If you place a block that is smaller than a full block underwater, air is created that you can breathe."
+      "text": "Если нет $(item)Turtle Shell$() или $(l:brewing/brewing)$(item)Potion of Water Breathing$(), есть простой трюк. $(br2)Если под водой поставить блок меньше полного блока, образуется воздух, которым можно дышать."
     },
     {
       "type": "patchouli:image",

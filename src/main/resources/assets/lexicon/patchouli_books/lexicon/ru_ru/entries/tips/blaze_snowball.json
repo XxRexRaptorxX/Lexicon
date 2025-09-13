@@ -1,11 +1,11 @@
 {
-  "name": "Snowballs against Blazes",
+  "name": "Снежки против ифритов",
   "icon": "minecraft:snowball",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l:creatures/monster-blaze)$(thing)Blazes$() can be quite dangerous, but they have a big weak point, they take damage from $(item)Snowballs$(). $(br2)The good thing is that these are easy to obtain."
+      "text": "$(l:creatures/monster-blaze)$(thing)Blazes$() могут быть очень опасны, но у них есть большое слабое место — они получают урон от $(item)Snowballs$(). $(br2)Хорошая новость в том, что их легко добыть."
     },
     {
       "type": "patchouli:image",

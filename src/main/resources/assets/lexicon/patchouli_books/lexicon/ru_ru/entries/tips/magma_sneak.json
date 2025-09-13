@@ -1,11 +1,11 @@
 {
-  "name": "Magma Block Damage",
+  "name": "Урон от блока магмы",
   "icon": "minecraft:magma_block",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Magma Blocks$() damage most living entities standing on top of them, even if underwater. $(br2)The $(l:creatures/human-player)$(thing)Player$() can avoid all damage by sneaking, being under the $(l:brewing/effect#fire_resistance)$(thing)Fire Resistance$() effect, or by wearing $(l:enchanting/enchantments#frost_walker)$(thing)Frost Walker$() $(item)Boots$()."
+      "text": "$(item)Magma Blocks$() наносят урон большинству живых сущностей, стоящих на них, даже под водой. $(br2)$(l:creatures/human-player)$(thing)Player$() может избежать урона, если крадётся, находится под эффектом $(l:brewing/effect#fire_resistance)$(thing)Fire Resistance$() или носит ботинки с зачарованием $(l:enchanting/enchantments#frost_walker)$(thing)Frost Walker$()."
     },
     {
       "type": "patchouli:image",

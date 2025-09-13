@@ -1,21 +1,21 @@
 {
-  "name": "Useful Nametags",
+  "name": "Полезные бирки",
   "icon": "minecraft:name_tag",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(item)Name Tag$() is an item used to name mobs in the world and prevent them from $(n)despawning$() naturally."
+      "text": "$(item)Name Tag$() используется для именования мобов и предотвращения их естественного $(n)despawning$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:anvil",
       "title": " ",
-      "text": "To use a tag, it must first be renamed with an $(l:useables/anvil)$(item)Anvil$(), costing 1 experience level."
+      "text": "Чтобы использовать бирку, её нужно переименовать на $(l:useables/anvil)$(item)Anvil$(), что стоит 1 уровень опыта."
     },
     {
       "type": "patchouli:text",
-      "text": "$(n)Easter Eggs:$() $(br)$(li)Most mobs named $(o)Dinnerbone$() or $(o)Grumm$() causes it to render upside-down. $(br)$(li)Naming a $(l:creatures/animal-sheep)$(thing)Sheep$() $(o)jeb_$() causes it's wool to fade between the dye colors, producing a rainbow effect. $(br)$(li)Naming a $(l:creatures/animal-rabbit)$(thing)Rabbit$() $(o)Toast$() causes it to hava a special skin. $(br)$(li)Naming a $(l:creatures/human-vindicator)$(thing)Vindicator$() $(o)Johnny$() causes it to be aggressive to all mobs."
+      "text": "$(n)Пасхалки:$() $(br)$(li)Большинство мобов с именем $(o)Dinnerbone$() или $(o)Grumm$() отображаются вверх ногами. $(br)$(li)Название $(l:creatures/animal-sheep)$(thing)Sheep$() $(o)jeb_$() заставляет её шерсть переливаться всеми цветами. $(br)$(li)$(l:creatures/animal-rabbit)$(thing)Rabbit$() по имени $(o)Toast$() получает особую текстуру. $(br)$(li)$(l:creatures/human-vindicator)$(thing)Vindicator$() по имени $(o)Johnny$() становится агрессивным ко всем мобам."
     },
     {
       "type": "patchouli:image",

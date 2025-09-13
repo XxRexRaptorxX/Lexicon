@@ -1,15 +1,15 @@
 {
-  "name": "Lightning Effects",
+  "name": "Эффекты молнии",
   "icon": "minecraft:lightning_rod",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Lightning is spawned during a thunderstorm with higher chances on a $(item)Lightning Rod$() or when a $(item)Trident$() enchanted with $(l:enchanting/enchantments#channeling)$(thing)Channeling$() is thrown. $(br2)$(n)Lightning bolts can have many different effects:$() $(li)Hurt entities and set them on fire$(br)$(li)Creates fires on impact $(br)$(li)Spawns with a 0.75-6.75% chance a $(thing)Skeleton Trap Horse$() which transforms into 4 $(thing)Skeletal Horsemen$() when triggered"
+      "text": "Молния появляется во время грозы чаще на $(item)Lightning Rod$() или если бросить $(item)Trident$() с зачарованием $(l:enchanting/enchantments#channeling)$(thing)Channeling$(). $(br2)$(n)Молния может:$() $(li)Наносить урон сущностям и поджигать их$(br)$(li)Поджигать блоки при ударе $(br)$(li)С шансом 0.75–6.75% призывать $(thing)Skeleton Trap Horse$(), который превращается в 4 $(thing)Skeletal Horsemen$() при активации"
     },
     {
       "type": "patchouli:text",
-      "text": "$(n)A lightning strike affects certain mobs differently:$() $(br)$(li)A $(thing)$(l:creatures/animal-pig)Pig$() turns into a $(l:creatures/undead-zombified_piglin)$(thing)Zombified Piglin$() $(br)$(li)A $(l:creatures/monster-creeper)$(thing)Creeper$() becomes a $(l:creatures/monster-creeper)$(thing)Charged Creeper$() $(br)$(li)A $(l:creatures/human-villager)$(thing)Villager$() turns into a $(l:creatures/human-witch)$(thing)Witch$() $(br)$(li)A Red $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() turns into a Brown $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() $(br)$(li)A Brown $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() turns into a Red $(l:creatures/animal-mooshroom)$(thing)Mooshroom$()"
+      "text": "$(n)Удар молнии по-разному влияет на некоторых мобов:$() $(br)$(li)$(l:creatures/animal-pig)$(thing)Pig$() превращается в $(l:creatures/undead-zombified_piglin)$(thing)Zombified Piglin$() $(br)$(li)$(l:creatures/monster-creeper)$(thing)Creeper$() становится $(l:creatures/monster-creeper)$(thing)Charged Creeper$() $(br)$(li)$(l:creatures/human-villager)$(thing)Villager$() превращается в $(l:creatures/human-witch)$(thing)Witch$() $(br)$(li)Красный $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() становится бурым $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() $(br)$(li)Бурый $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() становится красным $(l:creatures/animal-mooshroom)$(thing)Mooshroom$()"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "Save Holes",
+  "name": "Спасительные норы",
   "icon": "minecraft:stone",
   "category": "lexicon:tips_tricks",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Some monsters can be tricked by hiding in a hole smaller than your opponent's and attacking them from there. $(br2)But you can also build your way up until the opponent can no longer reach you."
+      "text": "Некоторых монстров можно обмануть, спрятавшись в яме, меньшей по размеру, чем у противника, и атакуя их оттуда. $(br2)Также можно построиться вверх, пока противник не сможет достать вас."
     },
     {
       "type": "patchouli:image",
