@@ -1,12 +1,12 @@
 {
-  "name": "Redstone Circuits",
+  "name": "Редстоун-схемы",
   "icon": "minecraft:comparator",
   "category": "lexicon:redstone",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A logic gate can be thought of as a simple device that will return a number of outputs, determined by the pattern of inputs and rules that the logic gate follows. $(br2)These gates can be used to build large circuits for machines. $(br2)The $(l:redstone/redstone_components#lever)$(item)Lever$() in this circuits represent inputs and the $(l:redstone/redstone_components#lamp)$(item)Lamps$() the output."
+      "text": "Логический элемент — это простое устройство, которое выдаёт определённый результат в зависимости от набора входов и правил. $(br2)Такие элементы используются для построения больших схем для механизмов. $(br2)$(l:redstone/redstone_components#lever)$(item)Рычаг$() в этих схемах обозначает вход, а $(l:redstone/redstone_components#lamp)$(item)лампа$() — выход."
     },
     {
       "type": "patchouli:multiblock",
@@ -28,8 +28,8 @@
             "O": "minecraft:redstone_lamp[lit=true]"
           }
       },
-        "name": "NOT-Gate",
-        "text": "Also known as inverter. $(br)This gate is used when an opposite output is wanted from the input given."
+        "name": "Инвертор",
+        "text": "Также известен как инвертор. $(br)Этот элемент используется, когда требуется противоположный выход относительно заданного входа."
     },
 
 
@@ -63,8 +63,8 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "OR-Gate",
-      "text": "A gate which is used 2 or more inputs and whenever any input is $(l)on$(), the output is $(l)off$()."
+      "name": "OR-элемент",
+      "text": "Элемент, использующий 2 или более входов, и когда любой вход $(l)включён$(), выход $(l)выключен$()."
     },
 
 
@@ -95,8 +95,8 @@
           "X": "minecraft:redstone_wire[north=side,south=side,west=side,east=side]"
         }
       },
-      "name": "Simple OR-Gate",
-      "text": "But an OR-Gate in minecraft can also be a simple redstone connection."
+      "name": "Простой OR-элемент",
+      "text": "Но OR-элемент в Minecraft может быть и простой редстоун-проводкой."
     },
 
 
@@ -129,8 +129,8 @@
           "O": "minecraft:redstone_lamp[lit=true]"
         }
       },
-      "name": "NOR-Gate",
-      "text": "This gate is the opposite of the $(thing)OR-Gate$(). Whenever at least one switch is toggeled to $(l)on$(), the output is toggeled to $(l)off."
+      "name": "NOR-элемент",
+      "text": "Этот элемент противоположен $(thing)OR-элементу$(). Когда хотя бы один переключатель включён, выход выключается."
     },
 
 
@@ -168,8 +168,8 @@
           "w": "minecraft:redstone_wire[east=side,west=side]"
         }
       },
-      "name": "AND-Gate",
-      "text": "The output is toggled to $(l)on$() only when $(n)all$() inputs are $(l)on$(). Otherwise, the output will remain $(l)off$()."
+      "name": "AND-элемент",
+      "text": "Выход включается только когда $(n)все$() входы $(l)включены$(). В противном случае выход остаётся $(l)выключен$()."
     },
 
     {
@@ -197,8 +197,8 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "AND-Gate",
-      "text": "The previous variant of the AND-Gate is for 3 inputs and this one for 2."
+      "name": "AND-элемент",
+      "text": "Предыдущий вариант AND-элемента рассчитан на 3 входа, а этот — на 2."
     },
 
 
@@ -228,8 +228,8 @@
           "O": "minecraft:redstone_lamp[lit=true]"
         }
       },
-      "name": "NAND-Gate",
-      "text": "This gate turns the output $(l)off$() only when $(n)all$() inputs are $(l)on$(), the reverse of an $(thing)AND-Gate$()."
+      "name": "NAND-элемент",
+      "text": "Этот элемент выключает выход только когда $(n)все$() входы $(l)включены$() — противоположность $(thing)AND-элементу$()."
     },
 
 
@@ -263,8 +263,8 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "XOR-Gate",
-      "text": "This gate that uses 2 inputs and the output is toggled to $(l)on$() when one switch is $(l)on$() and one switch is $(l)off$()."
+      "name": "XOR-элемент",
+      "text": "Этот элемент использует 2 входа; выход включается, когда один переключатель $(l)включён$(), а другой $(l)выключен$()."
     },
 
 
@@ -298,8 +298,8 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "XNOR-Gate",
-      "text": "The opposite of an $(thing)XOR-Gate$(). It uses 2 inputs. When both switches are in the same state (both switches are $(l)on$() or both are $(l)off$()), then the output is toggled to $(l)on$()."
+      "name": "XNOR-элемент",
+      "text": "Противоположность $(thing)XOR-элементу$(). Использует 2 входа. Когда оба переключателя в одном состоянии (оба $(l)включены$() или оба $(l)выключены$()), выход включается."
     },
 
 
@@ -330,8 +330,8 @@
           "O": "minecraft:redstone_lamp[lit=true]"
         }
       },
-      "name": "IMPLY-Gate",
-      "text": "This gate turns on either if both inputs are $(l)on$(), or if the first input is $(l)off$(). $(br)Unlike the other gates, the inputs are not interchangeable; it's not commutative."
+      "name": "Элемент импликации",
+      "text": "Этот элемент включается либо когда оба входа $(l)включены$(), либо когда первый вход $(l)выключен$(). $(br)В отличие от других элементов, входы не взаимозаменяемы; операция некоммутативна."
     },
 
 
@@ -351,8 +351,8 @@
           "h": "minecraft:hopper[enabled=true,facing=east]"
         }
       },
-      "name": "Hopper-Clock",
-      "text": "A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
+      "name": "Часы на воронках",
+      "text": "Часы — это генератор импульсов, создающий повторяющуюся последовательность. Часы на воронках создают импульсы по времени, перемещая предметы между двумя $(l:redstone/redstone_components#hopper)$(item)воронками$()."
     },
 
 
@@ -375,8 +375,8 @@
           "3": "minecraft:redstone_wire[west=side,north=side,power=13]"
         }
       },
-      "name": "Comparator-Clock",
-      "text": "The clock of short or moderate cycle length utilizing $(l:redstone/redstone_components#comparator)$(item)Comparator's$() subtraction or signal fading feature."
+      "name": "Часы на компараторе",
+      "text": "Часы короткой или средней длины цикла, использующие режим вычитания или затухание сигнала $(l:redstone/redstone_components#comparator)$(item)компаратора$()."
     },
 
 
@@ -405,8 +405,8 @@
           "d": "minecraft:repeater[powered=false,delay=4,facing=west]"
         }
       },
-      "name": "Repeater-Clock",
-      "text": "This clock consists of a loop of $(l:redstone/redstone_components#repeater)$(item)Repeaters$() with occasional dust or blocks to draw off the appropriate pulses."
+      "name": "Часы на повторителях",
+      "text": "Эти часы состоят из кольца $(l:redstone/redstone_components#repeater)$(item)повторителей$() с участками пыли или блоков для съёма нужных импульсов."
     },
 
 
@@ -438,8 +438,8 @@
 
         }
       },
-      "name": "T Flip-flop",
-      "text": "Also known as 'toggles'. Whenever the input changes from $(l)off$() to $(l)on$(), the output will toggle its state."
+      "name": "T-триггер",
+      "text": "Также известен как 'переключатель'. Каждый раз, когда вход изменяется с $(l)выключено$() на $(l)включено$(), выход переключает своё состояние."
     },
 
 
@@ -460,7 +460,7 @@
           "X": "minecraft:redstone_block"
         }
       },
-      "name": "Observer T Flip-flop",
+      "name": "T-триггер на наблюдателе",
       "text": ""
     },
 
@@ -485,8 +485,8 @@
           "O": "minecraft:redstone_lamp[lit=false]"
         }
       },
-      "name": "Randomizer",
-      "text": "Put items of varying stack size into the $(l:redstone/redstone_components#dropper)$(item)Dropper$(), e.g. a $(item)Sword$() and a piece of $(item)Dirt$()."
+      "name": "Рандомайзер",
+      "text": "Положите предметы с различным размером стака в $(l:redstone/redstone_components#dropper)$(item)выбрасыватель$(), например $(item)меч$() и кусок $(item)земли$()."
     },
 
 
@@ -509,8 +509,8 @@
           "R": "minecraft:repeater[facing=south]"
         }
       },
-      "name": "Input Stabilizator",
-      "text": "This circuit responds to an input pulse by turning its input & output $(l)on$() and leaving it $(l)on$()."
+      "name": "Стабилизатор входа",
+      "text": "Эта схема реагирует на входной импульс, включая вход и выход $(l)включено$() и оставляя их $(l)включенными$()."
     },
 
 
@@ -542,8 +542,8 @@
           "X": "minecraft:gold_block"
         }
       },
-      "name": "RS-ISR Latch",
-      "text": "This is a $(thing)Input Stabilizator$() with reset option."
+      "name": "RS-ISR-защёлка",
+      "text": "Это $(thing)Стабилизатор входа$() с возможностью сброса."
     },
 
 
@@ -568,8 +568,8 @@
           "X": "minecraft:gold_block"
         }
       },
-      "name": "Pulse Generator",
-      "text": "A $(thing)Pulse Generator$() creates an output pulse when triggered."
+      "name": "Генератор импульсов",
+      "text": "$(thing)Генератор импульсов$() создаёт выходной импульс при срабатывании."
     },
 
 
@@ -594,8 +594,8 @@
           "X": "minecraft:gold_block"
         }
       },
-      "name": "Pulse Extender",
-      "text": "This circuit increases the duration of a pulse. $(br)Can be built as long as you like."
+      "name": "Удлинитель импульса",
+      "text": "Эта схема увеличивает длительность импульса. $(br)Её можно построить любой длины."
     }
   ]
 }

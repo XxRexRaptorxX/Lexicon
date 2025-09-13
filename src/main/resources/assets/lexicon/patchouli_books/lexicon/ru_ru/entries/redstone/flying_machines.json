@@ -1,12 +1,12 @@
 {
-  "name": "Flying Machines",
+  "name": "Летающие машины",
   "icon": "minecraft:slime_block",
   "category": "lexicon:redstone",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Flying machines$() are mechanisms that move a structure of blocks in one or more directions, moving freely through air or water without support. $(br2)They can also be designed to carry along a $(l:creatures/human-player)$(thing)Player$() and/or other entities, which may be riding in a $(thing)Minecart$() or towed along by $(item)Honey Blocks$()."
+      "text": "$(thing)Летающие машины$() — это механизмы, перемещающие структуру блоков в одном или нескольких направлениях, свободно двигаясь по воздуху или воде без опоры. $(br2)Их также можно спроектировать так, чтобы они перевозили $(l:creatures/human-player)$(thing)игрока$() и/или других существ, которые могут ехать в $(thing)вагоне$() или быть притянуты $(item)блоками мёда$()."
     },
     {
       "type": "patchouli:multiblock",
@@ -27,8 +27,8 @@
           "R": "minecraft:redstone_block"
         }
       },
-      "name": "Simple Flying Machine",
-      "text": "The central $(l:redstone/redstone_components#piston)$(item)Sticky Piston$() is the starter that needs to be powered."
+      "name": "Простая летающая машина",
+      "text": "Центральный $(l:redstone/redstone_components#piston)$(item)липкий поршень$() служит запуском, который нужно запитать."
     },
     {
       "type": "patchouli:multiblock",
@@ -50,8 +50,8 @@
           "O": "minecraft:observer[facing=up]"
         }
       },
-      "name": "Two-way Flying Machine",
-      "text": "The $(l:redstone/redstone_components#observer)$(item)Observer$() on each side start the machine and control the flight direction."
+      "name": "Двусторонняя летающая машина",
+      "text": "$(l:redstone/redstone_components#observer)$(item)Наблюдатель$() с каждой стороны запускает машину и задаёт направление полёта."
     },
     {
       "type": "patchouli:multiblock",
@@ -73,8 +73,8 @@
           "L": "minecraft:lever[face=wall,facing=south]"
         }
       },
-      "name": "Dock Flying Machines",
-      "text": "Needed to stop $(thing)Flying Machines$() or reverse their flying direction."
+      "name": "Станция для летающих машин",
+      "text": "Нужна, чтобы остановить $(thing)летающие машины$() или изменить направление их полёта."
     },
     {
       "type": "patchouli:multiblock",
@@ -132,8 +132,8 @@
           "O": "minecraft:observer[facing=up]"
         }
       },
-      "name": "Harvesting Flying Machine",
-      "text": "This machine with it's outlets can be used for harvesting in e.g. $(item)Bamboo$() farms"
+      "name": "Летающая машина для сбора урожая",
+      "text": "Эта машина с выпускными механизмами может использоваться для сбора урожая, например на фермах $(item)бамбука$()."
     },
     {
       "type": "patchouli:image",

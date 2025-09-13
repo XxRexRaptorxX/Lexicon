@@ -1,12 +1,12 @@
 {
-  "name": "Redstone Behavior",
+  "name": "Поведение редстоуна",
   "icon": "minecraft:redstone",
   "category": "lexicon:redstone",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(l:redstone/redstone_components#redstone)$(item)Redstone Wire$() can transmit power, which can be used to operate mechanism components (doors, pistons, etc). $(br2)The power level drops by 1 for every block of $(l:redstone/redstone_components#redstone)$(item)Redstone Wire$() it crosses. $(br2)Thus, wire can transmit power for no more than $(n)15 blocks$(). $(br)To go further, the power level must be re-strengthened – typically with a $(l:redstone/redstone_components#repeater)$(item)Repeater$()."
+      "text": "$(l:redstone/redstone_components#redstone)$(item)Редстоун-провод$() может передавать энергию, которая используется для приведения в действие механизмов (дверей, поршней и т.д.). $(br2)Уровень сигнала падает на 1 за каждый блок $(l:redstone/redstone_components#redstone)$(item)редстоун-провода$(), через который он проходит. $(br2)Таким образом, провод может передавать силу не более чем на $(n)15 блоков$(). $(br)Чтобы идти дальше, уровень сигнала нужно усилить — обычно с помощью $(l:redstone/redstone_components#repeater)$(item)повторителя$()."
     },
     {
       "type": "patchouli:image",
@@ -15,7 +15,7 @@
         "lexicon:textures/pictures/redstone_wire_length.png"
       ],
       "border": true,
-      "text": "Examples of redstone wire configurations."
+      "text": "Примеры конфигураций редстоун-проводов."
     },
     {
       "type": "patchouli:image",
@@ -23,7 +23,7 @@
         "lexicon:textures/pictures/redstone_behavior_1.png"
       ],
       "border": false,
-      "text": "The following pages show how different redstone components pass on their signals."
+      "text": "На следующих страницах показано, как различные компоненты редстоуна передают свои сигналы."
     },
     {
       "type": "patchouli:image",
@@ -31,7 +31,7 @@
         "lexicon:textures/pictures/redstone_behavior_2.png"
       ],
       "border": false,
-      "text": "Wall Lever"
+      "text": "Настенный рычаг"
     },
     {
       "type": "patchouli:image",
@@ -39,7 +39,7 @@
         "lexicon:textures/pictures/redstone_behavior_3.png"
       ],
       "border": false,
-      "text": "Redstone Wires"
+      "text": "Редстоун-провода"
     },
     {
       "type": "patchouli:image",
@@ -47,7 +47,7 @@
         "lexicon:textures/pictures/redstone_behavior_4.png"
       ],
       "border": false,
-      "text": "Repeater to wall"
+      "text": "Повторитель к стене"
     },
     {
       "type": "patchouli:image",
@@ -55,7 +55,7 @@
         "lexicon:textures/pictures/redstone_behavior_5.png"
       ],
       "border": false,
-      "text": "Standing Torch"
+      "text": "Стоящий факел"
     },
     {
       "type": "patchouli:image",
@@ -63,7 +63,7 @@
         "lexicon:textures/pictures/redstone_behavior_6.png"
       ],
       "border": false,
-      "text": "Wall Torch"
+      "text": "Настенный факел"
     },
     {
       "type": "patchouli:image",
@@ -71,7 +71,7 @@
         "lexicon:textures/pictures/redstone_behavior_7.png"
       ],
       "border": false,
-      "text": "Wall Lever"
+      "text": "Настенный рычаг"
     },
     {
       "type": "patchouli:image",
@@ -79,7 +79,7 @@
         "lexicon:textures/pictures/redstone_behavior_8.png"
       ],
       "border": false,
-      "text": "Redstone torches change states when powered."
+      "text": "Редстоун-факелы меняют состояние при подаче сигнала."
     }
   ]
 }

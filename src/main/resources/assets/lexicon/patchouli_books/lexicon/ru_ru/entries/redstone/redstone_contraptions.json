@@ -1,12 +1,12 @@
 {
-  "name": "Redstone Contraptions",
+  "name": "Редстоун-устройства",
   "icon": "minecraft:observer",
   "category": "lexicon:redstone",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages contain blueprints for useful redstone contraptions. $(br2)$(li) You can find even more redstone contraptions in the $(l:farming)Farming Chapter$()."
+      "text": "На следующих страницах приведены схемы полезных редстоун-устройств. $(br2)$(li) Ещё больше редстоун-устройств можно найти в разделе $(l:farming)Фермерство$()."
     },
     {
       "type": "patchouli:multiblock",
@@ -80,8 +80,8 @@
 
         }
       },
-      "name": "Street Lamp",
-      "text": "This is a street lamp that turns itself on at night."
+      "name": "Уличный фонарь",
+      "text": "Это уличный фонарь, который загорается ночью."
     },
 
     {
@@ -140,8 +140,8 @@
           "R": "minecraft:repeater[facing=north]"
         }
       },
-      "name": "Armor Equipper",
-      "text": "This contraption equips you with armor & tools that you previously placed in the $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() when entering the $(l:redstone/redstone_components#pressure_plate)$(item)Pressure Plate$() $(br)(one $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() per item type)"
+      "name": "Надеватель брони",
+      "text": "Этот механизм надевает на вас броню и инструменты, которые вы заранее поместили в $(l:redstone/redstone_components#dispenser)$(item)раздатчик$(), когда наступаете на $(l:redstone/redstone_components#pressure_plate)$(item)нажимную плиту$() $(br)(по одному $(l:redstone/redstone_components#dispenser)$(item)раздатчику$() на тип предмета)"
     },
     {
       "type": "patchouli:multiblock",
@@ -166,8 +166,8 @@
           "d": "minecraft:dispenser[facing=west]"
         }
       },
-      "name": "Refilling Respawn Anchor",
-      "text": "This contraption will add $(item)Glowstone$() whenever you die from the $(l:redstone/redstone_components#dispenser)$(item)Dispenser$() below to the $(l:useables/respawn_anchor)$(item)Respawn Anchor$() and refills it."
+      "name": "Пополнение якоря возрождения",
+      "text": "Этот механизм добавляет $(item)светокамень$() из расположенного снизу $(l:redstone/redstone_components#dispenser)$(item)раздатчика$() к $(l:useables/respawn_anchor)$(item)якорю возрождения$() и пополняет его после вашей смерти."
     },
     {
       "type": "patchouli:multiblock",
@@ -267,8 +267,8 @@
           "9": "minecraft:redstone_wire[east=side,north=side,south=side,west=side,power=0]"
         }
       },
-      "name": "2-Way 2x2 Piston Door",
-      "text": "This is a relative simple 2x2 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
+      "name": "Двусторонняя дверь 2x2 на поршнях",
+      "text": "Это относительно простая 2x2 дверь на $(l:redstone/redstone_components#piston)$(item)поршнях$(), работающая с обеих сторон."
     },
     {
       "type": "patchouli:multiblock",
@@ -397,8 +397,8 @@
           "ß": "minecraft:redstone_wire[east=side,north=side,south=none,west=none,power=0]"
         }
       },
-      "name": "2-Way 3x3 Piston Door",
-      "text": "This is a fast complex 3x3 $(l:redstone/redstone_components#piston)$(item)Piston$() door that works from 2 sides."
+      "name": "Двусторонняя дверь 3x3 на поршнях",
+      "text": "Это быстрая сложная 3x3 дверь на $(l:redstone/redstone_components#piston)$(item)поршнях$(), работающая с двух сторон."
     },
     {
       "type": "patchouli:multiblock",
@@ -435,8 +435,8 @@
           "2": "minecraft:iron_door[facing=north,half=lower]"
         }
       },
-      "name": "Self-closing Door",
-      "text": "This is a self-closing monster safe door."
+      "name": "Самозакрывающаяся дверь",
+      "text": "Это самозакрывающаяся, безопасная от монстров дверь."
     },
     {
       "type": "patchouli:multiblock",
@@ -481,8 +481,8 @@
           "_": "minecraft:redstone_wire[east=side,west=side,north=side,south=side,power=15]"
         }
       },
-      "name": "Item Elevator",
-      "text": "This is a self-powering item elevator."
+      "name": "Лифт для предметов",
+      "text": "Это самопитающийся лифт для предметов."
     },
     {
       "type": "patchouli:multiblock",
@@ -508,8 +508,8 @@
           "C": "minecraft:chest[facing=north]"
         }
       },
-      "name": "Auto-Smelter",
-      "text": "this contraption automatically fills fuel and material into the $(l:useables/furnace)$(item)Furnace$() and melts it through automatically."
+      "name": "Автоплавильня",
+      "text": "Этот механизм автоматически подаёт топливо и материал в $(l:useables/furnace)$(item)печь$() и переплавляет их автоматически."
     },
     {
       "type": "patchouli:multiblock",
@@ -554,8 +554,8 @@
           "c": "minecraft:chest[facing=east,type=left]"
         }
       },
-      "name":  "Super Smelter",
-      "text": "The best way to smelt a lot of ores after a mining session. You have to place $(item)Hopper Minecarts$() on the $(item)Rails$(), they distribute the materials."
+      "name":  "Супер-плавильня",
+      "text": "Лучший способ переплавить много руды после добычи. Нужно разместить $(item)вагонетки с воронкой$() на $(item)рельсах$(), они распределят материалы."
     },
     {
       "type": "patchouli:multiblock",
@@ -586,8 +586,8 @@
           "+": "minecraft:redstone_wire[east=side,west=side,south=side,north=side]"
         }
       },
-      "name": "Elytra Launcher",
-      "text": "Is used to throw you into the air for an $(item)Elytra$() launch."
+      "name": "Катапульта для элитр",
+      "text": "Используется, чтобы подбросить вас в воздух для запуска с $(item)элитр$()."
     }
   ]
 }
