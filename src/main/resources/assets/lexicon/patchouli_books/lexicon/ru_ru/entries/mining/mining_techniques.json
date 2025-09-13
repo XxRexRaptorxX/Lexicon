@@ -1,12 +1,12 @@
 {
-  "name": "Mining Techniques",
+  "name": "Техники добычи",
   "icon": "minecraft:cobblestone",
   "category": "lexicon:mining",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There are various techniques how $(item)Ores$() can be extracted from the ground, these are described on the following pages."
+      "text": "Существует множество методов, как добывать $(item)руды$() из земли; они описаны на следующих страницах."
     },
     {
       "type": "patchouli:image",
@@ -14,8 +14,8 @@
         "lexicon:textures/pictures/cave_mining.png"
       ],
       "border": true,
-      "title": "Cave Mining",
-      "text": "The classic way to mine. You can look for ores without mining a lot of $(item)Stone$(), but since some ores have reduced air exposure, the spawn chances are reduced a bit."
+      "title": "Пещерная добыча",
+      "text": "Классический способ добычи. Можно искать руды, не добывая много $(item)камня$(), но из-за уменьшенной экспозиции воздуха некоторые руды встречаются чуть реже."
     },
     {
       "type": "patchouli:image",
@@ -23,8 +23,8 @@
         "lexicon:textures/pictures/strip_mining.png"
       ],
       "border": true,
-      "title": "Strip Mining",
-      "text": "Strip mining is the most efficient way to farm ores, many small corridors are created next to each other in order to be able to cover the entire area."
+      "title": "Разветвлённая добыча",
+      "text": "Разветвлённая добыча — самый эффективный способ добывать руды: создаётся множество узких коридоров рядом друг с другом, чтобы охватить всю область."
     },
     {
       "type": "patchouli:image",
@@ -32,8 +32,8 @@
         "lexicon:textures/pictures/tunnel_mining.png"
       ],
       "border": true,
-      "title": "Tunnel Mining",
-      "text": "Is often used if you want to travel underground in a certain direction anyway or tunnel systems are to be created."
+      "title": "Туннельная добыча",
+      "text": "Часто используется, когда нужно пройти под землёй в определённом направлении или проложить туннельную сеть."
     },
     {
       "type": "patchouli:image",
@@ -41,8 +41,8 @@
         "lexicon:textures/pictures/shaft_mining.png"
       ],
       "border": true,
-      "title": "Shaft Mining",
-      "text": "Is used to create a shaft to a certain height, ores from different levels are be covered."
+      "title": "Шахтная добыча",
+      "text": "Применяется для создания шахты до нужной высоты, позволяя охватить руды разных уровней."
     },
     {
       "type": "patchouli:image",
@@ -50,8 +50,8 @@
         "lexicon:textures/pictures/quarry_mining.png"
       ],
       "border": true,
-      "title": "Quarry Mining",
-      "text": "This variant is not particularly efficient, but covers the entire area with all resources, is often used with $(l:modifications/mods)$(thing)Mods$() that contain $(item)Quarrys$()."
+      "title": "Карьерная добыча",
+      "text": "Этот вариант не особенно эффективен, но охватывает всю площадь со всеми ресурсами; часто используется с $(l:modifications/mods)$(thing)Модами$(), которые добавляют $(item)Карьеры$()."
     },
     {
       "type": "patchouli:image",
@@ -59,8 +59,8 @@
         "lexicon:textures/pictures/explosion_mining.png"
       ],
       "border": true,
-      "title": "Explosion Mining",
-      "text": "Mining with explosives is mainly used in conjunction with $(l:rare/netherite)$(item)Ancient Debris$(), since it's pretty much the fastest option in the $(l:world/dimensions#nether)$(thing)Nether$() using exploding $(l:useables/bed)$(item)Beds$()."
+      "title": "Добыча взрывами",
+      "text": "Добыча с помощью взрывчатки в основном используется для поиска $(l:rare/netherite)$(item)древних обломков$(), так как это почти самый быстрый вариант в $(l:world/dimensions#nether)$(thing)Нижнем мире$() при использовании взрывающихся $(l:useables/bed)$(item)кроватей$()."
     },
     {
       "type": "patchouli:image",
@@ -68,7 +68,7 @@
         "lexicon:textures/pictures/mining_machine.png"
       ],
       "border": true,
-      "text": "But $(item)TNT$() or $(l:redstone/flying_machines)$(thing)Flying Machines$() are also used."
+      "text": "Также применяются $(item)динамит$() и $(l:redstone/flying_machines)$(thing)летающие машины$()."
     }
   ]
 }

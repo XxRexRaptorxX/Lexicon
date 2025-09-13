@@ -1,12 +1,12 @@
 {
-  "name": "Important mining stuff!",
+  "name": "Важные шахтёрские вещи!",
   "icon": "minecraft:diamond_pickaxe",
   "category": "lexicon:mining",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some important items that you should always have with you on a mining tour!"
+      "text": "Здесь перечислены важные предметы, которые всегда стоит брать с собой в шахту!"
     },
     {
       "type": "patchouli:image",

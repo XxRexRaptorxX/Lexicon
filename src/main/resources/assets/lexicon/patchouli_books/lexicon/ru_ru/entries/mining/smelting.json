@@ -1,12 +1,12 @@
 {
-  "name": "Smelting",
+  "name": "Переплавка",
   "icon": "minecraft:furnace",
   "category": "lexicon:mining",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There are multiple fuels that can be used to smelt items. $(br)The type of fuel that should be used depends on the number of items in question. $(br2)$(n)Different types of smelter:$() $(li)$(l:useables/furnace)$(l)Furnace$() smelts all possible items $(li)$(l:useables/blast_furnace)$(l)Blast Furnace$() smelts only ores, but twice as fast $(li)$(l:useables/smoker)$(l)Smoker$() smelts only food, but twice as fast"
+      "text": "Существует множество видов топлива, которые можно использовать для переплавки предметов. $(br)Выбор топлива зависит от количества переплавляемых предметов. $(br2)$(n)Разные виды печей:$() $(li)$(l:useables/furnace)$(l)Печь$() переплавляет все возможные предметы $(li)$(l:useables/blast_furnace)$(l)Плавильная печь$() переплавляет только руды, но вдвое быстрее $(li)$(l:useables/smoker)$(l)Коптильня$() готовит только еду, но вдвое быстрее"
     },
     {
       "type": "patchouli:image",
@@ -15,7 +15,7 @@
         "lexicon:textures/pictures/fuel_chart_2.png"
       ],
       "border": false,
-      "text": "$(l)Smelt/Fuel Item$() = How many items are smelted with 1 fuel $(br2)$(l)Fuel for 1 Stack items$() = How many fuel is needed for 64 items (1 Stack)"
+      "text": "$(l)Предметов на единицу топлива$() = сколько предметов переплавляется одной единицей топлива $(br2)$(l)Топливо для стака предметов$() = сколько топлива нужно для 64 предметов (1 стака)"
     },
     {
       "type": "patchouli:image",
@@ -23,7 +23,7 @@
         "lexicon:textures/pictures/auto_smelter_1.png"
       ],
       "border": true,
-      "title": "Auto-Smelter"
+      "title": "Автоматическая печь"
     },
     {
       "type": "patchouli:multiblock",
@@ -60,8 +60,8 @@
         "lexicon:textures/pictures/super_smelter_2.png"
       ],
       "border": true,
-      "title": "Super Smelter",
-      "text": "The best way to smelt a lot of ores after a mining session."
+      "title": "Суперплавильня",
+      "text": "Лучший способ переплавить много руд после добычи."
     },
     {
       "type": "patchouli:multiblock",
