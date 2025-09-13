@@ -1,22 +1,22 @@
 {
-  "name": "The journey to the End",
+  "name": "Путешествие в Край",
   "icon": "minecraft:end_portal_frame",
   "category": "lexicon:end",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The first important thing on your way to the $(l:world/dimensions#end)$(thing)End$() are $(item)Eyes of Ender$(). $(br2)You can craft them with $(item)Ender Pearls$() which you get from $(l:creatures/monster-enderman)$(thing)Endermen$() or from bartering in the $(l:world/dimensions#nether)$(thing)Nether$() and $(item)Blaze Dust$() which you also get in the $(l:world/dimensions#nether)$(thing)Nether$() from $(l:creatures/monster-blaze)$(thing)Blazes$()."
+      "text": "Первое важное, что нужно на пути в $(l:world/dimensions#end)$(thing)Край$(), — это $(item)Око Края$(). $(br2)Его можно скрафтить из $(item)Жемчуга Края$(), который выпадает с $(l:creatures/monster-enderman)$(thing)эндерменов$() или добывается при бартере в $(l:world/dimensions#nether)$(thing)Нижнем мире$(), и из $(item)огненного порошка$(), который также можно получить в $(l:world/dimensions#nether)$(thing)Нижнем мире$() из $(l:creatures/monster-blaze)$(thing)ифритов$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:blaze_powder",
       "recipe2": "minecraft:ender_eye",
-      "text": "You need around 20 of them"
+      "text": "Понадобится примерно 20 штук"
     },
     {
       "type": "patchouli:text",
-      "text": "The next step is to find a $(l:world/structures#stronghold)$(thing)Stronghold$(). $(br2)You can find one by throwing $(item)Eyes of Ender$() in the air, they will fly straight in the direction of the $(l:world/structures#stronghold)$(thing)Stronghold$(). $(br)If they stop and burst in mid-air, it's underneath."
+      "text": "Следующий шаг — найти $(l:world/structures#stronghold)$(thing)Крепость$(). $(br2)Её можно найти, бросая $(item)Око Края$() в воздух — оно полетит прямо к $(l:world/structures#stronghold)$(thing)крепости$(). $(br)Если оно остановится и лопнет в воздухе, крепость будет под вами."
     },
     {
       "type": "patchouli:image",
@@ -24,11 +24,11 @@
         "lexicon:textures/pictures/end_portal_raw.png"
       ],
       "border": true,
-      "text": "Locate the $(thing)End Portal$() and fill in the empty frame blocks with $(item)Eyes of Ender$()."
+      "text": "Найдите $(thing)Портал Края$() и заполните пустые рамки $(item)Око Края$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Before you go through the portal, make sure you have everything with you, once you go through you can't go back until you defeat the $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() (the endboss of Minecraft) or die."
+      "text": "Перед тем как войти в портал, убедитесь, что взяли всё необходимое: вернуться назад нельзя, пока вы не победите $(l:creatures/boss-ender_dragon)$(thing)Эндер-дракона$() (финального босса Minecraft) или не умрёте."
     }
   ]
 }
