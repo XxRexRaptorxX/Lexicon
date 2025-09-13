@@ -1,12 +1,12 @@
 {
-  "name": "Brewing",
+  "name": "Зельеварение",
   "icon": "minecraft:brewing_stand",
   "category": "lexicon:brewing",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "By placing at least one or more $(item)Water Bottles$() in the lower three slots of the $(l:useables/brewing_stand)$(item)Brewing Stand$(), an ingredient in the upper slot, and $(item)Blaze Powder$() in the fuel slot, a $(l:creatures/human-player)$(thing)Player$() can distill the ingredients into each $(l:brewing/ingredients_equipments)$(item)Bottle$() and brew $(l:brewing/brewing#potions)$(item)Potions$() that may be consumed to grant an effect to the $(l:creatures/human-player)$(thing)Player$(). "
+      "text": "Поместив хотя бы одну $(item)бутылку воды$() в нижние три слота $(l:useables/brewing_stand)$(item)варочной стойки$(), ингредиент в верхний слот и $(item)порошок ифрита$() в топливный слот, $(l:creatures/human-player)$(thing)игрок$() может перегнать ингредиенты в каждую $(l:brewing/ingredients_equipments)$(item)бутылку$() и сварить $(l:brewing/brewing#potions)$(item)зелья$(), которые можно выпить, чтобы получить эффект $(l:creatures/human-player)$(thing)игроку$()."
     },
     {
       "type": "patchouli:image",
@@ -21,9 +21,9 @@
         "lexicon:textures/pictures/potion_types.png"
       ],
       "border": false,
-      "title": "Base Potions",
+      "title": "Основные зелья",
       "anchor": "potions",
-      "text": "Base potions are $(l:brewing/brewing#potions)$(item)Potions$() without effects, brewed by adding a single base ingredient to a $(item)Water Bottle$(). Of these, only the $(item)Awkward Potion$() can be imbued with an effect ingredient to produce a $(l:brewing/effects)$(thing)Potion Effect$()."
+      "text": "Базовые зелья — это $(l:brewing/brewing#potions)$(item)зелья$() без эффектов, сваренные добавлением одного базового ингредиента к $(item)бутылке воды$(). Из них только $(item)неловкое зелье$() можно насытить эффектом, чтобы получить $(l:brewing/effects)$(thing)эффект зелья$()."
     },
     {
       "type": "patchouli:image",
@@ -32,8 +32,8 @@
         "lexicon:textures/pictures/effect_potion_types_2.png"
       ],
       "border": false,
-      "title": "Effect Potions",
-      "text": "$(l:brewing/brewing#potions)$(item)Potions$() are bottled substances which give $(l:creatures/human-player)$(thing)Players$() and mobs a limited-time or instant status effect if drunk or within its splash radius when thrown (in the case of $(l:brewing/potion_types)$(item)Lingering$() and $(l:brewing/potion_types)$(item)Splash Potions$())."
+      "title": "Зелья с эффектами",
+      "text": "$(l:brewing/brewing#potions)$(item)Зелья$() — это вещества в бутылках, которые дают $(l:creatures/human-player)$(thing)игрокам$() и мобам временный или мгновенный эффект состояния при питье или если оказаться в радиусе их разбрызгивания при броске (в случае $(l:brewing/potion_types)$(item)туманного$() и $(l:brewing/potion_types)$(item)взрывного зелья$())."
     },
     {
       "type": "patchouli:image",
@@ -41,8 +41,8 @@
         "lexicon:textures/pictures/potion_upgrades.png"
       ],
       "border": false,
-      "title": "Potion Upgrades",
-      "text": "Upgrading a $(l:brewing/brewing#potions)$(item)Potion$() involves a trade-off between duration & potency. An enhanced effect has shorter duration, & extended duration cannot have an enhanced effect."
+      "title": "Улучшение зелий",
+      "text": "Улучшение $(l:brewing/brewing#potions)$(item)зелья$() предполагает компромисс между длительностью и силой. Усиленный эффект имеет меньшую длительность, а продлённый эффект не может быть усилен."
     },
     {
       "type": "patchouli:crafting",
