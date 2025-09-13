@@ -1,0 +1,19 @@
+{
+  "name": "Basalt Generator",
+  "icon": "minecraft:basalt",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Lava$() will turn to $(item)Basalt$() when it is above a $(item)Soul Soil$() block while also adjacent to a $(item)Blue Ice$() block. $(br2)The $(item)Soul Soil$() block $(l)MUST$() be beneath the $(item)Lava$(), but the $(item)Blue Ice$() block can be on any side or above."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/basalt_generator_1.png",
+        "lexicon:textures/pictures/basalt_generator_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Campfire",
+  "icon": "minecraft:campfire",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:campfire",
+      "text": "A $(item)Campfire$() is a block that can be used to cook food without the need of fuel or act as a light source or smoke signal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:campfire",
+      "recipe2": "minecraft:soul_campfire",
+      "title": " "
+    }
+  ]
+}

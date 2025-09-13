@@ -1,0 +1,27 @@
+{
+  "name": "Sign",
+  "icon": "minecraft:oak_sign",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_sign",
+      "text": "A $(item)Sign$() is a non-solid block that displays text and can be placed on the top or side of other blocks. $(br2)A $(item)Hanging Sign$() is a decorative block that also displays text, and can be placed underneath blocks or with a solid self-supporting bracket. $(br2)They can be crafted from any type of wood."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_hanging_sign",
+      "text": "$(item)Signs$() can be waxed by using a $(item)Honeycomb$() on it. Once waxed, it cannot be unwaxed or edited. $(br2)You can change the text color by using a $(item)Dye$() on it. $(br2)You can use a $(item)Glow Ink Sac$() to make its text glow. $(br2)You can use a regular $(item)Ink Sac$() to remove the glowing effect."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_sign",
+      "recipe2": "minecraft:birch_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_sign",
+      "recipe2": "minecraft:jungle_hanging_sign"
+    }
+  ]
+}

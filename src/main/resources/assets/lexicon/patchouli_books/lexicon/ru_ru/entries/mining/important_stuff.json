@@ -1,0 +1,19 @@
+{
+  "name": "Important mining stuff!",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "lexicon:mining",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are some important items that you should always have with you on a mining tour!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_equipment.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Pig/Cow/Sheep Farm",
+  "icon": "minecraft:cooked_porkchop",
+  "category": "lexicon:farming",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Animals such as $(l:creatures/animal-pig)$(thing)Pigs$(), $(l:creatures/animal-cow)$(thing)Cows$() & $(l:creatures/animal-sheep)$(thing)Sheeps$() can be farmed here. $(br2)Some adults have to be caged above and paired so that the babies fall down and are grilled when they grow up."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/semi_auto_pig_farm_1.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_2.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_3.png",
+        "lexicon:textures/pictures/semi_auto_pig_farm_4.png"
+      ],
+      "border": true
+    }
+  ]
+}

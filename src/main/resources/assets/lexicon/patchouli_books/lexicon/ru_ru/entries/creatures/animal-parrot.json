@@ -1,0 +1,52 @@
+{
+  "name": "Animal - Parrot",
+  "icon": "minecraft:parrot_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 6     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Taming:$() Seeds     $(br)> $(n)Properties:$() $(br)Parrots dance near a $(l:useable/jukebox)$(item)Jukebox$() if it's on. Parrots imitate the idle sounds of nearby mobs."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 1-3 Feathers  $(n)XP:$() 1-3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot{Variant:4}",
+      "scale": "0.5",
+      "text": "Variant ID: 4",
+      "name": "Gray Parrot"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot{Variant:3}",
+      "scale": "0.5",
+      "text": "Variant ID: 3",
+      "name": "Cyan Parrot"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot{Variant:2}",
+      "scale": "0.5",
+      "text": "Variant ID: 2",
+      "name": "Green Parrot"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot{Variant:1}",
+      "scale": "0.5",
+      "text": "Variant ID: 1",
+      "name": "Blue Parrot"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:parrot{Variant:0}",
+      "scale": "0.5",
+      "text": "Variant ID: 0",
+      "name": "Red Parrot"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Ominous Bottle",
+  "icon": "minecraft:ominous_bottle",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ominous_bottle",
+      "text": "An $(item)Ominous Bottle$() is an item that gives a $(l:creatures/human-player)$(thing)Players$() the $(l:brewing/effects#bad_omen)$(thing)Bad Omen$() effect for 100 minutes when drunk. $(br2)$(item)Ominous Bottles$() have 5 levels, which correspond with the 5 levels of the effect."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_captain.png"
+      ],
+      "border": false,
+      "text": "$(br2)$(item)Ominous Bottles$() are dropped by $(thing)Raid Captains$() outside of raids, at a random level."
+    }
+  ]
+}

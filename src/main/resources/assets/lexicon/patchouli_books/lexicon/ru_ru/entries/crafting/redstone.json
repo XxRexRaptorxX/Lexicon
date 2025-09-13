@@ -1,0 +1,246 @@
+{
+  "name": "Redstone Recipes",
+  "icon": "minecraft:piston",
+  "category": "lexicon:crafting",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_button",
+      "recipe2": "minecraft:bamboo_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_button",
+      "recipe2": "minecraft:cherry_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_button",
+      "recipe2": "minecraft:dark_oak_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_button",
+      "recipe2": "minecraft:mangrove_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_button",
+      "recipe2": "minecraft:polished_blackstone_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_button",
+      "recipe2": "minecraft:stone_button"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_button",
+      "recipe2": "minecraft:acacia_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_door",
+      "recipe2": "minecraft:birch_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_door",
+      "recipe2": "minecraft:crimson_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_door",
+      "recipe2": "minecraft:iron_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_door",
+      "recipe2": "minecraft:mangrove_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_door",
+      "recipe2": "minecraft:spruce_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_door",
+      "recipe2": "minecraft:warped_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_fence_gate",
+      "recipe2": "minecraft:bamboo_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_fence_gate",
+      "recipe2": "minecraft:cherry_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_fence_gate",
+      "recipe2": "minecraft:dark_oak_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_fence_gate",
+      "recipe2": "minecraft:mangrove_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:nether_brick_fence",
+      "recipe2": "minecraft:oak_fence_gate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_fence_gate",
+      "recipe2": "minecraft:acacia_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_pressure_plate",
+      "recipe2": "minecraft:birch_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_pressure_plate",
+      "recipe2": "minecraft:crimson_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_pressure_plate",
+      "recipe2": "minecraft:jungle_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_weighted_pressure_plate",
+      "recipe2": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mangrove_pressure_plate",
+      "recipe2": "minecraft:oak_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_pressure_plate",
+      "recipe2": "minecraft:spruce_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_pressure_plate",
+      "recipe2": "minecraft:warped_pressure_plate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_trapdoor",
+      "recipe2": "minecraft:acacia_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_trapdoor",
+      "recipe2": "minecraft:birch_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cherry_trapdoor",
+      "recipe2": "minecraft:crimson_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_oak_trapdoor",
+      "recipe2": "minecraft:iron_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_trapdoor",
+      "recipe2": "minecraft:mangrove_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_trapdoor",
+      "recipe2": "minecraft:spruce_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:rail",
+      "recipe2": "minecraft:powered_rail"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:detector_rail",
+      "recipe2": "minecraft:activator_rail"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "recipe2": "minecraft:chest_minecart"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace_minecart",
+      "recipe2": "minecraft:hopper_minecart"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tnt_minecart",
+      "recipe2": "minecraft:minecart"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:calibrated_sculk_sensor",
+      "recipe2": "minecraft:daylight_detector"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:comparator",
+      "recipe2": "minecraft:repeater"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dispenser",
+      "recipe2": "minecraft:dropper"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:observer",
+      "recipe2": "minecraft:hopper"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox",
+      "recipe2": "minecraft:note_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lever",
+      "recipe2": "minecraft:tripwire_hook"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:piston",
+      "recipe2": "minecraft:sticky_piston"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone",
+      "recipe2": "minecraft:redstone_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_lamp",
+      "recipe2": "minecraft:redstone_torch"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:target",
+      "recipe2": "minecraft:tnt"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafter"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "The first night.",
+  "icon": "minecraft:zombie_head",
+  "category": "lexicon:start",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The first night is very dangerous if you are not prepared for it. $(br2)I recommend building you into a mountain at dusk and looking for $(item)Ores$() in the meantime. $(br2)Use the $(item)Coal$() you find to smelt food and ores and make $(item)Torches$(). $(br)And $(item)Iron Ingots$() to craft higher quality $(item)Tools$() and $(item)Armor$() for you."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:torch",
+      "text": "But don't dig too deep and watch out for $(thing)Monsters$() in caves! $(br2)$(item)Torches$() and light prevent them from spawning."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_pickaxe",
+      "recipe2": "minecraft:iron_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_sword",
+      "recipe2": "minecraft:iron_shovel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_helmet",
+      "recipe2": "minecraft:iron_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_leggings",
+      "recipe2": "minecraft:iron_boots"
+    }
+  ]
+}

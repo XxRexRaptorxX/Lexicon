@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Bat",
+  "icon": "minecraft:bat_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 6     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Dark Caves below layer 63 "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bat",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -  $(n)XP:$() 0"
+    }
+  ]
+}

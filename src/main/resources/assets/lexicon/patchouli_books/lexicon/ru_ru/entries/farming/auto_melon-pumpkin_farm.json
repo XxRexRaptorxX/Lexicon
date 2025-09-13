@@ -1,0 +1,22 @@
+{
+  "name": "Auto Melon/Pumpkin Farm",
+  "icon": "minecraft:melon_slice",
+  "category": "lexicon:farming",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This farm will harvest $(item)Melons$() or $(item)Pumpkins$() automatically for you."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_melon_farm_1.png",
+        "lexicon:textures/pictures/auto_melon_farm_2.png",
+        "lexicon:textures/pictures/auto_melon_farm_3.png"
+      ],
+      "border": true,
+      "text": "This farm can be expanded sideways."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Boss - Wither",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 300  $(br)> $(n)Attack Damage:$() $(br) 5 on easy, 8 on normal, 12 on hard + Wither effect $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When created by the $(l:creatures/human-player)$(thing)Player$() $(br)> $(n)Properties:$() $(br)The $(thing)Wither$() has a passive regeneration rate of 1 every second, and a direct killing blow on a target instantly heals 5. When its health drops below half, the wither gains a natural wither armor effect, which makes it immune to damage from arrows and thrown tridents. The armor disappears if it regenerates above half health. It rapidly fires explosive projectiles that destroy the terrain. It's a undead mob."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wither",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 Nether Star   $(br)$(n)XP:$() 50"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OOO"
+          ],
+          [
+            "XXX"
+          ],
+          [
+            " X0"
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:wither_skeleton_skull[rotation=4]",
+          "X": "minecraft:soul_sand"
+        }
+      },
+      "text": "How to summon a $(thing)Wither$()."
+    }
+  ]
+}

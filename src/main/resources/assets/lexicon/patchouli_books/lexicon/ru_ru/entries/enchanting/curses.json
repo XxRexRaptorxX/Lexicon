@@ -1,0 +1,22 @@
+{
+  "name": "Curses",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:enchanting",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following pages describe all curses in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(l:useables/enchanting_table)$(item)Enchanting Table$().  $(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(l:useables/enchanting_table)$(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(l:useables/anvil)$(item)Anvil$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Curse of Binding",
+      "text": "$(n)Effect:$() $(br)Items cannot be removed from armor slots.  $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Equipment $(br2)$(n)Max Level:$() I "
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Curse of Vanishing",
+      "text": "$(n)Effect:$() $(br)Item disappears on death.  $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() All Items $(br2)$(n)Max Level:$() I "
+    }
+  ]
+}

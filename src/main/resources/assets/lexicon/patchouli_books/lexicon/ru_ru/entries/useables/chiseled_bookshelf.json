@@ -1,0 +1,29 @@
+{
+  "name": "Chiseled Bookshelf",
+  "icon": "minecraft:chiseled_bookshelf",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chiseled_bookshelf",
+      "text": "$(item)Chiseled Bookshelves$() can hold up to six $(item)Books$(), $(item)Books and Quills$(), $(item)Written Books$(), $(item)Enchanted Books$(), and/or other types of books."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_bookshelf",
+      "title": " "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A redstone $(l:redstone/redstone_components#comparator)$(item)Comparator$() sends a signal (1–6) indicating the last slot interacted with. $(br2)When no slot has been interacted with yet, it outputs 0. $(br2)An $(l:redstone/redstone_components#observer)$(item)Observer$() can detect when a $(item)Book$() is added or removed from the bookshelf."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/chiseled_bookshelf_redstone.png"
+      ],
+      "text": "The correspondences between slot and signal power.",
+      "border": false
+    }
+  ]
+}

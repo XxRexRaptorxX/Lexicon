@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Enderman",
+  "icon": "minecraft:enderman_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 40     $(br)> $(n)Attack Damage:$() $(br)4.5 on easy, 7 on normal, 10.5 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() $(l:world/dimensions#overworld)Overworld$(), $(l:world/dimensions#nether)Nether$(), $(l:world/dimensions#end)End$()$(br)> $(n)Properties:$() $(br)$(thing)Enderman$() can be provoked by looking them in the eyes (Can be prevented if looking through a transparent block or wearing a $(item)Carved Pumpkin$()). They can teleport and pick up blocks. Take damage from water."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:enderman",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-1 Ender Pearl  $(n)XP:$() 5"
+    }
+  ]
+}

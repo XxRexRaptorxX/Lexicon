@@ -1,0 +1,17 @@
+{
+  "name": "Aquatic Animal - Tropical Fish",
+  "icon": "minecraft:tropical_fish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Warm Oceans, Lush Caves, Mangrove Swamp $(br)> $(n)Properties:$() $(br)Can be caught with a $(item)Bucket$(). There are 2.700 naturally occurring variants."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tropical_fish",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() Tropical Fish, 5% chance for Bone Meal  $(n)XP:$() 1-3"
+    }
+  ]
+}

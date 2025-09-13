@@ -1,0 +1,17 @@
+{
+  "name": "Aquatic Animal - Turtle",
+  "icon": "minecraft:turtle_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 30     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Beach    $(br)> $(n)Breeding:$() Seagrass (requires a beach nearby)$(br)> $(n)Properties:$() $(br)Lay eggs that can be harvested with $(l:enchanting/enchantments#silk_touch)$(thing)Silk Touch$(). $(thing)Baby Turtles$() drop $(item)Turtle Scute$() when they grow up to adults."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:turtle",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Seagrass, 1 Bowl if killed though a Lightning Bolt  $(n)XP:$() 1-3"
+    }
+  ]
+}

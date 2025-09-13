@@ -1,0 +1,24 @@
+{
+  "name": "Ominous Banner",
+  "icon": "minecraft:gray_banner",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ominous_banner.png"
+      ],
+      "border": false,
+      "title": "Ominous Banner",
+      "text": "An $(item)Ominous Banner$() is a special uncraftable variant of the $(item)Banner$() only obtained from $(l:creatures/boss-raid_captain)$(thing)Raid Captains$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_captain.png"
+      ],
+      "border": false,
+      "title": "Pillager Captain"
+    }
+  ]
+}

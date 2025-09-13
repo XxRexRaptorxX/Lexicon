@@ -1,0 +1,17 @@
+{
+  "name": "Arthropod - Bee",
+  "icon": "minecraft:bee_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 10    $(br)> $(n)Attack Damage:$() 2 + 7 Poison, 3 + 14 Poison on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() On bee nests (Warm Plains, Warm Forests) $(br)> $(n)Breeding:$() Flowers     $(br)> $(n)Properties:$() $(br)Can fertilize plants. Afterward, they create $(item)Honey$() in their $(item)Bee Nests/Hives$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bee",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() -  $(n)XP:$() 1-3"
+    }
+  ]
+}

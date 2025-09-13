@@ -1,0 +1,130 @@
+{
+  "name": "Smithing Templates",
+  "icon": "minecraft:netherite_upgrade_smithing_template",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "text": "$(item)Smithing templates$() are items used in $(l:useables/smithing_table)$(item)Smithing Tables$() to alter tools and armor. $(br2)$(item)Smithing templates$() can be found in various $(l:world/structures)$(thing)Structures$() and can be duplicated using seven $(item)Diamonds$() and an item based on the template. $(br2)Some of them are found less often and some are more common."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Armor trim smithing templates$() are used to customize an armor piece's appearance by using a $(l:useables/smithing_table)$(item)Smithing Tables$(), an armor piece, and an ingot or crystal:  $(br)$(li)$(item)Emerald$() $(li)$(l:redstone/redstone_components#redstone)$(item)Redstone Dust $(li)$(item)Lapis Lazuli $(li)$(item)Amethyst Shard $(li)$(item)Nether Quartz $(li)$(l:rare/netherite)$(item)Netherite Ingot$() $(li)$(item)Diamond $(li)$(item)Gold Ingot $(li)$(item)Iron Ingot $(li)$(item)Copper Ingot$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Netherite Upgrade",
+      "recipe": "minecraft:netherite_upgrade_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#bastion)$(thing)Bastion remnant$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Coast Armor Trim",
+      "recipe": "minecraft:coast_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#shipwreck)$(thing)Shipwreck$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Coast Armor Trim",
+      "recipe": "minecraft:dune_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Temple$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Eye Armor Trim",
+      "recipe": "minecraft:eye_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#stronghold)$(thing)Stronghold$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Rib Armor Trim",
+      "recipe": "minecraft:rib_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#fortress)$(thing)Nether Fortress$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Sentry Armor Trim",
+      "recipe": "minecraft:sentry_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#outpost)$(thing)Pillager Outpost$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Silence Armor Trim",
+      "recipe": "minecraft:silence_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#ancient_city)$(thing)Ancient City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Snout Armor Trim",
+      "recipe": "minecraft:snout_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#bastion)$(thing)Bastion Remnant$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Spire Armor Trim",
+      "recipe": "minecraft:spire_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#end_city)$(thing)End City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Vex Armor Trim",
+      "recipe": "minecraft:vex_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#mansion)$(thing)Woodland Mansion$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Ward Armor Trim",
+      "recipe": "minecraft:ward_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#ancient_city)$(thing)Ancient City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Wild Armor Trim",
+      "recipe": "minecraft:wild_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#temple)$(thing)Jungle Temple$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Wayfinder Armor Trim",
+      "recipe": "minecraft:wayfinder_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Shaper Armor Trim",
+      "recipe": "minecraft:shaper_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Host Armor Trim",
+      "recipe": "minecraft:host_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Raiser Armor Trim",
+      "recipe": "minecraft:raiser_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Tide Armor Trim",
+      "recipe": "minecraft:tide_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#monument)$(thing)Ocean Monument$() $(br2)$(n)Container:$() $(l:creatures/monster-elder_guardian)$(thing)Elder Guardian$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Flow Armor Trim",
+      "recipe": "minecraft:flow_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Ominous Vault$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Bolt Armor Trim",
+      "recipe": "minecraft:bolt_armor_trim_smithing_template",
+      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Vault$()"
+    }
+  ]
+}

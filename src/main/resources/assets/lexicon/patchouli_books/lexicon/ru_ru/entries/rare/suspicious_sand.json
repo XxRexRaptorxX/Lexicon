@@ -1,0 +1,18 @@
+{
+  "name": "Suspicious Sand/Gravel",
+  "icon": "minecraft:suspicious_sand",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:suspicious_sand",
+      "text": "Suspicious blocks are fragile gravity-affected blocks found in various Overworld $(l:world/structures)$(thing)Structures$(). $(br2)They can be brushed to extract structure-dependent loot, and are the only source of $(l:rare/pottery_sherds)$(item)Pottery Sherds$(). $(br2)Suspicious blocks drop nothing if they are broken."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "gravel",
+      "item": "minecraft:suspicious_gravel",
+      "text": "$(item)Suspicious Sand$() generates naturally in buried rooms under $(l:world/structures#pyramid)$(thing)Desert Pyramids$(), in the bottom of $(l:world/structures#well)$(thing)Desert Wells$() & $(l:world/structures#ruin)$(thing)Warm Ocean Ruins$(). $(br2)$(item)Suspicious Gravel$() generates naturally in $(l:world/structures#ruin)$(thing)Cold Ocean Ruins$() & $(l:world/structures#trail_ruin)$(thing)Trail Ruins$()."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cobblestone Generator",
+  "icon": "minecraft:cobblestone",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Cobblestone generators$() work on the principle that when a $(item)Lava$() stream comes into contact with $(item)Water$(), the $(item)Lava$() is turned into $(item)Cobblestone$(). $(br2)This fresh block then prevents the two streams from touching. $(br)When this fresh $(item)Cobblestone$() is removed, the two fluids produce another piece of $(item)Cobblestone$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cobble_generator.png"
+      ],
+      "border": true
+    }
+  ]
+}

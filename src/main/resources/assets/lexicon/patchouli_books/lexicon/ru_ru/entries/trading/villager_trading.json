@@ -1,0 +1,219 @@
+{
+  "name": "Villager Trading",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)There's 5 career levels that can be increased by trading. $(li)A full trading bar unlocks the next level of trades. $(li)Each profession has it's own offers. $(li)Professions are assigned to each $(l:creatures/human-villager)$(thing)Villager$() based on their job-site block. $(li)$(l:creatures/human-villager)$(thing)Villagers$() disable an offer after a few trades. But they activate their offers again, up to twice per day. $(li)They can have a maximum of 10 trades. Each level unlocks a maximum of 2 trades."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Economic",
+      "text": "$(li)An sold out item gets a price increase when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time it resupplies. $(li)The $(l:brewing/effects#village_hero)$(thing)Hero of the Village effect$() temporarily reduces prices for the affected $(l:creatures/human-player)$(thing)Player$(). $(li)All price fluctuations affect only the first item involved in trade. $(li)A positive reputation is gained by curing $(l:creatures/undead-zombie_villager)$(thing)Zombie Villagers$(). $(br2)To cure a $(l:creatures/undead-zombie_villager)$(thing)Zombie Villager$(), splash it with a $(l:brewing/brewing)$(item)Splash Potion of Weakness$() and then feed it a $(l:rare/golden_apple)$(item)Golden Apple$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trading_legend.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/blast_furnace)$(item)Blast Furnace$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/armorer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/smoker)$(item)Smoker$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/butcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/cartography_table)$(item)Cartography Table$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cartographer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/barrel)$(item)Barrel$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fisherman_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/fletching_table)$(item)Fletching Table$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fletcher_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:brewing/ingredients_equipments)$(item)Cauldron$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/leatherworker_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/lectern)$(item)Lectern$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/librarian_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:mason}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/stonecutter)$(item)Stonecutter$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mason_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/loom)$(item)Loom$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shepherd_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/brewing_stand)$(item)Brewing Stand$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cleric_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/composter)$(item)Composter$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/farmer_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/smithing_table)$(item)Smithing Table$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/toolsmith_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() $(l:useables/grindstone)$(item)Grindstone$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weaponsmith_trades.png"
+      ],
+      "border": false
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",
+      "scale": "1.0",
+      "text": "$(n)Job site block:$() -"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager",
+      "scale": "1.0",
+      "text": "Villager without job site block"
+    }
+  ]
+}

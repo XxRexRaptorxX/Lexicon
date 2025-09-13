@@ -1,0 +1,21 @@
+{
+  "name": "Combinations",
+  "icon": "minecraft:anvil",
+  "category": "lexicon:enchanting",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An $(l:useables/anvil)$(item)Anvil$() can be used to combine the enchantments of two items, sacrificing one of them and repairing the other. $(br2)The items must be compatible, they must either be the same type and material (such as two $(item)Iron Swords$()) or an item and an $(item)Enchanted Book$() with an applicable enchantment (such as a $(item)Bow$() and an $(item)Infinity Enchanted Book$()). "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:anvil",
+      "text": "Combining two enchanted items, $(item)Books$() or one of each with the same enchantment at the same level produces an item or book with the next higher level of that enchantment up to the maximum. $(br2)To combine items, the $(l:creatures/human-player)$(thing)Player$() places the target item in the $(l:useables/anvil)$(item)Anvil's$() first slot and the sacrifice item in the second slot."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil"
+    }
+  ]
+}

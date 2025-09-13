@@ -1,0 +1,19 @@
+{
+  "name": "Magma Block Damage",
+  "icon": "minecraft:magma_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Magma Blocks$() damage most living entities standing on top of them, even if underwater. $(br2)The $(l:creatures/human-player)$(thing)Player$() can avoid all damage by sneaking, being under the $(l:brewing/effect#fire_resistance)$(thing)Fire Resistance$() effect, or by wearing $(l:enchanting/enchantments#frost_walker)$(thing)Frost Walker$() $(item)Boots$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/magma_sneak_1.png",
+        "lexicon:textures/pictures/magma_sneak_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

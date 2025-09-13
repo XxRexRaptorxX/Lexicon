@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Chicken",
+  "icon": "minecraft:chicken_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 4     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on grass, 1/8 chance from a thrown egg $(br)> $(n)Breeding:$() Seeds     $(br)> $(n)Properties:$() $(br)Lay random $(item)Eggs$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:chicken",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-2 Feathers, 1 Raw Chicken, 1 Cooked Chicken if killed with fire  $(n)XP:$() 1-3"
+    }
+  ]
+}

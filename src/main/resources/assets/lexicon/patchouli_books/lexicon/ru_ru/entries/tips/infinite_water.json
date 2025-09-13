@@ -1,0 +1,18 @@
+{
+  "name": "Infinite Water",
+  "icon": "minecraft:water_bucket",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)The simplest infinite water source:$() $(br)$(li)$(n)Step 1:$() Dig a hole 1 block down, 2 blocks wide and 2 blocks long. $(br)$(li)$(n)Step 2:$() Fill in 2 opposite corners with $(item)Water$() source blocks. $(br)$(li)$(n)Step 3:$() Get a $(item)Bucket$() and take all the $(item)Water$() you want!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/infinite_water_source.png"
+      ],
+      "border": true
+    }
+  ]
+}

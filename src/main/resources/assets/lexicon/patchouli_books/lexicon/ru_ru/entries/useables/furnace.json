@@ -1,0 +1,17 @@
+{
+  "name": "Furnace",
+  "icon": "minecraft:furnace",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:furnace",
+      "text": "A $(item)Furnace$() is a utility block used for the smelting of blocks and items."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace",
+      "title": " "
+    }
+  ]
+}

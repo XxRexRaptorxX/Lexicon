@@ -1,0 +1,19 @@
+{
+  "name": "Humanoid - Player",
+  "icon": "minecraft:player_head",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20 + armor $(br)> $(n)Attack Damage:$() 1 without tools $(br)> $(n)Behavior:$() unpredictable $(br)> $(n)Spawn:$() Player/World spawn point"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/player.png"
+      ],
+      "border": false,
+      "text": "$(n)Drops:$() inventory  $(br)$(n)XP:$() varying"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Entity Cramming Farm",
+  "icon": "minecraft:beef",
+  "category": "lexicon:farming",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Some farms that I would call a bit cheating 'exploit' game mechanics that weren't actually meant for that. $(br2)The first variant of this would be to use $(thing)Entity Cramming$() to kill mobs out of nowhere. $(br)$(li)Entity Cramming has been implemented to prevent lag, if too many entities are in one spot it will cause the oldest one to be killed. $(br)$(li)The maximum number is by default $(thing)24$(). But it can be changed with this command: $(thing)/gamerule maxEntityCramming [number]"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/entity_cramming_farm_1.png",
+        "lexicon:textures/pictures/entity_cramming_farm_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

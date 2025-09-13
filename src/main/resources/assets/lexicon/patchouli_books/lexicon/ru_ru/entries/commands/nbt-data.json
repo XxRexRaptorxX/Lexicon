@@ -1,0 +1,25 @@
+{
+  "name": "NBT Data",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:commands",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(l)Named Binary Tag (NBT)$() is a tree data structure used by Minecraft in many save files to store arbitrary data. $(br2)$(l)Stringified Named Binary Tag (SNBT)$(), also known as data tag, is often used in $(l:commands)$(thing)Commands$(). $(br2)A data tag consists of zero or more attribute-value pairs delimited by commas and enclosed in curly braces."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Each attribute-value pair consists of a tag name and the tag's value, separated by a colon. $(br2)Some values, however, may be a compound tag and themselves contain attribute-value pairs, allowing a data tag to describe a hierarchical data structure. $(br2)$(n)Example:$() $(br2)$(o){CustomName:'\"Bob\"', Invisible:true}$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)$(l)References:$()$(br) $(li)$(l:https://minecraft.wiki/w/NBT_format)Basic Knowledge$()  $(li)$(l:https://minecraft.fandom.com/wiki/Tutorials/Command_NBT_tags)Commands with NBT tutorial$()$(li)$(l:https://minecraft.fandom.com/wiki/Chunk_format#Block_entity_format)NBT for Block Entities$()  $(li)$(l:https://minecraft.fandom.com/wiki/Player.dat_format#Item_structure)NBT for Items$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Items_and_XPOrbs)NBT for Item Entities$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Mobs)NBT for Mobs$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Projectiles)NBT for Projectiles$()   $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Vehicles)NBT for Vehicles$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Dynamic_Tiles)NBT for dynamic Tiles$()   $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Other)NBT for other Entities$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Data Components",
+      "text": "$(l)Data Components$(), or simply $(l)Components$(), are structured data used to define and store various properties. $(br2)They are used on items, where they are referred as item components or item stack components, and block entities, partially replacing $(l)NBT format$() on newer MC versions. $(br2)More information can be found $(l:https://minecraft.wiki/w/Data_component_format)here$()"
+    }
+  ]
+}

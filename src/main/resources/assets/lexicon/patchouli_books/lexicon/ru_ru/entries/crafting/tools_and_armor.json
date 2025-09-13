@@ -1,0 +1,218 @@
+{
+  "name": "Tool & Armor Recipes",
+  "icon": "minecraft:golden_helmet",
+  "category": "lexicon:crafting",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lexicon:lexicon"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bow",
+      "recipe2": "minecraft:arrow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brush",
+      "recipe2": "minecraft:bucket"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:carrot_on_a_stick",
+      "recipe2": "minecraft:warped_fungus_on_a_stick"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:clock",
+      "recipe2": "minecraft:compass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:coast_armor_trim_smithing_template",
+      "recipe2": "minecraft:dune_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:eye_armor_trim_smithing_template",
+      "recipe2": "minecraft:host_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:raiser_armor_trim_smithing_template",
+      "recipe2": "minecraft:rib_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sentry_armor_trim_smithing_template",
+      "recipe2": "minecraft:shaper_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:silence_armor_trim_smithing_template",
+      "recipe2": "minecraft:snout_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spire_armor_trim_smithing_template",
+      "recipe2": "minecraft:tide_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:vex_armor_trim_smithing_template",
+      "recipe2": "minecraft:ward_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wayfinder_armor_trim_smithing_template",
+      "recipe2": "minecraft:wild_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:flow_armor_trim_smithing_template",
+      "recipe2": "minecraft:bolt_armor_trim_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shears",
+      "recipe2": "minecraft:wind_charge"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_sword",
+      "recipe2": "minecraft:wooden_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_pickaxe",
+      "recipe2": "minecraft:wooden_shovel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wooden_hoe",
+      "recipe2": "minecraft:stone_sword"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_axe",
+      "recipe2": "minecraft:stone_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_shovel",
+      "recipe2": "minecraft:stone_hoe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_sword",
+      "recipe2": "minecraft:iron_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_shovel",
+      "recipe2": "minecraft:iron_hoe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_sword",
+      "recipe2": "minecraft:golden_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_pickaxe",
+      "recipe2": "minecraft:golden_shovel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_hoe",
+      "recipe2": "minecraft:diamond_sword"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_axe",
+      "recipe2": "minecraft:diamond_pickaxe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_shovel",
+      "recipe2": "minecraft:diamond_hoe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_helmet",
+      "recipe2": "minecraft:leather_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_leggings",
+      "recipe2": "minecraft:leather_boots"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_helmet",
+      "recipe2": "minecraft:golden_chestplate"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:golden_leggings",
+      "recipe2": "minecraft:golden_boots"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_helmet",
+      "recipe2": "minecraft:iron_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_leggings",
+      "recipe2": "minecraft:iron_boots"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_helmet",
+      "recipe2": "minecraft:diamond_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diamond_leggings",
+      "recipe2": "minecraft:diamond_boots"
+    },    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod",
+      "recipe2": "minecraft:flint_and_steel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle",
+      "recipe2": "minecraft:map"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crossbow",
+      "recipe2": "minecraft:recovery_compass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shield",
+      "recipe2": "minecraft:spyglass"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spectral_arrow",
+      "recipe2": "minecraft:tipped_arrow"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:turtle_helmet",
+      "recipe2": "minecraft:writable_book"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wolf_armor"
+    }
+  ]
+}

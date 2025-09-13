@@ -1,0 +1,17 @@
+{
+  "name": "Lodestone",
+  "icon": "minecraft:lodestone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lodestone",
+      "text": "A $(item)Lodestone$() is a block that can be used to alter $(item)Compasses$() to point towards it. $(br2)It can be used in all three dimensions."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lodestone",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Building Ideas",
+  "icon": "minecraft:player_head",
+  "category": "lexicon:building",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are some building ideas for you!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_idea_1.png",
+        "lexicon:textures/pictures/building_idea_2.png",
+        "lexicon:textures/pictures/building_idea_3.png",
+        "lexicon:textures/pictures/building_idea_4.png",
+        "lexicon:textures/pictures/building_idea_5.png",
+        "lexicon:textures/pictures/building_idea_6.png",
+        "lexicon:textures/pictures/building_idea_7.png",
+        "lexicon:textures/pictures/building_idea_8.png",
+        "lexicon:textures/pictures/building_idea_9.png",
+        "lexicon:textures/pictures/building_idea_10.png",
+        "lexicon:textures/pictures/building_idea_11.png",
+        "lexicon:textures/pictures/building_idea_12.png",
+        "lexicon:textures/pictures/building_idea_13.png"
+      ],
+      "border": true,
+      "text": "$(7)Credits are in the assets"
+    }
+  ]
+}

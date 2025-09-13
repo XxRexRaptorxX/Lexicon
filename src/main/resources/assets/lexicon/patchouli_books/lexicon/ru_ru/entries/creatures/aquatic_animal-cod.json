@@ -1,0 +1,17 @@
+{
+  "name": "Aquatic Animal - Cod",
+  "icon": "minecraft:cod_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive      $(br)> $(n)Spawn:$() Oceans    $(br)> $(n)Properties:$() $(br)Can be caught with a $(item)Bucket$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cod",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() Raw Cod, 1 Cooked Cod if killed with fire, 5% chance for Bone Meal  $(n)XP:$() 1-3"
+    }
+  ]
+}

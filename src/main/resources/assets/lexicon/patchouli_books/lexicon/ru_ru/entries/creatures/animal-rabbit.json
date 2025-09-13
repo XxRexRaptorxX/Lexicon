@@ -1,0 +1,66 @@
+{
+  "name": "Animal - Rabbit",
+  "icon": "minecraft:rabbit_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on Grass, Snow, Sand $(br)> $(n)Breeding:$() Carrots, Golden Carrots, Dandelions "
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-1 Rabbit Hide, 0-1 Raw Rabbit, 0-1 Cooked Rabbit if killed with fire, 10% chance for Rabbit's Foot  $(n)XP:$() 1-3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:1}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 1",
+      "name": "White Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:2}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 2",
+      "name": "Black Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:3}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 3",
+      "name": "Black&White Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:4}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 4",
+      "name": "Gold Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:5}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 5",
+      "name": "Salt&Pepper Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:0}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 0",
+      "name": "Brown Rabbit"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit{RabbitType:99}",
+      "scale": "0.5",
+      "text": "Rabbit Type: 99",
+      "name": "The Killer Bunny"
+    }
+  ]
+}

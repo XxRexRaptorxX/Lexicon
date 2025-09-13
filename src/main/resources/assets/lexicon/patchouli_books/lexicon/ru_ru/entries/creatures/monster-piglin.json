@@ -1,0 +1,17 @@
+{
+  "name": "Monster - Piglin",
+  "icon": "minecraft:piglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 16     $(br)> $(n)Attack Damage:$() $(br)Ranged: 2-5, Melee: 5 on easy, 8 on normal, 12 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$() $(br)> $(n)Properties:$() $(br)They become hostile unless the $(l:creatures/human-player)$(thing)Player$() is equipped with at least one piece of $(item)Golden armor$(). $(l:creatures/human-player)$(thing)Players$() can use $(item)Gold Ingots$() to $(l:trading/piglin_bartering)barter$() with them for various items. They retreat $(l:creatures/undead-zombiefied_piglin)$(thing)Zombiefied Piglins$(), $(l:creatures/undead-zoglin)$(thing)Zoglins$() and soul fire items. They zombify outside the $(l:world/dimensions#nether)$(thing)Nether$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 8.5% chance to drop it's held item or armor  $(n)XP:$() adult 5-17, baby 1"
+    }
+  ]
+}

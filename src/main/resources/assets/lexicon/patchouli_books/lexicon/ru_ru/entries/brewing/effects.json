@@ -1,0 +1,510 @@
+{
+  "name": "Effects",
+  "icon": "minecraft:blaze_powder",
+  "category": "lexicon:brewing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An effect is a helpful or harmful condition that affects an entity. $(br2)Effects can be inflicted in various ways throughout the game, including consuming $(l:brewing/brewing#potions)$(item)Potions$() and some food items, being in the range of $(l:rare/beacon)$(item)Beacons$() and $(l:rare/conduit)$(item)Conduits$(), and being attacked by or close to certain mobs."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:milk_bucket",
+      "text": "When drinking from $(item)Milk Bucket$(), dying, being saved from death by a $(l:rare/totem_of_undying)$(item)Totem of Undying$(), or traveling through the return portal in $(l:exploring/end)$(thing)The End$(), all status effects are removed."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Speed",
+      "anchor": "speed",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases walking speed; higher levels make the affected entity faster. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/beacon)$(item)Beacon$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/speed_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Slowness",
+      "anchor": "slowness",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases walking speed; higher levels make the affected entity slower. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slowness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Haste",
+      "anchor": "haste",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases mining and attack speed, higher levels increase the mining and attack speed. $(br2)$(n)Sources:$() $(br)$(l:rare/beacon)$(item)Beacon$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/haste_effect.png"
+      ],
+      "border": false
+    },    {
+      "type": "patchouli:text",
+      "title": "Mining Fatigue",
+      "anchor": "mining_fatigue",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases mining and attack speed, higher levels decrease the mining and attack speed. $(br2)$(n)Sources:$() $(br)$(l:creatures/aquatic_animal-elder_guardian)Elder Guardian$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_fatigue_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Strength",
+      "anchor": "strength",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases melee damage, higher levels make the affected entity do more melee damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/beacon)$(item)Beacon$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/strength_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Instant Health",
+      "anchor": "instant_health",
+      "text": "$(n)Type:$() Positive, Negative for Undead $(br2)$(n)Effect:$() $(br)Heals living entities, damages undead, higher levels heal more health and do more damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/instant_health_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Instant Damage",
+      "anchor": "instant_damage",
+      "text": "$(n)Type:$() Negative, Positive for Undead $(br2)$(n)Effect:$() $(br)Damages living entities, heals undead, higher levels do more damage and heal more health. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/instant_damage_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Jump Boost",
+      "anchor": "jump_boost",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Increases jump height and reduces fall damage, higher levels make the affected entity jump higher and reduces more fall damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/beacon)$(item)Beacon$(), $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/jump_boost_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nausea",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Wobbles and warps the screen. $(br2)$(n)Sources:$() $(br)Eating a $(l:creatures/aquatic_animal-pufferfish)$(thing)Pufferfish$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nausea_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Regeneration",
+      "anchor": "regeneration",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Regenerates health over time, higher levels make health regenerate quicker. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/beacon)$(item)Beacon$(), $(l:rare/golden_apple)$(item)Golden Apples$(), $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:rare/totem_of_undying)$(item)Totem of Undying$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/regeneration_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Resistance",
+      "anchor": "resistance",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Reduces damage, higher levels reduce more damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/beacon)$(item)Beacon$(), $(l:rare/golden_apple)$(item)Enchanted Golden Apple$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/resistance_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fire Resistance",
+      "anchor": "fire_resistance",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Prevents the affected entity from taking damage due to $(item)Fire$(), $(item)Lava$() and other sources of fire damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:rare/golden_apple)$(item)Enchanted Golden Apple$(), $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:rare/totem_of_undying)$(item)Totem of Undying$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fire_resistance_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Water Breathing",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Prevents drowning and lets the affected entity breathe underwater. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Turtle Shell, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_breathing_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Invisibility",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Grants invisibility (but not the item they hold or the armor they wear), and reduces other mobs' detection range for the affected entity, higher levels reduce other mobs' detection range more. $(br2)$(n)Sources:$() $(br)Potions, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/invisibility_effect.png"
+      ],
+      "border": false
+    },    {
+      "type": "patchouli:text",
+      "title": "Blindness",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Impairs vision and disables the ability to sprint and critical hit. $(br2)$(n)Sources:$() $(br)$(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:creatures/human-illusioner)$(thing)Illusioner$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/blindness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Night Vision",
+      "text": "$(n)Type:$() Positive $(br2)$(n)Effect:$() $(br)Lets the $(l:creatures/human-player)$(thing)Player$() see well in darkness and underwater. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:rare/conduit)$(item)Conduit Power$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/night_vision_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hunger",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Increases food exhaustion, higher levels cause the $(l:creatures/human-player)$(thing)Player$() to starve quicker. $(br2)$(n)Sources:$() $(br)$(l:creatures/undead-husk)$(thing)Husk$(), $(l:creatures/aquatic_animal-pufferfish)$(thing)Pufferfish$(), Rotten Flesh, Raw Chicken, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hunger_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weakness",
+      "anchor": "weakness",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Decreases melee damage, higher levels decrease more melee damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weakness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Poison",
+      "anchor": "poison",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Inflicts damage over time (but can't kill), higher levels do more damage per second, doesn't affect undead. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, Poisonous Potato, Spider Eye, $(l:creatures/aquatic_animal-pufferfish)$(thing)Pufferfish$(), $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:creatures/arthropod-cave_spider)$(thing)Cave Spider$(), $(l:creatures/arthropod-bee)$(thing)Bee$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/poison_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wither",
+      "anchor": "wither",
+      "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Inflicts damage over time (can kill), higher levels do more damage per second. $(br2)$(n)Sources:$() $(br)Potions,  Wither Rose, $(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:creatures/boss-wither)$(thing)Wither$(), $(l:creatures/undead-wither_skeleton)$(thing)Wither Skeleton$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wither_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Health Boost",
+      "text": "$(n)Type:$() Positive  $(br2)$(n)Effect:$() $(br)Increases maximum health, higher levels give the affected entity more maximum health. $(br2)$(n)Sources:$() $(br)$(l:rare/golden_apple)$(item)Golden Apples$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/health_boost_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Absorption",
+      "anchor": "absorption",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Adds damage absorption (additional hearts that can't be regenerated), higher levels give more absorption. $(br2)$(n)Sources:$() $(br)$(l:rare/golden_apple)$(item)Golden Apples$(), $(l:rare/toten_of_undying)$(item)Totem of Undying$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/absorption_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Saturation",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Restores hunger and saturation. $(br2)$(n)Sources:$() $(br)$(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/saturation_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Glowing",
+      "text": "$(n)Type:$() Neutral   $(br2)$(n)Effect:$() $(br)Outlines the affected entity (can be seen through blocks). $(br2)$(n)Sources:$() $(br)Spectral Arrow, Bell for $(l:creatures/human-villager)$(thing)Villagers$() and $(l:creatures/human-witch)$(thing)Witches$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/glowing_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Levitation",
+      "anchor": "levitation",
+      "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)Floats the affected entity upward. $(br2)$(n)Sources:$() $(br)$(l:creatures/monster-shulker)$(thing)Shulker$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/levitation_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Luck",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Can increase chances of high-quality and more loot, higher levels increase the chances of better loot. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/luck_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bad Luck",
+      "text": "$(n)Type:$() Negative   $(br2)$(n)Effect:$() $(br)Can reduce chances of high-quality and more loot, higher levels reduce the chance of good loot. $(br2)$(n)Sources:$() $(br)$(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bad_luck_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Slow Falling",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Decreases falling speed and negates fall damage. $(br2)$(n)Sources:$() $(br)Potions, Tipped Arrows, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slow_falling_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Conduit Power",
+      "anchor": "conduit_power",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Increases underwater visibility and mining speed, prevents drowning. $(br2)$(n)Sources:$() $(br)$(l:rare/conduit)$(item)Conduit$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/conduit_power_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dolphin's Grace",
+      "text": "$(n)Type:$() Positive   $(br2)$(n)Effect:$() $(br)Increases swimming speed. $(br2)$(n)Sources:$() $(br)Swimming with $(l:creatures/aquatic_animal-dolphin)$(thing)Dolphins$(), $(l:commands)$(thing)/effect command$()",
+      "anchor": "grace"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/dolphins_grace_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bad Omen",
+      "anchor": "bad_omen",
+      "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)Bad Omen is a effect that ether transforms into $(l:brewing/effects#raid_omen)$(thing)Raid Omen$() if in a $(l:world/structures#village)$(thing)Village$() or $(l:brewing/effects#trial_omen)$(thing)Trial Omen$() if nead a non-ominous $(l:rare/trial_spawner)$(item)Trial Spawner$() $(br2)$(n)Sources:$() $(br)$(l:rare/ominous_bottle)$(item)Ominous Bottle$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bad_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Raid Omen",
+      "anchor": "raid_omen",
+      "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)This effect causes raids to start in $(l:world/structures#village)$(thing)Villages$() $(br2)$(n)Sources:$() $(br)Entering a $(l:world/structures#village)$(thing)Village$() with $(l:brewing/effects#bad_omen)$(thing)Bad Omen$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/raid_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trial Omen",
+      "anchor": "trial_omen",
+      "text": "$(n)Type:$() Neutral  $(br2)$(n)Effect:$() $(br)When a $(l:creatures/human-player)$(thing)Player$() receives this effect, they start an ominous trial. $(br)Any $(l:rare/trial_spawner)$(item)Trial Spawner$() within 15 blocks immediately becomes ominous and joins the ominous trial. $($br2)$(n)Sources:$() $(br)Seeing a non-ominous $(l:rare/trial_spawner)$(item)Trial Spawner$() with $(l:brewing/effects#bad_omen)$(thing)Bad Omen$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trial_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hero of the Village",
+      "anchor": "village_hero",
+      "text": "$(n)Type:$() Positive  $(br2)$(n)Effect:$() $(br)Gives discounts on trades with $(l:creatures/human-villager)$(thing)Villagers$(), and makes them throw items at the $(l:creatures/human-player)$(thing)Player$() depending on their profession. $(br2)$(n)Sources:$() $(br)Completing a village raid, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hero_of_the_village_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Darkness",
+      "anchor": "darkness",
+      "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)Darkens the screen. $(br2)$(n)Sources:$() $(br)Sculk Shrieker, $(l:creatures/boss-warden)$(thing)Warden$(), $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/darkness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wind Charged",
+      "anchor": "wind_charged",
+      "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)This effect causes an entity to release a burst of wind upon death. $(br2)$(n)Sources:$() $(br)Potions, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wind_charged_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Infested",
+      "anchor": "infested",
+      "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)This effect causes $(l:creatures/arthropod-silverfish)$(thing)Silverfish$() to spawn on an entity that is taking damage. $(br2)$(n)Sources:$() $(br)Potions, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/infested_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weaving",
+      "anchor": "weaving",
+      "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)This effect makes $(item)Cobweb$() spawn upon an entity's death. $(br2)$(n)Sources:$() $(br)Potions, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weaving_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Oozing",
+      "anchor": "oozing",
+      "text": "$(n)Type:$() Negative  $(br2)$(n)Effect:$() $(br)This effect causes two medium-sized $(l:creatures/monster-slime)$(thing)Slimes$() spawn upon an entity's death. $(br2)$(n)Sources:$() $(br)Potions, $(l:commands)$(thing)/effect command$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/oozing_effect.png"
+      ],
+      "border": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Strider",
+  "icon": "minecraft:strider_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$() on lava lakes $(br)> $(n)Breeding:$() Warped Fungus     $(br)> $(n)Properties:$() $(br)Walk on $(item)Lava$(). Can be equipped with a $(item)Saddle$() and ridden with a $(item)Warped fungus on a stick$(). Take damage by $(item)Water$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:strider",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 2-5 Strings  $(n)XP:$() 1-2"
+    }
+  ]
+}

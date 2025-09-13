@@ -1,0 +1,17 @@
+{
+  "name": "Animal - Polar Bear",
+  "icon": "minecraft:polar_bear_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 30     $(br)> $(n)Attack Damage:$() 3 on easy, 5 on normal, 8 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() Frozen biomes $(br)> $(n)Properties:$() $(br)Adult bears are hostile when with cubs or provoked."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:polar_bear",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 3/4 chance for 0-2 Raw Cod, 1/4 chance for 0-2 Raw Salmon  $(n)XP:$() 1-3"
+    }
+  ]
+}

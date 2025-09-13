@@ -1,0 +1,18 @@
+{
+  "name": "Obsidian Generation",
+  "icon": "minecraft:obsidian",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Obsidian$() is formed when $(item)Flowing Water$() touches a $(item)Lava Source$() block, and can be found naturally where $(item)Water$() from a spring or lake has flowed over a nearby $(item)Lava$() pool."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/obsidian_generation.png"
+      ],
+      "border": true
+    }
+  ]
+}

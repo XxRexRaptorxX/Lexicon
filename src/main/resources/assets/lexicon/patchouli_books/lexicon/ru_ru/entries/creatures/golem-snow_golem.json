@@ -1,0 +1,38 @@
+{
+  "name": "Golem - Snow Golem",
+  "icon": "minecraft:carved_pumpkin",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 4     $(br)> $(n)Attack Damage:$() 3 to $(l:creatures/monster-blaze)$(thing)Blazes$() $(br)> $(n)Behavior:$() Passive, Aggressive to monsters $(br)> $(n)Spawn:$() When created by a $(l:creatures/human-player)$(thing)Player$() $(br)> $(n)Properties:$() $(br)Creating a $(thing)Snow Golem$() requires the $(l:creatures/human-player)$(thing)Player$() to stack two $(item)Snow blocks$(), then place a $(item)Carved Pumpkin$(), or a $(item)Jack o'Lantern$() on top. Throws $(item)Snowballs$() to monsters. Melt in hot biomes, and on water contact. As they move, they leave a trail of $(item)Snow$() on the ground."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:snow_golem",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-15 Snowballs  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "O "
+          ],
+          [
+            "X0"
+          ],
+          [
+            "X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin",
+          "X": "minecraft:snow_block"
+        }
+      },
+      "text": "How to build a $(thing)Snow Golem$()."
+    }
+  ]
+}

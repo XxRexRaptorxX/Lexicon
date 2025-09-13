@@ -1,0 +1,17 @@
+{
+  "name": "Undead - Bogged",
+  "icon": "minecraft:bogged_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 16  $(br)> $(n)Attack Damage:$() $(br)Poison & 2-4 on easy, 3-5 on normal, 4-8 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Swamps, $(l:world/structures#trial_chambers)Trial Chambers$() $(br)> $(n)Properties:$() $(br)$(thing)Bogged$() behave the same as normal $(l:creatures/undead-skeleton)$(thing)Skeletons$(), but attack at a slower rate and shoot $(item)Tipped Arrows$() that inflict $(l:brewing/effects#poison)$(thing)Poison$() for 4 seconds on any target that they hit. $(br)A $(thing)Bogged$() drops 2 $(item)Mushrooms$() when sheared."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bogged",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-2 Bones, 0-2 Arrows, 50% chance Arrow of Poison, 8.5% chance for Equipment $(br)$(n)XP:$() 5-8"
+    }
+  ]
+}
