@@ -1,12 +1,12 @@
 {
-  "name": "Conduit",
+  "name": "Морской источник",
   "icon": "minecraft:conduit",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:conduit",
-      "text": "A $(item)Conduit$() is a beacon-like block that provides $(l:brewing/effects#conduit_power)$(thing)Conduit Power$() and attacks hostile mobs underwater. $(br2)The $(l:brewing/effects#conduit_power)$(thing)Conduit Power$() effect restores oxygen, gives underwater night vision and increases mining speed."
+      "text": "$(item)Морской источник$() — блок, похожий на маяк, который предоставляет эффект $(l:brewing/effects#conduit_power)$(thing)мощи источника$() и атакует враждебных мобов под водой. $(br2)Эффект $(l:brewing/effects#conduit_power)$(thing)мощи источника$() восстанавливает запас воздуха, даёт ночное зрение под водой и увеличивает скорость добычи."
     },
     {
       "type": "patchouli:crafting",
@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "To activate, a $(item)Conduit$() needs to be in the center of a 3×3×3 volume of $(item)Water$(), which itself must be enclosed within an activation frame. $(br2)Only $(item)Prismarine$(), $(item)Dark Prismarine$(), $(item)Prismarine Bricks$(), and $(item)Sea Lantern$() blocks in the frame contribute to activation. $(br)These blocks can be found in $(l:world/structures#monument)$(thing)Ocean Monuments$()."
+      "text": "Чтобы активировать, $(item)морской источник$() должен находиться в центре объёма 3×3×3 из $(item)воды$(), окружённого рамой активации. $(br2)В расчёт идут только блоки $(item)призмарина$(), $(item)тёмного призмарина$(), $(item)призмариновых кирпичей$() и $(item)морских фонарей$() в раме. $(br)Эти блоки можно найти в $(l:world/structures#monument)$(thing)подводных монументах$()."
     },
     {
       "type": "patchouli:multiblock",
@@ -63,8 +63,8 @@
           "X": "minecraft:conduit"
         }
       },
-      "name": "Conduit Activation Frame",
-      "text": "This frame can be extended with additional blocks for better effects."
+      "name": "Рама активации морского источника",
+      "text": "Эту раму можно расширить дополнительными блоками для усиления эффекта."
     }
 
   ]

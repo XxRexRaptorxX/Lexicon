@@ -1,12 +1,12 @@
 {
-  "name": "Wither Rose",
+  "name": "Роза иссушения",
   "icon": "minecraft:wither_rose",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:wither_rose",
-      "text": "A $(item)Wither Rose$() is a unique flower with negative properties. $(br2)Any $(l:creatures/human-player)$(thing)Player$() or mob that touches it will be granted the $(l:brewing/effects#wither)$(thing)Wither effect$(). $(br2)They can only be obtained when the $(l:creatures/boss-wither)$(thing)Wither$() kills another mob."
+      "text": "$(item)Роза иссушения$() — уникальный цветок с отрицательными свойствами. $(br2)Любой $(l:creatures/human-player)$(thing)игрок$() или моб, коснувшийся её, получает эффект $(l:brewing/effects#wither)$(thing)иссушения$(). $(br2)Её можно получить только когда $(l:creatures/boss-wither)$(thing)Иссушитель$() убивает другое существо."
     }
   ]
 }

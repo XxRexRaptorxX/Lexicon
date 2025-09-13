@@ -1,12 +1,12 @@
 {
-  "name": "Elytra",
+  "name": "Элитры",
   "icon": "minecraft:elytra",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:elytra",
-      "text": "$(item)Elytras$() are rare wings found in $(l:world/structures#end_ship)$(thing)End Ships$(). $(br2)Can be equipped in the chestplate slot and allows you to fly! $(br2)You can use $(item)Firework Rockets$() as a speed boost!"
+      "text": "$(item)Элитры$() — редкие крылья, найденные в $(l:world/structures#end_ship)$(thing)кораблях Края$(). $(br2)Надеваются в слот нагрудника и позволяют летать! $(br2)Для ускорения можно использовать $(item)фейерверки$()."
     }
   ]
 }

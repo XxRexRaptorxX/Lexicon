@@ -1,12 +1,12 @@
 {
-  "name": "Beacon",
+  "name": "Маяк",
   "icon": "minecraft:beacon",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:beacon",
-      "text": "A $(item)Beacon$() is a block that projects a light beam skyward and can provide status effects such as $(l:brewing/effects#speed)$(thing)Speed$(), $(l:brewing/effects#jump_boost)$(thing)Jump Boost$(), $(l:brewing/effects#haste)$(thing)Haste$(), $(l:brewing/effects#regeneration)$(thing)Regeneration$(), $(l:brewing/effects#resistance)$(thing)Resistance$(), or $(l:brewing/effects#strength)$(thing)Strength$() to nearby $(l:creatures/human-player)$(thing)Players$() when activated with a pyramid."
+      "text": "$(item)Маяк$() — блок, испускающий луч света в небо и обеспечивающий ближайших $(l:creatures/human-player)$(thing)игроков$() эффектами, такими как $(l:brewing/effects#speed)$(thing)Скорость$(), $(l:brewing/effects#jump_boost)$(thing)Прыгучесть$(), $(l:brewing/effects#haste)$(thing)Ускорение$(), $(l:brewing/effects#regeneration)$(thing)Регенерация$(), $(l:brewing/effects#resistance)$(thing)Сопротивление$() или $(l:brewing/effects#strength)$(thing)Сила$() при активации пирамидой."
     },
     {
       "type": "patchouli:crafting",
@@ -19,7 +19,7 @@
         "lexicon:textures/pictures/beacon.png"
       ],
       "border": true,
-      "text": "There are four possible pyramid heights. More levels make more powers available. $(br)Can be built with $(item)Iron/Gold/Emerald/Diamond/Netherite$() blocks."
+      "text": "Существует четыре возможных высоты пирамиды. Чем больше уровней, тем больше доступных эффектов. $(br)Можно строить из блоков $(item)железа/золота/изумруда/алмаза/незерита$()."
     }
   ]
 }

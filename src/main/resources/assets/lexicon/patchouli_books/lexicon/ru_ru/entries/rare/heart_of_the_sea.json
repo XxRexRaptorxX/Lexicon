@@ -1,18 +1,18 @@
 {
-  "name": "Heart of the Sea",
+  "name": "Сердце моря",
   "icon": "minecraft:heart_of_the_sea",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:heart_of_the_sea",
-      "text": "The $(item)Heart of the Sea$() can be obtained from a $(l:world/structures#treasure)$(thing)Buried Treasure$(). $(br2)The location is marked with a noticeable red $(l)X$() on a buried $(item)Treasure Map$(), which is found in $(l:world/structures#ruin)$(thing)Ocean Ruins$() and $(l:world/structures#shipwreck)$(thing)Shipwrecks$(). $(br2)Feeding $(item)Raw Cod$() or $(item)Raw Salmon$() to a $(l:creatures/aquatic_animal-dolphin)$(thing)Dolphin$() causes them to swim toward the nearest structure."
+      "text": "$(item)Сердце моря$() можно получить из $(l:world/structures#treasure)$(thing)зарытого сокровища$(). $(br2)Его местоположение отмечено заметной красной $(l)X$() на $(item)карте сокровищ$(), которую можно найти в $(l:world/structures#ruin)$(thing)океанических руинах$() и $(l:world/structures#shipwreck)$(thing)кораблекрушениях$(). $(br2)Если накормить $(item)сырой треской$() или $(item)сырым лососем$() $(l:creatures/aquatic_animal-dolphin)$(thing)дельфина$(), он поплывёт к ближайшей структуре."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:conduit",
       "title": " ",
-      "text": "$(br)The heart be used to craft a $(l:rare/conduit)$(item)Conduit$()."
+      "text": "$(br)Сердце используется для создания $(l:rare/conduit)$(item)морского источника$()."
     }
   ]
 }

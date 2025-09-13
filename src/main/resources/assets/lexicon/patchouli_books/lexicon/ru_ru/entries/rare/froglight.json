@@ -1,22 +1,22 @@
 {
-  "name": "Froglight",
+  "name": "Лягушачий фонарь",
   "icon": "minecraft:verdant_froglight",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:pearlescent_froglight",
-      "text": "A $(item)Froglight$() is a luminous natural block that can be obtained if a $(l:creatures/aquatic_animal-frog)$(thing)Frog$() eats a tiny $(l:creatures/monster-magma_cube)$(thing)Magma Cube$(). $(br2)It is used for decoration."
+      "text": "$(item)Лягушачий фонарь$() — светящийся природный блок, который можно получить, если $(l:creatures/aquatic_animal-frog)$(thing)лягушка$() съест маленький $(l:creatures/monster-magma_cube)$(thing)магмовый куб$(). $(br2)Используется для декора."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:ochre_froglight",
-      "text": "There are three colors of $(thing)Froglight$() that drop depending the type of frog: $(br)$(li)$(n)Pearlescent$() from warm (white) frogs $(br)$(li)$(n)Verdant$() from cold (green) frogs $(br)$(li)$(n)Ochre$() from temperate (orange) frogs"
+      "text": "Существует три цвета $(thing)лягушачьих фонарей$(), которые зависят от вида лягушки: $(br)$(li)$(n)Перламутровый$() из тёплых (белых) лягушек $(br)$(li)$(n)Зелёный$() из холодных (зелёных) лягушек $(br)$(li)$(n)Охристый$() из умеренных (оранжевых) лягушек"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:verdant_froglight",
-      "text": "They emit light level 15, the highest level possible for a light-emitting block."
+      "text": "Они излучают уровень света 15 — максимальный возможный для источника света."
     }
   ]
 }

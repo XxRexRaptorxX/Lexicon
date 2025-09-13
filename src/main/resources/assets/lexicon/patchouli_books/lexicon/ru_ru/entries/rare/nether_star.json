@@ -1,12 +1,12 @@
 {
-  "name": "Nether Star",
+  "name": "Звезда Незера",
   "icon": "minecraft:nether_star",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:nether_star",
-      "text": "The $(item)Nether Star$() is a rare item dropped by the $(l:creatures/boss-wither)$(thing)Wither$() that is used to craft endgame items like the $(l:rare/beacon)$(item)Beacon$()."
+      "text": "$(item)Звезда Незера$() — редкий предмет, выпадающий из $(l:creatures/boss-wither)$(thing)Иссушителя$(), используемый для создания предметов поздней стадии, таких как $(l:rare/beacon)$(item)Маяк$()."
     },
     {
       "type": "patchouli:crafting",
@@ -14,3 +14,4 @@
     }
   ]
 }
+

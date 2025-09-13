@@ -1,12 +1,12 @@
 {
-  "name": "Sniffer Egg",
+  "name": "Яйцо нюхача",
   "icon": "minecraft:sniffer_egg",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:sniffer_egg",
-      "text": "A $(item)Sniffer Egg$() is a block that can be brushed out of $(l:rare/suspicious_sand)$(item)Suspicious Sand$() in $(l:world/structures#ruin)$(thing)Warm Ocean Ruins$(), or obtained by breeding two $(l:creatures/animal-sniffer)$(thing)Sniffers$(). $(br2)It slowly hatches into a $(l:creatures/animal-sniffer)$(thing)Snifflet$() when placed as a block in the world, which takes half as much time when it is placed on a $(item)Moss block$()."
+      "text": "$(item)Яйцо нюхача$() — блок, который можно вычистить из $(l:rare/suspicious_sand)$(item)подозрительного песка$() в $(l:world/structures#ruin)$(thing)тёплых океанических руинах$() или получить, разводя двух $(l:creatures/animal-sniffer)$(thing)нюхачей$(). $(br2)Будучи размещённым как блок, оно медленно вылупляется в $(l:creatures/animal-sniffer)$(thing)нюхлёнка$(), причём на $(item)блоке мха$() этот процесс идёт вдвое быстрее."
     },
     {
       "type": "patchouli:entity",

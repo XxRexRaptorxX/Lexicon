@@ -1,16 +1,16 @@
 {
-  "name": "Dragon Egg",
+  "name": "Яйцо дракона",
   "icon": "minecraft:dragon_egg",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:dragon_egg",
-      "text": "The $(item)Dragon Egg$() is a trophy item, and is the $(n)rarest$() item obtainable in the game, as it generates only once per world. $(br2)It's generated on top of the exit portal when the first $(l:creatures/boss-ender_dragon)$(thing)Ender Dragon$() is defeated."
+      "text": "$(item)Яйцо дракона$() — трофей и $(n)самый редкий$() предмет в игре, так как генерируется только один раз на мир. $(br2)Появляется на вершине выходного портала после первого убийства $(l:creatures/boss-ender_dragon)$(thing)дракона Края$()."
     },
     {
       "type": "patchouli:text",
-      "text": "The egg usually cannot be mined directly, as trying to do so causes it to teleport. $(br2)The $(item)Dragon Egg$() is a gravity-affected block, and drops as an item when pushed by a $(l:redstone/redstone_components#piston)$(item)Piston$() or when it falls onto a block less than a full block tall, such as a $(item)Torch$() or a $(item)Bottom Slab$(). $(br2)When destroyed by an explosion, the block always drops as an item."
+      "text": "Обычно яйцо нельзя добыть напрямую, поскольку при попытке оно телепортируется. $(br2)$(item)Яйцо дракона$() — блок, на который действует гравитация; оно выпадает предметом, если его толкнуть $(l:redstone/redstone_components#piston)$(item)поршнем$() или если оно падает на блок ниже полного, например на $(item)факел$() или $(item)нижнюю плиту$(). $(br2)При разрушении взрывом блок всегда выпадает предметом."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Ominous Banner",
+  "name": "Зловещий флаг",
   "icon": "minecraft:gray_banner",
   "category": "lexicon:rare_stuff",
   "pages": [
@@ -9,8 +9,8 @@
         "lexicon:textures/pictures/ominous_banner.png"
       ],
       "border": false,
-      "title": "Ominous Banner",
-      "text": "An $(item)Ominous Banner$() is a special uncraftable variant of the $(item)Banner$() only obtained from $(l:creatures/boss-raid_captain)$(thing)Raid Captains$()."
+      "title": "Зловещий флаг",
+      "text": "$(item)Зловещий флаг$() — особый некрафтящийся вариант $(item)флага$(), который можно получить только с $(l:creatures/boss-raid_captain)$(thing)капитанов набега$()."
     },
     {
       "type": "patchouli:image",
@@ -18,7 +18,7 @@
         "lexicon:textures/pictures/pillager_captain.png"
       ],
       "border": false,
-      "title": "Pillager Captain"
+      "title": "Капитан разбойников"
     }
   ]
 }

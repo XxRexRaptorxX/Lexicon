@@ -1,130 +1,130 @@
 {
-  "name": "Smithing Templates",
+  "name": "Шаблоны кузнечного дела",
   "icon": "minecraft:netherite_upgrade_smithing_template",
   "category": "lexicon:rare_stuff",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:netherite_upgrade_smithing_template",
-      "text": "$(item)Smithing templates$() are items used in $(l:useables/smithing_table)$(item)Smithing Tables$() to alter tools and armor. $(br2)$(item)Smithing templates$() can be found in various $(l:world/structures)$(thing)Structures$() and can be duplicated using seven $(item)Diamonds$() and an item based on the template. $(br2)Some of them are found less often and some are more common."
+      "text": "$(item)Шаблоны кузнечного дела$() используются в $(l:useables/smithing_table)$(item)кузнечном столе$() для изменения инструментов и брони. $(br2)$(item)Шаблоны кузнечного дела$() можно найти в различных $(l:world/structures)$(thing)структурах$() и дублировать, используя семь $(item)алмазов$() и предмет, соответствующий шаблону. $(br2)Некоторые из них встречаются реже, другие — чаще."
     },
     {
       "type": "patchouli:text",
-      "text": "$(item)Armor trim smithing templates$() are used to customize an armor piece's appearance by using a $(l:useables/smithing_table)$(item)Smithing Tables$(), an armor piece, and an ingot or crystal:  $(br)$(li)$(item)Emerald$() $(li)$(l:redstone/redstone_components#redstone)$(item)Redstone Dust $(li)$(item)Lapis Lazuli $(li)$(item)Amethyst Shard $(li)$(item)Nether Quartz $(li)$(l:rare/netherite)$(item)Netherite Ingot$() $(li)$(item)Diamond $(li)$(item)Gold Ingot $(li)$(item)Iron Ingot $(li)$(item)Copper Ingot$()"
+      "text": "$(item)Шаблоны отделки брони$() позволяют настроить внешний вид части брони с помощью $(l:useables/smithing_table)$(item)кузнечного стола$(), самой брони и слитка или кристалла:  $(br)$(li)$(item)Изумруд$() $(li)$(l:redstone/redstone_components#redstone)$(item)Редстоуновая пыль$() $(li)$(item)Лазурит$() $(li)$(item)Осколок аметиста$() $(li)$(item)Незер-кварц$() $(li)$(l:rare/netherite)$(item)Слиток незерита$() $(li)$(item)Алмаз$() $(li)$(item)Золотой слиток$() $(li)$(item)Железный слиток$() $(li)$(item)Медный слиток$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Netherite Upgrade",
+      "title": "Незеритовое улучшение",
       "recipe": "minecraft:netherite_upgrade_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#bastion)$(thing)Bastion remnant$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#bastion)$(thing)Остов бастиона$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Coast Armor Trim",
+      "title": "Прибрежная отделка брони",
       "recipe": "minecraft:coast_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#shipwreck)$(thing)Shipwreck$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#shipwreck)$(thing)Кораблекрушение$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Coast Armor Trim",
+      "title": "Пустынная отделка брони",
       "recipe": "minecraft:dune_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#pyramid)$(thing)Desert Temple$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#pyramid)$(thing)Пустынный храм$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Eye Armor Trim",
+      "title": "Отделка ока",
       "recipe": "minecraft:eye_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#stronghold)$(thing)Stronghold$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#stronghold)$(thing)Крепость$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Rib Armor Trim",
+      "title": "Рёберная отделка",
       "recipe": "minecraft:rib_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#fortress)$(thing)Nether Fortress$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#fortress)$(thing)Адская крепость$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Sentry Armor Trim",
+      "title": "Отделка стража",
       "recipe": "minecraft:sentry_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#outpost)$(thing)Pillager Outpost$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#outpost)$(thing)Аванпост разбойников$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Silence Armor Trim",
+      "title": "Отделка тишины",
       "recipe": "minecraft:silence_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#ancient_city)$(thing)Ancient City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#ancient_city)$(thing)Древний город$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Snout Armor Trim",
+      "title": "Отделка рыла",
       "recipe": "minecraft:snout_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#bastion)$(thing)Bastion Remnant$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#bastion)$(thing)Остов бастиона$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Spire Armor Trim",
+      "title": "Отделка шпиля",
       "recipe": "minecraft:spire_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#end_city)$(thing)End City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#end_city)$(thing)Город Края$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Vex Armor Trim",
+      "title": "Отделка вредины",
       "recipe": "minecraft:vex_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#mansion)$(thing)Woodland Mansion$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#mansion)$(thing)Лесной особняк$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Ward Armor Trim",
+      "title": "Отделка хранителя",
       "recipe": "minecraft:ward_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#ancient_city)$(thing)Ancient City$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#ancient_city)$(thing)Древний город$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Wild Armor Trim",
+      "title": "Дикая отделка",
       "recipe": "minecraft:wild_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#temple)$(thing)Jungle Temple$() $(br2)$(n)Container:$() $(l:useables/chest)$(item)Chest$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#temple)$(thing)Храм джунглей$() $(br2)$(n)Контейнер:$() $(l:useables/chest)$(item)Сундук$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Wayfinder Armor Trim",
+      "title": "Отделка следопыта",
       "recipe": "minecraft:wayfinder_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trail_ruin)$(thing)Руины тропы$() $(br2)$(n)Контейнер:$() $(l:rare/suspicious_sand)$(item)Подозрительный гравий$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Shaper Armor Trim",
+      "title": "Отделка ваятеля",
       "recipe": "minecraft:shaper_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trail_ruin)$(thing)Руины тропы$() $(br2)$(n)Контейнер:$() $(l:rare/suspicious_sand)$(item)Подозрительный гравий$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Host Armor Trim",
+      "title": "Отделка хозяина",
       "recipe": "minecraft:host_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trail_ruin)$(thing)Руины тропы$() $(br2)$(n)Контейнер:$() $(l:rare/suspicious_sand)$(item)Подозрительный гравий$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Raiser Armor Trim",
+      "title": "Отделка возмутителя",
       "recipe": "minecraft:raiser_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trail_ruin)$(thing)Trail Ruins$() $(br2)$(n)Container:$() $(l:rare/suspicious_sand)$(item)Suspicious Gravel$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trail_ruin)$(thing)Руины тропы$() $(br2)$(n)Контейнер:$() $(l:rare/suspicious_sand)$(item)Подозрительный гравий$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Tide Armor Trim",
+      "title": "Приливная отделка",
       "recipe": "minecraft:tide_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#monument)$(thing)Ocean Monument$() $(br2)$(n)Container:$() $(l:creatures/monster-elder_guardian)$(thing)Elder Guardian$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#monument)$(thing)Подводный монумент$() $(br2)$(n)Контейнер:$() $(l:creatures/monster-elder_guardian)$(thing)Древний страж$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Flow Armor Trim",
+      "title": "Отделка потока",
       "recipe": "minecraft:flow_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Ominous Vault$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trial_chambers)$(thing)Испытательные камеры$() $(br2)$(n)Контейнер:$() $(l:rare/vault)$(item)Зловещий тайник$()"
     },
     {
       "type": "patchouli:crafting",
-      "title": "Bolt Armor Trim",
+      "title": "Отделка молнии",
       "recipe": "minecraft:bolt_armor_trim_smithing_template",
-      "text": "$(br)$(n)Location:$() $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Container:$() $(l:rare/vault)$(item)Vault$()"
+      "text": "$(br)$(n)Местонахождение:$() $(l:world/structures#trial_chambers)$(thing)Испытательные камеры$() $(br2)$(n)Контейнер:$() $(l:rare/vault)$(item)Тайник$()"
     }
   ]
 }
