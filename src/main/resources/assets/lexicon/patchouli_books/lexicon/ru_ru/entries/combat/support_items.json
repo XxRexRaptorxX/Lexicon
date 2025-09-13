@@ -1,12 +1,12 @@
 {
-  "name": "Support items",
+  "name": "Вспомогательные предметы",
   "icon": "minecraft:shield",
   "category": "lexicon:combat",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "In addition to weapons, you also need other items to make your life easier in intensive fighting: $(br)$(li)Food $(li)Armor $(li)Shield $(li)$(l:brewing/brewing#potions)Potions$() $(li)Ender Pearls $(li)$(l:rare/totem_of_undying)Totem of Undying$()"
+      "text": "Помимо оружия, вам также нужны другие предметы, чтобы облегчить жизнь в интенсивных боях: $(br)$(li)Еда$(li)Броня $(li)Щит $(li)$(l:brewing/brewing#potions)Зелья$() $(li)Жемчуг Края $(li)$(l:rare/totem_of_undying)Тотем бессмертия$()"
     },
     {
       "type": "patchouli:image",

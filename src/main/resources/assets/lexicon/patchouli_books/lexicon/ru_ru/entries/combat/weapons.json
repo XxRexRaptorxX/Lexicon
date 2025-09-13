@@ -1,12 +1,12 @@
 {
-  "name": "Weapons",
+  "name": "Оружие",
   "icon": "minecraft:iron_sword",
   "category": "lexicon:combat",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There are many different $(item)Weapons$() and $(item)Tools$() in the game that you can use to fight. $(br2)There are a few things to consider: $(br)$(li)Attack Damage $(li)Attack Speed $(li)Attack Cooldown $(li)Critical Hits $(li)Possible Enchantments"
+      "text": "В игре есть множество различных видов $(item)Оружия$() и $(item)Инструментов$(), которые можно использовать в бою. $(br2)Есть несколько вещей, которые стоит учитывать: $(br)$(li)Урон $(li)Скорость атаки $(li)Восстановление атаки $(li)Критические удары $(li)Возможные зачарования"
     },
     {
       "type": "patchouli:image",
@@ -15,23 +15,23 @@
         "lexicon:textures/pictures/item_damage_2.png"
       ],
       "border": false,
-      "title": "Damage & Speed",
-      "text": "DPS = Damage per second"
+      "title": "Урон и скорость",
+      "text": "DPS = урон в секунду"
     },
     {
       "type": "patchouli:text",
-      "title": "Attack Cooldown",
-      "text": "When the $(l:creatures/human-player)$(thing)Player$() attacks too quickly, it reduces the strength of the attacks. $(br2)The base damage done (as a fraction of the full possible damage) depends on the time between attacks, which is also reflected in the height of the held $(item)Weapon$() on screen and the attack indicator bar"
+      "title": "Восстановление атаки",
+      "text": "Когда $(l:creatures/human-player)$(thing)Игрок$() атакует слишком быстро, это снижает силу ударов. $(br2)Базовый наносимый урон (как доля от полного возможного урона) зависит от времени между атаками, что также отражается по высоте поднятого $(item)Оружия$() на экране и на индикаторе атаки"
     },
     {
       "type": "patchouli:text",
-      "title": "Critical Hits",
-      "text": "A critical hit is an attack that deals extra damage compared to a regular attack. Critical melee strikes, regardless of the weapon used, cause small star particles to fly out of the target who was critically hit. $(item)Arrows$() shot from fully charged bows have a $(thing)25%$() chance of becoming critical. $(br2)In melee combat, a critical hit occurs when a $(l:creatures/human-player)$(thing)Player$() attacks a mob while falling, including while coming down from a jump, but not while jumping up. $(br)The attack deals $(thing)150%$() of the attack's base damage."
+      "title": "Критические удары",
+      "text": "Критический удар — это атака, наносящая дополнительный урон по сравнению с обычной. Критические ближние удары, независимо от используемого оружия, вызывают появление небольших звездочек, вылетающих из цели, по которой нанесли критический удар. $(item)Стрелы$(), выпущенные из полностью натянутого лука, имеют $(thing)25%$() шанс стать критическими. $(br2)В ближнем бою критический удар происходит, когда $(l:creatures/human-player)$(thing)Игрок$() атакует моба во время падения, включая спуск после прыжка, но не при подъёме. $(br)Атака наносит $(thing)150%$() базового урона."
     },
     {
       "type": "patchouli:text",
-      "title": "Other Weapons",
-      "text": "$(li)Bow or Crossbow with different types of arrows $(l:brewing/potion_types#splash_potion)$(li)Splash Potions $(l:brewing/potion_types#lingering_potion)$(li)Lingering Potions $(li)Snowballs (damages only $(l:creatures/monster-blaze)$(thing)Blazes$()) $(li)Explosives like TNT $(li)Flint and steel $(li)Lava Bucket"
+      "title": "Прочее оружие",
+      "text": "$(li)Лук или арбалет с различными типами стрел $(l:brewing/potion_types#splash_potion)$(li)Взрывные зелья $(l:brewing/potion_types#lingering_potion)$(li)Туманные зелья $(li)Снежки (наносят урон только $(l:creatures/monster-blaze)$(thing)Ифритам$()) $(li)Взрывчатка вроде TNT $(li)Огниво $(li)Ведро лавы"
     }
   ]
 }
