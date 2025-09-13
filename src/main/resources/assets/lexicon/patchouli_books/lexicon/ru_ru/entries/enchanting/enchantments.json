@@ -1,222 +1,222 @@
 {
-  "name": "Enchantments",
+  "name": "Зачарования",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:enchanting",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages describe all enchantments in the game. $(br2)$(n)Primary Items:$() The items that can receive the enchantment legitimately in Survival mode by using an $(l:useables/enchanting_table)$(item)Enchanting Table$().$(br2)$(n)Secondary Items:$() Items that, in Survival mode, cannot receive the enchantment from an $(l:useables/enchanting_table)$(item)Enchanting Table$() but can from an $(item)Enchanted Book$() with an $(l:useables/anvil)$(item)Anvil$()."
+      "text": "На следующих страницах описаны все зачарования в игре. $(br2)$(n)Основные предметы:$() Предметы, которые могут получить зачарование легитимно в режиме выживания при помощи $(l:useables/enchanting_table)$(item)Стола зачарований$().$(br2)$(n)Вторичные предметы:$() Предметы, которые в режиме выживания нельзя зачаровать через $(l:useables/enchanting_table)$(item)Стол зачарований$(), но можно с помощью $(item)Чародейской книги$() и $(l:useables/anvil)$(item)Наковальни$()."
     },
     {
       "type": "patchouli:text",
-      "title": "Aqua Affinity",
-      "text": "$(n)Effect:$() $(br)Increases underwater mining speed.  $(br2)$(n)Incompatible Enchantments:$() / $(br2)$(n)Primary Items:$() Helmets  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "title": "Подводник",
+      "text": "$(n)Эффект:$() $(br)Увеличивает скорость добычи под водой.  $(br2)$(n)Несовместимые зачарования:$() / $(br2)$(n)Основные предметы:$() Шлемы  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Bane of Arthropods",
-      "text": "$(n)Effect:$() $(br)Increases damage and applies $(thing)Slowness IV$() to arthropod mobs.$(br2)$(n)Incompatible Enchantments:$() Smite, Sharpness  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+      "title": "Бич членистоногих",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон и накладывает на членистоногих эффект $(thing)Медлительность IV$().$(br2)$(n)Несовместимые зачарования:$() Небесная кара, Острота  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() Топоры  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Blast Protection",
-      "text": "$(n)Effect:$() $(br)Reduces explosion damage and knockback.    $(br2)$(n)Incompatible Enchantments:$() $(br)Fire Protection, Protection, Projectile Protection   $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "title": "Взрывоустойчивость",
+      "text": "$(n)Эффект:$() $(br)Снижает урон и отбрасывание от взрывов.    $(br2)$(n)Несовместимые зачарования:$() $(br)Защита от огня, Защита, Защита от снарядов   $(br2)$(n)Основные предметы:$() Броня  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Channeling",
+      "title": "Громовержец",
       "anchor": "channeling",
-      "text": "$(n)Effect:$() $(br)During thunderstorms, tridents will be able to strike hit enemies with a lightning bolt.$(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "text": "$(n)Эффект:$() $(br)Во время грозы трезубец поражает попадённых врагов молнией.$(br2)$(n)Несовместимые зачарования:$() Тяга  $(br2)$(n)Основные предметы:$() Трезубец  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Depth Strider",
-      "text": "$(n)Effect:$() $(br)Increases underwater movement speed.    $(br2)$(n)Incompatible Enchantments:$() Frost Walker    $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Подводная ходьба",
+      "text": "$(n)Эффект:$() $(br)Увеличивает скорость перемещения под водой.    $(br2)$(n)Несовместимые зачарования:$() Ледоход   $(br2)$(n)Основные предметы:$() Ботинки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Efficiency",
-      "text": "$(n)Effect:$() $(br)Increases tool speed, as well as the chance for axes to disable shields.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() All common tools  $(br2)$(n)Secondary Items:$() Shears  $(br2)$(n)Max Level:$() V "
+      "title": "Эффективность",
+      "text": "$(n)Эффект:$() $(br)Увеличивает скорость инструмента и шанс топора отключить щит.   $(br2)$(n)Несовместимые зачарования:$() /   $(br2)$(n)Основные предметы:$() Все обычные инструменты  $(br2)$(n)Вторичные предметы:$() Ножницы  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Feather Falling",
+      "title": "Невесомость",
       "anchor": "feather falling",
-      "text": "$(n)Effect:$() $(br)Reduces fall damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "text": "$(n)Эффект:$() $(br)Снижает урон от падения.   $(br2)$(n)Несовместимые зачарования:$() /   $(br2)$(n)Основные предметы:$() Ботинки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Fire Aspect",
-      "text": "$(n)Effect:$() $(br)Sets target on fire.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+      "title": "Заговор огня",
+      "text": "$(n)Эффект:$() $(br)Поджигает цель.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() II "
     },
     {
       "type": "patchouli:text",
-      "title": "Fire Protection",
-      "text": "$(n)Effect:$() $(br)Reduces fire damage and burn time. Mutually exclusive with other protections.    $(br2)$(n)Incompatible Enchantments:$() Blast Protection, Protection, Projectile Protection   $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "title": "Защита от огня",
+      "text": "$(n)Эффект:$() $(br)Снижает урон и время горения от огня. Взаимоисключается с другими защитами.    $(br2)$(n)Несовместимые зачарования:$() Взрывоустойчивость, Защита, Защита от снарядов   $(br2)$(n)Основные предметы:$() Броня  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Flame",
-      "text": "$(n)Effect:$() $(br)Arrows shot are ignited and deal fire damage to the target.$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "title": "Воспламенение",
+      "text": "$(n)Эффект:$() $(br)Пущенные стрелы загораются и наносят огненный урон цели.$(br2)$(n)Несовместимые зачарования:$() /   $(br2)$(n)Основные предметы:$() Луки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Fortune",
-      "text": "$(n)Effect:$() $(br)Increases the amount of block drops.   $(br2)$(n)Incompatible Enchantments:$() $(br)Silk Touch   $(br2)$(n)Primary Items:$() All common tools  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Удача",
+      "text": "$(n)Эффект:$() $(br)Увеличивает количество выпадения блоков.   $(br2)$(n)Несовместимые зачарования:$() $(br)Шёлковое касание   $(br2)$(n)Основные предметы:$() Все обычные инструменты  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Frost Walker",
+      "title": "Ледоход",
       "anchor": "frost_walker",
-      "text": "$(n)Effect:$() $(br)Allows the player to walk on water by freezing the water under their feet.    $(br2)$(n)Incompatible Enchantments:$() Depth Strider  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+      "text": "$(n)Эффект:$() $(br)Позволяет игроку ходить по воде, замораживая её под ногами.    $(br2)$(n)Несовместимые зачарования:$() Подводная ходьба  $(br2)$(n)Основные предметы:$() Ботинки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() II "
     },
     {
       "type": "patchouli:text",
-      "title": "Impaling",
-      "text": "$(n)Effect:$() $(br)Increases damage against aquatic mobs.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Tridents  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() V "
+      "title": "Пронзатель",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон по водным мобам.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Трезубцы  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Infinity",
-      "text": "$(n)Effect:$() $(br)Prevents consumption of arrows.    $(br2)$(n)Incompatible Enchantments:$() Mending  $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "title": "Бесконечность",
+      "text": "$(n)Эффект:$() $(br)Не расходует стрелы.    $(br2)$(n)Несовместимые зачарования:$() Починка  $(br2)$(n)Основные предметы:$() Луки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Knockback",
+      "title": "Отдача",
       "anchor": "knockback",
-      "text": "$(n)Effect:$() $(br)Increases knockback.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+      "text": "$(n)Эффект:$() $(br)Увеличивает отбрасывание.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() II "
     },
     {
       "type": "patchouli:text",
-      "title": "Looting",
+      "title": "Добыча",
       "anchor": "looting",
-      "text": "$(n)Effect:$() $(br)Increases mob loot.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "text": "$(n)Эффект:$() $(br)Увеличивает добычу с мобов.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Loyalty",
-      "text": "$(n)Effect:$() $(br)Trident returns after being thrown.    $(br2)$(n)Incompatible Enchantments:$() Riptide  $(br2)$(n)Primary Items:$() Tridents  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Верность",
+      "text": "$(n)Эффект:$() $(br)Трезубец возвращается после броска.    $(br2)$(n)Несовместимые зачарования:$() Тяга  $(br2)$(n)Основные предметы:$() Трезубцы  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Luck of the Sea",
-      "text": "$(n)Effect:$() $(br)Increases rate of good loot.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Fishing Rod   $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Удача моря",
+      "text": "$(n)Эффект:$() $(br)Увеличивает шанс хорошей добычи.$(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Удочка   $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Lure",
-      "text": "$(n)Effect:$() $(br)Decreases time for bites.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Fishing Rod  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Приманка",
+      "text": "$(n)Эффект:$() $(br)Сокращает время ожидания поклёвки.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Удочка  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Mending",
-      "text": "$(n)Effect:$() $(br)Repairs the item using experience.    $(br2)$(n)Incompatible Enchantments:$() Infinity  $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() $(br)All useable items with durability  $(br2)$(n)Max Level:$() I "
+      "title": "Починка",
+      "text": "$(n)Эффект:$() $(br)Использует опыт для ремонта предмета.    $(br2)$(n)Несовместимые зачарования:$() Бесконечность  $(br2)$(n)Основные предметы:$() /  $(br2)$(n)Вторичные предметы:$() $(br)Все используемые предметы с прочностью  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Multishot",
-      "text": "$(n)Effect:$() $(br)Fires 3 arrows at the same time.    $(br2)$(n)Incompatible Enchantments:$() Piercing  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "title": "Тройной выстрел",
+      "text": "$(n)Эффект:$() $(br)Выпускает 3 стрелы одновременно.    $(br2)$(n)Несовместимые зачарования:$() Пронзательность  $(br2)$(n)Основные предметы:$() Арбалет  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Piercing",
-      "text": "$(n)Effect:$() $(br)Arrows pierce entities, allowing for arrows to pierce through stacks of mobs.    $(br2)$(n)Incompatible Enchantments:$() Multishot  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "title": "Пронзательность",
+      "text": "$(n)Эффект:$() $(br)Стрелы пронзают сущности, позволяя стрелам проходить сквозь группы мобов.    $(br2)$(n)Несовместимые зачарования:$() Тройной выстрел  $(br2)$(n)Основные предметы:$() Арбалет  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Power",
-      "text": "$(n)Effect:$() $(br)Increases arrow damage.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Bows   $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() V "
+      "title": "Сила",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон стрел.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Луки   $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Projectile Protection",
-      "text": "$(n)Effect:$() $(br)Reduces damage from projectiles.    $(br2)$(n)Incompatible Enchantments:$() Protection, Blast Protection, Fire Protection  $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "title": "Защита от снарядов",
+      "text": "$(n)Эффект:$() $(br)Снижает урон от снарядов.    $(br2)$(n)Несовместимые зачарования:$() Защита, Взрывоустойчивость, Защита от огня  $(br2)$(n)Основные предметы:$() Броня  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Protection",
-      "text": "$(n)Effect:$() $(br)Reduces generic damage.    $(br2)$(n)Incompatible Enchantments:$() Blast Protection, Fire Protection, Projectile Protection  $(br2)$(n)Primary Items:$() Armor  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() IV "
+      "title": "Защита",
+      "text": "$(n)Эффект:$() $(br)Снижает общий урон.    $(br2)$(n)Несовместимые зачарования:$() Взрывоустойчивость, Защита от огня, Защита от снарядов  $(br2)$(n)Основные предметы:$() Броня  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Punch",
-      "text": "$(n)Effect:$() $(br)Increases arrow knockback.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Bows  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+      "title": "Отбрасывание",
+      "text": "$(n)Эффект:$() $(br)Увеличивает отбрасывание стрел.$(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Луки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() II "
     },
     {
       "type": "patchouli:text",
-      "title": "Quick Charge",
-      "text": "$(n)Effect:$() $(br)Decreases crossbow charging time.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Crossbow  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Быстрая перезарядка",
+      "text": "$(n)Эффект:$() $(br)Уменьшает время зарядки арбалета.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Арбалет  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Respiration",
-      "text": "$(n)Effect:$() $(br)Extends underwater breathing time.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Helmets  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() II "
+      "title": "Дыхание под водой",
+      "text": "$(n)Эффект:$() $(br)Продлевает время дыхания под водой.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Шлемы  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() II "
     },
     {
       "type": "patchouli:text",
-      "title": "Riptide",
-      "text": "$(n)Effect:$() $(br)Trident launches player with itself when thrown while in water or rain.    $(br2)$(n)Incompatible Enchantments:$() Channeling, Loyalty  $(br2)$(n)Primary Items:$() Trident  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Тяга",
+      "text": "$(n)Эффект:$() $(br)Брошенный трезубец подбрасывает игрока вместе с собой, если он в воде или под дождём.    $(br2)$(n)Несовместимые зачарования:$() Громовержец, Верность  $(br2)$(n)Основные предметы:$() Трезубец  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Sharpness",
-      "text": "$(n)Effect:$() $(br)Increases melee damage.    $(br2)$(n)Incompatible Enchantments:$() $(br)Bane of Arthropods, Smite  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+      "title": "Острота",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон в ближнем бою.    $(br2)$(n)Несовместимые зачарования:$() $(br)Бич членистоногих, Небесная кара  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() Топоры  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Silk Touch",
+      "title": "Шёлковое касание",
       "anchor": "silk_touch",
-      "text": "$(n)Effect:$() $(br)Mined blocks drop themselves.$(br2)$(n)Incompatible Enchantments:$() Fortune$(br2)$(n)Primary Items:$() All common tools$(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() I "
+      "text": "$(n)Эффект:$() $(br)Добытые блоки выпадают сами.$(br2)$(n)Несовместимые зачарования:$() Удача$(br2)$(n)Основные предметы:$() Все обычные инструменты$(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() I "
     },
     {
       "type": "patchouli:text",
-      "title": "Smite",
-      "text": "$(n)Effect:$() $(br)Increases damage to the undead.    $(br2)$(n)Incompatible Enchantments:$() $(br)Bane of Arthropods, Sharpness$(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() Axes  $(br2)$(n)Max Level:$() V "
+      "title": "Небесная кара",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон по нежити.    $(br2)$(n)Несовместимые зачарования:$() $(br)Бич членистоногих, Острота$(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() Топоры  $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Soul Speed",
-      "text": "$(n)Effect:$() $(br)Increases movement speed on soul soil.    $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Boots  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Скорость души",
+      "text": "$(n)Эффект:$() $(br)Увеличивает скорость передвижения по почве душ.    $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Ботинки  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Sweeping Edge",
-      "text": "$(n)Effect:$() $(br)Increases sweeping attack damage.   $(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Swords  $(br2)$(n)Secondary Items:$() /  $(br2)$(n)Max Level:$() III "
+      "title": "Разящий клинок",
+      "text": "$(n)Эффект:$() $(br)Увеличивает урон от размашистых атак.   $(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Мечи  $(br2)$(n)Вторичные предметы:$() /  $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Thorns",
-      "text": "$(n)Effect:$() $(br)Taking damage causes the attacker to also take damage.$(br2)$(n)Incompatible Enchantments:$() /  $(br2)$(n)Primary Items:$() Chestplate   $(br2)$(n)Secondary Items:$() Armor $(br2)$(n)Max Level:$()  "
+      "title": "Шипы",
+      "text": "$(n)Эффект:$() $(br)Когда вы получаете урон, нападающий тоже получает урон.$(br2)$(n)Несовместимые зачарования:$() /  $(br2)$(n)Основные предметы:$() Нагрудник   $(br2)$(n)Вторичные предметы:$() Броня $(br2)$(n)Макс. уровень:$()  "
     },
     {
       "type": "patchouli:text",
-      "title": "Unbreaking",
-      "text": "$(n)Effect:$() $(br)Reduces durability damage.   $(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() $(br)All common tools, weapons, armor  $(br2)$(n)Secondary Items:$() All other items with durability $(br2)$(n)Max Level:$() III "
+      "title": "Прочность",
+      "text": "$(n)Эффект:$() $(br)Снижает износ прочности.   $(br2)$(n)Несовместимые зачарования:$() /   $(br2)$(n)Основные предметы:$() $(br)Все обычные инструменты, оружие, броня  $(br2)$(n)Вторичные предметы:$() Все прочие предметы с прочностью $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Swift Sneak",
+      "title": "Быстрый шаг",
       "anchor": "swift_sneak",
-      "text": "$(n)Effect:$() $(br)Increases movement speed while sneaking.$(br2)$(n)Incompatible Enchantments:$() /   $(br2)$(n)Primary Items:$() /  $(br2)$(n)Secondary Items:$() Pants $(br2)$(n)Max Level:$() III "
+      "text": "$(n)Эффект:$() $(br)Увеличивает скорость движения при крадении.$(br2)$(n)Несовместимые зачарования:$() /   $(br2)$(n)Основные предметы:$() /  $(br2)$(n)Вторичные предметы:$() Штаны $(br2)$(n)Макс. уровень:$() III "
     },
     {
       "type": "patchouli:text",
-      "title": "Density",
+      "title": "Плотность",
       "anchor": "density",
-      "text": "$(n)Effect:$() $(br)Increases the damage dealt per block fallen.$(br2)$(n)Incompatible Enchantments:$()$(br) Bane of Arthropods, Smite, Sharpness, Breach$(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() V "
+      "text": "$(n)Эффект:$() $(br)Увеличивает наносимый урон за каждый пройденный блок падения.$(br2)$(n)Несовместимые зачарования:$()$(br) Бич членистоногих, Небесная кара, Острота, Прорыв$(br2)$(n)Основные предметы:$() Булава  $(br2)$(n)Вторичные предметы:$() / $(br2)$(n)Макс. уровень:$() V "
     },
     {
       "type": "patchouli:text",
-      "title": "Breach",
+      "title": "Прорыв",
       "anchor": "breach",
-      "text": "$(n)Effect:$() $(br)Reduces the effectiveness of the armor of attacked entities.$(br2)$(n)Incompatible Enchantments:$()$(br) Bane of Arthropods, Smite, Sharpness, Density$(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() IV "
+      "text": "$(n)Эффект:$() $(br)Снижает эффективность брони атакуемых сущностей.$(br2)$(n)Несовместимые зачарования:$()$(br) Бич членистоногих, Небесная кара, Острота, Плотность$(br2)$(n)Основные предметы:$() Булава  $(br2)$(n)Вторичные предметы:$() / $(br2)$(n)Макс. уровень:$() IV "
     },
     {
       "type": "patchouli:text",
-      "title": "Wind Burst",
+      "title": "Порыв ветра",
       "anchor": "wind_burst",
-      "text": "$(n)Effect:$() $(br)Creates a powerful upward knockback effect upon executing a smash attack.$(br2)$(n)Incompatible Enchantments:$() / $(br2)$(n)Primary Items:$() Mace  $(br2)$(n)Secondary Items:$() / $(br2)$(n)Max Level:$() III"
+      "text": "$(n)Эффект:$() $(br)Создаёт мощный восходящий отбрасывающий эффект при выполнении сокрушительной атаки.$(br2)$(n)Несовместимые зачарования:$() / $(br2)$(n)Основные предметы:$() Булава  $(br2)$(n)Вторичные предметы:$() / $(br2)$(n)Макс. уровень:$() III"
     }
   ]
 }

@@ -1,22 +1,22 @@
 {
-  "name": "Enchanting",
+  "name": "Зачарование",
   "icon": "minecraft:enchanting_table",
   "category": "lexicon:enchanting",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)There are a few ways to enchant items:$() $(li)Through an $(l:useables/enchanting_table)$(item)Enchanting Table$() in exchange for experience points and $(item)Lapis Lazuli$(). Only unenchanted items may be enchanted this way. $(li)Through an $(l:useables/anvil)$(item)Anvil$(), combining an $(item)Enchanted Book$() with an item. $(li)Through an $(l:useables/anvil)$(item)Anvil$(), combining two of the same item with different existing enchantments into a single item that has the enchantments of both. $(li)Through a librarian $(l:creatures/human-villager#librarian)$(thing)Villager$(), which may enchant $(item)Books$() respectively for emeralds instead of $(item)Lapis Lazuli$() and experience."
+      "text": "$(n)Существует несколько способов зачаровать предметы:$() $(li)Через $(l:useables/enchanting_table)$(item)Стол зачарований$() в обмен на очки опыта и $(item)Лазурит$(). Таким образом можно зачаровать только незачарованные предметы. $(li)Через $(l:useables/anvil)$(item)Наковальню$(), объединяя $(item)Чародейскую книгу$() с предметом. $(li)Через $(l:useables/anvil)$(item)Наковальню$(), объединяя два одинаковых предмета с разными существующими зачарованиями в один предмет, содержащий оба зачарования. $(li)Через библиотекаря-$(l:creatures/human-villager#librarian)$(thing)Жителя$(), который может зачаровывать $(item)Книги$() за изумруды вместо $(item)Лазурита$() и опыта."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:enchanting_table",
-      "text": "An item can be enchanted by using an $(l:useables/enchanting_table)$(item)Enchanting Table$() and placing the item in the input slots and 1–3 $(item)Lapis Lazuli$() in its dedicated slot. Upon placing the item, three randomized enchanting options appear on the right."
+      "text": "Предмет можно зачаровать, используя $(l:useables/enchanting_table)$(item)Стол зачарований$(), поместив предмет во входные слоты и 1–3 $(item)Лазурита$() в отдельный слот. После размещения предмета справа появятся три случайных варианта зачарования."
     },
     {
       "type": "patchouli:text",
-      "title": "Increasing the level",
-      "text": "To increase the enchantment level, $(item)Bookshelves$() can be placed next to the $(l:useables/enchanting_table)$(item)Enchanting Table$() while keeping one block of air between them. $(br2)The only choices available have a level requirement equal to or below the player's current level and a $(item)Lapis Lazuli$() requirement equal to or below the number of lapis placed in the table."
+      "title": "Повышение уровня",
+      "text": "Чтобы увеличить уровень зачарования, $(item)Книжные полки$() можно поставить рядом со $(l:useables/enchanting_table)$(item)Столом зачарований$(), оставив между ними один блок воздуха. $(br2)Доступные варианты будут иметь требование уровня не выше текущего уровня игрока и требование по $(item)Лазуриту$(), не превышающее количество лазурита в столе."
     },
     {
       "type": "patchouli:image",

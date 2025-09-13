@@ -1,5 +1,5 @@
 {
-  "name": "Disenchanting",
+  "name": "Раззачарование",
   "icon": "minecraft:grindstone",
   "category": "lexicon:enchanting",
   "sortnum": 2,
@@ -7,7 +7,7 @@
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:grindstone",
-      "text": "The only way to disenchant items is via the $(l:useables/grindstone)$(item)Grindstone$() or by repairing the items via the crafting grid. $(br2)Using the $(l:useables/grindstone)$(item)Grindstone$() removes all enchantments (except curses) and gives experience back based on the level of the enchantment(s) and their value."
+      "text": "Единственный способ снять зачарования с предметов — использовать $(l:useables/grindstone)$(item)Точильный камень$() или починить предмет через сетку крафта. $(br2)Использование $(l:useables/grindstone)$(item)Точильного камня$() удаляет все зачарования (кроме проклятий) и возвращает опыт в зависимости от уровня и стоимости зачарований."
     },
     {
       "type": "patchouli:image",
