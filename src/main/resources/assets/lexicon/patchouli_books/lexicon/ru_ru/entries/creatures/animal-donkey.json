@@ -1,23 +1,23 @@
 {
-  "name": "Animal - Donkey",
+  "name": "Животное - осёл",
   "icon": "minecraft:donkey_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 15-30  $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Plains, Savanna, Meadows $(br)> $(n)Breeding:$() Golden Apple, Golden Carrot     $(br)> $(n)Properties:$() $(br)Can be equipped with a $(item)Saddle$() and a $(l:useables/chest)$(item)Chest$(). Can be ridden."
+      "text": "> $(n)Здоровье:$() 15-30  $(br)> $(n)Сила атаки:$() 0    $(br)> $(n)Поведение:$() Пассивное     $(br)> $(n)Место появления:$() Равнины, Саванна, Луга $(br)> $(n)Разведение:$() Золотое яблоко, Золотая морковь     $(br)> $(n)Особенности:$() $(br)Можно экипировать $(item)седлом$() и $(l:useables/chest)$(item)сундуком$(). Можно ездить."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:donkey",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Leather  $(n)XP:$() 1-3"
+      "text": "$(n)Дроп:$() 0-2 кожи  $(n)Опыт:$() 1-3"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:donkey{ChestedHorse:1}",
       "scale": "0.5",
-      "name": "Donkey with Chest"
+      "name": "Осёл с сундуком"
     }
   ]
 }

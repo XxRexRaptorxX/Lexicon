@@ -1,17 +1,17 @@
 {
-  "name": "The first night.",
+  "name": "Первая ночь.",
   "icon": "minecraft:zombie_head",
   "category": "lexicon:start",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The first night is very dangerous if you are not prepared for it. $(br2)I recommend building you into a mountain at dusk and looking for $(item)Ores$() in the meantime. $(br2)Use the $(item)Coal$() you find to smelt food and ores and make $(item)Torches$(). $(br)And $(item)Iron Ingots$() to craft higher quality $(item)Tools$() and $(item)Armor$() for you."
+      "text": "Первая ночь очень опасна, если вы к ней не готовы. $(br2)Я рекомендую на закате закопаться в гору и тем временем искать $(item)руды$(). $(br2)Используйте найденный $(item)уголь$() для переплавки еды и руды и создания $(item)факелов$(). $(br)А из $(item)железных слитков$() изготовьте более качественные $(item)инструменты$() и $(item)броню$()."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:torch",
-      "text": "But don't dig too deep and watch out for $(thing)Monsters$() in caves! $(br2)$(item)Torches$() and light prevent them from spawning."
+      "text": "Но не копайте слишком глубоко и остерегайтесь $(thing)монстров$() в пещерах! $(br2)$(item)Факелы$() и свет не позволят им появляться."
     },
     {
       "type": "patchouli:crafting",
