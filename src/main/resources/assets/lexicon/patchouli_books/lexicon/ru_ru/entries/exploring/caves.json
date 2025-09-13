@@ -1,12 +1,12 @@
 {
-  "name": "Cave Exploration",
+  "name": "Исследование пещер",
   "icon": "minecraft:stone",
   "category": "lexicon:exploring",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some important items that you should always have with you on a mining tour!"
+      "text": "Вот несколько важных предметов, которые вам всегда стоит брать с собой в шахтёрское путешествие!"
     },
     {
       "type": "patchouli:image",

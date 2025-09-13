@@ -1,12 +1,12 @@
 {
-  "name": "Nether Exploration",
+  "name": "Исследование Нижнего мира",
   "icon": "minecraft:netherrack",
   "category": "lexicon:exploring",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some important items that you should always have with your adventure in the $(l:world/dimensions#nether)$(thing)Nether$()!"
+      "text": "Вот несколько важных предметов, которые стоит всегда иметь с собой в приключениях в $(l:world/dimensions#nether)$(thing)Нижнем мире$()!"
     },
     {
       "type": "patchouli:image",

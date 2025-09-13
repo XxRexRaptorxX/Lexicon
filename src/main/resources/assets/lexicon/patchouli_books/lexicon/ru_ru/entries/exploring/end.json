@@ -1,12 +1,12 @@
 {
-  "name": "End Exploration",
+  "name": "Исследование Края",
   "icon": "minecraft:end_stone",
   "category": "lexicon:exploring",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some important items that you should always have with your adventure in the $(l:world/dimensions#end)$(thing)End$()!"
+      "text": "Вот несколько важных предметов, которые стоит всегда иметь с собой в приключениях в $(l:world/dimensions#end)$(thing)Краю$()!"
     },
     {
       "type": "patchouli:image",
