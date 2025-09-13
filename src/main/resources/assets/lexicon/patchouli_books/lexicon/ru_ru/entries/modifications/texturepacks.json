@@ -1,12 +1,12 @@
 {
-  "name": "Texture Packs",
+  "name": "Текстурпаки",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:modifications",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Texture packs are the most common $(l:modifications/resourcepacks)$(thing)Resource Packs$(), they change the look of the game with other textures and sometimes new block/item models. $(br2)These packs can be stacked $(br)$(li)$(thing)Texture packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
+      "text": "Текстурпаки — самые распространённые $(l:modifications/resourcepacks)$(thing)Пакеты ресурсов$(), они изменяют внешний вид игры за счёт других текстур и иногда новых моделей блоков или предметов. $(br2)Такие пакеты можно накладывать. $(br)$(li)$(thing)Текстурпаки$() можно поместить в папку $(l)resourcepacks$() внутри каталога $(l).minecraft$()."
     },
     {
       "type": "patchouli:image",
@@ -18,7 +18,7 @@
         "lexicon:textures/pictures/texturepack_5.png"
       ],
       "border": true,
-      "text": "$(li)You can find new packs $(l:https://www.curseforge.com/minecraft/texture-packs)here$()"
+      "text": "$(li)Новые пакеты можно найти $(l:https://www.curseforge.com/minecraft/texture-packs)здесь$()"
     }
   ]
 }

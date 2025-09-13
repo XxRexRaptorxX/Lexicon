@@ -1,12 +1,12 @@
 {
-  "name": "Resource Packs",
+  "name": "Пакеты ресурсов",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:modifications",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Resource packs$() provides a way to customize textures, models, music, sounds, languages, texts such as the end poem, splashes, credits, and fonts without any code modification. $(br2)These packs can be stacked. $(thing)Resource packs$() type. $(br)$(li)$(thing)Resource packs$() can be placed in the folder $(l)resourcepacks$() within the $(l).minecraft$() folder."
+      "text": "$(thing)Пакеты ресурсов$() позволяют изменять текстуры, модели, музыку, звуки, языки и тексты, такие как финальная поэма, заставки, титры и шрифты, без изменения кода. $(br2)Такие пакеты можно накладывать. $(br)$(li)$(thing)Пакеты ресурсов$() можно размещать в папке $(l)resourcepacks$() внутри каталога $(l).minecraft$()."
     },
     {
       "type": "patchouli:image",
@@ -18,12 +18,12 @@
         "lexicon:textures/pictures/texturepack_5.png"
       ],
       "border": true,
-      "text": "$(li)You can find new packs $(l:https://www.curseforge.com/minecraft/texture-packs)here$()"
+      "text": "$(li)Новые пакеты можно найти $(l:https://www.curseforge.com/minecraft/texture-packs)здесь$()"
     },
     {
       "type": "patchouli:text",
-      "title": "Pack format",
-      "text": "Pack format, sometimes referred to as pack version, is a number used in $(l)pack.mcmeta$() to describe what Java Edition versions a $(l:modifications/resourcepacks)$(thing)Resource Pack$() or $(l:modifications/datapacks)$(thing)Data Pack$() is compatible with. $(br2)Each version specifies the pack formats it supports in its $(l)version.json$() $(br2)You can find a list with all pack format numbers $(l:https://minecraft.wiki/w/Pack_format)here$()"
+      "title": "Формат пакета",
+      "text": "Формат пакета, иногда называемый версией пакета, — это число, используемое в $(l)pack.mcmeta$() для указания версий Java Edition, с которыми совместим $(l:modifications/resourcepacks)$(thing)Пакет ресурсов$() или $(l:modifications/datapacks)$(thing)Пакет данных$(). $(br2)Каждая версия указывает поддерживаемые форматы пакетов в своём $(l)version.json$(). $(br2)Список всех номеров форматов можно найти $(l:https://minecraft.wiki/w/Pack_format)здесь$()"
     }
   ]
 }

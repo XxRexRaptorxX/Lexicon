@@ -1,16 +1,16 @@
 {
-  "name": "Data Packs",
+  "name": "Пакеты данных",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:modifications",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(thing)Data pack$() provides a way for $(l:creatures/human-player)$(thing)Players$() to further customize their Minecraft experience. $(br2)These packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, recipes, structures, tags, world generation settings, and biomes without any code modification."
+      "text": "$(thing)Пакет данных$() предоставляет $(l:creatures/human-player)$(thing)Игрокам$() возможность ещё больше настроить свой опыт в Minecraft. $(br2)Эти пакеты можно использовать для замены или добавления новых достижений, измерений, функций, таблиц добычи, предикатов, рецептов, структур, тегов, настроек генерации мира и биомов без каких-либо изменений кода."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)$(li)You can find data packs $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)here$()"
+      "text": "$(br)$(li)Пакеты данных можно найти $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)здесь$()"
     }
   ]
 }

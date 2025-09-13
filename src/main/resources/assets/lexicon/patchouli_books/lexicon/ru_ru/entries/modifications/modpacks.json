@@ -1,16 +1,16 @@
 {
-  "name": "Mod Packs",
+  "name": "Модпаки",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:modifications",
   "sortnum": 7,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Mod packs$() are collections of $(l:modifications/mods)$(thing)Mods$() that have been put together and configured so that they all work together. $(br2)These packs are often centered around a general theme like tech, quests, or magic."
+      "text": "$(thing)Модпаки$() — это наборы $(l:modifications/mods)$(thing)Модов$(), которые были собраны и настроены так, чтобы они работали вместе. $(br2)Такие пакеты часто сосредоточены вокруг общей темы, например технологии, заданий или магии."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)$(thing)Mod packs$() often have either custom launchers or installers that make installing and running the pack easy. $(br)$(li)You can find mods $(l:https://www.curseforge.com/minecraft/modpacks)here$()"
+      "text": "$(br)$(thing)Модпаки$() часто имеют собственные лаунчеры или установщики, которые упрощают установку и запуск пакета. $(br)$(li)Найти модпаки можно $(l:https://www.curseforge.com/minecraft/modpacks)здесь$()"
     }
   ]
 }

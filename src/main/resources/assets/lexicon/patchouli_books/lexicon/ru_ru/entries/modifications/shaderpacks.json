@@ -1,12 +1,12 @@
 {
-  "name": "Shader Packs",
+  "name": "Шейдер-паки",
   "icon": "minecraft:enchanted_book",
   "category": "lexicon:modifications",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "With $(thing)Shader packs$() you add new light, shadow and water effects to the game. $(br2)Shaders use quite a lot of power, so you should have a strong computer. $(br2)To use shader, you need $(l:modifications/mods)$(thing)Mods$() like $(n)Optifine$() or $(n)Iris$(). $(br)$(li)They can be placed in the folder $(l)shaderpacks$() within the $(l).minecraft$() folder."
+      "text": "С помощью $(thing)Шейдер-паков$() вы добавляете в игру новые эффекты освещения, теней и воды. $(br2)Шейдеры требуют довольно много ресурсов, поэтому вам нужен мощный компьютер. $(br2)Чтобы использовать шейдеры, нужны $(l:modifications/mods)$(thing)Моды$(), такие как $(n)Optifine$() или $(n)Iris$(). $(br)$(li)Их можно помещать в папку $(l)shaderpacks$() внутри каталога $(l).minecraft$()."
     },
     {
       "type": "patchouli:image",
@@ -17,7 +17,7 @@
         "lexicon:textures/pictures/shader_4.png"
       ],
       "border": true,
-      "text": "$(li)You can find shaders $(l:https://www.curseforge.com/minecraft/customization/search?search=shader)here$()"
+      "text": "$(li)Найти шейдеры можно $(l:https://www.curseforge.com/minecraft/customization/search?search=shader)здесь$()"
     }
   ]
 }
