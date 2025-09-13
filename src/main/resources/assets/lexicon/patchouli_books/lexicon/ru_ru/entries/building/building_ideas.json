@@ -1,12 +1,12 @@
 {
-  "name": "Building Ideas",
+  "name": "Идеи для строительства",
   "icon": "minecraft:player_head",
   "category": "lexicon:building",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Here are some building ideas for you!"
+      "text": "Вот несколько идей для строительства!"
     },
     {
       "type": "patchouli:image",
@@ -26,7 +26,7 @@
         "lexicon:textures/pictures/building_idea_13.png"
       ],
       "border": true,
-      "text": "$(7)Credits are in the assets"
+      "text": "$(7)Благодарности указаны в ресурсах"
     }
   ]
 }

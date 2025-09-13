@@ -1,12 +1,12 @@
 {
-  "name": "Building Tips",
+  "name": "Советы по строительству",
   "icon": "minecraft:gold_nugget",
   "category": "lexicon:building",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)Tip #1:$() $(br)$(li)Add texture to your walls. $(br2)You can put a block palette together to help. $(br2)Look at $(l:https://www.blockpalettes.com)www.blockpalettes.com$() for some good ones!"
+      "text": "$(n)Совет №1:$() $(br)$(li)Добавляйте текстуру вашим стенам. $(br2)Вы можете составить палитру блоков для помощи. $(br2)Загляните на $(l:https://www.blockpalettes.com)www.blockpalettes.com$() для хороших вариантов!"
     },
     {
       "type": "patchouli:image",
@@ -14,14 +14,14 @@
         "lexicon:textures/pictures/building_tip_1.png",
         "lexicon:textures/pictures/block_palette.png"
       ],
-      "title": "Texture",
+      "title": "Текстура",
       "border": true
     },
 
     {
       "type": "patchouli:text",
-      "title": "Depth",
-      "text": "$(n)Tip #2:$() $(br)$(li)Add depth to your buildings. $(br)It looks a lot more aesthetic!"
+      "title": "Глубина",
+      "text": "$(n)Совет №2:$() $(br)$(li)Добавляйте глубину своим постройкам. $(br)Так выглядит гораздо эстетичнее!"
     },
     {
       "type": "patchouli:image",
@@ -33,8 +33,8 @@
 
     {
       "type": "patchouli:text",
-      "title": "Overdetailing",
-      "text": "$(n)Tip #3:$() $(br)$(li)Don't overdetailing your builds! $(br2)In most cases too many details seem too overloaded."
+      "title": "Переизбыток деталей",
+      "text": "$(n)Совет №3:$() $(br)$(li)Не перегружайте свои постройки деталями! $(br2)В большинстве случаев слишком много деталей выглядит перегруженно."
     },
     {
       "type": "patchouli:image",
@@ -46,8 +46,8 @@
 
     {
       "type": "patchouli:text",
-      "title": "Step by Step",
-      "text": "$(n)Tip #4:$() $(br)$(li)Don't mix everything up, build step by step."
+      "title": "Пошагово",
+      "text": "$(n)Совет №4:$() $(br)$(li)Не смешивайте всё сразу, стройте шаг за шагом."
     },
     {
       "type": "patchouli:image",

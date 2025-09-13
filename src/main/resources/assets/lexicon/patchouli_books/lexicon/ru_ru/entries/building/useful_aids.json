@@ -1,17 +1,17 @@
 {
-  "name": "Useful aids",
+  "name": "Полезные вспомогательные средства",
   "icon": "minecraft:scaffolding",
   "category": "lexicon:building",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(n)There are a few things that make it easier for you to build:$() $(li)When you sneak ($(thing)Shift$() Key) you can't fall over block edges, useful when you build at big heights. $(br)$(li)You can also use $(thing)Shift$() to build blocks that would otherwise open her inventory. $(br)$(li)Use $(item)Scaffoldings$() when constructing tall structures."
+      "text": "$(n)Есть несколько вещей, которые облегчат вам строительство:$() $(li)Когда вы крадетесь (клавиша $(thing)Shift$()), вы не можете упасть с краёв блоков, что полезно при работе на большой высоте. $(br)$(li)Вы также можете использовать $(thing)Shift$() для установки блоков, которые иначе открыли бы свой инвентарь. $(br)$(li)Используйте $(item)строительные леса$() при возведении высоких конструкций."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:scaffolding",
-      "text": "$(li)Can be built and expanded quickly $(br)$(li)Can be easily climbed $(br)$(li)If you destroy one, all of them above collapse too"
+      "text": "$(li)Можно быстро ставить и расширять $(br)$(li)Легко подниматься $(br)$(li)Если сломать один, все выше также рухнут"
     }
   ]
 }

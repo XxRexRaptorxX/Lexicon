@@ -1,12 +1,12 @@
 {
-  "name": "Shape Templates",
+  "name": "Шаблоны форм",
   "icon": "minecraft:stick",
   "category": "lexicon:building",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The following pages show useful templates to help you build."
+      "text": "На следующих страницах показаны полезные шаблоны, которые помогут вам строить."
     },
     {
       "type": "patchouli:image",
@@ -14,7 +14,7 @@
         "lexicon:textures/pictures/angled_walls_template.png"
       ],
       "border": true,
-      "text": "$(7)by @PixelandPoly"
+      "text": "$(7)от @PixelandPoly"
     },
     {
       "type": "patchouli:image",
@@ -22,7 +22,7 @@
         "lexicon:textures/pictures/paths_template.png"
       ],
       "border": true,
-      "text": "$(7)by @PixelandPoly"
+      "text": "$(7)от @PixelandPoly"
     },
     {
       "type": "patchouli:image",
@@ -30,7 +30,7 @@
         "lexicon:textures/pictures/bridge_arches_template.png"
       ],
       "border": true,
-      "text": "$(7)by @PixelandPoly"
+      "text": "$(7)от @PixelandPoly"
     },
     {
       "type": "patchouli:image",
@@ -39,7 +39,7 @@
         "lexicon:textures/pictures/roof_template_2.png"
       ],
       "border": true,
-      "text": "$(7)by u/Jak03e"
+      "text": "$(7)от u/Jak03e"
     },
     {
       "type": "patchouli:image",
