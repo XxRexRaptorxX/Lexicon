@@ -1,12 +1,12 @@
 {
-  "name": "Structures",
+  "name": "Структуры",
   "icon": "minecraft:compass",
   "category": "lexicon:world",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Structures are randomly-generated features found throughout your world. $(br2)Structures can be found in many biomes in all dimensions. $(br2)Some of these structures can be found by doing the $(thing)/locate$() command."
+      "text": "Структуры — это случайно генерируемые объекты, встречающиеся по всему миру. $(br2)Структуры можно найти во многих биомах всех измерений. $(br2)Некоторые из этих структур можно обнаружить с помощью команды $(thing)/locate$()."
     },
     {
       "type": "patchouli:image",
@@ -14,8 +14,8 @@
         "lexicon:textures/pictures/mineshaft.png"
       ],
       "border": false,
-      "title": "Mineshaft",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
+      "title": "Шахта",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Обычная",
       "anchor": "mineshaft"
     },
     {
@@ -24,8 +24,8 @@
         "lexicon:textures/pictures/stronghold.png"
       ],
       "border": false,
-      "title": "Stronghold",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Very Rare",
+      "title": "Крепость",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Очень редкая",
       "anchor": "stronghold"
     },
     {
@@ -34,8 +34,8 @@
         "lexicon:textures/pictures/buried_treasure.png"
       ],
       "border": true,
-      "title": "Buried Treasure",
-      "text": "$(n)Locations:$() Beach (Underground) $(br)$(n)Rarity:$() Rare",
+      "title": "Зарытое сокровище",
+      "text": "$(n)Расположение:$() Пляж (под землёй) $(br)$(n)Редкость:$() Редкая",
       "anchor": "treasure"
     },
     {
@@ -44,8 +44,8 @@
         "lexicon:textures/pictures/desert_pyramid.png"
       ],
       "border": false,
-      "title": "Desert Pyramid",
-      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon",
+      "title": "Пустынная пирамида",
+      "text": "$(n)Расположение:$() Пустыня $(br)$(n)Редкость:$() Необычная",
       "anchor": "pyramid"
     },
     {
@@ -54,8 +54,8 @@
         "lexicon:textures/pictures/igloo.png"
       ],
       "border": false,
-      "title": "Igloo",
-      "text": "$(n)Locations:$() Snowy Plains, Snowy Taiga $(br)$(n)Rarity:$() Rare",
+      "title": "Иглу",
+      "text": "$(n)Расположение:$() Заснеженные равнины, заснеженная тайга $(br)$(n)Редкость:$() Редкая",
       "anchor": "igloo"
     },
     {
@@ -64,8 +64,8 @@
         "lexicon:textures/pictures/jungle_temple.png"
       ],
       "border": false,
-      "title": "Jungle Temple",
-      "text": "$(n)Locations:$() Jungle $(br)$(n)Rarity:$() Rare",
+      "title": "Храм джунглей",
+      "text": "$(n)Расположение:$() Джунгли $(br)$(n)Редкость:$() Редкая",
       "anchor": "temple"
     },
     {
@@ -74,8 +74,8 @@
         "lexicon:textures/pictures/pillager_outpost.png"
       ],
       "border": false,
-      "title": "Pillager Outpost",
-      "text": "$(n)Locations:$() Plains, Desert, Savanna, (Snowy-)Taiga $(br)$(n)Rarity:$() Rare",
+      "title": "Форт разбойников",
+      "text": "$(n)Расположение:$() Равнины, пустыня, саванна, (снежная) тайга $(br)$(n)Редкость:$() Редкая",
       "anchor": "outpost"
     },
     {
@@ -84,8 +84,8 @@
         "lexicon:textures/pictures/swamp_hut.png"
       ],
       "border": false,
-      "title": "Swamp Hut",
-      "text": "$(n)Locations:$() Swamp $(br)$(n)Rarity:$() Rare",
+      "title": "Болотная хижина",
+      "text": "$(n)Расположение:$() Болото $(br)$(n)Редкость:$() Редкая",
       "anchor": "hut"
     },
     {
@@ -94,8 +94,8 @@
         "lexicon:textures/pictures/village.png"
       ],
       "border": true,
-      "title": "Village",
-      "text": "$(n)Locations:$() (Snowy-)Plains, Desert, Savanna, Taiga $(br)$(n)Rarity:$() Uncommon",
+      "title": "Деревня",
+      "text": "$(n)Расположение:$() (снежные) равнины, пустыня, саванна, тайга $(br)$(n)Редкость:$() Необычная",
       "anchor": "village"
     },
     {
@@ -104,8 +104,8 @@
         "lexicon:textures/pictures/mansion.png"
       ],
       "border": false,
-      "title": "Woodland Mansion",
-      "text": "$(n)Locations:$() Dark Forest $(br)$(n)Rarity:$() Rare",
+      "title": "Лесной особняк",
+      "text": "$(n)Расположение:$() Тёмный лес $(br)$(n)Редкость:$() Редкая",
       "anchor": "mansion"
     },
     {
@@ -114,8 +114,8 @@
         "lexicon:textures/pictures/ruined_portal.png"
       ],
       "border": false,
-      "title": "Ruined Portal",
-      "text": "$(n)Locations:$() Overworld, Nether $(br)$(n)Rarity:$() Common",
+      "title": "Разрушенный портал",
+      "text": "$(n)Расположение:$() Верхний мир, Нижний мир $(br)$(n)Редкость:$() Обычная",
       "anchor": "portal"
     },
     {
@@ -124,29 +124,9 @@
         "lexicon:textures/pictures/ocean_ruin.png"
       ],
       "border": false,
-      "title": "Ocean Ruin",
-      "text": "$(n)Locations:$() Ocean, Beach $(br)$(n)Rarity:$() Common",
-      "anchor": "ruin"
-    },
-    {
-      "type": "patchouli:image",
-      "images": [
-        "lexicon:textures/pictures/trail_ruin.png"
-      ],
-      "border": false,
-      "title": "Trail Ruin",
-      "text": "$(n)Locations:$() Jungle, (Snowy-)Taigas, 'Old Growth'-Biomes $(br)$(n)Rarity:$() Uncommon",
-      "anchor": "trail_ruin"
-    },
-    {
-      "type": "patchouli:image",
-      "images": [
-        "lexicon:textures/pictures/shipwreck.png"
-      ],
-      "border": false,
-      "title": "Shipwreck",
-      "text": "$(n)Locations:$() Ocean, Beach, Stony Shore, Snowy Beach $(br)$(n)Rarity:$() Common",
-      "anchor": "shipwreck"
+      "title": "Морские руины",
+      "text": "$(n)Расположение:$() Океан, пляж $(br)$(n)Редкость:$() Обычная",
+      "anchor": "ocean_ruin"
     },
     {
       "type": "patchouli:image",
@@ -154,8 +134,8 @@
         "lexicon:textures/pictures/ocean_monument.png"
       ],
       "border": false,
-      "title": "Ocean Monument",
-      "text": "$(n)Locations:$() Ocean $(br)$(n)Rarity:$() Rare",
+      "title": "Океанский монумент",
+      "text": "$(n)Расположение:$() Океан $(br)$(n)Редкость:$() Редкая",
       "anchor": "monument"
     },
     {
@@ -164,8 +144,8 @@
         "lexicon:textures/pictures/nether_fortress.png"
       ],
       "border": true,
-      "title": "Nether Fortress",
-      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon",
+      "title": "Адская крепость",
+      "text": "$(n)Расположение:$() Нижний мир $(br)$(n)Редкость:$() Необычная",
       "anchor": "fortress"
     },
     {
@@ -174,8 +154,8 @@
         "lexicon:textures/pictures/bastion.png"
       ],
       "border": false,
-      "title": "Bastion Remnant",
-      "text": "$(n)Locations:$() Nether $(br)$(n)Rarity:$() Uncommon",
+      "title": "Остатки бастиона",
+      "text": "$(n)Расположение:$() Нижний мир $(br)$(n)Редкость:$() Необычная",
       "anchor": "bastion"
     },
     {
@@ -184,8 +164,8 @@
         "lexicon:textures/pictures/fossil.png"
       ],
       "border": false,
-      "title": "Fossil",
-      "text": "$(n)Locations:$() Desert, Swamp, Soul Sand Valley $(br)$(n)Rarity:$() Rare",
+      "title": "Окаменелость",
+      "text": "$(n)Расположение:$() Пустыня, болото, долина душ $(br)$(n)Редкость:$() Редкая",
       "anchor": "fossil"
     },
     {
@@ -194,8 +174,8 @@
         "lexicon:textures/pictures/end_city.png"
       ],
       "border": false,
-      "title": "End City",
-      "text": "$(n)Locations:$() The End $(br)$(n)Rarity:$() Rare",
+      "title": "Город Края",
+      "text": "$(n)Расположение:$() Край $(br)$(n)Редкость:$() Редкая",
       "anchor": "end_city"
     },
     {
@@ -204,8 +184,8 @@
         "lexicon:textures/pictures/dungeon.png"
       ],
       "border": false,
-      "title": "Monster Room (or Dungeon)",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Common",
+      "title": "Подземелье",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Обычная",
       "anchor": "dungeon"
     },
     {
@@ -214,8 +194,8 @@
         "lexicon:textures/pictures/desert_well.png"
       ],
       "border": false,
-      "title": "Desert Well",
-      "text": "$(n)Locations:$() Desert $(br)$(n)Rarity:$() Uncommon",
+      "title": "Пустынный колодец",
+      "text": "$(n)Расположение:$() Пустыня $(br)$(n)Редкость:$() Необычная",
       "anchor": "well"
     },
     {
@@ -224,8 +204,8 @@
         "lexicon:textures/pictures/rock.png"
       ],
       "border": false,
-      "title": "Forest Rock",
-      "text": "$(n)Locations:$() Old Growth Taiga $(br)$(n)Rarity:$() Uncommon"
+      "title": "Лесной валун",
+      "text": "$(n)Расположение:$() Старая еловая тайга $(br)$(n)Редкость:$() Необычная"
     },
     {
       "type": "patchouli:image",
@@ -233,8 +213,8 @@
         "lexicon:textures/pictures/geode.png"
       ],
       "border": false,
-      "title": "Geode",
-      "text": "$(n)Locations:$() Overworld (Underground) $(br)$(n)Rarity:$() Rare",
+      "title": "Геода",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Редкая",
       "anchor": "geode"
     },
     {
@@ -243,8 +223,8 @@
         "lexicon:textures/pictures/iceberg.png"
       ],
       "border": false,
-      "title": "Iceberg",
-      "text": "$(n)Locations:$() Frozen Ocean $(br)$(n)Rarity:$() Uncommon",
+      "title": "Айсберг",
+      "text": "$(n)Расположение:$() Замёрзший океан $(br)$(n)Редкость:$() Необычная",
       "anchor": "iceberg"
     },
     {
@@ -255,8 +235,8 @@
         "lexicon:textures/pictures/trial_chambers_top.png"
       ],
       "border": false,
-      "title": "Trial Chambers",
-      "text": "$(n)Locations:$() Overworld (except Deep Dark) $(br)$(n)Rarity:$() Rare",
+      "title": "Палаты испытаний",
+      "text": "$(n)Расположение:$() Верхний мир (кроме Тёмной глубины) $(br)$(n)Редкость:$() Редкая",
       "anchor": "trial_chambers"
     },
     {
@@ -267,10 +247,9 @@
         "lexicon:textures/pictures/ancient_city_2.png"
       ],
       "border": false,
-      "title": "Ancient City",
-      "text": "$(n)Locations:$() Deep Dark $(br)$(n)Rarity:$() Rare",
+      "title": "Древний город",
+      "text": "$(n)Расположение:$() Тёмная глубина $(br)$(n)Редкость:$() Редкая",
       "anchor": "ancient_city"
     }
-
   ]
 }
