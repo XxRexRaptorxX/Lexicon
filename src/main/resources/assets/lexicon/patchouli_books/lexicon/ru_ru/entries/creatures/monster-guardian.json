@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Guardian",
+  "name": "Монстр - Страж",
   "icon": "minecraft:guardian_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 30  $(br)> $(n)Attack Damage:$() $(br)ranged: 4 on easy, 6 on normal, 9 on hard, $(br)melee: 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#monument)Ocean Monuments$() $(br)> $(n)Properties:$() $(br)The $(thing)Guardian$() has 2 methods of attacking, including firing its laser and a defensive thorn-like attack."
+      "text": "> $(n)Здоровье:$() 30  $(br)> $(n)Урон:$() $(br)дальний: 4 на лёгком, 6 на нормальном, 9 на сложном, $(br)ближний: 2, 3 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() $(l:world/structures#monument)Океанические памятники$() $(br)> $(n)Свойства:$() $(br)$(thing)Страж$() атакует двумя способами: выстрелом лазера и защитной атакой шипами."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:guardian",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Prismarine Shards, 40% chance of Raw Cod or Cooked Cod if killed with fire, 40% chance of Prismarine Crystals, 2.5% chance of an additional Fish         $(n)XP:$() 10"
+      "text": "$(n)Дроп:$() 0-2 Осколка призмарина, 40% шанс сырой трески или жареной трески при убийстве огнём, 40% шанс призмариновых кристаллов, 2.5% шанс дополнительной рыбы         $(n)Опыт:$() 10"
     }
   ]
 }

@@ -1,136 +1,136 @@
 {
-  "name": "Monster - Shulker",
+  "name": "Монстр - Шалкер",
   "icon": "minecraft:shulker_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$()   $(br)> $(n)Attack Damage:$() 4 + $(l:brewing/effects#levitation)$(thing)Levitation$() $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#end_city)End Cities$()    $(br)> $(n)Properties:$() $(br)$(thing)Shulkers$() are box-shaped hostile mobs found in $(l:world/structures#end_city)$(thing)End Cities$(). They hide in their shell to blend in with surrounding $(item)Purpur blocks$() and guard the city's various treasures. $(thing)Shulkers$() generally remain stationary, attached to an adjacent solid block. Shoots projectiles with $(l:brewing/effects#levitation)$(thing)Levitation effect$()."
+      "text": "> $(n)Здоровье:$()   $(br)> $(n)Урон:$() 4 + $(l:brewing/effects#levitation)$(thing)Парение$() $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() $(l:world/structures#end_city)Города Края$()    $(br)> $(n)Свойства:$() $(br)$(thing)Шалкеры$() — коробкообразные враждебные мобы, встречающиеся в $(l:world/structures#end_city)$(thing)Городах Края$(). Они прячутся в своей оболочке, чтобы сливаться с окружающими $(item)Пурпурными блоками$() и охранять городские сокровища. $(thing)Шалкеры$() обычно остаются неподвижными, прикреплёнными к соседнему твёрдому блоку. Стреляют снарядами с эффектом $(l:brewing/effects#levitation)$(thing)Парения$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Peek:16}",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 50% for a Shulker Shell$(br)$(n)XP:$() 5"
+      "text": "$(n)Дроп:$() 50% шанс на панцирь шалкера$(br)$(n)Опыт:$() 5"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:16}",
       "scale": "0.5",
-      "name": "(Natural) Shulker",
-      "text": "Color ID: 16"
+      "name": "(Естественный) Шалкер",
+      "text": "ID цвета: 16"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:0}",
       "scale": "0.5",
-      "name": "White Colored Shulker",
-      "text": "Color ID: 0"
+      "name": "Белый шалкер",
+      "text": "ID цвета: 0"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:1}",
       "scale": "0.5",
-      "name": "Orange Colored Shulker",
-      "text": "Color ID: 1"
+      "name": "Оранжевый шалкер",
+      "text": "ID цвета: 1"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:2}",
       "scale": "0.5",
-      "name": "Magenta Colored Shulker",
-      "text": "Color ID: 2"
+      "name": "Пурпурный шалкер",
+      "text": "ID цвета: 2"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:3}",
       "scale": "0.5",
-      "name": "Light Blue Colored Shulker",
-      "text": "Color ID: 3"
+      "name": "Голубой шалкер",
+      "text": "ID цвета: 3"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:4}",
       "scale": "0.5",
-      "name": "Yellow Colored Shulker",
-      "text": "Color ID: 4"
+      "name": "Жёлтый шалкер",
+      "text": "ID цвета: 4"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:5}",
       "scale": "0.5",
-      "name": "Lime Colored Shulker",
-      "text": "Color ID: 5"
+      "name": "Лаймовый шалкер",
+      "text": "ID цвета: 5"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:6}",
       "scale": "0.5",
-      "name": "Pink Colored Shulker",
-      "text": "Color ID: 6"
+      "name": "Розовый шалкер",
+      "text": "ID цвета: 6"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:7}",
       "scale": "0.5",
-      "name": "Gray Colored Shulker",
-      "text": "Color ID: 7"
+      "name": "Серый шалкер",
+      "text": "ID цвета: 7"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:8}",
       "scale": "0.5",
-      "name": "Light Gray Colored Shulker",
-      "text": "Color ID: 8"
+      "name": "Светло-серый шалкер",
+      "text": "ID цвета: 8"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:9}",
       "scale": "0.5",
-      "name": "Cyan Colored Shulker",
-      "text": "Color ID: 9"
+      "name": "Бирюзовый шалкер",
+      "text": "ID цвета: 9"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:10}",
       "scale": "0.5",
-      "name": "Purple Colored Shulker",
-      "text": "Color ID: 10"
+      "name": "Фиолетовый шалкер",
+      "text": "ID цвета: 10"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:11}",
       "scale": "0.5",
-      "name": "Blue Colored Shulker",
-      "text": "Color ID: 11"
+      "name": "Синий шалкер",
+      "text": "ID цвета: 11"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:12}",
       "scale": "0.5",
-      "name": "Brown Colored Shulker",
-      "text": "Color ID: 12"
+      "name": "Коричневый шалкер",
+      "text": "ID цвета: 12"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:13}",
       "scale": "0.5",
-      "name": "Green Colored Shulker",
-      "text": "Color ID: 13"
+      "name": "Зелёный шалкер",
+      "text": "ID цвета: 13"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:14}",
       "scale": "0.5",
-      "name": "Red Colored Shulker",
-      "text": "Color ID: 14"
+      "name": "Красный шалкер",
+      "text": "ID цвета: 14"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:shulker{Color:15}",
       "scale": "0.5",
-      "name": "Black Colored Shulker",
-      "text": "Color ID: 15"
+      "name": "Чёрный шалкер",
+      "text": "ID цвета: 15"
     }
   ]
 }

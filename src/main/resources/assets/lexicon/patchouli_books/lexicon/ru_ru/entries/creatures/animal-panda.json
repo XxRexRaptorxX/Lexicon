@@ -1,59 +1,60 @@
 {
-  "name": "Animal - Panda",
+  "name": "Животное - Панда",
   "icon": "minecraft:panda_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10-20 $(br)> $(n)Attack Damage:$() 4 on easy, 6 on normal, 9 on hard $(br)> $(n)Behavior:$() Neutral     $(br)> $(n)Spawn:$() Jungles    $(br)> $(n)Breeding:$() Bamboo + Bamboo plants in the near $(br)> $(n)Properties:$() $(br)Pandas have different personalities."
+      "text": "> $(n)Здоровье:$() 10-20 $(br)> $(n)Урон:$() 4 на лёгком, 6 на нормальном, 9 на сложном $(br)> $(n)Поведение:$() Нейтральное     $(br)> $(n)Место появления:$() Джунгли    $(br)> $(n)Размножение:$() Бамбук + растения бамбука рядом $(br)> $(n)Свойства:$() $(br)Панды имеют разные характеры."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1 Bamboo  $(n)XP:$() 1-3"
+      "text": "$(n)Дроп:$() 1 Бамбук  $(n)Опыт:$() 1-3"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:aggressive}",
       "scale": "0.5",
-      "text": "Gene: Aggressive"
+      "text": "Ген: агрессивный"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:brown}",
       "scale": "0.5",
-      "text": "Gene: Brown"
+      "text": "Ген: коричневый"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:lazy}",
       "scale": "0.5",
-      "text": "Gene: Lazy"
+      "text": "Ген: ленивый"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:normal}",
       "scale": "0.5",
-      "text": "Gene: Normal"
+      "text": "Ген: обычный"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:playful}",
       "scale": "0.5",
-      "text": "Gene: Playful"
+      "text": "Ген: игривый"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:weak}",
       "scale": "0.5",
-      "text": "Gene: Weak"
+      "text": "Ген: слабый"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:panda{MainGene:worried}",
       "scale": "0.5",
-      "text": "Gene: Worried"
+      "text": "Ген: тревожный"
     }
   ]
 }
+

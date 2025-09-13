@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Breeze",
+  "name": "Монстр - Бриз",
   "icon": "minecraft:breeze_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 30$(br)> $(n)Attack Damage:$() $(br)1 on easy, 1 on normal, 1.5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#trial_chambers)Trial Chambers$()  $(br)> $(n)Properties:$() $(br)When attacking something, a $(thing)Breeze$() moves via jumping large distances and attacks by firing $(item)Wind Charges$(), which deal high knockback. $(br)It can repel all projectiles, taking no damage from them."
+      "text": "> $(n)Здоровье:$() 30$(br)> $(n)Урон:$() $(br)1 на лёгком, 1 на нормальном, 1.5 на сложном $(br)> $(n)Поведение:$() Враждебный $(br)> $(n)Место появления:$() $(l:world/structures#trial_chambers)Испытательные камеры$()  $(br)> $(n)Свойства:$() $(br)Атакуя цель, $(thing)Бриз$() перемещается, совершая большие прыжки, и атакует, выстреливая $(item)Зарядами ветра$(), которые сильно отбрасывают. $(br)Он отражает все снаряды, не получая от них урона."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:breeze",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 1-2 Breeze Rod   $(br)$(n)XP:$() 10"
+      "text": "$(n)Дроп:$() 1-2 Стержня бриза   $(br)$(n)Опыт:$() 10"
     }
   ]
 }

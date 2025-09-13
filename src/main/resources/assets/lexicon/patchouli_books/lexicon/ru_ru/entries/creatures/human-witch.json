@@ -1,17 +1,17 @@
 {
-  "name": "Humanoid - Witch",
+  "name": "Гуманоид - Ведьма",
   "icon": "minecraft:witch_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 26  $(br)> $(n)Attack Damage:$() 6, Poison $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Overworld at light level 0, $(l:world/structures#hut)Witch Huts$(), Raids, when a $(l:creature/human-villager)$(thing)Villager$() is striked by a lightning bolt $(br)> $(n)Properties:$() $(br)$(thing)Witches$() are 85% resistant to some magical damage sources. $(br)They can trow $(l:brewing/potion_types#splash_potion)$(item)Splash Potions$() to to negatively enchant the opponent. $(br)They can heal themself."
+      "text": "> $(n)Health:$() 26  $(br)> $(n)Attack Damage:$() 6, яд $(br)> $(n)Behavior:$() Враждебный     $(br)> $(n)Spawn:$() Верхний мир при уровне освещения 0, $(l:world/structures#hut)Хижины ведьм$(), Набеги, когда $(l:creature/human-villager)$(thing)Жителя$() ударяет молния $(br)> $(n)Properties:$() $(br)$(thing)Ведьмы$() на 85% устойчивы к некоторым источникам магического урона. $(br)Они могут бросать $(l:brewing/potion_types#splash_potion)$(item)Взрывные зелья$(), чтобы негативно наложить эффекты на противника. $(br)Они могут исцелять себя."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:witch",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 4-8 Redstone, chance for 0-2: Glass Bottles / Glowstone Dust / Gunpowder / Spider Eyes / Sugar / Sticks, 8.5% chance for it's $(l:brewing/potion_types#potion)Potion$() if killed when drinking $(br)$(n)XP:$() 5"
+      "text": "$(n)Drops:$() 4-8 Красной пыли, шанс 0-2: Стеклянные бутылочки / Светящаяся пыль / Порох / Паучьи глаза / Сахар / Палочки, 8,5% шанс на её $(l:brewing/potion_types#potion)Зелье$() если убита во время питья $(br)$(n)XP:$() 5"
     }
   ]
 }

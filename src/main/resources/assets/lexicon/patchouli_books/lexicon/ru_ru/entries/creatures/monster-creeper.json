@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Creeper",
+  "name": "Монстр - Крипер",
   "icon": "minecraft:creeper_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)22 on easy, 43 on normal, 64 on hard$(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() Overworld at light level 0$(br)> $(n)Properties:$() $(br)$(thing)Creepers$() chase any $(l:creatures/human-player)$(thing)Player$() within a 16 block radius. They do not voluntarily attack any other mob. When within 3 blocks of a $(l:creatures/human-player)$(thing)Player$(), a $(thing)Creeper$() stops moving, hisses, flashes and expands and explodes after 1.5 seconds, destroying blocks in the area as well as significantly damaging the target. It can be charged with a lightning bolt."
+      "text": "> $(n)Здоровье:$() 20  $(br)> $(n)Урон:$() $(br)22 на лёгком, 43 на нормальном, 64 на сложном$(br)> $(n)Поведение:$() Враждебный $(br)> $(n)Место появления:$() Верхний мир при уровне освещения 0$(br)> $(n)Свойства:$() $(br)$(thing)Криперы$() преследуют любого $(l:creatures/human-player)$(thing)Игрока$() в радиусе 16 блоков. Они не атакуют других мобов по собственной воле. На расстоянии 3 блоков от $(l:creatures/human-player)$(thing)Игрока$() $(thing)Крипер$() останавливается, шипит, мигает, увеличивается и взрывается через 1.5 секунды, разрушая блоки поблизости и нанося значительный урон цели. Может быть заряжен ударом молнии."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:creeper",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-2 Gun Powders, 1 $(l:rare/music_discs)$(item)Music Disc$() if killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() or $(l:creatures/undead-stray)$(thing)Stray$(), 1 $(l:rare/mob_head)$(item)Creeper Head$() if killed by a $(l:tips/lightning)$(thing)Charged Creeper$() $(br)$(n)XP:$() 5"
+      "text": "$(n)Дроп:$() 0-2 Пороха, 1 $(l:rare/music_discs)$(item)Музыкальный диск$() если убит $(l:creatures/undead-skeleton)$(thing)Скелетом$() или $(l:creatures/undead-stray)$(thing)Бродягой$(), 1 $(l:rare/mob_head)$(item)Голова крипера$() если убит $(l:tips/lightning)$(thing)Заряженным Крипером$() $(br)$(n)Опыт:$() 5"
     }
   ]
 }

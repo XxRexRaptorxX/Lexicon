@@ -1,17 +1,17 @@
 {
-  "name": "Undead - Zombie Villager",
+  "name": "Нежить - Зомби-житель",
   "icon": "minecraft:zombie_villager_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)2.5 on easy, 3 on normal, 4.5 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() When a $(l:creatures/human-villager)$(thing)Villager$() is killed by a $(l:creatures/undead-zombie)$(thing)Zombie$() (50% on normal, 100% on hard) $(br)> $(n)Properties:$()$(thing)Zombie Villagers$() can be cured by first giving them the $(l:brewing/effects#weakness)$(thing)Weakness effect$(), and then using a non enchanted $(l:rare/golden_apple)$(item)Golden Apple$(). They are healed by $(l:brewing/effects#instant_damage)$(thing)Instant Damage$() and harmed by $(l:brewing/effects#instant_health)$(thing)Instant Health$() effects, are immune to $(l:brewing/effects#regeneration)$(thing)Regeneration$() and $(l:brewing/effects#poison)$(thing)Poison effects$()."
+      "text": "> $(n)Здоровье:$() 20  $(br)> $(n)Урон атаки:$() $(br)2.5 на лёгком, 3 на нормальном, 4.5 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Когда $(l:creatures/human-villager)$(thing)Житель$() убит $(l:creatures/undead-zombie)$(thing)Зомби$() (50% на нормальном, 100% на сложном) $(br)> $(n)Особенности:$()$(thing)Зомби-жители$() могут быть излечены, если сначала дать им эффект $(l:brewing/effects#weakness)$(thing)Слабости$(), а затем использовать обычное $(l:rare/golden_apple)$(item)Золотое яблоко$(). Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:zombie_villager",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-2 Rotten Flesh, 2.5% chance for Iron Ingot / Carrot / Potato / Baked Potato if killed with fire, 1 $(l:rare/mob_heads)$(item)Zombie Head$() if killed by a $(l:tips/lightning)$(thing)Charged Creeper$() $(br)$(n)XP:$() adults 5-17, baby 12-24"
+      "text": "$(n)Добыча:$() 0-2 гнилой плоти, 2.5% шанс на железный слиток / морковь / картофель / печёный картофель при смерти в огне, 1 $(l:rare/mob_heads)$(item)Голова зомби$() при убийстве $(l:tips/lightning)$(thing)Заряженным крипером$() $(br)$(n)Опыт:$() взрослые 5-17, детёныш 12-24"
     }
   ]
 }

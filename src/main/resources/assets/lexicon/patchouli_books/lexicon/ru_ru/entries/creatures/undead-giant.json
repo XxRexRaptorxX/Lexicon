@@ -1,17 +1,17 @@
 {
-  "name": "Undead - Giant",
+  "name": "Нежить - Гигант",
   "icon": "minecraft:zombie_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)26 on easy, 50 on normal, 75 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Not natural  $(br)> $(n)Properties:$() $(br)Giants$() are close to 12 blocks tall $(l:creatures/undead-zombie)$(thing)Zombies$(). They cannot spawn without $(l:commands)commands$() or $(l:modifications/mods)mods$()."
+      "text": "> $(n)Здоровье:$() 100  $(br)> $(n)Урон атаки:$() $(br)26 на лёгком, 50 на нормальном, 75 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Не естественное  $(br)> $(n)Особенности:$() $(br)$(thing)Гиганты$() — это почти 12-блочные $(l:creatures/undead-zombie)$(thing)Зомби$(). Они не могут появляться без $(l:commands)команд$() или $(l:modifications/mods)модов$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:giant",
       "scale": "1.3",
-      "text": "$(n)Drops:$() Equipment   $(br)$(n)XP:$() 5"
+      "text": "$(n)Добыча:$() Экипировка   $(br)$(n)Опыт:$() 5"
     }
   ]
 }

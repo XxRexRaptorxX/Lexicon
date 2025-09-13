@@ -1,80 +1,81 @@
 {
-  "name": "Animal - Wolf",
+  "name": "Животное - Волк",
   "icon": "minecraft:wolf_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() wild 8, tamed 40 $(br)> $(n)Attack Damage:$() 3 on easy, 4 on normal, 6 on hard $(br)> $(n)Behavior:$() Neutral  $(br)> $(n)Spawn:$() Taigas, Grove, Badlands, Jungle, Forest Forest$(br)> $(n)Taming:$() Bones   $(br)> $(n)Breeding:$() Meat    $(br)> $(n)Properties:$() $(br)Can be equipped with $(item)Wolf Armor$(). $(br)Hunts $(l:creatures/undead-skeleton)$(thing)Skeletons$(), $(l:creatures/animal-sheep)$(thing)Sheeps$(), $(l:creatures/animal-rabbit)$(thing)Rabbits$(), $(l:creatures/animal-fox)$(thing)Foxes$() and $(l:creatures/aquatic_animal-turtle)$(thing)Baby Turtles$()."
+      "text": "> $(n)Здоровье:$() дикий 8, приручённый 40 $(br)> $(n)Урон:$() 3 на лёгком, 4 на нормальном, 6 на сложном $(br)> $(n)Поведение:$() Нейтральное  $(br)> $(n)Место появления:$() Тайга, Роща, Бэдлендс, Джунгли, Лес $(br)> $(n)Приручение:$() Кости   $(br)> $(n)Размножение:$() Мясо    $(br)> $(n)Свойства:$() $(br)Можно оснастить $(item)волчьей бронёй$(). $(br)Охотится на $(l:creatures/undead-skeleton)$(thing)скелетов$(), $(l:creatures/animal-sheep)$(thing)овец$(), $(l:creatures/animal-rabbit)$(thing)кроликов$(), $(l:creatures/animal-fox)$(thing)лис$() и $(l:creatures/aquatic_animal-turtle)$(thing)детёнышей черепах$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf",
       "scale": "0.5",
-      "text": "$(n)Drops:$() -  $(n)XP:$() 1-3"
+      "text": "$(n)Дроп:$() -  $(n)Опыт:$() 1-3"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:black}",
       "scale": "0.5",
-      "name": "Black Wolf",
-      "text": "$(n)Biome:$() Old Growth Pine Taiga"
+      "name": "Чёрный волк",
+      "text": "$(n)Биом:$() Старая сосновая тайга"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:chestnut}",
       "scale": "0.5",
-      "name": "Chestnut Wolf",
-      "text": "$(n)Biome:$() Old Growth Spruce Taiga"
+      "name": "Каштановый волк",
+      "text": "$(n)Биом:$() Старая еловая тайга"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:pale}",
       "scale": "0.5",
-      "name": "Pale Wolf",
-      "text": "$(n)Biome:$() Taiga"
+      "name": "Бледный волк",
+      "text": "$(n)Биом:$() Тайга"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:ashen}",
       "scale": "0.5",
-      "name": "Ashen Wolf",
-      "text": "$(n)Biome:$() Snowy Taiga"
+      "name": "Пепельный волк",
+      "text": "$(n)Биом:$() Снежная тайга"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:rusty}",
       "scale": "0.5",
-      "name": "Rusty Wolf",
-      "text": "$(n)Biome:$() Sparse Jungle"
+      "name": "Рыжий волк",
+      "text": "$(n)Биом:$() Редкие джунгли"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:snowy}",
       "scale": "0.5",
-      "name": "Snowy Wolf",
-      "text": "$(n)Biome:$() Grove"
+      "name": "Снежный волк",
+      "text": "$(n)Биом:$() Роща"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:spotted}",
       "scale": "0.5",
-      "name": "Spotted Wolf",
-      "text": "$(n)Biome:$() Savanna Plateau"
+      "name": "Пятнистый волк",
+      "text": "$(n)Биом:$() Плато саванны"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:stripped}",
       "scale": "0.5",
-      "name": "Stripped Wolf",
-      "text": "$(n)Biome:$() Wooded Badlands"
+      "name": "Полосатый волк",
+      "text": "$(n)Биом:$() Заросшие Бэдлендс"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wolf{variant:woods}",
       "scale": "0.5",
-      "name": "Woods Wolf",
-      "text": "$(n)Biome:$() Forest"
+      "name": "Лесной волк",
+      "text": "$(n)Биом:$() Лес"
     }
   ]
 }
+

@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Magma Cube",
+  "name": "Монстр - Магмовый куб",
   "icon": "minecraft:magma_cube_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() big 16, 4 medium, 1 small $(br)> $(n)Attack Damage:$() $(br)big 4-9, medium 3-6, small 2.5-4.5 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/dimensions#nether)Nether$()  $(br)> $(n)Properties:$() $(br)$(thing)Magma Cubes$() cannot be hurt by fall damage or burning. They can swim upward in $(item)Lava$() and leap above its surface. Their jump height depends on their size. Their forward speed is twice that of most other mobs. When a $(thing)Magma Cube$() is killed, it splits into 2-4 smaller once. Tiny $(thing)Magma Cubes$() disappear when killed, like other mobs."
+      "text": "> $(n)Здоровье:$() большой 16, средний 4, маленький 1 $(br)> $(n)Урон:$() $(br)большой 4-9, средний 3-6, маленький 2.5-4.5 $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() $(l:world/dimensions#nether)Нижний мир$()  $(br)> $(n)Свойства:$() $(br)$(thing)Магмовые кубы$() не получают урон от падения или огня. Они могут всплывать в $(item)Лаве$() и выпрыгивать над её поверхностью. Высота прыжка зависит от размера. Их скорость вдвое выше, чем у большинства других мобов. После смерти $(thing)Магмовый куб$() делится на 2-4 меньших. Маленькие $(thing)Магмовые кубы$() исчезают при смерти, как другие мобы."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:magma_cube",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-1 Magma Cream $(br)$(n)XP:$() 4-1"
+      "text": "$(n)Дроп:$() 0-1 Сгусток магмы $(br)$(n)Опыт:$() 4-1"
     }
   ]
 }

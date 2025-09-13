@@ -1,66 +1,67 @@
 {
-  "name": "Animal - Rabbit",
+  "name": "Животное - Кролик",
   "icon": "minecraft:rabbit_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 3     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld on Grass, Snow, Sand $(br)> $(n)Breeding:$() Carrots, Golden Carrots, Dandelions "
+      "text": "> $(n)Здоровье:$() 3     $(br)> $(n)Урон:$() 0    $(br)> $(n)Поведение:$() Мирное     $(br)> $(n)Место появления:$() Верхний мир на траве, снегу, песке $(br)> $(n)Размножение:$() Морковь, Золотая морковь, Одуванчики "
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-1 Rabbit Hide, 0-1 Raw Rabbit, 0-1 Cooked Rabbit if killed with fire, 10% chance for Rabbit's Foot  $(n)XP:$() 1-3"
+      "text": "$(n)Дроп:$() 0-1 Кроличья шкура, 0-1 Сырой кролик, 0-1 Жареный кролик при смерти в огне, 10% шанс кроличьей лапки  $(n)Опыт:$() 1-3"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:1}",
       "scale": "0.5",
-      "text": "Rabbit Type: 1",
-      "name": "White Rabbit"
+      "text": "Тип кролика: 1",
+      "name": "Белый кролик"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:2}",
       "scale": "0.5",
-      "text": "Rabbit Type: 2",
-      "name": "Black Rabbit"
+      "text": "Тип кролика: 2",
+      "name": "Чёрный кролик"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:3}",
       "scale": "0.5",
-      "text": "Rabbit Type: 3",
-      "name": "Black&White Rabbit"
+      "text": "Тип кролика: 3",
+      "name": "Чёрно-белый кролик"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:4}",
       "scale": "0.5",
-      "text": "Rabbit Type: 4",
-      "name": "Gold Rabbit"
+      "text": "Тип кролика: 4",
+      "name": "Золотистый кролик"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:5}",
       "scale": "0.5",
-      "text": "Rabbit Type: 5",
-      "name": "Salt&Pepper Rabbit"
+      "text": "Тип кролика: 5",
+      "name": "Кролик «соль и перец»"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:0}",
       "scale": "0.5",
-      "text": "Rabbit Type: 0",
-      "name": "Brown Rabbit"
+      "text": "Тип кролика: 0",
+      "name": "Коричневый кролик"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:rabbit{RabbitType:99}",
       "scale": "0.5",
-      "text": "Rabbit Type: 99",
-      "name": "The Killer Bunny"
+      "text": "Тип кролика: 99",
+      "name": "Убийственный кролик"
     }
   ]
 }
+

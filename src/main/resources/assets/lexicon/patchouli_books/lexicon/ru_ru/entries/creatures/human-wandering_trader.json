@@ -1,11 +1,11 @@
 {
-  "name": "Humanoid - Wandering Trader",
+  "name": "Гуманоид - Странствующий торговец",
   "icon": "minecraft:wandering_trader_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Overworld    $(br)> $(n)Properties:$() $(br)Spawns randomly near the $(l:creatures/human-player)$(thing)Player$(). It can trade, making natural items more available, less dangerous to obtain."
+      "text": "> $(n)Health:$() 20     $(br)> $(n)Attack Damage:$() 0    $(br)> $(n)Behavior:$() Пассивный     $(br)> $(n)Spawn:$() Верхний мир    $(br)> $(n)Properties:$() $(br)Появляется случайно рядом с $(l:creatures/human-player)$(thing)Игроком$(). Может торговать, делая естественные ресурсы более доступными и менее опасными для получения."
     },
     {
       "type": "patchouli:entity",

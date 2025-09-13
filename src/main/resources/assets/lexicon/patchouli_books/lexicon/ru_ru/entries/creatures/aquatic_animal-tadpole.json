@@ -1,17 +1,17 @@
 {
-  "name": "Aquatic Animal - Tadpole",
+  "name": "Водное животное - Головастик",
   "icon": "minecraft:tadpole_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 6 $(br)> $(n)Attack Damage:$() 0 $(br)> $(n)Behavior:$() Passive $(br)> $(n)Spawn:$() from Frogspawn $(br)> $(n)Properties:$() $(br)$(thing)Tadpoles$() follow a $(l:creatures/human-player)$(thing)Player$() that is holding a $(item)Slimeball$().$(br2)$(thing)Tadpoles$() grows up into one of the variants of a $(l:creatures/aquatic_animal-frog)$(thing)Frog$() depending on the biome. $(br2)Its growth may be accelerated by feeding it $(item)Slimeballs$()."
+      "text": "> $(n)Здоровье:$() 6 $(br)> $(n)Урон:$() 0 $(br)> $(n)Поведение:$() Пассивное $(br)> $(n)Места появления:$() из лягушачьей икры $(br)> $(n)Свойства:$() $(br)$(thing)Головастики$() следуют за $(l:creatures/human-player)$(thing)игроком$(), держащим $(item)Слизь$().$(br2)$(thing)Головастики$() вырастают в один из вариантов $(l:creatures/aquatic_animal-frog)$(thing)лягушки$() в зависимости от биома. $(br2)Их рост можно ускорить, кормя их $(item)Слизью$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:tadpole",
       "scale": "0.5",
-      "text": "$(n)Drops:$() - $(br)$(n)XP:$() 0"
+      "text": "$(n)Дроп:$() - $(br)$(n)Опыт:$() 0"
     }
   ]
 }

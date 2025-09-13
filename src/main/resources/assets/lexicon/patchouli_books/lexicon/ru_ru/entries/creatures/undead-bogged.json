@@ -1,17 +1,17 @@
 {
-  "name": "Undead - Bogged",
+  "name": "Нежить - Заболоченный",
   "icon": "minecraft:bogged_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 16  $(br)> $(n)Attack Damage:$() $(br)Poison & 2-4 on easy, 3-5 on normal, 4-8 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Swamps, $(l:world/structures#trial_chambers)Trial Chambers$() $(br)> $(n)Properties:$() $(br)$(thing)Bogged$() behave the same as normal $(l:creatures/undead-skeleton)$(thing)Skeletons$(), but attack at a slower rate and shoot $(item)Tipped Arrows$() that inflict $(l:brewing/effects#poison)$(thing)Poison$() for 4 seconds on any target that they hit. $(br)A $(thing)Bogged$() drops 2 $(item)Mushrooms$() when sheared."
+      "text": "> $(n)Здоровье:$() 16  $(br)> $(n)Урон атаки:$() $(br)Яд и 2-4 на лёгком, 3-5 на нормальном, 4-8 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Болота, $(l:world/structures#trial_chambers)Испытательные камеры$() $(br)> $(n)Особенности:$() $(br)$(thing)Заболоченные$() ведут себя так же, как обычные $(l:creatures/undead-skeleton)$(thing)Скелеты$(), но атакуют медленнее и стреляют $(item)Зельевыми стрелами$(), накладывающими $(l:brewing/effects#poison)$(thing)Яд$() на 4 секунды на любую цель, которую они поражают. $(br)При стрижке $(thing)Заболоченный$() роняет 2 $(item)Гриба$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:bogged",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-2 Bones, 0-2 Arrows, 50% chance Arrow of Poison, 8.5% chance for Equipment $(br)$(n)XP:$() 5-8"
+      "text": "$(n)Добыча:$() 0-2 кости, 0-2 стрелы, 50% шанс стрелы с ядом, 8.5% шанс на экипировку $(br)$(n)Опыт:$() 5-8"
     }
   ]
 }

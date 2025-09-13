@@ -1,17 +1,17 @@
 {
-  "name": "Arthropod - Endermite",
+  "name": "Членистоногое - Эндермит",
   "icon": "minecraft:endermite_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 8  $(br)> $(n)Attack Damage:$() $(br)2 on easy, 2 on normal, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() 5% chance when an $(thing)Ender Pearl$() lands $(br)> $(n)Properties:$() $(br)$(l:creatures/monster-enderman)$(thing)Endermen$() attack $(thing)Endermites$()."
+      "text": "> $(n)Здоровье:$() 8  $(br)> $(n)Урон:$() $(br)2 на лёгком, 2 на нормальном, 3 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() 5% шанс при приземлении $(thing)Жемчуга Эндера$() $(br)> $(n)Свойства:$() $(br)$(l:creatures/monster-enderman)$(thing)Эндермены$() атакуют $(thing)Эндермитов$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:endermite",
       "scale": "0.5",
-      "text": "$(n)Drops:$() -   $(br)$(n)XP:$() 3"
+      "text": "$(n)Дроп:$() -   $(br)$(n)Опыт:$() 3"
     }
   ]
 }

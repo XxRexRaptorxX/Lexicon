@@ -1,17 +1,17 @@
 {
-  "name": "Undead - Wither Skeleton",
+  "name": "Нежить - Иссушитель-скелет",
   "icon": "minecraft:wither_skeleton_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20  $(br)> $(n)Attack Damage:$() $(br)5 on easy, 8 on normal, 12 on hard, 5 $(l:brewing/effects#wither)Wither Damage$() $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#fortress)Nether Fortress$()  $(br)> $(n)Properties:$() $(br)$(thing)Wither Skeletons$() are immune to fire and the $(l:brewing/effects#wither)$(thing)Wither effect$(). They still seek shade or water during daylight if they are in the $(l:world/dimensions#overworld)$(thing)Overworld$() although they do not burn in sunlight. Like most undead mobs, they sink in $(item)Water$() but do not drown, are healed by $(l:brewing/effects#instant_damage)$(thing)Instant Damage$() and harmed by $(l:brewing/effects#instant_health)$(thing)Instant Health$() effects, are immune to $(l:brewing/effects#regeneration)$(thing)Regeneration$() and $(l:brewing/effects#poison)$(thing)Poison effects$()."
+      "text": "> $(n)Здоровье:$() 20  $(br)> $(n)Урон атаки:$() $(br)5 на лёгком, 8 на нормальном, 12 на сложном, 5 $(l:brewing/effects#wither)Урона Иссушением$() $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() $(l:world/structures#fortress)Нетерская крепость$()  $(br)> $(n)Особенности:$() $(br)$(thing)Иссушающие скелеты$() невосприимчивы к огню и эффекту $(l:brewing/effects#wither)$(thing)Иссушения$(). Находясь в $(l:world/dimensions#overworld)$(thing)Верхнем мире$(), они всё равно ищут тень или воду днём, хотя на солнце не горят. Как и большинство нежити, они тонут в $(item)Воде$(), но не задыхаются, лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:wither_skeleton",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 0-2 Bones, 1/3 chance Coal, 2.5% chance for a $(l:rare/mob_heads)$(item)Wither Skeleton Skull$() / 100% chance if killed by a $(l:tips/lightning)$(thing)Charged Creeper$(), 8.5% chance for Equipment  $(br)$(n)XP:$() 5-17"
+      "text": "$(n)Добыча:$() 0-2 кости, 1/3 шанс угля, 2.5% шанс на $(l:rare/mob_heads)$(item)Череп иссушителя$() / 100% при убийстве $(l:tips/lightning)$(thing)Заряженным крипером$(), 8.5% шанс на экипировку  $(br)$(n)Опыт:$() 5-17"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Ravager",
+  "name": "Монстр - Разоритель",
   "icon": "minecraft:ravager_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 100  $(br)> $(n)Attack Damage:$() $(br)Melee: 7 on easy, 12 on normal, 18 on hard $(br)Roar: 6 $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() Raids    $(br)> $(n)Properties:$() $(br)$(thing)Ravagers$() are large hostile mobs that spawn in raids and attack $(l:creatures/human-player)$(thing)Players$(), $(l:creatures/human-villager)$(thing)Villagers$(), $(l:creatures/human-wandering_trader)$(thing)Wandering Traders$(), and $(l:creatures/golem-iron_golem)$(thing)Iron Golems$(). They attack by ramming enemies with their head, dealing a knockback of 5 blocks."
+      "text": "> $(n)Здоровье:$() 100  $(br)> $(n)Урон:$() $(br)ближний бой: 7 на лёгком, 12 на нормальном, 18 на сложном $(br)Рёв: 6 $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() Набеги    $(br)> $(n)Свойства:$() $(br)$(thing)Разорители$() — крупные враждебные мобы, появляющиеся в набегах и атакующие $(l:creatures/human-player)$(thing)Игроков$(), $(l:creatures/human-villager)$(thing)Жителей$(), $(l:creatures/human-wandering_trader)$(thing)Странствующих торговцев$() и $(l:creatures/golem-iron_golem)$(thing)Железных големов$(). Они атакуют, таранно ударяя головой, отбрасывая цели на 5 блоков."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:ravager",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 1 Saddle   $(br)$(n)XP:$() 20"
+      "text": "$(n)Дроп:$() 1 Седло   $(br)$(n)Опыт:$() 20"
     }
   ]
 }

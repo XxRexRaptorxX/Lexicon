@@ -1,17 +1,18 @@
 {
-  "name": "Animal - Fox",
+  "name": "Животное - Лиса",
   "icon": "minecraft:fox_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 10     $(br)> $(n)Attack Damage:$() 2, 3 on hard  $(br)> $(n)Behavior:$() Passive     $(br)> $(n)Spawn:$() Taigas, Grove    $(br)> $(n)Breeding:$() Sweet Berries, Glow Berries $(br)> $(n)Properties:$() $(br)Sleeps at day. Attack $(l:creatures/animal-chicken)$(thing)Chickens$(), $(l:creatures/animal-rabbit)$(thing)Rabbits$(), $(l:creatures/aquatic_animal-turtle)$(thing)Baby Turtles$() & $(l:creatures/animal-tropical_fish)$(thing)Fish$(). Foxes can hold items in his mouth. Breeding two Foxes results in a $(n)tamed$() $(thing)Baby Fox$()."
+      "text": "> $(n)Здоровье:$() 10     $(br)> $(n)Урон:$() 2, 3 на сложном  $(br)> $(n)Поведение:$() Мирное     $(br)> $(n)Место появления:$() Тайга, Роща    $(br)> $(n)Размножение:$() Сладкие ягоды, светящиеся ягоды $(br)> $(n)Свойства:$() $(br)Спит днём. Атакует $(l:creatures/animal-chicken)$(thing)кур$(), $(l:creatures/animal-rabbit)$(thing)кроликов$(), $(l:creatures/aquatic_animal-turtle)$(thing)детёнышей черепах$() и $(l:creatures/animal-tropical_fish)$(thing)рыбу$(). Лисы могут держать предметы в пасти. Разведение двух лис приводит к $(n)приручённому$() $(thing)лисенку$()."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:fox",
       "scale": "0.5",
-      "text": "$(n)Drops:$() the item in her mouth  $(n)XP:$() 1-2"
+      "text": "$(n)Дроп:$() предмет в пасти  $(n)Опыт:$() 1-2"
     }
   ]
 }
+

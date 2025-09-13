@@ -1,18 +1,18 @@
 {
-  "name": "Boss - Ender Dragon",
+  "name": "Босс - Дракон Края",
   "icon": "minecraft:dragon_head",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 200  $(br)> $(n)Attack Damage:$() $(br) 3-6 on easy, 5-10 on normal, 7-15 on hard, breath deals 3 d/s, fireball deals 6 d/s $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/dimensions#end)End$()    $(br)> $(n)Properties:$() $(br)The $(thing)Ender Dragon$() is a gigantic flying boss found when first entering the $(l:world/dimensions#end)$(thing)End$(). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all $(l:brewing/effects)status effects$(), can fly, shoot fire balls, spit $(l:rare/dragons/breath)$(thing)dragons breath$(), and can destroy the most blocks by contact. It generates health out of $(l:rare/end_crystal)$(thing)End Crystals$(). Can be re-summoned."
+      "text": "> $(n)Здоровье:$() 200 $(br)> $(n)Урон при атаке:$() $(br) 3-6 на лёгком, 5-10 на нормальном, 7-15 на сложном, дыхание наносит 3 ед/с, фаербол 6 ед/с $(br)> $(n)Поведение:$() Враждебное $(br)> $(n)Место появления:$() $(l:world/dimensions#end)Край$() $(br)> $(n)Свойства:$() $(br)$(thing)Эндер-дракон$() — огромный летающий босс, которого встречают при первом входе в $(l:world/dimensions#end)$(thing)Край$(). Широко признан финальным боссом Minecraft. Дракон невосприимчив ко всем $(l:brewing/effects)эффектам$(), умеет летать, стрелять огненными шарами, плеваться $(l:rare/dragons/breath)$(thing)дыханием дракона$() и разрушает большинство блоков при контакте. Восстанавливает здоровье от $(l:rare/end_crystal)$(thing)кристаллов Края$(). Может быть призван повторно."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:ender_dragon",
       "scale": "1.5",
       "offset": "-5",
-      "text": "$(n)Drops:$() 1 Dragon Egg, End Gateway Portal Structure, Exit Portal Structure $(br)$(n)XP:$() 12.000, re-summoned 500"
+      "text": "$(n)Добыча:$() 1 яйцо дракона, структура портала ворот Края, структура выходного портала $(br)$(n)Опыт:$() 12.000, при повторном призыве 500"
     }
   ]
 }

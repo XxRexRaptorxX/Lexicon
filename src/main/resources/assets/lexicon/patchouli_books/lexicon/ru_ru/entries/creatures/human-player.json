@@ -1,11 +1,11 @@
 {
-  "name": "Humanoid - Player",
+  "name": "Гуманоид - Игрок",
   "icon": "minecraft:player_head",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 20 + armor $(br)> $(n)Attack Damage:$() 1 without tools $(br)> $(n)Behavior:$() unpredictable $(br)> $(n)Spawn:$() Player/World spawn point"
+      "text": "> $(n)Health:$() 20 + броня $(br)> $(n)Attack Damage:$() 1 без инструментов $(br)> $(n)Behavior:$() непредсказуемое $(br)> $(n)Spawn:$() Точка спавна игрока/мира"
     },
     {
       "type": "patchouli:image",
@@ -13,7 +13,7 @@
         "lexicon:textures/pictures/player.png"
       ],
       "border": false,
-      "text": "$(n)Drops:$() inventory  $(br)$(n)XP:$() varying"
+      "text": "$(n)Drops:$() инвентарь  $(br)$(n)XP:$() различается"
     }
   ]
 }

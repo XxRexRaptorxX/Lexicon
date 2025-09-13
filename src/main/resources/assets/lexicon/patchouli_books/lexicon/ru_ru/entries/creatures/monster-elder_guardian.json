@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Elder Guardian",
+  "name": "Монстр - Древний страж",
   "icon": "minecraft:elder_guardian_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 80  $(br)> $(n)Attack Damage:$() $(br)ranged: 5 on easy, 8 on normal, 12 on hard, $(br)melee: 2, 3 on hard $(br)> $(n)Behavior:$() Hostile     $(br)> $(n)Spawn:$() $(l:world/structures#monument)Ocean Monuments$() $(br)> $(n)Properties:$() $(br)The $(thing)Elder Guardian$() has 3 methods of attacking, including firing its laser, inflicting $(l:brewing/effects#mining_fatigue)$(thing)Mining Fatigue$(), and a defensive thorn-like attack."
+      "text": "> $(n)Здоровье:$() 80  $(br)> $(n)Урон:$() $(br)дальний: 5 на лёгком, 8 на нормальном, 12 на сложном, $(br)ближний: 2, 3 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() $(l:world/structures#monument)Океанические памятники$() $(br)> $(n)Свойства:$() $(br)$(thing)Древний страж$() атакует тремя способами: выстрелом лазера, наложением $(l:brewing/effects#mining_fatigue)$(thing)Усталости от копания$() и защитной атакой шипами."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:guardian",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 0-2 Prismarine Shards, 1 Wet Sponge, 2.5% random fish, 1/3 chance of Prismarine Crystals $(br)$(n)XP:$() 10"
+      "text": "$(n)Дроп:$() 0-2 Осколка призмарина, 1 мокрая губка, 2.5% случайной рыбы, 1/3 шанс на призмариновые кристаллы $(br)$(n)Опыт:$() 10"
     }
   ]
 }

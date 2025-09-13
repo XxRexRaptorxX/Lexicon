@@ -1,11 +1,11 @@
 {
-  "name": "Myth - Wither Storm",
+  "name": "Миф - Иссушающий шторм",
   "icon": "minecraft:wither_skeleton_skull",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() ?  $(br)> $(n)Attack Damage:$() ? $(br)> $(n)Behavior:$() Very hostile     $(br)> $(n)Spawn:$() Unknown    $(br)> $(n)Properties:$() $(br)The $(thing)Wither Storm$() is a more destructive version of the $(l:creatures/boss-wither)$(thing)Wither$(). $(br)It sucks blocks and mobs to make it bigger and stronger. $(br)It eventually becomes a giant monster with 5 tentacles and three heads that can fire a tractor beam!  "
+      "text": "> $(n)Здоровье:$() ?  $(br)> $(n)Урон атаки:$() ? $(br)> $(n)Поведение:$() Очень враждебный     $(br)> $(n)Появление:$() Неизвестно    $(br)> $(n)Особенности:$() $(br)$(thing)Иссушающий шторм$() — более разрушительная версия $(l:creatures/boss-wither)$(thing)Иссушителя$(). $(br)Он втягивает блоки и мобов, становясь больше и сильнее. $(br)В конце концов он превращается в огромного монстра с 5 щупальцами и тремя головами, которые могут излучать притягивающий луч!"
     },
     {
       "type": "patchouli:image",
@@ -13,7 +13,7 @@
         "lexicon:textures/pictures/wither_storm.png"
       ],
       "border": false,
-      "text": "$(n)Drops:$() ?  $(br)$(n)XP:$() ?"
+      "text": "$(n)Добыча:$() ?  $(br)$(n)Опыт:$() ?"
     },
     {
       "type": "patchouli:image",
@@ -42,7 +42,7 @@
           "Y": "minecraft:command_block[facing=down]"
         }
       },
-      "text": "Legends say, that this structure creates a $(thing)Wither Storm$()."
+      "text": "Легенды гласят, что эта структура создаёт $(thing)Иссушающий шторм$()."
     }
 
   ]

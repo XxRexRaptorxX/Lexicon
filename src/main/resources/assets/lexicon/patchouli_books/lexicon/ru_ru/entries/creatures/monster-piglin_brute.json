@@ -1,17 +1,17 @@
 {
-  "name": "Monster - Piglin Brute",
+  "name": "Монстр - Пиглин-брут",
   "icon": "minecraft:piglin_brute_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 50     $(br)> $(n)Attack Damage:$() $(br)4-7 on easy, 7-14 on normal, 10-19 on hard $(br)> $(n)Behavior:$() Hostile $(br)> $(n)Spawn:$() $(l:world/structures#bastion)Bastion Remnants$() $(br)> $(n)Properties:$() $(br)A $(thing)Piglin Brute$() is a hostile and stronger variant of $(l:creatures/monster-piglin)$(thing)Piglins$() that appears in all types of $(l:world/structures#bastion)Bastion Remnants$(). They always attack the $(l:creatures/human-player)$(thing)Player$(). They do not barter, they do not retreat, and they cannot be distracted by gold. They zombify outside the $(l:world/dimensions#nether)$(thing)Nether$()."
+      "text": "> $(n)Здоровье:$() 50     $(br)> $(n)Урон:$() $(br)4-7 на лёгком, 7-14 на нормальном, 10-19 на сложном $(br)> $(n)Поведение:$() Враждебный $(br)> $(n)Место появления:$() $(l:world/structures#bastion)Остатки бастиона$() $(br)> $(n)Свойства:$() $(br)$(thing)Пиглин-брут$() — враждебный и более сильный вариант $(l:creatures/monster-piglin)$(thing)пиглинов$(), встречающийся во всех видах $(l:world/structures#bastion)Остатков бастиона$(). Он всегда атакует $(l:creatures/human-player)$(thing)Игрока$(). Он не обменивается, не отступает и его нельзя отвлечь золотом. Вне $(l:world/dimensions#nether)$(thing)Нижнего мира$() он зомбифицируется."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:piglin_brute",
       "scale": "1.0",
-      "text": "$(n)Drops:$() 8.5% chance for a Golden Axe  $(n)XP:$() 20"
+      "text": "$(n)Дроп:$() 8.5% шанс на $(item)Золотой топор$()  $(n)Опыт:$() 20"
     }
   ]
 }

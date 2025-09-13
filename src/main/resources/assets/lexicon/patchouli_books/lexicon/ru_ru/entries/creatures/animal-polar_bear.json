@@ -1,17 +1,18 @@
 {
-  "name": "Animal - Polar Bear",
+  "name": "Животное - Белый медведь",
   "icon": "minecraft:polar_bear_spawn_egg",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "> $(n)Health:$() 30     $(br)> $(n)Attack Damage:$() 3 on easy, 5 on normal, 8 on hard $(br)> $(n)Behavior:$() Mostly Neutral $(br)> $(n)Spawn:$() Frozen biomes $(br)> $(n)Properties:$() $(br)Adult bears are hostile when with cubs or provoked."
+      "text": "> $(n)Здоровье:$() 30     $(br)> $(n)Урон:$() 3 на лёгком, 5 на нормальном, 8 на сложном $(br)> $(n)Поведение:$() Обычно нейтральное $(br)> $(n)Место появления:$() Замёрзшие биомы $(br)> $(n)Свойства:$() $(br)Взрослые медведи становятся агрессивными рядом с детёнышами или если их спровоцировать."
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:polar_bear",
       "scale": "0.5",
-      "text": "$(n)Drops:$() 3/4 chance for 0-2 Raw Cod, 1/4 chance for 0-2 Raw Salmon  $(n)XP:$() 1-3"
+      "text": "$(n)Дроп:$() 3/4 шанс на 0-2 Сырая треска, 1/4 шанс на 0-2 Сырой лосось  $(n)Опыт:$() 1-3"
     }
   ]
 }
+

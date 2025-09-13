@@ -1,23 +1,23 @@
 {
-  "name": "Miniboss - Raid Captain",
+  "name": "Мини-босс - Капитан набега",
   "icon": "minecraft:ominous_bottle",
   "category": "lexicon:creatures",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A $(thing)Raid Captain$() is the occurrence of an illager spawning with an $(l:rare/ominous_banner)$(item)Ominous Banner$() on top of its head, usually a $(l:creatures/human-pillager)$(thing)Pillager$() or $(l:creatures/human-vindicator)$(thing)Vindicator$(), or rarely an $(l:creatures/human-evoker)$(thing)Evoker$(). $(br2)$(thing)Raid Captains$() usually act the same as if they were a normal illager, but other illagers follow behind them."
+      "text": "$(thing)Капитан набега$() — это иллажер, появляющийся с $(l:rare/ominous_banner)$(item)зловещим знаменем$() на голове, обычно это $(l:creatures/human-pillager)$(thing)разбойник$() или $(l:creatures/human-vindicator)$(thing)мститель$(), либо редко $(l:creatures/human-evoker)$(thing)заклинатель$(). $(br2)$(thing)Капитаны набега$() ведут себя как обычные иллажеры, но другие иллажеры следуют за ними."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br) $(n)Drops:$()$(br) $(li)1 Ominous Banner $(li)1 Ominous Bottle $(li)default drops of each mob"
+      "text": "$(br) $(n)Добыча:$()$(br) $(li)1 зловещее знамя $(li)1 зловещая бутылочка $(li)стандартный дроп каждого моба"
     },
     {
       "type": "patchouli:image",
       "images": [
         "lexicon:textures/pictures/pillager_captain.png"
       ],
-      "text": "$(n)Spawning:$() Illager Patrol, Raid, $(l:world/structures#outpost)$(thing)Pillager Outpost$()",
-      "title": "Pillager Captain",
+      "text": "$(n)Появление:$() патруль иллажеров, набег, $(l:world/structures#outpost)$(thing)застава разбойников$()",
+      "title": "Капитан разбойников",
       "border": false
     },
     {
@@ -25,8 +25,8 @@
       "images": [
         "lexicon:textures/pictures/vindicator_captain.png"
       ],
-      "text": "$(n)Spawning:$() Raid",
-      "title": "Vindicator Captain",
+      "text": "$(n)Появление:$() набег",
+      "title": "Капитан мстителей",
       "border": false
     },
     {
@@ -34,8 +34,8 @@
       "images": [
         "lexicon:textures/pictures/evoker_captain.png"
       ],
-      "text": "$(n)Spawning:$() Raid (rare)",
-      "title": "Evoker Captain",
+      "text": "$(n)Появление:$() набег (редко)",
+      "title": "Капитан заклинателей",
       "border": false
     },
     {
@@ -43,8 +43,8 @@
       "images": [
         "lexicon:textures/pictures/illusioner_captain.png"
       ],
-      "text": "$(n)Spawning:$() only with $(l:commands)$(thing)Commands$() or $(l:modifications/mods)$(thing)Mods$()",
-      "title": "Illusioner Captain",
+      "text": "$(n)Появление:$() только через $(l:commands)$(thing)команды$() или $(l:modifications/mods)$(thing)моды$()",
+      "title": "Капитан иллюзионистов",
       "border": false
     }
   ]
