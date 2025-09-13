@@ -1,12 +1,12 @@
 {
-  "name": "Stonecutter",
+  "name": "Камнерез",
   "icon": "minecraft:stonecutter",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:stonecutter",
-      "text": "The $(item)Stonecutter$() is used to craft $(item)Stone$() and $(item)Copper$() related blocks in smaller and more precise quantities than crafting, and is more efficient than crafting for certain recipes. $(br2)It also serves as a $(l:creatures/human-villager#mason)$(thing)Stone Mason's$() job site block."
+      "text": "$(item)Камнерез$() используется для изготовления блоков из $(item)Камня$() и $(item)Меди$() в меньших и более точных количествах, чем при крафте, и для некоторых рецептов он эффективнее крафта. $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#mason)$(thing)Каменщика$()."
     },
     {
       "type": "patchouli:crafting",

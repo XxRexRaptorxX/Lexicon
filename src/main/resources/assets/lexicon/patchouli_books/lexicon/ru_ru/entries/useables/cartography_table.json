@@ -1,12 +1,12 @@
 {
-  "name": "Cartography Table",
+  "name": "Картографический стол",
   "icon": "minecraft:cartography_table",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:cartography_table",
-      "text": "A $(item)Cartography Table$() is a $(l:creatures/human-villager#cartographer)$(thing)Cartographer's$() job site block that generates in $(l:world/structures#village)$(thing)Villages$(). $(br2)It is used for cloning, zooming out and locking $(item)Maps$()."
+      "text": "$(item)Картографический стол$() — блок рабочего места $(l:creatures/human-villager#cartographer)$(thing)Картографа$(), который генерируется в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)Используется для копирования, уменьшения и блокировки $(item)Карт$()."
     },
     {
       "type": "patchouli:crafting",

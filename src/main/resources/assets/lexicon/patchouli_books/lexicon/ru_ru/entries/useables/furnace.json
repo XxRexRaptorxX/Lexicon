@@ -1,12 +1,12 @@
 {
-  "name": "Furnace",
+  "name": "Печь",
   "icon": "minecraft:furnace",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:furnace",
-      "text": "A $(item)Furnace$() is a utility block used for the smelting of blocks and items."
+      "text": "$(item)Печь$() — утилитарный блок, используемый для переплавки блоков и предметов."
     },
     {
       "type": "patchouli:crafting",

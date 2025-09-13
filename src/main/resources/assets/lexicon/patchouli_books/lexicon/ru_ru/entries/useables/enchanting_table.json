@@ -1,12 +1,12 @@
 {
-  "name": "Enchanting Table",
+  "name": "Стол зачарований",
   "icon": "minecraft:enchanting_table",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:enchanting_table",
-      "text": "An $(item)Enchanting Table$() is a block that allows $(l:creatures/human-player)$(thing)Players$() to spend their XP levels to enchant tools, weapons, books, armor, and certain other items."
+      "text": "$(item)Стол зачарований$() — блок, позволяющий $(l:creatures/human-player)$(thing)Игрокам$() тратить уровни опыта на зачарование инструментов, оружия, книг, брони и некоторых других предметов."
     },
     {
       "type": "patchouli:crafting",

@@ -1,12 +1,12 @@
 {
-  "name": "Trapped Chest",
+  "name": "Сундук-ловушка",
   "icon": "minecraft:trapped_chest",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:trapped_chest",
-      "text": "A $(item)Trapped Chest$() functions as a normal $(l:useables/chest)$(item)Chest$() for item storage, but it produces redstone power when opened. $(br2)It can be visually distinguished from normal $(l:useables/chest)$(item)Chests$() by a red coloration around the latch."
+      "text": "$(item)Сундук-ловушка$() работает как обычный $(l:useables/chest)$(item)Сундук$() для хранения предметов, но при открытии выдаёт редстоун-сигнал. $(br2)От обычных $(l:useables/chest)$(item)Сундуков$() его отличает красная окантовка вокруг защёлки."
     },
     {
       "type": "patchouli:crafting",

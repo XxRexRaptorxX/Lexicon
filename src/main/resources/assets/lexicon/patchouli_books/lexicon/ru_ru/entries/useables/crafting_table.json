@@ -1,12 +1,12 @@
 {
-  "name": "Crafting Table",
+  "name": "Верстак",
   "icon": "minecraft:crafting_table",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:crafting_table",
-      "text": "A $(item)Crafting Table$() is a utility block that allows the $(l:creatures/human-player)$(thing)Player$() to craft a variety of blocks and items. $(br2)It offers a 3x3 crafting grid."
+      "text": "$(item)Верстак$() — утилитарный блок, позволяющий $(l:creatures/human-player)$(thing)Игроку$() создавать различные блоки и предметы. $(br2)Предоставляет сетку крафта 3x3."
     },
     {
       "type": "patchouli:crafting",

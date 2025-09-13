@@ -1,12 +1,12 @@
 {
-  "name": "Blast Furnace",
+  "name": "Плавильная печь",
   "icon": "minecraft:blast_furnace",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:blast_furnace",
-      "text": "A $(item)Blast Furnace$() is a block that smelts ores, raw metals, metal armor and tools, similar to a $(l:useables/furnace)$(item)Furnace$(), but at twice the speed and fewer output. $(br2)It also serves as an $(l:creatures/human-villager#armorer)$(thing)Armorer's$() job site block."
+      "text": "$(item)Плавильная печь$() — блок, переплавляющий руды, необработанные металлы, металлическую броню и инструменты подобно $(l:useables/furnace)$(item)Печи$(), но вдвое быстрее и с меньшей отдачей. $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#armorer)$(thing)Бронника$()."
     },
     {
       "type": "patchouli:crafting",

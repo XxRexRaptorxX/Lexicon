@@ -1,18 +1,18 @@
 {
-  "name": "Jukebox",
+  "name": "Проигрыватель",
   "icon": "minecraft:jukebox",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:jukebox",
-      "text": "A $(l:useables/jukebox)$(item)Jukebox$() playing music from a $(l:rare/music_discs)$(item)Music Disc$() emits a level 15 signal, powering any adjacent $(l:redstone/redstone_components#redstone)$(item)Redstone Wires$(), $(l:redstone/redstone_components#repeater)$(item)Repeaters$(), and mechanism components. $(br2)The signal turns off when the music track ends or if the disc is removed before the track ends. $(br)If the $(l:creatures/human-player)$(thing)Player$() places a $(l:redstone/redstone_components#comparator)$(item)Comparator$() besides a $(item)Jukebox$(),"
+      "text": "$(l:useables/jukebox)$(item)Проигрыватель$(), воспроизводящий музыку с $(l:rare/music_discs)$(item)Музыкального диска$(), излучает сигнал силы 15, запитывая соседние $(l:redstone/redstone_components#redstone)$(item)Редстоун-провода$(), $(l:redstone/redstone_components#repeater)$(item)Повторители$() и другие механизмы. $(br2)Сигнал отключается, когда трек заканчивается или диск извлекают раньше. $(br)Если $(l:creatures/human-player)$(thing)Игрок$() поставит $(l:redstone/redstone_components#comparator)$(item)Компаратор$() рядом с $(item)Проигрывателем$(),"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "minecraft:jukebox",
       "title": " ",
-      "text": "the intensity of the redstone signal depends on the disc currently inserted. $(br2)The $(l:redstone/redstone_components#comparator)$(item)Comparator$() is powered as long as a disc is stored inside the $(item)Jukebox$(), even if it has stopped playing."
+        "text": "мощность редстоун-сигнала будет зависеть от вставленного диска. $(br2)$(l:redstone/redstone_components#comparator)$(item)Компаратор$() остаётся запитанным, пока внутри $(item)Проигрывателя$() находится диск, даже если он перестал играть."
     }
   ]
 }

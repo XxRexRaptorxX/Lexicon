@@ -1,12 +1,12 @@
 {
-  "name": "Composter",
+  "name": "Компостница",
   "icon": "minecraft:composter",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:composter",
-      "text": "A $(item)Composter$() is a block that converts some biological material into $(item)Bone Meal$(). $(br2)It also serves as a $(l:creatures/human-villager#farmer)$(thing)Farmer Villager's$() job site block."
+      "text": "$(item)Компостница$() — блок, преобразующий часть органического материала в $(item)Костную муку$(). $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#farmer)$(thing)Фермера$()."
     },
     {
       "type": "patchouli:crafting",

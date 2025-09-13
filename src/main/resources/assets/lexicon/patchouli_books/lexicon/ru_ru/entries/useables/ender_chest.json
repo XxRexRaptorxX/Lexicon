@@ -1,12 +1,12 @@
 {
-  "name": "Ender Chest",
+  "name": "Эндер-сундук",
   "icon": "minecraft:ender_chest",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:ender_chest",
-      "text": "$(item)Ender Chests$() are a type of $(l:useables/chest)$(item)Chest$() whose contents are exclusive to each $(l:creatures/human-player)$(thing)Player$(), and can be accessed from anywhere in the world."
+      "text": "$(item)Эндер-сундуки$() — разновидность $(l:useables/chest)$(item)Сундуков$(), содержимое которых уникально для каждого $(l:creatures/human-player)$(thing)Игрока$() и доступно из любой точки мира."
     },
     {
       "type": "patchouli:crafting",

@@ -1,12 +1,12 @@
 {
-  "name": "Grindstone",
+  "name": "Точило",
   "icon": "minecraft:grindstone",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:grindstone",
-      "text": "A $(item)Grindstone$() is a block that repairs items and tools as well as removing $(l:enchanting/enchantments)$(thing)Enchantments$() from them. $(br2)It also serves as a $(l:creatures/human-villager#weaponsmith)$(thing)Weaponsmith's$() job site block."
+      "text": "$(item)Точило$() — блок, который ремонтирует предметы и инструменты, а также снимает с них $(l:enchanting/enchantments)$(thing)Зачарования$(). $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#weaponsmith)$(thing)Оружейника$()."
     },
     {
       "type": "patchouli:crafting",

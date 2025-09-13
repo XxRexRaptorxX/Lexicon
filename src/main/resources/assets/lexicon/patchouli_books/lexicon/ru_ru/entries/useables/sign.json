@@ -1,17 +1,17 @@
 {
-  "name": "Sign",
+  "name": "Табличка",
   "icon": "minecraft:oak_sign",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:oak_sign",
-      "text": "A $(item)Sign$() is a non-solid block that displays text and can be placed on the top or side of other blocks. $(br2)A $(item)Hanging Sign$() is a decorative block that also displays text, and can be placed underneath blocks or with a solid self-supporting bracket. $(br2)They can be crafted from any type of wood."
+      "text": "$(item)Табличка$() — неполный блок, отображающий текст и устанавливаемый сверху или сбоку других блоков. $(br2)$(item)Подвесная табличка$() — декоративный блок, также отображающий текст, и может размещаться под блоками или на собственном кронштейне. $(br2)Их можно создать из любого вида древесины."
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:oak_hanging_sign",
-      "text": "$(item)Signs$() can be waxed by using a $(item)Honeycomb$() on it. Once waxed, it cannot be unwaxed or edited. $(br2)You can change the text color by using a $(item)Dye$() on it. $(br2)You can use a $(item)Glow Ink Sac$() to make its text glow. $(br2)You can use a regular $(item)Ink Sac$() to remove the glowing effect."
+      "text": "$(item)Таблички$() можно покрыть воском, применив к ним $(item)Пчелиные соты$(). После этого их нельзя очистить или изменить. $(br2)Цвет текста меняется при использовании $(item)Красителя$(). $(br2)$(item)Светящийся чернильный мешок$() заставляет текст светиться. $(br2)Обычный $(item)Чернильный мешок$() убирает эффект свечения."
     },
     {
       "type": "patchouli:crafting",

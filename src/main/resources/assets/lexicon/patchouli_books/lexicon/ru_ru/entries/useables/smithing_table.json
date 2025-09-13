@@ -1,12 +1,12 @@
 {
-  "name": "Smithing Table",
+  "name": "Кузнечный стол",
   "icon": "minecraft:smithing_table",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:smithing_table",
-      "text": "A $(item)Smithing Table$() is a $(l:creatures/human-villager#toolsmith)$(thing)Toolsmith's$() job site block that generates in $(l:world/structures#village)$(thing)Villages$(). $(br2)It can be used to upgrade $(item)Diamond$() gear into $(item)Netherite$() gear."
+      "text": "$(item)Кузнечный стол$() — блок рабочего места $(l:creatures/human-villager#toolsmith)$(thing)Инструментальщика$(), который генерируется в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)Его используют для улучшения $(item)Алмазного$() снаряжения до $(item)Незеритового$()."
     },
     {
       "type": "patchouli:crafting",

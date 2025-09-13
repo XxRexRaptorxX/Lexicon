@@ -1,12 +1,12 @@
 {
-  "name": "Bed",
+  "name": "Кровать",
   "icon": "minecraft:red_bed",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:white_bed",
-      "text": "A $(item)Bed$() is a block that allows a $(l:creatures/human-player)$(thing)Player$() to sleep and to reset their spawn point to within a few blocks of the $(item)Bed$() in the $(l:world/dimensions#overworld)$(thing)Overworld$(). $(br2)$(item)Beds$() are dyeable."
+      "text": "$(item)Кровать$() — блок, позволяющий $(l:creatures/human-player)$(thing)Игроку$() спать и изменять точку возрождения в нескольких блоках от $(item)Кровати$() в $(l:world/dimensions#overworld)$(thing)Верхнем мире$(). $(br2)$(item)Кровати$() можно окрашивать."
     },
     {
       "type": "patchouli:crafting",

@@ -1,12 +1,12 @@
 {
-  "name": "Respawn Anchor",
+  "name": "Якорь возрождения",
   "icon": "minecraft:respawn_anchor",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:respawn_anchor",
-      "text": "The $(item)Respawn Anchor$() is a block that allows $(l:creatures/human-player)$(thing)Players$() to set their spawn point in the $(l:world/dimensions#nether)$(thing)Nether$(). $(br2)The anchor must be charged with $(item)Glowstone$()."
+      "text": "$(item)Якорь возрождения$() — блок, позволяющий $(l:creatures/human-player)$(thing)Игрокам$() установить точку возрождения в $(l:world/dimensions#nether)$(thing)Незере$(). $(br2)Для работы якорь должен быть заряжен $(item)Светокамнем$()."
     },
     {
       "type": "patchouli:crafting",

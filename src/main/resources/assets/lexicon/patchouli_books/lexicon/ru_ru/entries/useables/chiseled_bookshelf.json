@@ -1,12 +1,12 @@
 {
-  "name": "Chiseled Bookshelf",
+  "name": "Резной книжный шкаф",
   "icon": "minecraft:chiseled_bookshelf",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:chiseled_bookshelf",
-      "text": "$(item)Chiseled Bookshelves$() can hold up to six $(item)Books$(), $(item)Books and Quills$(), $(item)Written Books$(), $(item)Enchanted Books$(), and/or other types of books."
+      "text": "$(item)Резные книжные шкафы$() могут хранить до шести $(item)Книг$(), $(item)Книг с пером$(), $(item)Записанных книг$(), $(item)Зачарованных книг$() и других видов книг."
     },
     {
       "type": "patchouli:crafting",
@@ -15,14 +15,14 @@
     },
     {
       "type": "patchouli:text",
-      "text": "A redstone $(l:redstone/redstone_components#comparator)$(item)Comparator$() sends a signal (1–6) indicating the last slot interacted with. $(br2)When no slot has been interacted with yet, it outputs 0. $(br2)An $(l:redstone/redstone_components#observer)$(item)Observer$() can detect when a $(item)Book$() is added or removed from the bookshelf."
+        "text": "Редстоуновый $(l:redstone/redstone_components#comparator)$(item)Компаратор$() посылает сигнал (1–6), указывающий на последний использованный слот. $(br2)Когда ни один слот ещё не использовался, он выдаёт 0. $(br2)$(l:redstone/redstone_components#observer)$(item)Наблюдатель$() может обнаружить, когда $(item)Книга$() добавляется или изымается из шкафа."
     },
     {
       "type": "patchouli:image",
       "images": [
         "lexicon:textures/pictures/chiseled_bookshelf_redstone.png"
       ],
-      "text": "The correspondences between slot and signal power.",
+        "text": "Соответствия между слотами и мощностью сигнала.",
       "border": false
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "name": "Loom",
+  "name": "Ткацкий станок",
   "icon": "minecraft:loom",
   "category": "lexicon:useable_blocks",
   "pages": [
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:loom",
-      "text": "A $(item)Loom$() is used to apply patterns on $(item)Banners$(). $(br2)It is also used as a $(l:creatures/human-villager#shepherd)$(thing)Shepherd's$() job site block that is found in $(l:world/structures#village)$(thing)Villages$()."
+      "text": "$(item)Ткацкий станок$() используется для нанесения узоров на $(item)Знамёна$(). $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#shepherd)$(thing)Пастуха$(), который встречается в $(l:world/structures#village)$(thing)Деревнях$()."
     },
     {
       "type": "patchouli:crafting",
