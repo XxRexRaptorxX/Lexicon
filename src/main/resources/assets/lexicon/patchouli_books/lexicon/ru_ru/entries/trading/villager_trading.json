@@ -1,17 +1,17 @@
 {
-  "name": "Villager Trading",
+  "name": "Торговля с жителями",
   "icon": "minecraft:emerald",
   "category": "lexicon:trading",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(li)There's 5 career levels that can be increased by trading. $(li)A full trading bar unlocks the next level of trades. $(li)Each profession has it's own offers. $(li)Professions are assigned to each $(l:creatures/human-villager)$(thing)Villager$() based on their job-site block. $(li)$(l:creatures/human-villager)$(thing)Villagers$() disable an offer after a few trades. But they activate their offers again, up to twice per day. $(li)They can have a maximum of 10 trades. Each level unlocks a maximum of 2 trades."
+      "text": "$(li)Всего есть 5 уровней профессии, которые повышаются торговлей. $(li)Заполненная шкала торговли открывает следующий уровень сделок. $(li)У каждой профессии свои предложения. $(li)Профессии присваиваются $(l:creatures/human-villager)$(thing)жителям$() в зависимости от их рабочего блока. $(li)$(l:creatures/human-villager)$(thing)Жители$() отключают предложение после нескольких обменов, но активируют его снова до двух раз в день. $(li)Максимум у них может быть 10 сделок. Каждый уровень открывает максимум 2 сделки."
     },
     {
       "type": "patchouli:text",
-      "title": "Economic",
-      "text": "$(li)An sold out item gets a price increase when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time it resupplies. $(li)The $(l:brewing/effects#village_hero)$(thing)Hero of the Village effect$() temporarily reduces prices for the affected $(l:creatures/human-player)$(thing)Player$(). $(li)All price fluctuations affect only the first item involved in trade. $(li)A positive reputation is gained by curing $(l:creatures/undead-zombie_villager)$(thing)Zombie Villagers$(). $(br2)To cure a $(l:creatures/undead-zombie_villager)$(thing)Zombie Villager$(), splash it with a $(l:brewing/brewing)$(item)Splash Potion of Weakness$() and then feed it a $(l:rare/golden_apple)$(item)Golden Apple$()."
+      "title": "Экономика",
+      "text": "$(li)Распроданный предмет при пополнении получает повышение цены. Если игрок не торгует по повышенной цене, при следующем пополнении цена уменьшится. $(li)Эффект $(l:brewing/effects#village_hero)$(thing)Герой деревни$() временно снижает цены для затронутого $(l:creatures/human-player)$(thing)игрока$(). $(li)Все колебания цен влияют только на первый предмет в сделке. $(li)Положительная репутация получается при лечении $(l:creatures/undead-zombie_villager)$(thing)зомби-жителей$(). $(br2)Чтобы вылечить $(l:creatures/undead-zombie_villager)$(thing)зомби-жителя$(), окатите его $(l:brewing/brewing)$(item)взрывным зельем слабости$() и затем накормите $(l:rare/golden_apple)$(item)золотым яблоком$()."
     },
     {
       "type": "patchouli:image",
@@ -20,12 +20,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/blast_furnace)$(item)Blast Furnace$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/blast_furnace)$(item)Доменная печь$()"
     },
     {
       "type": "patchouli:image",
@@ -34,12 +33,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/smoker)$(item)Smoker$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/smoker)$(item)Коптильня$()"
     },
     {
       "type": "patchouli:image",
@@ -48,12 +46,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/cartography_table)$(item)Cartography Table$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/cartography_table)$(item)Стол картографа$()"
     },
     {
       "type": "patchouli:image",
@@ -62,12 +59,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/barrel)$(item)Barrel$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/barrel)$(item)Бочка$()"
     },
     {
       "type": "patchouli:image",
@@ -76,12 +72,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/fletching_table)$(item)Fletching Table$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/fletching_table)$(item)Стол лучника$()"
     },
     {
       "type": "patchouli:image",
@@ -90,12 +85,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:brewing/ingredients_equipments)$(item)Cauldron$()"
+      "text": "$(n)Рабочий блок:$() $(l:brewing/ingredients_equipments)$(item)Котёл$()"
     },
     {
       "type": "patchouli:image",
@@ -104,12 +98,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/lectern)$(item)Lectern$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/lectern)$(item)Кафедра$()"
     },
     {
       "type": "patchouli:image",
@@ -118,12 +111,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:mason}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/stonecutter)$(item)Stonecutter$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/stonecutter)$(item)Камнерез$()"
     },
     {
       "type": "patchouli:image",
@@ -132,12 +124,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/loom)$(item)Loom$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/loom)$(item)Ткацкий станок$()"
     },
     {
       "type": "patchouli:image",
@@ -146,12 +137,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/brewing_stand)$(item)Brewing Stand$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/brewing_stand)$(item)Варочная стойка$()"
     },
     {
       "type": "patchouli:image",
@@ -160,12 +150,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/composter)$(item)Composter$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/composter)$(item)Компостер$()"
     },
     {
       "type": "patchouli:image",
@@ -174,12 +163,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/smithing_table)$(item)Smithing Table$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/smithing_table)$(item)Стол кузнеца$()"
     },
     {
       "type": "patchouli:image",
@@ -188,12 +176,11 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() $(l:useables/grindstone)$(item)Grindstone$()"
+      "text": "$(n)Рабочий блок:$() $(l:useables/grindstone)$(item)Точило$()"
     },
     {
       "type": "patchouli:image",
@@ -202,18 +189,17 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",
       "scale": "1.0",
-      "text": "$(n)Job site block:$() -"
+      "text": "$(n)Рабочий блок:$() -"
     },
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager",
       "scale": "1.0",
-      "text": "Villager without job site block"
+      "text": "Житель без рабочего блока"
     }
   ]
 }

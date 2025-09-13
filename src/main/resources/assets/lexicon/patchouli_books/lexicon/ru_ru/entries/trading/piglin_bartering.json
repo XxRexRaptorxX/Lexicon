@@ -1,12 +1,12 @@
 {
-  "name": "Piglin Bartering",
+  "name": "Бартер с пиглинами",
   "icon": "minecraft:gold_ingot",
   "category": "lexicon:trading",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "To barter with a $(l:creatures/monster-piglin)$(thing)Piglin$(), either throw by dropping a $(item)Gold Ingot$() near an adult $(l:creatures/monster-piglin)$(thing)Piglin$() or using it on it. After the $(l:creatures/monster-piglin)$(thing)Piglin$() takes the ingot and examines it for 6 seconds, it tosses a random item to the $(l:creatures/human-player)$(thing)Player$(). $(br2)$(l:creatures/monster-piglin_brute)$(thing)Piglin Brutes$() ignore gold. $(br)$(l:creatures/monster-piglin)$(thing)Baby Piglins$() take the ingot without giving anything in return, instead holding the ingot."
+      "text": "Чтобы обменяться с $(l:creatures/monster-piglin)$(thing)пиглином$(), бросьте рядом со взрослым $(l:creatures/monster-piglin)$(thing)пиглином$() $(item)золотой слиток$() или используйте его на нём. После того как $(l:creatures/monster-piglin)$(thing)пиглин$() возьмёт слиток и рассмотрит его 6 секунд, он бросит случайный предмет $(l:creatures/human-player)$(thing)игроку$(). $(br2)$(l:creatures/monster-piglin_brute)$(thing)брутальные пиглины$() игнорируют золото. $(br)$(l:creatures/monster-piglin)$(thing)детёныши пиглинов$() забирают слиток, ничего не отдавая взамен, просто держат его."
     },
     {
       "type": "patchouli:image",

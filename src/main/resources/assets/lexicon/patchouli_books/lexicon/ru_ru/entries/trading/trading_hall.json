@@ -1,12 +1,12 @@
 {
-  "name": "Trading Hall",
+  "name": "Торговый зал",
   "icon": "minecraft:lectern",
   "category": "lexicon:trading",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Villager trading halls maximize the number of $(l:creatures/human-villager)$(thing)Villagers$() that can be easily reached. $(br2)You can easily change the jobs and thus the trades of the $(l:creatures/human-villager)$(thing)Villagers$() with the job site blocks."
+      "text": "Торговые залы с жителями увеличивают количество $(l:creatures/human-villager)$(thing)жителей$(), к которым легко добраться. $(br2)Вы можете легко менять их профессии и, соответственно, сделки, используя рабочие блоки."
     },
     {
       "type": "patchouli:image",
@@ -188,12 +188,12 @@
           "j": "minecraft:cobblestone_wall[east=none,north=low,south=none,west=low,up=true]"
         }
       },
-      "name": "Trading Hall",
-      "text": "$(n)Tip:$() Place the $(item)Strings$() for the $(l:redstone/redstone_components#tripwire)$(item)Tripwires$() last, so that the $(l:redstone/redstone_components#piston)$(item)Pistons$() behave correctly."
+      "name": "Торговый зал",
+      "text": "$(n)Совет:$() Размещайте $(item)нити$() для $(l:redstone/redstone_components#tripwire)$(item)растяжек$() в последнюю очередь, чтобы $(l:redstone/redstone_components#piston)$(item)поршни$() работали корректно."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br)If the trades don't fit with a $(l:creatures/human-villager)$(thing)Villager$(), you simply have to remove the job site block, wait and place a new one. $(br2)You can also choose the job site blocks freely, depending on which profession you want to have."
+      "text": "$(br)Если сделки $(l:creatures/human-villager)$(thing)жителя$() не подходят, просто уберите его рабочий блок, подождите и поставьте новый. $(br2)Вы также можете свободно выбирать рабочие блоки в зависимости от желаемой профессии."
     }
   ]
 }
