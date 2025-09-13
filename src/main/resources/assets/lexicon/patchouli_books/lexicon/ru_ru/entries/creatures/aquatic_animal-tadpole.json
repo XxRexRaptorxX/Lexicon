@@ -1,0 +1,17 @@
+{
+  "name": "Водное животное - Головастик",
+  "icon": "minecraft:tadpole_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 6 $(br)> $(n)Урон:$() 0 $(br)> $(n)Поведение:$() Пассивное $(br)> $(n)Места появления:$() из лягушачьей икры $(br)> $(n)Свойства:$() $(br)$(thing)Головастики$() следуют за $(l:creatures/human-player)$(thing)игроком$(), держащим $(item)Слизь$().$(br2)$(thing)Головастики$() вырастают в один из вариантов $(l:creatures/aquatic_animal-frog)$(thing)лягушки$() в зависимости от биома. $(br2)Их рост можно ускорить, кормя их $(item)Слизью$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tadpole",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() - $(br)$(n)Опыт:$() 0"
+    }
+  ]
+}

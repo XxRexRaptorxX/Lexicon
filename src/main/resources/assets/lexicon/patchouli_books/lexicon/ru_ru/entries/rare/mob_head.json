@@ -1,0 +1,27 @@
+{
+  "name": "Mob Heads",
+  "icon": "minecraft:creeper_head",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "text": "A $(l:creatures/undead-wither_skeleton)$(thing)Wither Skeleton$() has a 2.5% chance of dropping a $(item)Wither Skeleton Skull$() when killed by a $(l:creatures/human-player)$(thing)Player$(). $(br2)The chance is increased by 1% per level of $(l:enchanting/enchantments#looting)$(thing)Looting$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:creeper_head",
+      "text": "$(l:creatures/undead-skeleton)$(thing)Skeleton$(), $(l:creatures/undead-wither_skeleton)$(thing)Wither Skeleton$(), $(l:creatures/undead-zombie)$(thing)Zombie$(), $(l:creatures/monster-piglin)$(thing)Piglins$() and $(l:creatures/monster-creeper)$(thing)Creeper$() $(item)-Heads$() are also always dropped by the respective mob if it dies due to a $(l:creatures/monster-creeper)$(thing)Charged Creeper's$() explosion. $(br2)Wearing the corresponding mob head reduces the detection range to 50% of the normal range."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_head",
+      "text": "$(item)Dragon Heads$() generate on $(l:world/structures#end_ship)$(thing)End Ships$() found in $(l:world/structures#end_city)$(thing)End Cities$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:player_head",
+      "text": "$(item)Player Heads$() have an extra usage for map makers, they can be given $(l:commands/nbt-data)$(thing)NBT Data$() so that they appear with the skin of any Minecraft account. But they cannot be reached in survival by default. $(br2)To get this heads, use this $(l:commands)$(thing)Command$(): $(n)/give @p minecraft:player_head{SkullOwner:$(o)ACCOUNT_NAME$()$(n)}$()"
+    }
+  ]
+}

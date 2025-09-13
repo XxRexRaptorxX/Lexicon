@@ -1,0 +1,85 @@
+{
+  "name": "Поведение редстоуна",
+  "icon": "minecraft:redstone",
+  "category": "lexicon:redstone",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:redstone/redstone_components#redstone)$(item)Редстоун-провод$() может передавать энергию, которая используется для приведения в действие механизмов (дверей, поршней и т.д.). $(br2)Уровень сигнала падает на 1 за каждый блок $(l:redstone/redstone_components#redstone)$(item)редстоун-провода$(), через который он проходит. $(br2)Таким образом, провод может передавать силу не более чем на $(n)15 блоков$(). $(br)Чтобы идти дальше, уровень сигнала нужно усилить — обычно с помощью $(l:redstone/redstone_components#repeater)$(item)повторителя$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_wires.png",
+        "lexicon:textures/pictures/redstone_wire_length.png"
+      ],
+      "border": true,
+      "text": "Примеры конфигураций редстоун-проводов."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_1.png"
+      ],
+      "border": false,
+      "text": "На следующих страницах показано, как различные компоненты редстоуна передают свои сигналы."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_2.png"
+      ],
+      "border": false,
+      "text": "Настенный рычаг"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_3.png"
+      ],
+      "border": false,
+      "text": "Редстоун-провода"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_4.png"
+      ],
+      "border": false,
+      "text": "Повторитель к стене"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_5.png"
+      ],
+      "border": false,
+      "text": "Стоящий факел"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_6.png"
+      ],
+      "border": false,
+      "text": "Настенный факел"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_7.png"
+      ],
+      "border": false,
+      "text": "Настенный рычаг"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/redstone_behavior_8.png"
+      ],
+      "border": false,
+      "text": "Редстоун-факелы меняют состояние при подаче сигнала."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Подозрительный песок/гравий",
+  "icon": "minecraft:suspicious_sand",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:suspicious_sand",
+      "text": "Подозрительные блоки — хрупкие гравитационные блоки, встречающиеся в различных $(l:world/structures)$(thing)структурах$() Верхнего мира. $(br2)Их можно очищать кистью, чтобы получить добычу, зависящую от структуры, и это единственный источник $(l:rare/pottery_sherds)$(item)черепков керамики$(). $(br2)При разрушении подозрительные блоки ничего не дают."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "gravel",
+      "item": "minecraft:suspicious_gravel",
+      "text": "$(item)Подозрительный песок$() естественным образом встречается в погребённых комнатах под $(l:world/structures#pyramid)$(thing)пустынными пирамидами$(), на дне $(l:world/structures#well)$(thing)пустынных колодцев$() и в $(l:world/structures#ruin)$(thing)тёплых океанических руинах$(). $(br2)$(item)Подозрительный гравий$() встречается в $(l:world/structures#ruin)$(thing)холодных океанических руинах$() и $(l:world/structures#trail_ruin)$(thing)тропах руин$()."
+    }
+  ]
+}

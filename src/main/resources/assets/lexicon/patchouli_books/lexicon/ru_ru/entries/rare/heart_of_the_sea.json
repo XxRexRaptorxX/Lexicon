@@ -1,0 +1,18 @@
+{
+  "name": "Сердце моря",
+  "icon": "minecraft:heart_of_the_sea",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:heart_of_the_sea",
+      "text": "$(item)Сердце моря$() можно получить из $(l:world/structures#treasure)$(thing)зарытого сокровища$(). $(br2)Его местоположение отмечено заметной красной $(l)X$() на $(item)карте сокровищ$(), которую можно найти в $(l:world/structures#ruin)$(thing)океанических руинах$() и $(l:world/structures#shipwreck)$(thing)кораблекрушениях$(). $(br2)Если накормить $(item)сырой треской$() или $(item)сырым лососем$() $(l:creatures/aquatic_animal-dolphin)$(thing)дельфина$(), он поплывёт к ближайшей структуре."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:conduit",
+      "title": " ",
+      "text": "$(br)Сердце используется для создания $(l:rare/conduit)$(item)морского источника$()."
+    }
+  ]
+}

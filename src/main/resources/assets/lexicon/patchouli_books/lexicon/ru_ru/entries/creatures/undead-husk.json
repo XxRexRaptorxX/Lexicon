@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Кадавр",
+  "icon": "minecraft:husk_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 20 + 2 брони  $(br)> $(n)Урон атаки:$() $(br)2.5 на лёгком, 3 + голод на нормальном, 4.5 + голод на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Пустыня    $(br)> $(n)Особенности:$() $(br)$(thing)Кадавр$() — разновидность $(l:creatures/undead-zombie)$(thing)Зомби$(), которая появляется в пустынях. В отличие от $(l:creatures/undead-zombie)$(thing)Зомби$() они не горят на солнце. Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:husk",
+      "scale": "1.0",
+      "text": "$(n)Добыча:$() 0-2 гнилой плоти, экипировка, 2.5% шанс на железный слиток, 2.5% шанс на морковь, 2.5% шанс на картофель $(br)$(n)Опыт:$() взрослый 5-17, детёныш 12"
+    }
+  ]
+}

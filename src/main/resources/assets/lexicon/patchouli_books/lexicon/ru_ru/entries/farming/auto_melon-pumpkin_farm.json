@@ -1,0 +1,23 @@
+{
+  "name": "Автоматическая ферма арбузов/тыкв",
+  "icon": "minecraft:melon_slice",
+  "category": "lexicon:farming",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта ферма будет автоматически собирать для вас $(item)Арбузы$() или $(item)Тыквы$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_melon_farm_1.png",
+        "lexicon:textures/pictures/auto_melon_farm_2.png",
+        "lexicon:textures/pictures/auto_melon_farm_3.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно расширять в ширину."
+    }
+  ]
+}
+

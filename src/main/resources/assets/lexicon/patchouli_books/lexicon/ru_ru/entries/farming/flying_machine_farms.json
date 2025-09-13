@@ -1,0 +1,23 @@
+{
+  "name": "Фермы с летающими машинами",
+  "icon": "minecraft:slime_block",
+  "category": "lexicon:farming",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если нужно обрабатывать большие площади, лучше всего использовать $(l:redstone/flying_machines)$(thing)Летающую машину$(). $(br2)Их можно применять для различных ферм, например $(item)Бамбука$(), $(item)Сахарного тростника$(), $(item)Кактуса$(), $(item)Ламинарии$(), ..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_1.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_2.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_3.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_4.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Зельеварение",
+  "description": "Зельеварение — это процесс создания $(l:brewing/potion_types#potion)$(item)Зелий$(), $(l:brewing/potion_types#splash_potion)$(item)Взрывных зелий$() и $(l:brewing/potion_types#lingering_potion)$(item)Туманных зелий$() путём добавления различных ингредиентов к $(item)Бутылкам с водой$() в $(l:useables/brewing_stand)$(item)Зельеварочной стойке$().",
+  "icon": "minecraft:brewing_stand",
+  "sortnum": 17
+}

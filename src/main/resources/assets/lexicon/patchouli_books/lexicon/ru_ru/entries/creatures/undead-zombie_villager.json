@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Зомби-житель",
+  "icon": "minecraft:zombie_villager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 20  $(br)> $(n)Урон атаки:$() $(br)2.5 на лёгком, 3 на нормальном, 4.5 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Когда $(l:creatures/human-villager)$(thing)Житель$() убит $(l:creatures/undead-zombie)$(thing)Зомби$() (50% на нормальном, 100% на сложном) $(br)> $(n)Особенности:$()$(thing)Зомби-жители$() могут быть излечены, если сначала дать им эффект $(l:brewing/effects#weakness)$(thing)Слабости$(), а затем использовать обычное $(l:rare/golden_apple)$(item)Золотое яблоко$(). Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie_villager",
+      "scale": "1.0",
+      "text": "$(n)Добыча:$() 0-2 гнилой плоти, 2.5% шанс на железный слиток / морковь / картофель / печёный картофель при смерти в огне, 1 $(l:rare/mob_heads)$(item)Голова зомби$() при убийстве $(l:tips/lightning)$(thing)Заряженным крипером$() $(br)$(n)Опыт:$() взрослые 5-17, детёныш 12-24"
+    }
+  ]
+}

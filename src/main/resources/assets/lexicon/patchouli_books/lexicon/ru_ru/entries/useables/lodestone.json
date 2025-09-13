@@ -1,0 +1,17 @@
+{
+  "name": "Магнетит",
+  "icon": "minecraft:lodestone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lodestone",
+      "text": "$(item)Магнетит$() — блок, позволяющий перенастроить $(item)Компас$(), чтобы он указывал на него. $(br2)Его можно использовать во всех трёх измерениях."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lodestone",
+      "title": " "
+    }
+  ]
+}

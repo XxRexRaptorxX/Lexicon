@@ -1,0 +1,49 @@
+{
+  "name": "Миф - Иссушающий шторм",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() ?  $(br)> $(n)Урон атаки:$() ? $(br)> $(n)Поведение:$() Очень враждебный     $(br)> $(n)Появление:$() Неизвестно    $(br)> $(n)Особенности:$() $(br)$(thing)Иссушающий шторм$() — более разрушительная версия $(l:creatures/boss-wither)$(thing)Иссушителя$(). $(br)Он втягивает блоки и мобов, становясь больше и сильнее. $(br)В конце концов он превращается в огромного монстра с 5 щупальцами и тремя головами, которые могут излучать притягивающий луч!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wither_storm.png"
+      ],
+      "border": false,
+      "text": "$(n)Добыча:$() ?  $(br)$(n)Опыт:$() ?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wither_storms.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "OOO"
+          ],
+          [
+            "XYX"
+          ],
+          [
+            " X0"
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:wither_skeleton_skull[rotation=4]",
+          "X": "minecraft:soul_sand",
+          "Y": "minecraft:command_block[facing=down]"
+        }
+      },
+      "text": "Легенды гласят, что эта структура создаёт $(thing)Иссушающий шторм$()."
+    }
+
+  ]
+}

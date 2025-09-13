@@ -1,0 +1,17 @@
+{
+  "name": "Сундук-ловушка",
+  "icon": "minecraft:trapped_chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "$(item)Сундук-ловушка$() работает как обычный $(l:useables/chest)$(item)Сундук$() для хранения предметов, но при открытии выдаёт редстоун-сигнал. $(br2)От обычных $(l:useables/chest)$(item)Сундуков$() его отличает красная окантовка вокруг защёлки."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Якорь возрождения",
+  "icon": "minecraft:respawn_anchor",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:respawn_anchor",
+      "text": "$(item)Якорь возрождения$() — блок, позволяющий $(l:creatures/human-player)$(thing)Игрокам$() установить точку возрождения в $(l:world/dimensions#nether)$(thing)Незере$(). $(br2)Для работы якорь должен быть заряжен $(item)Светокамнем$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crying_obsidian",
+      "recipe2": "minecraft:respawn_anchor",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Кровать",
+  "icon": "minecraft:red_bed",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:white_bed",
+      "text": "$(item)Кровать$() — блок, позволяющий $(l:creatures/human-player)$(thing)Игроку$() спать и изменять точку возрождения в нескольких блоках от $(item)Кровати$() в $(l:world/dimensions#overworld)$(thing)Верхнем мире$(). $(br2)$(item)Кровати$() можно окрашивать."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_bed",
+      "recipe2": "minecraft:purple_bed_from_white_bed",
+      "title": " "
+    }
+  ]
+}

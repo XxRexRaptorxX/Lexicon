@@ -1,0 +1,17 @@
+{
+  "name": "Улей",
+  "icon": "minecraft:beehive",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:beehive",
+      "text": "Каждый раз, когда $(l:creatures/arthropod-bee)$(thing)Пчела$() с пыльцой входит в гнездо или улей, она начинает превращать её в $(item)Мёд$() и $(item)Пчелиные соты$(). $(br2)Когда улей наполнен, на нём появляется капающий мёд. $(br2)Чтобы собрать $(item)Мёд$(), $(l:creatures/human-player)$(thing)Игрок$() использует на улье $(item)Стеклянную бутылочку$(). $(br)Чтобы собрать $(item)Пчелиные соты$(), $(l:creatures/human-player)$(thing)Игрок$() использует $(item)Ножницы$() на гнезде или улье."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beehive",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ферма сдавливания сущностей",
+  "icon": "minecraft:beef",
+  "category": "lexicon:farming",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Некоторые фермы, которые я бы назвал немного читерскими, \"эксплуатируют\" игровые механики, не предназначенные для этого. $(br2)Первый вариант — использовать $(thing)Сдавливание сущностей$() для убийства мобов из ниоткуда. $(br)$(li)Сдавливание сущностей было добавлено для предотвращения лагов: если слишком много сущностей в одной точке, самая старая будет убита. $(br)$(li)Максимальное число по умолчанию — $(thing)24$(). Но его можно изменить командой: $(thing)/gamerule maxEntityCramming [number]$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/entity_cramming_farm_1.png",
+        "lexicon:textures/pictures/entity_cramming_farm_2.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

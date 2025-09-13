@@ -1,0 +1,15 @@
+{
+  "name": "Безопасное падение",
+  "icon": "minecraft:slime_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Есть несколько способов избежать урона от падения:$() $(br)$(li)Некоторые блоки уменьшают урон: $(item)Hay Balls$(), $(item)Slime Blocks$(), $(item)Honey Blocks$(), $(l:useables/bed)$(item)Beds$(), $(item)Cobwebs$(), $(item)Powdered Snow$(), ... $(br)$(li)Приземление в $(item)Water$() полностью предотвращает урон. Если падаете с высоты, быстро вылейте $(item)Water Bucket$() на блок, куда упадёте, чтобы $(item)Water$() смягчила падение."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)$(li)$(item)Boats$() полностью устраняют урон от падения для себя и $(l:creatures/human-player)$(thing)Players$()/$(thing)Mobs$() внутри, что полезно при путешествиях по $(thing)Mountains$() или в $(l:world/dimensions#nether)$(thing)Nether$(). $(br)$(li)$(item)Boots$() с зачарованием $(l:enchanting/enchantments#feather_falling)$(thing)Feather Falling$(). $(br)$(li)$(l:brewing/brewing)$(item)Potions of Slow Falling$()"
+    }
+  ]
+}

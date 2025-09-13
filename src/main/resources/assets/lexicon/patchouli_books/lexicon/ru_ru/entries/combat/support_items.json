@@ -1,0 +1,19 @@
+{
+  "name": "Вспомогательные предметы",
+  "icon": "minecraft:shield",
+  "category": "lexicon:combat",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Помимо оружия, вам также нужны другие предметы, чтобы облегчить жизнь в интенсивных боях: $(br)$(li)Еда$(li)Броня $(li)Щит $(li)$(l:brewing/brewing#potions)Зелья$() $(li)Жемчуг Края $(li)$(l:rare/totem_of_undying)Тотем бессмертия$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/combat_equipment.png"
+      ],
+      "border": false
+    }
+  ]
+}

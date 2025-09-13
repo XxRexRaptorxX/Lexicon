@@ -1,0 +1,17 @@
+{
+  "name": "Шалкеровый ящик",
+  "icon": "minecraft:shulker_box",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:shulker_box",
+      "text": "$(item)Шалкеровые ящики$() — переносные $(l:useables/chest)$(item)Сундуки$(): при разрушении они сохраняют своё содержимое, которое можно получить после установки. $(br2)Это отличает их от других контейнеров, выбрасывающих содержимое в виде предметов при разрушении."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:shulker_box",
+      "title": " "
+    }
+  ]
+}

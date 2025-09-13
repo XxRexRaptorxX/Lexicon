@@ -1,0 +1,17 @@
+{
+  "name": "Плавильная печь",
+  "icon": "minecraft:blast_furnace",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:blast_furnace",
+      "text": "$(item)Плавильная печь$() — блок, переплавляющий руды, необработанные металлы, металлическую броню и инструменты подобно $(l:useables/furnace)$(item)Печи$(), но вдвое быстрее и с меньшей отдачей. $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#armorer)$(thing)Бронника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blast_furnace",
+      "title": " "
+    }
+  ]
+}

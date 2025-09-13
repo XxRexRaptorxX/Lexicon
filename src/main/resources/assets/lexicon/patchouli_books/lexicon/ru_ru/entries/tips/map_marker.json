@@ -1,0 +1,30 @@
+{
+  "name": "Метка на карте",
+  "icon": "minecraft:filled_map",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(item)Map$() на $(item)Banner$() ставит на карту маркер положения знамени, повторное использование удаляет маркер. $(br2)Маркер имеет тот же цвет, что и знамя. $(br2)Маркер удаляется, если знамя разрушено, если только карту не заперли на $(l:useables/cartography_table)$(item)Cartography Table$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/map_marker.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:map",
+      "recipe2": "minecraft:cartography_table",
+      "text": "$(br)Если знамя переименовано, имя появится под маркером."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_banner",
+      "recipe2": "minecraft:red_banner",
+      "text": "$(item)Banners$() могут быть разных цветов."
+    }
+  ]
+}

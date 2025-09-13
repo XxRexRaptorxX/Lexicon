@@ -1,0 +1,17 @@
+{
+  "name": "Стол лучника",
+  "icon": "minecraft:fletching_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:fletching_table",
+      "text": "$(item)Стол лучника$() — блок рабочего места $(l:creatures/human-villager#fletcher)$(thing)Лучника$(), который может сгенерироваться в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)$(item)Стол лучника$() используется, чтобы превратить безработного $(l:creatures/human-villager)$(thing)Жителя$() в $(l:creatures/human-villager#fletcher)$(thing)Лучника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fletching_table",
+      "title": " "
+    }
+  ]
+}

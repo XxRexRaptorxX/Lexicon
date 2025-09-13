@@ -1,0 +1,17 @@
+{
+  "name": "Яйцо нюхача",
+  "icon": "minecraft:sniffer_egg",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:sniffer_egg",
+      "text": "$(item)Яйцо нюхача$() — блок, который можно вычистить из $(l:rare/suspicious_sand)$(item)подозрительного песка$() в $(l:world/structures#ruin)$(thing)тёплых океанических руинах$() или получить, разводя двух $(l:creatures/animal-sniffer)$(thing)нюхачей$(). $(br2)Будучи размещённым как блок, оно медленно вылупляется в $(l:creatures/animal-sniffer)$(thing)нюхлёнка$(), причём на $(item)блоке мха$() этот процесс идёт вдвое быстрее."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:sniffer",
+      "scale": "0.5"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "name": "Компоненты редстоуна",
+  "icon": "minecraft:redstone_torch",
+  "category": "lexicon:redstone",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Разные категории:$() $(br)$(li)$(n)Источник питания$() передаёт энергию другим частям цепи [напр., $(item)редстоун-факел$()] $(br)$(li)$(n)Передающий компонент$() переносит энергию из одной части цепи в другую [напр., $(item)редстоун-пыль$()] $(br)$(li)$(n)Механизм$() воздействует на окружающую среду (движением, светом и т.п.) [напр., $(item)поршень$()]"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone",
+      "anchor": "redstone",
+      "text": "$(item)Редстоун-пыль$() — основа редстоун-механики. $(br2)Добывается из $(item)редстоуновой руды$(), пыль можно размещать, чтобы формировать редстоун-провода для передачи сигналов или использовать в рецептах других устройств."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_torch",
+      "anchor": "torch",
+      "text": "$(item)Редстоун-факелы$() могут питать блоки и передающие компоненты вроде $(item)редстоун-пыли$(), активировать механизмы такие как $(l:redstone/redstone_components#piston)$(item)поршни$() или инвертировать сигналы как $(l:redstone/redstone_circuits)$(thing)инвертор$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_torch",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_block",
+      "text": "$(item)Блок редстоуна$() служит постоянным источником редстоун-сигнала, который можно толкать $(l:redstone/redstone_components#piston)$(item)поршнями$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_block",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:repeater",
+      "anchor": "repeater",
+      "text": "$(item)Повторитель$() — блок, используемый в редстоун-цепях для восстановления силы сигнала, задержки, предотвращения обратного распространения или фиксации сигнала в одном состоянии. $(br)$(li)Передаёт сигнал только с тыльной стороны на лицевую $(br)$(li)Может повторять редстоун-сигнал, усиливая его"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:repeater",
+      "title": " ",
+      "text": "$(li)$(item)Повторитель$() задерживает сигналы; задержку можно изменить щёлчком правой кнопкой $(br)$(li)Повторитель можно заблокировать другим запитанным $(item)повторителем$() или $(item)компаратором$(), направленным в его бок. В заблокированном состоянии повторитель не меняет выходной сигнал"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:comparator",
+      "anchor": "comparator",
+      "text": "$(item)Компаратор$() поддерживает, сравнивает или вычитает силу сигнала, а также измеряет некоторые состояния блоков. $(li)Задние факелы загораются, когда выход больше нуля. $(li)Передний факел имеет два состояния, переключаемые: $(br)> опущен и не запитан (режим $(n)сравнения$()) $(br)> поднят и запитан (режим $(n)вычитания$())"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:comparator",
+      "title": " ",
+      "text": "$(li)Может принимать силу сигнала сзади, а также с обеих сторон. $(br)$(li)Боковые входы принимаются только от $(item)редстоун-пыли$(), $(item)блока редстоуна$(), $(item)повторителей$(), других $(item)компараторов$() и $(item)наблюдателей$() в определённых ситуациях. $(br)Передняя сторона — это выход."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_button",
+      "text": "При активации $(item)деревянная кнопка$() остаётся активной 15 редстоун-тиков (1,5 с без лагов), а $(item)каменная кнопка$() — 10 редстоун-тиков (1 с без лагов). $(br2)$(item)Деревянная кнопка$(), активированная выпущенной $(item)стрелой$() или $(item)трезубцем$(), остаётся активной, пока снаряд не исчезнет или не будет поднят."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_button",
+      "recipe2": "minecraft:oak_button",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lever",
+      "anchor": "lever",
+      "text": "$(item)Рычаг$() выдаёт редстоун-сигнал при активации."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lever",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:stone_pressure_plate",
+      "anchor": "pressure_plate",
+      "title": "Pressure Plates",
+      "text": "$(li)$(item)Деревянные плиты$() обнаруживают все сущности и выдают сигнал силы 15 $(br)$(li)$(item)Каменные плиты$() обнаруживают только $(l:creatures/human-player)$(thing)игроков$() и $(l:creatures)$(thing)мобов$(), выдавая сигнал силы 15 $(br)$(li)$(item)Лёгкие взвешенные плиты$() реагируют на всех сущностей, и сила сигнала увеличивается с их количеством $(br)$(li)$(item)Тяжёлые взвешенные плиты$() измеряют группы по 10 сущностей"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_pressure_plate",
+      "recipe2": "minecraft:heavy_weighted_pressure_plate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:tripwire_hook",
+      "anchor": "tripwire",
+      "text": "$(item)Крюк-растяжка$() позволяет обнаруживать $(l:creatures)$(thing)мобов$(), $(thing)предметы$() и другие $(thing)сущности$() на большой площади. $(br2)Чтобы использовать его, разместите два крюка напротив друг друга на стенах и соедините их $(item)нитями$(); когда сущность касается нити, крюки излучают сигнал."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:tripwire_hook",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:observer",
+      "anchor": "observer",
+      "text": "$(item)Наблюдатель$() обнаруживает изменения состояний целевого блока, а также его разрушение или установку. $(br2)Это означает, что можно обнаружить такие изменения, как возраст $(item)растений$(), поскольку они являются частью состояния блока."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:observer",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:daylight_detector",
+      "text": "$(item)Датчик дневного света$() — блок, выдающий редстоун-сигнал в зависимости от солнечного света. $(br2)Детектор можно инвертировать $(thing)щелчком правой кнопкой$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:daylight_detector",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:piston",
+      "anchor": "piston",
+      "text": "$(item)Поршень$() способен толкать блоки, $(l:creatures/human-player)$(thing)игроков$() и $(l:creatures)$(thing)мобов$() при получении редстоун-импульса. $(br2)$(item)Липкий поршень$() выполняет ту же функцию, но при втягивании также притягивает блок на своём лице, в отличие от обычного, который оставляет блок на месте."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:piston",
+      "recipe2": "minecraft:sticky_piston",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dispenser",
+      "anchor": "dispenser",
+      "text": "$(item)Раздатчик$() — блок, используемый как редстоун-компонент для выбрасывания предметов. $(br2)Большинство предметов просто выбрасываются, но некоторые ведут себя иначе (например, $(item)броня$() надевается на $(l:creatures/human-player)$(thing)игрока$() или $(l:creatures)$(thing)моба$(), снаряды выстреливаются, $(item)ведра$() или инструменты используются и т.д.)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dispenser",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dropper",
+      "anchor": "dropper",
+      "text": "$(item)Выбрасыватель$() — блок, который может выбрасывать предметы или перекладывать их в другой контейнер."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dropper",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:note_block",
+      "anchor": "noteblock",
+      "text": "$(item)Нотный блок$() — музыкальный блок, издающий звуки при использовании или при подаче редстоун-сигнала. $(br)$(li)Тип звука зависит от блока под ним $(br) $(li)Нажатие на блок повышает высоту ноты на полтона."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:note_block",
+      "text": "$(li)У $(item)нотного блока$() над собой должен быть воздух, чтобы он издавал звук.",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:hopper",
+      "anchor": "hopper",
+      "text": "Хотя $(item)воронка$() не питается редстоун-сигналами, она выполняет три функции: $(br)$(li)Собирает предметы, лежащие сверху, в свой инвентарь $(br)$(li)Перемещает один предмет из контейнера над собой в свой инвентарь $(br)$(li)Выталкивает один предмет из своего инвентаря в контейнер, куда направлена"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:hopper",
+      "title": " ",
+      "text": "Вы можете задавать направление, наводясь на поверхность, в которую должна смотреть её выход. $(br2)Чтобы установить $(item)воронку$() прямо на лицевую сторону уже взаимодействуемого блока, $(l:creatures/human-player)$(thing)игрок$() может красться при размещении."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_door",
+      "anchor": "door",
+      "title": "Doors & Gates",
+      "text": "$(item)Двери$() и $(item)калитки$() служат преградой, которую можно открыть вручную или редстоун-сигналом. $(br2)Однако $(item)железные двери$() открываются только редстоуном."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_door",
+      "recipe2": "minecraft:iron_door",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:spruce_trapdoor",
+      "recipe2": "minecraft:iron_trapdoor",
+      "title": " "
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_fence_gate",
+      "recipe2": "minecraft:jungle_fence_gate",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:redstone_lamp",
+      "anchor": "lamp",
+      "text": "$(item)Редстоун-лампа$() — блок, излучающий свет при активации редстоун-сигналом."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:redstone_lamp",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:copper_bulb",
+      "anchor": "bulb",
+      "text": "$(item)Медные лампы$() можно активировать, чтобы они излучали свет, причём уровень света уменьшается с каждой стадией окисления. $(br)При получении редстоун-импульса лампа мгновенно переключается между включённым и выключенным состояниями. $(br)$(l:redstone/redstone_components#comparator)$(item)Компаратор$() может считывать состояние и выдаёт сигнал силы 15, если лампа горит. $(br)Если лампа не горит, $(l:redstone/redstone_components#comparator)$(item)компаратор$() не выдаёт сигнал, что позволяет использовать связку $(item)компаратора$() и $(item)медной лампы$() как компактный $(l:redstone/redstone_circuits#t-flip-flop)T-триггер$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:copper_bulb",
+      "recipe2": "minecraft:waxed_copper_bulb_from_honeycomb",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trapped_chest",
+      "text": "$(item)Сундук-ловушка$() работает как обычный $(l:useables/chest)$(item)сундук$() для хранения предметов, но при открытии выдаёт редстоун-сигнал. $(br2)Его можно отличить от обычных $(l:useables/chest)$(item)сундуков$() по красной окантовке вокруг замка."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:trapped_chest",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:target",
+      "text": "$(item)Мишень$() выдаёт временный редстоун-сигнал при попадании снаряда. Она также полезна в схемах для перенаправления редстоун-пыли, что делает её полезным компонентом."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:target",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:crafter",
+      "text": "Когда $(item)автокрафтер$() получает сигнал, он выбрасывает один созданный предмет, используя ингредиенты из девяти слотов инвентаря. $(br)Если фронт $(item)автокрафтера$() направлен на контейнер (включая другой $(item)автокрафтер$()), созданные предметы перемещаются в контейнер. $(br)Для форменных рецептов важен порядок предметов в инвентаре."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafter",
+      "title": " ",
+      "text": "Поскольку отключённые слоты не позволяют предметам попадать в них, $(item)автокрафтеры$() могут автоматически создавать любые предметы без участия $(l:creatures/human-player)$(thing)игрока$(), используя цепочки $(l:redstone/redstone_components#hopper)$(item)воронок$() и/или $(l:redstone/redstone_components#dropper)$(item)выбрасывателей$() и правильную конфигурацию отключённых слотов под рецепт."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:detector_rail",
+      "text": "Если $(item)вагонетка$() на $(item)детекторном рельсе$() является $(item)вагонеткой с сундуком$() или $(item)вагонеткой с воронкой$(), соседний $(l:redstone/redstone_components#comparator)$(item)компаратор$(), обращённый от $(item)детекторного рельса$(), выдаёт мощность, пропорциональную заполненности контейнера."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:detector_rail",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:sculk_sensor",
+      "text": "$(item)Скалк-сенсор$() — блок, который обнаруживает вибрации, вызванные действиями и событиями, и излучает редстоун-сигнал. $(br2)Эти сенсоры также позволяют реализовать беспроводные редстоун-механизмы. $(br2)Каждая вибрация в игре имеет свою $(l:https://minecraft.fandom.com/wiki/Sculk_Sensor#Vibration_Resonance)амплитуду$(). Это значение можно измерить с помощью $(l:redstone/redstone_components#comparator)$(item)компаратора$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": " ",
+      "text": " Если между сенсором и источником вибрации поставить $(item)шерсть$() или $(item)ковёр$(), сенсор не сможет обнаружить ни саму $(item)шерсть$, ни вибрации за ней. $(br2)$(item)Скалк-сенсоры$() появляются в биоме $(thing)Глубокая тьма$() и в $(l:world/structures#ancient_city)$(thing)Древних городах$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:calibrated_sculk_sensor",
+      "text": "Подобно обычному сенсору, он обнаруживает вибрации, но с двойным радиусом и может фиксировать несколько вибраций подряд быстрее. $(br2)Он выдаёт сигнал на всех сторонах, кроме входной, которая может получать питание, чтобы сенсор реагировал только на определённые вибрации в зависимости от силы входного сигнала."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:calibrated_sculk_sensor",
+      "title": " "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:command_block",
+      "anchor": "command_block",
+      "text": "$(item)Командный блок$() — блок, способный выполнять $(l:commands)$(thing)команды$(). $(br2)$(n)Существует 3 варианта:$() $(li)$(item)Импульсный командный блок$() — тип по умолчанию, выполняется один раз при активации. $(li)$(item)Цепной командный блок$() выполняется каждый раз при срабатывании. $(li)$(item)Повторяющийся командный блок$() выполняется каждый игровой тик, пока активен."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chain_command_block",
+      "title": " ",
+      "text": "Поскольку его $(n)нельзя получить или изменить в выживании без читов$(), он в основном используется на многопользовательских серверах, в творческом режиме и на пользовательских картах."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_block",
+      "anchor": "structure_block",
+      "text": "$(item)Блок структуры$() используется для ручного создания структур. $(br2)Его также можно применять для сохранения и загрузки построек вместе с блоками $(item)пустоты структуры$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:structure_void",
+      "title": " ",
+      "text": "Поскольку его $(n)нельзя получить или изменить в выживании без читов$(), он в основном используется на многопользовательских серверах, в творческом режиме и на пользовательских картах."
+    }
+  ]
+}

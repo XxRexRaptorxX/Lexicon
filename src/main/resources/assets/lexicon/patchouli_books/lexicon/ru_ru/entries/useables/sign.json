@@ -1,0 +1,27 @@
+{
+  "name": "Табличка",
+  "icon": "minecraft:oak_sign",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_sign",
+      "text": "$(item)Табличка$() — неполный блок, отображающий текст и устанавливаемый сверху или сбоку других блоков. $(br2)$(item)Подвесная табличка$() — декоративный блок, также отображающий текст, и может размещаться под блоками или на собственном кронштейне. $(br2)Их можно создать из любого вида древесины."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:oak_hanging_sign",
+      "text": "$(item)Таблички$() можно покрыть воском, применив к ним $(item)Пчелиные соты$(). После этого их нельзя очистить или изменить. $(br2)Цвет текста меняется при использовании $(item)Красителя$(). $(br2)$(item)Светящийся чернильный мешок$() заставляет текст светиться. $(br2)Обычный $(item)Чернильный мешок$() убирает эффект свечения."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_sign",
+      "recipe2": "minecraft:birch_hanging_sign"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_sign",
+      "recipe2": "minecraft:jungle_hanging_sign"
+    }
+  ]
+}

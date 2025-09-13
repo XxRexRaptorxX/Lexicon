@@ -1,0 +1,74 @@
+{
+  "name": "Техники добычи",
+  "icon": "minecraft:cobblestone",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Существует множество методов, как добывать $(item)руды$() из земли; они описаны на следующих страницах."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/cave_mining.png"
+      ],
+      "border": true,
+      "title": "Пещерная добыча",
+      "text": "Классический способ добычи. Можно искать руды, не добывая много $(item)камня$(), но из-за уменьшенной экспозиции воздуха некоторые руды встречаются чуть реже."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/strip_mining.png"
+      ],
+      "border": true,
+      "title": "Разветвлённая добыча",
+      "text": "Разветвлённая добыча — самый эффективный способ добывать руды: создаётся множество узких коридоров рядом друг с другом, чтобы охватить всю область."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/tunnel_mining.png"
+      ],
+      "border": true,
+      "title": "Туннельная добыча",
+      "text": "Часто используется, когда нужно пройти под землёй в определённом направлении или проложить туннельную сеть."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shaft_mining.png"
+      ],
+      "border": true,
+      "title": "Шахтная добыча",
+      "text": "Применяется для создания шахты до нужной высоты, позволяя охватить руды разных уровней."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/quarry_mining.png"
+      ],
+      "border": true,
+      "title": "Карьерная добыча",
+      "text": "Этот вариант не особенно эффективен, но охватывает всю площадь со всеми ресурсами; часто используется с $(l:modifications/mods)$(thing)Модами$(), которые добавляют $(item)Карьеры$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/explosion_mining.png"
+      ],
+      "border": true,
+      "title": "Добыча взрывами",
+      "text": "Добыча с помощью взрывчатки в основном используется для поиска $(l:rare/netherite)$(item)древних обломков$(), так как это почти самый быстрый вариант в $(l:world/dimensions#nether)$(thing)Нижнем мире$() при использовании взрывающихся $(l:useables/bed)$(item)кроватей$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_machine.png"
+      ],
+      "border": true,
+      "text": "Также применяются $(item)динамит$() и $(l:redstone/flying_machines)$(thing)летающие машины$()."
+    }
+  ]
+}

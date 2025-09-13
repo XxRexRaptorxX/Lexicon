@@ -1,0 +1,17 @@
+{
+  "name": "Точило",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "$(item)Точило$() — блок, который ремонтирует предметы и инструменты, а также снимает с них $(l:enchanting/enchantments)$(thing)Зачарования$(). $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#weaponsmith)$(thing)Оружейника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone",
+      "title": " "
+    }
+  ]
+}

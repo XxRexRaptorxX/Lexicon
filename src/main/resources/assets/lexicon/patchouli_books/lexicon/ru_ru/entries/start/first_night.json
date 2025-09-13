@@ -1,0 +1,37 @@
+{
+  "name": "Первая ночь.",
+  "icon": "minecraft:zombie_head",
+  "category": "lexicon:start",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Первая ночь очень опасна, если вы к ней не готовы. $(br2)Я рекомендую на закате закопаться в гору и тем временем искать $(item)руды$(). $(br2)Используйте найденный $(item)уголь$() для переплавки еды и руды и создания $(item)факелов$(). $(br)А из $(item)железных слитков$() изготовьте более качественные $(item)инструменты$() и $(item)броню$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:torch",
+      "text": "Но не копайте слишком глубоко и остерегайтесь $(thing)монстров$() в пещерах! $(br2)$(item)Факелы$() и свет не позволят им появляться."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_pickaxe",
+      "recipe2": "minecraft:iron_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_sword",
+      "recipe2": "minecraft:iron_shovel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_helmet",
+      "recipe2": "minecraft:iron_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:iron_leggings",
+      "recipe2": "minecraft:iron_boots"
+    }
+  ]
+}

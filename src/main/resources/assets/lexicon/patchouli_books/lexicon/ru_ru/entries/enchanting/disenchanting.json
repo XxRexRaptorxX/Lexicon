@@ -1,0 +1,24 @@
+{
+  "name": "Раззачарование",
+  "icon": "minecraft:grindstone",
+  "category": "lexicon:enchanting",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:grindstone",
+      "text": "Единственный способ снять зачарования с предметов — использовать $(l:useables/grindstone)$(item)Точильный камень$() или починить предмет через сетку крафта. $(br2)Использование $(l:useables/grindstone)$(item)Точильного камня$() удаляет все зачарования (кроме проклятий) и возвращает опыт в зависимости от уровня и стоимости зачарований."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/disenchanting.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:grindstone"
+    }
+  ]
+}

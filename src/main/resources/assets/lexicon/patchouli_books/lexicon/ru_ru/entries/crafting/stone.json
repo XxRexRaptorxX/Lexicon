@@ -1,0 +1,432 @@
+{
+  "name": "Каменные рецепты",
+  "icon": "minecraft:cobblestone",
+  "category": "lexicon:crafting",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite_slab",
+      "recipe2": "minecraft:blackstone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brick_slab",
+      "recipe2": "minecraft:cobbled_deepslate_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_sandstone_slab",
+      "recipe2": "minecraft:cut_red_sandstone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_prismarine_slab",
+      "recipe2": "minecraft:deepslate_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_tile_slab",
+      "recipe2": "minecraft:diorite_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_stone_brick_slab",
+      "recipe2": "minecraft:granite_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_slab",
+      "recipe2": "minecraft:mossy_stone_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mud_brick_slab",
+      "recipe2": "minecraft:nether_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_andesite_slab",
+      "recipe2": "minecraft:polished_blackstone_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_slab",
+      "recipe2": "minecraft:polished_deepslate_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_diorite_slab",
+      "recipe2": "minecraft:polished_granite_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:prismarine_slab",
+      "recipe2": "minecraft:purpur_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_slab",
+      "recipe2": "minecraft:red_nether_brick_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_sandstone_slab",
+      "recipe2": "minecraft:sandstone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_quartz_slab",
+      "recipe2": "minecraft:smooth_red_sandstone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_sandstone_slab",
+      "recipe2": "minecraft:smooth_stone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_brick_slab",
+      "recipe2": "minecraft:stone_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite_stairs",
+      "recipe2": "minecraft:blackstone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brick_stairs",
+      "recipe2": "minecraft:cobbled_deepslate_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_prismarine_stairs",
+      "recipe2": "minecraft:deepslate_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_tile_stairs",
+      "recipe2": "minecraft:diorite_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_stone_brick_stairs",
+      "recipe2": "minecraft:granite_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_stairs",
+      "recipe2": "minecraft:mossy_stone_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mud_brick_stairs",
+      "recipe2": "minecraft:nether_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_andesite_stairs",
+      "recipe2": "minecraft:polished_blackstone_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_stairs",
+      "recipe2": "minecraft:polished_deepslate_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_diorite_stairs",
+      "recipe2": "minecraft:polished_granite_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:prismarine_stairs",
+      "recipe2": "minecraft:purpur_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_stairs",
+      "recipe2": "minecraft:red_nether_brick_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_sandstone_stairs",
+      "recipe2": "minecraft:sandstone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_quartz_stairs",
+      "recipe2": "minecraft:smooth_red_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smooth_sandstone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_brick_stairs",
+      "recipe2": "minecraft:stone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:amethyst_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:diorite",
+      "recipe2": "minecraft:polished_diorite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:granite",
+      "recipe2": "minecraft:polished_granite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite",
+      "recipe2": "minecraft:polished_andesite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:andesite_wall",
+      "recipe2": "minecraft:blackstone_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brick_wall",
+      "recipe2": "minecraft:cobbled_deepslate_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cobblestone_wall",
+      "recipe2": "minecraft:deepslate_brick_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_tile_wall",
+      "recipe2": "minecraft:diorite_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_stone_brick_wall",
+      "recipe2": "minecraft:granite_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_wall",
+      "recipe2": "minecraft:mossy_stone_brick_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mud_brick_wall",
+      "recipe2": "minecraft:nether_brick_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_brick_wall",
+      "recipe2": "minecraft:polished_blackstone_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_deepslate_wall",
+      "recipe2": "minecraft:prismarine_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:red_nether_brick_wall",
+      "recipe2": "minecraft:red_sandstone_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sandstone_wall",
+      "recipe2": "minecraft:stone_brick_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_concrete_powder",
+      "recipe2": "minecraft:blue_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_concrete_powder",
+      "recipe2": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_concrete_powder",
+      "recipe2": "minecraft:green_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_concrete_powder",
+      "recipe2": "minecraft:light_gray_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_concrete_powder",
+      "recipe2": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_concrete_powder",
+      "recipe2": "minecraft:pink_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_concrete_powder",
+      "recipe2": "minecraft:red_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_concrete_powder",
+      "recipe2": "minecraft:yellow_concrete_powder"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:black_terracotta",
+      "recipe2": "minecraft:blue_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brown_terracotta",
+      "recipe2": "minecraft:cyan_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:gray_terracotta",
+      "recipe2": "minecraft:green_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:light_blue_terracotta",
+      "recipe2": "minecraft:light_gray_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lime_terracotta",
+      "recipe2": "minecraft:magenta_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:orange_terracotta",
+      "recipe2": "minecraft:pink_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purple_terracotta",
+      "recipe2": "minecraft:red_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:white_terracotta",
+      "recipe2": "minecraft:yellow_terracotta"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:clay"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bricks",
+      "recipe2": "minecraft:chiseled_deepslate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:deepslate_tiles",
+      "recipe2": "minecraft:polished_deepslate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:nether_bricks",
+      "recipe2": "minecraft:red_nether_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_nether_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:quartz_block",
+      "recipe2": "minecraft:quartz_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_quartz_block",
+      "recipe2": "minecraft:quartz_pillar"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe1": "minecraft:polished_blackstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:polished_blackstone_bricks",
+      "recipe2": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:end_stone_bricks",
+      "recipe2": "minecraft:stone_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_sandstone",
+      "recipe2": "minecraft:chiseled_sandstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:sandstone",
+      "recipe2": "minecraft:red_sandstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cut_red_sandstone",
+      "recipe2": "minecraft:chiseled_red_sandstone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_stone_bricks",
+      "recipe2": "minecraft:mossy_stone_bricks_from_moss_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_stone_bricks_from_vine",
+      "recipe2": "minecraft:prismarine"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:dark_prismarine",
+      "recipe2": "minecraft:prismarine_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glowstone",
+      "recipe2": "minecraft:dripstone_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:magma_block",
+      "recipe2": "minecraft:mud_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:mossy_cobblestone_from_moss_block",
+      "recipe2": "minecraft:mossy_cobblestone_from_vine"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:packed_mud",
+      "recipe2": "minecraft:polished_basalt"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:purpur_block",
+      "recipe2": "minecraft:purpur_pillar"
+    }
+  ]
+}

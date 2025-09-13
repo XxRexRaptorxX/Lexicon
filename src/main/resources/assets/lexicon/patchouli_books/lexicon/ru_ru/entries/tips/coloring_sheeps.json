@@ -1,0 +1,15 @@
+{
+  "name": "Окрашивание овец",
+  "icon": "minecraft:blue_wool",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:creatures/animal-sheep)$(thing)Sheeps$() можно окрасить, нажав кнопку использования с красителем в руке. $(br2)Если окрашенную $(l:creatures/animal-sheep)$(thing)Sheep$() постричь, её новая $(item)Wool$() сохранит цвет."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Пасхалка:$() $(br2)Если назвать $(l:creatures/animal-sheep)$(thing)Sheep$() $(o)jeb_$() с помощью $(item)Name Tag$(), её $(item)Wool$() будет плавно переливаться всеми цветами красителей. $(br2)На выпадающую $(item)Wool$() это не влияет."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Лошадь-зомби",
+  "icon": "minecraft:zombie_horse_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 15  $(br)> $(n)Урон атаки:$() 0    $(br)> $(n)Поведение:$() Пассивный     $(br)> $(n)Появление:$() Не естественное    $(br)> $(n)Особенности:$() $(br)Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie_horse",
+      "scale": "0.5",
+      "text": "$(n)Добыча:$() 0-2 гнилой плоти   $(br)$(n)Опыт:$() 1-3"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Мини-босс - Капитан набега",
+  "icon": "minecraft:ominous_bottle",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Капитан набега$() — это иллажер, появляющийся с $(l:rare/ominous_banner)$(item)зловещим знаменем$() на голове, обычно это $(l:creatures/human-pillager)$(thing)разбойник$() или $(l:creatures/human-vindicator)$(thing)мститель$(), либо редко $(l:creatures/human-evoker)$(thing)заклинатель$(). $(br2)$(thing)Капитаны набега$() ведут себя как обычные иллажеры, но другие иллажеры следуют за ними."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br) $(n)Добыча:$()$(br) $(li)1 зловещее знамя $(li)1 зловещая бутылочка $(li)стандартный дроп каждого моба"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_captain.png"
+      ],
+      "text": "$(n)Появление:$() патруль иллажеров, набег, $(l:world/structures#outpost)$(thing)застава разбойников$()",
+      "title": "Капитан разбойников",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/vindicator_captain.png"
+      ],
+      "text": "$(n)Появление:$() набег",
+      "title": "Капитан мстителей",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/evoker_captain.png"
+      ],
+      "text": "$(n)Появление:$() набег (редко)",
+      "title": "Капитан заклинателей",
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/illusioner_captain.png"
+      ],
+      "text": "$(n)Появление:$() только через $(l:commands)$(thing)команды$() или $(l:modifications/mods)$(thing)моды$()",
+      "title": "Капитан иллюзионистов",
+      "border": false
+    }
+  ]
+}

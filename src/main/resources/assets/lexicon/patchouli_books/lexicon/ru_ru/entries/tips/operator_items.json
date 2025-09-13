@@ -1,0 +1,23 @@
+{
+  "name": "Операторские предметы",
+  "icon": "minecraft:command_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В разделе операторских утилит находятся функциональные предметы и блоки, предназначенные в основном для владельцев серверов, создателей карт или опытных игроков. $(br2)Они доступны только через $(l)/give$() $(l:commands)$(thing)Command$() или в творческом инвентаре при активации $(n)$(o)options/controls/operator item tab$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/operator_items.png",
+        "lexicon:textures/pictures/operator_tab_button.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Операторские утилиты:$() $(br)$(li)$(l:redstone/redstone_components#command_block)$(item)Command Blocks$(): выполняют команды $(br)$(li)$(l:redstone/redstone_components#structure_block)$(item)Structure Blocks$(): экспорт, импорт и сохранение структур $(br)$(li)$(item)Light Blocks$(): невидимый источник света $(br)$(li)$(item)Barrier Block$(): невидимый неразрушимый барьер $(br)$(li)$(item)Debug Stick$(): инструмент для изменения состояний блоков"
+    }
+  ]
+}

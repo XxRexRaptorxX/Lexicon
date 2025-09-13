@@ -1,0 +1,17 @@
+{
+  "name": "Монстр - Пиглин",
+  "icon": "minecraft:piglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 16     $(br)> $(n)Урон:$() $(br)дальний: 2-5, ближний: 5 на лёгком, 8 на нормальном, 12 на сложном$(br)> $(n)Поведение:$() В основном нейтральный $(br)> $(n)Место появления:$() $(l:world/dimensions#nether)Нижний мир$() $(br)> $(n)Свойства:$() $(br)Они становятся враждебными, если $(l:creatures/human-player)$(thing)Игрок$() не экипирован хотя бы одним предметом из $(item)Золотой брони$(). $(l:creatures/human-player)$(thing)Игроки$() могут использовать $(item)Золотые слитки$() для $(l:trading/piglin_bartering)обмена$() с ними на различные предметы. Они избегают $(l:creatures/undead-zombiefied_piglin)$(thing)Зомбифицированных пиглинов$(), $(l:creatures/undead-zoglin)$(thing)Зоглинов$() и предметов душевого огня. Вне $(l:world/dimensions#nether)$(thing)Нижнего мира$() они зомбифицируются."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin",
+      "scale": "1.0",
+      "text": "$(n)Дроп:$() 8.5% шанс уронить удерживаемый предмет или броню  $(n)Опыт:$() взрослый 5-17, детёныш 1"
+    }
+  ]
+}

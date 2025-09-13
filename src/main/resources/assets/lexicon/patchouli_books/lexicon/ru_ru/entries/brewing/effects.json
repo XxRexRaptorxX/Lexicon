@@ -1,0 +1,524 @@
+{
+  "name": "Эффекты",
+  "icon": "minecraft:blaze_powder",
+  "category": "lexicon:brewing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект — это полезное или вредное состояние, влияющее на сущность. $(br2)Эффекты можно получить разными способами в ходе игры, включая употребление $(l:brewing/brewing#potions)$(item)зелий$() и некоторых видов пищи, нахождение в области действия $(l:rare/beacon)$(item)маяков$() и $(l:rare/conduit)$(item)проводников$(), а также при нападении или близости к определённым мобам."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:milk_bucket",
+      "text": "При употреблении $(item)ведра молока$(), смерти, спасении от смерти с помощью $(l:rare/totem_of_undying)$(item)тотема бессмертия$() или переходе через возвращающий портал в $(l:exploring/end)$(thing)Край$(), все эффекты снимаются."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Скорость",
+      "anchor": "speed",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Увеличивает скорость ходьбы; на более высоких уровнях затронутая сущность движется быстрее. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/beacon)$(item)маяк$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/speed_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Медлительность",
+      "anchor": "slowness",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Уменьшает скорость ходьбы; на более высоких уровнях затронутая сущность становится медленнее. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slowness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Спешка",
+      "anchor": "haste",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Увеличивает скорость добычи и атаки; на более высоких уровнях скорость добычи и атаки повышается. $(br2)$(n)Источники:$() $(br)$(l:rare/beacon)$(item)маяк$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/haste_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Утомление",
+      "anchor": "mining_fatigue",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Снижает скорость добычи и атаки; на более высоких уровнях скорость добычи и атаки уменьшается сильнее. $(br2)$(n)Источники:$() $(br)$(l:creatures/aquatic_animal-elder_guardian)Древний страж$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mining_fatigue_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Сила",
+      "anchor": "strength",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Увеличивает урон в ближнем бою; на более высоких уровнях затронутая сущность наносит больше урона. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/beacon)$(item)маяк$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/strength_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Мгновенное лечение",
+      "anchor": "instant_health",
+      "text": "$(n)Тип:$() Положительный, отрицательный для нежити $(br2)$(n)Эффект:$() $(br)Лечит живых существ и наносит урон нежити; на более высоких уровнях лечит больше здоровья и наносит больше урона. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/instant_health_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Мгновенный урон",
+      "anchor": "instant_damage",
+      "text": "$(n)Тип:$() Отрицательный, положительный для нежити $(br2)$(n)Эффект:$() $(br)Наносит урон живым существам и лечит нежить; на более высоких уровнях наносит больше урона и восполняет больше здоровья. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/instant_damage_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Прыгучесть",
+      "anchor": "jump_boost",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Увеличивает высоту прыжка и уменьшает урон от падения; на более высоких уровнях сущность прыгает выше и получает ещё меньше урона при падении. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/beacon)$(item)маяк$(), $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/jump_boost_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Тошнота",
+      "anchor": "nausea",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Искажает и качает экран. $(br2)$(n)Источники:$() $(br)Поедание $(l:creatures/aquatic_animal-pufferfish)$(thing)рыбы-фугу$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nausea_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Регенерация",
+      "anchor": "regeneration",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Постепенно восстанавливает здоровье; на более высоких уровнях здоровье восстанавливается быстрее. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/beacon)$(item)маяк$(), $(l:rare/golden_apple)$(item)золотые яблоки$(), $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:rare/totem_of_undying)$(item)тотем бессмертия$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/regeneration_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Сопротивление",
+      "anchor": "resistance",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Снижает получаемый урон; на более высоких уровнях урон уменьшается сильнее. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/beacon)$(item)маяк$(), $(l:rare/golden_apple)$(item)зачарованное золотое яблоко$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/resistance_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Огнестойкость",
+      "anchor": "fire_resistance",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Защищает сущность от урона от $(item)огня$(), $(item)лавы$() и других источников огненного урона. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:rare/golden_apple)$(item)зачарованное золотое яблоко$(), $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:rare/totem_of_undying)$(item)тотем бессмертия$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fire_resistance_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Подводное дыхание",
+      "anchor": "water_breathing",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Предотвращает утопление и позволяет дышать под водой. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, панцирь черепахи, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_breathing_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Невидимость",
+      "anchor": "invisibility",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Делает сущность невидимой (но не предмет в руках и надетую броню) и уменьшает дальность обнаружения другими мобами; на более высоких уровнях эта дальность уменьшается сильнее. $(br2)$(n)Источники:$() $(br)Зелья, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/invisibility_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Слепота",
+      "anchor": "blindness",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Ухудшает зрение и лишает возможности бегать и наносить критические удары. $(br2)$(n)Источники:$() $(br)$(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:creatures/human-illusioner)$(thing)иллюзионист$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/blindness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ночное зрение",
+      "anchor": "night_vision",
+      "text": "$(n)Тип:$() Положительный $(br2)$(n)Эффект:$() $(br)Позволяет $(l:creatures/human-player)$(thing)игроку$() хорошо видеть в темноте и под водой. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:rare/conduit)$(item)сила проводника$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/night_vision_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Голод",
+      "anchor": "hunger",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Увеличивает расход сытости; на более высоких уровнях $(l:creatures/human-player)$(thing)игрок$() голодает быстрее. $(br2)$(n)Источники:$() $(br)$(l:creatures/undead-husk)$(thing)каменный зомби$(), $(l:creatures/aquatic_animal-pufferfish)$(thing)рыба-фугу$(), гнилая плоть, сырая курятина, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hunger_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Слабость",
+      "anchor": "weakness",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Снижает урон в ближнем бою; на более высоких уровнях урон уменьшается сильнее. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weakness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Отравление",
+      "anchor": "poison",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Наносит урон со временем (но не убивает); на более высоких уровнях урон в секунду больше; не влияет на нежить. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, ядовитый картофель, глаз паука, $(l:creatures/aquatic_animal-pufferfish)$(thing)рыба-фугу$(), $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:creatures/arthropod-cave_spider)$(thing)пещерный паук$(), $(l:creatures/arthropod-bee)$(thing)пчела$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/poison_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Иссушение",
+      "anchor": "wither",
+      "text": "$(n)Тип:$() Отрицательный $(br2)$(n)Эффект:$() $(br)Наносит урон со временем (может убить); на более высоких уровнях урон в секунду больше. $(br2)$(n)Источники:$() $(br)Зелья, роза иссушения, $(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:creatures/boss-wither)$(thing)иссушитель$(), $(l:creatures/undead-wither_skeleton)$(thing)скелет-иссушитель$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wither_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Повышение здоровья",
+      "anchor": "health_boost",
+      "text": "$(n)Тип:$() Положительный  $(br2)$(n)Эффект:$() $(br)Увеличивает максимальное здоровье; на более высоких уровнях сущность получает больше максимального здоровья. $(br2)$(n)Источники:$() $(br)$(l:rare/golden_apple)$(item)золотые яблоки$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/health_boost_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Поглощение",
+      "anchor": "absorption",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Добавляет запас поглощения (дополнительные сердца, которые не восстанавливаются); на более высоких уровнях даёт больше поглощения. $(br2)$(n)Источники:$() $(br)$(l:rare/golden_apple)$(item)золотые яблоки$(), $(l:rare/toten_of_undying)$(item)тотем бессмертия$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/absorption_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Насыщение",
+      "anchor": "saturation",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Восстанавливает сытость и насыщение. $(br2)$(n)Источники:$() $(br)$(l:brewing/suspicious_stew)$(item)подозрительное рагу$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/saturation_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Свечение",
+      "anchor": "glowing",
+      "text": "$(n)Тип:$() Нейтральный   $(br2)$(n)Эффект:$() $(br)Подсвечивает сущность контуром (видно сквозь блоки). $(br2)$(n)Источники:$() $(br)спектральная стрела, колокол для $(l:creatures/human-villager)$(thing)жителей$() и $(l:creatures/human-witch)$(thing)ведьм$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/glowing_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Левитация",
+      "anchor": "levitation",
+      "text": "$(n)Тип:$() Нейтральный  $(br2)$(n)Эффект:$() $(br)Поднимает сущность вверх в воздух. $(br2)$(n)Источники:$() $(br)$(l:creatures/monster-shulker)$(thing)шалкер$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/levitation_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Удача",
+      "anchor": "luck",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Может повысить шанс получения качественной и более обильной добычи; на более высоких уровнях шанс лучшей добычи увеличивается. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/luck_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Неудача",
+      "anchor": "bad_luck",
+      "text": "$(n)Тип:$() Отрицательный   $(br2)$(n)Эффект:$() $(br)Может снизить шанс получения качественной и обильной добычи; на более высоких уровнях шанс хорошей добычи уменьшается. $(br2)$(n)Источники:$() $(br)$(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bad_luck_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Плавное падение",
+      "anchor": "slow_falling",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Уменьшает скорость падения и отменяет урон от падения. $(br2)$(n)Источники:$() $(br)Зелья, стрелы с эффектом, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/slow_falling_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Сила проводника",
+      "anchor": "conduit_power",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Повышает видимость и скорость добычи под водой, предотвращает утопление. $(br2)$(n)Источники:$() $(br)$(l:rare/conduit)$(item)проводник$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/conduit_power_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Благодать дельфина",
+      "anchor": "dolphins_grace",
+      "text": "$(n)Тип:$() Положительный   $(br2)$(n)Эффект:$() $(br)Увеличивает скорость плавания. $(br2)$(n)Источники:$() $(br)Плавание рядом с $(l:creatures/aquatic_animal-dolphin)$(thing)дельфинами$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/dolphins_grace_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Дурное знамение",
+      "anchor": "bad_omen",
+      "text": "$(n)Тип:$() Нейтральный  $(br2)$(n)Эффект:$() $(br)Дурное знамение — это эффект, который превращается в $(l:brewing/effects#raid_omen)$(thing)знамение набега$() в $(l:world/structures#village)$(thing)деревне$() или в $(l:brewing/effects#trial_omen)$(thing)знамение испытания$(), если рядом неугрожающий $(l:rare/trial_spawner)$(item)испытательный спаунер$(). $(br2)$(n)Источники:$() $(br)$(l:rare/ominous_bottle)$(item)зловещий пузырёк$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bad_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Знамение набега",
+      "anchor": "raid_omen",
+      "text": "$(n)Тип:$() Нейтральный  $(br2)$(n)Эффект:$() $(br)Этот эффект вызывает начало набегов в $(l:world/structures#village)$(thing)деревнях$(). $(br2)$(n)Источники:$() $(br)Вход в $(l:world/structures#village)$(thing)деревню$() с $(l:brewing/effects#bad_omen)$(thing)дурным знаменем$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/raid_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Знамение испытания",
+      "anchor": "trial_omen",
+      "text": "$(n)Тип:$() Нейтральный  $(br2)$(n)Эффект:$() $(br)Когда $(l:creatures/human-player)$(thing)игрок$() получает этот эффект, начинается зловещее испытание. $(br)Любой $(l:rare/trial_spawner)$(item)испытательный спаунер$() в радиусе 15 блоков сразу становится зловещим и присоединяется к испытанию. $($br2)$(n)Источники:$() $(br)Обнаружение незловещего $(l:rare/trial_spawner)$(item)испытательного спаунера$() с $(l:brewing/effects#bad_omen)$(thing)дурным знаменем$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trial_omen_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Герой деревни",
+      "anchor": "village_hero",
+      "text": "$(n)Тип:$() Положительный  $(br2)$(n)Эффект:$() $(br)Даёт скидки на сделки с $(l:creatures/human-villager)$(thing)жителями$() и заставляет их бросать предметы $(l:creatures/human-player)$(thing)игроку$() в зависимости от профессии. $(br2)$(n)Источники:$() $(br)Завершение набега на деревню, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hero_of_the_village_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Тьма",
+      "anchor": "darkness",
+      "text": "$(n)Тип:$() Отрицательный  $(br2)$(n)Эффект:$() $(br)Затемняет экран. $(br2)$(n)Источники:$() $(br)скалковый крикун, $(l:creatures/boss-warden)$(thing)варден$(), $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/darkness_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Заряд ветра",
+      "anchor": "wind_charged",
+      "text": "$(n)Тип:$() Отрицательный  $(br2)$(n)Эффект:$() $(br)Заставляет сущность выпускать порыв ветра при смерти. $(br2)$(n)Источники:$() $(br)Зелья, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wind_charged_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Заражение",
+      "anchor": "infested",
+      "text": "$(n)Тип:$() Отрицательный  $(br2)$(n)Эффект:$() $(br)Вызывает появление $(l:creatures/arthropod-silverfish)$(thing)чешуйниц$() на сущности, получающей урон. $(br2)$(n)Источники:$() $(br)Зелья, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/infested_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Плетение",
+      "anchor": "weaving",
+      "text": "$(n)Тип:$() Отрицательный  $(br2)$(n)Эффект:$() $(br)Приводит к появлению $(item)паутины$() при смерти сущности. $(br2)$(n)Источники:$() $(br)Зелья, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/weaving_effect.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Слизистость",
+      "anchor": "oozing",
+      "text": "$(n)Тип:$() Отрицательный  $(br2)$(n)Эффект:$() $(br)Вызывает появление двух средних $(l:creatures/monster-slime)$(thing)слизней$() при смерти сущности. $(br2)$(n)Источники:$() $(br)Зелья, $(l:commands)$(thing)команда /effect$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/oozing_effect.png"
+      ],
+      "border": false
+    }
+  ]
+}

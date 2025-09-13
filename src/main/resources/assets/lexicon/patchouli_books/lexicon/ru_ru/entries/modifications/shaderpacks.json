@@ -1,0 +1,23 @@
+{
+  "name": "Шейдер-паки",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "С помощью $(thing)Шейдер-паков$() вы добавляете в игру новые эффекты освещения, теней и воды. $(br2)Шейдеры требуют довольно много ресурсов, поэтому вам нужен мощный компьютер. $(br2)Чтобы использовать шейдеры, нужны $(l:modifications/mods)$(thing)Моды$(), такие как $(n)Optifine$() или $(n)Iris$(). $(br)$(li)Их можно помещать в папку $(l)shaderpacks$() внутри каталога $(l).minecraft$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/shader_1.png",
+        "lexicon:textures/pictures/shader_2.png",
+        "lexicon:textures/pictures/shader_3.png",
+        "lexicon:textures/pictures/shader_4.png"
+      ],
+      "border": true,
+      "text": "$(li)Найти шейдеры можно $(l:https://www.curseforge.com/minecraft/customization/search?search=shader)здесь$()"
+    }
+  ]
+}

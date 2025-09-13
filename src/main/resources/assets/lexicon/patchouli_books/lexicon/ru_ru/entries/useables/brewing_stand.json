@@ -1,0 +1,17 @@
+{
+  "name": "Варочная стойка",
+  "icon": "minecraft:brewing_stand",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:brewing_stand",
+      "text": "$(item)Варочная стойка$() — блок, используемый для варки $(l:brewing/potion_types)$(item)Зелий$() с помощью $(item)Бутылочек$() и подходящих ингредиентов. $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#cleric)$(thing)Священника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brewing_stand",
+      "title": " "
+    }
+  ]
+}

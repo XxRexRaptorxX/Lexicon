@@ -1,0 +1,25 @@
+{
+  "name": "Классическая ферма мобов",
+  "icon": "minecraft:skeleton_skull",
+  "category": "lexicon:farming",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта ферма не фокусируется на каких-либо конкретных монстрах. Она позволяет им появляться, после чего $(item)Вода$() толкает их в яму, где они гибнут от $(item)Блоков магмы$(). $(br)Дроп затем транспортируется в $(l:useables/chest)$(item)Сундук$() с помощью $(item)Вагонетки с воронкой$(). $(br2)$(n)Несколько замечаний:$() $(li)Область спавна должна быть тёмной $(li)Сделайте область спавна высотой лишь 2 блока, чтобы предотвратить появление $(l:creatures/monster-enderman)$(thing)Эндерменов$() $(li)Сделайте канавы шириной как минимум 2–3 блока, чтобы $(l:creatures/arthropod-spider)$(thing)Пауки$() не блокировали их"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/classic_mob_farm_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_2.png",
+        "lexicon:textures/pictures/classic_mob_farm_3.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_1.png",
+        "lexicon:textures/pictures/classic_mob_farm_shape_2.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно бесконечно расширять вниз."
+    }
+  ]
+}
+

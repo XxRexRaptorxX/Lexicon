@@ -1,0 +1,17 @@
+{
+  "name": "Гуманоид - Иллюзионист",
+  "icon": "minecraft:vindicator_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 32  $(br)> $(n)Attack Damage:$() $(br)2-5, 3-5 на сложном $(br)> $(n)Behavior:$() Враждебный     $(br)> $(n)Spawn:$() не появляется естественно $(br)> $(n)Properties:$() $(br)$(thing)Иллюзионист$() атакует своими заклинаниями и $(item)Луком$(). $(br)У него есть два заклинания: $(li)Заклинание, которое ослепляет противника $(li)Заклинание, которое призывает визуальные псевдокопии и делает $(thing)Иллюзиониста$() невидимым."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:illusioner",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 Зловещий флаг если появился как $(l:creatures/boss-raid_captain)$(thing)Капитан$(), 8,5% шанс на Лук$(br)$(n)XP:$() 5"
+    }
+  ]
+}

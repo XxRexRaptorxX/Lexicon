@@ -1,0 +1,18 @@
+{
+  "name": "Снежки против ифритов",
+  "icon": "minecraft:snowball",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:creatures/monster-blaze)$(thing)Blazes$() могут быть очень опасны, но у них есть большое слабое место — они получают урон от $(item)Snowballs$(). $(br2)Хорошая новость в том, что их легко добыть."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/blaze_snowball.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Сундук",
+  "icon": "minecraft:chest",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chest",
+      "text": "$(item)Сундук$() — блок для хранения предметов. $(br2)Можно поставить два таких блока рядом, чтобы получить большой $(item)Сундук$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chest",
+      "title": " "
+    }
+  ]
+}

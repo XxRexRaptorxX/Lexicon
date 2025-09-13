@@ -1,0 +1,17 @@
+{
+  "name": "Коптильня",
+  "icon": "minecraft:smoker",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smoker",
+      "text": "$(item)Коптильня$() — разновидность $(l:useables/furnace)$(item)Печи$(), которая готовит пищу вдвое быстрее, но с меньшей отдачей. $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#butcher)$(thing)Мясника$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smoker",
+      "title": " "
+    }
+  ]
+}

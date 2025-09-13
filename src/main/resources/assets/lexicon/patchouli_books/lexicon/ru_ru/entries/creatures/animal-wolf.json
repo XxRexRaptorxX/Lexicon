@@ -1,0 +1,81 @@
+{
+  "name": "Животное - Волк",
+  "icon": "minecraft:wolf_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() дикий 8, приручённый 40 $(br)> $(n)Урон:$() 3 на лёгком, 4 на нормальном, 6 на сложном $(br)> $(n)Поведение:$() Нейтральное  $(br)> $(n)Место появления:$() Тайга, Роща, Бэдлендс, Джунгли, Лес $(br)> $(n)Приручение:$() Кости   $(br)> $(n)Размножение:$() Мясо    $(br)> $(n)Свойства:$() $(br)Можно оснастить $(item)волчьей бронёй$(). $(br)Охотится на $(l:creatures/undead-skeleton)$(thing)скелетов$(), $(l:creatures/animal-sheep)$(thing)овец$(), $(l:creatures/animal-rabbit)$(thing)кроликов$(), $(l:creatures/animal-fox)$(thing)лис$() и $(l:creatures/aquatic_animal-turtle)$(thing)детёнышей черепах$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() -  $(n)Опыт:$() 1-3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:black}",
+      "scale": "0.5",
+      "name": "Чёрный волк",
+      "text": "$(n)Биом:$() Старая сосновая тайга"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:chestnut}",
+      "scale": "0.5",
+      "name": "Каштановый волк",
+      "text": "$(n)Биом:$() Старая еловая тайга"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:pale}",
+      "scale": "0.5",
+      "name": "Бледный волк",
+      "text": "$(n)Биом:$() Тайга"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:ashen}",
+      "scale": "0.5",
+      "name": "Пепельный волк",
+      "text": "$(n)Биом:$() Снежная тайга"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:rusty}",
+      "scale": "0.5",
+      "name": "Рыжий волк",
+      "text": "$(n)Биом:$() Редкие джунгли"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:snowy}",
+      "scale": "0.5",
+      "name": "Снежный волк",
+      "text": "$(n)Биом:$() Роща"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:spotted}",
+      "scale": "0.5",
+      "name": "Пятнистый волк",
+      "text": "$(n)Биом:$() Плато саванны"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:stripped}",
+      "scale": "0.5",
+      "name": "Полосатый волк",
+      "text": "$(n)Биом:$() Заросшие Бэдлендс"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf{variant:woods}",
+      "scale": "0.5",
+      "name": "Лесной волк",
+      "text": "$(n)Биом:$() Лес"
+    }
+  ]
+}
+

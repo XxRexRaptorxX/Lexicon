@@ -1,0 +1,68 @@
+{
+  "name": "Советы по строительству",
+  "icon": "minecraft:gold_nugget",
+  "category": "lexicon:building",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Совет №1:$() $(br)$(li)Добавляйте текстуру вашим стенам. $(br2)Вы можете составить палитру блоков для помощи. $(br2)Загляните на $(l:https://www.blockpalettes.com)www.blockpalettes.com$() для хороших вариантов!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_1.png",
+        "lexicon:textures/pictures/block_palette.png"
+      ],
+      "title": "Текстура",
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Глубина",
+      "text": "$(n)Совет №2:$() $(br)$(li)Добавляйте глубину своим постройкам. $(br)Так выглядит гораздо эстетичнее!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_2.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Переизбыток деталей",
+      "text": "$(n)Совет №3:$() $(br)$(li)Не перегружайте свои постройки деталями! $(br2)В большинстве случаев слишком много деталей выглядит перегруженно."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_tip_3.png"
+      ],
+      "border": true
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Пошагово",
+      "text": "$(n)Совет №4:$() $(br)$(li)Не смешивайте всё сразу, стройте шаг за шагом."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/building_step_1.png",
+        "lexicon:textures/pictures/building_step_2.png",
+        "lexicon:textures/pictures/building_step_3.png",
+        "lexicon:textures/pictures/building_step_4.png",
+        "lexicon:textures/pictures/building_step_5.png",
+        "lexicon:textures/pictures/building_step_6.png",
+        "lexicon:textures/pictures/building_step_7.png",
+        "lexicon:textures/pictures/building_step_8.png",
+        "lexicon:textures/pictures/building_step_9.png"
+      ],
+      "border": true
+    }
+  ]
+}

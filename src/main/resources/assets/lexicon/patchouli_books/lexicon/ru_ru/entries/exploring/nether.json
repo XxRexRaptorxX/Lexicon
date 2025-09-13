@@ -1,0 +1,21 @@
+{
+  "name": "Исследование Нижнего мира",
+  "icon": "minecraft:netherrack",
+  "category": "lexicon:exploring",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот несколько важных предметов, которые стоит всегда иметь с собой в приключениях в $(l:world/dimensions#nether)$(thing)Нижнем мире$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Автоматическая ферма кур",
+  "icon": "minecraft:cooked_chicken",
+  "category": "lexicon:farming",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта ферма будет автоматически давать вам $(item)Жареную курятину$() и $(item)Перья$() при полной загрузке. $(br)$(li)$(item)Золотые блоки$() должны быть полноразмерными блоками, чтобы корректно проводить сигнал $(l:redstone/redstone_behavior)$(item)Редстоуна$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_chicken_farm_1.png",
+        "lexicon:textures/pictures/auto_chicken_farm_2.png",
+        "lexicon:textures/pictures/auto_chicken_farm_3.png",
+        "lexicon:textures/pictures/auto_chicken_farm_4.png",
+        "lexicon:textures/pictures/auto_chicken_farm_5.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

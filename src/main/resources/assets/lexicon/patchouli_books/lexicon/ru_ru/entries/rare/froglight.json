@@ -1,0 +1,22 @@
+{
+  "name": "Лягушачий фонарь",
+  "icon": "minecraft:verdant_froglight",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:pearlescent_froglight",
+      "text": "$(item)Лягушачий фонарь$() — светящийся природный блок, который можно получить, если $(l:creatures/aquatic_animal-frog)$(thing)лягушка$() съест маленький $(l:creatures/monster-magma_cube)$(thing)магмовый куб$(). $(br2)Используется для декора."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ochre_froglight",
+      "text": "Существует три цвета $(thing)лягушачьих фонарей$(), которые зависят от вида лягушки: $(br)$(li)$(n)Перламутровый$() из тёплых (белых) лягушек $(br)$(li)$(n)Зелёный$() из холодных (зелёных) лягушек $(br)$(li)$(n)Охристый$() из умеренных (оранжевых) лягушек"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:verdant_froglight",
+      "text": "Они излучают уровень света 15 — максимальный возможный для источника света."
+    }
+  ]
+}

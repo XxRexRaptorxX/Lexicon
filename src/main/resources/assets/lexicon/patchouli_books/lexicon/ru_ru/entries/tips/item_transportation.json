@@ -1,0 +1,117 @@
+{
+  "name": "Транспортировка предметов",
+  "icon": "minecraft:dropper",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Хоппер",
+      "text": "Разместив ряд $(l:redstone/redstone_components#hopper)$(item)Hoppers$(), направленных друг в друга, можно перевозить предметы во всех направлениях, кроме вверх. $(br2)При большом количестве $(l:redstone/redstone_components#hopper)$(item)Hoppers$() могут вызывать лаги."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/hopper_transportation_1.png",
+        "lexicon:textures/pictures/hopper_transportation_2.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Водные потоки",
+      "text": "Менее затратный по железу способ — использовать потоки $(item)Water$(). Он основан на механике перемещения выпавших предметов течением. $(br2)Так как $(item)Water$() течёт только на 7 блоков от источника, обычно требуется несколько источников. Чтобы преодолеть промежутки, можно использовать блок $(item)Packed Ice$() и $(item)Sign$(): предметы будут скользить по льду к следующему потоку."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_transportation.png"
+      ],
+      "border": true,
+      "text": "Вода, текущая по $(item)Packed Ice$() или $(item)Blue Ice$(), ускоряет предметы, уменьшая задержку."
+    },
+    {
+      "title": "Водяные лифты",
+      "type": "patchouli:text",
+      "text": "Если источник $(item)Water$() находится прямо над $(item)Magma Block$(), создаётся пузырьковая колонна, тянущая вниз от верхнего источника. $(br)Всё, что попадёт в неё — предметы, $(item)Boats$(), $(l:creatures/human-player)$(thing)Players$() и мобы — затягивается вниз. $(br2)$(item)Soulsand$() делает то же самое вверх."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_elevator.png"
+      ],
+      "border": true
+    },
+    {
+      "title": "Рельсы",
+      "type": "patchouli:text",
+      "text": "Предметы также можно перевозить по $(item)Rails$(): их можно загружать в $(item)Minecart with a Chest$() и выгружать из неё с помощью $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/rail_transportation.png"
+      ],
+      "border": true
+    },
+    {
+      "title": "Выбрасыватель",
+      "type": "patchouli:text",
+      "text": "Транспорт с $(l:redstone/redstone_components#dropper)$(item)Dropper$() обычно строится из цепочки, направленной друг в друга. $(br2)Когда $(l:redstone/redstone_components#dropper)$(item)Droppers$() активируются, предметы перемещаются в следующий $(l:redstone/redstone_components#dropper)$(item)Dropper$(). $(br2)Это работает во всех направлениях."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "text": "Эта конструкция — самопитающийся лифт для предметов.",
+      "multiblock": {
+        "pattern": [
+          [
+            "C  ",
+            "   "
+          ],
+          [
+            "OX ",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ],
+          [
+            "OX0",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ],
+          [
+            "OX ",
+            "X_X"
+          ],
+          [
+            "O>X",
+            "iXI"
+          ]
+        ],
+        "mapping": {
+          "X": "minecraft:cobblestone",
+          "C": "minecraft:chest",
+          "O": "minecraft:dropper[facing=up]",
+          ">": "minecraft:comparator[facing=north]",
+          "I": "minecraft:redstone_wall_torch[facing=east,lit=true]",
+          "i": "minecraft:redstone_wall_torch[facing=north,lit=false]",
+          "_": "minecraft:redstone_wire[east=side,west=side,north=side,south=side,power=15]"
+        }
+      }
+    },
+    {
+      "title": "Аллеи",
+      "type": "patchouli:text",
+      "text": "$(l:creatures/animal-allay)$(thing)Allays$() собирают и доставляют предметы любому $(l:creatures/human-player)$(thing)Player$(), который дал им предмет, или к любому $(l:redstone/redstone_components#noteblock)$(item)Noteblock$(), который они слышат."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:allay",
+      "scale": "0.5"
+    }
+  ]
+}

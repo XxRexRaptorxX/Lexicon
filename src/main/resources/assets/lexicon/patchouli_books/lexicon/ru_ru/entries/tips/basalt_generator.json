@@ -1,0 +1,19 @@
+{
+  "name": "Генератор базальта",
+  "icon": "minecraft:basalt",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Lava$() превращается в $(item)Basalt$(), если находится над блоком $(item)Soul Soil$() и рядом с блоком $(item)Blue Ice$(). $(br2)Блок $(item)Soul Soil$() $(l)ДОЛЖЕН$() быть под $(item)Lava$(), а $(item)Blue Ice$() может находиться сбоку или сверху."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/basalt_generator_1.png",
+        "lexicon:textures/pictures/basalt_generator_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

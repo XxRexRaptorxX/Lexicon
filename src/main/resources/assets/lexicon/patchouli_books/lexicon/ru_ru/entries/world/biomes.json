@@ -1,0 +1,20 @@
+{
+  "name": "Биомы",
+  "icon": "minecraft:filled_map",
+  "category": "lexicon:world",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Биом — это область в мире с различными географическими особенностями, флорой, температурами, уровнями влажности и цветами неба, воды, травы и листвы. $(br2)Биомы делят каждый сгенерированный мир на различные среды, такие как леса, пустыни и тайги."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/biomes.png"
+      ],
+      "border": true,
+      "text": "Вы можете найти конкретные биомы, выполнив $(thing)/locate biome$() $(l:commands)$(thing)команду$()."
+    }
+  ]
+}

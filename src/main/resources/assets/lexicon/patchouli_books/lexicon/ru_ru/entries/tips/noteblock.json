@@ -1,0 +1,27 @@
+{
+  "name": "Нотные блоки",
+  "icon": "minecraft:note_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:redstone/redstone_components#noteblock)$(item)Note Blocks$() играют ноту при ударе или подаче $(l:redstone/redstone_behavior)$(item)Redstone$(). $(br2)$(l:redstone/redstone_components#noteblock)$(item)Note Block$() должен иметь воздух прямо над собой, чтобы издавать звук. $(br2)Нажатие кнопки использования повышает высоту ноты на полутон."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/noteblock_tuning_color.png"
+      ],
+      "border": false,
+      "text": "Настройку можно посмотреть на правой стороне экрана отладки (клавиша $(thing)F3$())."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Инструмент зависит от блока под $(thing)Note Block$(): $(br)$(li)$(l)Wood$() = Бас $(li)$(l)Sand/Gravel$() = Малый барабан $(li)$(l)Glass$() = Щёлканье $(li)$(l)Stone type$() = Большой барабан $(li)$(l)Gold Block$() = Колокольчики $(li)$(l)Clay/Honeycomp$() = Флейта $(li)$(l)Packed Ice$() = Колокольчики $(li)$(l)Wool$() = Гитара $(li)$(l)Bone Block$() = Ксилофон $(li)$(l)Iron Block$() = Железный ксилофон $(li)$(l)Soul Sand$() = Корова-колокол"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Pumpkin$() = Диджериду $(li)$(l)Emerald Block$() = Bit $(li)$(l)Hay Bale$() = Банджо $(li)$(l)Glowstone$() = Pling $(li)$(l)all other$() = Арфа/пианино $(br2)Если поставить $(l:rare/mob_head)$(item)Head$() $(n)над$() нотным блоком, он будет воспроизводить звук соответствующего моба при активации."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Монстр - Шалкер",
+  "icon": "minecraft:shulker_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$()   $(br)> $(n)Урон:$() 4 + $(l:brewing/effects#levitation)$(thing)Парение$() $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Место появления:$() $(l:world/structures#end_city)Города Края$()    $(br)> $(n)Свойства:$() $(br)$(thing)Шалкеры$() — коробкообразные враждебные мобы, встречающиеся в $(l:world/structures#end_city)$(thing)Городах Края$(). Они прячутся в своей оболочке, чтобы сливаться с окружающими $(item)Пурпурными блоками$() и охранять городские сокровища. $(thing)Шалкеры$() обычно остаются неподвижными, прикреплёнными к соседнему твёрдому блоку. Стреляют снарядами с эффектом $(l:brewing/effects#levitation)$(thing)Парения$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Peek:16}",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() 50% шанс на панцирь шалкера$(br)$(n)Опыт:$() 5"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:16}",
+      "scale": "0.5",
+      "name": "(Естественный) Шалкер",
+      "text": "ID цвета: 16"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:0}",
+      "scale": "0.5",
+      "name": "Белый шалкер",
+      "text": "ID цвета: 0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:1}",
+      "scale": "0.5",
+      "name": "Оранжевый шалкер",
+      "text": "ID цвета: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:2}",
+      "scale": "0.5",
+      "name": "Пурпурный шалкер",
+      "text": "ID цвета: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:3}",
+      "scale": "0.5",
+      "name": "Голубой шалкер",
+      "text": "ID цвета: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:4}",
+      "scale": "0.5",
+      "name": "Жёлтый шалкер",
+      "text": "ID цвета: 4"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:5}",
+      "scale": "0.5",
+      "name": "Лаймовый шалкер",
+      "text": "ID цвета: 5"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:6}",
+      "scale": "0.5",
+      "name": "Розовый шалкер",
+      "text": "ID цвета: 6"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:7}",
+      "scale": "0.5",
+      "name": "Серый шалкер",
+      "text": "ID цвета: 7"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:8}",
+      "scale": "0.5",
+      "name": "Светло-серый шалкер",
+      "text": "ID цвета: 8"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:9}",
+      "scale": "0.5",
+      "name": "Бирюзовый шалкер",
+      "text": "ID цвета: 9"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:10}",
+      "scale": "0.5",
+      "name": "Фиолетовый шалкер",
+      "text": "ID цвета: 10"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:11}",
+      "scale": "0.5",
+      "name": "Синий шалкер",
+      "text": "ID цвета: 11"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:12}",
+      "scale": "0.5",
+      "name": "Коричневый шалкер",
+      "text": "ID цвета: 12"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:13}",
+      "scale": "0.5",
+      "name": "Зелёный шалкер",
+      "text": "ID цвета: 13"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:14}",
+      "scale": "0.5",
+      "name": "Красный шалкер",
+      "text": "ID цвета: 14"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:shulker{Color:15}",
+      "scale": "0.5",
+      "name": "Чёрный шалкер",
+      "text": "ID цвета: 15"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Костёр",
+  "icon": "minecraft:campfire",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:campfire",
+      "text": "$(item)Костёр$() — блок, который можно использовать для готовки еды без топлива, а также как источник света или дымовой сигнал."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:campfire",
+      "recipe2": "minecraft:soul_campfire",
+      "title": " "
+    }
+  ]
+}

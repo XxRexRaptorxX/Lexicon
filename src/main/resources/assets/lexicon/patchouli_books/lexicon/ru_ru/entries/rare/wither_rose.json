@@ -1,0 +1,12 @@
+{
+  "name": "Роза иссушения",
+  "icon": "minecraft:wither_rose",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_rose",
+      "text": "$(item)Роза иссушения$() — уникальный цветок с отрицательными свойствами. $(br2)Любой $(l:creatures/human-player)$(thing)игрок$() или моб, коснувшийся её, получает эффект $(l:brewing/effects#wither)$(thing)иссушения$(). $(br2)Её можно получить только когда $(l:creatures/boss-wither)$(thing)Иссушитель$() убивает другое существо."
+    }
+  ]
+}

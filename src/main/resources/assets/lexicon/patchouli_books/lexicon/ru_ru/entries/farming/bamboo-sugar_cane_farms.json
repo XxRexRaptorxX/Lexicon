@@ -1,0 +1,36 @@
+{
+  "name": "Ферма бамбука/сахарного тростника",
+  "icon": "minecraft:bamboo",
+  "category": "lexicon:farming",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта ферма может полностью автоматически собирать $(item)Бамбук$() и $(item)Сахарный тростник$(). $(br2)Когда $(l:redstone/redstone_components#observer)$(item)Наблюдатели$() замечают, что перед ними что-то выросло, $(l:redstone/redstone_components#piston)$(item)Поршни$() ниже ломают растение, а $(item)Вода$() переносит дроп в $(l:redstone/redstone_components#hopper)$(item)Воронку$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_bamboo_farm_3.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Большая автоматическая ферма бамбука",
+      "text": "Здесь вместо $(item)Воды$() для сбора предметов используется $(item)Вагонетка с воронкой$(), это эффективнее и обычно имеет смысл на больших фермах."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/auto_double_bamboo_farm_1.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_2.png",
+        "lexicon:textures/pictures/auto_double_bamboo_farm_3.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

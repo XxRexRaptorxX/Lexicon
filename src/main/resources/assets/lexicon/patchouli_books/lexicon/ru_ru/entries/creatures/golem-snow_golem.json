@@ -1,0 +1,38 @@
+{
+  "name": "Голем - Снежный голем",
+  "icon": "minecraft:carved_pumpkin",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 4     $(br)> $(n)Attack Damage:$() 3 по $(l:creatures/monster-blaze)$(thing)Всполохам$() $(br)> $(n)Behavior:$() Пассивный, агрессивен к монстрам $(br)> $(n)Spawn:$() При создании $(l:creatures/human-player)$(thing)Игроком$() $(br)> $(n)Properties:$() $(br)Для создания $(thing)Снежного голема$() $(l:creatures/human-player)$(thing)Игрок$() должен поставить два $(item)Снежных блока$() друг на друга, затем сверху поместить $(item)Вырезанную тыкву$() или $(item)Светильник Джека$(). Бросает в монстров $(item)Снежки$(). Таят в жарких биомах и при контакте с водой. При перемещении оставляют след из $(item)Снега$() на земле."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:snow_golem",
+      "scale": "0.5",
+      "text": "$(n)Drops:$() 0-15 Снежков  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "O "
+          ],
+          [
+            "X0"
+          ],
+          [
+            "X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin",
+          "X": "minecraft:snow_block"
+        }
+      },
+      "text": "Как создать $(thing)Снежного голема$()."
+    }
+  ]
+}

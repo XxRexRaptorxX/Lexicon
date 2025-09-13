@@ -1,0 +1,17 @@
+{
+  "name": "Звезда Незера",
+  "icon": "minecraft:nether_star",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:nether_star",
+      "text": "$(item)Звезда Незера$() — редкий предмет, выпадающий из $(l:creatures/boss-wither)$(thing)Иссушителя$(), используемый для создания предметов поздней стадии, таких как $(l:rare/beacon)$(item)Маяк$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon"
+    }
+  ]
+}
+

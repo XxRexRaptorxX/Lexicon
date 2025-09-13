@@ -1,0 +1,12 @@
+{
+  "name": "Элитры",
+  "icon": "minecraft:elytra",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:elytra",
+      "text": "$(item)Элитры$() — редкие крылья, найденные в $(l:world/structures#end_ship)$(thing)кораблях Края$(). $(br2)Надеваются в слот нагрудника и позволяют летать! $(br2)Для ускорения можно использовать $(item)фейерверки$()."
+    }
+  ]
+}

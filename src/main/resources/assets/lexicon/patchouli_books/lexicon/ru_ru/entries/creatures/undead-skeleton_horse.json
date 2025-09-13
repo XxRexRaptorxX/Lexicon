@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Скелет-лошадь",
+  "icon": "minecraft:skeleton_horse_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 15     $(br)> $(n)Урон атаки:$() 0    $(br)> $(n)Поведение:$() Пассивный     $(br)> $(n)Появление:$() $(l:world/dimensions#overworld)Верхний мир$() во время гроз $(br)> $(n)Особенности:$() $(br)$(thing)Скелет-лошади$() становятся пассивными и приручёнными, если $(l:creatures/human-player)$(thing)Игрок$() убивает ездящего $(l:creatures/undead-skeleton)$(thing)Скелета$(). Можно оседлать с помощью $(item)Седла$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton_horse",
+      "scale": "0.5",
+      "text": "$(n)Добыча:$() 1-3 кости  $(n)Опыт:$() 1-3"
+    }
+  ]
+}

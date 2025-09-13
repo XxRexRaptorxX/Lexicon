@@ -1,0 +1,21 @@
+{
+  "name": "Ферма шерсти",
+  "icon": "minecraft:white_wool",
+  "category": "lexicon:farming",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта ферма автоматически стрижёт $(l:creatures/animal-sheep)$(thing)Овец$(), проверяя с помощью $(l:redstone/redstone_components#observer)$(item)Наблюдателя$(), выросла ли у $(l:creatures/animal-sheep)$(thing)Овец$() новая $(item)Шерсть$() после поедания $(item)Блока травы$(). $(br2)Важно, чтобы поблизости были дополнительные $(item)Блоки травы$(), позволяющие $(item)Земле$() снова зарастать."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/wool_farm_1.png",
+        "lexicon:textures/pictures/wool_farm_2.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

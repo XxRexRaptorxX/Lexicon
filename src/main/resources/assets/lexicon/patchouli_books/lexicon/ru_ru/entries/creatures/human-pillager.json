@@ -1,0 +1,17 @@
+{
+  "name": "Гуманоид - Разбойник",
+  "icon": "minecraft:pillager_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)Дальний: 3-4 на лёгком, 4 на нормальном, 4-5 на сложном $(br)Ближний: 2 на лёгком, 3 на нормальном, 5 на сложном $(br)> $(n)Behavior:$() Враждебный     $(br)> $(n)Spawn:$() Патрули, $(l:world/structures#outpost)Аванпосты разбойников$(), Набеги $(br)> $(n)Properties:$() $(br)$(thing)Разбойники$() — это $(thing)Илладжеры$(), которые патрулируют $(l:world/dimensions#overworld)$(thing)Верхний мир$(), охраняют свои $(l:world/structures#outpost)$(thing)Аванпосты$() и участвуют в набегах, иногда появляясь на $(l:creatures/monster#ravanger)$(thing)Разорителях$() в поздних волнах набега на $(l:world/structures#village)$(thing)Деревню$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pillager",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 8,5% на Арбалет, 1 Зловещий флаг если появился как $(l:creatures/boss-raid_captain)$(thing)Капитан$() $(br)$(n)XP:$() 5-17"
+    }
+  ]
+}
