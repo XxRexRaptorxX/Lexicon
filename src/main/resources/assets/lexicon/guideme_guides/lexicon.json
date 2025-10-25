@@ -1,0 +1,9 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "patchouli.lexicon.name"
+    },
+    "model": "lexicon:item/lexicon"
+  }
+}
