@@ -208,7 +208,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:observer",
       "recipe2": "minecraft:hopper"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:jukebox",
       "recipe2": "minecraft:note_block"

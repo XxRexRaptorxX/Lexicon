@@ -681,7 +681,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:gold_block",
       "recipe2": "minecraft:gold_nugget"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:raw_gold",
       "recipe2": "minecraft:raw_gold_block"
@@ -749,7 +750,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:lantern",
       "recipe2": "minecraft:soul_lantern"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:torch",
       "recipe2": "minecraft:soul_torch"

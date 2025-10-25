@@ -202,7 +202,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:item_frame",
       "recipe2": "minecraft:glow_item_frame"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:lectern",
       "recipe2": "minecraft:lodestone"

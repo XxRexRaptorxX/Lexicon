@@ -17,7 +17,6 @@
       "title": "Texture",
       "border": true
     },
-
     {
       "type": "patchouli:text",
       "title": "Depth",
@@ -30,7 +29,6 @@
       ],
       "border": true
     },
-
     {
       "type": "patchouli:text",
       "title": "Overdetailing",
@@ -43,7 +41,6 @@
       ],
       "border": true
     },
-
     {
       "type": "patchouli:text",
       "title": "Step by Step",

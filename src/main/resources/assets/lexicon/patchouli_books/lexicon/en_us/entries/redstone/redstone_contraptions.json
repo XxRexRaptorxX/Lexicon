@@ -77,13 +77,11 @@
           "a": "minecraft:stone_brick_stairs[facing=east,half=bottom]",
           "s": "minecraft:stone_brick_stairs[facing=south,half=bottom]",
           "d": "minecraft:stone_brick_stairs[facing=west,half=bottom]"
-
         }
       },
       "name": "Street Lamp",
       "text": "This is a street lamp that turns itself on at night."
     },
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -554,7 +552,7 @@
           "c": "minecraft:chest[facing=east,type=left]"
         }
       },
-      "name":  "Super Smelter",
+      "name": "Super Smelter",
       "text": "The best way to smelt a lot of ores after a mining session. You have to place $(item)Hopper Minecarts$() on the $(item)Rails$(), they distribute the materials."
     },
     {

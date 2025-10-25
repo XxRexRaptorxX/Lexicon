@@ -20,7 +20,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:armorer}}",
@@ -34,7 +33,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:butcher}}",
@@ -48,7 +46,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cartographer}}",
@@ -62,7 +59,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fisherman}}",
@@ -76,7 +72,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:fletcher}}",
@@ -90,7 +85,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:leatherworker}}",
@@ -104,7 +98,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:librarian}}",
@@ -118,7 +111,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:mason}}",
@@ -132,7 +124,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:shepherd}}",
@@ -146,7 +137,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:cleric}}",
@@ -160,7 +150,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:farmer}}",
@@ -174,7 +163,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:toolsmith}}",
@@ -188,7 +176,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:weaponsmith}}",
@@ -202,7 +189,6 @@
       ],
       "border": false
     },
-
     {
       "type": "patchouli:entity",
       "entity": "minecraft:villager{VillagerData:{profession:nitwit}}",

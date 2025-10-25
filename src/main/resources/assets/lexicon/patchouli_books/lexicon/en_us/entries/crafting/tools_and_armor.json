@@ -156,7 +156,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:golden_helmet",
       "recipe2": "minecraft:golden_chestplate"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:golden_leggings",
       "recipe2": "minecraft:golden_boots"
@@ -180,7 +181,8 @@
       "type": "patchouli:crafting",
       "recipe": "minecraft:diamond_leggings",
       "recipe2": "minecraft:diamond_boots"
-    },    {
+    },
+    {
       "type": "patchouli:crafting",
       "recipe": "minecraft:fishing_rod",
       "recipe2": "minecraft:flint_and_steel"

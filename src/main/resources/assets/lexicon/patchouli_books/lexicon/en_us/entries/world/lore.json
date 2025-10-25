@@ -269,7 +269,6 @@
       "type": "patchouli:text",
       "text": "The Builders once again need to flee, but have nowhere left to go. $(br2)They'd escaped to another world before however, so why not again? $(br2)They steal $(item)Sculk Catalyst$() blocks, using them to create $(item)End Frames$(), and creating the $(thing)Stronghold$() to protect themselves from the $(thing)Wardens$() crafted by the $(item)Sculk$() in retaliation."
     },
-
     {
       "type": "patchouli:text",
       "title": "10. The corruption",
@@ -349,13 +348,5 @@
       "type": "patchouli:text",
       "text": "This lore is not confirmed from the devs, but can be put together based on various clues from the game. $(br2)It doesn't have to be correct, but it explains a lot of things! $(br)Most of the theory is compiled by $(l:https://www.youtube.com/channel/UCo_IB5145EVNcf8hw1Kku7w)MatPat$() and more details can be found $(l:https://www.reddit.com/r/GameTheorists/comments/qfclup/i_think_i_solved_minecrafts_complete_lore/)here$()"
     }
-
-
-
-
-
-
-
-
   ]
 }

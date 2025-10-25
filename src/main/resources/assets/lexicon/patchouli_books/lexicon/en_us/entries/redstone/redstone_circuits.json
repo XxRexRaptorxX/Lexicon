@@ -11,28 +11,26 @@
     {
       "type": "patchouli:multiblock",
       "multiblock": {
-          "pattern": [
-            [
-              "   0  "
-            ],
-            [
-              "OMTXWL"
-            ]
+        "pattern": [
+          [
+            "   0  "
           ],
-          "mapping": {
-            "L": "minecraft:lever[facing=north,face=floor,powered=false]",
-            "W": "minecraft:redstone_wire[north=side,south=side]",
-            "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
-            "X": "minecraft:gold_block",
-            "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
-            "O": "minecraft:redstone_lamp[lit=true]"
-          }
+          [
+            "OMTXWL"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lever[facing=north,face=floor,powered=false]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "M": "minecraft:redstone_wire[north=side,south=side,power=15]",
+          "X": "minecraft:gold_block",
+          "T": "minecraft:redstone_wall_torch[facing=north,lit=true]",
+          "O": "minecraft:redstone_lamp[lit=true]"
+        }
       },
-        "name": "NOT-Gate",
-        "text": "Also known as inverter. $(br)This gate is used when an opposite output is wanted from the input given."
+      "name": "NOT-Gate",
+      "text": "Also known as inverter. $(br)This gate is used when an opposite output is wanted from the input given."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -66,8 +64,6 @@
       "name": "OR-Gate",
       "text": "A gate which is used 2 or more inputs and whenever any input is $(l)on$(), the output is $(l)off$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -98,8 +94,6 @@
       "name": "Simple OR-Gate",
       "text": "But an OR-Gate in minecraft can also be a simple redstone connection."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -132,8 +126,6 @@
       "name": "NOR-Gate",
       "text": "This gate is the opposite of the $(thing)OR-Gate$(). Whenever at least one switch is toggeled to $(l)on$(), the output is toggeled to $(l)off."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -171,7 +163,6 @@
       "name": "AND-Gate",
       "text": "The output is toggled to $(l)on$() only when $(n)all$() inputs are $(l)on$(). Otherwise, the output will remain $(l)off$()."
     },
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -200,8 +191,6 @@
       "name": "AND-Gate",
       "text": "The previous variant of the AND-Gate is for 3 inputs and this one for 2."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -231,8 +220,6 @@
       "name": "NAND-Gate",
       "text": "This gate turns the output $(l)off$() only when $(n)all$() inputs are $(l)on$(), the reverse of an $(thing)AND-Gate$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -266,8 +253,6 @@
       "name": "XOR-Gate",
       "text": "This gate that uses 2 inputs and the output is toggled to $(l)on$() when one switch is $(l)on$() and one switch is $(l)off$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -301,8 +286,6 @@
       "name": "XNOR-Gate",
       "text": "The opposite of an $(thing)XOR-Gate$(). It uses 2 inputs. When both switches are in the same state (both switches are $(l)on$() or both are $(l)off$()), then the output is toggled to $(l)on$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -333,8 +316,6 @@
       "name": "IMPLY-Gate",
       "text": "This gate turns on either if both inputs are $(l)on$(), or if the first input is $(l)off$(). $(br)Unlike the other gates, the inputs are not interchangeable; it's not commutative."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -354,8 +335,6 @@
       "name": "Hopper-Clock",
       "text": "A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 $(l:redstone/redstone_components#hopper)$(item)Hoppers$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -378,9 +357,6 @@
       "name": "Comparator-Clock",
       "text": "The clock of short or moderate cycle length utilizing $(l:redstone/redstone_components#comparator)$(item)Comparator's$() subtraction or signal fading feature."
     },
-
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -408,8 +384,6 @@
       "name": "Repeater-Clock",
       "text": "This clock consists of a loop of $(l:redstone/redstone_components#repeater)$(item)Repeaters$() with occasional dust or blocks to draw off the appropriate pulses."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "anchor": "t-flip-flop",
@@ -435,14 +409,11 @@
           "1": "minecraft:repeater[powered=true,delay=1,facing=west]",
           "2": "minecraft:repeater[powered=true,delay=3,facing=south,locked=true]",
           "3": "minecraft:repeater[powered=false,delay=4,facing=north]"
-
         }
       },
       "name": "T Flip-flop",
       "text": "Also known as 'toggles'. Whenever the input changes from $(l)off$() to $(l)on$(), the output will toggle its state."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -463,8 +434,6 @@
       "name": "Observer T Flip-flop",
       "text": ""
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -488,8 +457,6 @@
       "name": "Randomizer",
       "text": "Put items of varying stack size into the $(l:redstone/redstone_components#dropper)$(item)Dropper$(), e.g. a $(item)Sword$() and a piece of $(item)Dirt$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -512,8 +479,6 @@
       "name": "Input Stabilizator",
       "text": "This circuit responds to an input pulse by turning its input & output $(l)on$() and leaving it $(l)on$()."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -545,8 +510,6 @@
       "name": "RS-ISR Latch",
       "text": "This is a $(thing)Input Stabilizator$() with reset option."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -557,7 +520,6 @@
           [
             " 0P  "
           ]
-
         ],
         "mapping": {
           "L": "minecraft:lever[facing=north,face=floor,powered=false]",
@@ -571,8 +533,6 @@
       "name": "Pulse Generator",
       "text": "A $(thing)Pulse Generator$() creates an output pulse when triggered."
     },
-
-
     {
       "type": "patchouli:multiblock",
       "multiblock": {
@@ -582,7 +542,6 @@
             " XRXRXRXRXRy ",
             "OWWWWWWWWWXYB"
           ]
-
         ],
         "mapping": {
           "B": "minecraft:stone_button[face=floor,facing=north,powered=false]",

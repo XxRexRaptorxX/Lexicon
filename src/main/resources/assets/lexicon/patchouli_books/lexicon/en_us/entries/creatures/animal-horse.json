@@ -215,7 +215,8 @@
       "scale": "0.5",
       "name": "Black Dots-Creamy",
       "text": "Variant ID: 1025"
-    },    {
+    },
+    {
       "type": "patchouli:entity",
       "entity": "minecraft:horse{Variant:1026}",
       "scale": "0.5",

@@ -51,7 +51,8 @@
         "lexicon:textures/pictures/haste_effect.png"
       ],
       "border": false
-    },    {
+    },
+    {
       "type": "patchouli:text",
       "title": "Mining Fatigue",
       "anchor": "mining_fatigue",
@@ -190,7 +191,8 @@
         "lexicon:textures/pictures/invisibility_effect.png"
       ],
       "border": false
-    },    {
+    },
+    {
       "type": "patchouli:text",
       "title": "Blindness",
       "text": "$(n)Type:$() Negative $(br2)$(n)Effect:$() $(br)Impairs vision and disables the ability to sprint and critical hit. $(br2)$(n)Sources:$() $(br)$(l:brewing/suspicious_stew)$(item)Suspicious Stew$(), $(l:creatures/human-illusioner)$(thing)Illusioner$(), $(l:commands)$(thing)/effect command$()"

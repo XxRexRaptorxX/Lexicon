@@ -8,12 +8,15 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 itemIcon="minecraft:written_book"
-updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/Lexicon_NEO.json"
+updateJSONURL="https://raw.githubusercontent.com/XxRexRaptorxX/Lexicon/refs/heads/main/versions.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/lexicon"
 logoFile="logo.png"
 credits="The Minecraft Wiki for some graphics and informations"
 authors="${mod_authors}"
 description='''This mod adds a lexicon to the game that explains almost every aspect of Minecraft ingame!'''
+
+[modproperties.${mod_id}]
+configuredBackground="minecraft:textures/block/bookshelf.png"
 
 [[dependencies.${mod_id}]]
 modId="neoforge"
@@ -35,7 +38,7 @@ side="BOTH"
 modId="guideme"
 mandatory=true
 type="required"
-reason="Is needed for the in-game description book, because the mod is quite complex."
+reason="Basemod for Lexicon."
 versionRange="[21.5,)"
 ordering="NONE"
 side="BOTH"
@@ -44,7 +47,16 @@ side="BOTH"
 modId="patchouli"
 mandatory=false
 type="optional"
-reason="Is needed for the in-game description book, because the mod is quite complex."
+reason="Basemod for Lexicon."
 versionRange="[1.21,)"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="magmacore"
+referralUrl="https://www.curseforge.com/minecraft/mc-mods/magma-core"
+reason="Provides basic code and features such as update-checker"
+type="required"
+versionRange="${magmacore_version_range}"
+ordering="AFTER"
 side="BOTH"

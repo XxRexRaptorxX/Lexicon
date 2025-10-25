@@ -60,7 +60,8 @@
       "entity": "minecraft:cat{variant:ragdoll}",
       "scale": "0.5",
       "name": "Ragdoll Cat"
-    },    {
+    },
+    {
       "type": "patchouli:entity",
       "entity": "minecraft:cat{variant:white}",
       "scale": "0.5",
