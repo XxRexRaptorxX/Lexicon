@@ -15,7 +15,6 @@ credits="The Minecraft Wiki for some graphics and informations"
 authors="${mod_authors}"
 description='''This mod adds a lexicon to the game that explains almost every aspect of Minecraft ingame!'''
 
-
 [[dependencies.${mod_id}]]
 modId="neoforge"
 mandatory=true
@@ -33,9 +32,19 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
-modId="patchouli"
+modId="guideme"
 mandatory=true
 type="required"
+reason="Is needed for the in-game description book, because the mod is quite complex."
+versionRange="[21.5,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="patchouli"
+mandatory=false
+type="optional"
+reason="Is needed for the in-game description book, because the mod is quite complex."
 versionRange="[1.21,)"
 ordering="NONE"
 side="BOTH"
