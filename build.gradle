@@ -58,6 +58,11 @@ neoForge {
             client()
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+            //GuideMe
+            systemProperty "guideme.${mod_id}.lexicon.sources", file("src/main/resources/assets/${mod_id}/guides/${mod_id}/lexicon").absolutePath
+            systemProperty "guideme.${mod_id}.lexicon.sourcesNamespace", "${mod_id}"
+            systemProperty('guideme.showOnStartup', "${mod_id}:lexicon!index.md")
         }
 
         server {
@@ -105,6 +110,7 @@ neoForge {
             sourceSet(sourceSets.main)
         }
     }
+
 }
 
 // ========================================
