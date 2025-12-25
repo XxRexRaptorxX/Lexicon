@@ -452,14 +452,17 @@ This is a self-powering item elevator.
 
 ## Auto-Smelter
 
-<GameScene interactive={true} zoom={2}>
-  <Block x="1" y="0" z="0" id="minecraft:chest"p:facing="north" />
-  <Block x="1" y="1" z="0" id="minecraft:hopper"p:enabled="true" />
-  <Block x="2" y="1" z="0" id="minecraft:chest"p:facing="north" />
-  <Block x="1" y="2" z="0" id="minecraft:furnace"p:facing="north" />
-  <Block x="2" y="2" z="0" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="0" y="3" z="0" id="minecraft:chest"p:facing="north" />
-  <Block x="1" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="north" />
+<GameScene zoom={2} interactive={true}>
+    <Block x="1" y="3" z="1" id="minecraft:chest" p:facing="north" />
+
+    <Block x="1" y="2" z="1" id="minecraft:hopper" />
+    <Block x="1" y="2" z="2" id="minecraft:chest" p:facing="west" />
+    
+    <Block x="1" y="1" z="1" id="minecraft:furnace" p:facing="north" />
+    <Block x="1" y="1" z="2" id="minecraft:hopper" p:facing="north" />
+    
+    <Block x="1" y="0" z="0" id="minecraft:chest" p:facing="north" />
+    <Block x="1" y="0" z="1" id="minecraft:hopper" p:facing="north" />
 </GameScene>
 
 this contraption automatically fills fuel and material into the [*Furnace*](../useables/furnace.md) and melts it through automatically.
@@ -468,79 +471,89 @@ this contraption automatically fills fuel and material into the [*Furnace*](../u
 
 ## Super Smelter
 
-<GameScene interactive={true} zoom={2}>
-  <Block x="0" y="0" z="1" id="minecraft:chest"p:facing="east" p:type="left" />
-  <Block x="1" y="0" z="1" id="minecraft:chest"p:facing="east" p:type="right" />
-  <Block x="0" y="1" z="0" id="minecraft:chest"p:facing="east" p:type="left" />
-  <Block x="1" y="1" z="0" id="minecraft:chest"p:facing="east" p:type="right" />
-  <Block x="2" y="1" z="0" id="minecraft:redstone_block" />
-  <Block x="9" y="1" z="0" id="minecraft:redstone_block" />
-  <Block x="0" y="1" z="1" id="minecraft:cobblestone" />
-  <Block x="1" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="2" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="3" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="4" y="1" z="1" id="minecraft:rail"p:shape="north_south" />
-  <Block x="5" y="1" z="1" id="minecraft:rail"p:shape="north_south" />
-  <Block x="6" y="1" z="1" id="minecraft:rail"p:shape="north_south" />
-  <Block x="7" y="1" z="1" id="minecraft:rail"p:shape="north_south" />
-  <Block x="8" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="9" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="10" y="1" z="1" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="11" y="1" z="1" id="minecraft:cobblestone" />
-  <Block x="0" y="2" z="0" id="minecraft:cobblestone" />
-  <Block x="1" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="2" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="3" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="4" y="2" z="0" id="minecraft:rail"p:shape="north_south" />
-  <Block x="5" y="2" z="0" id="minecraft:rail"p:shape="north_south" />
-  <Block x="6" y="2" z="0" id="minecraft:rail"p:shape="north_south" />
-  <Block x="7" y="2" z="0" id="minecraft:rail"p:shape="north_south" />
-  <Block x="8" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="9" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="10" y="2" z="0" id="minecraft:powered_rail"p:shape="north_south" p:powered="true" />
-  <Block x="11" y="2" z="0" id="minecraft:cobblestone" />
-  <Block x="1" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="2" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="3" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="4" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="5" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="6" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="7" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="8" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="9" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="10" y="2" z="1" id="minecraft:hopper"p:enabled="true" />
-  <Block x="1" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="2" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="3" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="4" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="5" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="6" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="7" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="8" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="9" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="10" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="1" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="2" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="3" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="4" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="5" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="6" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="7" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="8" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="9" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="10" y="3" z="1" id="minecraft:blast_furnace"p:facing="east" />
-  <Block x="1" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="east" />
-  <Block x="2" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="3" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="4" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="5" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="6" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="7" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="8" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="9" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="10" y="4" z="1" id="minecraft:hopper"p:enabled="true" p:facing="north" />
-  <Block x="0" y="4" z="2" id="minecraft:chest"p:facing="east" p:type="left" />
-  <Block x="1" y="4" z="2" id="minecraft:chest"p:facing="east" p:type="right" />
+<GameScene zoom={1.5} interactive={true}>
+    <Block x="0" y="4" z="1" id="minecraft:chest" p:facing="south" p:type="right" />
+    <Block x="1" y="4" z="1" id="minecraft:chest" p:facing="south" p:type="left" />
+
+    <Block x="0" y="3" z="0" id="minecraft:chest" p:facing="south" p:type="right" />
+    <Block x="1" y="3" z="0" id="minecraft:chest" p:facing="south" p:type="left" />
+    <Block x="2" y="3" z="0" id="minecraft:redstone_block" />
+    <Block x="9" y="3" z="0" id="minecraft:redstone_block" />
+    <Entity x="5" y="3" z="0" id="minecraft:hopper_minecart" />
+    
+    <Block x="0" y="3" z="1" id="minecraft:cobblestone" />
+    <Block x="1" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="2" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="3" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="4" y="3" z="1" id="minecraft:rail" p:shape="east_west" />
+    <Block x="5" y="3" z="1" id="minecraft:rail" p:shape="east_west" />
+    <Block x="6" y="3" z="1" id="minecraft:rail" p:shape="east_west" />
+    <Block x="7" y="3" z="1" id="minecraft:rail" p:shape="east_west" />
+    <Block x="8" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="9" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="10" y="3" z="1" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="11" y="3" z="1" id="minecraft:cobblestone" />
+    <Entity x="6" y="4" z="1" id="minecraft:hopper_minecart" />
+
+    <Block x="0" y="2" z="0" id="minecraft:cobblestone" />
+    <Block x="1" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="2" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="3" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="4" y="2" z="0" id="minecraft:rail" p:shape="east_west" />
+    <Block x="5" y="2" z="0" id="minecraft:rail" p:shape="east_west" />
+    <Block x="6" y="2" z="0" id="minecraft:rail" p:shape="east_west" />
+    <Block x="7" y="2" z="0" id="minecraft:rail" p:shape="east_west" />
+    <Block x="8" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="9" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="10" y="2" z="0" id="minecraft:powered_rail" p:shape="east_west" p:powered="true" />
+    <Block x="11" y="2" z="0" id="minecraft:cobblestone" />
+    
+    <Block x="1" y="2" z="1" id="minecraft:hopper" />
+    <Block x="2" y="2" z="1" id="minecraft:hopper" />
+    <Block x="3" y="2" z="1" id="minecraft:hopper" />
+    <Block x="4" y="2" z="1" id="minecraft:hopper" />
+    <Block x="5" y="2" z="1" id="minecraft:hopper" />
+    <Block x="6" y="2" z="1" id="minecraft:hopper" />
+    <Block x="7" y="2" z="1" id="minecraft:hopper" />
+    <Block x="8" y="2" z="1" id="minecraft:hopper" />
+    <Block x="9" y="2" z="1" id="minecraft:hopper" />
+    <Block x="10" y="2" z="1" id="minecraft:hopper" />
+
+    <Block x="1" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="2" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="3" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="4" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="5" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="6" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="7" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="8" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="9" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    <Block x="10" y="1" z="0" id="minecraft:hopper" p:facing="south" />
+    
+    <Block x="1" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="2" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="3" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="4" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="5" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="6" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="7" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="8" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="9" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+    <Block x="10" y="1" z="1" id="minecraft:blast_furnace" p:facing="south" />
+  
+    <Block x="1" y="0" z="1" id="minecraft:hopper" p:facing="south" />
+    <Block x="2" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="3" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="4" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="5" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="6" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="7" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="8" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="9" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    <Block x="10" y="0" z="1" id="minecraft:hopper" p:facing="west" />
+    
+    <Block x="0" y="0" z="2" id="minecraft:chest" p:facing="south" p:type="right" />
+    <Block x="1" y="0" z="2" id="minecraft:chest" p:facing="south" p:type="left" />
 </GameScene>
 
 The best way to smelt a lot of ores after a mining session. You have to place *Hopper Minecarts* on the *Rails*, they distribute the materials.
