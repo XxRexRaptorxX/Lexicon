@@ -18,14 +18,6 @@ __A few things to note:__
 
 This farm can be expanded infinitely downwards.
 
-TODO: Unsupported flag 'border'
-![](classic_mob_farm_1.png)
-
-![](classic_mob_farm_2.png)
-
-![](classic_mob_farm_3.png)
-
-![](classic_mob_farm_shape_1.png)
-
-![](classic_mob_farm_shape_2.png)
+![](classic_mob_farm_1.png) ![](classic_mob_farm_2.png) ![](classic_mob_farm_3.png)
+![](classic_mob_farm_shape_1.png) ![](classic_mob_farm_shape_2.png)
 

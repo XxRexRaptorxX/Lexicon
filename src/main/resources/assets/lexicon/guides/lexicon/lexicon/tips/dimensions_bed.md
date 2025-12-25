@@ -13,10 +13,5 @@ Instead, for example, a [*Respawn Anchor*](../useables/respawn_anchor.md) must b
 
 But the [*Bed*](../useables/bed.md) can be useful for cheaply blowing up terrain.
 
-
-
-TODO: Unsupported flag 'border'
-![](nether_bed_1.png)
-
-![](nether_bed_2.png)
+![](nether_bed_1.png) ![](nether_bed_2.png)
 

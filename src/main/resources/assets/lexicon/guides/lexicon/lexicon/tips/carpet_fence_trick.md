@@ -11,8 +11,5 @@ navigation:
 
 That can be used for enclosures and monster defense screens.
 
-
-
-TODO: Unsupported flag 'border'
 ![](carpet_fence_trick.png)
 

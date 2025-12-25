@@ -13,9 +13,5 @@ A *Blast Furnace* is a block that smelts ores, raw metals, metal armor and tools
 
 It also serves as an [*Armorer's*](../creatures/human-villager.md#armorer) job site block.
 
-##  
-
-
-
 <Recipe id="minecraft:blast_furnace" />
 

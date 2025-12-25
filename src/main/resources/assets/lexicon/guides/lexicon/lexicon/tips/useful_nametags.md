@@ -9,11 +9,11 @@ navigation:
 
 A *Name Tag* is an item used to name mobs in the world and prevent them from __despawning__ naturally.
 
-##  
-
 To use a tag, it must first be renamed with an [*Anvil*](../useables/anvil.md), costing 1 experience level.
 
 <Recipe id="minecraft:anvil" />
+
+-----
 
 __Easter Eggs:__ 
 
@@ -25,8 +25,5 @@ __Easter Eggs:__
 
 - Naming a [*Vindicator*](../creatures/human-vindicator.md) *Johnny* causes it to be aggressive to all mobs.
 
-
-
-TODO: Unsupported flag 'border'
 ![](upside-down.png)
 

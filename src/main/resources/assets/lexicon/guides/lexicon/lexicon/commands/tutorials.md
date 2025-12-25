@@ -8,7 +8,6 @@ navigation:
 
 # Tutorials
 
-
 - [Introduction](https://www.youtube.com/watch?v=w3MBp-2Oxa4&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5)  
 - [Command Basics](https://www.youtube.com/watch?v=iurIhHVK-hk&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=2)  
 - [Repeating Commands](https://www.youtube.com/watch?v=Byf0nHnIBhM&list=PL4ZS2guXqa_jVrj73ZBl4zkkz_BdEVEb5&index=3)  

@@ -7,30 +7,38 @@ navigation:
 
 # Aquatic Animal - Pufferfish
 
-> __Health:__ 3     
-> __Attack Damage:__ 2-3 + 2 Poison, 3-4.5 on hard + 4 Poison    
-> __Behavior:__ Mostly Passive 
-> __Spawn:__ Warm Oceans    
-> __Properties:__ 
+__Health:__ 3     
+__Attack Damage:__       
+- 2-3 + 2 [Poison damage](../brewing/effects.md#poison) on normal      
+- 3-4.5 + 4 [Poison damage](../brewing/effects.md#poison) on hard    
+
+__Behavior:__ Mostly Passive       
+__Spawn:__ Warm Oceans          
+__Properties:__ 
 Can be caught with a *Bucket*.
 
-## minecraft:pufferfish (TODO)
+-----
+
+## Pufferfish
 
 <GameScene zoom={3.2}>
   <Entity id="minecraft:pufferfish" data="{PuffState:2}" />
 </GameScene>
 
-__Drops:__ 1 Pufferfish, 5% chance for Bone Meal  __XP:__ 1-3
+> __Drops:__ 1 Pufferfish, 5% chance for Bone Meal  
+> __XP:__ 1-3
+
+-----
 
 ## Halfway puffed-up
 
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:pufferfish" data="{PuffState:1}" />
 </GameScene>
 
 ## Deflated Pufferfish
 
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:pufferfish" data="{PuffState:0}" />
 </GameScene>
 

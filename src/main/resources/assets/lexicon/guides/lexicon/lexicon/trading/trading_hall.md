@@ -12,18 +12,9 @@ Villager trading halls maximize the number of [*Villagers*](../creatures/human-v
 
 You can easily change the jobs and thus the trades of the [*Villagers*](../creatures/human-villager.md) with the job site blocks.
 
+![](trading_hall_1.png) ![](trading_hall_2.png) ![](trading_hall_3.png) ![](trading_hall_4.png)
 
-
-TODO: Unsupported flag 'border'
-![](trading_hall_1.png)
-
-![](trading_hall_2.png)
-
-![](trading_hall_3.png)
-
-![](trading_hall_4.png)
-
-## Trading Hall
+-----
 
 <GameScene interactive={true} zoom={2}>
   <Block x="0" y="0" z="1" id="minecraft:cobblestone_wall"p:east="low" p:north="none" p:south="none" p:west="none" p:up="true" />

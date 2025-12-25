@@ -7,15 +7,7 @@ navigation:
 
 # Ominous Banner
 
-## Ominous Banner
-
 An *Ominous Banner* is a special uncraftable variant of the *Banner* only obtained from [*Raid Captains*](../creatures/boss-raid_captain.md).
 
-![](ominous_banner.png)
-
-## Pillager Captain
-
-
-
-![](pillager_captain.png)
+![](ominous_banner.png) ![](pillager_captain.png)
 

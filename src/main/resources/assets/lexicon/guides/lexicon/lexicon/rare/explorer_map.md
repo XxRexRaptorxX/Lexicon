@@ -13,9 +13,5 @@ An *Explorer Map* is a special *Map* used to aid in finding rare generated struc
 
 These maps can be traded from a [*Cartographer Villager*](../creatures/human-villager.md#cartographer) or found in [*Ocean Ruins*](../world/structures.md#ruin) or [*Shipwrecks*](../world/structures.md#shipwreck).
 
-
-
-![](explorer_map_1.png)
-
-![](explorer_map_2.png)
+![](explorer_map_1.png) ![](explorer_map_2.png)
 

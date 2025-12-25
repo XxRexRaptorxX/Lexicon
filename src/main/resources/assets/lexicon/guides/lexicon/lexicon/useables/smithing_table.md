@@ -13,9 +13,5 @@ A *Smithing Table* is a [*Toolsmith's*](../creatures/human-villager.md#toolsmith
 
 It can be used to upgrade *Diamond* gear into *Netherite* gear.
 
-##  
-
-
-
 <Recipe id="minecraft:smithing_table" />
 

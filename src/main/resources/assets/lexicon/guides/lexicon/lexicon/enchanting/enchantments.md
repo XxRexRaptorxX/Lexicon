@@ -14,6 +14,8 @@ __Primary Items:__ The items that can receive the enchantment legitimately in Su
 
 __Secondary Items:__ Items that, in Survival mode, cannot receive the enchantment from an [*Enchanting Table*](../useables/enchanting_table.md) but can from an *Enchanted Book* with an [*Anvil*](../useables/anvil.md).
 
+-----
+
 ## Aqua Affinity
 
 __Effect:__ 
@@ -27,6 +29,8 @@ __Secondary Items:__ /
 
 __Max Level:__ I 
 
+-----
+
 ## Bane of Arthropods
 
 __Effect:__ 
@@ -39,6 +43,8 @@ __Primary Items:__ Swords
 __Secondary Items:__ Axes  
 
 __Max Level:__ V 
+
+-----
 
 ## Blast Protection
 
@@ -54,6 +60,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 <a name="channeling"></a>
 ## Channeling
 
@@ -68,6 +76,8 @@ __Secondary Items:__ /
 
 __Max Level:__ I 
 
+-----
+
 ## Depth Strider
 
 __Effect:__ 
@@ -81,6 +91,8 @@ __Secondary Items:__ /
 
 __Max Level:__ III 
 
+-----
+
 ## Efficiency
 
 __Effect:__ 
@@ -93,6 +105,8 @@ __Primary Items:__ All common tools
 __Secondary Items:__ Shears  
 
 __Max Level:__ V 
+
+-----
 
 <a name="feather falling"></a>
 ## Feather Falling
@@ -108,6 +122,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 ## Fire Aspect
 
 __Effect:__ 
@@ -120,6 +136,8 @@ __Primary Items:__ Swords
 __Secondary Items:__ /  
 
 __Max Level:__ II 
+
+-----
 
 ## Fire Protection
 
@@ -134,6 +152,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 ## Flame
 
 __Effect:__ 
@@ -146,6 +166,8 @@ __Primary Items:__ Bows
 __Secondary Items:__ /  
 
 __Max Level:__ I 
+
+-----
 
 ## Fortune
 
@@ -161,6 +183,8 @@ __Secondary Items:__ /
 
 __Max Level:__ III 
 
+-----
+
 <a name="frost_walker"></a>
 ## Frost Walker
 
@@ -175,6 +199,8 @@ __Secondary Items:__ /
 
 __Max Level:__ II 
 
+-----
+
 ## Impaling
 
 __Effect:__ 
@@ -188,6 +214,8 @@ __Secondary Items:__ /
 
 __Max Level:__ V 
 
+-----
+
 ## Infinity
 
 __Effect:__ 
@@ -200,6 +228,8 @@ __Primary Items:__ Bows
 __Secondary Items:__ /  
 
 __Max Level:__ I 
+
+-----
 
 <a name="knockback"></a>
 ## Knockback
@@ -215,6 +245,8 @@ __Secondary Items:__ /
 
 __Max Level:__ II 
 
+-----
+
 <a name="looting"></a>
 ## Looting
 
@@ -229,6 +261,8 @@ __Secondary Items:__ /
 
 __Max Level:__ III 
 
+-----
+
 ## Loyalty
 
 __Effect:__ 
@@ -241,6 +275,8 @@ __Primary Items:__ Tridents
 __Secondary Items:__ /  
 
 __Max Level:__ III 
+
+-----
 
 ## Luck of the Sea
 
@@ -255,6 +291,8 @@ __Secondary Items:__ /
 
 __Max Level:__ III 
 
+-----
+
 ## Lure
 
 __Effect:__ 
@@ -267,6 +305,8 @@ __Primary Items:__ Fishing Rod
 __Secondary Items:__ /  
 
 __Max Level:__ III 
+
+-----
 
 ## Mending
 
@@ -282,6 +322,8 @@ All useable items with durability
 
 __Max Level:__ I 
 
+-----
+
 ## Multishot
 
 __Effect:__ 
@@ -294,6 +336,8 @@ __Primary Items:__ Crossbow
 __Secondary Items:__ /  
 
 __Max Level:__ I 
+
+-----
 
 ## Piercing
 
@@ -308,6 +352,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 ## Power
 
 __Effect:__ 
@@ -320,6 +366,8 @@ __Primary Items:__ Bows
 __Secondary Items:__ /  
 
 __Max Level:__ V 
+
+-----
 
 ## Projectile Protection
 
@@ -334,6 +382,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 ## Protection
 
 __Effect:__ 
@@ -346,6 +396,8 @@ __Primary Items:__ Armor
 __Secondary Items:__ /  
 
 __Max Level:__ IV 
+
+-----
 
 ## Punch
 
@@ -360,6 +412,8 @@ __Secondary Items:__ /
 
 __Max Level:__ II 
 
+-----
+
 ## Quick Charge
 
 __Effect:__ 
@@ -372,6 +426,8 @@ __Primary Items:__ Crossbow
 __Secondary Items:__ /  
 
 __Max Level:__ III 
+
+-----
 
 ## Respiration
 
@@ -386,6 +442,8 @@ __Secondary Items:__ /
 
 __Max Level:__ II 
 
+-----
+
 ## Riptide
 
 __Effect:__ 
@@ -398,6 +456,8 @@ __Primary Items:__ Trident
 __Secondary Items:__ /  
 
 __Max Level:__ III 
+
+-----
 
 ## Sharpness
 
@@ -413,6 +473,8 @@ __Secondary Items:__ Axes
 
 __Max Level:__ V 
 
+-----
+
 <a name="silk_touch"></a>
 ## Silk Touch
 
@@ -426,6 +488,8 @@ __Primary Items:__ All common tools
 __Secondary Items:__ /  
 
 __Max Level:__ I 
+
+-----
 
 ## Smite
 
@@ -441,6 +505,8 @@ __Secondary Items:__ Axes
 
 __Max Level:__ V 
 
+-----
+
 ## Soul Speed
 
 __Effect:__ 
@@ -453,6 +519,8 @@ __Primary Items:__ Boots
 __Secondary Items:__ /  
 
 __Max Level:__ III 
+
+-----
 
 ## Sweeping Edge
 
@@ -467,6 +535,8 @@ __Secondary Items:__ /
 
 __Max Level:__ III 
 
+-----
+
 ## Thorns
 
 __Effect:__ 
@@ -479,6 +549,8 @@ __Primary Items:__ Chestplate
 __Secondary Items:__ Armor 
 
 __Max Level:__  
+
+-----
 
 ## Unbreaking
 
@@ -494,6 +566,8 @@ __Secondary Items:__ All other items with durability
 
 __Max Level:__ III 
 
+-----
+
 <a name="swift_sneak"></a>
 ## Swift Sneak
 
@@ -507,6 +581,8 @@ __Primary Items:__ /
 __Secondary Items:__ Pants 
 
 __Max Level:__ III 
+
+-----
 
 <a name="density"></a>
 ## Density
@@ -523,6 +599,8 @@ __Secondary Items:__ /
 
 __Max Level:__ V 
 
+-----
+
 <a name="breach"></a>
 ## Breach
 
@@ -538,6 +616,8 @@ __Secondary Items:__ /
 
 __Max Level:__ IV 
 
+-----
+
 <a name="wind_burst"></a>
 ## Wind Burst
 
@@ -548,7 +628,7 @@ __Incompatible Enchantments:__ /
 
 __Primary Items:__ Mace  
 
-__Secondary Items:__ / 
+__Secondary Items:__ /
 
 __Max Level:__ III
 

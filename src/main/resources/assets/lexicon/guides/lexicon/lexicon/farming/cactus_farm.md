@@ -14,12 +14,5 @@ The drops are then fed to a [*Hopper*](../redstone/redstone_components.md#hopper
 
 The *[Hopper](../redstone/redstone_components.md#hopper)* then transports the items to a [*Chest*](../useables/chest.md).
 
-
-
-TODO: Unsupported flag 'border'
-![](auto_cactus_farm_1.png)
-
-![](auto_cactus_farm_2.png)
-
-![](auto_cactus_farm_3.png)
+![](auto_cactus_farm_1.png) ![](auto_cactus_farm_2.png) ![](auto_cactus_farm_3.png)
 

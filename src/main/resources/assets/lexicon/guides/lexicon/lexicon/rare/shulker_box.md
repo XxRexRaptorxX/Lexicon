@@ -15,12 +15,9 @@ This is different from other containers, which drop their contained items as ite
 
 These boxes are made out of *Shulker Shells* that are dropped by [*Shulkers*](../creatures/monster-shulker.md) in [*The End*](../world/dimensions.md#end).
 
-##  
-
-
-*Shulker Boxes* are dyeable!
 
 <Recipe id="minecraft:shulker_box" />
 
 <Recipe id="minecraft:cyan_shulker_box" />
 
+*Shulker Boxes* are also dyeable!

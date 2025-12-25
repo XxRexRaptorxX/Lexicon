@@ -19,6 +19,5 @@ __Requirements for most plant-based Farms__:
 
 The first farm you should always be a simple, classic *Wheat* or *Vegetable* farm.
 
-TODO: Unsupported flag 'border'
 ![](food_farm.png)
 

@@ -15,8 +15,5 @@ __The simplest infinite water source:__
 
 - __Step 3:__ Get a *Bucket* and take all the *Water* you want!
 
-
-
-TODO: Unsupported flag 'border'
 ![](infinite_water_source.png)
 

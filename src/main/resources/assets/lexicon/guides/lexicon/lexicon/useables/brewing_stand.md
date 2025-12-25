@@ -13,9 +13,5 @@ A *Brewing Stand* is a block used for brewing [*Potions*](../brewing/potion_type
 
 It also serves as a [*Cleric's*](../creatures/human-villager.md#cleric) job site block.
 
-##  
-
-
-
 <Recipe id="minecraft:brewing_stand" />
 

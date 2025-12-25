@@ -9,13 +9,9 @@ navigation:
 
 <ItemImage id="minecraft:conduit" />
 
-A *Conduit* is a beacon-like block that provides [*Conduit Power*](../brewing/effects.md#conduit_power) and attacks hostile mobs underwater. 
+A *Conduit* is a beacon-like block that provides [*Conduit Power*](../brewing/effects.md#conduit_power) and attacks hostile [*mobs*](../creatures.md) underwater. 
 
-The [*Conduit Power*](../brewing/effects.md#conduit_power) effect restores oxygen, gives underwater night vision and increases mining speed.
-
-##  
-
-
+The [*Conduit Power*](../brewing/effects.md#conduit_power) effect restores oxygen, gives underwater [*Night Vision*](../brewing/effects.md#night-vision) and increases [*Mining Speed*](../brewing/effects.md#haste).
 
 <Recipe id="minecraft:conduit" />
 
@@ -23,6 +19,9 @@ To activate, a *Conduit* needs to be in the center of a 3×3×3 volume of *Water
 
 Only *Prismarine*, *Dark Prismarine*, *Prismarine Bricks*, and *Sea Lantern* blocks in the frame contribute to activation. 
 These blocks can be found in [*Ocean Monuments*](../world/structures.md#monument).
+
+
+-----
 
 ## Conduit Activation Frame
 
@@ -98,5 +97,5 @@ These blocks can be found in [*Ocean Monuments*](../world/structures.md#monument
   <Block x="2" y="4" z="4" id="minecraft:prismarine" />
 </GameScene>
 
-This frame can be extended with additional blocks for better effects.
+This frame can be extended with additional blocks for better [*Status Effects*](../brewing/effects.md).
 

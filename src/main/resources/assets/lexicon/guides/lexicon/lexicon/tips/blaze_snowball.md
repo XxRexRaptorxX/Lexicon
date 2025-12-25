@@ -11,8 +11,5 @@ navigation:
 
 The good thing is that these are easy to obtain.
 
-
-
-TODO: Unsupported flag 'border'
 ![](blaze_snowball.png)
 

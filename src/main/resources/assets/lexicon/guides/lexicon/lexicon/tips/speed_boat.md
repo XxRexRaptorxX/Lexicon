@@ -13,8 +13,5 @@ This is a great way to travel from one area to another extremely fast.
 
 While all types of *Ice* will provide this effect when combined with *Boats*, *Blue Ice* will provide the fastest travel.
 
-
-
-TODO: Unsupported flag 'border'
 ![](speed_boat.png)
 

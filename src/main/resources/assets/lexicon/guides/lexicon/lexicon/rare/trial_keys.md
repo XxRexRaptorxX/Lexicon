@@ -13,6 +13,8 @@ A *Trial Key* is an item that can be obtained from a [*Trial Spawner*](./trial_s
 
 Using a key on vaults unlocks it, causing it to eject items and the key to be consumed.
 
+-----
+
 <ItemImage id="minecraft:ominous_trial_key" />
 
 An *Ominous Trial Key* is a rarer variant of the normal key. 

@@ -12,8 +12,5 @@ navigation:
 This fresh block then prevents the two streams from touching. 
 When this fresh *Cobblestone* is removed, the two fluids produce another piece of *Cobblestone*.
 
-
-
-TODO: Unsupported flag 'border'
 ![](cobble_generator.png)
 

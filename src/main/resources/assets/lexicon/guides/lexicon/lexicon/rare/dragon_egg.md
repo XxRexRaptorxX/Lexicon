@@ -9,7 +9,7 @@ navigation:
 
 <ItemImage id="minecraft:dragon_egg" />
 
-The *Dragon Egg* is a trophy item, and is the __rarest__ item obtainable in the game, as it generates only once per world. 
+The *Dragon Egg* is a trophy item, and is the __rarest__ item obtainable in the game, as it generates only __once__ per world. 
 
 It's generated on top of the exit portal when the first [*Ender Dragon*](../creatures/boss-ender_dragon.md) is defeated.
 

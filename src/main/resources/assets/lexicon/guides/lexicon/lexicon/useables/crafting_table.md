@@ -13,9 +13,5 @@ A *Crafting Table* is a utility block that allows the [*Player*](../creatures/hu
 
 It offers a 3x3 crafting grid.
 
-##  
-
-
-
 <Recipe id="minecraft:crafting_table" />
 

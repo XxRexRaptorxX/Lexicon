@@ -12,7 +12,9 @@ A logic gate can be thought of as a simple device that will return a number of o
 
 These gates can be used to build large circuits for machines. 
 
-The [*Lever*](./redstone_components.md#lever) in this circuits represent inputs and the [*Lamps*](./redstone_components.md#lamp) the output.
+The [*Lever*](./redstone_components.md#lever) in these circuits represent inputs and the [*Lamps*](./redstone_components.md#lamp) the output.
+
+-----
 
 ## NOT-Gate
 
@@ -27,6 +29,8 @@ The [*Lever*](./redstone_components.md#lever) in this circuits represent inputs 
 
 Also known as inverter. 
 This gate is used when an opposite output is wanted from the input given.
+
+-----
 
 ## OR-Gate
 
@@ -48,6 +52,8 @@ This gate is used when an opposite output is wanted from the input given.
 
 A gate which is used 2 or more inputs and whenever any input is **on**, the output is **off**.
 
+-----
+
 ## Simple OR-Gate
 
 <GameScene interactive={true} zoom={2}>
@@ -63,6 +69,8 @@ A gate which is used 2 or more inputs and whenever any input is **on**, the outp
 </GameScene>
 
 But an OR-Gate in minecraft can also be a simple redstone connection.
+
+-----
 
 ## NOR-Gate
 
@@ -80,6 +88,8 @@ But an OR-Gate in minecraft can also be a simple redstone connection.
 </GameScene>
 
 This gate is the opposite of the *OR-Gate*. Whenever at least one switch is toggeled to **on**, the output is toggeled to **off.
+
+-----
 
 ## AND-Gate
 
@@ -105,6 +115,8 @@ This gate is the opposite of the *OR-Gate*. Whenever at least one switch is togg
 
 The output is toggled to **on**** only when __all__ inputs are **on**. Otherwise, the output will remain **off**.
 
+-----
+
 ## AND-Gate
 
 <GameScene interactive={true} zoom={2}>
@@ -125,6 +137,8 @@ The output is toggled to **on**** only when __all__ inputs are **on**. Otherwise
 
 The previous variant of the AND-Gate is for 3 inputs and this one for 2.
 
+-----
+
 ## NAND-Gate
 
 <GameScene interactive={true} zoom={2}>
@@ -143,6 +157,8 @@ The previous variant of the AND-Gate is for 3 inputs and this one for 2.
 </GameScene>
 
 This gate turns the output **off** only when __all__ inputs are **on**, the reverse of an *AND-Gate*.
+
+-----
 
 ## XOR-Gate
 
@@ -167,6 +183,8 @@ This gate turns the output **off** only when __all__ inputs are **on**, the reve
 </GameScene>
 
 This gate that uses 2 inputs and the output is toggled to **on** when one switch is **on** and one switch is **off**.
+
+-----
 
 ## XNOR-Gate
 
@@ -201,6 +219,8 @@ This gate that uses 2 inputs and the output is toggled to **on** when one switch
 
 The opposite of an *XOR-Gate*. It uses 2 inputs. When both switches are in the same state (both switches are **on** or both are **off**), then the output is toggled to **on**.
 
+-----
+
 ## IMPLY-Gate
 
 <GameScene interactive={true} zoom={2}>
@@ -221,6 +241,8 @@ The opposite of an *XOR-Gate*. It uses 2 inputs. When both switches are in the s
 This gate turns on either if both inputs are **on**, or if the first input is **off**. 
 Unlike the other gates, the inputs are not interchangeable; it's not commutative.
 
+-----
+
 ## Hopper-Clock
 
 <GameScene interactive={true} zoom={2}>
@@ -231,6 +253,8 @@ Unlike the other gates, the inputs are not interchangeable; it's not commutative
 </GameScene>
 
 A clock is a pulse generator that produces a loop of specific pulses repeatedly. A hopper clock produces timed pulses by moving items back and forth between 2 [*Hoppers*](./redstone_components.md#hopper).
+
+-----
 
 ## Comparator-Clock
 
@@ -245,6 +269,8 @@ A clock is a pulse generator that produces a loop of specific pulses repeatedly.
 </GameScene>
 
 The clock of short or moderate cycle length utilizing [*Comparator's*](./redstone_components.md#comparator) subtraction or signal fading feature.
+
+-----
 
 ## Repeater-Clock
 
@@ -263,6 +289,8 @@ The clock of short or moderate cycle length utilizing [*Comparator's*](./redston
 </GameScene>
 
 This clock consists of a loop of [*Repeaters*](./redstone_components.md#repeater) with occasional dust or blocks to draw off the appropriate pulses.
+
+-----
 
 <a name="t-flip-flop"></a>
 ## T Flip-flop
@@ -287,6 +315,8 @@ This clock consists of a loop of [*Repeaters*](./redstone_components.md#repeater
 
 Also known as 'toggles'. Whenever the input changes from **off** to **on**, the output will toggle its state.
 
+-----
+
 ## Observer T Flip-flop
 
 <GameScene interactive={true} zoom={2}>
@@ -299,7 +329,7 @@ Also known as 'toggles'. Whenever the input changes from **off** to **on**, the 
   <Block x="8" y="0" z="0" id="minecraft:stone_button"p:face="floor" p:facing="north" p:powered="false" />
 </GameScene>
 
-
+-----
 
 ## Randomizer
 
@@ -319,6 +349,8 @@ Also known as 'toggles'. Whenever the input changes from **off** to **on**, the 
 
 Put items of varying stack size into the [*Dropper*](./redstone_components.md#dropper), e.g. a *Sword* and a piece of *Dirt*.
 
+-----
+
 ## Input Stabilizator
 
 <GameScene interactive={true} zoom={2}>
@@ -335,6 +367,8 @@ Put items of varying stack size into the [*Dropper*](./redstone_components.md#dr
 </GameScene>
 
 This circuit responds to an input pulse by turning its input & output **on** and leaving it **on**.
+
+-----
 
 ## RS-ISR Latch
 
@@ -357,7 +391,9 @@ This circuit responds to an input pulse by turning its input & output **on** and
   <Block x="4" y="0" z="5" id="minecraft:stone_button"p:face="floor" p:facing="north" p:powered="false" />
 </GameScene>
 
-This is a *Input Stabilizator* with reset option.
+This is an *Input Stabilizator* with reset option.
+
+-----
 
 ## Pulse Generator
 
@@ -371,6 +407,8 @@ This is a *Input Stabilizator* with reset option.
 </GameScene>
 
 A *Pulse Generator* creates an output pulse when triggered.
+
+-----
 
 ## Pulse Extender
 

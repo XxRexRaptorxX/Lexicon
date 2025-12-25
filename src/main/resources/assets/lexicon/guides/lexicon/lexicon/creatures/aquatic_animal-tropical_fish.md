@@ -7,18 +7,21 @@ navigation:
 
 # Aquatic Animal - Tropical Fish
 
-> __Health:__ 3     
-> __Attack Damage:__ 0    
-> __Behavior:__ Passive      
-> __Spawn:__ Warm Oceans, Lush Caves, Mangrove Swamp 
-> __Properties:__ 
+__Health:__ 3     
+__Attack Damage:__ 0    
+__Behavior:__ Passive      
+__Spawn:__ Warm Oceans, Lush Caves, Mangrove Swamp       
+__Properties:__ 
 Can be caught with a *Bucket*. There are 2.700 naturally occurring variants.
 
-## minecraft:tropical_fish (TODO)
+-----
 
-<GameScene zoom={2}>
+## Tropical Fish
+
+<GameScene zoom={5} interactive={true}>
   <Entity id="minecraft:tropical_fish" />
 </GameScene>
 
-__Drops:__ Tropical Fish, 5% chance for Bone Meal  __XP:__ 1-3
+> __Drops:__ Tropical Fish, 5% chance for Bone Meal  
+> __XP:__ 1-3
 

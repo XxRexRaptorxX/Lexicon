@@ -12,8 +12,5 @@ This simple farm uses the fact that *Dripstones* drain liquids that are above th
 
 This does not use up the liquids.
 
-
-
-TODO: Unsupported flag 'border'
 ![](lava_farm.png)
 

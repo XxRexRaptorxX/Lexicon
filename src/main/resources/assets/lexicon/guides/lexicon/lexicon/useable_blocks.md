@@ -7,6 +7,6 @@ navigation:
 
 # Useable Blocks
 
-Here you can find out everything about useable blocks like [*Furnaces*](./furnace.md), [*Stonecutter*](./stonecutter.md), [*Grindstone*](./grindstone.md) and more.
+Here you can find out everything about useable blocks like [*Furnaces*](./useables/furnace.md), [*Stonecutter*](./useables/stonecutter.md), [*Grindstone*](./useables/grindstone.md) and more.
 
 <SubPages />

@@ -12,9 +12,11 @@ The syntax shows you which arguments are possible for the individual keywords of
 
 You can see the syntax in the **/help** command or on sites like the [Minecraft Wiki](https://minecraft.fandom.com/wiki/Commands).
 
+----
+
 **plain text** = command text
 
-**<argument>** = argument that should replaced with the value
+**<argument>** = argument that should be replaced with the value
 
 **<entry>** = optional entry 
 

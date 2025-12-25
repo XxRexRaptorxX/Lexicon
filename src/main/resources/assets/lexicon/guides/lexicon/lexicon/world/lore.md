@@ -14,15 +14,13 @@ They build tools to work and weapons and armor to fight and survive, but with th
 
 To prevent them from overworking themselves as they so often did, prevent them wasting their dreams of life, the godly entities seen in the credits create *Phantoms*; taking the souls of those who perished from exhaustion or overworking themselves constantly mining and building without rest. 
 
-The *Phantoms* attack those who do not sleep enough for this reason, and its why they don't attack with any great power or hostile tactics. They aren't a punishment, just a warning.
+The *Phantoms* attack those who do not sleep enough for this reason, and It's why they don't attack with any great power or hostile tactics. They aren't a punishment, just a warning.
 
 But the more they built, the more they desired to build more, to reshape the world, and being forced to rest didn't stop them devoting all their time spent awake to progress. 
 
 Eventually they discovered the methods of creating *Snow Golems* and, more importantly by several orders of magnitude, the strong *Iron Golems*.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:iron_golem" />
 </GameScene>
 
@@ -42,11 +40,11 @@ But Builders must build, and a relatively small community broke away to form the
 
 Over years of seclusion and evolution these Builders become *Villagers*, retaining some of their intelligence but having long ago lost most of their abilities.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:villager" />
 </GameScene>
+
+-----
 
 ## 2. Division of society
 
@@ -63,8 +61,6 @@ The Builders, however, delighted with the discover of magic, continue to progres
 
 *Ender Pearls* do not come as a body part of *Endermen*, and they aren't literal eyes; they're a device.
 
-##  
-
 <ItemImage id="minecraft:ender_pearl" />
 
 Be it magical or high science they're a tool, one that *Silverfish* likely became quite fond of infecting, drawn to the energy given off by its magic or power source. 
@@ -73,9 +69,11 @@ And once teleportation was discovered, it wasn't long until portals, to, were di
 
 The discovery of the *Nether* was yet another game changer.
 
+-----
+
 ## 3. Nether Colonization
 
-Imagine the amounts of *Gold* and soon to be discovered *Netherite* they could haul out? And just think of the magic.. 
+Imagine the amounts of *Gold* and soon to be discovered *Netherite* they could haul out? And just think of the magic... 
 
 And when the Builders entered the *Nether*, they found it remarkably hot, hotter even then we know it today; with the only native inhabitants being the *Blaze*; beings of magic and fire and essentially nothing else.
 
@@ -83,11 +81,10 @@ Between it and *Glowstone* there was more than enough magic to satiate the Build
 
 They built grand *Bastions* to store wealth they mined from the ground, as well as *Strongholds* to defend against, and later study & harvest *Blazes*. 
 
-Along with them they bring *Pigs* as a reliable food source as well as assistant with making the *Nether* habitable.
+Along with them, they bring *Pigs* as a reliable food source as well as assistant with making the *Nether* habitable.
 
-Additionally *Pigs* are just remarkably compact and good at adapting to new territories.
+Additionally, *Pigs* are just remarkably compact and good at adapting to new territories.
 
-TODO: Unsupported flag 'border'
 ![](nether.png)
 
 And while they probably tried to bring in other crops, the hostile dry landscape made it impossible. 
@@ -98,20 +95,15 @@ As time goes on, the Builders begin specializing the only animal they were able 
 
 Just like some dogs were bred to hunt specific animals, the *Pigs* were bred for three different tasks: 
 
-
-- traveling the *Nether* 
-
-- locating gold 
-
+- traveling the *Nether*
+- locating gold
 - as a food stock
 
 Those in the second group were bred to be able to recognize *Gold*, and just like with humans, and likely the Builders, pattern recognition leads to intelligence, to increased ability to understand. 
 
 They became smarter and smarter, and in the absence of their masters, they become the *Piglins*, human like hogs with culture, tools, and still instinctively draw to *Gold*, which has clearly affected their cultural development.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:piglin" />
 </GameScene>
 
@@ -126,11 +118,13 @@ Some from fights with *Blazes*, with other Builders, accidents with heights or w
 
 They bury their dead as they always had, only to find that those buried would rise again as charred, soulless skeletons. 
 
-In death they continue the purpose given to them in life: defend the *Fortress*, only now their undead nature curses those they touch, and they no longer recognize their old friends or family.
+In death, they continue the purpose given to them in life: defend the *Fortress*, only now their undead nature curses those they touch, and they no longer recognize their old friends or family.
+
+-----
 
 ## 4. Bad things happened
 
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:wither_skeleton" />
 </GameScene>
 
@@ -152,7 +146,9 @@ The *Ghast* are the result of Builders punishing other Builders for treason, exp
 
 That is why they cry, why they drop *Ghast Tears*, it's why they aren't immune to fire. 
 
-While its more in line with the course of events and overall on brand for it to be the work of magic, its also possible that its done with some kind of technology.
+While its more in line with the course of events and overall on brand for it to be the work of magic, it's also possible that it's done with some kind of technology.
+
+-----
 
 ## 5. The escape
 
@@ -162,31 +158,29 @@ Fearing that they would have the same fate as the *Ghast*, they arm their ships 
 
 But knowing that it wouldn't be enough, they put Builder ingenuity to good use and create an automaton of their own:
 
-The *Guardians* and the *Elder Guardians* with eye beams to kill incoming threats and otherwise unauthorized entites just in case; after all, who knows what twisted forms might be sent at them. 
+The *Guardians* and the *Elder Guardians* with eye beams to kill incoming threats and otherwise unauthorized entities just in case; after all, who knows what twisted forms might be sent at them. 
 
-Combining organic fish matter with *Prismarine* and some advanced science, they created aquatic android defenders that can spot you even if you're invisible; 
-
-##  
+Combining organic fish matter with *Prismarine* and some advanced science, they created aquatic android defenders that can spot you even if you're invisible;
 
 <ItemImage id="minecraft:prismarine_crystals" />
 
 a feature they wouldn't need unless they know their enemy can become invisible, and I don't think they were stressing out about *Wandering Traders* which leaves Builders as the only possible threat they could be defending against.
 
-But its the *Elder Guardian* that really gives the game away. 
+But it's the *Elder Guardian* that really gives the game away. 
 
 These mobs inflict you with *Mining Fatigue*; a power that can only possibly have been needed for one purpose: To hinder other Builders. 
 
-Deeply religious after their harrowing experience in the *Nether*, this island society builds ziggurates for worship and to avoid the tide, praying at the Kaaba like structure within, using *Fishing Rods* and *Tridents* to fish for food.
+Deeply religious after their harrowing experience in the *Nether*, this island society builds ziggurat for worship and to avoid the tide, praying at the Kaaba like structure within, using *Fishing Rods* and *Tridents* to fish for food.
+
+-----
 
 ## 6. Beginning of the End
 
-Meanwhile back with the Builders, the experimentation on life and death reaches its fever pitch, and the *Wither* is created accidentally. 
+Meanwhile, back with the Builders, the experimentation on life and death reaches its fever pitch, and the *Wither* is created accidentally. 
 
-The damage it deals is not only in raw destruction that levels structures with ease, but the *Curse of Withering* it's distributed is like you're gonna burn inside to death.
+The damage it deals is not only in raw destruction that levels structures with ease, but the *Curse of Withering* it's distributed is like you're going to burn inside to death.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:wither" />
 </GameScene>
 
@@ -206,15 +200,13 @@ We know from the chests inside the temples, clearly graves from the *Rotten Fles
 
 They were also a wealthy sort, with *Gold* and *Emeralds* being common hear, with *TNT* traps to protect the grave, once again showing that they were fearing Builders specifically, not just grave robbers. 
 
-And for quite a long time, they.. if not thrived, survived. The royals hoarded their wealth and their food, resulting in lower class suffering from constant starvation. 
+And for quite a long time, they... if not thrived, survived. The royals hoarded their wealth and their food, resulting in lower class suffering from constant starvation. 
 
-This lead them to wander even farther and farther out away from the kingdom in search of food.
+This leads them to wander even farther and farther out away from the kingdom in search of food.
 
-Not only did this allow several of them to become infected by the curse, either from traditional *Zombies* or the now existent *Zombie Villagers*, but it also lead to them simply wandering in a state of starvation induced torpor, a trance brought on from their suffering and hours spent baking in the sun, combined with the curse of the *Wither*, they became like ghouls.
+Not only did this allow several of them to become infected by the curse, either from traditional *Zombies* or the now existent *Zombie Villagers*, but it also leads to them simply wandering in a state of starvation induced torpor, a trance brought on from their suffering and hours spent baking in the sun, combined with the curse of the *Wither*, they became like ghouls.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:zombie" />
 </GameScene>
 
@@ -225,6 +217,8 @@ They became *husks* of themselves, and in death, continued to hunt and feed, the
 
 The hubris of the royals and the curse of the *Wither* brought the desert kingdom that seemed so safe to its knees.
 
+-----
+
 ## 7. Protection at all costs
 
 At the same time, the rising *Water* levels only continued to rise. 
@@ -232,8 +226,6 @@ At the same time, the rising *Water* levels only continued to rise.
 The *Nether* was cooling because of magic and thus heat being imported to the *Overworld*, and the result of that is the Overworld getting hotter. 
 
 Frozen land melts into more ocean, and the Island Builders begin searching for the *Heart of the Sea* while those back on the islands collect *Nautilus Shells* so that when someone returns with the Heart,
-
-##  
 
 <ItemImage id="minecraft:conduit" />
 
@@ -257,6 +249,8 @@ You can't bury them, lest you be infected.
 
 Can't simply leave them about, as they'd rise again and infect you with their bite.
 
+-----
+
 ## 8. More experiments
 
 The horrific experiments of the Builders had lead to bad blood increasing more and more, with the *Wither* incident resulting in the *Villagers* rejecting not just advancement, but demonizing experimentation altogether. 
@@ -269,13 +263,11 @@ It made *Villages* much less safe even with *Iron Golems*, as an infected *Villa
 
 So, going against the ways of the *Village* for the good of all, one or several clerics came together to find a solution.
 
-Using a simple interior inside of an *Igloo* as cover, they conducted magical experiments in a secret basement, containing a *Brewing stand*, a *Potion of Weakness*, a *Golden Apple*, and two caged *Villagers*, one normal, the other zombified, with a sign between the two showing arrows pointing back and forth between the two.
+Using a simple interior inside an *Igloo* as cover, they conducted magical experiments in a secret basement, containing a *Brewing stand*, a *Potion of Weakness*, a *Golden Apple*, and two caged *Villagers*, one normal, the other zombified, with a sign between the two showing arrows pointing back and forth between the two.
 
 They'd done it. 
 
 Perhaps after quite a lot of experimentation, quite a lot of trial and error, possibly a lot of deliberate infection of *Villagers*, leading to stories of an evil *Witch* who lured *Villagers* away from their home, but they'd done it; they'd discovered a cure to *Villager* zombification, a *Potion of a Weakness* and a *Golden Apple*.
-
-##  
 
 <GameScene zoom={3.2}>
   <Entity id="minecraft:witch" y={0.2} />
@@ -285,7 +277,9 @@ But the *Villagers* rejected experimentation and progress, and the kidnapping an
 
 The cleric, labeled now as a *Witch*, is cast out, living in the wilderness and blaming not their own people, but the Builders they feel responsible for the whole mess.
 
-## 9. Worse and worse..
+-----
+
+## 9. Worse and worse...
 
 The remaining members of the Builder community migrate underground into deep caves and tunnels to hide from horrors up above, creating large cities in the *Deep Dark* where they conducted further experiments with redstone and magic.
 
@@ -307,17 +301,13 @@ In the end, the strange monster wins.
 
 It's not the solution the Builders were hoping, but it works.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:warden" />
 </GameScene>
 
 After the fight, the *Warden* buried himself underground. 
 
 Full of joy and humility they worshiped the new creature.
-
-##  
 
 <ItemImage id="minecraft:sculk" />
 
@@ -335,20 +325,20 @@ They'd escaped to another world before however, so why not again?
 
 They steal *Sculk Catalyst* blocks, using them to create *End Frames*, and creating the *Stronghold* to protect themselves from the *Wardens* crafted by the *Sculk* in retaliation.
 
+-----
+
 ## 10. The corruption
 
 A *Villager* got lost one day, maybe even one of the newly rejected *Witches*. 
 They find themselves trapped in a cave, and in their attempts to escape, stumble upon the *Stronghold*. 
-The remaining Builders give the *Orb of Dominance* to them, telling them to simply follow its instructions and it's knowledge and power would let them fix the ruin that had been broken for so long. 
+The remaining Builders give the *Orb of Dominance* to them, telling them to simply follow its instructions, and it's knowledge and power would let them fix the ruin that had been broken for so long. 
 And with that, they left through the portal to *The End*.
 
-But the Builders are nothing if not a hubristic bunch, and that crystalizing them into a crystal of pure power with no physical form to allow them empathy would only amplify their worse tendencies, and proximity to a cast out *Villager* might just amplify their own as well as they become corrupted by the magic of the Orb, their skin turning grey either from corruptive energy or from hours spent lacking sunlight, forced to continue experimented with life, death, and magic.
+But the Builders are nothing if not a hubristic bunch, and that crystallizing them into a crystal of pure power with no physical form to allow them empathy would only amplify their worse tendencies, and proximity to a cast out *Villager* might just amplify their own as well as they become corrupted by the magic of the Orb, their skin turning grey either from corruptive energy or from hours spent lacking sunlight, forced to continue experimented with life, death, and magic.
 
 They give rise to *Ravagers*, *Evokers*, recruit more *Villagers* to their ranks as *Pillagers* with a magical aura that calls for back up in the form of Ill Omen, and from the *Zombie Villagers* cured back into *Villagers*, cast out from the Villages in fear, become the *Vindicators*. 
 
 The magic even allows them to co-exist with monsters, hence not being attacked by the undead or other beasts.
-
-##  
 
 <ItemImage id="minecraft:totem_of_undying" />
 
@@ -356,7 +346,7 @@ This initial ruler with a *Golden Orb of Dominance* is to be depicted in the *Wo
 
 Either the scepter was lost, broken, or more extravagantly, it was harvested to create *Totems of Undying*.
 
-But regardless of which it two is was, the *Illagers* were left with no more Orb. 
+But regardless of which it two it was, the *Illagers* were left with no more Orb. 
 
 The magic remained, but their experiments couldn't continue without the orb for a number of reasons, and with memories of where it came from, with depictions of the *End Portal*, they begin cargo culting in an attempt to summon more Builders for another Orb.
 
@@ -366,12 +356,13 @@ They couldn't even if they wanted.
 
 And so the twisted fools carry on to this day, collecting piles of blue and cyan *Wool*, seeing the dress of the *Zombies* they know to be dead Builders, building fake *Strongholds*, and experimenting with life, death, and magic.
 
+-----
+
 ## 11. The End
 
-<GameScene zoom={6}>
-  <Entity id="minecraft:ender_dragon" rotationY={120} y={-5} />
+<GameScene zoom={6} interactive={true}>
+  <Entity id="minecraft:ender_dragon" y={-5} />
 </GameScene>
-
 
 And so finally we reach *The End*.
 
@@ -391,16 +382,15 @@ Over generations in *The End*, they grow taller to better reach the *Chorus Frui
 
 They become the *Endermen*.
 
-##  
-
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:enderman" />
 </GameScene>
-
 
 The chaotic nature of their teleportation allows some to end up in all the other Dimensions,
 
 and over generations this creates a stable population of *Endermen* both in the *Overworld*, where their inverted vision leads them to become nocturnal, and the *Nether*, where it leads them to relax in the calming Warped Forests, while the *Silverfish* that had evolved to live within *Ender Pearls* become parasitic in nature, evolving into *Endermites*.
+
+-----
 
 ## 12. Your role
 
@@ -408,11 +398,11 @@ And now finally let's talk about who you are, you are one of the Builders, not j
 
 That's why the *Endermen* attack upon seeing our face, and why the *Piglins* do the same, why the *Illagers* fear you, why the *Iron Golem* has no issue flattening you if you show hostility, and why the cosmic entities talk with such pride in all you've done when you **Free the End**.
 
- 
+-----
 
 ## Final Words
 
-Its a story of hubris and greed, of talented people driven to atrocity by corrupt ambition, or an old, forgotten world with too much magic for its own good, and depending on your view point, its a story of redemption and righting the wrongs of the past.
+It's a story of hubris and greed, of talented people driven to atrocity by corrupt ambition, or an old, forgotten world with too much magic for its own good, and depending on your view point, its a story of redemption and righting the wrongs of the past.
 
 This lore is not confirmed from the devs, but can be put together based on various clues from the game. 
 

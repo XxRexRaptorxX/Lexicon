@@ -16,15 +16,8 @@ To use shader, you need [*Mods*](./mods.md) like __Optifine__ or __Iris__.
 
 - They can be placed in the folder **shaderpacks** within the **.minecraft** folder.
 
-
 - You can find shaders [here](https://www.curseforge.com/minecraft/customization/search?search=shader)
 
-TODO: Unsupported flag 'border'
-![](shader_1.png)
 
-![](shader_2.png)
-
-![](shader_3.png)
-
-![](shader_4.png)
+![](shader_1.png) ![](shader_2.png) ![](shader_3.png) ![](shader_4.png)
 

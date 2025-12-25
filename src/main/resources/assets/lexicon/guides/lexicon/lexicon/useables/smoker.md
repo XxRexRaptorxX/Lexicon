@@ -13,9 +13,5 @@ A *Smoker* is a type of [*Furnace*](./furnace.md) that cooks food items, but twi
 
 It also serves as a [*Butcher's*](../creatures/human-villager.md#butcher) job site block.
 
-##  
-
-
-
 <Recipe id="minecraft:smoker" />
 

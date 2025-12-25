@@ -10,31 +10,13 @@ navigation:
 
 The following pages show useful templates to help you build.
 
-<Color id="gray">by @PixelandPoly
+![](angled_walls_template.png) ![](paths_template.png) ![](bridge_arches_template.png)
 
-TODO: Unsupported flag 'border'
-![](angled_walls_template.png)
+<Color id="gray">by @PixelandPoly</Color>
 
-<Color id="gray">by @PixelandPoly
+-----
 
-TODO: Unsupported flag 'border'
-![](paths_template.png)
+![](roof_template_1.png) ![](roof_template_2.png) ![](circle_template.png)
 
-<Color id="gray">by @PixelandPoly
+<Color id="gray">by u/Jak03e</Color>
 
-TODO: Unsupported flag 'border'
-![](bridge_arches_template.png)
-
-<Color id="gray">by u/Jak03e
-
-TODO: Unsupported flag 'border'
-![](roof_template_1.png)
-
-![](roof_template_2.png)
-
-
-
-TODO: Unsupported flag 'border'
-![](circle_template.png)
-
-</Color></Color></Color></Color>

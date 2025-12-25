@@ -17,7 +17,5 @@ In addition to weapons, you also need other items to make your life easier in in
 - Ender Pearls 
 - [Totem of Undying](../rare/totem_of_undying.md)
 
-
-
 ![](combat_equipment.png)
 

@@ -17,5 +17,5 @@ Each *Vault* can be looted by an unlimited number of [*Players*](../creatures/hu
 
 *Vaults* cannot be obtained in Survival and cannot be moved with a [*Piston*](../redstone/redstone_components.md#piston). 
 
-Theres also an *Ominous Vault*, it dispenses more valuable loot when unlocked using an [*Ominous Trial Key*](./trial_keys.md).
+There's also an *Ominous Vault*, it dispenses more valuable loot when unlocked using an [*Ominous Trial Key*](./trial_keys.md).
 

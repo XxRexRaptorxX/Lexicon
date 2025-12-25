@@ -7,19 +7,24 @@ navigation:
 
 # Arthropod - Silverfish
 
-> __Health:__ 8  
-> __Attack Damage:__ 2, 2.5 on hard
-> __Behavior:__ Hostile     
-> __Spawn:__ [*Strongholds*](../world/structures.md#stronghold) or after mining infested blocks 
-> __Properties:__ 
+__Health:__ 8  
+__Attack Damage:__       
+- 2 on normal      
+- 2.5 on hard         
+
+__Behavior:__ Hostile           
+__Spawn:__ [*Strongholds*](../world/structures.md#stronghold) or after mining infested blocks       
+__Properties:__ 
 *Silverfish* are small mobs found hiding in stone-like blocks in mountains, [*Strongholds*](../world/structures.md#stronghold), [*Igloo*](../world/structures.md#igloo) basements and [*Woodland Mansions*](../world/structures.md#mansion).
 
-## minecraft:silverfish (TODO)
+-----
 
-<GameScene zoom={2}>
+## Silverfish
+
+<GameScene zoom={5} interactive={true}>
   <Entity id="minecraft:silverfish" />
 </GameScene>
 
-__Drops:__ -   
-__XP:__ 5
+> __Drops:__ -   
+> __XP:__ 5
 

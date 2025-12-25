@@ -13,9 +13,5 @@ The *Stonecutter* is used to craft *Stone* and *Copper* related blocks in smalle
 
 It also serves as a [*Stone Mason's*](../creatures/human-villager.md#mason) job site block.
 
-##  
-
-
-
 <Recipe id="minecraft:stonecutter" />
 

@@ -8,12 +8,9 @@ navigation:
 
 # What's next?
 
-If you are now well equipped with *Iron* and have survived the first night, you can now start building a *Food Farm* and a base with a [*Bed*](../useables/bed.md) to set your spawnpoint, *exploring* the area and collecting resources! 
-
+If you are now well-equipped with *Iron* and have survived the first night, you can now start building a *Food Farm* and a base with a [*Bed*](../useables/bed.md) to set your spawnpoint, *exploring* the area and collecting resources! 
 
 Some useful things that you should craft are listed on the following pages.
-
-
 
 <Recipe id="minecraft:chest" />
 
@@ -54,6 +51,8 @@ Some useful things that you should craft are listed on the following pages.
 <Recipe id="minecraft:blast_furnace" />
 
 <Recipe id="minecraft:smoker" />
+
+-----
 
 ## Starter House
 

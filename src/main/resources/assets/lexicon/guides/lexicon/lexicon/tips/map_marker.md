@@ -13,16 +13,15 @@ The marker has the same color as the banner.
 
 The marker is removed if the banner is destroyed unless the map is locked using a [*Cartography Table*](../useables/cartography_table.md).
 
-
-
 ![](map_marker.png)
-
 
 If the banner is renamed, the name appears below the marker.
 
 <Recipe id="minecraft:map" />
 
 <Recipe id="minecraft:cartography_table" />
+
+-----
 
 *Banners* can have different colors.
 

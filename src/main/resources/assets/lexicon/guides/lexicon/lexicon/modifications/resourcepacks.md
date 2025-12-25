@@ -14,19 +14,14 @@ These packs can be stacked. *Resource packs* type.
 
 - *Resource packs* can be placed in the folder **resourcepacks** within the **.minecraft** folder.
 
-
 - You can find new packs [here](https://www.curseforge.com/minecraft/texture-packs)
 
-TODO: Unsupported flag 'border'
-![](texturepack_1.png)
 
-![](texturepack_2.png)
+![](texturepack_1.png) ![](texturepack_2.png) ![](texturepack_3.png)
 
-![](texturepack_3.png)
+![](texturepack_4.png) ![](texturepack_5.png)
 
-![](texturepack_4.png)
-
-![](texturepack_5.png)
+-----
 
 ## Pack format
 

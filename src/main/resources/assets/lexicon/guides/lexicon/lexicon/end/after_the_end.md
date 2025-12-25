@@ -12,15 +12,15 @@ After defeating the final boss of Minecraft and seeing the credits, the game is 
 
 Minecraft has endless potential!
 
+-----
+
 Search the new generated end gateway portal und explore the outer lands of the [*End*](../world/dimensions.md#end)!
 
-TODO: Unsupported flag 'border'
-![](end_gateway_portal.png)
 
-![](end_highlands.png)
+![](end_gateway_portal.png) ![](end_highlands.png)
 
 
-- Collect [*rare endgame items*](../rare.md) 
+- Collect [*rare endgame items*](../rare_stuff.md) 
 
 - Explore your world in all [*Dimensions*](../world/dimensions.md) 
 
@@ -30,7 +30,7 @@ TODO: Unsupported flag 'border'
 
 - Build massive bases and structures 
 
-- Install and play with [*Mods*](../modifications/mods.md) 
+- Install and play with [*Mods*](../modifications/mods.md), [*Datapacks*](../modifications/datapacks.md) or on server with other play modes
 
 - And much more!
 

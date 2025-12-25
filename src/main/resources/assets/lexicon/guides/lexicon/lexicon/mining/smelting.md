@@ -20,15 +20,14 @@ __Different types of smelter:__
 
 **Fuel for 1 Stack items** = How many fuel is needed for 64 items (1 Stack)
 
-![](fuel_chart_1.png)
+![](fuel_chart_1.png) 
 
 ![](fuel_chart_2.png)
 
+-----
+
 ## Auto-Smelter
 
-
-
-TODO: Unsupported flag 'border'
 ![](auto_smelter_1.png)
 
 <a name="smelter"></a>
@@ -44,16 +43,13 @@ TODO: Unsupported flag 'border'
   <Block x="1" y="3" z="0" id="minecraft:hopper"p:enabled="true" p:facing="north" />
 </GameScene>
 
-
+-----
 
 ## Super Smelter
 
 The best way to smelt a lot of ores after a mining session.
 
-TODO: Unsupported flag 'border'
-![](super_smelter_1.png)
-
-![](super_smelter_2.png)
+![](super_smelter_1.png) ![](super_smelter_2.png)
 
 <GameScene interactive={true} zoom={2}>
   <Block x="0" y="0" z="1" id="minecraft:chest"p:facing="east" p:type="left" />

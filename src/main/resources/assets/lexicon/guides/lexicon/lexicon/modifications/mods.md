@@ -12,19 +12,12 @@ navigation:
 
 Most mods require a *Modloader* like [Forge](https://files.minecraftforge.net/net/minecraftforge/forge), [NeoForge](https://neoforged.net/) or [Fabric](https://fabricmc.net/use/installer). 
 
-
 - You can find a lot of mods [here](https://www.curseforge.com/minecraft/mc-mods)
 
 And here you will find a few more mods from me :) [*shameless self-promotion*](https://www.curseforge.com/members/xxrexraptorxx/projects)
 
-TODO: Unsupported flag 'border'
-![](mod_1.png)
 
-![](mod_2.png)
+![](mod_1.png) ![](mod_2.png) ![](mod_3.png)
 
-![](mod_3.png)
-
-![](mod_4.png)
-
-![](mod_5.png)
+![](mod_4.png) ![](mod_5.png)
 

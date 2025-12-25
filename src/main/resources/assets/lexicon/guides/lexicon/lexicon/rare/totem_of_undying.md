@@ -13,6 +13,8 @@ If a [*Player*](../creatures/human-player.md) is holding a *Totem of Undying* in
 
 It is dropped from [*Evokers*](../creatures/human-evoker.md), which spawn in [*Woodland Mansions*](../world/structures.md#mansion) and raids.
 
+-----
+
 When activated, the totem restores 1 life, removes all existing status effects and grants you: 
 
 - [*Regeneration II*](../brewing/effects.md#regeneration) for 45s 

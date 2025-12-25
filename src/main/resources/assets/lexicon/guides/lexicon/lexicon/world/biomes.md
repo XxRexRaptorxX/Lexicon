@@ -12,8 +12,7 @@ A biome is a region in a world with distinct geographical features, flora, tempe
 
 Biomes separate every generated world into different environments, such as forests, deserts and taigas.
 
-You can found specific biomes by doing the */locate biome* [*Command*](../commands.md).
-
-TODO: Unsupported flag 'border'
 ![](biomes.png)
+
+You can found specific biomes by doing the */locate biome* [*Command*](../commands.md).
 

@@ -13,9 +13,5 @@ An *Anvil* is a block that allows [*Players*](../creatures/human-player.md) to r
 
 The *Anvil* breaks after a few uses.
 
-##  
-
-
-
 <Recipe id="minecraft:anvil" />
 

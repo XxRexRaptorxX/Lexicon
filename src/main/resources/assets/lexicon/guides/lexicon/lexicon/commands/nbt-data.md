@@ -12,15 +12,17 @@ The **Named Binary Tag (NBT)** is a tree data structure used by Minecraft in man
 
 **Stringified Named Binary Tag (SNBT)**, also known as data tag, is often used in [*Commands*](./commands.md). 
 
+----
+
 A data tag consists of zero or more attribute-value pairs delimited by commas and enclosed in curly braces.
 
 Each attribute-value pair consists of a tag name and the tag's value, separated by a colon. 
 
 Some values, however, may be a compound tag and themselves contain attribute-value pairs, allowing a data tag to describe a hierarchical data structure. 
 
-__Example:__ 
+__Example:__   *{CustomName:'"Bob"', Invisible:true}*
 
-*{CustomName:'"Bob"', Invisible:true}*
+-----
 
 __**References:**__
  
@@ -34,6 +36,8 @@ __**References:**__
 - [NBT for Vehicles](https://minecraft.fandom.com/wiki/Entity_format#Vehicles)  
 - [NBT for dynamic Tiles](https://minecraft.fandom.com/wiki/Entity_format#Dynamic_Tiles)   
 - [NBT for other Entities](https://minecraft.fandom.com/wiki/Entity_format#Other)
+
+-----
 
 ## Data Components
 

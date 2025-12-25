@@ -11,9 +11,5 @@ navigation:
 
 A *Heavy Core* is a rare block that can be obtained from [*Ominous Vaults*](./vault.md) found in [*Trial Chambers*](../world/structures.md#trial_chambers).
 
-##  
-
-
-
 <Recipe id="minecraft:mace" />
 

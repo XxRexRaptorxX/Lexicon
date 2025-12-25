@@ -12,7 +12,6 @@ navigation:
 
 These packs are often centered around a general theme like tech, quests, or magic.
 
-
 *Mod packs* often have either custom launchers or installers that make installing and running the pack easy. 
 
 - You can find mods [here](https://www.curseforge.com/minecraft/modpacks)

@@ -7,16 +7,17 @@ navigation:
 
 # Miniboss - Raid Captain
 
-A *Raid Captain* is the occurrence of an illager spawning with an [*Ominous Banner*](../rare/ominous_banner.md) on top of its head, usually a [*Pillager*](./human-pillager.md) or [*Vindicator*](./human-vindicator.md), or rarely an [*Evoker*](./human-evoker.md). 
-
+A *Raid Captain* is the occurrence of an illager spawning with an [*Ominous Banner*](../rare/ominous_banner.md) on top of its head, usually a [*Pillager*](./human-pillager.md) or [*Vindicator*](./human-vindicator.md), or rarely an [*Evoker*](./human-evoker.md).
 *Raid Captains* usually act the same as if they were a normal illager, but other illagers follow behind them.
 
+> __Drops:__ 
+> - 1 Ominous Banner 
+> - 1 Ominous Bottle 
+> - default drops of each mob   
+> 
+> __XP:__ 5-10
 
- __Drops:__
- 
-- 1 Ominous Banner 
-- 1 Ominous Bottle 
-- default drops of each mob
+-----
 
 ## Pillager Captain
 

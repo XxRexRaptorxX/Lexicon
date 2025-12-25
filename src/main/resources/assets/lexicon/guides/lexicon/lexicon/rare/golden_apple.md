@@ -7,9 +7,9 @@ navigation:
 
 # Enchanted Golden Apple
 
-<ItemImage id="minecraft:enchanted_golden_apple" />
+The *Enchanted Golden Apple* is a rare, uncraftable variant of the *Golden Apple* that has stronger [*Effects*](../brewing/effects.md).
 
-The *Enchanted Golden Apple* is a rare, uncraftable variant of the *Golden Apple* that has stronger effects. 
+<ItemImage id="minecraft:enchanted_golden_apple" />
 
 Can be found in [*Chests*](../useables/chest.md). 
 
@@ -19,8 +19,13 @@ __Effects:__
 - [*Fire Resistance*](../brewing/effects.md#fire_resistance) for 5min 
 - [*Resistance*](../brewing/effects.md#resistance) for 5min
 
-> Recipe for the regular *Golden Apple*. 
+-----
 
+# Golden Apple
+
+The normal *Golden Apple* is craftable.
+
+<ItemImage id="minecraft:golden_apple" />
 
 __Effects:__ 
 - [*Absorption*](../brewing/effects.md#absorption) for 2min 

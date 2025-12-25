@@ -7,19 +7,22 @@ navigation:
 
 # Animal - Ocelot
 
-> __Health:__ 10     
-> __Attack Damage:__ 3    
-> __Behavior:__ Passive     
-> __Spawn:__ Jungles    
-> __Breeding/Trust:__ Raw Cod, Raw Salmon     
-> __Properties:__ 
+__Health:__ 10     
+__Attack Damage:__ 3    
+__Behavior:__ Passive     
+__Spawn:__ Jungles    
+__Breeding/Trust:__ Raw Cod, Raw Salmon     
+__Properties:__ 
 Attacks [*Chickens*](./animal-chicken.md) and [*Baby Turtles*](./aquatic_animal-turtle.md). [*Creeper*](./monster-creeper.md) & [*Phantoms*](./undead-phantom.md) avoid ocelots.
 
-## minecraft:ocelot (TODO)
+-----
 
-<GameScene zoom={2}>
+## Ocelot
+
+<GameScene zoom={5} interactive={true}>
   <Entity id="minecraft:ocelot" />
 </GameScene>
 
-__Drops:__ -  __XP:__ 1-3
+> __Drops:__ -  
+> __XP:__ 1-3
 

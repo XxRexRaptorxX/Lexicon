@@ -11,8 +11,5 @@ Gravity blocks such as *Sand* or *Gravel* can be farmed quickly in large quantit
 
 That causes all falling blocks to drop.
 
-
-
-TODO: Unsupported flag 'border'
 ![](sand_farming.png)
 

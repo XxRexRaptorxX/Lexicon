@@ -8,14 +8,11 @@ navigation:
 # Water Elevator
 
 When a *Water* __source__ is directly above a *Magma Block*, a whirlpool bubble column is created, going downward from the highest source block. 
-Anything encountering the bubble column is pulled down, including items, *Boats*, [*Players*](../creatures/human-player.md) and mobs. 
+Anything encountering the bubble column is pulled down, including items, *Boats*, [*Players*](../creatures/human-player.md) and [*mobs*](../creatures.md). 
 
 And *Soulsand* do the same thing upwards. 
 
-This fact makes it perfect for building an elevator, item transport system or mob trap.
+This fact makes it perfect for building an elevator, [item transport system](./item_transportation.md) or [mob trap](../farming.md).
 
-
-
-TODO: Unsupported flag 'border'
 ![](water_elevator.png)
 

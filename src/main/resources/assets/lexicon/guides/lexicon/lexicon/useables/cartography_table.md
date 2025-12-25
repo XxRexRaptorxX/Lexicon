@@ -13,9 +13,5 @@ A *Cartography Table* is a [*Cartographer's*](../creatures/human-villager.md#car
 
 It is used for cloning, zooming out and locking *Maps*.
 
-##  
-
-
-
 <Recipe id="minecraft:cartography_table" />
 

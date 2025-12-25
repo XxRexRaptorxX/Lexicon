@@ -12,6 +12,8 @@ navigation:
 
 Some are even less likely to generate in caves (Air exposured).
 
+-----
+
 ## Best Ore Layers
 
 [*The Overworld*](../world/dimensions.md#overworld) 
@@ -22,20 +24,15 @@ Some are even less likely to generate in caves (Air exposured).
 - *Gold Ore*: Layer -16 
 - *Redstone Ore*: Layer -59 
 - *Diamond Ore*: Layer -59 
-- *Emerald Ore*: Layer 236 
+- *Emerald Ore*: Layer 236
+
+The greatest variation in ores is around layer 0
+
+![](ore_distribution.png) ![](ore_distribution_legend.png)
+
+-----
 
 [*The Nether*](../world/dimensions.md#nether) 
 - *Nether Quartz*: Layer 10-114 
 - *Gold Ore*: Layer 96-116 
 - *Ancient Debris*: 13-17
-
-
-The greatest variation in ores is around layer 0
-
-![](ore_distribution.png)
-
-
-
-TODO: Unsupported flag 'border'
-![](ore_distribution_legend.png)
-

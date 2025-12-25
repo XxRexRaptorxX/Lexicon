@@ -13,9 +13,5 @@ A *Trapped Chest* functions as a normal [*Chest*](./chest.md) for item storage, 
 
 It can be visually distinguished from normal [*Chests*](./chest.md) by a red coloration around the latch.
 
-##  
-
-
-
 <Recipe id="minecraft:trapped_chest" />
 

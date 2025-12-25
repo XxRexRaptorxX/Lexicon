@@ -13,7 +13,9 @@ The following pages contain blueprints for useful redstone contraptions.
 
 -  You can find even more redstone contraptions in the [Farming Chapter](../farming.md).
 
-## Street Lamp
+-----
+
+## Streetlamp
 
 <GameScene interactive={true} zoom={2}>
   <Block x="1" y="0" z="1" id="minecraft:spruce_fence" />
@@ -39,7 +41,9 @@ The following pages contain blueprints for useful redstone contraptions.
   <Block x="1" y="8" z="2" id="minecraft:spruce_trapdoor"p:open="true" p:half="bottom" p:facing="east" />
 </GameScene>
 
-This is a street lamp that turns itself on at night.
+This is a streetlamp that turns itself on at night.
+
+-----
 
 ## Armor Equipper
 
@@ -101,6 +105,8 @@ This is a street lamp that turns itself on at night.
 This contraption equips you with armor & tools that you previously placed in the [*Dispenser*](./redstone_components.md#dispenser) when entering the [*Pressure Plate*](./redstone_components.md#pressure_plate) 
 (one [*Dispenser*](./redstone_components.md#dispenser) per item type)
 
+-----
+
 ## Refilling Respawn Anchor
 
 <GameScene interactive={true} zoom={2}>
@@ -112,6 +118,8 @@ This contraption equips you with armor & tools that you previously placed in the
 </GameScene>
 
 This contraption will add *Glowstone* whenever you die from the [*Dispenser*](./redstone_components.md#dispenser) below to the [*Respawn Anchor*](../useables/respawn_anchor.md) and refills it.
+
+-----
 
 ## 2-Way 2x2 Piston Door
 
@@ -205,6 +213,8 @@ This contraption will add *Glowstone* whenever you die from the [*Dispenser*](./
 </GameScene>
 
 This is a relative simple 2x2 [*Piston*](./redstone_components.md#piston) door that works from 2 sides.
+
+-----
 
 ## 2-Way 3x3 Piston Door
 
@@ -366,6 +376,8 @@ This is a relative simple 2x2 [*Piston*](./redstone_components.md#piston) door t
 
 This is a fast complex 3x3 [*Piston*](./redstone_components.md#piston) door that works from 2 sides.
 
+-----
+
 ## Self-closing Door
 
 <GameScene interactive={true} zoom={2}>
@@ -392,6 +404,8 @@ This is a fast complex 3x3 [*Piston*](./redstone_components.md#piston) door that
 </GameScene>
 
 This is a self-closing monster safe door.
+
+-----
 
 ## Item Elevator
 
@@ -434,6 +448,8 @@ This is a self-closing monster safe door.
 
 This is a self-powering item elevator.
 
+-----
+
 ## Auto-Smelter
 
 <GameScene interactive={true} zoom={2}>
@@ -447,6 +463,8 @@ This is a self-powering item elevator.
 </GameScene>
 
 this contraption automatically fills fuel and material into the [*Furnace*](../useables/furnace.md) and melts it through automatically.
+
+-----
 
 ## Super Smelter
 
@@ -526,6 +544,8 @@ this contraption automatically fills fuel and material into the [*Furnace*](../u
 </GameScene>
 
 The best way to smelt a lot of ores after a mining session. You have to place *Hopper Minecarts* on the *Rails*, they distribute the materials.
+
+-----
 
 ## Elytra Launcher
 

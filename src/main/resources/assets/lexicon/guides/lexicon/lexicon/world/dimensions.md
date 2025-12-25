@@ -12,11 +12,11 @@ Dimensions are accessible realms within a world characterized by a way of genera
 
 [*Players*](../creatures/human-player.md) can explore and discover various dimensions in Minecraft, typically through the use of portals. 
 
-
-
 The daylight cycle and weather may work differently or not exist in different dimensions, as well as respawn points (such as [*Beds*](../useables/bed.md) and [*Respawn Anchors*](../useables/respawn_anchor.md)) and travel speed. 
 
 Other dimensions can be access with portals.
+
+-----
 
 <a name="overworld"></a>
 ## The Overworld
@@ -30,10 +30,9 @@ The Overworld is the primary dimension in Minecraft. It has a wide variety of un
 - weather 
 - 384 block world height
 
-
-
-TODO: Unsupported flag 'border'
 ![](overworld.png)
+
+-----
 
 <a name="nether"></a>
 ## The Nether
@@ -47,12 +46,9 @@ The Nether is a hostile dimension containing huge lava oceans. The ground consis
 - using a charged [*Respawn Anchor*](../useables/respawn_anchor.md) sets spawn point 
 - 256 block world height
 
+![](nether.png) ![](nether_portal.png)
 
-
-TODO: Unsupported flag 'border'
-![](nether.png)
-
-![](nether_portal.png)
+-----
 
 <a name="end"></a>
 ## The End
@@ -65,10 +61,5 @@ The End is a space-like dimension with floating *End Stone* islands. It's a barr
 - big pillars of *Obsidian* 
 - 256 block world height
 
-
-
-TODO: Unsupported flag 'border'
-![](end.png)
-
-![](end_portal.png)
+![](end.png) ![](end_portal.png)
 

@@ -16,4 +16,8 @@ __Creatures can be divided into different categories:__
 - Hostile Mobs 
 - Boss Mobs
 
+-----
+
+All mobs:
+
 <SubPages />

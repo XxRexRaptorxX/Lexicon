@@ -11,9 +11,5 @@ navigation:
 
 *Ender Chests* are a type of [*Chest*](./chest.md) whose contents are exclusive to each [*Player*](../creatures/human-player.md), and can be accessed from anywhere in the world.
 
-##  
-
-
-
 <Recipe id="minecraft:ender_chest" />
 

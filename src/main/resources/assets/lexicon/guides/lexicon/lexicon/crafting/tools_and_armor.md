@@ -10,12 +10,6 @@ item_ids:
 
 # Tool & Armor Recipes
 
-
-
-<Recipe id="lexicon:lexicon" />
-
-
-
 <Recipe id="minecraft:bow" />
 
 <Recipe id="minecraft:arrow" />

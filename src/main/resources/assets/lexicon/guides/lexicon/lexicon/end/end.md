@@ -14,6 +14,8 @@ Before fighting, you need to do destroy all *End Crystals* above the *Obsidian* 
 
 The best way to do this, with a *Bow* or *Crossbow*.
 
+-----
+
 **__How to fight the dragon:__** 
 
 While the dragon is flying you can shoot it. 
@@ -22,10 +24,12 @@ When it's hovering over the portal, it is immune to *Arrow* damage, and you are 
 
 Here, get as many critical hits as possible, which deal more damage.
 
-## minecraft:ender_dragon (TODO)
+-----
 
-<GameScene zoom={6}>
-  <Entity id="minecraft:ender_dragon" y={-5} />
+## Ender Dragon
+
+<GameScene zoom={1} interactive={true}>
+  <Entity id="minecraft:ender_dragon" y={0} />
 </GameScene>
 
 It's useful to collect the [*Dragon's Breath*](../rare/dragons_breath.md) with a *Glass Bottle* during the fight because it can be used to make [*Lingering Potions*](../brewing/potion_types.md#lingering_potion).

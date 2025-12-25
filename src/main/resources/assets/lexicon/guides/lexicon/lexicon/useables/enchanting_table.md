@@ -11,9 +11,5 @@ navigation:
 
 An *Enchanting Table* is a block that allows [*Players*](../creatures/human-player.md) to spend their XP levels to enchant tools, weapons, books, armor, and certain other items.
 
-##  
-
-
-
 <Recipe id="minecraft:enchanting_table" />
 

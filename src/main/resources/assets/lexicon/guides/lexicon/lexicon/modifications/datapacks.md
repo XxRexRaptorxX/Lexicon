@@ -12,7 +12,5 @@ A *Data pack* provides a way for [*Players*](../creatures/human-player.md) to fu
 
 These packs can be used to override or add new advancements, dimensions, functions, loot tables, predicates, recipes, structures, tags, world generation settings, and biomes without any code modification.
 
-
-
 - You can find data packs [here](https://www.curseforge.com/minecraft/texture-packs/data-packs)
 

@@ -10,8 +10,5 @@ navigation:
 
 Here are some important items that you should always have with you on a mining tour!
 
-
-
-TODO: Unsupported flag 'border'
 ![](mining_equipment.png)
 

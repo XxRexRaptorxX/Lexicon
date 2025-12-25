@@ -11,7 +11,5 @@ navigation:
 
 The *Nether Star* is a rare item dropped by the [*Wither*](../creatures/boss-wither.md) that is used to craft endgame items like the [*Beacon*](./beacon.md).
 
-
-
 <Recipe id="minecraft:beacon" />
 

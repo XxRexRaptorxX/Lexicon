@@ -13,9 +13,5 @@ A *Fletching Table* is a [*Fletcher's*](../creatures/human-villager.md#fletcher)
 
 The *Fletching Table* is used to turn an unemployed [*Villager*](../creatures/human-villager.md) into a [*Fletcher*](../creatures/human-villager.md#fletcher).
 
-##  
-
-
-
 <Recipe id="minecraft:fletching_table" />
 

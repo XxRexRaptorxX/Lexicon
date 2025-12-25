@@ -13,19 +13,19 @@ To barter with a [*Piglin*](../creatures/monster-piglin.md), either throw by dro
 [*Piglin Brutes*](../creatures/monster-piglin_brute.md) ignore gold. 
 [*Baby Piglins*](../creatures/monster-piglin.md) take the ingot without giving anything in return, instead holding the ingot.
 
-
-
 ![](bartering.png)
 
-## minecraft:piglin (TODO)
+-----
 
-<GameScene zoom={4}>
+## Piglin
+
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:piglin" />
 </GameScene>
 
-## minecraft:piglin_brute (TODO)
+## Piglin Brute
 
-<GameScene zoom={4}>
+<GameScene zoom={4} interactive={true}>
   <Entity id="minecraft:piglin_brute" />
 </GameScene>
 

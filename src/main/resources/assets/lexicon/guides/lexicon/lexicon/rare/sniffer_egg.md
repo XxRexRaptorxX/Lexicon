@@ -13,9 +13,11 @@ A *Sniffer Egg* is a block that can be brushed out of [*Suspicious Sand*](./susp
 
 It slowly hatches into a [*Snifflet*](../creatures/animal-sniffer.md) when placed as a block in the world, which takes half as much time when it is placed on a *Moss block*.
 
-## minecraft:sniffer (TODO)
+-----
 
-<GameScene zoom={2}>
+## Sniffer
+
+<GameScene zoom={5} interactive={true}>
   <Entity id="minecraft:sniffer" />
 </GameScene>
 

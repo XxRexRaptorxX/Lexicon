@@ -11,8 +11,5 @@ Some monsters can be tricked by hiding in a hole smaller than your opponent's an
 
 But you can also build your way up until the opponent can no longer reach you.
 
-
-
-TODO: Unsupported flag 'border'
 ![](save_hole.png)
 

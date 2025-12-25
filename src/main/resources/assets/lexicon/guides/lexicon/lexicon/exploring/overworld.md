@@ -12,8 +12,5 @@ Here are some important items that you should always have with your adventure in
 
 On the second picture are additional rare but useful items!
 
-TODO: Unsupported flag 'border'
-![](overworld_equipment.png)
-
-![](additional_equipment.png)
+![](overworld_equipment.png) ![](additional_equipment.png)
 

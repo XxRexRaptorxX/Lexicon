@@ -10,9 +10,11 @@ navigation:
 
 The following pages describe all curses in the game. 
 
-__Primary Items:__ The items that can receive the enchantment legitimately in Survival mode by using an [*Enchanting Table*](../useables/enchanting_table.md).  
+__Primary Items:__ The items that can receive the [*Enchantment*](./enchantments.md) legitimately in Survival mode by using an [*Enchanting Table*](../useables/enchanting_table.md).  
 
-__Secondary Items:__ Items that, in Survival mode, cannot receive the enchantment from an [*Enchanting Table*](../useables/enchanting_table.md) but can from an *Enchanted Book* with an [*Anvil*](../useables/anvil.md).
+__Secondary Items:__ Items that, in Survival mode, cannot receive the [*Enchantment*](./enchantments.md) from an [*Enchanting Table*](../useables/enchanting_table.md) but can from an *Enchanted Book* with an [*Anvil*](../useables/anvil.md).
+
+-----
 
 ## Curse of Binding
 
@@ -24,6 +26,8 @@ __Primary Items:__ /
 __Secondary Items:__ Equipment 
 
 __Max Level:__ I 
+
+-----
 
 ## Curse of Vanishing
 

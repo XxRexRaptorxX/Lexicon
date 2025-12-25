@@ -12,6 +12,8 @@ navigation:
 
 They can also be designed to carry along a [*Player*](../creatures/human-player.md) and/or other entities, which may be riding in a *Minecart* or towed along by *Honey Blocks*.
 
+-----
+
 ## Simple Flying Machine
 
 <GameScene interactive={true} zoom={2}>
@@ -26,6 +28,8 @@ They can also be designed to carry along a [*Player*](../creatures/human-player.
 
 The central [*Sticky Piston*](./redstone_components.md#piston) is the starter that needs to be powered.
 
+-----
+
 ## Two-way Flying Machine
 
 <GameScene interactive={true} zoom={2}>
@@ -39,6 +43,8 @@ The central [*Sticky Piston*](./redstone_components.md#piston) is the starter th
 
 The [*Observer*](./redstone_components.md#observer) on each side start the machine and control the flight direction.
 
+-----
+
 ## Dock Flying Machines
 
 <GameScene interactive={true} zoom={2}>
@@ -51,6 +57,8 @@ The [*Observer*](./redstone_components.md#observer) on each side start the machi
 </GameScene>
 
 Needed to stop *Flying Machines* or reverse their flying direction.
+
+-----
 
 ## Harvesting Flying Machine
 
@@ -81,12 +89,7 @@ Needed to stop *Flying Machines* or reverse their flying direction.
   <Block x="0" y="1" z="19" id="minecraft:slime_block" />
 </GameScene>
 
-This machine with it's outlets can be used for harvesting in e.g. *Bamboo* farms
+This machine with its outlets can be used for harvesting in e.g. *Bamboo* farms
 
-
-
-TODO: Unsupported flag 'border'
-![](flying_machine_harvester.png)
-
-![](flying_machine_bamboo_farm_1.png)
+![](flying_machine_harvester.png) ![](flying_machine_bamboo_farm_1.png)
 

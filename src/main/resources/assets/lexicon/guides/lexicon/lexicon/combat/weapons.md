@@ -18,19 +18,24 @@ There are a few things to consider:
 - Critical Hits 
 - Possible Enchantments
 
+-----
+
 ## Damage & Speed
 
 DPS = Damage per second
 
 ![](item_damage_1.png)
-
 ![](item_damage_2.png)
+
+-----
 
 ## Attack Cooldown
 
 When the [*Player*](../creatures/human-player.md) attacks too quickly, it reduces the strength of the attacks. 
 
 The base damage done (as a fraction of the full possible damage) depends on the time between attacks, which is also reflected in the height of the held *Weapon* on screen and the attack indicator bar
+
+-----
 
 ## Critical Hits
 
@@ -39,14 +44,15 @@ A critical hit is an attack that deals extra damage compared to a regular attack
 In melee combat, a critical hit occurs when a [*Player*](../creatures/human-player.md) attacks a mob while falling, including while coming down from a jump, but not while jumping up. 
 The attack deals *150%* of the attack's base damage.
 
+-----
+
 ## Other Weapons
 
-
-- Bow or Crossbow with different types of arrows [
-- Splash Potions [
-- Lingering Potions 
-- Snowballs (damages only [*Blazes*](../creatures/monster-blaze.md)](../brewing/potion_types.md#lingering_potion)](../brewing/potion_types.md#splash_potion)) 
+- Bow or Crossbow with different types of arrows
+- [*Splash Potions*](../brewing/potion_types.md#splash_potion)
+- [*Lingering Potions*](../brewing/potion_types.md#lingering_potion)
+- Snowballs (damages only [*Blazes*](../creatures/monster-blaze.md)) 
 - Explosives like TNT 
 - Flint and steel 
-- Lava Bucket
+- Lava bucket
 

@@ -11,7 +11,7 @@ navigation:
 
 *Elytras* are rare wings found in [*End Ships*](../world/structures.md#end_ship). 
 
-Can be equipped in the chestplate slot and allows you to fly! 
+Can be equipped in the chestplate slot and allows you to glide! 
 
 You can use *Firework Rockets* as a speed boost!
 

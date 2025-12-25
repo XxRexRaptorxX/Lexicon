@@ -19,6 +19,8 @@ But don't dig too deep and watch out for *Monsters* in caves!
 
 *Torches* and light prevent them from spawning.
 
+-----
+
 <Recipe id="minecraft:torch" />
 
 

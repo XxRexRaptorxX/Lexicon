@@ -15,6 +15,8 @@ They can be brushed to extract structure-dependent loot, and are the only source
 
 Suspicious blocks drop nothing if they are broken.
 
+-----
+
 <a name="gravel"></a>
 <ItemImage id="minecraft:suspicious_gravel" />
 

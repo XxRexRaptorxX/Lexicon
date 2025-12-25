@@ -13,12 +13,9 @@ By placing a line of [*Hoppers*](../redstone/redstone_components.md#hopper) all 
 
 On large scale, [*Hoppers*](../redstone/redstone_components.md#hopper) have been known to create lag.
 
+![](hopper_transportation_1.png) ![](hopper_transportation_2.png)
 
-
-TODO: Unsupported flag 'border'
-![](hopper_transportation_1.png)
-
-![](hopper_transportation_2.png)
+------
 
 ## Water streams
 
@@ -28,29 +25,28 @@ Since *Water* can only flow 7 blocks from the source, it is usually necessary to
 
 Water flowing on *Packed Ice* or *Blue Ice* makes the items go faster, reducing the delay.
 
-TODO: Unsupported flag 'border'
 ![](water_transportation.png)
+
+------
 
 ## Water elevators
 
 When a *Water* __source__ is directly above a *Magma Block*, a whirlpool bubble column is created, going downward from the highest source block. 
-Anything encountering the bubble column is pulled down, including items, *Boats*, [*Players*](../creatures/human-player.md) and mobs. 
+Anything encountering the bubble column is pulled down, including items, *Boats*, [*Players*](../creatures/human-player.md) and [*mobs*](../creatures.md). 
 
 And *Soulsand* do the same thing upwards.
 
-
-
-TODO: Unsupported flag 'border'
 ![](water_elevator.png)
+
+------
 
 ## Rails
 
 Items can also be transported on *Rails*, they can be transferred into and out of *Minecart with a Chest* using [*Hoppers*](../redstone/redstone_components.md#hopper).
 
-
-
-TODO: Unsupported flag 'border'
 ![](rail_transportation.png)
+
+------
 
 ## Dropper
 
@@ -99,13 +95,13 @@ This works in all directions.
 
 This design is a self powering item elevator.
 
+-----
+
 ## Allays
 
 [*Allays*](../creatures/animal-allay.md) collect and delivers items for any [*Player*](../creatures/human-player.md) that gives it something, or any [*Noteblock*](../redstone/redstone_components.md#noteblock) it hears.
 
-## minecraft:allay (TODO)
-
-<GameScene zoom={2}>
+<GameScene zoom={5} interactive={true}>
   <Entity id="minecraft:allay" />
 </GameScene>
 

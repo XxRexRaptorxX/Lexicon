@@ -13,9 +13,11 @@ A [*Note Block*](../redstone/redstone_components.md#noteblock) must have air in 
 
 Pressing the use button on the block increases the note pitch up a semitone.
 
-The tuning can also be checked by looking at the right side of the debug screen (pressing *F3*)
+The tuning can also be checked by looking on the right side of the debug screen (pressing *F3*)
 
 ![](noteblock_tuning_color.png)
+
+-----
 
 The instrument played depends on the material of the block underneath the *Note Block*: 
 
@@ -29,14 +31,12 @@ The instrument played depends on the material of the block underneath the *Note 
 - **Wool** = Guitar 
 - **Bone Block** = Xylophone 
 - **Iron Block** = Iron Xylophone 
-- **Soul Sand** = Cow Bell 
-
-
+- **Soul Sand** = Cow Bell
 - **Pumpkin** = Didgeridoo 
 - **Emerald Block** = Bit 
 - **Hay Bale** = Banjo 
 - **Glowstone** = Pling 
-- **all other** = Harp / piano 
+- **all other** = Harp / Piano 
 
-Placing a [*Head*](../rare/mob_head.md) __above__ a note block causes the block to play the corresponding mob's sound when activated.
+Placing a [*Head*](../rare/mob_head.md) __above__ a note block causes the block to play the corresponding [*mob*](../creatures.md)'s sound when activated.
 

@@ -13,11 +13,5 @@ The *Respawn Anchor* is a block that allows [*Players*](../creatures/human-playe
 
 The anchor must be charged with *Glowstone*.
 
-##  
-
-
-
-<Recipe id="minecraft:crying_obsidian" />
-
 <Recipe id="minecraft:respawn_anchor" />
 

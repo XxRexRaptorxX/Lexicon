@@ -12,10 +12,5 @@ This farm automatically shears the [*Sheep*](../creatures/animal-sheep.md) by te
 
 It's important that there are still additional *Grass* blocks to let the *Dirt* grow back.
 
-
-
-TODO: Unsupported flag 'border'
-![](wool_farm_1.png)
-
-![](wool_farm_2.png)
+![](wool_farm_1.png) ![](wool_farm_2.png)
 

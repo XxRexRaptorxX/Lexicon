@@ -13,8 +13,6 @@ An *Ominous Bottle* is an item that gives a [*Players*](../creatures/human-playe
 
 *Ominous Bottles* have 5 levels, which correspond with the 5 levels of the effect.
 
-
-
 *Ominous Bottles* are dropped by *Raid Captains* outside of raids, at a random level.
 
 ![](pillager_captain.png)

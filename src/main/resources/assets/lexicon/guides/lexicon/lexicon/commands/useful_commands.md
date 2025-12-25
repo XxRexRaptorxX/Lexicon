@@ -28,7 +28,7 @@ navigation:
 
 **/fill** fill a region with a specific block  
 
-**/summon** spawns a entity 
+**/summon** spawns an entity 
 
 **/time** changes the world time 
 
@@ -42,5 +42,7 @@ navigation:
 
 **/weather** controls the weather
 
-A list of all commands and it's detailed description can be found in the [Minecraft Wiki](https://minecraft.wiki/w/Commands).
+----
+
+A list of all commands, and it's detailed description can be found in the [Minecraft Wiki](https://minecraft.wiki/w/Commands).
 

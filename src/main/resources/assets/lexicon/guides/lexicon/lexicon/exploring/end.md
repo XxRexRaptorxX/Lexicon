@@ -10,10 +10,5 @@ navigation:
 
 Here are some important items that you should always have with your adventure in the [*End*](../world/dimensions.md#end)!
 
-
-
-TODO: Unsupported flag 'border'
-![](end_equipment.png)
-
-![](additional_equipment.png)
+![](end_equipment.png) ![](additional_equipment.png)
 

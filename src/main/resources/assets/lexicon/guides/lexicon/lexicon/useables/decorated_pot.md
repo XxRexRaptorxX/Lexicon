@@ -9,11 +9,11 @@ navigation:
 
 <ItemImage id="minecraft:decorated_pot" />
 
-A *Decorated Pot* is a storage block crafted from *Bricks* and/or [*Pottery Sherds*](../sherds.md), with the items used individually affecting the appearance of its four side faces. 
+A *Decorated Pot* is a storage block crafted from *Bricks* and/or [*Pottery Sherds*](../rare/pottery_sherds.md), with the items used individually affecting the appearance of its four side faces. 
 
 It can store a single inventory slot's worth of items, which cannot be seen or retrieved by hand without breaking the pot.
 
-##  
+-----
 
 The pot's sides correspond to the item used in the crafting. 
 

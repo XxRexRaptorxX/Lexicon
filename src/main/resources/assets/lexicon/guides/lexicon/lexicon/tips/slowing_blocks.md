@@ -11,8 +11,5 @@ navigation:
 
 This slowing effect can be increased by placing *Soul Sand* directly on any *Ice Block* or *Slime Blocks*.
 
-
-
-TODO: Unsupported flag 'border'
 ![](slow_walking.png)
 
