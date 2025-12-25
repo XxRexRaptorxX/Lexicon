@@ -76,7 +76,7 @@ Useful for all newcomers and players who want to expand their knowledge about th
 - **GuideME** [≥ MC 1.21.5]
     - Provides the base of the lexicon
     - [CurseForge][cf_guideme] | [Modrinth][mr_guideme]
-  
+
 - **Patchouli** [≤ MC 1.21.4]
   - Provides the base of the lexicon
   - [CurseForge][cf_patchouli] | [Modrinth][mr_patchouli]
