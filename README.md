@@ -68,9 +68,19 @@ Useful for all newcomers and players who want to expand their knowledge about th
 ## 🗃️ Dependencies
 
 ### Required:
-- **Patchouli**
+
+- **Magma Core** [≥ MC 1.21.5]
+  - Provides basic code and features such as update-checker
+  - [CurseForge][cf_magmacore] | [Modrinth][mr_magmacore]
+
+- **GuideME** [≥ MC 1.21.5]
+    - Provides the base of the lexicon
+    - [CurseForge][cf_guideme] | [Modrinth][mr_guideme]
+  
+- **Patchouli** [≤ MC 1.21.4]
   - Provides the base of the lexicon
   - [CurseForge][cf_patchouli] | [Modrinth][mr_patchouli]
+
 
 
 <p align="center">
@@ -121,5 +131,9 @@ Useful for all newcomers and players who want to expand their knowledge about th
   <a href="https://bisecthosting.com/REXRAPTOR"><img src="https://github.com/XxRexRaptorxX/General/blob/main/BH_REX_Bisect.png?raw=true" alt="Bisect Hosting - 25% off with code: REXRAPTOR"/></a>
 </p>
 
+[cf_magmacore]: https://www.curseforge.com/minecraft/mc-mods/magma-core
+[mr_magmacore]: https://modrinth.com/mod/magma-core
 [cf_patchouli]: https://www.curseforge.com/minecraft/mc-mods/patchouli
 [mr_patchouli]: https://modrinth.com/mods/patchouli
+[cf_guideME]: https://www.curseforge.com/minecraft/mc-mods/guideme
+[mr_guideME]: https://modrinth.com/mod/guideme
