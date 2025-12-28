@@ -17,7 +17,7 @@ __Attack Damage:__
 __Behavior:__ Neutral     
 __Spawn:__ [*Villages*](../world/structures.md#village), [*Pillager Outposts*](../world/structures.md#outpost), when created by a [*Player*](./human-player.md)     
 __Properties:__ 
-*Iron Golems* are created by placing 4 *Iron Blocks* in a T shape, and then placing a *Carved Pumpkin*, *Jack o'Lantern* on top of the center upper block. Attack monsters.
+*Iron Golems* are created by placing 4 *Iron Blocks* in a T-shape, and then placing a *Carved Pumpkin*, *Jack o'Lantern* on top of the center upper block. Attack monsters.
 
 -----
 

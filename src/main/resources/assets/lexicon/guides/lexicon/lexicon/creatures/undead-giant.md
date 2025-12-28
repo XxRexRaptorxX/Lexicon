@@ -22,7 +22,7 @@ Giants are close to 12 blocks tall [*Zombies*](./undead-zombie.md). They cannot 
 
 ## Giant
 
-<GameScene zoom={5.2}>
+<GameScene zoom={5}>
   <Entity id="minecraft:giant" />
 </GameScene>
 

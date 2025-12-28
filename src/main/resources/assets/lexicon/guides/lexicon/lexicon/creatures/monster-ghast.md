@@ -24,7 +24,7 @@ __Properties:__
 
 ## Ghast
 
-<GameScene zoom={5} interactive={true}>
+<GameScene zoom={3} interactive={true}>
   <Entity id="minecraft:ghast" />
 </GameScene>
 

@@ -26,6 +26,6 @@ __Properties:__
   <Entity id="minecraft:wither_skeleton" />
 </GameScene>
 
-> __Drops:__ 0-2 Bones, 1/3 chance Coal, 2.5% chance for a [*Wither Skeleton Skull*](../rare/mob_heads.md) / 100% chance if killed by a [*Charged Creeper*](../tips/lightning.md), 8.5% chance for Equipment  
+> __Drops:__ 0-2 Bones, 1/3 chance Coal, 2.5% chance for a [*Wither Skeleton Skull*](../rare/mob_head.md) / 100% chance if killed by a [*Charged Creeper*](../tips/lightning.md), 8.5% chance for Equipment  
 > __XP:__ 5-17
 

@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ [*Sniffer Eggs*](../rare/sniffer_egg.md)       
 __Breeding:__ Torchflower seeds       
-__Properties:__ 
+__Properties:__       
 It sniffs out and digs seeds for various unique decorative plants out of *Dirt*, *Grass*, *Mud* and *Moss blocks*. A baby sniffer is called a *Snifflet*.
 
 ------

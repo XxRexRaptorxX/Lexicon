@@ -13,7 +13,7 @@ __Behavior:__ Passive
 __Spawn:__ Jungles    
 __Taming:__ Seeds     
 __Properties:__ 
-Parrots dance near a [*Jukebox*](../useable/jukebox.md) if it's on. Parrots imitate the idle sounds of nearby mobs.
+Parrots dance near a [*Jukebox*](../useables/jukebox.md) if it's on. Parrots imitate the idle sounds of nearby mobs.
 
 -----
 

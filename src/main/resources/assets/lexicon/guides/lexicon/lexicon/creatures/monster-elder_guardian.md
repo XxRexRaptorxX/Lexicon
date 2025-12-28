@@ -28,7 +28,7 @@ The *Elder Guardian* has 3 methods of attacking, including firing its laser, inf
 ## Elder Guardian
 
 <GameScene zoom={5} interactive={true}>
-  <Entity id="minecraft:guardian" />
+  <Entity id="minecraft:elder_guardian" />
 </GameScene>
 
 > __Drops:__ 0-2 Prismarine Shards, 1 Wet Sponge, 2.5% random fish, 1/3 chance of Prismarine Crystals   

@@ -20,7 +20,8 @@ __Attack Damage:__
 __Behavior:__ Hostile     
 __Spawn:__ [End](../world/dimensions.md#end)    
 __Properties:__ 
-The *Ender Dragon* is a gigantic flying boss found when first entering the [*End*](../world/dimensions.md#end). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all [status effects](../brewing/effects.md), can fly, shoot fire balls, spit [*dragons breath*](../rare/dragons/breath.md), and can destroy the most blocks by contact. It generates health out of [*End Crystals*](../rare/end_crystal.md). Can be re-summoned.
+The *Ender Dragon* is a gigantic flying boss found when first entering the [*End*](../world/dimensions.md#end). Widely acknowledged as the final boss of Minecraft. The dragon is immune to all [status effects](../brewing/effects.md), can fly, shoot fireballs, 
+spit [*dragons breath*](../rare/dragons_breath.md), and can destroy the most blocks by contact. It generates health out of [*End Crystals*](../rare/end_crystal.md). Can be re-summoned.
 
 -----
 

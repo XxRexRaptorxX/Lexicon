@@ -26,6 +26,6 @@ __Properties:__
   <Entity id="minecraft:zombie" />
 </GameScene>
 
-> __Drops:__ 0-2 Rotten Flesh, 2.5% chance for Iron Ingot / Carrot / Potato / Baked Potato if killed with fire, 1 [*Zombie Head*](../rare/mob_heads.md) if killed by a [Charged Creeper](../tips/lightning.md)  
+> __Drops:__ 0-2 Rotten Flesh, 2.5% chance for Iron Ingot / Carrot / Potato / Baked Potato if killed with fire, 1 [*Zombie Head*](../rare/mob_head.md) if killed by a [Charged Creeper](../tips/lightning.md)  
 > __XP:__ adults 5-17, babies 12-24
 
