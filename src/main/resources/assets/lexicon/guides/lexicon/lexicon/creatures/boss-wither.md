@@ -23,7 +23,7 @@ The *Wither* has a passive regeneration rate of 1 every second, and a direct kil
 
 ## Wither
 
-<GameScene zoom={4} interactive={true}>
+<GameScene zoom={3} interactive={true}>
   <Entity id="minecraft:wither" />
 </GameScene>
 
@@ -35,13 +35,13 @@ The *Wither* has a passive regeneration rate of 1 every second, and a direct kil
 How to summon a *Wither*:
 
 <GameScene interactive={true} zoom={2}>
-  <Block x="0" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
-  <Block x="1" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
-  <Block x="2" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
+  <Block x="0" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
+  <Block x="1" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
+  <Block x="2" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
   <Block x="0" y="1" z="0" id="minecraft:soul_sand" />
   <Block x="1" y="1" z="0" id="minecraft:soul_sand" />
   <Block x="2" y="1" z="0" id="minecraft:soul_sand" />
-  <Block x="1" y="2" z="0" id="minecraft:soul_sand" />
+  <Block x="1" y="0" z="0" id="minecraft:soul_sand" />
 </GameScene>
 
 
