@@ -16,9 +16,9 @@ You can see the syntax in the **/help** command or on sites like the [Minecraft 
 
 **plain text** = command text
 
-**<argument>** = argument that should be replaced with the value
+**\<argument\>** = argument that should be replaced with the value
 
-**<entry>** = optional entry 
+**\<entry\>** = optional entry 
 
 **(entry|entry)** = Pick one of the required entries 
 

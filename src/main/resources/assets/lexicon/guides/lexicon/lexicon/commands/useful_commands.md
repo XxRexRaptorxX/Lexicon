@@ -10,7 +10,7 @@ navigation:
 
 **/help** shows a list of all commands
 
-**/help <command>** shows usages of selected command  
+**/help \<command\>** shows usages of selected command  
 
 **/clear** clears all items in the inventory
 
