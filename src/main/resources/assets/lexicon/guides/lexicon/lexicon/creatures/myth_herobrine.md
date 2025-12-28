@@ -30,21 +30,21 @@ He has bright white eyes that glow in the darkness, and is able to hold *Tools* 
 Legends say, that this shrine calls *Herobrine*:
 
 <GameScene interactive={true} zoom={2}>
-  <Block x="1" y="0" z="1" id="minecraft:fire" />
+  <Block x="1" y="2" z="1" id="minecraft:fire" />
   <Block x="1" y="1" z="0" id="minecraft:redstone_torch" />
   <Block x="0" y="1" z="1" id="minecraft:redstone_torch" />
   <Block x="1" y="1" z="1" id="minecraft:netherrack" />
   <Block x="2" y="1" z="1" id="minecraft:redstone_torch" />
   <Block x="1" y="1" z="2" id="minecraft:redstone_torch" />
-  <Block x="0" y="2" z="0" id="minecraft:gold_block" />
-  <Block x="1" y="2" z="0" id="minecraft:gold_block" />
-  <Block x="2" y="2" z="0" id="minecraft:gold_block" />
-  <Block x="0" y="2" z="1" id="minecraft:gold_block" />
-  <Block x="1" y="2" z="1" id="minecraft:soul_sand" />
-  <Block x="2" y="2" z="1" id="minecraft:gold_block" />
-  <Block x="0" y="2" z="2" id="minecraft:gold_block" />
-  <Block x="1" y="2" z="2" id="minecraft:gold_block" />
-  <Block x="2" y="2" z="2" id="minecraft:gold_block" />
+  <Block x="0" y="0" z="0" id="minecraft:gold_block" />
+  <Block x="1" y="0" z="0" id="minecraft:gold_block" />
+  <Block x="2" y="0" z="0" id="minecraft:gold_block" />
+  <Block x="0" y="0" z="1" id="minecraft:gold_block" />
+  <Block x="1" y="0" z="1" id="minecraft:soul_sand" />
+  <Block x="2" y="0" z="1" id="minecraft:gold_block" />
+  <Block x="0" y="0" z="2" id="minecraft:gold_block" />
+  <Block x="1" y="0" z="2" id="minecraft:gold_block" />
+  <Block x="2" y="0" z="2" id="minecraft:gold_block" />
 </GameScene>
 
 

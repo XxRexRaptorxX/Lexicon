@@ -35,11 +35,11 @@ __Properties:__
 How to build an *Iron Golem*:
 
 <GameScene interactive={true} zoom={2}>
-  <Block x="1" y="0" z="0" id="minecraft:carved_pumpkin"p:facing="east" />
+  <Block x="1" y="2" z="0" id="minecraft:carved_pumpkin"p:facing="north" />
   <Block x="0" y="1" z="0" id="minecraft:iron_block" />
   <Block x="1" y="1" z="0" id="minecraft:iron_block" />
   <Block x="2" y="1" z="0" id="minecraft:iron_block" />
-  <Block x="1" y="2" z="0" id="minecraft:iron_block" />
+  <Block x="1" y="0" z="0" id="minecraft:iron_block" />
 </GameScene>
 
 

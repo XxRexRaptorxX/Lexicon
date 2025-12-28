@@ -28,13 +28,13 @@ It eventually becomes a giant monster with 5 tentacles and three heads that can 
 Legends say, that this structure creates a *Wither Storm*:
 
 <GameScene interactive={true} zoom={2}>
-  <Block x="0" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
-  <Block x="1" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
-  <Block x="2" y="0" z="0" id="minecraft:wither_skeleton_skull"p:rotation="4" />
+  <Block x="0" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
+  <Block x="1" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
+  <Block x="2" y="2" z="0" id="minecraft:wither_skeleton_skull"p:rotation="0" />
   <Block x="0" y="1" z="0" id="minecraft:soul_sand" />
   <Block x="1" y="1" z="0" id="minecraft:command_block"p:facing="down" />
   <Block x="2" y="1" z="0" id="minecraft:soul_sand" />
-  <Block x="1" y="2" z="0" id="minecraft:soul_sand" />
+  <Block x="1" y="0" z="0" id="minecraft:soul_sand" />
 </GameScene>
 
 

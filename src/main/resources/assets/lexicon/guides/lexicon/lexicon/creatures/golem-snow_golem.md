@@ -30,9 +30,9 @@ Creating a *Snow Golem* requires the [*Player*](./human-player.md) to stack two 
 How to build a *Snow Golem*:
 
 <GameScene interactive={true} zoom={2}>
-  <Block x="0" y="0" z="0" id="minecraft:carved_pumpkin" />
+  <Block x="0" y="2" z="0" id="minecraft:carved_pumpkin" />
   <Block x="0" y="1" z="0" id="minecraft:snow_block" />
-  <Block x="0" y="2" z="0" id="minecraft:snow_block" />
+  <Block x="0" y="0" z="0" id="minecraft:snow_block" />
 </GameScene>
 
 
