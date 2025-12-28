@@ -1,7 +1,8 @@
-# [v.2.1.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev7)
+# [v.2.1.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev8)
 
 ## 🔧 Bug Fixes
 
+- trading hall multiblock structure preview fixed ([13b56f2](https://github.com/XxRexRaptorxX/Lexicon/commit/13b56f244198124745edfdbcc34d0541cc406a49))
 - multiblock structure preview in some mob pages fixed ([7679834](https://github.com/XxRexRaptorxX/Lexicon/commit/7679834de67a22f7d4ad8e64603e1c1730c07d22))
 - formatting fixes in some mob pages ([6f5e207](https://github.com/XxRexRaptorxX/Lexicon/commit/6f5e2075f687bcd7cf4e110ae16913cf072b13ce))
 - wither multiblock structure ([f5bcdc7](https://github.com/XxRexRaptorxX/Lexicon/commit/f5bcdc7fc12120f69045475e36999b374f526f6e))
