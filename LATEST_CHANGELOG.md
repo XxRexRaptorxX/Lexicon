@@ -1,7 +1,8 @@
-# [v.2.1.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev9)
+# [v.2.1.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev10)
 
 ## 🔧 Bug Fixes
 
+- redstone contraption multiblock structure previews fixed ([f5265d4](https://github.com/XxRexRaptorxX/Lexicon/commit/f5265d4c12d43ed99e02f4bafc6df8d6e1e8d323))
 - starter house multiblock structure preview fixed ([8ab28f2](https://github.com/XxRexRaptorxX/Lexicon/commit/8ab28f275ed173ab5203d3a91c009fc52fbf9568))
 - trading hall multiblock structure preview fixed ([13b56f2](https://github.com/XxRexRaptorxX/Lexicon/commit/13b56f244198124745edfdbcc34d0541cc406a49))
 - multiblock structure preview in some mob pages fixed ([7679834](https://github.com/XxRexRaptorxX/Lexicon/commit/7679834de67a22f7d4ad8e64603e1c1730c07d22))
