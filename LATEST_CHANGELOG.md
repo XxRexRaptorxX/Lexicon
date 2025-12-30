@@ -1,7 +1,8 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev10)
+# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev11)
 
 ## ✨ Features
 
+- test- and test instance block pages added ([9b27d87](https://github.com/XxRexRaptorxX/Lexicon/commit/9b27d87b2f341003b52378832fb578701099b317))
 - activator rail and powered rail added to the redstone components page ([98cbf6e](https://github.com/XxRexRaptorxX/Lexicon/commit/98cbf6ee026004cb4bfd1efd22528f677e43891b))
 - item links to most pages added ([9b01555](https://github.com/XxRexRaptorxX/Lexicon/commit/9b015550c08e8d19238fdaece73fefc0d143d05b))
 - creaking heart page added ([fae803e](https://github.com/XxRexRaptorxX/Lexicon/commit/fae803edfba1089090367a81cf27c3da856903eb))
