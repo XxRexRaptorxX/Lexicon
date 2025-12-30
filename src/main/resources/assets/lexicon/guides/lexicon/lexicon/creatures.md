@@ -2,6 +2,7 @@
 navigation:
   title: "Creatures"
   icon: "minecraft:pufferfish"
+  parent: index.md
   position: 10
 ---
 

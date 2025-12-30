@@ -2,6 +2,7 @@
 navigation:
   title: "Commands"
   icon: "minecraft:command_block"
+  parent: index.md
   position: 20
 ---
 

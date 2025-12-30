@@ -2,6 +2,7 @@
 navigation:
   title: "Trading"
   icon: "minecraft:emerald"
+  parent: index.md
   position: 8
 ---
 

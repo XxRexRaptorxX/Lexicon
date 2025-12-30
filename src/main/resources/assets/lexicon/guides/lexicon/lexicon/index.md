@@ -1,9 +1,13 @@
-# -= The Lexicon of Minecraft =-
+---
+navigation:
+  title: The Lexicon of Minecraft
+---
 
-----
+# <Color id="gold">-= The Lexicon of Minecraft =-</Color>
 
 ### This lexicon explains almost every aspect of Minecraft ingame! 
-This book focuses on vanilla Minecraft, mods or datapacks can change some aspects of it.
+
+This book focuses on vanilla Minecraft. Mods or datapacks can change some aspects of it.
 
 ----
 
@@ -32,4 +36,4 @@ This book focuses on vanilla Minecraft, mods or datapacks can change some aspect
 
 
 
-by XxRexRaptorxX
+by [XxRexRaptorxX](https://www.curseforge.com/members/xxrexraptorxx/projects)

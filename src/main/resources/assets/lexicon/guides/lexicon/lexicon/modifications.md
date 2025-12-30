@@ -2,6 +2,7 @@
 navigation:
   title: "Modifications"
   icon: "minecraft:structure_block"
+  parent: index.md
   position: 20
 ---
 

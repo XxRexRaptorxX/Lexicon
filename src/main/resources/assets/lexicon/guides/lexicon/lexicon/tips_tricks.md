@@ -2,6 +2,7 @@
 navigation:
   title: "Tips and Tricks"
   icon: "minecraft:writable_book"
+  parent: index.md
   position: 18
 ---
 

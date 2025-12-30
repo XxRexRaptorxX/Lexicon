@@ -2,6 +2,7 @@
 navigation:
   title: "Crafting"
   icon: "minecraft:crafting_table"
+  parent: index.md
   position: 3
 ---
 

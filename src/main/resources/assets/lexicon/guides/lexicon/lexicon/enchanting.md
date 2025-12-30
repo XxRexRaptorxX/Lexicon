@@ -2,6 +2,7 @@
 navigation:
   title: "Enchanting"
   icon: "minecraft:enchanting_table"
+  parent: index.md
   position: 16
 ---
 

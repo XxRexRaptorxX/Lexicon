@@ -2,6 +2,7 @@
 navigation:
   title: "How to get to the end"
   icon: "minecraft:dragon_head"
+  parent: index.md
   position: 21
 ---
 

@@ -2,6 +2,7 @@
 navigation:
   title: "Building"
   icon: "minecraft:bricks"
+  parent: index.md
   position: 6
 ---
 

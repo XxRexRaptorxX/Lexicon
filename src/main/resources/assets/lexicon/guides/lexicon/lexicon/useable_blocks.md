@@ -2,6 +2,7 @@
 navigation:
   title: "Useable Blocks"
   icon: "minecraft:smithing_table"
+  parent: index.md
   position: 9
 ---
 

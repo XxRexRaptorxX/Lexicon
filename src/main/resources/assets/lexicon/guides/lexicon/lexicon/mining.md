@@ -2,6 +2,7 @@
 navigation:
   title: "Mining"
   icon: "minecraft:diamond_pickaxe"
+  parent: index.md
   position: 1
 ---
 

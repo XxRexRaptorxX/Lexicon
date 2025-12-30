@@ -2,6 +2,7 @@
 navigation:
   title: "World"
   icon: "minecraft:filled_map"
+  parent: index.md
   position: 12
 ---
 

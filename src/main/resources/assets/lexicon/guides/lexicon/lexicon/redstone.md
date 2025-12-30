@@ -2,6 +2,7 @@
 navigation:
   title: "Redstone"
   icon: "minecraft:redstone"
+  parent: index.md
   position: 15
 ---
 

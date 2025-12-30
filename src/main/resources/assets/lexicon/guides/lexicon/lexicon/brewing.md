@@ -2,6 +2,7 @@
 navigation:
   title: "Brewing"
   icon: "minecraft:brewing_stand"
+  parent: index.md
   position: 17
 ---
 

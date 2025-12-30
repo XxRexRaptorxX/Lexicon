@@ -2,6 +2,7 @@
 navigation:
   title: "Farming"
   icon: "minecraft:diamond_hoe"
+  parent: index.md
   position: 2
 ---
 
