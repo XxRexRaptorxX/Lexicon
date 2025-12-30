@@ -164,31 +164,80 @@ tasks.register('updateVersionsJson') {
         println "Wrote ${file.path} — updated keys: ${updatedKeys.join(', ')}"
 
         // 4) git add / commit / push --all (gracefully handle 'nothing to commit')
+        println "Staging versions.json..."
         def addRes = project.exec {
             commandLine 'git', 'add', 'versions.json'
             ignoreExitValue = true
         }
-
-        def commitMessage = "chore: update versions.json (${updatedKeys.join(', ')} -> ${modVersion}; release_type=${releaseType})"
-        def commitRes = project.exec {
-            commandLine 'git', 'commit', '-m', commitMessage
-            ignoreExitValue = true
+        if (addRes.exitValue != 0) {
+            throw new GradleException("Failed to stage versions.json (git add returned ${addRes.exitValue})")
         }
 
-        if (commitRes.exitValue != 0) {
-            println "git commit returned exit code ${commitRes.exitValue} — probably nothing to commit or git not configured. Skipping push."
+        println "Committing changes (if any)..."
+        def commitRes = project.exec {
+            commandLine 'git', 'commit', '-m', 'chore: update versions.json [skip hooks]'
+            ignoreExitValue = true // don't fail if there is nothing to commit
+        }
+        if (commitRes.exitValue == 0) {
+            println "Commit created for versions.json."
+        } else {
+            // exitValue != 0 likely means "nothing to commit" or other non-fatal issue
+            println "No commit created (git commit exit ${commitRes.exitValue}) — continuing."
+        }
+
+        // 5) Get list of existing remote branches on origin
+        println "Querying remote branches on 'origin'..."
+        def remoteOut = new ByteArrayOutputStream()
+        def lsRes = project.exec {
+            commandLine 'git', 'ls-remote', '--heads', 'origin'
+            standardOutput = remoteOut
+            ignoreExitValue = true
+        }
+        if (lsRes.exitValue != 0) {
+            throw new GradleException("Failed to list remote branches on origin (git ls-remote exit ${lsRes.exitValue})")
+        }
+
+        def remoteLines = remoteOut.toString().readLines().findAll { it.trim() }
+        if (remoteLines.isEmpty()) {
+            println "No remote branches found on origin — nothing to push."
             return
         }
 
-        def pushRes = project.exec {
-            commandLine 'git', 'push', '--all'
+        def remoteBranches = remoteLines.collect { line ->
+            // line format: "<sha>\trefs/heads/<branch>"
+            def parts = line.split()
+            if (parts.length < 2) return null
+            return parts[1].replace('refs/heads/', '')
+        }.findAll { it != null }
+
+        println "Found ${remoteBranches.size()} remote branch(es) on origin."
+
+        remoteBranches.each { branch ->
+            println "Pushing current HEAD to remote branch '${branch}'..."
+            def pushRes = project.exec {
+                // push local HEAD to the remote branch (does not create new remote branches because branch exists on origin)
+                commandLine 'git', 'push', 'origin', "HEAD:${branch}"
+                ignoreExitValue = true
+            }
+
+            if (pushRes.exitValue != 0) {
+                // If push fails (non-fast-forward or other error), throw so the CI/gradle run fails visibly.
+                throw new GradleException("Failed to push HEAD to origin/${branch} (git push exit ${pushRes.exitValue})")
+            }
+            println "Successfully pushed to origin/${branch}."
+        }
+
+        // push tags
+        println "Pushing tags to origin..."
+        def pushTagsRes = project.exec {
+            commandLine 'git', 'push', 'origin', '--tags'
             ignoreExitValue = true
         }
-
-        if (pushRes.exitValue != 0) {
-            throw new GradleException("git push --all failed with exit code ${pushRes.exitValue}")
+        if (pushTagsRes.exitValue != 0) {
+            throw new GradleException("Failed to push tags to origin (git push --tags exit ${pushTagsRes.exitValue})")
         }
+        println "Tags pushed."
 
-        println "Committed and pushed updates to all branches."
+        println "All existing remote branches updated successfully."
     }
 }
