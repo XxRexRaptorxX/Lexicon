@@ -14,9 +14,10 @@ __Attack Damage:__
  - 4.5 on hard    
 
 __Behavior:__ Hostile    
-__Spawn:__ At night by an activated *Creaking Heart*    
+__Spawn:__ At night by an activated [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md)       
 __Properties:__     
-It is protected from **all** damage by the *Creaking Heart* that spawned it. Breaking the *Creaking Heart* instantly kills the *Creaking*. The heart of this monster naturally generates in Pale Oak tree trunks. 
+It is protected from **all** damage by the [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md) that spawned it. Breaking the [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md) instantly kills the *Creaking*. The heart of 
+this monster naturally generates inside Pale Oak tree trunks. 
 When the *Creaking* is struck, the particles reveal the direction in which the heart is located. This monster only moves when you don't have it in your field of vision.
 
 -----
@@ -32,7 +33,7 @@ When the *Creaking* is struck, the particles reveal the direction in which the h
 
 -----
 
-You can also activate a *Creaking Heart* yourself. To do this, the heart must be placed between pale oak blocks in the same orientation. However, it must be in the [*Overworld*](../world/dimensions.md#the-overworld) and it must 
+You can also activate a [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md) yourself. To do this, the heart must be placed between pale oak blocks in the same orientation. However, it must be in the [*Overworld*](../world/dimensions.md#the-overworld) and it must 
 be nighttime.
 
 <GameScene interactive={true} zoom={2}>
@@ -40,6 +41,4 @@ be nighttime.
   <Block x="0" y="1" z="0" id="minecraft:creaking_heart" />
   <Block x="0" y="0" z="0" id="minecraft:pale_oak_log" />
 </GameScene>
-
-<Recipe id="minecraft:creaking_heart" />
 
