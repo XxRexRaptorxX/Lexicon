@@ -1,4 +1,4 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev7)
+# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev8)
 
 ## ✨ Features
 
@@ -13,5 +13,6 @@
 
 ## 🔨 Refactoring
 
+- pottery sherd page improved ([e4712bc](https://github.com/XxRexRaptorxX/Lexicon/commit/e4712bcd32e7df6d99c5e1c4418b43108e7b4eb7))
 - Suspicious stew page updated and improved ([095cae5](https://github.com/XxRexRaptorxX/Lexicon/commit/095cae5a72734d7c3a00f2b54c65d718fedeac03))
 
