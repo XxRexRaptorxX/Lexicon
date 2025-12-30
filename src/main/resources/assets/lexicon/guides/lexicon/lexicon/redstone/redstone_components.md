@@ -87,13 +87,11 @@ When activated, a *Wooden Button* remains active for 15 redstone ticks (1.5s, ba
 A *Wooden Button* activated by a fired <ItemLink id="minecraft:arrow" /> or a <ItemLink id="minecraft:trident" /> remains active until the projectile despawns or is picked up.
 
 <Row> 
-    <RecipesFor id="minecraft:stone_button" /> <Recipe id="minecraft:oak_button" /> <Recipe id="minecraft:birch_button" /> <Recipe id="minecraft:spruce_button" />
-    <Recipe id="minecraft:jungle_button" /> <Recipe id="minecraft:dark_oak_button" /> <Recipe id="minecraft:acacia_button" /> <Recipe id="minecraft:bamboo_button" />
-    <Recipe id="minecraft:cherry_button" /> <Recipe id="minecraft:mangrove_button" /> <Recipe id="minecraft:pale_oak_button" /> <Recipe id="minecraft:crimson_button" />
-    <Recipe id="minecraft:warped_button" />
+    <RecipesFor id="minecraft:stone_button" /> <RecipesFor id="minecraft:polished_blackstone_button" /> 
+    <Recipe id="minecraft:oak_button" /> <Recipe id="minecraft:birch_button" /> <Recipe id="minecraft:spruce_button" /> <Recipe id="minecraft:jungle_button" /> 
+    <Recipe id="minecraft:dark_oak_button" /> <Recipe id="minecraft:acacia_button" /> <Recipe id="minecraft:bamboo_button" /> <Recipe id="minecraft:cherry_button" /> 
+    <Recipe id="minecraft:mangrove_button" /> <Recipe id="minecraft:pale_oak_button" /> <Recipe id="minecraft:crimson_button" /> <Recipe id="minecraft:warped_button" />
 </Row>
-
-
 
 -----
 
@@ -118,12 +116,14 @@ A <ItemLink id="minecraft:lever" /> emits redstone power when activated.
 - <ItemLink id="minecraft:heavy_weighted_pressure_plate" /> measures groups of 10 entities
 
 <Row>
-    <RecipesFor id="minecraft:light_weighted_pressure_plate" /> <RecipesFor id="minecraft:heavy_weighted_pressure_plate" /> <RecipesFor id="minecraft:stone_pressure_plate" /> 
+    <RecipesFor id="minecraft:light_weighted_pressure_plate" /> <RecipesFor id="minecraft:heavy_weighted_pressure_plate" /> 
+    <RecipesFor id="minecraft:stone_pressure_plate" /> <RecipesFor id="minecraft:polished_blackstone_pressure_plate" /> 
     <Recipe id="minecraft:oak_pressure_plate" /> <Recipe id="minecraft:birch_pressure_plate" /> <Recipe id="minecraft:spruce_pressure_plate" /> 
     <Recipe id="minecraft:jungle_pressure_plate" /> <Recipe id="minecraft:dark_oak_pressure_plate" /> <Recipe id="minecraft:acacia_pressure_plate" /> 
     <Recipe id="minecraft:bamboo_pressure_plate" /> <Recipe id="minecraft:cherry_pressure_plate" /> <Recipe id="minecraft:mangrove_pressure_plate" /> 
     <Recipe id="minecraft:pale_oak_pressure_plate" /> <Recipe id="minecraft:crimson_pressure_plate" /> <Recipe id="minecraft:warped_pressure_plate" />
 </Row>
+
 -----
 
 <a name="tripwire"></a>
@@ -133,7 +133,7 @@ A <ItemLink id="minecraft:tripwire_hook" /> can be used to detect [*Mobs*](../cr
 
 To use it you have to place 2 hooks opposite each other on walls and connect them with <ItemLink id="minecraft:string" />, now when an entity touches the thread the hooks emit a signal.
 
-<Row> <RecipesFor id="minecraft:tripwire_hook" /> </Row>
+<Row> <RecipesFor id="minecraft:tripwire_hook" /> <RecipesFor id="minecraft:string" /> </Row>
 
 -----
 
@@ -303,10 +303,29 @@ the recipe.
 
 <ItemImage id="minecraft:detector_rail" />
 
+The <ItemLink id="minecraft:detector_rail" /> is a type of <ItemLink id="minecraft:rail" /> that produces a signal while a <ItemLink id="minecraft:minecart" /> is on it. 
 If the <ItemLink id="minecraft:minecart" /> on the <ItemLink id="minecraft:detector_rail" /> is a <ItemLink id="minecraft:chest_minecart" /> or <ItemLink id="minecraft:hopper_minecart" />, an adjacent 
 [<ItemLink id="minecraft:comparator" />](./redstone_components.md#comparator) facing away from the <ItemLink id="minecraft:detector_rail" /> outputs a power level proportional to the container's fullness.
 
 <Row> <RecipesFor id="minecraft:detector_rail" /> </Row>
+
+-----
+
+<ItemImage id="minecraft:activator_rail" />
+
+An <ItemLink id="minecraft:activator_rail" /> is a type of <ItemLink id="minecraft:rail" /> that, if powered, can eject entities from a regular <ItemLink id="minecraft:minecart" />, 
+lock a <ItemLink id="minecraft:hopper_minecart" /> and ignite a <ItemLink id="minecraft:tnt_minecart" />. If not powered, it can only unlock a locked <ItemLink id="minecraft:hopper_minecart" />.
+
+<Row> <RecipesFor id="minecraft:activator_rail" /> </Row>
+
+-----
+
+<ItemImage id="minecraft:powered_rail" />
+
+A <ItemLink id="minecraft:powered_rail" /> is a type of <ItemLink id="minecraft:rail" /> that either increases or halts the velocity of a <ItemLink id="minecraft:minecart" /> depending on its power state, 
+and can be used to accelerate a <ItemLink id="minecraft:minecart" /> from a standstill when placed facing a conductive block.
+
+<Row> <RecipesFor id="minecraft:powered_rail" /> </Row>
 
 -----
 
