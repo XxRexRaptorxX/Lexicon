@@ -1,7 +1,8 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev4)
+# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev5)
 
 ## ✨ Features
 
+- creaking heart page added ([fae803e](https://github.com/XxRexRaptorxX/Lexicon/commit/fae803edfba1089090367a81cf27c3da856903eb))
 - Creaking page added ([6d90b87](https://github.com/XxRexRaptorxX/Lexicon/commit/6d90b872126adf3709fe89ab3f462823805d812c))
 
 ## 🔧 Bug Fixes
