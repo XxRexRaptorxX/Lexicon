@@ -16,7 +16,7 @@ __Attack Damage:__
 __Behavior:__ Neutral     
 __Spawn:__ Warm Oceans, Oceans       
 __Trust:__ Raw Cod, Raw Salmon       
-__Properties:__ 
+__Properties:__      
 [*Players*](./human-player.md) who swim with a *Dolphin* receive a [*Dolphin's Grace*](../brewing/effects.md#grace) effect. *Dolphins* play with dropped items. 
 When they are fed *Raw Cod* or *Raw Salmon*, they swim to the nearest structure or [*Buried Treasure*](../world/structures.md#treasure).
 

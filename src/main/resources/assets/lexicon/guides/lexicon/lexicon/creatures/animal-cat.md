@@ -12,7 +12,7 @@ __Attack Damage:__ 3
 __Behavior:__ Passive     
 __Spawn:__ [Villages](../world/structures.md#village), [Witch huts](../world/structures.md#hut)       
 __Breeding/Taming:__ Raw Cod, Raw Salmon     
-__Properties:__ 
+__Properties:__      
 Attacks only [*Rabbits*](./animal-rabbit.md), [*Chickens*](./animal-chicken.md) & [*Baby Turtles*](./aquatic_animal-turtle.md). 
 There is a *70%* chance for a tamed *Cat* to give the [*Player*](./human-player.md) a gift after they wake up. [*Creeper*](./monster-creeper.md) & [*Phantoms*](./undead-phantom.md) avoid cats.
 

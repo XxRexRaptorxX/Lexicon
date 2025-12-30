@@ -16,7 +16,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ Snow- and Ice biomes     
-__Properties:__
+__Properties:__     
 *Strays* behave the same as normal [*Skeletons*](./undead-skeleton.md), however, they shoot *Tipped Arrows* that inflict [*Slowness*](../brewing/effects.md#slowness) for 30 seconds on any target that they hit.
 
 -----

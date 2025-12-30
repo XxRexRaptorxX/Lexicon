@@ -15,7 +15,7 @@ __Attack Damage:__
 __Behavior:__ Neutral     
 __Spawn:__ On bee nests (Warm Plains, Warm Forests)     
 __Breeding:__ Flowers     
-__Properties:__ 
+__Properties:__      
 Can fertilize plants. Afterward, they create *Honey* in their *Bee Nests* or [*Beehives*](../useables/beehive.md).
 
 -----

@@ -11,10 +11,11 @@ __Health:__ 20
 __Attack Damage:__  
  - 22 on easy
  - 43 on normal
- - 64 on hard
+ - 64 on hard     
+
 __Behavior:__ Hostile    
 __Spawn:__ Overworld at light level 0   
-__Properties:__ 
+__Properties:__    
 *Creepers* chase any [*Player*](./human-player.md) within a 16 block radius. They do not voluntarily attack any other mob. When within 3 blocks of a [*Player*](./human-player.md), a *Creeper* stops moving, hisses, flashes and expands and explodes after 1.5 seconds, destroying blocks in the area as well as significantly damaging the target. It can be charged with a lightning bolt.
 
 -----

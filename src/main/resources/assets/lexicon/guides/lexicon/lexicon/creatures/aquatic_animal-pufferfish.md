@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Mostly Passive       
 __Spawn:__ Warm Oceans          
-__Properties:__ 
+__Properties:__     
 Can be caught with a *Bucket*.
 
 -----

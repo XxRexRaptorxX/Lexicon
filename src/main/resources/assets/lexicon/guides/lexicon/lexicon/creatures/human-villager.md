@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive       
 __Spawn:__ [Villages](../world/structures.md#village), [Igloo](../world/structures.md#igloo)        
 __Breeding:__ 3 Bread or 12 Carrots or 12 Potatoes or 12 Beetroots in her inventory + a free Bed    
-__Properties:__ 
+__Properties:__    
 Inhabit [*Villages*](../world/structures.md#village), work at their professions, breed, and interact with each other. Their outfit varies according to their occupation and biome. 
 A [*Player*](./human-player.md) can [trade](../trading/villager_trading.md) with *Villagers* using *Emeralds* as currency. 
 

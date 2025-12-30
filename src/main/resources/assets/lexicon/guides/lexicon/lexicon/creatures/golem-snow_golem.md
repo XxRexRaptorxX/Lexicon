@@ -11,7 +11,7 @@ __Health:__ 4
 __Attack Damage:__ 3 to [*Blazes*](./monster-blaze.md)  
 __Behavior:__ Passive, Aggressive to monsters   
 __Spawn:__ When created by a [*Player*](./human-player.md)  
-__Properties:__ 
+__Properties:__     
 Creating a *Snow Golem* requires the [*Player*](./human-player.md) to stack two *Snow blocks*, then place a *Carved Pumpkin*, or a *Jack o'Lantern* on top. Throws *Snowballs* to monsters. Melt in hot biomes, and on water contact. As they move, they leave a trail of *Snow* on the ground.
 
 -----

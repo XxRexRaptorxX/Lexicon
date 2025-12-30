@@ -12,7 +12,7 @@ __Attack Damage:__ 1
 __Behavior:__ Neutral           
 __Spawn:__ Savannas, Windswept biomes       
 __Breeding:__ Hay Bales       
-__Properties:__ 
+__Properties:__      
 Can be equipped with *Carpets* and a [*Chest*](../useables/chest.md). Can be ridden.
 
 -----

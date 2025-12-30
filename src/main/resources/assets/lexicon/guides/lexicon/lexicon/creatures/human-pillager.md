@@ -16,11 +16,11 @@ __Attack Damage:__
  - Melee: 
    - 2 on easy
    - 3 on normal
-   - 5 on hard 
+   - 5 on hard     
    
 __Behavior:__ Hostile     
 __Spawn:__ Patrols, [Pillager Outposts](../world/structures.md#outpost), Raids  
-__Properties:__ 
+__Properties:__      
 *Pillagers* are *Illagers* that patrol the [*Overworld*](../world/dimensions.md#overworld), guard their [*Outposts*](../world/structures.md#outpost), and participate in raids, sometimes spawning on 
 [*Ravagers*](./monster-ravager.md) in later waves of a [*Village*](../world/structures.md#village) raid.
 

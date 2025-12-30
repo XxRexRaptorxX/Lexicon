@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ [Overworld](../world/dimensions.md#overworld) at nighttime or during thunderstorms, when [Player](./human-player.md) has not attempted to enter a bed for 3+ days    
-__Properties:__ 
+__Properties:__     
 *Phantoms* can move through air and *Water*. They are scared of [*Cats*](./animal-cat.md) and [*Ocelots*](./animal-ocelot.md). They are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).
 
 -----

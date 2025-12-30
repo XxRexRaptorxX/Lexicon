@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Plains, Savanna, [Villages](../world/structures.md#village)       
 __Breeding:__ Golden Apple, Golden Carrot     
-__Properties:__ 
+__Properties:__      
 Can be equipped with a *Saddle* and then ridden. When ridden, they are able to move faster and jump higher than a normal player. *Horses* can be used to climb hills and jump *Fences*, as some can jump high enough to clear up to five block heights.
 
 -----

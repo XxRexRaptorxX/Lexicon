@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive      
 __Spawn:__ Mushroom Fields       
 __Breeding:__ Wheat     
-__Properties:__ 
+__Properties:__     
 There's a red and a brown variant. Shearing turns them to a [*Cow*](./animal-cow.md). Mooshrooms can be milked with a *Bucket* to get milk and with a *Bowl* to get *Mushroom Stew*. *Brown Mooshrooms*, can produce 
 [*Suspicious Stew*](../brewing/suspicious_stew.md) if fed with a small flower.
 

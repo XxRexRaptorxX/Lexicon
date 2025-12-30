@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile in light levels < 8, Neutral in light levels > 7        
 __Spawn:__ [*Mineshafts*](../world/structures.md#mineshaft)       
-__Properties:__ 
+__Properties:__     
 Can climb walls. [*Poison*](../brewing/effects.md#poison) the enemy on hit.
 
 -----

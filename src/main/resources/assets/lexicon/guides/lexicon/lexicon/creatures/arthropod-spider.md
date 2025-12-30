@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile in light levels < 12, Neutral in light levels > 11       
 __Spawn:__ Overworld in darkness      
-__Properties:__ 
+__Properties:__     
 Can climb walls.
 
 -----

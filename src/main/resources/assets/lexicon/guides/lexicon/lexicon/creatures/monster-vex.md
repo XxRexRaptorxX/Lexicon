@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ Summoned by [Evokers](./human-evoker.md)     
-__Properties:__ 
+__Properties:__     
 *Vexes* are tiny flying mobs summoned in small groups of 3 by the spell-casting [*Evoker*](./human-evoker.md). They are capable of flying through the air, and can freely pass through any block, including *Water* and *Lava*, without taking damage.
 
 -----

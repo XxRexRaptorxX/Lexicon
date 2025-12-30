@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ When naturally generated *Sculk Shriekers* activates 4 times       
-__Properties:__ 
+__Properties:__     
 *Wardens* are completely blind and wander randomly around the world after spawning. They are immune to *Fire* and *Lava* damage, and are not affected by [*Knockback*](../enchanting/enchantments.md#knockback). 
 Nearby vibrations agitate the *Warden*, and it moves toward where the sound originated. 
 They can spread out [*Darkness Effects*](../brewing/effects.md#darkness) and sniff the surrounding area.

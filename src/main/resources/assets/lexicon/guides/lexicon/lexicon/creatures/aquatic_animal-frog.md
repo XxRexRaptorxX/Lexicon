@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive        
 __Spawn:__ Swamp, Mangrove Swamp      
 __Breeding:__ Slimeball (requires water nearby)      
-__Properties:__ 
+__Properties:__     
 A *Frog* can produce one of three kinds of [*Froglights*](../rare/froglight.md) from eating [*Magma Cubes*](./monster-magma_cube.md), depending on the kind of *Frog*.
 
 -----

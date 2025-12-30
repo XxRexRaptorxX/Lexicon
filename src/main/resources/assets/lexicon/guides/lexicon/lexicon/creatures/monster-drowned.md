@@ -17,7 +17,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile       
 __Spawn:__ Rivers, Oceans, Dripstone Caves at light level 0     
-__Properties:__ 
+__Properties:__     
 *Drowned* live often in [*Ocean Monuments*](../world/structures.md#monument).
 
 -----

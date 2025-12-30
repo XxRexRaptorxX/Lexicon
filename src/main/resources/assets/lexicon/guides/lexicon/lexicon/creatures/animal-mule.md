@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ When a [Horse](./animal-horse.md) and a [Donkey](./animal-donkey.md) breed       
 __Breeding:__ -     
-__Properties:__ 
+__Properties:__      
 Can be equipped with a *Saddle* and a [*Chest*](../useables/chest.md). Can be ridden.
 
 -----

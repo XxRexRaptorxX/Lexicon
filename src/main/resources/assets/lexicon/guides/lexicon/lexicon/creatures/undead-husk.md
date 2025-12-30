@@ -16,7 +16,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ Desert    
-__Properties:__ 
+__Properties:__     
 A *Husk* is a variant of [*Zombie*](./undead-zombie.md) that spawns in deserts. Unlike [*Zombies*](./undead-zombie.md), they do not burn in sunlight. They are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).
 
 -----

@@ -11,7 +11,7 @@ __Health:__ 6
 __Attack Damage:__ 0       
 __Behavior:__ Passive       
 __Spawn:__ from Frogspawn       
-__Properties:__ 
+__Properties:__      
 *Tadpoles* follow a [*Player*](./human-player.md) that is holding a *Slimeball*. *Tadpoles* grows up into one of the variants of a [*Frog*](./aquatic_animal-frog.md) depending on the biome. Its growth may be accelerated by feeding it *Slimeballs*.
 
 -----

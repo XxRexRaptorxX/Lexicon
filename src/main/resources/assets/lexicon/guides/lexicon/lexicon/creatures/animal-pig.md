@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Overworld on grass       
 __Breeding:__ Carrots, Potatoes, Beetroots       
-__Properties:__ 
+__Properties:__      
 It is possible to ride a *Pig* by using a *Saddle* on it. Saddled pigs are controllable with a *Carrot on a Stick*.
 
 -----

@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Neutral     
 __Spawn:__ [Overworld](../world/dimensions.md#overworld), [Nether](../world/dimensions.md#nether), [End](../world/dimensions.md#end)    
-__Properties:__ 
+__Properties:__     
 *Enderman* can be provoked by looking them in the eyes (Can be prevented if looking through a transparent block or wearing a *Carved Pumpkin*). They can teleport and pick up blocks. Take damage from water.
 
 -----

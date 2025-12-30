@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile       
 __Spawn:__ [Woodland Mansions](../world/structures.md#mansion), Raids   
-__Properties:__ 
+__Properties:__     
 A *Vindicator* is an *Illager* equipped with an *Iron Axe*.
 
 -----

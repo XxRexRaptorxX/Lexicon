@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ [Overworld](../world/dimensions.md#overworld) at light level 0, when a [*Husk*](./undead-husk.md) drowns     
-__Properties:__ 
+__Properties:__    
 *Zombies* burn in the sunlight, are able to break doors, hunt [*Villagers*](./human-villager.md) and turn them into [*Zombie Villagers*](./undead-zombie_villager.md). They are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).
 
 -----

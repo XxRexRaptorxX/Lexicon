@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile         
 __Spawn:__ Overworld at light level 0, [Witch Huts](../world/structures.md#hut), Raids, when a [*Villager*](../creatures/human-villager.md) is struck by a lightning bolt   
-__Properties:__ 
+__Properties:__   
 *Witches* are 85% resistant to some magical damage sources. 
 They can trow [*Splash Potions*](../brewing/potion_types.md#splash_potion) to negatively enchant the opponent. 
 They can heal themselves.

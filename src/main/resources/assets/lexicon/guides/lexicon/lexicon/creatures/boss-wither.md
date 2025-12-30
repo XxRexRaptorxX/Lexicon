@@ -10,13 +10,13 @@ navigation:
 __Health:__ 300 + 4 Armor   
 __Attack Damage:__  
  - 5 on easy
- - 8 on normal + 10 [Wither damage](../brewing/effects.md#wither)
- - 12 on hard + 40 [Wither damage](../brewing/effects.md#wither)
+ - 8 on normal + 10 [Wither damage](../brewing/effects.md#wither) 
+ - 12 on hard + 40 [Wither damage](../brewing/effects.md#wither)     
 
 
 __Behavior:__ Hostile     
 __Spawn:__ When created by the [*Player*](./human-player.md)    
-__Properties:__ 
+__Properties:__      
 The *Wither* has a passive regeneration rate of 1 every second, and a direct killing blow on a target instantly heals 5. When its health drops below half, the wither gains a natural wither armor effect, which makes it immune to damage from arrows and thrown tridents. The armor disappears if it regenerates above half health. It rapidly fires explosive projectiles that destroy the terrain. It's a undead mob.
 
 -----

@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Overworld on grass, 1/8 chance from a thrown egg       
 __Breeding:__ Seeds     
-__Properties:__ 
+__Properties:__      
 Lay random *Eggs*.
 
 -----

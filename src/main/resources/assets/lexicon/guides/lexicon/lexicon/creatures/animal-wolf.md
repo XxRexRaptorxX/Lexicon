@@ -17,7 +17,7 @@ __Behavior:__ Neutral
 __Spawn:__ Taigas, Grove, Badlands, Jungle, Forest      
 __Taming:__ Bones         
 __Breeding:__ Meat          
-__Properties:__ 
+__Properties:__      
 Can be equipped with *Wolf Armor*. Hunts [*Skeletons*](./undead-skeleton.md), [*Sheeps*](./animal-sheep.md), [*Rabbits*](./animal-rabbit.md), [*Foxes*](./animal-fox.md) and [*Baby Turtles*](./aquatic_animal-turtle.md).
 
 -----

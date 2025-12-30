@@ -19,7 +19,7 @@ __Attack Damage:__
    
 __Behavior:__ Hostile     
 __Spawn:__ [Ocean Monuments](../world/structures.md#monument)   
-__Properties:__ 
+__Properties:__         
 The *Guardian* has 2 methods of attacking, including firing its laser and a defensive thorn-like attack.
 
 -----

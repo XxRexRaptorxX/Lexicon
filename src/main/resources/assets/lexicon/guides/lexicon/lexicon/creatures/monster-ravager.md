@@ -17,7 +17,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile       
 __Spawn:__ Raids    
-__Properties:__ 
+__Properties:__     
 *Ravagers* are large hostile mobs that spawn in raids and attack [*Players*](./human-player.md), [*Villagers*](./human-villager.md), [*Wandering Traders*](./human-wandering_trader.md), and [*Iron Golems*](./golem-iron_golem.md). They attack by ramming enemies with their head, dealing a knockback of 5 blocks.
 
 -----

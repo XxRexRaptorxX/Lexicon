@@ -16,7 +16,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ Swamps, [Trial Chambers](../world/structures.md#trial_chambers)      
-__Properties:__ 
+__Properties:__     
 *Bogged* behave the same as normal [*Skeletons*](./undead-skeleton.md), but attack at a slower rate and shoot *Tipped Arrows* that inflict [*Poison*](../brewing/effects.md#poison) for 4 seconds on any target that they hit. 
 A *Bogged* drops 2 *Mushrooms* when sheared.
 

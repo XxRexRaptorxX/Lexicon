@@ -17,7 +17,7 @@ __Attack Damage:__
    
 __Behavior:__ Mostly Neutral    
 __Spawn:__ [Nether](../world/dimensions.md#nether)  
-__Properties:__ 
+__Properties:__     
 They become hostile unless the [*Player*](./human-player.md) is equipped with at least one piece of *Golden armor*. [*Players*](./human-player.md) can use *Gold Ingots* to [barter](../trading/piglin_bartering.md) with them for various items. 
 They retreat [*Zombiefied Piglins*](./undead-zombified_piglin.md), [*Zoglins*](./undead-zoglin.md) and soul fire items. They zombify outside the [*Nether*](../world/dimensions.md#nether).
 

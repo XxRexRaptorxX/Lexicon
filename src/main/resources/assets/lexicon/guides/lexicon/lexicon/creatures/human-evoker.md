@@ -11,7 +11,7 @@ __Health:__ 24
 __Attack Damage:__ 6    
 __Behavior:__ Hostile     
 __Spawn:__ [Mansions](../world/structures.md#mansion), Raids    
-__Properties:__ 
+__Properties:__     
 The *Evoker* has two different attack methods: fang attack and summoning [*Vexes*](./monster-vex.md).
 
 -----

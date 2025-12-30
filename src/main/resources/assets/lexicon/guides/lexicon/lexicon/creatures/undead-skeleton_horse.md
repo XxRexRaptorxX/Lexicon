@@ -11,7 +11,7 @@ __Health:__ 15
 __Attack Damage:__ 0    
 __Behavior:__ Passive     
 __Spawn:__ [Overworld](../world/dimensions.md#overworld) by thunderstorms 
-__Properties:__ 
+__Properties:__     
 The *Skeleton Horses* becomes passive and tamed if the [*Player*](./human-player.md) kills the [*Skeleton*](./undead-skeleton.md) rider. Can be equipped with a *Saddle* and ridden.
 
 -----

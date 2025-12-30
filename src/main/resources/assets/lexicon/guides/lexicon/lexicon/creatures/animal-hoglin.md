@@ -15,13 +15,13 @@ __Attack Damage:__
     - 4.5-12 on hard       
   - baby:       
     - 0.5 on normal      
-    - 0.75 on hard       
+    - 0.75 on hard         
   
-  __Behavior:__ Hostile     
-  __Spawn:__ Crimson Forest, [Bastion Remnant](../world/structures.md#basion)       
-  __Breeding:__ Crimson Fungi       
-  __Properties:__ 
-  They turn outside the [*Nether*](../world/dimensions.md#nether) into [*Zoglins*](./undead-zoglin.md).
+__Behavior:__ Hostile     
+__Spawn:__ Crimson Forest, [Bastion Remnant](../world/structures.md#basion)       
+__Breeding:__ Crimson Fungi       
+__Properties:__      
+They turn outside the [*Nether*](../world/dimensions.md#nether) into [*Zoglins*](./undead-zoglin.md).
 
 -----
 

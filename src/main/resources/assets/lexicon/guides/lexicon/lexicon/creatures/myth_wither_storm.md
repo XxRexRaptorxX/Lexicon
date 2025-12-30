@@ -11,7 +11,7 @@ __Health:__ ?
 __Attack Damage:__ ?    
 __Behavior:__ Very hostile       
 __Spawn:__ Unknown    
-__Properties:__ 
+__Properties:__     
 The *Wither Storm* is a more destructive version of the [*Wither*](./boss-wither.md). 
 It sucks blocks and mobs to make it bigger and stronger. 
 It eventually becomes a giant monster with 5 tentacles and three heads that can fire a tractor beam!  

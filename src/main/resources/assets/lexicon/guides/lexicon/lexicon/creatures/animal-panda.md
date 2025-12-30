@@ -16,7 +16,7 @@ __Attack Damage:__
 __Behavior:__ Neutral           
 __Spawn:__ Jungles          
 __Breeding:__ Bamboo + Bamboo plants in the near       
-__Properties:__ 
+__Properties:__     
 Pandas have different personalities.
 
 ----

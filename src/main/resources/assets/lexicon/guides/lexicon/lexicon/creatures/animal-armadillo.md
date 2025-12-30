@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Savanna, Badlands      
 __Breeding:__ Spider Eye               
-__Properties:__ 
+__Properties:__      
 When a *Brush* is used on it, the mob drops an *Armadillo Scute*. 
 Feeding *Spider Eyes* to a baby *Armadillo* will accelerate its growth by 10% 
 Rolls up when it detects a threat, reducing damage taken. 

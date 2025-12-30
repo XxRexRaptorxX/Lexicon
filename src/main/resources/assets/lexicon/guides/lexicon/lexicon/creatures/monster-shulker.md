@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ [End Cities](../world/structures.md#end_city)    
-__Properties:__ 
+__Properties:__     
 *Shulkers* are box-shaped hostile mobs found in [*End Cities*](../world/structures.md#end_city). They hide in their shell to blend in with surrounding *Purpur blocks* and guard the city's various treasures. *Shulkers* generally remain stationary, attached to an adjacent solid block. Shoots projectiles with [*Levitation effect*](../brewing/effects.md#levitation).
 
 ## minecraft:shulker

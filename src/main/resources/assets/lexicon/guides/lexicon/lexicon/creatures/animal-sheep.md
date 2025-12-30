@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Overworld on Grass       
 __Breeding:__ Wheat           
-__Properties:__ 
+__Properties:__      
 Sheep can be dyed and sheared.
 
 ------

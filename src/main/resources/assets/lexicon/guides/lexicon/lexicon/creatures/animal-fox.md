@@ -8,11 +8,14 @@ navigation:
 # Animal - Fox
 
 __Health:__ 10     
-__Attack Damage:__ 2, 3 on hard  
+__Attack Damage:__ 
+ - 2 on easy & normal
+ - 3 on hard      
+
 __Behavior:__ Passive     
 __Spawn:__ Taigas, Grove    
 __Breeding:__ Sweet Berries, Glow Berries       
-__Properties:__ 
+__Properties:__     
 Sleeps at day. Attack [*Chickens*](./animal-chicken.md), [*Rabbits*](./animal-rabbit.md), [*Baby Turtles*](./aquatic_animal-turtle.md) & [*Fish*](./aquatic_animal-tropical_fish.md). Foxes can hold items in his mouth. 
 Breeding two Foxes results in a __tamed__ *Baby Fox*.
 

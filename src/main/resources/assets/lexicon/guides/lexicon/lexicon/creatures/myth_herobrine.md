@@ -11,7 +11,7 @@ __Health:__ ?
 __Attack Damage:__ ?    
 __Behavior:__ Hostile        
 __Spawn:__ Unknown    
-__Properties:__ 
+__Properties:__     
 *Herobrine* is said to be *Notch's* dead brother, somehow embedded into Minecraft. 
 He has bright white eyes that glow in the darkness, and is able to hold *Tools* and [*Weapons*](../combat/weapons.md) that deal massive damage.
 

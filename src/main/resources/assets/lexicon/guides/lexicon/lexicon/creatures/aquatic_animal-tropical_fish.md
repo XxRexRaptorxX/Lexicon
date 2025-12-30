@@ -11,7 +11,7 @@ __Health:__ 3
 __Attack Damage:__ 0    
 __Behavior:__ Passive      
 __Spawn:__ Warm Oceans, Lush Caves, Mangrove Swamp       
-__Properties:__ 
+__Properties:__     
 Can be caught with a *Bucket*. There are 2.700 naturally occurring variants.
 
 -----

@@ -15,7 +15,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile       
 __Spawn:__ [Trial Chambers](../world/structures.md#trial_chambers)      
-__Properties:__ 
+__Properties:__     
 When attacking something, a *Breeze* moves via jumping large distances and attacks by firing *Wind Charges*, which deal high knockback. 
 It can repel all projectiles, taking no damage from them.
 

@@ -12,7 +12,7 @@ __Attack Damage:__ 3
 __Behavior:__ Passive     
 __Spawn:__ Jungles    
 __Breeding/Trust:__ Raw Cod, Raw Salmon     
-__Properties:__ 
+__Properties:__      
 Attacks [*Chickens*](./animal-chicken.md) and [*Baby Turtles*](./aquatic_animal-turtle.md). [*Creeper*](./monster-creeper.md) & [*Phantoms*](./undead-phantom.md) avoid ocelots.
 
 -----

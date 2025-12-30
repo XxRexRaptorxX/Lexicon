@@ -14,7 +14,7 @@ __Attack Damage:__
 
 __Behavior:__ Hostile     
 __Spawn:__ not natural 
-__Properties:__ 
+__Properties:__     
 The *Illusioner* attacks with its spells and its *Bow*. 
 
 He has two spells: 

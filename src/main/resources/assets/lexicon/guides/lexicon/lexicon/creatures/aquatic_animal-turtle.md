@@ -12,7 +12,7 @@ __Attack Damage:__ 0
 __Behavior:__ Passive     
 __Spawn:__ Beach    
 __Breeding:__ Seagrass (requires a beach nearby)      
-__Properties:__ 
+__Properties:__      
 Lay eggs that can be harvested with [*Silk Touch*](../enchanting/enchantments.md#silk_touch). *Baby Turtles* drop *Turtle Scute* when they grow up to adults.
 
 -----
