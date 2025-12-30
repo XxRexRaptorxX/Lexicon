@@ -3,6 +3,8 @@ navigation:
   title: "Lectern"
   icon: "minecraft:lectern"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:lectern
 ---
 
 # Lectern

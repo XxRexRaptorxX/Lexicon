@@ -3,6 +3,8 @@ navigation:
   title: "Composter"
   icon: "minecraft:composter"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:composter
 ---
 
 # Composter

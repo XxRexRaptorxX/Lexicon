@@ -3,6 +3,8 @@ navigation:
   title: "Nether Star"
   icon: "minecraft:nether_star"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:nether_star
 ---
 
 # Nether Star

@@ -3,6 +3,8 @@ navigation:
   title: "Brewing Stand"
   icon: "minecraft:brewing_stand"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:brewing_stand
 ---
 
 # Brewing Stand

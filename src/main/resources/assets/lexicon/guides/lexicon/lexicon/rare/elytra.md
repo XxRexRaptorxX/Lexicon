@@ -3,6 +3,8 @@ navigation:
   title: "Elytra"
   icon: "minecraft:elytra"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:elytra
 ---
 
 # Elytra

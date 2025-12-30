@@ -3,6 +3,8 @@ navigation:
   title: "Dragon Egg"
   icon: "minecraft:dragon_egg"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:dragon_egg
 ---
 
 # Dragon Egg

@@ -3,6 +3,8 @@ navigation:
   title: "Loom"
   icon: "minecraft:loom"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:loom
 ---
 
 # Loom

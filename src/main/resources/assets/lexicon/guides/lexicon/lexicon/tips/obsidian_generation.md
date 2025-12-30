@@ -3,6 +3,8 @@ navigation:
   title: "Obsidian Generation"
   icon: "minecraft:obsidian"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:obsidian
 ---
 
 # Obsidian Generation

@@ -3,6 +3,8 @@ navigation:
   title: "Furnace"
   icon: "minecraft:furnace"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:furnace
 ---
 
 # Furnace

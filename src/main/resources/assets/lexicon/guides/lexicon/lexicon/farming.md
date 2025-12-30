@@ -4,6 +4,13 @@ navigation:
   icon: "minecraft:diamond_hoe"
   parent: index.md
   position: 2
+  item_ids:
+    - minecraft:wooden_hoe
+    - minecraft:stone_hoe
+    - minecraft:iron_hoe
+    - minecraft:golden_hoe
+    - minecraft:diamond_hoe
+    - minecraft:netherite_hoe
 ---
 
 # Farming

@@ -3,6 +3,8 @@ navigation:
   title: "Chiseled Bookshelf"
   icon: "minecraft:chiseled_bookshelf"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:chiseled_bookshelf
 ---
 
 # Chiseled Bookshelf

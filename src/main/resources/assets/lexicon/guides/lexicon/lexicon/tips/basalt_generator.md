@@ -3,6 +3,10 @@ navigation:
   title: "Basalt Generator"
   icon: "minecraft:basalt"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:basalt
+    - minecraft:polished_basalt
+    - minecraft:smooth_basalt
 ---
 
 # Basalt Generator

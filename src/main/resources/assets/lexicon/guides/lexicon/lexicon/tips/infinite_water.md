@@ -3,6 +3,8 @@ navigation:
   title: "Infinite Water"
   icon: "minecraft:water_bucket"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:water
 ---
 
 # Infinite Water

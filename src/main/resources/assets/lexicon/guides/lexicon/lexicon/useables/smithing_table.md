@@ -3,6 +3,8 @@ navigation:
   title: "Smithing Table"
   icon: "minecraft:smithing_table"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:smithing_table
 ---
 
 # Smithing Table

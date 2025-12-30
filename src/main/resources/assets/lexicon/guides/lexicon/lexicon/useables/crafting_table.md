@@ -3,6 +3,8 @@ navigation:
   title: "Crafting Table"
   icon: "minecraft:crafting_table"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:crafting_table
 ---
 
 # Crafting Table

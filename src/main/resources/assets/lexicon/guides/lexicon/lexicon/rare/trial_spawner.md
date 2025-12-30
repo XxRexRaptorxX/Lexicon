@@ -3,6 +3,8 @@ navigation:
   title: "Trial Spawner"
   icon: "minecraft:trial_spawner"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:trial_spawner
 ---
 
 # Trial Spawner

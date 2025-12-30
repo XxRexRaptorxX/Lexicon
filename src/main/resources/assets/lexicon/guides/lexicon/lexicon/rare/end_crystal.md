@@ -3,6 +3,8 @@ navigation:
   title: "End Crystal"
   icon: "minecraft:end_crystal"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:end_crystal
 ---
 
 # End Crystal

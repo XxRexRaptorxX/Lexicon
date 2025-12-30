@@ -3,6 +3,8 @@ navigation:
   title: "Beacon"
   icon: "minecraft:beacon"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:beacon
 ---
 
 # Beacon

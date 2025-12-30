@@ -3,6 +3,8 @@ navigation:
   title: "Stonecutter"
   icon: "minecraft:stonecutter"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:stonecutter
 ---
 
 # Stonecutter

@@ -3,6 +3,9 @@ navigation:
   title: "Netherite"
   icon: "minecraft:netherite_ingot"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:netherite_ingot
+    - minecraft:netherite_scrap
 ---
 
 # Netherite

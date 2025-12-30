@@ -3,6 +3,8 @@ navigation:
   title: "Snowballs against Blazes"
   icon: "minecraft:snowball"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:snowball
 ---
 
 # Snowballs against Blazes

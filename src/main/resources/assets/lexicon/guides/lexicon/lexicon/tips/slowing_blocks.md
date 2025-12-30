@@ -3,6 +3,9 @@ navigation:
   title: "Slowing Blocks"
   icon: "minecraft:soul_sand"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:soul_sand
+    - minecraft:mud
 ---
 
 # Slowing Blocks

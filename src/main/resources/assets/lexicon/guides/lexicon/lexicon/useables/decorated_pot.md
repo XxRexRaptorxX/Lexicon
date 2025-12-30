@@ -3,6 +3,8 @@ navigation:
   title: "Decorated Pots"
   icon: "minecraft:decorated_pot"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:decorated_pot
 ---
 
 # Decorated Pots

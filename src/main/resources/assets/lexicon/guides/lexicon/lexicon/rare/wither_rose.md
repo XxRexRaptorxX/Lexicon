@@ -3,6 +3,8 @@ navigation:
   title: "Wither Rose"
   icon: "minecraft:wither_rose"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:wither_rose
 ---
 
 # Wither Rose

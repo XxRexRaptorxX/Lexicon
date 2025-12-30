@@ -3,6 +3,8 @@ navigation:
   title: "Trapped Chest"
   icon: "minecraft:trapped_chest"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:trapped_chest
 ---
 
 # Trapped Chest

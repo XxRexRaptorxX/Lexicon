@@ -3,6 +3,8 @@ navigation:
   title: "Fletching Table"
   icon: "minecraft:fletching_table"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:fletching_table
 ---
 
 # Fletching Table

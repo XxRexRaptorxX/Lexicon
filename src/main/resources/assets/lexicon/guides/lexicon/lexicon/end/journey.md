@@ -4,6 +4,8 @@ navigation:
   icon: "minecraft:end_portal_frame"
   position: 2
   parent: lexicon:end.md
+  item_ids:
+    - minecraft:end_portal_frame
 ---
 
 # The journey to the End

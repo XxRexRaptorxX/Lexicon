@@ -3,6 +3,10 @@ navigation:
   title: "Froglight"
   icon: "minecraft:verdant_froglight"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:pearlescent_froglight
+    - minecraft:verdant_froglight
+    - minecraft:ochre_froglight
 ---
 
 # Froglight

@@ -3,6 +3,14 @@ navigation:
   title: "Mob Heads"
   icon: "minecraft:creeper_head"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:wither_skeleton_skull
+    - minecraft:skeleton_skull
+    - minecraft:creeper_head
+    - minecraft:zombie_head
+    - minecraft:player_head
+    - minecraft:dragon_head
+    - minecraft:piglin_head
 ---
 
 # Mob Heads

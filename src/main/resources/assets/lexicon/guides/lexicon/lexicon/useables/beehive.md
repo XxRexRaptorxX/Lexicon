@@ -3,6 +3,8 @@ navigation:
   title: "Beehive"
   icon: "minecraft:beehive"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:beehive
 ---
 
 # Beehive

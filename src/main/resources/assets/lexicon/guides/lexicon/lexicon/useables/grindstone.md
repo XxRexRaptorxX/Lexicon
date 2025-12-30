@@ -3,6 +3,8 @@ navigation:
   title: "Grindstone"
   icon: "minecraft:grindstone"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:grindstone
 ---
 
 # Grindstone

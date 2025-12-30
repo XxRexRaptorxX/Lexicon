@@ -3,6 +3,9 @@ navigation:
   title: "Enchanted Golden Apple"
   icon: "minecraft:enchanted_golden_apple"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:golden_apple
+    - minecraft:enchanted_golden_apple
 ---
 
 # Enchanted Golden Apple

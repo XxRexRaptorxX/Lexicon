@@ -3,6 +3,8 @@ navigation:
   title: "Enchanting Table"
   icon: "minecraft:enchanting_table"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:enchanting_table
 ---
 
 # Enchanting Table

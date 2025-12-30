@@ -3,6 +3,8 @@ navigation:
   title: "Jukebox"
   icon: "minecraft:jukebox"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:jukebox
 ---
 
 # Jukebox

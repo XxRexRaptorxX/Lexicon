@@ -3,6 +3,8 @@ navigation:
   title: "Smoker"
   icon: "minecraft:smoker"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:smoker
 ---
 
 # Smoker

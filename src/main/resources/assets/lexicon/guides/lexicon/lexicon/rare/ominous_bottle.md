@@ -3,6 +3,8 @@ navigation:
   title: "Ominous Bottle"
   icon: "minecraft:ominous_bottle"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:ominous_bottle
 ---
 
 # Ominous Bottle

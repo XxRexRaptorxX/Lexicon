@@ -4,6 +4,10 @@ navigation:
   icon: "minecraft:potion"
   position: 2
   parent: lexicon:brewing.md
+  item_ids:
+    - minecraft:potion
+    - minecraft:splash_potion
+    - minecraft:lingering_potion
 ---
 
 # Potion Types

@@ -3,6 +3,8 @@ navigation:
   title: "Totem of Undying"
   icon: "minecraft:totem_of_undying"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:totem_of_undying
 ---
 
 # Totem of Undying

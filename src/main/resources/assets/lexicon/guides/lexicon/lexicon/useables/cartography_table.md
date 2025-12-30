@@ -3,6 +3,8 @@ navigation:
   title: "Cartography Table"
   icon: "minecraft:cartography_table"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:cartography_table
 ---
 
 # Cartography Table

@@ -3,6 +3,8 @@ navigation:
   title: "Vault"
   icon: "minecraft:vault"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:vault
 ---
 
 # Vault

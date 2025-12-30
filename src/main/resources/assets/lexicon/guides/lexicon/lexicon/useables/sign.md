@@ -3,6 +3,31 @@ navigation:
   title: "Sign"
   icon: "minecraft:oak_sign"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:oak_sign
+    - minecraft:spruce_sign
+    - minecraft:birch_sign
+    - minecraft:jungle_sign
+    - minecraft:acacia_sign
+    - minecraft:dark_sign Oak
+    - minecraft:mangrove_sign
+    - minecraft:cherry_sign
+    - minecraft:pale_sign Oak
+    - minecraft:bamboo_sign
+    - minecraft:crimson_sign
+    - minecraft:warped_sign
+    - minecraft:oak_hanging_sign
+    - minecraft:spruce_hanging_sign
+    - minecraft:birch_hanging_sign
+    - minecraft:jungle_hanging_sign
+    - minecraft:acacia_hanging_sign
+    - minecraft:dark_hanging_sign Oak
+    - minecraft:mangrove_hanging_sign
+    - minecraft:cherry_hanging_sign
+    - minecraft:pale_hanging_sign Oak
+    - minecraft:bamboo_hanging_sign
+    - minecraft:crimson_hanging_sign
+    - minecraft:warped_hanging_sign
 ---
 
 # Sign

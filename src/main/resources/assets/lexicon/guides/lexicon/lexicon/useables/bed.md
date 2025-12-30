@@ -3,6 +3,23 @@ navigation:
   title: "Bed"
   icon: "minecraft:red_bed"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:dye_white_bed
+    - minecraft:dye_light_gray_bed
+    - minecraft:dye_gray_bed
+    - minecraft:dye_black_bed
+    - minecraft:dye_brown_bed
+    - minecraft:dye_red_bed
+    - minecraft:dye_orange_bed
+    - minecraft:dye_yellow_bed
+    - minecraft:dye_lime_bed
+    - minecraft:dye_green_bed
+    - minecraft:dye_cyan_bed
+    - minecraft:dye_light_blue_bed
+    - minecraft:dye_blue_bed
+    - minecraft:dye_purple_bed
+    - minecraft:dye_magenta_bed
+    - minecraft:dye_pink_bed
 ---
 
 # Bed

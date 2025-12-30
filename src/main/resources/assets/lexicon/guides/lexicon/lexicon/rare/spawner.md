@@ -3,6 +3,8 @@ navigation:
   title: "Monster Spawner"
   icon: "minecraft:spawner"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:spawner
 ---
 
 # Monster Spawner

@@ -3,6 +3,8 @@ navigation:
   title: "Blast Furnace"
   icon: "minecraft:blast_furnace"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:blast_furnace
 ---
 
 # Blast Furnace

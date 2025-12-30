@@ -3,6 +3,8 @@ navigation:
   title: "Wind Charge"
   icon: "minecraft:wind_charge"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:wind_charge
 ---
 
 # Wind Charge

@@ -3,6 +3,9 @@ navigation:
   title: "Trial Keys"
   icon: "minecraft:trial_key"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:trial_key
+    - minecraft:ominous_trial_key
 ---
 
 # Trial Keys

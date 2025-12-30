@@ -3,6 +3,8 @@ navigation:
   title: "Chest"
   icon: "minecraft:chest"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:chest
 ---
 
 # Chest

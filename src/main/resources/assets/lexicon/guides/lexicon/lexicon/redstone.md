@@ -4,6 +4,8 @@ navigation:
   icon: "minecraft:redstone"
   parent: index.md
   position: 15
+  item_ids:
+    - minecraft:redstone
 ---
 
 # Redstone

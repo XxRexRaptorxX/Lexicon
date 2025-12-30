@@ -3,6 +3,8 @@ navigation:
   title: "Conduit"
   icon: "minecraft:conduit"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:conduit
 ---
 
 # Conduit

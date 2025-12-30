@@ -3,6 +3,8 @@ navigation:
   title: "Cobblestone Generator"
   icon: "minecraft:cobblestone"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:cobblestone
 ---
 
 # Cobblestone Generator

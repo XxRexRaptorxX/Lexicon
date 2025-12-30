@@ -3,6 +3,9 @@ navigation:
   title: "Campfire"
   icon: "minecraft:campfire"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:campfire
+    - minecraft:soul_campfire
 ---
 
 # Campfire

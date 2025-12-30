@@ -3,6 +3,8 @@ navigation:
   title: "Recovery Compass"
   icon: "minecraft:recovery_compass"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:recovery_compass
 ---
 
 # Recovery Compass

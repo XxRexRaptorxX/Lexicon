@@ -3,6 +3,8 @@ navigation:
   title: "Crop alternating"
   icon: "minecraft:wheat"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:farmland
 ---
 
 # Crop alternating

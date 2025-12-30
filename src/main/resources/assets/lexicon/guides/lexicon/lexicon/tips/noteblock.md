@@ -3,6 +3,8 @@ navigation:
   title: "Note Blocks"
   icon: "minecraft:note_block"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:noteblock
 ---
 
 # Note Blocks

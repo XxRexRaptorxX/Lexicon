@@ -3,6 +3,8 @@ navigation:
   title: "Magma Block Damage"
   icon: "minecraft:magma_block"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:magma_block
 ---
 
 # Magma Block Damage

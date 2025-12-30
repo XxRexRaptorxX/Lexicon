@@ -3,6 +3,8 @@ navigation:
   title: "Barrel"
   icon: "minecraft:barrel"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:barrel
 ---
 
 # Barrel

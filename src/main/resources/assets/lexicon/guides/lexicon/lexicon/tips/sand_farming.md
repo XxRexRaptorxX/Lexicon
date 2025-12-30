@@ -3,6 +3,9 @@ navigation:
   title: "Fast Sand farming"
   icon: "minecraft:sand"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:sand
+    - minecraft:gravel
 ---
 
 # Fast Sand farming

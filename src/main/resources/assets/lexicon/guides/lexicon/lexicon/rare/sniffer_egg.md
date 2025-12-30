@@ -3,6 +3,8 @@ navigation:
   title: "Sniffer Egg"
   icon: "minecraft:sniffer_egg"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:sniffer_egg
 ---
 
 # Sniffer Egg

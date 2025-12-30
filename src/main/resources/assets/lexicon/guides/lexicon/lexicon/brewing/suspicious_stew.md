@@ -4,6 +4,8 @@ navigation:
   icon: "minecraft:suspicious_stew"
   position: 6
   parent: lexicon:brewing.md
+  item_ids:
+    - minecraft:suspicious_stew
 ---
 
 # Suspicious Stew

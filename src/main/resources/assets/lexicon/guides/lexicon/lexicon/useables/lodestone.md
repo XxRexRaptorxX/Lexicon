@@ -3,6 +3,8 @@ navigation:
   title: "Lodestone"
   icon: "minecraft:lodestone"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:lodestone
 ---
 
 # Lodestone

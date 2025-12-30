@@ -3,6 +3,9 @@ navigation:
   title: "Suspicious Sand/Gravel"
   icon: "minecraft:suspicious_sand"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:suspicious_sand
+    - minecraft:suspicious_gravel
 ---
 
 # Suspicious Sand/Gravel

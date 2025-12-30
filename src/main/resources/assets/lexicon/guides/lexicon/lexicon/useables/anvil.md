@@ -3,6 +3,8 @@ navigation:
   title: "Anvil"
   icon: "minecraft:anvil"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:anvil
 ---
 
 # Anvil

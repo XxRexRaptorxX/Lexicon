@@ -3,6 +3,8 @@ navigation:
   title: "Respawn Anchor"
   icon: "minecraft:respawn_anchor"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:respawn_anchor
 ---
 
 # Respawn Anchor

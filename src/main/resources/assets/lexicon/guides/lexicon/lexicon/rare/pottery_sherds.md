@@ -3,11 +3,34 @@ navigation:
   title: "Pottery Sherds"
   icon: "minecraft:prize_pottery_sherd"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:angler_pottery_sherd
+    - minecraft:archer_pottery_sherd
+    - minecraft:arms_pottery_sherd Up
+    - minecraft:blade_pottery_sherd
+    - minecraft:brewer_pottery_sherd
+    - minecraft:burn_pottery_sherd
+    - minecraft:danger_pottery_sherd
+    - minecraft:explorer_pottery_sherd
+    - minecraft:flow_pottery_sherd
+    - minecraft:friend_pottery_sherd
+    - minecraft:guster_pottery_sherd
+    - minecraft:heart_pottery_sherd
+    - minecraft:heartbreak_pottery_sherd
+    - minecraft:howl_pottery_sherd
+    - minecraft:miner_pottery_sherd
+    - minecraft:mourner_pottery_sherd
+    - minecraft:plenty_pottery_sherd
+    - minecraft:prize_pottery_sherd
+    - minecraft:scrape_pottery_sherd
+    - minecraft:sheaf_pottery_sherd
+    - minecraft:shelter_pottery_sherd
+    - minecraft:skull_pottery_sherd
+    - minecraft:snort_pottery_sherd
+
 ---
 
 # Pottery Sherds
-
-<ItemImage id="minecraft:skull_pottery_sherd" />
 
 A *Pottery Sherd* is an item used to craft [*Decorated Pots*](../useables/decorated_pot.md) with ornamental designs. 
 

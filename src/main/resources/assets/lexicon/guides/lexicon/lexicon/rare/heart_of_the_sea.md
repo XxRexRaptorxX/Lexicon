@@ -3,6 +3,8 @@ navigation:
   title: "Heart of the Sea"
   icon: "minecraft:heart_of_the_sea"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:heart_of_the_sea
 ---
 
 # Heart of the Sea

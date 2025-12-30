@@ -3,6 +3,8 @@ navigation:
   title: "Useful Nametags"
   icon: "minecraft:name_tag"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:name_tag
 ---
 
 # Useful Nametags

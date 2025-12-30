@@ -3,6 +3,8 @@ navigation:
   title: "Creaking Heart"
   icon: "minecraft:creaking_heart"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:creaking_heart
 ---
 
 # Creaking Heart

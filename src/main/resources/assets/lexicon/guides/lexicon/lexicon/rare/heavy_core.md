@@ -3,6 +3,8 @@ navigation:
   title: "Heavy Core"
   icon: "minecraft:heavy_core"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:heavy_core
 ---
 
 # Heavy Core

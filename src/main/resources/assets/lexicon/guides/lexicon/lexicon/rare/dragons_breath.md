@@ -3,6 +3,8 @@ navigation:
   title: "Dragon's Breath"
   icon: "minecraft:dragon_breath"
   parent: lexicon:rare_stuff.md
+  item_ids:
+    - minecraft:dragon_breath
 ---
 
 # Dragon's Breath

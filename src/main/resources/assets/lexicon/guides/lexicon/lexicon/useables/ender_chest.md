@@ -3,6 +3,8 @@ navigation:
   title: "Ender Chest"
   icon: "minecraft:ender_chest"
   parent: lexicon:useable_blocks.md
+  item_ids:
+    - minecraft:ender_chest
 ---
 
 # Ender Chest

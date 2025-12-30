@@ -3,6 +3,8 @@ navigation:
   title: "Air underwater"
   icon: "minecraft:water_bucket"
   parent: lexicon:tips_tricks.md
+  item_ids:
+    - minecraft:turtle_shell
 ---
 
 # Air underwater
