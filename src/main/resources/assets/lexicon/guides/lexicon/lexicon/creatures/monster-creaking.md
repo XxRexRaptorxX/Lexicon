@@ -14,7 +14,7 @@ __Attack Damage:__
  - 4.5 on hard    
 
 __Behavior:__ Hostile    
-__Spawn:__ At night by an activated *Creaking Heart*, Pale Garden      
+__Spawn:__ At night by an activated *Creaking Heart*    
 __Properties:__      
 It is protected from **all** damage by the *Creaking Heart* that spawned it. Breaking the *Creaking Heart* instantly kills the *Creaking*. The heart of this monster naturally generates in Pale Oak tree trunks. 
 When the *Creaking* is struck, the particles reveal the direction in which the heart is located. This monster only moves when you don't have it in your field of vision.
