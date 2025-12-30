@@ -17,13 +17,19 @@ They are only accessible via the **/give** [*Command*](../commands.md) or in the
 
 __Operator Utilities:__ 
 
-- [*Command Blocks*](../redstone/redstone_components.md#command_block): Can execute commands 
+- [*<ItemLink id="minecraft:command_block" />*](../redstone/redstone_components.md#command_block)*'s*: Can execute commands 
 
-- [*Structure Blocks*](../redstone/redstone_components.md#structure_block): Can export, import or save structures 
+- [*<ItemLink id="minecraft:structure_block" />*](../redstone/redstone_components.md#structure_block)*'s*: Can export, import or save structures
 
-- *Light Blocks*: A invisible light source 
+- [*<ItemLink id="minecraft:test_block" />*](../redstone/redstone_components.md#test_block)*'s*: A technical block that is used for game tests.
 
-- *Barrier Block*: A invisible indestructible barrier
+- [*<ItemLink id="minecraft:test_instance_block" />*](../redstone/redstone_components.md#test_instance_block): A technical block that is used for game tests.
 
-- *Debug Stick*: A tool for changing block states
+- <ItemLink id="minecraft:structure_void" />: An invisible block that can later be replaced by other blocks in stored structures
+
+- <ItemLink id="minecraft:light" /> *Block's*: A invisible light source with different brightness
+
+- <ItemLink id="minecraft:barrier" /> Block: A invisible indestructible barrier
+
+- <ItemLink id="minecraft:debug_stick" />: A tool for changing block states
 

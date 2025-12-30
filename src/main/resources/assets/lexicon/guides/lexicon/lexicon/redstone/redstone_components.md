@@ -376,8 +376,50 @@ Because it __cannot be obtained or edited in Survival mode without cheats__, it 
 <a name="structure_block"></a>
 <ItemImage id="minecraft:structure_block" />
 
-A <ItemLink id="minecraft:structure_block" /> is used to generate structures manually. 
+A <ItemLink id="minecraft:structure_block" /> is used to generate, save and load structures manually. 
 
-They can also be used to save and load structures, alongside <ItemLink id="minecraft:structure_void" /> blocks.
+__There are 4 variants:__
+- A *Save variant* allows to highlight a structure in the world and save it to memory, or a separate file.
+- A *Load variant* allows to load and rotate saved structures.
+- A *Corner variant* allows for an easier and automatic size calculation while saving or loading structures.
+- A *Data variant* can only be used during natural generation. They mark the location to run a specified hardcoded function, which can be used only for relevant structures. This is a deprecated mode.
+
+__They cannot be obtained or edited in Survival mode without cheats or mods__
 
 <Row> <RecipesFor id="minecraft:structure_block" /> </Row>
+
+-----
+
+<a name="test_block"></a>
+<ItemImage id="minecraft:test_block" />
+
+A <ItemLink id="minecraft:test_block" /> is a technical block that is used for game tests.
+
+
+__There are 4 variants:__
+- A *Start variant* is the default block type, it emits a constant signal, when the test starts. This block is required to be part of the structure of a block-based test.
+- A *Log variant* sends a message to the server log every time it receives a signal.
+- A *Fail variant* causes a test to fail when it receives a signal.
+- A *Accept variant* causes a test to pass when it receives a signal. This block is required to be part of the structure of a block-based test.
+
+__They cannot be obtained or edited in Survival mode without cheats or mods__
+
+<Row> <RecipesFor id="minecraft:test_block" /> </Row>
+
+-----
+
+<a name="test_instance_block"></a>
+<ItemImage id="minecraft:test_instance_block" />
+
+A <ItemLink id="minecraft:test_instance_block" /> is a technical block that is used for game tests.
+When placed, use the <ItemLink id="minecraft:test_instance_block" /> to open its GUI.
+
+Based on the status of the test, the block produces a beam similarly to a [<ItemLink id="minecraft:beacon" />](../rare/beacon.md), with the color being
+ - gray for a running test
+ - green for a successful test
+ - red for a failed required test
+ - orange for a failed optional test
+
+<Row> <RecipesFor id="minecraft:test_instance_block" /> </Row>
+
+__They cannot be obtained or edited in Survival mode without cheats or mods__
