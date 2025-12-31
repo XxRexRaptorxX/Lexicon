@@ -10,19 +10,54 @@ navigation:
 __Health:__ 4     
 __Attack Damage:__ 0    
 __Behavior:__ Passive     
-__Spawn:__ Overworld on grass, 1/8 chance from a thrown egg       
+__Spawn:__ Overworld on grass, 1/8 chance from a thrown <ItemLink id="minecraft:egg"/>        
 __Breeding:__ Seeds     
 __Properties:__      
-Lay random *Eggs*.
+Lay random <ItemLink id="minecraft:egg"/>*'s*. The *Chicken* variant depends on the biome in which they spawn.
 
 -----
 
-## Chicken
+## Warm Variant
 
-<GameScene zoom={5} interactive={true}>
-  <Entity id="minecraft:chicken" />
-</GameScene>
+<Row>
+    <GameScene zoom={5} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:warm}" />
+    </GameScene>
 
-> __Drops:__ 0-2 Feathers, 1 Raw Chicken, 1 Cooked Chicken if killed with fire  
-> __XP:__ 1-3
+    <GameScene zoom={3} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:warm,Age:-1}" />
+    </GameScene>
 
+    <ItemImage id="minecraft:brown_egg" />
+</Row>
+
+## Temperate Variant
+
+<Row>
+    <GameScene zoom={5} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:temperate}" />
+    </GameScene>
+
+    <GameScene zoom={3} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:temperate,Age:-1}" />
+    </GameScene>
+
+    <ItemImage id="minecraft:egg" />
+</Row>
+
+## Cold Variant
+
+<Row>
+    <GameScene zoom={5} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:cold}" />
+    </GameScene>
+
+    <GameScene zoom={3} interactive={true}>
+      <Entity id="minecraft:chicken" data="{variant:cold,Age:-1}" />
+    </GameScene>
+
+    <ItemImage id="minecraft:blue_egg" />
+</Row>
+
+> __Drops:__ 0-2 <ItemLink id="minecraft:feather"/>*'s*, 1 <ItemLink id="minecraft:chicken"/>, 1 <ItemLink id="minecraft:cooked_chicken"/> if killed with fire  
+> __XP:__ 1-3, 10 if part of a *Chicken Jockey*
