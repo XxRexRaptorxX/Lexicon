@@ -13,7 +13,7 @@ __Attack Damage:__
  - 3-5 on normal
  - 4-8 on hard
 
-__Behavior:__ Hostile       
+__Behavior:__ <Color id="red">Hostile</Color>        
 __Spawn:__ [Overworld](../world/dimensions.md#overworld) at light level 0, [Nether Fortress](../world/structures.md#fortress), Soul Sand Valley     
 __Properties:__     
 *Skeletons* are equiped with *Bows*, they burn in sunlight and flee from [*Wolves*](./animal-wolf.md). They are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).

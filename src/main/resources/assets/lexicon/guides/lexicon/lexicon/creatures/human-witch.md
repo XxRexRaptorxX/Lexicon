@@ -12,7 +12,7 @@ __Attack Damage:__
  - 6
  - [Poison](../brewing/effects.md#poison)    
 
-__Behavior:__ Hostile         
+__Behavior:__ <Color id="red">Hostile</Color>          
 __Spawn:__ Overworld at light level 0, [Witch Huts](../world/structures.md#hut), Raids, when a [*Villager*](../creatures/human-villager.md) is struck by a lightning bolt   
 __Properties:__   
 *Witches* are 85% resistant to some magical damage sources. 

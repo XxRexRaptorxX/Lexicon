@@ -13,7 +13,7 @@ __Attack Damage:__
  - 3 on normal
  - 4.5 on hard    
 
-__Behavior:__ Hostile    
+__Behavior:__ <Color id="red">Hostile</Color>     
 __Spawn:__ At night by an activated [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md)       
 __Properties:__     
 It is protected from **all** damage by the [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md) that spawned it. Breaking the [<ItemLink id="minecraft:creaking_heart" />](../rare/creaking_heart.md) instantly kills the *Creaking*. The heart of 

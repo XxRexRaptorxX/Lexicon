@@ -17,7 +17,7 @@ __Attack Damage:__
  - medium 3-6
  - small 2.5-4.5
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ [Overworld](../world/dimensions.md#overworld) in 'Slime Chunks' below layer 40, Swamps in layer 50-70 in light level < 8     
 __Properties:__     
 *When a *Slime** larger than small once dies, it spawns 2-4 new *Slimes* equivalent to its size divided by 2, rounding down.

@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Overworld on grass       
 __Breeding:__ <ItemLink id="minecraft:carrot"/>, <ItemLink id="minecraft:potato"/>, <ItemLink id="minecraft:beetroot"/>       
 __Properties:__      

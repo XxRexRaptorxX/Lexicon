@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 14     
 __Attack Damage:__ 2     
-__Behavior:__ Passive      
+__Behavior:__ <Color id="blue">Passive</Color>       
 __Spawn:__ Lush Caves    
 __Breeding:__ Bucket of tropical fish        
 __Properties:__     

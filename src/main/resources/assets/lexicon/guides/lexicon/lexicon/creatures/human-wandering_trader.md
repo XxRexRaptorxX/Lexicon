@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 20     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Overworld    
 __Properties:__    
 Spawns randomly near the [*Player*](./human-player.md). It can [trade](../trading/trader_trading.md), making natural items more available, less dangerous to obtain.

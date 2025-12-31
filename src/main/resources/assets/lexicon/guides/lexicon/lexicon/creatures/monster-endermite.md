@@ -13,7 +13,7 @@ __Attack Damage:__
  - 2 on normal
  - 3 on hard 
 
-__Behavior:__ Hostile       
+__Behavior:__ <Color id="red">Hostile</Color>        
 __Spawn:__ 5% chance when an *Ender Pearl* lands     
 __Properties:__     
 [*Endermen*](./monster-enderman.md) attack *Endermites*.

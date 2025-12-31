@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 3     
 __Attack Damage:__ 0    
-__Behavior:__ Passive      
+__Behavior:__ <Color id="blue">Passive</Color>       
 __Spawn:__ Rivers, Cold Oceans       
 __Properties:__     
 Can be caught with a *Bucket*.

@@ -13,7 +13,7 @@ __Attack Damage:__
  - 1 on normal
  - 1.5 on hard 
 
-__Behavior:__ Hostile       
+__Behavior:__ <Color id="red">Hostile</Color>        
 __Spawn:__ [Trial Chambers](../world/structures.md#trial_chambers)      
 __Properties:__     
 When attacking something, a *Breeze* moves via jumping large distances and attacks by firing *Wind Charges*, which deal high knockback. 

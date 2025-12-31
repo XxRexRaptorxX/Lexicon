@@ -17,7 +17,7 @@ __Attack Damage:__
   - 4 on normal      
   - 6 on hard       
 
-__Behavior:__ Neutral        
+__Behavior:__ <Color id="yellow">Neutral</Color>        
 __Spawn:__ Taigas, Grove, Badlands, Jungle, Forest      
 __Taming:__ <ItemLink id="minecraft:bone"/>         
 __Breeding:__ Meat          

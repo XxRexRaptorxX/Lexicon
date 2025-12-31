@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 20     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ [Nether](../world/dimensions.md#nether) on lava lakes       
 __Breeding:__ Warped Fungus     
 __Properties:__     

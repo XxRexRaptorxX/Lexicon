@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 15-30       
 __Attack Damage:__ 1          
-__Behavior:__ Neutral           
+__Behavior:__ <Color id="yellow">Neutral</Color>           
 __Spawn:__ Spawns with a [*Wandering Trader*](./human-wandering_trader.md)       
 __Breeding:__ Hay Bales       
 __Properties:__       

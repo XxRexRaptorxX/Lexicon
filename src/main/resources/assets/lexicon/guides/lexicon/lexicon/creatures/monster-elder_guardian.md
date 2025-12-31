@@ -18,7 +18,7 @@ __Attack Damage:__
    - 3 on hard 
  - [Mining Fatigue](../brewing/effects.md#mining-fatigue) 
    
-__Behavior:__ Hostile        
+__Behavior:__ <Color id="red">Hostile</Color>         
 __Spawn:__ [Ocean Monuments](../world/structures.md#monument)    
 __Properties:__     
 The *Elder Guardian* has 3 methods of attacking, including firing its laser, inflicting [*Mining Fatigue*](../brewing/effects.md#mining_fatigue), and a defensive thorn-like attack.

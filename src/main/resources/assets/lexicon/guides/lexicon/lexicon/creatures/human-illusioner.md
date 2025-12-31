@@ -12,7 +12,7 @@ __Attack Damage:__
  - 2-5 on normal
  - 3-5 on hard 
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ not natural 
 __Properties:__     
 The *Illusioner* attacks with its spells and its *Bow*. 

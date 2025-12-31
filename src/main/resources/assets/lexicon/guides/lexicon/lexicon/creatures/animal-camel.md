@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 32     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Desert Village      
 __Breeding:__ Cactus     
 __Properties:__       

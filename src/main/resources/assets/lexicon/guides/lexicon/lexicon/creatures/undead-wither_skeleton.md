@@ -13,7 +13,7 @@ __Attack Damage:__
  - 8 + 5 [Wither damage](../brewing/effects.md#wither) on normal
  - 12 + 5 [Wither damage](../brewing/effects.md#wither) on hard
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ [Nether Fortress](../world/structures.md#fortress)  
 __Properties:__    
 *Wither Skeletons* are immune to fire and the [*Wither effect*](../brewing/effects.md#wither). They still seek shade or water during daylight if they are in the [*Overworld*](../world/dimensions.md#overworld) although they do not burn in sunlight. Like most undead mobs, they sink in *Water* but do not drown, are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).

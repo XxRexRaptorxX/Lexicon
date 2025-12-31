@@ -15,7 +15,7 @@ __Attack Damage:__
    - 6 on normal
    - 9 on hard 
    
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ [Nether Fortress](../world/structures.md#fortress)   
 __Properties:__    
 If a *Blaze* is damaged by a [*Player*](./human-player.md) or other mob, it alerts other *Blazes* within 48 blocks to target the attacker. They can fly, shoot fireballs and is taking damage from *Water* and *Snowballs*.

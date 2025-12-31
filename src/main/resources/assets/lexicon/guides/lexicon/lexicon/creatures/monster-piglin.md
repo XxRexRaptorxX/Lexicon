@@ -15,7 +15,7 @@ __Attack Damage:__
    - 8 on normal
    - 12 on hard 
    
-__Behavior:__ Mostly Neutral    
+__Behavior:__ <Color id="gold">Mostly Neutral</Color>     
 __Spawn:__ [Nether](../world/dimensions.md#nether)  
 __Properties:__     
 They become hostile unless the [*Player*](./human-player.md) is equipped with at least one piece of *Golden armor*. [*Players*](./human-player.md) can use *Gold Ingots* to [barter](../trading/piglin_bartering.md) with them for various items. 

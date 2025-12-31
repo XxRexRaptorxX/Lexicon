@@ -12,7 +12,7 @@ __Attack Damage:__
  - 2 on easy & normal
  - 3 on hard      
 
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Taigas, Grove    
 __Breeding:__ Sweet Berries, Glow Berries       
 __Properties:__     

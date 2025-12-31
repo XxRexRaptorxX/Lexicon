@@ -14,7 +14,7 @@ __Attack Damage:__
  - 4-8 on hard 
  - [Poison](../brewing/effects.md#poison)
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ Swamps, [Trial Chambers](../world/structures.md#trial_chambers)      
 __Properties:__     
 *Bogged* behave the same as normal [*Skeletons*](./undead-skeleton.md), but attack at a slower rate and shoot *Tipped Arrows* that inflict [*Poison*](../brewing/effects.md#poison) for 4 seconds on any target that they hit. 

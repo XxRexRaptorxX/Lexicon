@@ -12,7 +12,7 @@ __Attack Damage:__
  - 2 + 7 [Poison damage](../brewing/effects.md#poison) on normal    
  - 3 + 14 [Poison damage](../brewing/effects.md#poison) on hard     
 
-__Behavior:__ Neutral     
+__Behavior:__ <Color id="yellow">Neutral</Color>     
 __Spawn:__ On bee nests (Warm Plains, Warm Forests)     
 __Breeding:__ Flowers     
 __Properties:__      

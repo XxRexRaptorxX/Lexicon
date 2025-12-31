@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 4     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Overworld on grass, 1/8 chance from a thrown <ItemLink id="minecraft:egg"/>        
 __Breeding:__ Seeds     
 __Properties:__      

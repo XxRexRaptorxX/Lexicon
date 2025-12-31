@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 3    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Jungles    
 __Breeding/Trust:__ Raw Cod, Raw Salmon     
 __Properties:__      

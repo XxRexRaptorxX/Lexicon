@@ -18,7 +18,7 @@ __Attack Damage:__
    - 3 on normal
    - 5 on hard     
    
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ Patrols, [Pillager Outposts](../world/structures.md#outpost), Raids  
 __Properties:__      
 *Pillagers* are *Illagers* that patrol the [*Overworld*](../world/dimensions.md#overworld), guard their [*Outposts*](../world/structures.md#outpost), and participate in raids, sometimes spawning on 

@@ -12,7 +12,7 @@ __Attack Damage:__
  - 2 on normal      
  - 2.5 on hard         
 
-__Behavior:__ Hostile           
+__Behavior:__ <Color id="red">Hostile</Color>            
 __Spawn:__ [*Strongholds*](../world/structures.md#stronghold) or after mining infested blocks       
 __Properties:__     
 *Silverfish* are small mobs found hiding in stone-like blocks in mountains, [*Strongholds*](../world/structures.md#stronghold), [*Igloo*](../world/structures.md#igloo) basements and [*Woodland Mansions*](../world/structures.md#mansion).

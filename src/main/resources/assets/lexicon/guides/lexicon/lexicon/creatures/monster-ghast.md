@@ -15,7 +15,7 @@ __Attack Damage:__
    - 17 on normal
    - 25 on hard
    
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ [Nether](../world/dimensions.md#nether)    
 __Properties:__     
 *Ghasts* can be set on fire, but *Fire* or *Lava* does not harm them. They shoot fireballs.

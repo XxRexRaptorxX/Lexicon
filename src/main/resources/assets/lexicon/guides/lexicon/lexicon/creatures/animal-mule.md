@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 15-30  
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ When a [Horse](./animal-horse.md) and a [Donkey](./animal-donkey.md) breed       
 __Breeding:__ -     
 __Properties:__      

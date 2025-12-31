@@ -17,7 +17,7 @@ __Attack Damage:__
  - medium 3-6
  - small 2.5-4.5
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ [Nether](../world/dimensions.md#nether)  
 __Properties:__     
 *Magma Cubes* cannot be hurt by fall damage or burning. They can swim upward in *Lava* and leap above its surface. Their jump height depends on their size. Their forward speed is twice that of most other mobs. When a *Magma Cube* is killed, it splits into 2-4 smaller once. Tiny *Magma Cubes* disappear when killed, like other mobs.

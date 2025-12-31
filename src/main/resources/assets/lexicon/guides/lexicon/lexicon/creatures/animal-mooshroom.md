@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 0    
-__Behavior:__ Passive      
+__Behavior:__ <Color id="blue">Passive</Color>       
 __Spawn:__ Mushroom Fields       
 __Breeding:__ Wheat     
 __Properties:__     

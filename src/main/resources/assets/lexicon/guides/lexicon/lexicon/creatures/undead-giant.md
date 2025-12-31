@@ -13,7 +13,7 @@ __Attack Damage:__
  - 50 on normal
  - 75 on hard 
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ Not natural  
 __Properties:__     
 Giants are close to 12 blocks tall [*Zombies*](./undead-zombie.md). They cannot spawn without [commands](../commands.md) or [mods](../modifications/mods.md).

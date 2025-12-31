@@ -13,7 +13,7 @@ __Attack Damage:__
   - 5 on normal      
   - 8 on hard       
 
-__Behavior:__ Mostly Neutral       
+__Behavior:__ <Color id="gold">Mostly Neutral</Color>        
 __Spawn:__ Frozen biomes       
 __Properties:__     
 Adult bears are hostile when with cubs or provoked.

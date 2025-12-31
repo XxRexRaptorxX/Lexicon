@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 20  
 __Attack Damage:__ 0        
-__Behavior:__ Passive       
+__Behavior:__ <Color id="blue">Passive</Color>        
 __Spawn:__ [Villages](../world/structures.md#village), [Igloo](../world/structures.md#igloo)        
 __Breeding:__ 3 Bread or 12 Carrots or 12 Potatoes or 12 Beetroots in her inventory + a free Bed    
 __Properties:__    

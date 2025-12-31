@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 0    
-__Behavior:__ Passive        
+__Behavior:__ <Color id="blue">Passive</Color>         
 __Spawn:__ Swamp, Mangrove Swamp      
 __Breeding:__ Slimeball (requires water nearby)      
 __Properties:__     

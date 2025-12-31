@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ ?  
 __Attack Damage:__ ?    
-__Behavior:__ Very hostile       
+__Behavior:__ <Color id="dark_red">Very Hostile</Color>            
 __Spawn:__ Unknown    
 __Properties:__     
 The *Wither Storm* is a more destructive version of the [*Wither*](./boss-wither.md). 

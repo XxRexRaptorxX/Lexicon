@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ ?   
 __Attack Damage:__ ?    
-__Behavior:__ Hostile        
+__Behavior:__ <Color id="red">Hostile</Color>         
 __Spawn:__ Unknown    
 __Properties:__     
 *Herobrine* is said to be *Notch's* dead brother, somehow embedded into Minecraft. 

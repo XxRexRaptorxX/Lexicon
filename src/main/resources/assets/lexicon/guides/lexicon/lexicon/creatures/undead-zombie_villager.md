@@ -13,7 +13,7 @@ __Attack Damage:__
  - 3 on normal
  - 4.5 on hard 
 
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ When a [*Villager*](./human-villager.md) is killed by a [*Zombie*](./undead-zombie.md) (50% on normal, 100% on hard)       
 __Properties:__    
 *Zombie Villagers* can be cured by first giving them the [*Weakness effect*](../brewing/effects.md#weakness), and then using a non-enchanted [*Golden Apple*](../rare/golden_apple.md). They are healed 

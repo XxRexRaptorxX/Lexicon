@@ -17,7 +17,7 @@ __Attack Damage:__
    - 0.5 on normal
    - 0.75 on hard 
    
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ When a [*Hoglin*](./animal-hoglin.md) left the [Nether](../world/dimensions.md#nether)   
 __Properties:__    
 They are healed by [*Instant Damage*](../brewing/effects.md#instant_damage) and harmed by [*Instant Health*](../brewing/effects.md#instant_health) effects, are immune to [*Regeneration*](../brewing/effects.md#regeneration) and [*Poison effects*](../brewing/effects.md#poison).

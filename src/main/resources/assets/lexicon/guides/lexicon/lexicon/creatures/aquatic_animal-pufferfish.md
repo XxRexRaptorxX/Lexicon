@@ -12,7 +12,7 @@ __Attack Damage:__
 - 2-3 + 2 [Poison damage](../brewing/effects.md#poison) on normal      
 - 3-4.5 + 4 [Poison damage](../brewing/effects.md#poison) on hard    
 
-__Behavior:__ Mostly Passive       
+__Behavior:__ <Color id="blue">Mostly Passive</Color>        
 __Spawn:__ Warm Oceans          
 __Properties:__     
 Can be caught with a *Bucket*.

@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 30     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Beach    
 __Breeding:__ Seagrass (requires a beach nearby)      
 __Properties:__      

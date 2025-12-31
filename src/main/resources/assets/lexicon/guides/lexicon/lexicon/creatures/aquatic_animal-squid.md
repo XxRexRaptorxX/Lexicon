@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Rivers, Oceans       
 __Properties:__     
 When attacked, they emit a cloud of turquoise ink particles and swim away.

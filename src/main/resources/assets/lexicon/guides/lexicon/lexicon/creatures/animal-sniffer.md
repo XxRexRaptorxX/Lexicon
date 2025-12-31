@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 14     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ [*Sniffer Eggs*](../rare/sniffer_egg.md)       
 __Breeding:__ Torchflower seeds       
 __Properties:__     

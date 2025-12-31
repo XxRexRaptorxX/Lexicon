@@ -13,7 +13,7 @@ __Attack Damage:__
  - 2 on normal
  - 3 on hard       
 
-__Behavior:__ Mostly Neutral       
+__Behavior:__ <Color id="gold">Mostly Neutral</Color>        
 __Spawn:__ Mountain peaks       
 __Breeding:__ Wheat       
 __Properties:__     

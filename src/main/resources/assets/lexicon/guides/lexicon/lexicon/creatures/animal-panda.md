@@ -13,7 +13,7 @@ __Attack Damage:__
  - 6 on normal      
  - 9 on hard      
 
-__Behavior:__ Neutral           
+__Behavior:__ <Color id="yellow">Neutral</Color>           
 __Spawn:__ Jungles          
 __Breeding:__ Bamboo + Bamboo plants in the near       
 __Properties:__     

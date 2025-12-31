@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 15-30 
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Plains, Savanna, [Villages](../world/structures.md#village)       
 __Breeding:__ Golden Apple, Golden Carrot     
 __Properties:__      

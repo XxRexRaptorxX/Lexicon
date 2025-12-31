@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 6     
 __Attack Damage:__ 0    
-__Behavior:__ Passive      
+__Behavior:__ <Color id="blue">Passive</Color>       
 __Spawn:__ Dark Caves below layer 63 
 
 -----

@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 3     
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ [Villages](../world/structures.md#village), [Witch huts](../world/structures.md#hut)       
 __Breeding/Taming:__ Raw Cod, Raw Salmon     
 __Properties:__      

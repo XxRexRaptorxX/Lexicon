@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 20     
 __Attack Damage:__ 0     
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ [Pillager Outpost](../world/structures.md#outpost), [Mansion](../world/structures.md#mansion)          
 __Breeding:__ Duplicates when holding an *Amethyst Shard* while dancing           
 __Properties:__      

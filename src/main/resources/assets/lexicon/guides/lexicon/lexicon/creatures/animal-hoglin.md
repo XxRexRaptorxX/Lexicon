@@ -17,7 +17,7 @@ __Attack Damage:__
     - 0.5 on normal      
     - 0.75 on hard         
   
-__Behavior:__ Hostile     
+__Behavior:__ <Color id="red">Hostile</Color>      
 __Spawn:__ Crimson Forest, [Bastion Remnant](../world/structures.md#basion)       
 __Breeding:__ Crimson Fungi       
 __Properties:__      

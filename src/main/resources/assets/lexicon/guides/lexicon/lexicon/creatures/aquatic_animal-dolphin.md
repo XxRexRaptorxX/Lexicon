@@ -13,7 +13,7 @@ __Attack Damage:__
   - 3 on normal   
   - 4.5 on hard
 
-__Behavior:__ Neutral     
+__Behavior:__ <Color id="yellow">Neutral</Color>     
 __Spawn:__ Warm Oceans, Oceans       
 __Trust:__ Raw Cod, Raw Salmon       
 __Properties:__      

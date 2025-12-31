@@ -9,7 +9,7 @@ navigation:
 
 __Health:__ 10     
 __Attack Damage:__ 0    
-__Behavior:__ Passive     
+__Behavior:__ <Color id="blue">Passive</Color>      
 __Spawn:__ Overworld on grass, shearing [Mooshrooms](./animal-mooshroom.md)      
 __Breeding:__ <ItemLink id="minecraft:wheat"/>     
 __Properties:__     
