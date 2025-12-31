@@ -36,6 +36,8 @@ __Properties:__
 
 ------
 
+# Variants:
+
 ## Orange Sheep
 
 Color ID: 1    
