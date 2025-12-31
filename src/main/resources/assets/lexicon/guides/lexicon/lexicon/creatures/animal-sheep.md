@@ -13,7 +13,7 @@ __Behavior:__ Passive
 __Spawn:__ Overworld on Grass       
 __Breeding:__ <ItemLink id="minecraft:wheat"/>           
 __Properties:__      
-Sheep can be dyed and sheared. The *Seep* variant depends on the biome in which they spawn.
+*Sheep* can be dyed and sheared. The *Sheep* variant depends on the biome in which they spawn.
 
 ------
 
