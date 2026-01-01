@@ -2,7 +2,7 @@
 navigation:
   title: "How to get started"
   icon: "minecraft:oak_sapling"
-  parent: index.md
+  parent: lexicon:index.md
 ---
 
 # How to get started

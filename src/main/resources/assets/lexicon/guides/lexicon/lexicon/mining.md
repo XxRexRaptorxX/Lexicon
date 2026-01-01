@@ -2,7 +2,7 @@
 navigation:
   title: "Mining"
   icon: "minecraft:diamond_pickaxe"
-  parent: index.md
+  parent: lexicon:index.md
   position: 1
   item_ids:
     - minecraft:wooden_pickaxe

@@ -527,7 +527,7 @@ __Effect:__
 Darkens the screen. 
 
 __Sources:__ 
-Sculk Shrieker, [*Warden*](../creatures/boss-warden.md), [*/effect command*](../commands.md)
+Sculk Shrieker, [*Warden*](../creatures/monster-warden.md), [*/effect command*](../commands.md)
 
 ![](darkness_effect.png)
 

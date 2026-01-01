@@ -2,7 +2,7 @@
 navigation:
   title: "Farming"
   icon: "minecraft:diamond_hoe"
-  parent: index.md
+  parent: lexicon:index.md
   position: 2
   item_ids:
     - minecraft:wooden_hoe

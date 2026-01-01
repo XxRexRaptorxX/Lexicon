@@ -2,7 +2,7 @@
 navigation:
   title: "Redstone"
   icon: "minecraft:redstone"
-  parent: index.md
+  parent: lexicon:index.md
   position: 15
   item_ids:
     - minecraft:redstone

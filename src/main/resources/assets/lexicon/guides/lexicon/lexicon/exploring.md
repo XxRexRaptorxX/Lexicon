@@ -2,7 +2,7 @@
 navigation:
   title: "Exploring"
   icon: "minecraft:diamond_boots"
-  parent: index.md
+  parent: lexicon:index.md
   position: 3
 ---
 

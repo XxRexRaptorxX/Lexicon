@@ -2,7 +2,7 @@
 navigation:
   title: "Combat"
   icon: "minecraft:diamond_sword"
-  parent: index.md
+  parent: lexicon:index.md
   position: 7
   item_ids:
     - minecraft:wooden_sword

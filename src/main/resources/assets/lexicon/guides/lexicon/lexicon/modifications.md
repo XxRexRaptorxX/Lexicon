@@ -2,7 +2,7 @@
 navigation:
   title: "Modifications"
   icon: "minecraft:structure_block"
-  parent: index.md
+  parent: lexicon:index.md
   position: 20
 ---
 

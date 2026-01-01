@@ -2,7 +2,7 @@
 navigation:
   title: "Rare Blocks and Items"
   icon: "minecraft:totem_of_undying"
-  parent: index.md
+  parent: lexicon:index.md
   position: 18
 ---
 
