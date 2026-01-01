@@ -1,7 +1,8 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev17)
+# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev18)
 
 ## ✨ Features
 
+- page icons added ([c1dbeda](https://github.com/XxRexRaptorxX/Lexicon/commit/c1dbeda7b407d75cf7551b590ef82bbd835c3840))
 - creature categories added ([7d45482](https://github.com/XxRexRaptorxX/Lexicon/commit/7d45482e87bf648cafbc081f9a30db56a8eb8d9e))
 - 1.21.5 mob variants added ([4c1aecb](https://github.com/XxRexRaptorxX/Lexicon/commit/4c1aecbee4d8e7f567bfb23d072811c7653127ca))
 - test- and test instance block pages added ([9b27d87](https://github.com/XxRexRaptorxX/Lexicon/commit/9b27d87b2f341003b52378832fb578701099b317))
