@@ -394,10 +394,11 @@ and over generations this creates a stable population of *Endermen* both in the 
 
 ## 12. Your role
 
-And now finally let's talk about who you are, you are one of the Builders, not just any one but __the one__ who built the *Wither* and started all the chaos. 
+And now finally let's talk about who you are <PlayerName />, you are one of the Builders, not just any one but __the one__ who built the *Wither* and started all the chaos. 
 
 That's why the *Endermen* attack upon seeing our face, and why the *Piglins* do the same, why the *Illagers* fear you, why the *Iron Golem* has no issue flattening you if you show hostility, and why the cosmic entities talk with such pride in all you've done when you **Free the End**.
 
+-----
 -----
 
 ## Final Words
