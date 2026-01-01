@@ -1,4 +1,4 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev18)
+# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev19)
 
 ## ✨ Features
 
@@ -18,6 +18,7 @@
 
 ## 🔨 Refactoring
 
+- world lore personalized ([1c7a294](https://github.com/XxRexRaptorxX/Lexicon/commit/1c7a294bcdbda8fac3c31d12bc55a176718af153))
 - creature behavior type is now colored ([b12b44b](https://github.com/XxRexRaptorxX/Lexicon/commit/b12b44b1d25efe8b02a564127645bdbc6eb5d5ea))
 - sheep page updated and improved ([cd9db34](https://github.com/XxRexRaptorxX/Lexicon/commit/cd9db344092ab3eb3f67c79e51f4826bcce05c54))
 - redstone components page improved ([383907b](https://github.com/XxRexRaptorxX/Lexicon/commit/383907b1e2503b1b9027c2f4f007fa5b525f0f22))
