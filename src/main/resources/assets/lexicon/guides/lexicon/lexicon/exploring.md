@@ -10,4 +10,4 @@ navigation:
 
 If you want to explore your world you need to be prepared for anything, the following pages list what you need!
 
-<SubPages />
+<SubPages icons={true} />

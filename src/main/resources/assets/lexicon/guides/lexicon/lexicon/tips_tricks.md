@@ -10,4 +10,4 @@ navigation:
 
 Here you can find tips and tricks that help you in the game.
 
-<SubPages />
+<SubPages icons={true} />

@@ -59,4 +59,4 @@ __Category:__
 
 ### All creatures:
 
-<SubPages />
+<SubPages icons={true} />

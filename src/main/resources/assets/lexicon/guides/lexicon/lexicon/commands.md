@@ -14,4 +14,4 @@ In the client, commands are entered via [*Command Block*](./redstone/redstone_co
 
 Pressing **Tab** while entering commands cycles through possible commands or arguments, and can be used to auto-enter them.
 
-<SubPages />
+<SubPages icons={true} />

@@ -10,4 +10,4 @@ navigation:
 
 Here you can find out everything about modifications for the game.
 
-<SubPages />
+<SubPages icons={true} />

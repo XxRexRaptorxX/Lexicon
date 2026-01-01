@@ -9,4 +9,4 @@ navigation:
 
 Here you will be explained what you should do in the first few days.
 
-<SubPages />
+<SubPages icons={true} />

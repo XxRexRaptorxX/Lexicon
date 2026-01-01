@@ -10,4 +10,4 @@ navigation:
 
 Here you can find out everything about building things.
 
-<SubPages />
+<SubPages icons={true} />

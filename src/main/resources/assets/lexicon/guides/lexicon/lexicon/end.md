@@ -10,4 +10,4 @@ navigation:
 
 Here you will be described how to reach the end of the game.
 
-<SubPages />
+<SubPages icons={true} />

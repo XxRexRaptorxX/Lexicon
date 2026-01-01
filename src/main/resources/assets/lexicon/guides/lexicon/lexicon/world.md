@@ -10,4 +10,4 @@ navigation:
 
 The world in Minecraft is divided into several dimensions, each containing different biomes and affecting structure, mob and terrain generation!
 
-<SubPages />
+<SubPages icons={true} />

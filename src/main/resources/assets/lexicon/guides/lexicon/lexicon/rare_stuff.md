@@ -10,4 +10,4 @@ navigation:
 
 Here you can find out everything about rare stuff.
 
-<SubPages />
+<SubPages icons={true} />

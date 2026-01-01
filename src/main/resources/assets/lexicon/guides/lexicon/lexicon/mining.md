@@ -17,4 +17,4 @@ navigation:
 
 Here you can find out everything about mining.
 
-<SubPages />
+<SubPages icons={true} />

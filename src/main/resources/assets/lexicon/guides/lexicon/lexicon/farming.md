@@ -27,4 +27,4 @@ Farms are used to acquire various resources efficiently.
 
 All farms:
 
-<SubPages />
+<SubPages icons={true} />

@@ -10,4 +10,4 @@ navigation:
 
 Here you can find out everything about crafting.
 
-<SubPages />
+<SubPages icons={true} />
