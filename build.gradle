@@ -3,7 +3,7 @@ import net.darkhax.curseforgegradle.TaskPublishCurseForge
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.78'
+    id 'net.neoforged.moddev' version '2.0.113'
     id 'idea'
     id 'com.modrinth.minotaur' version '2.+'
     id 'net.darkhax.curseforgegradle' version '1.1.26'
@@ -21,11 +21,11 @@ apply from: "$rootDir/gradle/debugging.gradle"
 // PROJECT CONFIGURATION
 // ========================================
 
-version = mod_version
-group = mod_group_id
+version = "${mod_version}"
+group = "${mod_group_id}"
 
 base {
-    archivesName = mod_id
+    archivesName = "${mod_id}"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(java_version)
@@ -58,11 +58,6 @@ neoForge {
             client()
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-
-            //GuideMe
-            systemProperty "guideme.${mod_id}.lexicon.sources", file("src/main/resources/assets/${mod_id}/guides/${mod_id}/lexicon").absolutePath
-            systemProperty "guideme.${mod_id}.lexicon.sourcesNamespace", "${mod_id}"
-            systemProperty('guideme.showOnStartup', "${mod_id}:lexicon!index.md")
         }
 
         server {
@@ -110,7 +105,6 @@ neoForge {
             sourceSet(sourceSets.main)
         }
     }
-
 }
 
 // ========================================
@@ -134,21 +128,20 @@ configurations {
 // ========================================
 // MOD METADATA GENERATION
 // ========================================
-
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
-            minecraft_version      : minecraft_version,
-            minecraft_version_range: minecraft_version_range,
-            magmacore_version_range: magmacore_version_range,
-            neo_version            : neo_version,
-            neo_version_range      : neo_version_range,
-            loader_version_range   : loader_version_range,
-            pack_format_number     : pack_format_number,
-            mod_id                 : mod_id,
-            mod_name               : mod_name,
-            mod_license            : mod_license,
-            mod_version            : mod_version,
-            mod_authors            : mod_authors
+            minecraft_version       : minecraft_version,
+            minecraft_version_range : minecraft_version_range,
+            neo_version             : neo_version,
+            neo_version_range       : neo_version_range,
+            loader_version_range    : loader_version_range,
+            magmacore_version_range : magmacore_version_range,
+            pack_format_number      : pack_format_number,
+            mod_id                  : mod_id,
+            mod_name                : mod_name,
+            mod_license             : mod_license,
+            mod_version             : mod_version,
+            mod_authors             : mod_authors
     ]
     inputs.properties replaceProperties
     expand replaceProperties
@@ -178,6 +171,7 @@ idea {
     }
 }
 
+
 // ========================================
 // MAVEN PUBLISHING
 // ========================================
@@ -186,6 +180,27 @@ publishing {
     publications {
         register('mavenJava', MavenPublication) {
             from components.java
+
+            groupId = project.group
+            artifactId = project.base.archivesName.get()
+            version = project.version
+
+            pom {
+                name = mod_name
+                description = "${mod_name} - Minecraft mod"
+
+                licenses {
+                    license {
+                        name = mod_license
+                    }
+                }
+
+                developers {
+                    developer {
+                        name = mod_authors
+                    }
+                }
+            }
         }
     }
     repositories {
@@ -194,6 +209,7 @@ publishing {
         }
     }
 }
+
 
 // ========================================
 // PLATFORM PUBLISHING
