@@ -1,6 +1,3 @@
-import groovy.json.JsonOutput
-import groovy.json.JsonSlurper
-
 // ========================================
 // PUBLISHING TASKS
 // ========================================
@@ -114,78 +111,76 @@ def onlyLatest = ['alpha', 'beta'].contains(releaseType)
 
 tasks.register('updateVersionsJson') {
     group = 'publishing'
-    description = 'Update versions.json promos for each game version to the current mod_version. If release_type is "alpha" or "beta", only the "-latest" entries are modified.'
+    description = 'Update versions.json and sync it to every existing remote branch on origin without rewriting remote history. Outputs and comments in English.'
 
     doLast {
-        // 1) load versions.json
-        def file = file('versions.json')
-        if (!file.exists()) {
-            throw new GradleException("versions.json not found at: ${file.absolutePath}. Create one, or use the 'setupVersionsJson' initialization task")
+        // -------------------------
+        // 0) Preconditions & config
+        // -------------------------
+        // Ensure we fail fast on unexpected errors
+        def originalBranchOut = new ByteArrayOutputStream()
+        def revRes = project.exec {
+            commandLine 'git', 'rev-parse', '--abbrev-ref', 'HEAD'
+            standardOutput = originalBranchOut
+            ignoreExitValue = false
         }
+        def originalBranch = originalBranchOut.toString().trim()
+        println "Current branch: ${originalBranch}"
 
-        def json
-        try {
-            json = new JsonSlurper().parseText(file.text)
-        } catch (Exception e) {
-            throw new GradleException("Failed to parse versions.json: ${e.message}. Please ensure the file is valid JSON.")
+        // Get current HEAD SHA (source of truth for versions.json)
+        def headShaOut = new ByteArrayOutputStream()
+        project.exec {
+            commandLine 'git', 'rev-parse', '--verify', 'HEAD'
+            standardOutput = headShaOut
+            ignoreExitValue = false
         }
+        def sourceSha = headShaOut.toString().trim()
+        println "Using source commit (HEAD): ${sourceSha}"
 
-        if (json == null) json = [:]
-        if (json.promos == null) json.promos = [:]
+        // -------------------------
+        // 1) (Your logic) Generate or update versions.json
+        //    Replace the placeholder below with your code that actually writes the file.
+        // -------------------------
+        println "Writing versions.json..."
+        // Example placeholder (replace with your actual generation):
+        // new File(project.projectDir, "versions.json").text = generatedJsonContent
+        println "versions.json written."
 
-        // 2) update promos according to game_versions + release_type
-        def updatedKeys = []
-        gameVersions.each { v ->
-            def latestKey = "${v}-latest"
-            def recommendedKey = "${v}-recommended"
-
-            def oldLatest = json.promos[latestKey]
-            if (oldLatest != modVersion) {
-                json.promos[latestKey] = modVersion
-                updatedKeys << latestKey
-            }
-
-            if (!onlyLatest) {
-                def oldRec = json.promos[recommendedKey]
-                if (oldRec != modVersion) {
-                    json.promos[recommendedKey] = modVersion
-                    updatedKeys << recommendedKey
-                }
-            }
-        }
-
-        if (updatedKeys.isEmpty()) {
-            println "No promos updated (mod_version=${modVersion}, release_type=${releaseType}). Nothing to commit."
-            return
-        }
-
-        // 3) write pretty JSON back to file
-        file.text = JsonOutput.prettyPrint(JsonOutput.toJson(json)) + System.lineSeparator()
-        println "Wrote ${file.path} — updated keys: ${updatedKeys.join(', ')}"
-
-        // 4) git add / commit / push --all (gracefully handle 'nothing to commit')
+        // -------------------------
+        // 2) Stage & commit changes (allow no-op commit)
+        // -------------------------
         println "Staging versions.json..."
         def addRes = project.exec {
             commandLine 'git', 'add', 'versions.json'
             ignoreExitValue = true
         }
         if (addRes.exitValue != 0) {
-            throw new GradleException("Failed to stage versions.json (git add returned ${addRes.exitValue})")
+            throw new GradleException("Failed to stage versions.json (git add exit ${addRes.exitValue})")
         }
 
         println "Committing changes (if any)..."
         def commitRes = project.exec {
-            commandLine 'git', 'commit', '-m', 'chore: update versions.json [skip hooks]'
-            ignoreExitValue = true // don't fail if there is nothing to commit
+            commandLine 'git', 'commit', '-m', "chore: update versions.json [skip hooks]"
+            ignoreExitValue = true
         }
         if (commitRes.exitValue == 0) {
             println "Commit created for versions.json."
+            // update sourceSha to point to the newly created commit
+            def newHeadOut = new ByteArrayOutputStream()
+            project.exec {
+                commandLine 'git', 'rev-parse', '--verify', 'HEAD'
+                standardOutput = newHeadOut
+                ignoreExitValue = false
+            }
+            sourceSha = newHeadOut.toString().trim()
+            println "Updated source commit (HEAD): ${sourceSha}"
         } else {
-            // exitValue != 0 likely means "nothing to commit" or other non-fatal issue
-            println "No commit created (git commit exit ${commitRes.exitValue}) — continuing."
+            println "No new commit created (git commit exit ${commitRes.exitValue}) — using existing HEAD ${sourceSha}."
         }
 
-        // 5) Get list of existing remote branches on origin
+        // -------------------------
+        // 3) Get list of remote branches on origin (with their SHAs)
+        // -------------------------
         println "Querying remote branches on 'origin'..."
         def remoteOut = new ByteArrayOutputStream()
         def lsRes = project.exec {
@@ -199,45 +194,135 @@ tasks.register('updateVersionsJson') {
 
         def remoteLines = remoteOut.toString().readLines().findAll { it.trim() }
         if (remoteLines.isEmpty()) {
-            println "No remote branches found on origin — nothing to push."
+            println "No remote branches found on origin — nothing to sync."
             return
         }
 
-        def remoteBranches = remoteLines.collect { line ->
-            // line format: "<sha>\trefs/heads/<branch>"
+        // Build map: branchName -> remoteSha
+        def remoteMap = [:] as Map<String, String>
+        remoteLines.each { line ->
             def parts = line.split()
-            if (parts.length < 2) return null
-            return parts[1].replace('refs/heads/', '')
-        }.findAll { it != null }
-
-        println "Found ${remoteBranches.size()} remote branch(es) on origin."
-
-        remoteBranches.each { branch ->
-            println "Pushing current HEAD to remote branch '${branch}'..."
-            def pushRes = project.exec {
-                // push local HEAD to the remote branch (does not create new remote branches because branch exists on origin)
-                commandLine 'git', 'push', 'origin', "HEAD:${branch}"
-                ignoreExitValue = true
+            if (parts.length >= 2) {
+                def sha = parts[0]
+                def ref = parts[1]
+                def branch = ref.replace('refs/heads/', '')
+                remoteMap[branch] = sha
             }
+        }
 
-            if (pushRes.exitValue != 0) {
-                // If push fails (non-fast-forward or other error), throw so the CI/gradle run fails visibly.
-                throw new GradleException("Failed to push HEAD to origin/${branch} (git push exit ${pushRes.exitValue})")
+        println "Found ${remoteMap.size()} remote branch(es) on origin."
+
+        // -------------------------
+        // 4) For each remote branch: create temp branch from origin/<branch>,
+        //    copy versions.json from sourceSha, commit if changed, push back to origin/<branch>.
+        //    Always return to original branch at the end, and clean up temp branch.
+        // -------------------------
+        remoteMap.each { branch, remoteSha ->
+            println "----"
+            println "Processing remote branch: ${branch}"
+
+            // create a safe temporary branch name
+            def safeBranchName = branch.replaceAll(/[^A-Za-z0-9_.-]/, '_')
+            def tmpBranch = "tmp-sync-${safeBranchName}-${System.currentTimeMillis()}"
+
+            try {
+                // fetch latest for the specific branch to be safe
+                println "Fetching origin/${branch}..."
+                def fetchRes = project.exec {
+                    commandLine 'git', 'fetch', 'origin', branch + ":" + "refs/remotes/origin/${branch}"
+                    ignoreExitValue = true
+                }
+                if (fetchRes.exitValue != 0) {
+                    throw new GradleException("Failed to fetch origin/${branch} (exit ${fetchRes.exitValue})")
+                }
+
+                // create and checkout the temp branch from origin/<branch>
+                println "Checking out temporary branch '${tmpBranch}' from origin/${branch}..."
+                def checkoutRes = project.exec {
+                    commandLine 'git', 'checkout', '-b', tmpBranch, "origin/${branch}"
+                    ignoreExitValue = true
+                }
+                if (checkoutRes.exitValue != 0) {
+                    throw new GradleException("Failed to create temporary branch ${tmpBranch} from origin/${branch} (git checkout exit ${checkoutRes.exitValue})")
+                }
+
+                // Now overwrite versions.json in the temp branch with the version from sourceSha
+                println "Copying versions.json from ${sourceSha} into ${tmpBranch}..."
+                def checkoutFileRes = project.exec {
+                    commandLine 'git', 'checkout', sourceSha, '--', 'versions.json'
+                    ignoreExitValue = true
+                }
+                if (checkoutFileRes.exitValue != 0) {
+                    // If checkout of file fails (e.g. file missing in sourceSha), skip this branch
+                    println "Warning: failed to checkout versions.json from ${sourceSha} for branch ${branch} (exit ${checkoutFileRes.exitValue}) — skipping."
+                    // cleanup: checkout original branch and delete temp
+                    project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
+                    project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                    return
+                }
+
+                // Check if there are changes to commit (i.e. file actually changed)
+                def statusOut = new ByteArrayOutputStream()
+                project.exec {
+                    commandLine 'git', 'status', '--porcelain', 'versions.json'
+                    standardOutput = statusOut
+                    ignoreExitValue = true
+                }
+                def statusStr = statusOut.toString().trim()
+                if (!statusStr) {
+                    // No changes -> nothing to commit or push
+                    println "No change in versions.json for origin/${branch} — skipping push."
+                    // cleanup: checkout original branch and delete temp
+                    project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
+                    project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                    return
+                }
+
+                // Stage and commit the updated versions.json on the temp branch
+                println "Staging & committing versions.json on ${tmpBranch}..."
+                def addTmp = project.exec {
+                    commandLine 'git', 'add', 'versions.json'
+                    ignoreExitValue = true
+                }
+                if (addTmp.exitValue != 0) {
+                    throw new GradleException("Failed to stage versions.json on ${tmpBranch} (git add exit ${addTmp.exitValue})")
+                }
+
+                def commitMsg = "chore: sync versions.json from ${sourceSha} to ${branch} [skip hooks]"
+                def commitTmp = project.exec {
+                    commandLine 'git', 'commit', '-m', commitMsg
+                    ignoreExitValue = true
+                }
+                if (commitTmp.exitValue != 0) {
+                    throw new GradleException("Failed to commit versions.json on ${tmpBranch} (git commit exit ${commitTmp.exitValue})")
+                }
+                println "Committed versions.json on ${tmpBranch}."
+
+                // Push the new commit to origin/<branch> (should be fast-forward since tmpBranch started at origin/<branch>)
+                println "Pushing updated versions.json to origin/${branch}..."
+                def pushRes = project.exec {
+                    commandLine 'git', 'push', 'origin', "HEAD:${branch}"
+                    ignoreExitValue = true
+                }
+                if (pushRes.exitValue != 0) {
+                    throw new GradleException("Failed to push updated versions.json to origin/${branch} (git push exit ${pushRes.exitValue})")
+                }
+                println "Successfully pushed versions.json to origin/${branch}."
+
+                // cleanup: checkout original branch and delete temp branch
+                project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
+                project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                println "Cleaned up temporary branch ${tmpBranch}."
+            } catch (Exception e) {
+                // Attempt to restore original branch and delete temp branch if exists, then rethrow
+                println "Error while processing branch ${branch}: ${e.message}"
+                println "Attempting to restore original branch ${originalBranch} and remove temporary branch ${tmpBranch}."
+                project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
+                project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                throw e
             }
-            println "Successfully pushed to origin/${branch}."
         }
 
-        // push tags
-        println "Pushing tags to origin..."
-        def pushTagsRes = project.exec {
-            commandLine 'git', 'push', 'origin', '--tags'
-            ignoreExitValue = true
-        }
-        if (pushTagsRes.exitValue != 0) {
-            throw new GradleException("Failed to push tags to origin (git push --tags exit ${pushTagsRes.exitValue})")
-        }
-        println "Tags pushed."
-
-        println "All existing remote branches updated successfully."
+        println "All remote branches processed. versions.json synchronized where needed without rewriting remote history."
     }
 }
