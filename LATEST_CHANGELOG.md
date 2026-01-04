@@ -1,4 +1,4 @@
-# [v.2.2.0 for MC 1.21.5](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev20)
+# [v.2.2.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.2.0-dev1...v.2.2.0-dev21)
 
 ## ✨ Features
 
@@ -18,6 +18,7 @@
 
 ## 🔨 Refactoring
 
+- update to MC 1.21.10 ([4561e9f](https://github.com/XxRexRaptorxX/Lexicon/commit/4561e9f0367130d9bdac20807ae3cfdb3adb3ffd))
 - small changes ([955cd3d](https://github.com/XxRexRaptorxX/Lexicon/commit/955cd3d69f6dac185a833df15bc79c94c6d9bf29))
 - world lore personalized ([1c7a294](https://github.com/XxRexRaptorxX/Lexicon/commit/1c7a294bcdbda8fac3c31d12bc55a176718af153))
 - creature behavior type is now colored ([b12b44b](https://github.com/XxRexRaptorxX/Lexicon/commit/b12b44b1d25efe8b02a564127645bdbc6eb5d5ea))
