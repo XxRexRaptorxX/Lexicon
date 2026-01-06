@@ -1,4 +1,4 @@
-# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev18)
+# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev19)
 
 ## ✨ Features
 
@@ -18,6 +18,7 @@
 
 ## 🔨 Refactoring
 
+- weapon item page improved and expanded ([44b5718](https://github.com/XxRexRaptorxX/Lexicon/commit/44b5718555e0a8043928f79e732f79914bcfaeb4))
 - combat support item page improved and expanded ([7997ffa](https://github.com/XxRexRaptorxX/Lexicon/commit/7997ffabf72f015d3e12c58731247a225de9ae6c))
 - the starter house inside is now more viewable ([87e26e4](https://github.com/XxRexRaptorxX/Lexicon/commit/87e26e439aac40eb8fa0164bb7d0acfda18f8fb2))
 
