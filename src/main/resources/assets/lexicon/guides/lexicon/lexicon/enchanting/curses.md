@@ -10,9 +10,10 @@ navigation:
 
 The following pages describe all curses in the game. 
 
-__Primary Items:__ The items that can receive the [*Enchantment*](./enchantments.md) legitimately in Survival mode by using an [*Enchanting Table*](../useables/enchanting_table.md).  
+__Primary Items:__ The items that can receive the [*Enchantment*](./enchantments.md) legitimately in Survival mode by using an [<ItemLink id="minecraft:enchanting_table" />](../useables/enchanting_table.md).
 
-__Secondary Items:__ Items that, in Survival mode, cannot receive the [*Enchantment*](./enchantments.md) from an [*Enchanting Table*](../useables/enchanting_table.md) but can from an *Enchanted Book* with an [*Anvil*](../useables/anvil.md).
+__Secondary Items:__ Items that, in Survival mode, cannot receive the [*Enchantment*](./enchantments.md) from an [<ItemLink id="minecraft:enchanting_table" />](../useables/enchanting_table.md) 
+but can from an <ItemLink id="minecraft:enchanted_book" /> with an [<ItemLink id="minecraft:anvil" />](../useables/anvil.md).
 
 -----
 
@@ -21,11 +22,11 @@ __Secondary Items:__ Items that, in Survival mode, cannot receive the [*Enchantm
 __Effect:__ 
 Items cannot be removed from armor slots.  
 
-__Primary Items:__ /  
-
-__Secondary Items:__ Equipment 
-
-__Max Level:__ I 
+> __Primary Items:__ /  
+> 
+> __Secondary Items:__ Equipment 
+> 
+> __Max Level:__ I 
 
 -----
 
@@ -33,10 +34,10 @@ __Max Level:__ I
 
 __Effect:__ 
 Item disappears on death.  
-
-__Primary Items:__ /  
-
-__Secondary Items:__ All Items 
-
-__Max Level:__ I 
+ 
+> __Primary Items:__ /  
+> 
+> __Secondary Items:__ All Items 
+> 
+> __Max Level:__ I 
 
