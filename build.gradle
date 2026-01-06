@@ -50,6 +50,14 @@ neoForge {
         minecraftVersion = project.parchment_minecraft_version
     }
 
+    def javaLauncherProvider = javaToolchains.launcherFor {
+        languageVersion = JavaLanguageVersion.of(java_version)
+        vendor = JvmVendorSpec.JETBRAINS
+    }
+
+    def javaLauncherPath = javaLauncherProvider.get().metadata.installationPath.asFile
+    println "Using Java: ${javaLauncherPath}"
+
     // This line is optional. Access Transformers are automatically detected
     // accessTransformers = project.files('src/main/resources/META-INF/accesstransformer.cfg')
 
@@ -94,6 +102,17 @@ neoForge {
             // "REGISTRYDUMP": For getting the contents of all registries.
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             logLevel = org.slf4j.event.Level.DEBUG
+
+            //Hotswap
+            def agentJar = file("$buildDir/hotswap/hotswap-agent.jar")
+            jvmArgument("-javaagent:${agentJar}")
+
+            if (javaLauncherPath.toString().toLowerCase().contains("jbr") || javaLauncherPath.toString().toLowerCase().contains("jetbrains")) {
+                jvmArgument("-XX:+AllowEnhancedClassRedefinition")
+                jvmArgument("-XX:HotswapAgent=core")
+            } else {
+                logger.warn("⚠️ JBR not detected. Using HotSwapAgent via -javaagent (limited redefinition compared to JBR). For best results install JetBrains Runtime.)")
+            }
         }
     }
 

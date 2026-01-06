@@ -1,3 +1,7 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
+// v.1.0
 // ========================================
 // PUBLISHING TASKS
 // ========================================
@@ -6,13 +10,13 @@ tasks.register("#publishNewVersion") {
     group = "publishing"
     description = "Publish to both Modrinth and CurseForge"
 
-    dependsOn "build", "modrinth", "publishCurseForge", "archiveChangelog", "updateVersionsJson" //,"publishToMavenLocal"
+    dependsOn "build", "modrinth", "publishCurseForge", "archiveChangelog", "updateVersionsJson"//, "publishToMavenLocal"
 
     doLast {
         println "=== Publish Completed ==="
         println "Mod Version: ${mod_version}"
         println "Minecraft Version: ${minecraft_version}"
-        println "Published to Modrinth and CurseForge"
+        println "✅ Published to Modrinth and CurseForge"
         println "Updated versions.json with current version"
     }
 }
@@ -25,11 +29,12 @@ tasks.register("#publishModrinthOnly") {
 
     doLast {
         println "=== Modrinth Publish Completed ==="
-        println "Mod Version: ${mod_version}"
+        println "✅ Mod Version: ${mod_version}"
         println "Published to Modrinth only"
         println "Updated versions.json with current version"
     }
 }
+
 
 tasks.register("#publishCurseForgeOnly") {
     group = "publishing"
@@ -39,18 +44,19 @@ tasks.register("#publishCurseForgeOnly") {
 
     doLast {
         println "=== CurseForge Publish Completed ==="
-        println "Mod Version: ${mod_version}"
+        println "✅ Mod Version: ${mod_version}"
         println "Published to CurseForge only"
         println "Updated versions.json with current version"
     }
 }
+
 
 tasks.register("dryRunPublish") {
     group = "publishing"
     description = "Dry run - shows what would be published without actually publishing"
 
     doLast {
-        println "=== DRY RUN - PUBLISH PREVIEW ==="
+        println "=== DRY RUN - PUBLISH PREVIEW ⚠️==="
         println "Mod ID: ${mod_id}"
         println "Mod Name: ${mod_name}"
         println "Mod Version: ${mod_version}"
@@ -90,11 +96,11 @@ ext.validateTokens = {
     def cfToken = System.getenv("CURSEFORGE_TOKEN") ?: project.findProperty("curseforgeToken")?.toString()
 
     if (modrinthToken == null) {
-        throw new GradleException("Missing MODRINTH_TOKEN: set it either as ENV (MODRINTH_TOKEN) or in ~/.gradle/gradle.properties (modrinthToken)")
+        throw new GradleException("⚠️ Missing MODRINTH_TOKEN: set it either as ENV (MODRINTH_TOKEN) or in ~/.gradle/gradle.properties (modrinthToken)")
     }
 
     if (cfToken == null) {
-        throw new GradleException("Missing CURSEFORGE_TOKEN: set it either as ENV (CURSEFORGE_TOKEN) or in ~/.gradle/gradle.properties (curseforgeToken)")
+        throw new GradleException("⚠️ Missing CURSEFORGE_TOKEN: set it either as ENV (CURSEFORGE_TOKEN) or in ~/.gradle/gradle.properties (curseforgeToken)")
     }
 
     return [modrinthToken, cfToken]
@@ -109,53 +115,98 @@ def gameVersions = (project.findProperty('game_versions')?.toString() ?: '')
 def releaseType = project.findProperty('release_type')?.toString()?.trim()?.toLowerCase() ?: 'stable'
 def onlyLatest = ['alpha', 'beta'].contains(releaseType)
 
+
 tasks.register('updateVersionsJson') {
     group = 'publishing'
-    description = 'Update versions.json and sync it to every existing remote branch on origin without rewriting remote history. Outputs and comments in English.'
+    description = 'Update versions.json and sync it to every existing remote branch on origin without rewriting remote history. Uses git worktree to avoid modifying the current working tree.'
 
     doLast {
         // -------------------------
-        // 0) Preconditions & config
+        // 0) Prep: original branch & source commit
         // -------------------------
-        // Ensure we fail fast on unexpected errors
         def originalBranchOut = new ByteArrayOutputStream()
-        def revRes = project.exec {
+        project.exec {
             commandLine 'git', 'rev-parse', '--abbrev-ref', 'HEAD'
             standardOutput = originalBranchOut
             ignoreExitValue = false
         }
+
         def originalBranch = originalBranchOut.toString().trim()
         println "Current branch: ${originalBranch}"
 
-        // Get current HEAD SHA (source of truth for versions.json)
         def headShaOut = new ByteArrayOutputStream()
+
         project.exec {
             commandLine 'git', 'rev-parse', '--verify', 'HEAD'
             standardOutput = headShaOut
             ignoreExitValue = false
         }
+
         def sourceSha = headShaOut.toString().trim()
         println "Using source commit (HEAD): ${sourceSha}"
 
         // -------------------------
-        // 1) (Your logic) Generate or update versions.json
-        //    Replace the placeholder below with your code that actually writes the file.
+        // 1) Generate / write versions.json in the main working tree
         // -------------------------
-        println "Writing versions.json..."
-        // Example placeholder (replace with your actual generation):
-        // new File(project.projectDir, "versions.json").text = generatedJsonContent
-        println "versions.json written."
+        def file = file('versions.json')
+
+        if (!file.exists()) {
+            throw new GradleException("⚠️ versions.json not found at: ${file.absolutePath}. Create one, or use the 'setupVersionsJson' initialization task")
+        }
+
+        def json
+        try {
+            json = new JsonSlurper().parseText(file.text)
+        } catch (Exception e) {
+            throw new GradleException("⚠️ Failed to parse versions.json: ${e.message}. Please ensure the file is valid JSON.")
+        }
+
+        if (json == null) json = [:]
+
+        if (json.promos == null) json.promos = [:]
+
+        // update promos according to game_versions + release_type
+        def updatedKeys = []
+        gameVersions.each { v ->
+            def latestKey = "${v}-latest"
+            def recommendedKey = "${v}-recommended"
+
+            def oldLatest = json.promos[latestKey]
+
+            if (oldLatest != modVersion) {
+                json.promos[latestKey] = modVersion
+                updatedKeys << latestKey
+            }
+
+            if (!onlyLatest) {
+                def oldRec = json.promos[recommendedKey]
+                if (oldRec != modVersion) {
+                    json.promos[recommendedKey] = modVersion
+                    updatedKeys << recommendedKey
+                }
+            }
+        }
+
+        if (updatedKeys.isEmpty()) {
+            println "⚠️ No promos updated (mod_version=${modVersion}, release_type=${releaseType}). Nothing to commit."
+            return
+        }
+
+        // write pretty JSON back to file
+        file.text = JsonOutput.prettyPrint(JsonOutput.toJson(json)) + System.lineSeparator()
+        println "Wrote ${file.path} — updated keys: ${updatedKeys.join(', ')}"
 
         // -------------------------
-        // 2) Stage & commit changes (allow no-op commit)
+        // 2) Stage & commit changes (if any) in main (so we have correct sourceSha content)
         // -------------------------
         println "Staging versions.json..."
         def addRes = project.exec {
             commandLine 'git', 'add', 'versions.json'
             ignoreExitValue = true
         }
+
         if (addRes.exitValue != 0) {
-            throw new GradleException("Failed to stage versions.json (git add exit ${addRes.exitValue})")
+            throw new GradleException("⚠️ Failed to stage versions.json (git add exit ${addRes.exitValue})")
         }
 
         println "Committing changes (if any)..."
@@ -163,9 +214,9 @@ tasks.register('updateVersionsJson') {
             commandLine 'git', 'commit', '-m', "chore: update versions.json [skip hooks]"
             ignoreExitValue = true
         }
+
         if (commitRes.exitValue == 0) {
             println "Commit created for versions.json."
-            // update sourceSha to point to the newly created commit
             def newHeadOut = new ByteArrayOutputStream()
             project.exec {
                 commandLine 'git', 'rev-parse', '--verify', 'HEAD'
@@ -174,12 +225,13 @@ tasks.register('updateVersionsJson') {
             }
             sourceSha = newHeadOut.toString().trim()
             println "Updated source commit (HEAD): ${sourceSha}"
+
         } else {
-            println "No new commit created (git commit exit ${commitRes.exitValue}) — using existing HEAD ${sourceSha}."
+            println "⚠️ No new commit created (git commit exit ${commitRes.exitValue}) — using existing HEAD ${sourceSha}."
         }
 
         // -------------------------
-        // 3) Get list of remote branches on origin (with their SHAs)
+        // 3) Get remote branches (name -> sha)
         // -------------------------
         println "Querying remote branches on 'origin'..."
         def remoteOut = new ByteArrayOutputStream()
@@ -188,20 +240,20 @@ tasks.register('updateVersionsJson') {
             standardOutput = remoteOut
             ignoreExitValue = true
         }
-        if (lsRes.exitValue != 0) {
-            throw new GradleException("Failed to list remote branches on origin (git ls-remote exit ${lsRes.exitValue})")
-        }
 
+        if (lsRes.exitValue != 0) {
+            throw new GradleException("⚠️ Failed to list remote branches on origin (git ls-remote exit ${lsRes.exitValue})")
+        }
         def remoteLines = remoteOut.toString().readLines().findAll { it.trim() }
+
         if (remoteLines.isEmpty()) {
-            println "No remote branches found on origin — nothing to sync."
+            println "⚠️ No remote branches found on origin — nothing to sync."
             return
         }
-
-        // Build map: branchName -> remoteSha
         def remoteMap = [:] as Map<String, String>
         remoteLines.each { line ->
             def parts = line.split()
+
             if (parts.length >= 2) {
                 def sha = parts[0]
                 def ref = parts[1]
@@ -209,120 +261,158 @@ tasks.register('updateVersionsJson') {
                 remoteMap[branch] = sha
             }
         }
-
         println "Found ${remoteMap.size()} remote branch(es) on origin."
 
         // -------------------------
-        // 4) For each remote branch: create temp branch from origin/<branch>,
-        //    copy versions.json from sourceSha, commit if changed, push back to origin/<branch>.
-        //    Always return to original branch at the end, and clean up temp branch.
+        // 4) For each remote branch: use git worktree to make a separate working copy,
+        //    write versions.json from sourceSha into that worktree, commit if changed and push.
+        //    Clean up the worktree afterwards.
         // -------------------------
         remoteMap.each { branch, remoteSha ->
             println "----"
             println "Processing remote branch: ${branch}"
 
-            // create a safe temporary branch name
+            // create a safe identifier for folder name
             def safeBranchName = branch.replaceAll(/[^A-Za-z0-9_.-]/, '_')
-            def tmpBranch = "tmp-sync-${safeBranchName}-${System.currentTimeMillis()}"
+            def timestamp = System.currentTimeMillis()
+            def worktreeDir = new File(project.buildDir, "tmp-sync-${safeBranchName}-${timestamp}")
+
+            if (!worktreeDir.exists()) {
+                worktreeDir.mkdirs()
+            }
 
             try {
-                // fetch latest for the specific branch to be safe
+                // ensure remote ref is up-to-date locally
                 println "Fetching origin/${branch}..."
                 def fetchRes = project.exec {
-                    commandLine 'git', 'fetch', 'origin', branch + ":" + "refs/remotes/origin/${branch}"
+                    commandLine 'git', 'fetch', 'origin', "${branch}:${branch}"
+                    // note: fetch into a local ref with the same name ensures worktree add can find it
                     ignoreExitValue = true
                 }
+
                 if (fetchRes.exitValue != 0) {
-                    throw new GradleException("Failed to fetch origin/${branch} (exit ${fetchRes.exitValue})")
+                    // fetch into refs/remotes/origin/<branch> is also fine, but this approach keeps it simple
+                    println "⚠️ Warning: git fetch returned ${fetchRes.exitValue} for branch ${branch}; continuing anyway."
                 }
 
-                // create and checkout the temp branch from origin/<branch>
-                println "Checking out temporary branch '${tmpBranch}' from origin/${branch}..."
-                def checkoutRes = project.exec {
-                    commandLine 'git', 'checkout', '-b', tmpBranch, "origin/${branch}"
+                // add a worktree checked out at the remote branch
+                println "Creating git worktree at ${worktreeDir} for origin/${branch}..."
+                def worktreeAddRes = project.exec {
+                    commandLine 'git', 'worktree', 'add', worktreeDir.absolutePath, "origin/${branch}"
                     ignoreExitValue = true
                 }
-                if (checkoutRes.exitValue != 0) {
-                    throw new GradleException("Failed to create temporary branch ${tmpBranch} from origin/${branch} (git checkout exit ${checkoutRes.exitValue})")
+                if (worktreeAddRes.exitValue != 0) {
+                    // fallback: try to add pointing to the local branch name if origin/... failed
+                    println "Fallback: trying to add worktree from local branch ${branch}..."
+                    def fallbackRes = project.exec {
+                        commandLine 'git', 'worktree', 'add', worktreeDir.absolutePath, branch
+                        ignoreExitValue = true
+                    }
+
+                    if (fallbackRes.exitValue != 0) {
+                        throw new GradleException("❌ Failed to create worktree at ${worktreeDir} for branch ${branch} (git worktree add exit ${fallbackRes.exitValue})")
+                    }
                 }
 
-                // Now overwrite versions.json in the temp branch with the version from sourceSha
-                println "Copying versions.json from ${sourceSha} into ${tmpBranch}..."
-                def checkoutFileRes = project.exec {
-                    commandLine 'git', 'checkout', sourceSha, '--', 'versions.json'
+                // Read versions.json from the source commit in the main repo
+                println "Retrieving versions.json content from source commit ${sourceSha}..."
+                def fileOut = new ByteArrayOutputStream()
+                def showRes = project.exec {
+                    commandLine 'git', 'show', "${sourceSha}:versions.json"
+                    standardOutput = fileOut
                     ignoreExitValue = true
                 }
-                if (checkoutFileRes.exitValue != 0) {
-                    // If checkout of file fails (e.g. file missing in sourceSha), skip this branch
-                    println "Warning: failed to checkout versions.json from ${sourceSha} for branch ${branch} (exit ${checkoutFileRes.exitValue}) — skipping."
-                    // cleanup: checkout original branch and delete temp
-                    project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
-                    project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+
+                if (showRes.exitValue != 0) {
+                    println "⚠️ Warning: could not read versions.json from ${sourceSha} (exit ${showRes.exitValue}) — skipping branch ${branch}."
+                    // cleanup worktree
+                    project.exec { commandLine 'git', 'worktree', 'remove', '--force', worktreeDir.absolutePath; ignoreExitValue = true }
+                    worktreeDir.deleteDir()
                     return
                 }
+                def content = fileOut.toString('UTF-8')
 
-                // Check if there are changes to commit (i.e. file actually changed)
+                // Write content into the worktree's versions.json
+                def wtFile = new File(worktreeDir, 'versions.json')
+                wtFile.write(content, 'UTF-8')
+                println "Wrote versions.json into worktree at ${wtFile.absolutePath}"
+
+                // In the worktree: check if file changed
                 def statusOut = new ByteArrayOutputStream()
-                project.exec {
+                def statusRes = project.exec {
+                    workingDir = worktreeDir
                     commandLine 'git', 'status', '--porcelain', 'versions.json'
                     standardOutput = statusOut
                     ignoreExitValue = true
                 }
                 def statusStr = statusOut.toString().trim()
+
                 if (!statusStr) {
-                    // No changes -> nothing to commit or push
-                    println "No change in versions.json for origin/${branch} — skipping push."
-                    // cleanup: checkout original branch and delete temp
-                    project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
-                    project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                    // No changes -> nothing to commit/push
+                    println "⚠️ No change in versions.json for origin/${branch} — skipping push."
+                    // cleanup worktree
+                    project.exec { commandLine 'git', 'worktree', 'remove', '--force', worktreeDir.absolutePath; ignoreExitValue = true }
+                    worktreeDir.deleteDir()
                     return
                 }
 
-                // Stage and commit the updated versions.json on the temp branch
-                println "Staging & committing versions.json on ${tmpBranch}..."
-                def addTmp = project.exec {
+                // Stage & commit inside the worktree
+                println "Staging & committing versions.json inside worktree..."
+                def addWT = project.exec {
+                    workingDir = worktreeDir
                     commandLine 'git', 'add', 'versions.json'
                     ignoreExitValue = true
                 }
-                if (addTmp.exitValue != 0) {
-                    throw new GradleException("Failed to stage versions.json on ${tmpBranch} (git add exit ${addTmp.exitValue})")
+
+                if (addWT.exitValue != 0) {
+                    throw new GradleException("⚠️ Failed to stage versions.json in worktree for ${branch} (git add exit ${addWT.exitValue})")
                 }
 
                 def commitMsg = "chore: sync versions.json from ${sourceSha} to ${branch} [skip hooks]"
-                def commitTmp = project.exec {
+                def commitWT = project.exec {
+                    workingDir = worktreeDir
                     commandLine 'git', 'commit', '-m', commitMsg
                     ignoreExitValue = true
                 }
-                if (commitTmp.exitValue != 0) {
-                    throw new GradleException("Failed to commit versions.json on ${tmpBranch} (git commit exit ${commitTmp.exitValue})")
-                }
-                println "Committed versions.json on ${tmpBranch}."
 
-                // Push the new commit to origin/<branch> (should be fast-forward since tmpBranch started at origin/<branch>)
+                if (commitWT.exitValue != 0) {
+                    throw new GradleException("⚠️ Failed to commit versions.json in worktree for ${branch} (git commit exit ${commitWT.exitValue})")
+                }
+                println "Committed versions.json in worktree for ${branch}."
+
+                // Push the new commit from the worktree to origin/<branch>
                 println "Pushing updated versions.json to origin/${branch}..."
                 def pushRes = project.exec {
+                    workingDir = worktreeDir
                     commandLine 'git', 'push', 'origin', "HEAD:${branch}"
                     ignoreExitValue = true
                 }
-                if (pushRes.exitValue != 0) {
-                    throw new GradleException("Failed to push updated versions.json to origin/${branch} (git push exit ${pushRes.exitValue})")
-                }
-                println "Successfully pushed versions.json to origin/${branch}."
 
-                // cleanup: checkout original branch and delete temp branch
-                project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
-                project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
-                println "Cleaned up temporary branch ${tmpBranch}."
+                if (pushRes.exitValue != 0) {
+                    throw new GradleException("⚠️ Failed to push updated versions.json to origin/${branch} (git push exit ${pushRes.exitValue})")
+                }
+                println "✅ Successfully pushed versions.json to origin/${branch}."
+
+                // Clean up: remove the worktree and its directory
+                println "Removing worktree at ${worktreeDir}..."
+                project.exec { commandLine 'git', 'worktree', 'remove', '--force', worktreeDir.absolutePath; ignoreExitValue = true }
+                worktreeDir.deleteDir()
+                println "Cleaned up worktree ${worktreeDir}."
+
             } catch (Exception e) {
-                // Attempt to restore original branch and delete temp branch if exists, then rethrow
-                println "Error while processing branch ${branch}: ${e.message}"
-                println "Attempting to restore original branch ${originalBranch} and remove temporary branch ${tmpBranch}."
-                project.exec { commandLine 'git', 'checkout', originalBranch; ignoreExitValue = true }
-                project.exec { commandLine 'git', 'branch', '-D', tmpBranch; ignoreExitValue = true }
+                // best-effort cleanup then rethrow
+                println "❌ Error while processing branch ${branch}: ${e.message}"
+                println "Attempting to remove worktree and continue/restore."
+
+                try {
+                    project.exec { commandLine 'git', 'worktree', 'remove', '--force', worktreeDir.absolutePath; ignoreExitValue = true }
+                } catch (ignored) {}
+
+                try { worktreeDir.deleteDir() } catch (ignored) {}
                 throw e
             }
         }
 
-        println "All remote branches processed. versions.json synchronized where needed without rewriting remote history."
+        println "✅ All remote branches processed. versions.json synchronized where needed without touching your current working tree or rewriting history."
     }
 }

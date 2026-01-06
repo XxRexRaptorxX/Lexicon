@@ -1,3 +1,4 @@
+// v.1.0
 // ========================================
 // AUTOMATIC dev TAGGING AND CHANGELOG MANAGEMENT
 // ========================================
@@ -7,16 +8,16 @@ import java.text.SimpleDateFormat
 // Make commit type map available as a project property and as a local var
 ext.COMMIT_TYPES = [
         feat    : "Features",
+        refactor: "Refactoring",
+        revert  : "Reverts",
         fix     : "Bug Fixes",
         perf    : "Performance Improvements",
         docs    : "Documentation",
         style   : "Style",
-        refactor: "Refactoring",
         test    : "Tests",
         build   : "Build System",
         ci      : "Continuous Integration",
-        chore   : "Chores",
-        revert  : "Reverts"
+        chore   : "Chores"
 ]
 ext.EXCLUDED_TYPES = ['chore', 'style', 'ci', 'build', 'test', 'docs']
 
@@ -88,7 +89,7 @@ tasks.register("tagCurrentCommit") {
 
     doLast {
         def devTag = tagCurrentCommitWithDev()
-        println "Tagged current commit with: ${devTag}"
+        println "ℹ️ Tagged current commit with: ${devTag}"
     }
 }
 
@@ -108,7 +109,7 @@ tasks.register("createReleaseTag") {
 
     doLast {
         def releaseTag = createAndPushReleaseTag()
-        println "Created and pushed release tag: ${releaseTag}"
+        println "✅ Created and pushed release tag: ${releaseTag}"
     }
 }
 
@@ -139,7 +140,7 @@ def generateLatestChangelogFile() {
     if (changed) {
         println "Generated LATEST_CHANGELOG.md with ${content.split('\n').size()} lines"
     } else {
-        println "LATEST_CHANGELOG.md already up-to-date"
+        println "ℹ️ LATEST_CHANGELOG.md already up-to-date"
     }
 }
 
@@ -152,7 +153,7 @@ def updateChangelogFile() {
     if (changed) {
         println "Updated LATEST_CHANGELOG.md with all dev commits for current version"
     } else {
-        println "LATEST_CHANGELOG.md already up-to-date"
+        println "ℹ️ LATEST_CHANGELOG.md already up-to-date"
     }
 }
 
@@ -181,7 +182,7 @@ def getAllDevCommitsForCurrentVersion() {
         def devTags = stdout.toString().trim().split('\n').findAll { it.trim() }
 
         if (devTags.isEmpty()) {
-            println "No dev tags found for version ${currentVersion}"
+            println "ℹ️ No dev tags found for version ${currentVersion}"
             return []
         }
 
@@ -226,7 +227,7 @@ def getAllDevCommitsForCurrentVersion() {
                     }
                 }
             } catch (Exception e) {
-                println "Error processing dev tag ${tag}: ${e.message}"
+                println "❌ Error processing dev tag ${tag}: ${e.message}"
             }
         }
 
@@ -237,11 +238,11 @@ def getAllDevCommitsForCurrentVersion() {
             return bNum <=> aNum
         }
 
-        println "Collected ${allCommits.size()} unique commits from dev tags"
+        println "ℹ️ Collected ${allCommits.size()} unique commits from dev tags"
         return allCommits
 
     } catch (Exception e) {
-        println "Error getting dev commits: ${e.message}"
+        println "❌ Error getting dev commits: ${e.message}"
         return []
     }
 }
@@ -274,10 +275,10 @@ def tagCurrentCommitWithDev() {
             commandLine 'git', 'push', 'origin', devTag
         }
 
-        println "Successfully created and pushed dev tag: ${devTag}"
+        println "✅ Successfully created and pushed dev tag: ${devTag}"
         return devTag
     } catch (Exception e) {
-        throw new GradleException("Failed to create or push dev tag: ${e.message}")
+        throw new GradleException("❌ Failed to create or push dev tag: ${e.message}")
     }
 }
 
@@ -306,7 +307,7 @@ def getNextDevNumber(String baseVersion) {
 
         return maxDev + 1
     } catch (Exception e) {
-        println "Error getting next dev number, defaulting to 1: ${e.message}"
+        println "❌ Error getting next dev number, defaulting to 1: ${e.message}"
         return 1
     }
 }
@@ -507,7 +508,7 @@ def buildChangelogForVersion(String version, List<String> devTags) {
                 }
             }
         } catch (Exception e) {
-            println "Error processing dev tag ${tag}: ${e.message}"
+            println "⚠️ Error processing dev tag ${tag}: ${e.message}"
         }
     }
 
@@ -518,7 +519,7 @@ def buildChangelogForVersion(String version, List<String> devTags) {
     content.append("# Release v.${version} for MC ${gameVersions}\n\n")
 
     if (commits.isEmpty()) {
-        content.append("No commits found for this version.\n")
+        content.append("⚠️ No commits found for this version.\n")
         return content.toString()
     }
 
@@ -609,7 +610,7 @@ def createAndPushReleaseTag() {
         }
 
         if (stdout.toString().trim()) {
-            println "Release tag ${releaseTag} already exists, skipping creation"
+            println "⚠️ Release tag ${releaseTag} already exists, skipping creation"
             return releaseTag
         }
 
@@ -628,7 +629,7 @@ def createAndPushReleaseTag() {
         println "Successfully created and pushed release tag: ${releaseTag}"
         return releaseTag
     } catch (Exception e) {
-        throw new GradleException("Failed to create or push release tag: ${e.message}")
+        throw new GradleException("❌ Failed to create or push release tag: ${e.message}")
     }
 }
 
@@ -649,7 +650,7 @@ def buildChangelogFromCommits(List commits) {
     }
 
     if (commits.isEmpty()) {
-        content.append("No changes found for this version.\n")
+        content.append("⚠️ No changes found for this version.\n")
         return content.toString()
     }
 
@@ -747,7 +748,7 @@ def getGithubRepoUrl() {
         url = url.replaceAll(/\.git$/, '')
         return url
     } catch (Exception e) {
-        println "Could not detect GitHub repo URL: ${e.message}"
+        println "⚠️ Could not detect GitHub repo URL: ${e.message}"
         return null
     }
 }
@@ -874,10 +875,10 @@ tasks.register("cleanChangelog") {
         def changelogFile = rootProject.file("LATEST_CHANGELOG.md")
         if (changelogFile.exists()) {
             changelogFile.delete()
-            println "Deleted existing LATEST_CHANGELOG.md"
+            println "ℹ️ Deleted existing LATEST_CHANGELOG.md"
         }
         generateLatestChangelogFile()
-        println "Generated fresh LATEST_CHANGELOG.md from dev tags"
+        println "✅ Generated fresh LATEST_CHANGELOG.md from dev tags"
     }
 }
 
@@ -889,7 +890,7 @@ tasks.register("validateChangelog") {
     doLast {
         def changelogFile = rootProject.file("LATEST_CHANGELOG.md")
         if (!changelogFile.exists()) {
-            throw new GradleException("LATEST_CHANGELOG.md not found. Run 'gradle generateChangelog' first.")
+            throw new GradleException("❌ LATEST_CHANGELOG.md not found. Run 'gradle generateChangelog' first.")
         }
 
         def content = changelogFile.text
@@ -897,12 +898,12 @@ tasks.register("validateChangelog") {
 
         // Check version header
         if (!content.contains("v.${currentVersion}")) {
-            throw new GradleException("Changelog doesn't contain current version ${currentVersion}")
+            throw new GradleException("⚠️ Changelog doesn't contain current version ${currentVersion}")
         }
 
         // Check basic structure
         if (!content.contains("# v.")) {
-            throw new GradleException("Changelog missing version header")
+            throw new GradleException("⚠️ Changelog missing version header")
         }
 
         println "✅ LATEST_CHANGELOG.md validation passed"
@@ -972,7 +973,7 @@ tasks.register("listDevTags") {
 
         println "=== dev TAGS FOR VERSION ${currentVersion} ==="
         if (devTags.isEmpty()) {
-            println "No dev tags found for version ${currentVersion}"
+            println "⚠️ No dev tags found for version ${currentVersion}"
         } else {
             devTags.each { tag ->
                 // Get commit info for each tag
@@ -1004,13 +1005,13 @@ ext.readLatestChangelog = {
                 logger.lifecycle("Using changelog from file: ${file}")
                 return text
             } else {
-                logger.lifecycle("LATEST_CHANGELOG.md exists but is empty.")
+                logger.lifecycle("⚠️ LATEST_CHANGELOG.md exists but is empty.")
             }
         } catch (Exception e) {
-            logger.warn("Error reading LATEST_CHANGELOG.md: ${e.message}")
+            logger.warn("❌ Error reading LATEST_CHANGELOG.md: ${e.message}")
         }
     } else {
-        logger.lifecycle("LATEST_CHANGELOG.md not found in project root.")
+        logger.lifecycle("⚠️ LATEST_CHANGELOG.md not found in project root.")
     }
 
     // 2. Try from Git HEAD
@@ -1026,10 +1027,10 @@ ext.readLatestChangelog = {
             logger.lifecycle("Using changelog from git HEAD:LATEST_CHANGELOG.md")
             return gitText
         } else {
-            logger.lifecycle("No LATEST_CHANGELOG.md content found at git HEAD.")
+            logger.lifecycle("⚠️ No LATEST_CHANGELOG.md content found at git HEAD.")
         }
     } catch (Exception e) {
-        logger.warn("Error executing 'git show': ${e.message}")
+        logger.warn("❌ Error executing 'git show': ${e.message}")
     }
 
     // 3. Generate from dev commits as fallback
@@ -1042,16 +1043,16 @@ ext.readLatestChangelog = {
                 writeIfChanged(file, generated)
                 logger.lifecycle("Saved generated changelog to LATEST_CHANGELOG.md")
             } catch (Exception saveError) {
-                logger.warn("Could not save generated changelog: ${saveError.message}")
+                logger.warn("⚠️ Could not save generated changelog: ${saveError.message}")
             }
             return generated
         }
     } catch (Exception e) {
-        logger.warn("Failed to generate changelog from dev commits: ${e.message}")
+        logger.warn("❌ Failed to generate changelog from dev commits: ${e.message}")
     }
 
     // 4. Final fallback
-    logger.lifecycle("No changelog found - returning minimal changelog.")
+    logger.lifecycle("⚠️ No changelog found - returning minimal changelog.")
     def gameVersions = getFormattedGameVersions()
     return """# v.${project.mod_version} for MC ${gameVersions}
 ## 📝 Changes

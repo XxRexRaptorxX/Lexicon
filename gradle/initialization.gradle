@@ -1,3 +1,4 @@
+// v.1.0
 // ========================================
 // PROJECT INITIALIZATION TASKS
 // ========================================
@@ -173,9 +174,9 @@ def restoreOrCreateFile = { fileName, envVar ->
             println "✅ Restored $fileName from git HEAD"
             exec { commandLine 'git', 'add', fileName }
         } catch (Exception e) {
-                f.text = ""
-                exec { commandLine 'git', 'add', fileName }
-                println "✅ Created $fileName"
+            f.text = ""
+            exec { commandLine 'git', 'add', fileName }
+            println "✅ Created $fileName"
         }
     }
 }
@@ -603,7 +604,7 @@ tasks.register("setupGithubWorkflow") {
         println("⚠️ The workflow file '.github/workflows/create_releases.yml' does not exist.")
 
         workflowFile.text = '''\
-name: Create releases
+name: Create previous-version Dev release
 
 on:
   push:
