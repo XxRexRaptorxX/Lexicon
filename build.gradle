@@ -28,7 +28,12 @@ base {
     archivesName = "${mod_id}"
 }
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(java_version)
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(java_version)
+        vendor = JvmVendorSpec.JETBRAINS
+    }
+}
 
 // ========================================
 // GRADLE WRAPPER CONFIGURATION
@@ -36,6 +41,28 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(java_version)
 
 tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
+}
+
+// -----------------------------------
+// HotSwapAgent
+// -----------------------------------
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+    hotswapAgent
+}
+
+dependencies {
+    hotswapAgent "org.hotswapagent:hotswap-agent:2.0.3"
+}
+
+tasks.register('prepareHotswapAgent', Copy) {
+    group = "initialization"
+    description = "Prepares the hotswap agent"
+    from configurations.hotswapAgent
+    into "$buildDir/hotswap"
+    rename { 'hotswap-agent.jar' }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 // ========================================
@@ -66,6 +93,11 @@ neoForge {
             client()
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+            //GuideMe
+            systemProperty "guideme.${mod_id}.lexicon.sources", file("src/main/resources/assets/${mod_id}/guides/${mod_id}/lexicon").absolutePath
+            systemProperty "guideme.${mod_id}.lexicon.sourcesNamespace", "${mod_id}"
+            systemProperty('guideme.showOnStartup', "${mod_id}:lexicon!index.md")
         }
 
         server {
@@ -96,10 +128,6 @@ neoForge {
         // applies to all the run configs above
         configureEach {
             // Recommended logging data for a userdev environment
-            // The markers can be added/remove as needed separated by commas.
-            // "SCAN": For mods scan.
-            // "REGISTRIES": For firing of registry events.
-            // "REGISTRYDUMP": For getting the contents of all registries.
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             logLevel = org.slf4j.event.Level.DEBUG
 
@@ -107,11 +135,29 @@ neoForge {
             def agentJar = file("$buildDir/hotswap/hotswap-agent.jar")
             jvmArgument("-javaagent:${agentJar}")
 
-            if (javaLauncherPath.toString().toLowerCase().contains("jbr") || javaLauncherPath.toString().toLowerCase().contains("jetbrains")) {
+
+            systemProperty 'java.runtime.check', 'true'
+
+            def configuredAsJBR = javaLauncherPath.toString().toLowerCase().contains("jbr") ||
+                    javaLauncherPath.toString().toLowerCase().contains("jetbrains")
+
+            def currentJavaHome = System.getProperty("java.home")
+            def currentIsJBR = currentJavaHome?.toLowerCase()?.contains("jbr") ||
+                    currentJavaHome?.toLowerCase()?.contains("jetbrains")
+
+            if (configuredAsJBR && currentIsJBR) {
+                logger.lifecycle("✅ JBR detected (configured and running). Using enhanced class redefinition.")
                 jvmArgument("-XX:+AllowEnhancedClassRedefinition")
                 jvmArgument("-XX:HotswapAgent=core")
+
+            } else if (configuredAsJBR && !currentIsJBR) {
+                logger.warn("⚠️ JBR configured but not running. Skipping JBR-specific arguments.")
+                logger.warn("   Configured: ${javaLauncherPath}")
+                logger.warn("   Running: ${currentJavaHome}")
+
             } else {
-                logger.warn("⚠️ JBR not detected. Using HotSwapAgent via -javaagent (limited redefinition compared to JBR). For best results install JetBrains Runtime.)")
+                logger.warn("⚠️ JBR not detected. Using HotSwapAgent via -javaagent (limited redefinition).")
+                logger.warn("   For best results, install JetBrains Runtime.")
             }
         }
     }
