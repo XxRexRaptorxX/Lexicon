@@ -1,4 +1,4 @@
-# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev15)
+# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev16)
 
 ## ✨ Features
 
