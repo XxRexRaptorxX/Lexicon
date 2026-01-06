@@ -82,7 +82,10 @@ In addition to weapons, you also need other items to make your life easier in in
     <RecipesFor id="minecraft:golden_apple" />
     <RecipesFor id="minecraft:enchanted_golden_apple" />
     <RecipesFor id="minecraft:ender_pearl" />
+    <RecipesFor id="minecraft:wind_charge" />
     <RecipesFor id="minecraft:totem_of_undying" />
+    <RecipesFor id="minecraft:cobweb" />
+    <RecipesFor id="minecraft:fishing_rod" />
     <RecipesFor id="minecraft:milk_bucket" />
     <RecipesFor id="minecraft:water_bucket" />
 </Row>
