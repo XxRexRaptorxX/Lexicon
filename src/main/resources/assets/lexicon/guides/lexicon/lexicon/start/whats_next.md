@@ -98,20 +98,20 @@ Some useful things that you should craft are listed on the following pages.
   <Block x="2" y="7" z="3" id="minecraft:cobblestone" />
   <Block x="3" y="7" z="3" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
   <Block x="6" y="7" z="3" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="4" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="4" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="5" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="5" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="6" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="6" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="7" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="7" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="8" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="8" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="9" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="9" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="3" y="7" z="10" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="6" y="7" z="10" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
+  <Block x="3" y="7" z="4" id="minecraft:air" />
+  <Block x="6" y="7" z="4" id="minecraft:air" />
+  <Block x="3" y="7" z="5" id="minecraft:air" />
+  <Block x="6" y="7" z="5" id="minecraft:air" />
+  <Block x="3" y="7" z="6" id="minecraft:air" />
+  <Block x="6" y="7" z="6" id="minecraft:air" />
+  <Block x="3" y="7" z="7" id="minecraft:air" />
+  <Block x="6" y="7" z="7" id="minecraft:air" />
+  <Block x="3" y="7" z="8" id="minecraft:air" />
+  <Block x="6" y="7" z="8" id="minecraft:air" />
+  <Block x="3" y="7" z="9" id="minecraft:air" />
+  <Block x="6" y="7" z="9" id="minecraft:air" />
+  <Block x="3" y="7" z="10" id="minecraft:air" />
+  <Block x="6" y="7" z="10" id="minecraft:air" />
   <Block x="3" y="7" z="11" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
   <Block x="6" y="7" z="11" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
   <Block x="3" y="7" z="12" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
@@ -134,20 +134,20 @@ Some useful things that you should craft are listed on the following pages.
   <Block x="7" y="6" z="2" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
   <Block x="2" y="6" z="3" id="minecraft:cobblestone" />
   <Block x="7" y="6" z="3" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="4" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="4" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="5" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="5" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="6" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="6" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="7" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="7" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="8" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="8" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="9" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="9" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="2" y="6" z="10" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="7" y="6" z="10" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
+  <Block x="2" y="6" z="4" id="minecraft:air" />
+  <Block x="7" y="6" z="4" id="minecraft:air" />
+  <Block x="2" y="6" z="5" id="minecraft:air" />
+  <Block x="7" y="6" z="5" id="minecraft:air" />
+  <Block x="2" y="6" z="6" id="minecraft:air" />
+  <Block x="7" y="6" z="6" id="minecraft:air" />
+  <Block x="2" y="6" z="7" id="minecraft:air" />
+  <Block x="7" y="6" z="7" id="minecraft:air" />
+  <Block x="2" y="6" z="8" id="minecraft:air" />
+  <Block x="7" y="6" z="8" id="minecraft:air" />
+  <Block x="2" y="6" z="9" id="minecraft:air" />
+  <Block x="7" y="6" z="9" id="minecraft:air" />
+  <Block x="2" y="6" z="10" id="minecraft:air" />
+  <Block x="7" y="6" z="10" id="minecraft:air" />
   <Block x="2" y="6" z="11" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
   <Block x="7" y="6" z="11" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
   <Block x="2" y="6" z="12" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
@@ -175,20 +175,20 @@ Some useful things that you should craft are listed on the following pages.
   <Block x="1" y="5" z="3" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
   <Block x="2" y="5" z="3" id="minecraft:cobblestone" />
   <Block x="8" y="5" z="3" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="4" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="4" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="5" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="5" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="6" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="6" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="7" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="7" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="8" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="8" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="9" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="9" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
-  <Block x="1" y="5" z="10" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
-  <Block x="8" y="5" z="10" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
+  <Block x="1" y="5" z="4" id="minecraft:air" />
+  <Block x="8" y="5" z="4" id="minecraft:air" />
+  <Block x="1" y="5" z="5" id="minecraft:air" />
+  <Block x="8" y="5" z="5" id="minecraft:air" />
+  <Block x="1" y="5" z="6" id="minecraft:air" />
+  <Block x="8" y="5" z="6" id="minecraft:air" />
+  <Block x="1" y="5" z="7" id="minecraft:air" />
+  <Block x="8" y="5" z="7" id="minecraft:air" />
+  <Block x="1" y="5" z="8" id="minecraft:air" />
+  <Block x="8" y="5" z="8" id="minecraft:air" />
+  <Block x="1" y="5" z="9" id="minecraft:air" />
+  <Block x="8" y="5" z="9" id="minecraft:air" />
+  <Block x="1" y="5" z="10" id="minecraft:air" />
+  <Block x="8" y="5" z="10" id="minecraft:air" />
   <Block x="1" y="5" z="11" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
   <Block x="8" y="5" z="11" id="minecraft:stone_brick_stairs"p:facing="west" p:half="bottom" />
   <Block x="1" y="5" z="12" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />
