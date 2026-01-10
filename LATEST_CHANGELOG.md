@@ -1,4 +1,4 @@
-# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev22)
+# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev23)
 
 ## ✨ Features
 
@@ -18,6 +18,7 @@
 
 ## 🔨 Refactoring
 
+- modification pages improved ([051ddc8](https://github.com/XxRexRaptorxX/Lexicon/commit/051ddc82db473b23b09ec024f49672fef33c8f4f))
 - enchantment & end pages improved and expanded ([88fcadd](https://github.com/XxRexRaptorxX/Lexicon/commit/88fcadda29b68d30b831a999fb1445627f4d88fc))
 - enchantment & curse pages improved and expanded ([eca7d1b](https://github.com/XxRexRaptorxX/Lexicon/commit/eca7d1bd49a89c57168e747ebe73d699fd2d3ed4))
 - mob effect pages improved ([327e3c3](https://github.com/XxRexRaptorxX/Lexicon/commit/327e3c3b786c48f5bc6ca1072c22b2bccf6df50e))
