@@ -12,7 +12,8 @@ navigation:
 
 <ItemImage id="minecraft:trial_key" />
 
-A *Trial Key* is an item that can be obtained from a [*Trial Spawner*](./trial_spawner.md) and used to unlock standard [*Vaults*](./vault.md). 
+A <ItemLink id="minecraft:trial_key" /> is an item that can be obtained from a [<ItemLink id="minecraft:trial_spawner" />](./trial_spawner.md) 
+and used to unlock a standard [<ItemLink id="minecraft:vault" />](./vault.md). 
 
 Using a key on vaults unlocks it, causing it to eject items and the key to be consumed.
 
@@ -20,8 +21,8 @@ Using a key on vaults unlocks it, causing it to eject items and the key to be co
 
 <ItemImage id="minecraft:ominous_trial_key" />
 
-An *Ominous Trial Key* is a rarer variant of the normal key. 
+An <ItemLink id="minecraft:ominous_trial_key" /> is a rarer variant of the normal key. 
 
-It can be obtained from an [*Ominous Trial Spawner*](./trial_spawner.md). 
-It is used to unlock an [*Ominous Vault*](./vault.md).
+It can be obtained from an [*Ominous* <ItemLink id="minecraft:trial_spawner" />](./trial_spawner.md). 
+It is used to unlock an [*Ominous* <ItemLink id="minecraft:vault" />](./vault.md).
 

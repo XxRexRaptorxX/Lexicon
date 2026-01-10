@@ -8,7 +8,7 @@ navigation:
 
 # Auto Chicken Farm
 
-This farm will give you *Cooked Chicken* and *Feathers* automatically when fully loaded. 
+This farm will give you <ItemLink id="minecraft:cooked_chicken" /> and *Feathers* automatically when fully loaded. 
 
 - The *Gold Blocks* must be solid blocks to properly conduct [*Redstone*](../redstone/redstone_behavior.md) signal.
 

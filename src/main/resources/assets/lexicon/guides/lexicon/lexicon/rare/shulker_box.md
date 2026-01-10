@@ -27,15 +27,17 @@ navigation:
 
 <ItemImage id="minecraft:shulker_box" />
 
-*Shulker Boxes* are portable [*Chests*](../useables/chest.md): they keep their items when broken, which can be retrieved when placed again. 
+A *Shulker Box* is like a portable [<ItemLink id="minecraft:chest" />](../useables/chest.md): they keep their items when broken, which can be retrieved when placed again. 
 
 This is different from other containers, which drop their contained items as item entities when broken. 
 
+----
+
 These boxes are made out of *Shulker Shells* that are dropped by [*Shulkers*](../creatures/monster-shulker.md) in [*The End*](../world/dimensions.md#end).
 
-
-<Recipe id="minecraft:shulker_box" />
-
-<Recipe id="minecraft:cyan_shulker_box" />
+<Row>
+    <RecipesFor id="minecraft:shulker_box" />
+    <Recipe id="minecraft:cyan_shulker_box" />
+</Row>
 
 *Shulker Boxes* are also dyeable!

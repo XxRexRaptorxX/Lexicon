@@ -37,18 +37,18 @@ Some of them are found less often and some are more common.
 
 -----
 
-*Armor trim smithing templates* are used to customize an armor piece's appearance by using a [*Smithing Tables*](../useables/smithing_table.md), an armor piece, and an ingot or crystal:  
+*Armor trim smithing templates* are used to customize an armor piece's appearance by using a [<ItemLink id="minecraft:smithing_table" />](../useables/smithing_table.md), an armor piece, and an ingot or crystal:  
 
-- [*Redstone Dust*](../redstone/redstone_components.md#redstone)
-- [*Netherite Ingot*](./netherite.md)
-- *Emerald* 
-- *Lapis Lazuli*
-- *Amethyst Shard* 
-- *Nether Quartz*
-- *Diamond*
-- *Gold Ingot* 
-- *Iron Ingot* 
-- *Copper Ingot*
+- [<ItemLink id="minecraft:redstone" />](../redstone/redstone_components.md#redstone)
+- [<ItemLink id="minecraft:netherite_ingot" />](./netherite.md)
+- <ItemLink id="minecraft:emerald" /> 
+- <ItemLink id="minecraft:lapis_lazuli" />
+- <ItemLink id="minecraft:amethyst_shard" /> 
+- <ItemLink id="minecraft:quartz" />
+- <ItemLink id="minecraft:diamond" />
+- <ItemLink id="minecraft:gold_ingot" />
+- <ItemLink id="minecraft:iron_ingot" />
+- <ItemLink id="minecraft:copper_ingot" />
 
 -----
 
@@ -56,7 +56,7 @@ Some of them are found less often and some are more common.
 
 __Location:__ [*Bastion remnant*](../world/structures.md#bastion) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:netherite_upgrade_smithing_template" />
 
@@ -66,7 +66,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Shipwreck*](../world/structures.md#shipwreck) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:coast_armor_trim_smithing_template" />
 
@@ -76,7 +76,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Desert Temple*](../world/structures.md#pyramid) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:dune_armor_trim_smithing_template" />
 
@@ -86,7 +86,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Stronghold*](../world/structures.md#stronghold) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:eye_armor_trim_smithing_template" />
 
@@ -96,7 +96,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Nether Fortress*](../world/structures.md#fortress) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:rib_armor_trim_smithing_template" />
 
@@ -106,7 +106,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Pillager Outpost*](../world/structures.md#outpost) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:sentry_armor_trim_smithing_template" />
 
@@ -116,7 +116,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Ancient City*](../world/structures.md#ancient_city) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:silence_armor_trim_smithing_template" />
 
@@ -126,7 +126,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Bastion Remnant*](../world/structures.md#bastion) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:snout_armor_trim_smithing_template" />
 
@@ -136,7 +136,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*End City*](../world/structures.md#end_city) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:spire_armor_trim_smithing_template" />
 
@@ -146,7 +146,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Woodland Mansion*](../world/structures.md#mansion) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:vex_armor_trim_smithing_template" />
 
@@ -156,7 +156,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Ancient City*](../world/structures.md#ancient_city) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:ward_armor_trim_smithing_template" />
 
@@ -166,7 +166,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Jungle Temple*](../world/structures.md#temple) 
 
-__Container:__ [*Chest*](../useables/chest.md)
+__Container:__ [<ItemLink id="minecraft:chest" />](../useables/chest.md)
 
 <Recipe id="minecraft:wild_armor_trim_smithing_template" />
 
@@ -176,7 +176,7 @@ __Container:__ [*Chest*](../useables/chest.md)
 
 __Location:__ [*Trail Ruins*](../world/structures.md#trail_ruin) 
 
-__Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
+__Container:__ [<ItemLink id="minecraft:suspicious_gravel" />](./suspicious_sand.md)
 
 <Recipe id="minecraft:wayfinder_armor_trim_smithing_template" />
 
@@ -186,7 +186,7 @@ __Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
 
 __Location:__ [*Trail Ruins*](../world/structures.md#trail_ruin) 
 
-__Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
+__Container:__ [<ItemLink id="minecraft:suspicious_gravel" />](./suspicious_sand.md)
 
 <Recipe id="minecraft:shaper_armor_trim_smithing_template" />
 
@@ -196,7 +196,7 @@ __Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
 
 __Location:__ [*Trail Ruins*](../world/structures.md#trail_ruin) 
 
-__Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
+__Container:__ [<ItemLink id="minecraft:suspicious_gravel" />](./suspicious_sand.md)
 
 <Recipe id="minecraft:host_armor_trim_smithing_template" />
 
@@ -206,7 +206,7 @@ __Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
 
 __Location:__ [*Trail Ruins*](../world/structures.md#trail_ruin) 
 
-__Container:__ [*Suspicious Gravel*](./suspicious_sand.md)
+__Container:__ [<ItemLink id="minecraft:suspicious_gravel" />](./suspicious_sand.md)
 
 <Recipe id="minecraft:raiser_armor_trim_smithing_template" />
 
@@ -226,7 +226,7 @@ __Container:__ [*Elder Guardian*](../creatures/monster-elder_guardian.md)
 
 __Location:__ [*Trial Chambers*](../world/structures.md#trial_chambers) 
 
-__Container:__ [*Ominous Vault*](./vault.md)
+__Container:__ [Ominous <ItemLink id="minecraft:vault" />](./vault.md)
 
 <Recipe id="minecraft:flow_armor_trim_smithing_template" />
 
@@ -236,7 +236,7 @@ __Container:__ [*Ominous Vault*](./vault.md)
 
 __Location:__ [*Trial Chambers*](../world/structures.md#trial_chambers) 
 
-__Container:__ [*Vault*](./vault.md)
+__Container:__ [<ItemLink id="minecraft:vault" />](./vault.md)
 
 <Recipe id="minecraft:bolt_armor_trim_smithing_template" />
 

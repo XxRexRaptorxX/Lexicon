@@ -11,7 +11,9 @@ navigation:
 
 <ItemImage id="minecraft:nether_star" />
 
-The *Nether Star* is a rare item dropped by the [*Wither*](../creatures/boss-wither.md) that is used to craft endgame items like the [*Beacon*](./beacon.md).
+The <ItemLink id="minecraft:nether_star" /> is a rare item dropped by the [*Wither*](../creatures/boss-wither.md) that is used to craft endgame items 
+like the [<ItemLink id="minecraft:beacon" />](./beacon.md).
 
-<Recipe id="minecraft:beacon" />
-
+<Row>
+    <Recipe id="minecraft:beacon" />
+</Row>

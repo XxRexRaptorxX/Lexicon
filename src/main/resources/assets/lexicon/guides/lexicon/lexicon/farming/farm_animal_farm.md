@@ -8,7 +8,7 @@ navigation:
 
 # Pig/Cow/Sheep Farm
 
-Animals such as [*Pigs*](../creatures/animal-pig.md), [*Cows*](../creatures/animal-cow.md) & [*Sheeps*](../creatures/animal-sheep.md) can be farmed here. 
+Animals such as [*Pigs*](../creatures/animal-pig.md), [*Cows*](../creatures/animal-cow.md) & [*Sheep*](../creatures/animal-sheep.md) can be farmed here. 
 
 Some adults have to be caged above and paired so that the babies fall down and are grilled when they grow up.
 

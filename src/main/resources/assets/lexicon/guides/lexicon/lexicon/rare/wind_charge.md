@@ -11,9 +11,11 @@ navigation:
 
 <ItemImage id="minecraft:wind_charge" />
 
-A *Wind Charge* is a consumable ranged weapon that can knock entities back and interact with certain [Redstone components](../redstone/redstone_components.md). 
+A <ItemLink id="minecraft:wind_charge" /> is a consumable ranged weapon that can knock entities back and interact with certain [Redstone components](../redstone/redstone_components.md). 
 
-It is used by [*Breezes*](../creatures/monster-breeze.md) as their main attack and can also be shot by [*Players*](../creatures/human-player.md) and [*Dispensers*](../redstone/redstone_components.md#dispenser).
+It is used by [*Breezes*](../creatures/monster-breeze.md) as their main attack and can also be shot by [*Players*](../creatures/human-player.md) and 
+[<ItemLink id="minecraft:dispenser" />](../redstone/redstone_components.md#dispenser).
 
-<Recipe id="minecraft:wind_charge" />
-
+<Row>
+    <RecipesFor id="minecraft:wind_charge" />
+</Row>

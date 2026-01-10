@@ -8,7 +8,7 @@ navigation:
 
 # Mining Levels
 
-Not all *Ores* can be mined with the same *Pickaxe*. 
+Not all *ores* can be mined with the same *Pickaxe*. 
 
 There are different mining levels depending on the material. 
 The higher the level, the more ores can be mined.

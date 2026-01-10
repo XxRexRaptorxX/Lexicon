@@ -1,13 +1,14 @@
 ---
 navigation:
-  title: "Useable Blocks"
+  title: "Usable Blocks"
   icon: "minecraft:smithing_table"
   parent: lexicon:index.md
   position: 9
 ---
 
-# Useable Blocks
+# Usable Blocks
 
-Here you can find out everything about useable blocks like [*Furnaces*](./useables/furnace.md), [*Stonecutter*](./useables/stonecutter.md), [*Grindstone*](./useables/grindstone.md) and more.
+Here you can find out everything about usable like a [<ItemLink id="minecraft:furnace" />](./useables/furnace.md), [<ItemLink id="minecraft:stonecutter" />](./useables/stonecutter.md), 
+[<ItemLink id="minecraft:grindstone" />](./useables/grindstone.md) and more.
 
 <SubPages icons={true} />

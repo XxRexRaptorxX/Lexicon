@@ -30,11 +30,13 @@ navigation:
 
 <ItemImage id="minecraft:music_disc_13" />
 
-A *Music Disc* can be played on a [*Jukebox*](../useables/jukebox.md), by holding the disc and pressing the use control on the [*Jukebox*](../useables/jukebox.md), or by using a [*Hopper*](../redstone/redstone_components.md#hopper) or a [*Dropper*](../redstone/redstone_components.md#dropper) facing toward the [*Jukebox*](../useables/jukebox.md). 
+A *Music Disc* can be played on a [<ItemLink id="minecraft:jukebox" />](../useables/jukebox.md), by holding the disc and pressing the use control on the 
+[<ItemLink id="minecraft:jukebox" />](../useables/jukebox.md), or by using a [<ItemLink id="minecraft:hopper" />](../redstone/redstone_components.md#hopper) 
+or a [<ItemLink id="minecraft:dropper" />](../redstone/redstone_components.md#dropper)facing toward the [<ItemLink id="minecraft:jukebox" />](../useables/jukebox.md). 
 
-Pressing use on the [*Jukebox*](../useables/jukebox.md) again ejects the disc and stops any music playing.
+Pressing use on the [<ItemLink id="minecraft:jukebox" />](../useables/jukebox.md) again ejects the disc and stops any music playing.
 
-<Recipe id="minecraft:jukebox" />
+<RecipesFor id="minecraft:jukebox" />
 
 -----
 
@@ -303,7 +305,7 @@ __Composer:__
  Aaron Cherof 
 
 __Obtaining:__ 
-- Drops from [*Suspicious Gravel*](./suspicious_sand.md#gravel) in [*Trail Ruins*](../world/structures.md#trail_ruins) 
+- Drops from [<ItemLink id="minecraft:suspicious_gravel" />](./suspicious_sand.md#gravel) in [*Trail Ruins*](../world/structures.md#trail_ruins) 
 
 __Redstone signal strength:__
  14
@@ -323,7 +325,8 @@ __Obtaining:__
 __Redstone signal strength:__
  15
 
-*Disc Fragments* can be obtained from [*Ancient Citys*](../world/structures.md#ancient_city)
+<ItemLink id="minecraft:disc_fragment_5" /> can be obtained from [*Ancient Citys*](../world/structures.md#ancient_city)
 
-<Recipe id="minecraft:music_disc_5" />
-
+<Row>
+    <RecipesFor id="minecraft:music_disc_5" />
+</Row>

@@ -10,8 +10,10 @@ navigation:
 
 Commands, are advanced features activated by typing certain strings of text. 
 
-In the client, commands are entered via [*Command Block*](./redstone/redstone_components.md#command_block) or chat window, which is displayed by pressing the **T** or **/ key**. 
+In the client, commands are entered via [<ItemLink id="minecraft:command_block" />](./redstone/redstone_components.md#command_block) or chat window, which is displayed by pressing the **T** or **/ key**. 
 
 Pressing **Tab** while entering commands cycles through possible commands or arguments, and can be used to auto-enter them.
+
+-----
 
 <SubPages icons={true} />

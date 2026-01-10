@@ -10,9 +10,6 @@ navigation:
 
 Here are some building ideas for you!
 
-<Color id="gray">Credits are in the assets</Color>
-
-
 ![](building_idea_1.png) ![](building_idea_2.png) ![](building_idea_3.png)
 
 ![](building_idea_4.png) ![](building_idea_5.png) ![](building_idea_6.png)
@@ -22,3 +19,5 @@ Here are some building ideas for you!
 ![](building_idea_10.png) ![](building_idea_11.png) ![](building_idea_12.png)
 
 ![](building_idea_13.png)
+
+<Color id="gray">Credits are in the assets</Color>

@@ -11,7 +11,11 @@ navigation:
 
 <ItemImage id="minecraft:heavy_core" />
 
-A *Heavy Core* is a rare block that can be obtained from [*Ominous Vaults*](./vault.md) found in [*Trial Chambers*](../world/structures.md#trial_chambers).
+A <ItemLink id="minecraft:heavy_core" /> is a rare block that can be obtained from [*Ominous Vaults*](./vault.md) found in [*Trial Chambers*](../world/structures.md#trial_chambers).
 
-<Recipe id="minecraft:mace" />
+----
+
+The <ItemLink id="minecraft:heavy_core" /> can be used to craft a <ItemLink id="minecraft:mace" />
+
+<RecipesFor id="minecraft:mace" />
 

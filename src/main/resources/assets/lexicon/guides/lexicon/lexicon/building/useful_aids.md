@@ -11,13 +11,16 @@ navigation:
 __There are a few things that make it easier for you to build:__ 
 - When you sneak (*Shift* Key) you can't fall over block edges, useful when you build at big heights.
 - You can also use *Shift* to build blocks that would otherwise open her inventory.
-- Use *Scaffoldings* when constructing tall structures.
+- Use <ItemLink id="minecraft:scaffolding" /> when constructing tall structures.
 
 -----
+
+### The <ItemLink id="minecraft:scaffolding" />
 
 - Can be built and expanded quickly
 - Can be easily climbed
 - If you destroy one, all of them above collapse too
 
-<Recipe id="minecraft:scaffolding" />
+<RecipesFor id="minecraft:scaffolding" />
+
 

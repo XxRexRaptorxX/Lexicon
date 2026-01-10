@@ -12,19 +12,19 @@ navigation:
 
 <ItemImage id="minecraft:netherite_scrap" />
 
-*Netherite* is a rare material from the [*Nether*](../world/dimensions.md#nether), used primarily to upgrade *Diamond* gear. 
+*Netherite* is a rare material from the [*Nether*](../world/dimensions.md#nether), used primarily to upgrade <ItemLink id="minecraft:diamond" /> gear. 
 
-*Netherite* items are more powerful and durable than *Diamond*, can float in lava, and cannot burn. 
+*Netherite* items are more powerful and durable than <ItemLink id="minecraft:diamond" />, can float in lava, and cannot burn. 
 
-- For *Netherite*, you must first find *Ancient Debris* in the [*Nether*](../world/dimensions.md#nether)!
+- For *Netherite*, you must first find <ItemLink id="minecraft:ancient_debris" /> in the [*Nether*](../world/dimensions.md#nether)!
 
 -----
+<Row>
+    <RecipesFor id="minecraft:netherite_scrap" /> 
+</Row>
 
-<Recipe id="minecraft:netherite_scrap" /> 
+*Netherite* gear is made by upgrading <ItemLink id="minecraft:diamond" /> gear using a [<ItemLink id="minecraft:smithing_table" />](../useables/smithing_table.md).
 
-<Recipe id="minecraft:netherite_scrap_from_blasting" />
-
-*Netherite* gear is made by upgrading *Diamond* gear using a [*Smithing Table*](../useables/smithing_table.md).
-
-<Recipe id="minecraft:netherite_ingot" />
-
+<Row>
+    <RecipesFor id="minecraft:netherite_ingot" />
+</Row>

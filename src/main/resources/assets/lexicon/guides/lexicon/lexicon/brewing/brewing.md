@@ -8,7 +8,8 @@ navigation:
 
 # Brewing
 
-By placing at least one or more *Water Bottles* in the lower three slots of the [*Brewing Stand*](../useables/brewing_stand.md), an ingredient in the upper slot, and *Blaze Powder* in the fuel slot, 
+By placing at least one or more *Water Bottles* in the lower three slots of the [<ItemLink id="minecraft:brewing_stand" />](../useables/brewing_stand.md),
+an ingredient in the upper slot, and <ItemLink id="minecraft:blaze_powder" /> in the fuel slot, 
 a [*Player*](../creatures/human-player.md) can distill the ingredients into each [*Bottle*](ingredients_equipments.md) and brew [*Potions*](brewing.md#potions) that may be consumed to grant an effect to the 
 [*Player*](../creatures/human-player.md). 
 
@@ -47,7 +48,10 @@ An enhanced effect has shorter duration, & extended duration cannot have an enha
 
 -----
 
-<Recipe id="minecraft:brewing_stand" />
+## Important brewing related recipes
 
-<Recipe id="minecraft:glass_bottle" />
+<RecipeFor id="minecraft:brewing_stand" />
 
+<RecipesFor id="minecraft:glass_bottle" />
+
+<RecipesFor id="minecraft:cauldron" />

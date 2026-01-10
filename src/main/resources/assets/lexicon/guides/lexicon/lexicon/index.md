@@ -20,7 +20,7 @@ This book focuses on vanilla Minecraft. Mods or datapacks can change some aspect
 - [Building](building.md)
 - [Combat](combat.md)
 - [Trading](trading.md)
-- [Useable blocks](useable_blocks.md)
+- [Usable blocks](useable_blocks.md)
 - [Creatures](creatures.md)
 - [World](world.md)
 - [Redstone](redstone.md)
