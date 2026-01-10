@@ -1,7 +1,8 @@
-# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev23)
+# [v.2.1.0 for MC 1.21.10](https://github.com/XxRexRaptorxX/Lexicon/compare/v.2.1.0-dev1...v.2.1.0-dev24)
 
 ## ✨ Features
 
+- Item names are now translated and display a tooltip when hovered over + improved texts and layouts ([c2e261f](https://github.com/XxRexRaptorxX/Lexicon/commit/c2e261fbc0ab113e5361d3d925d34fd97310a199))
 - Creaking page added ([914047e](https://github.com/XxRexRaptorxX/Lexicon/commit/914047e23182026bf36e037ed5c7a9a6064ae9dd))
 
 ## 🔧 Bug Fixes
