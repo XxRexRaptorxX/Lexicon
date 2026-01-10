@@ -12,6 +12,8 @@ With *Shader packs* you add new light, shadow and water effects to the game.
 
 Shaders use quite a lot of power, so you should have a strong computer. 
 
+----
+
 To use shader, you need [*Mods*](./mods.md) like __Optifine__ or __Iris__. 
 
 - They can be placed in the folder **shaderpacks** within the **.minecraft** folder.

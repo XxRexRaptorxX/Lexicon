@@ -16,7 +16,6 @@ These packs can be stacked
 
 - You can find new packs [here](https://www.curseforge.com/minecraft/texture-packs)
 
-
-![](texturepack_1.png) ![](texturepack_2.png) ![](texturepack_3.png) 
-![](texturepack_4.png) ![](texturepack_5.png)
-
+<Row>
+    ![](texturepack_1.png) ![](texturepack_2.png) ![](texturepack_3.png) ![](texturepack_4.png) ![](texturepack_5.png)
+</Row>

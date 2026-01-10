@@ -12,6 +12,7 @@ A *Plugin* (or a multiplayer plug-in) is an additive file for a Minecraft multip
 
 *Plugins* are often used to change certain aspects of the game, such as adding user rankings, or the addition of game modes, economy and more.
 
+----
 
 *Plugins* do not change the game code itself, as a [*Mod*](./mods.md) does. 
 
