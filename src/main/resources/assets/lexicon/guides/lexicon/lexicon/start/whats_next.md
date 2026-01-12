@@ -8,53 +8,44 @@ navigation:
 
 # What's next?
 
-If you are now well-equipped with *Iron* and have survived the first night, you can now start building a *Food Farm* and a base with a [*Bed*](../useables/bed.md) to set your spawnpoint, *exploring* the area and collecting resources! 
+If you are now well-equipped with *Iron* ore *Copper* and have survived the first night, you can now start building a [Food Farm](../farming/classic_food_farms.md) 
+and a base with a [*Bed*](../useables/bed.md) to set your spawnpoint, [exploring](../exploring.md) the area 
+and collecting resources! 
 
-Some useful things that you should craft are listed on the following pages.
+-----
 
-<Recipe id="minecraft:chest" />
+## Useful recipes:
 
-<Recipe id="minecraft:white_bed" />
-
-
-
-<Recipe id="minecraft:oak_fence" />
-
-<Recipe id="minecraft:oak_fence_gate" />
-
-
-
-<Recipe id="minecraft:ladder" />
-
-<Recipe id="minecraft:oak_door" />
-
-
-
-<Recipe id="minecraft:bow" />
-
-<Recipe id="minecraft:arrow" />
-
-
-
-<Recipe id="minecraft:shield" />
-
-<Recipe id="minecraft:compass" />
-
-
-
-<Recipe id="minecraft:fishing_rod" />
-
-<Recipe id="minecraft:stonecutter" />
-
-
-
-<Recipe id="minecraft:blast_furnace" />
-
-<Recipe id="minecraft:smoker" />
+<Row>
+    <RecipesFor id="minecraft:chest" />
+    <RecipesFor id="minecraft:white_bed" />
+    <RecipesFor id="minecraft:oak_fence" />
+    <RecipesFor id="minecraft:oak_fence_gate" />
+    <RecipesFor id="minecraft:ladder" />
+    <RecipesFor id="minecraft:oak_door" />
+    <RecipesFor id="minecraft:oak_slab" />
+    <RecipesFor id="minecraft:oak_stairs" />
+    <RecipesFor id="minecraft:bow" />
+    <RecipesFor id="minecraft:crossbow" />
+    <RecipesFor id="minecraft:arrow" />
+    <RecipesFor id="minecraft:shield" />
+    <RecipesFor id="minecraft:compass" />
+    <RecipesFor id="minecraft:map" />
+    <RecipesFor id="minecraft:fishing_rod" />
+    <RecipesFor id="minecraft:oak_boat" />
+    <RecipesFor id="minecraft:stonecutter" />
+    <RecipesFor id="minecraft:composter" />
+    <RecipesFor id="minecraft:bundle" />
+    <RecipesFor id="minecraft:bucket" />
+    <RecipesFor id="minecraft:glass" />
+    <RecipesFor id="minecraft:glass_pane" />
+</Row>
 
 -----
 
 ## Starter House
+
+Here you can see a small template of what a well-equipped first home could look like.
 
 <GameScene interactive={true} zoom={2}>
   <Block x="4" y="8" z="0" id="minecraft:stone_brick_stairs"p:facing="east" p:half="bottom" />

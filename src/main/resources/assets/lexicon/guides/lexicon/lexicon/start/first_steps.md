@@ -12,49 +12,62 @@ The first thing you need to do, when you spawn into a new world is to search for
 
 - Gather a bunch of Logs then open your inventory to turn the *Logs* into *Planks*. 
 
-- Then use 4 *Planks* in your mini crafting grid to create a [*Crafting Table*](../useables/crafting_table.md).
+- Then use 4 *Planks* in your mini crafting grid to create a [<ItemLink id="minecraft:crafting_table" />](../useables/crafting_table.md).
 
-<Recipe id="minecraft:oak_planks" />
-
-<Recipe id="minecraft:crafting_table" />
- 
------
-
-- Now craft with *Planks* some *Sticks* and with both of them a *Wooden Pickaxe*.
-
-<Recipe id="minecraft:stick" />
-
-<Recipe id="minecraft:wooden_pickaxe" />
+<Row>
+    <Recipe id="minecraft:oak_planks" />
+    <Recipe id="minecraft:crafting_table" />
+ </Row>
 
 -----
 
-- Then find some *Stone* (on mountains or below the dirt), mine them with your *Pickaxe* and craft all standard *Tools* from it.
+- Now craft with *Planks* some *Sticks* and with both of them a <ItemLink id="minecraft:wooden_pickaxe" />.
 
-<Recipe id="minecraft:stone_pickaxe" />
+<Row>
+    <Recipe id="minecraft:stick" />
+    <Recipe id="minecraft:wooden_pickaxe" />
+</Row>
+-----
 
-<Recipe id="minecraft:stone_axe" />
+- Then find some <ItemLink id="minecraft:stone" /> (on mountains or below the <ItemLink id="minecraft:dirt" />), mine them with your
+  <ItemLink id="minecraft:wooden_pickaxe" /> and craft all standard *Tools* from it.
 
-<Recipe id="minecraft:stone_sword" />
-
-<Recipe id="minecraft:stone_shovel" />
-
-<Recipe id="minecraft:stone_hoe" />
+<Row>
+    <RecipeFor id="minecraft:stone_pickaxe" />
+    <RecipeFor id="minecraft:stone_axe" />
+    <RecipeFor id="minecraft:stone_sword" />
+    <RecipeFor id="minecraft:stone_shovel" />
+    <RecipeFor id="minecraft:stone_hoe" />
+</Row>
 
 -----
 
-- The next step is searching *Food*, for quick food kill some *Animals* with your *Sword* and cook the flesh in an [*Furnace*](../useables/furnace.md). 
+- The next step is searching food, for quick food kill some [Animals](../creatures/animals.md) with your <ItemLink id="minecraft:stone_sword" /> 
+and cook the meat in an [<ItemLink id="minecraft:furnace" />](../useables/furnace.md), [<ItemLink id="minecraft:smoker" />](../useables/smoker.md) 
+or [<ItemLink id="minecraft:campfire" />](../useables/campfire.md) to get more nutritious food. 
 
-You can use *Wood* or *Coal* as fuel. 
+You can use *Wood*, plants or <ItemLink id="minecraft:coal" /> as fuel.
 
-- And if you have found [*Cows*](../creatures/animal-cow.md), you should craft *Armor* out of the *Leather*.
+<Row>
+    <RecipesFor id="minecraft:furnace" />
+    <RecipesFor id="minecraft:smoker" />
+    <RecipesFor id="minecraft:campfire" />
+</Row>
+<Row>
+    <RecipeFor id="minecraft:cooked_beef" />
+    <RecipeFor id="minecraft:cooked_porkchop" />
+    <RecipeFor id="minecraft:cooked_chicken" />
+    <RecipeFor id="minecraft:baked_potato" />
+    <RecipeFor id="minecraft:bread" />
+</Row>
 
-<Recipe id="minecraft:furnace" />
+Another good way to find food is to search for a [Village](../world/structures.md#village).
 
-<Recipe id="minecraft:leather_helmet" />
+If you have found [*Cows*](../creatures/animal-cow.md), you should craft *Armor* out of the <ItemLink id="minecraft:leather" />.
 
-<Recipe id="minecraft:leather_chestplate" />
-
-<Recipe id="minecraft:leather_leggings" />
-
-<Recipe id="minecraft:leather_boots" />
-
+<Row>
+    <Recipe id="minecraft:leather_helmet" />
+    <Recipe id="minecraft:leather_chestplate" />
+    <Recipe id="minecraft:leather_leggings" />
+    <Recipe id="minecraft:leather_boots" />
+</Row>
