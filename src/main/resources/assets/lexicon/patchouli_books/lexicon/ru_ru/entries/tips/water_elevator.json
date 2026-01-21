@@ -1,0 +1,18 @@
+{
+  "name": "Водяной лифт",
+  "icon": "minecraft:magma_block",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если источник $(item)Water$() находится прямо над $(item)Magma Block$(), создаётся пузырьковая колонна, тянущая вниз от верхнего источника. $(br)Всё, что попадает в колонну, уносится вниз, включая предметы, $(item)Boats$(), $(l:creatures/human-player)$(thing)Players$() и мобов. $(br2)$(item)Soulsand$() делает то же самое вверх. $(br2)Это идеально для лифта, транспортировки предметов или ловушки."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/water_elevator.png"
+      ],
+      "border": true
+    }
+  ]
+}

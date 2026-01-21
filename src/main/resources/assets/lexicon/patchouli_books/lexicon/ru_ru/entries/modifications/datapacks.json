@@ -1,0 +1,16 @@
+{
+  "name": "Пакеты данных",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Пакет данных$() предоставляет $(l:creatures/human-player)$(thing)Игрокам$() возможность ещё больше настроить свой опыт в Minecraft. $(br2)Эти пакеты можно использовать для замены или добавления новых достижений, измерений, функций, таблиц добычи, предикатов, рецептов, структур, тегов, настроек генерации мира и биомов без каких-либо изменений кода."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(li)Пакеты данных можно найти $(l:https://www.curseforge.com/minecraft/texture-packs/data-packs)здесь$()"
+    }
+  ]
+}

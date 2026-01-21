@@ -1,0 +1,6 @@
+{
+  "name": "Редстоун",
+  "description": "Редстоун — это эквивалент электричества в $(thing)Minecraft$(). $(br2)Знание основ редстоуна позволяет создавать удивительные механизмы. $(br2)Получить $(l:redstone/redstone_components#redstone)$(item)Редстоуновую пыль$() можно, добывая $(item)Редстоуновую руду$() под землёй. $(br2)Эту пыль можно рассыпать по земле как провод, присоединять её к $(l:redstone/redstone_components#lever)$(item)Рычагам$() или $(l:redstone/redstone_components#door)$(item)Дверям$(), а также использовать её для создания $(l:redstone/redstone_components#torch)$(item)Факелов$() и $(l:redstone/redstone_components#repeater)$(item)Повторителей$(), чтобы строить огромные машины.",
+  "icon": "minecraft:redstone",
+  "sortnum": 15
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Распределение руд",
+  "icon": "minecraft:diamond_ore",
+  "category": "lexicon:mining",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руды$() генерируются на разных высотах с различной вероятностью. $(br2)Некоторые ещё и реже появляются в пещерах (при контакте с воздухом)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Лучшие уровни для руд",
+      "text": "$(l:world/dimensions#overworld)$(thing)Верхний мир$() $(li)$(item)Угольная руда$(): слой 95 и 136 $(li)$(item)Медная руда$(): слой 48 $(li)$(item)Лазуритовая руда$(): слой -1 $(li)$(item)Железная руда$(): слои 15 и 232 $(li)$(item)Золотая руда$(): слой -16 $(li)$(item)Редстоуновая руда$(): слой -59 $(li)$(item)Алмазная руда$(): слой -59 $(li)$(item)Изумрудная руда$(): слой 236 $(br2)$(l:world/dimensions#nether)$(thing)Нижний мир$() $(li)$(item)Незер-кварц$(): слои 10-114 $(li)$(item)Золотая руда$(): слои 96-116 $(li)$(item)Древний обломок$(): 13-17"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution.png"
+      ],
+      "border": false,
+      "text": "$(br)Наибольшее разнообразие руд — около нулевого слоя"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ore_distribution_legend.png"
+      ],
+      "border": true
+    }
+  ]
+}

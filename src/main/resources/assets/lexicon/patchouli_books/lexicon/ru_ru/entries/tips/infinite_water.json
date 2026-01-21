@@ -1,0 +1,18 @@
+{
+  "name": "Бесконечная вода",
+  "icon": "minecraft:water_bucket",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Самый простой источник бесконечной воды:$() $(br)$(li)$(n)Шаг 1:$() выкопайте яму глубиной 1 блок, шириной 2 и длиной 2 блока. $(br)$(li)$(n)Шаг 2:$() заполните два противоположных угла источниками $(item)Water$(). $(br)$(li)$(n)Шаг 3:$() возьмите $(item)Bucket$() и набирайте сколько угодно $(item)Water$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/infinite_water_source.png"
+      ],
+      "border": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Спасительные норы",
+  "icon": "minecraft:stone",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Некоторых монстров можно обмануть, спрятавшись в яме, меньшей по размеру, чем у противника, и атакуя их оттуда. $(br2)Также можно построиться вверх, пока противник не сможет достать вас."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/save_hole.png"
+      ],
+      "border": true
+    }
+  ]
+}

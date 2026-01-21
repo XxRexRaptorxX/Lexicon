@@ -1,0 +1,17 @@
+{
+  "name": "Ткацкий станок",
+  "icon": "minecraft:loom",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:loom",
+      "text": "$(item)Ткацкий станок$() используется для нанесения узоров на $(item)Знамёна$(). $(br2)Также служит блоком рабочего места $(l:creatures/human-villager#shepherd)$(thing)Пастуха$(), который встречается в $(l:world/structures#village)$(thing)Деревнях$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:loom",
+      "title": " "
+    }
+  ]
+}

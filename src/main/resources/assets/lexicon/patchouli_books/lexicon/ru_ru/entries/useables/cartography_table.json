@@ -1,0 +1,17 @@
+{
+  "name": "Картографический стол",
+  "icon": "minecraft:cartography_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cartography_table",
+      "text": "$(item)Картографический стол$() — блок рабочего места $(l:creatures/human-villager#cartographer)$(thing)Картографа$(), который генерируется в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)Используется для копирования, уменьшения и блокировки $(item)Карт$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:cartography_table",
+      "title": " "
+    }
+  ]
+}

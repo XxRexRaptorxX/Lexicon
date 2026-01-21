@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Зомбированный пиглин",
+  "icon": "minecraft:zombified_piglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 20     $(br)> $(n)Урон атаки:$() $(br)вооружённый: 3-5 на лёгком, 5-8 на нормальном, 7-12 на сложном $(br)> $(n)Поведение:$() Нейтральный $(br)> $(n)Появление:$() $(l:world/dimensions#nether)Незер$(), когда $(l:creatures/monster-piglin)Пиглин$() покидает $(l:world/dimensions#nether)Незер$(), когда $(l:creatures/animal-pig)$(thing)Свинью$() поражает молния $(br)> $(n)Особенности:$() $(br)Атакуют группами, если спровоцированы. Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombified_piglin",
+      "scale": "1.0",
+      "text": "$(n)Добыча:$() 0-1 гнилой плоти, 0-1 золотой самородок, 2.5% шанс на золотой слиток, 8.5% шанс на удерживаемое $(l:combat/weapons)Оружие$()  $(n)Опыт:$() взрослый 5, детёныш 12"
+    }
+  ]
+}

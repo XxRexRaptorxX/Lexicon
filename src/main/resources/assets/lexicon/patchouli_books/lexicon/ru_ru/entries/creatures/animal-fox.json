@@ -1,0 +1,18 @@
+{
+  "name": "Животное - Лиса",
+  "icon": "minecraft:fox_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 10     $(br)> $(n)Урон:$() 2, 3 на сложном  $(br)> $(n)Поведение:$() Мирное     $(br)> $(n)Место появления:$() Тайга, Роща    $(br)> $(n)Размножение:$() Сладкие ягоды, светящиеся ягоды $(br)> $(n)Свойства:$() $(br)Спит днём. Атакует $(l:creatures/animal-chicken)$(thing)кур$(), $(l:creatures/animal-rabbit)$(thing)кроликов$(), $(l:creatures/aquatic_animal-turtle)$(thing)детёнышей черепах$() и $(l:creatures/animal-tropical_fish)$(thing)рыбу$(). Лисы могут держать предметы в пасти. Разведение двух лис приводит к $(n)приручённому$() $(thing)лисенку$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:fox",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() предмет в пасти  $(n)Опыт:$() 1-2"
+    }
+  ]
+}
+

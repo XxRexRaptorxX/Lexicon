@@ -1,0 +1,62 @@
+{
+  "name": "Первые шаги",
+  "icon": "minecraft:leather_boots",
+  "category": "lexicon:start",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Первое, что нужно сделать, появившись в новом мире — найти $(thing)дерево$() и бить его, пока не выпадут $(item)брёвна$(). $(br)$(li)Соберите немного брёвен, затем откройте инвентарь и превратите $(item)брёвна$() в $(item)доски$(). $(br)$(li)После этого используйте 4 $(item)доски$() в маленьком окне крафта, чтобы создать $(l:useables/crafting_table)$(item)верстак$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_planks",
+      "recipe2": "minecraft:crafting_table"
+    },
+    {
+      "type": "patchouli:text",
+      "text": " $(li)Теперь из $(item)досок$() сделайте несколько $(item)палок$() и из них вместе скрафтите $(item)деревянную кирку$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stick",
+      "recipe2": "minecraft:wooden_pickaxe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": " $(li)Затем найдите немного $(item)камня$() (в горах или под землёй), добудьте его своей $(item)киркой$() и сделайте из него все стандартные $(item)инструменты$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_pickaxe",
+      "recipe2": "minecraft:stone_axe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_sword",
+      "recipe2": "minecraft:stone_shovel"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stone_hoe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Следующий шаг — поиск $(item)еды$(); для быстрого пропитания убейте несколько $(thing)животных$() своим $(item)мечом$() и приготовьте мясо в $(l:useables/furnace)$(item)печи$(). $(br2)В качестве топлива можно использовать $(item)дерево$() или $(item)уголь$(). $(br)$(li)А если вы нашли $(l:creatures/animal-cow)$(thing)коров$(), стоит сделать $(item)броню$() из $(item)кожи$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_helmet",
+      "recipe2": "minecraft:leather_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:leather_leggings",
+      "recipe2": "minecraft:leather_boots"
+    }
+  ]
+}

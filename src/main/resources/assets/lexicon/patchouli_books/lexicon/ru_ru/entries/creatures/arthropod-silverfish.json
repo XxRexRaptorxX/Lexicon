@@ -1,0 +1,17 @@
+{
+  "name": "Членистоногое - Чешуйница",
+  "icon": "minecraft:silverfish_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 8  $(br)> $(n)Урон:$() 2, 2.5 на сложном$(br)> $(n)Поведение:$() Враждебное     $(br)> $(n)Появление:$() $(l:world/structures#stronghold)$(thing)Крепостях$() или после добычи заражённых блоков $(br)> $(n)Свойства:$() $(br)$(thing)Чешуйницы$() — небольшие мобы, прячущиеся в блоках, похожих на камень, в горах, $(l:world/structures#stronghold)$(thing)крепостях$(), подвалами $(l:world/structures#igloo)$(thing)иглу$() и $(l:world/structures#mansion)$(thing)лесных особняков$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:silverfish",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() -   $(br)$(n)Опыт:$() 5"
+    }
+  ]
+}

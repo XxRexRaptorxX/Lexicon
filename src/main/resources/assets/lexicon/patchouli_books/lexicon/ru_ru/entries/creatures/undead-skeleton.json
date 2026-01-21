@@ -1,0 +1,17 @@
+{
+  "name": "Нежить - Скелет",
+  "icon": "minecraft:skeleton_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 20  $(br)> $(n)Урон атаки:$() $(br)2-4 на лёгком, 3-5 на нормальном, 4-8 на сложном $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() $(l:world/dimensions#overworld)Верхний мир$() при уровне света 0, $(l:world/structures#fortress)Нетерская крепость$(), Душечная долина $(br)> $(n)Особенности:$() $(br)$(thing)Скелеты$() вооружены $(item)Луками$(), они горят на солнце и бегут от $(l:creatures/animal-wolf)$(thing)Волков$(). Они лечатся $(l:brewing/effects#instant_damage)$(thing)Мгновенным уроном$() и получают вред от $(l:brewing/effects#instant_health)$(thing)Мгновенного лечения$(), невосприимчивы к эффектам $(l:brewing/effects#regeneration)$(thing)Регенерации$() и $(l:brewing/effects#poison)$(thing)Яда$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton",
+      "scale": "1.0",
+      "text": "$(n)Добыча:$() 0-2 кости, 0-2 стрелы, 8.5% шанс на экипировку, 1 $(l:rare/mob_head)$(item)Череп скелета$() при убийстве $(l:tips/lightning)$(thing)Заряженным крипером$() $(br)$(n)Опыт:$() 5-8"
+    }
+  ]
+}

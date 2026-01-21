@@ -1,0 +1,18 @@
+{
+  "name": "Быстрая добыча песка",
+  "icon": "minecraft:sand",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Блоки гравитации, такие как $(item)Sand$() или $(item)Gravel$(), можно быстро добывать в больших количествах, сломав нижний блок и $(n)быстро$() поставив $(item)Torch$(). $(br2)Все падающие блоки разрушатся."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/sand_farming.png"
+      ],
+      "border": true
+    }
+  ]
+}

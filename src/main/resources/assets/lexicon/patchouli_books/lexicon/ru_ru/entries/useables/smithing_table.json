@@ -1,0 +1,17 @@
+{
+  "name": "Кузнечный стол",
+  "icon": "minecraft:smithing_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:smithing_table",
+      "text": "$(item)Кузнечный стол$() — блок рабочего места $(l:creatures/human-villager#toolsmith)$(thing)Инструментальщика$(), который генерируется в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)Его используют для улучшения $(item)Алмазного$() снаряжения до $(item)Незеритового$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:smithing_table",
+      "title": " "
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Фермы еды с потоками воды",
+  "icon": "minecraft:wheat",
+  "category": "lexicon:farming",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это всё ещё простая $(n)полуавтоматическая$() ферма для культур, которые можно разрушить $(item)Водой$() (например, $(item)Пшеницу$(), $(item)Картофель$(), $(item)Морковь$(),...). $(br2)(Стекло показано для иллюстрации постройки) $(br)$(li)Переключение $(l:redstone/redstone_components#lever)$(item)Рычаг$() опускает $(l:redstone/redstone_components#piston)$(item)Поршни$(), позволяя $(item)Воде$() стекать по полям и смывая дроп в $(l:redstone/redstone_components#hopper)$(item)Воронку$() и далее в $(l:useables/chest)$(item)Сундук$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/semi_auto_wheat_farm_1.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_2.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_3.png",
+        "lexicon:textures/pictures/semi_auto_wheat_farm_4.png"
+      ],
+      "border": true,
+      "text": "Эту ферму можно бесконечно расширять вниз.",
+      "title": "Полуавтоматическая ферма пшеницы"
+    }
+  ]
+}
+

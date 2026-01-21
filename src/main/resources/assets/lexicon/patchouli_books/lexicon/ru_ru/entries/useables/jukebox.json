@@ -1,0 +1,18 @@
+{
+  "name": "Проигрыватель",
+  "icon": "minecraft:jukebox",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:jukebox",
+      "text": "$(l:useables/jukebox)$(item)Проигрыватель$(), воспроизводящий музыку с $(l:rare/music_discs)$(item)Музыкального диска$(), излучает сигнал силы 15, запитывая соседние $(l:redstone/redstone_components#redstone)$(item)Редстоун-провода$(), $(l:redstone/redstone_components#repeater)$(item)Повторители$() и другие механизмы. $(br2)Сигнал отключается, когда трек заканчивается или диск извлекают раньше. $(br)Если $(l:creatures/human-player)$(thing)Игрок$() поставит $(l:redstone/redstone_components#comparator)$(item)Компаратор$() рядом с $(item)Проигрывателем$(),"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox",
+      "title": " ",
+        "text": "мощность редстоун-сигнала будет зависеть от вставленного диска. $(br2)$(l:redstone/redstone_components#comparator)$(item)Компаратор$() остаётся запитанным, пока внутри $(item)Проигрывателя$() находится диск, даже если он перестал играть."
+    }
+  ]
+}

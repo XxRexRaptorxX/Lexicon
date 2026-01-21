@@ -1,0 +1,21 @@
+{
+  "name": "Исследование Края",
+  "icon": "minecraft:end_stone",
+  "category": "lexicon:exploring",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот несколько важных предметов, которые стоит всегда иметь с собой в приключениях в $(l:world/dimensions#end)$(thing)Краю$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true
+    }
+
+  ]
+}

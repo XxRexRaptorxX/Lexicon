@@ -1,0 +1,34 @@
+{
+  "name": "Путешествие в Край",
+  "icon": "minecraft:end_portal_frame",
+  "category": "lexicon:end",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Первое важное, что нужно на пути в $(l:world/dimensions#end)$(thing)Край$(), — это $(item)Око Края$(). $(br2)Его можно скрафтить из $(item)Жемчуга Края$(), который выпадает с $(l:creatures/monster-enderman)$(thing)эндерменов$() или добывается при бартере в $(l:world/dimensions#nether)$(thing)Нижнем мире$(), и из $(item)огненного порошка$(), который также можно получить в $(l:world/dimensions#nether)$(thing)Нижнем мире$() из $(l:creatures/monster-blaze)$(thing)ифритов$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:blaze_powder",
+      "recipe2": "minecraft:ender_eye",
+      "text": "Понадобится примерно 20 штук"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Следующий шаг — найти $(l:world/structures#stronghold)$(thing)Крепость$(). $(br2)Её можно найти, бросая $(item)Око Края$() в воздух — оно полетит прямо к $(l:world/structures#stronghold)$(thing)крепости$(). $(br)Если оно остановится и лопнет в воздухе, крепость будет под вами."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_portal_raw.png"
+      ],
+      "border": true,
+      "text": "Найдите $(thing)Портал Края$() и заполните пустые рамки $(item)Око Края$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Перед тем как войти в портал, убедитесь, что взяли всё необходимое: вернуться назад нельзя, пока вы не победите $(l:creatures/boss-ender_dragon)$(thing)Эндер-дракона$() (финального босса Minecraft) или не умрёте."
+    }
+  ]
+}

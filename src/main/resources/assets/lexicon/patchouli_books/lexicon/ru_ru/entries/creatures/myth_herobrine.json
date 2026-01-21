@@ -1,0 +1,50 @@
+{
+  "name": "Миф - Херобрин",
+  "icon": "minecraft:charcoal",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() ?  $(br)> $(n)Урон атаки:$() ? $(br)> $(n)Поведение:$() Враждебный     $(br)> $(n)Появление:$() Неизвестно    $(br)> $(n)Особенности:$() $(br)$(thing)Херобрин$() — это, по слухам, мёртвый брат $(thing)Нотча$(), каким-то образом оказавшийся в Minecraft. $(br2)У него яркие белые глаза, светящиеся в темноте, и он способен держать $(item)Инструменты$() и $(l:combat/weapons)$(item)Оружие$(), наносящее огромный урон." 
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/herobrine.png"
+      ],
+      "border": false,
+      "text": "$(n)Добыча:$() ?  $(br)$(n)Опыт:$() ?"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " F ",
+            " 0 "
+          ],
+          [
+            " T ",
+            "TNT",
+            " T "
+          ],
+          [
+            "GGG",
+            "GXG",
+            "GGG"
+          ]
+        ],
+        "mapping": {
+          "G": "minecraft:gold_block",
+          "T": "minecraft:redstone_torch",
+          "N": "minecraft:netherrack",
+          "F": "minecraft:fire",
+          "X": "minecraft:soul_sand"
+        }
+      },
+      "name": "Святилище Херобрина",
+      "text": "Легенды гласят, что это святилище призывает $(thing)Херобрина$()."
+    }
+  ]
+}

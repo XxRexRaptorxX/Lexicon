@@ -1,0 +1,20 @@
+{
+  "name": "Автоферма лавы/воды",
+  "icon": "minecraft:lava_bucket",
+  "category": "lexicon:farming",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эта простая ферма использует то, что $(item)Капельники$() сливают находящиеся над ними жидкости вниз, так что их можно медленно собирать в $(item)Котлы$(). $(br2)Это не расходует сами жидкости."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/lava_farm.png"
+      ],
+      "border": true
+    }
+  ]
+}
+

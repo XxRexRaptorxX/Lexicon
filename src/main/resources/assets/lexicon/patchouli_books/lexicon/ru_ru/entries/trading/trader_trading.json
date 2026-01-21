@@ -1,0 +1,29 @@
+{
+  "name": "Странствующий торговец",
+  "icon": "minecraft:emerald",
+  "category": "lexicon:trading",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "У $(l:creatures/human-wandering_trader)$(thing)странствующего торговца$() есть 6 случайных сделок. Новые сделки не открываются после торговли с ним. $(br)$(li)После того как $(l:creatures/human-player)$(thing)игрок$() несколько раз купит один и тот же предмет, странствующий торговец блокирует сделку, но в отличие от $(l:creatures/human-villager)$(thing)жителей$(), никогда её не разблокирует. $(li)У них нет системы торговли от новичка до мастера, как у $(l:creatures/human-villager)$(thing)жителей$(). Вместо этого $(l:creatures/human-player)$(thing)игрок$() может покупать у торговца всё без необходимости открывать предыдущие сделки. $(li)Они не повышают и не снижают цены продаваемых предметов, если игрок атакует их, ..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trader_trading.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wandering_trader",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": "0.8"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Кафедра",
+  "icon": "minecraft:lectern",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:lectern",
+      "text": "$(item)Кафедра$() — блок рабочего места $(l:creatures/human-villager#librarian)$(thing)Библиотекаря$(), встречающийся в $(l:world/structures#village)$(thing)Деревнях$(). $(br2)Используется для размещения книг, чтобы несколько $(l:creatures/human-player)$(thing)Игроков$() могли читать их в мультиплеере."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:lectern",
+      "title": " "
+    }
+  ]
+}

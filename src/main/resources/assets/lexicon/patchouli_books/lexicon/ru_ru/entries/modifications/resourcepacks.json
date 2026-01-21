@@ -1,0 +1,29 @@
+{
+  "name": "Пакеты ресурсов",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Пакеты ресурсов$() позволяют изменять текстуры, модели, музыку, звуки, языки и тексты, такие как финальная поэма, заставки, титры и шрифты, без изменения кода. $(br2)Такие пакеты можно накладывать. $(br)$(li)$(thing)Пакеты ресурсов$() можно размещать в папке $(l)resourcepacks$() внутри каталога $(l).minecraft$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/texturepack_1.png",
+        "lexicon:textures/pictures/texturepack_2.png",
+        "lexicon:textures/pictures/texturepack_3.png",
+        "lexicon:textures/pictures/texturepack_4.png",
+        "lexicon:textures/pictures/texturepack_5.png"
+      ],
+      "border": true,
+      "text": "$(li)Новые пакеты можно найти $(l:https://www.curseforge.com/minecraft/texture-packs)здесь$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Формат пакета",
+      "text": "Формат пакета, иногда называемый версией пакета, — это число, используемое в $(l)pack.mcmeta$() для указания версий Java Edition, с которыми совместим $(l:modifications/resourcepacks)$(thing)Пакет ресурсов$() или $(l:modifications/datapacks)$(thing)Пакет данных$(). $(br2)Каждая версия указывает поддерживаемые форматы пакетов в своём $(l)version.json$(). $(br2)Список всех номеров форматов можно найти $(l:https://minecraft.wiki/w/Pack_format)здесь$()"
+    }
+  ]
+}

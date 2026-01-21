@@ -1,0 +1,19 @@
+{
+  "name": "Отключение спавнеров",
+  "icon": "minecraft:spawner",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Никогда не добывайте $(item)Spawners$(), они могут пригодиться, например, для ловушек или фермы. $(br2)Лучше отключить их светом. $(br)Просто поставьте $(item)Torch$() или что-то подобное на $(item)Spawner$(). $(br2)Только $(l:creatures/monster-blaze)$(thing)Blaze$() и $(l:creatures/arthropod-silverfish)$(thing)Silverfish$() $(item)Spawners$() требуют гораздо больше света вокруг, чтобы остановиться."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/spawner_1.png",
+        "lexicon:textures/pictures/spawner_2.png"
+      ],
+      "border": true
+    }
+  ]
+}

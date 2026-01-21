@@ -1,0 +1,147 @@
+{
+  "name": "Летающие машины",
+  "icon": "minecraft:slime_block",
+  "category": "lexicon:redstone",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Летающие машины$() — это механизмы, перемещающие структуру блоков в одном или нескольких направлениях, свободно двигаясь по воздуху или воде без опоры. $(br2)Их также можно спроектировать так, чтобы они перевозили $(l:creatures/human-player)$(thing)игрока$() и/или других существ, которые могут ехать в $(thing)вагоне$() или быть притянуты $(item)блоками мёда$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " R 0R"
+          ],
+          [
+            "PSXPS"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:piston[facing=south]",
+          "p": "minecraft:piston[facing=south]",
+          "X": "minecraft:sticky_piston[facing=north]",
+          "R": "minecraft:redstone_block"
+        }
+      },
+      "name": "Простая летающая машина",
+      "text": "Центральный $(l:redstone/redstone_components#piston)$(item)липкий поршень$() служит запуском, который нужно запитать."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "0O",
+            "O "
+          ],
+          [
+            "PS",
+            "Sp"
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Двусторонняя летающая машина",
+      "text": "$(l:redstone/redstone_components#observer)$(item)Наблюдатель$() с каждой стороны запускает машину и задаёт направление полёта."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "TRW0"
+          ],
+          [
+            " OXL"
+          ]
+        ],
+        "mapping": {
+          "T": "minecraft:iron_trapdoor[facing=north,half=bottom]",
+          "W": "minecraft:redstone_wire[north=side,south=side]",
+          "R": "minecraft:repeater[facing=south,delay=2]",
+          "O": "minecraft:observer[facing=north]",
+          "X": "minecraft:obsidian",
+          "L": "minecraft:lever[face=wall,facing=south]"
+        }
+      },
+      "name": "Станция для летающих машин",
+      "text": "Нужна, чтобы остановить $(thing)летающие машины$() или изменить направление их полёта."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "0O",
+            "O ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  "
+          ],
+          [
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            " S",
+            "PS",
+            "Sp",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S ",
+            "S "
+          ]
+        ],
+        "mapping": {
+          "S": "minecraft:slime_block",
+          "P": "minecraft:sticky_piston[facing=south]",
+          "p": "minecraft:sticky_piston[facing=north]",
+          "O": "minecraft:observer[facing=up]"
+        }
+      },
+      "name": "Летающая машина для сбора урожая",
+      "text": "Эта машина с выпускными механизмами может использоваться для сбора урожая, например на фермах $(item)бамбука$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/flying_machine_harvester.png",
+        "lexicon:textures/pictures/flying_machine_bamboo_farm_1.png"
+      ],
+      "border": true
+    }
+  ]
+}

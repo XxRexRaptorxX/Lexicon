@@ -1,0 +1,17 @@
+{
+  "name": "Монстр - Пиглин-брут",
+  "icon": "minecraft:piglin_brute_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 50     $(br)> $(n)Урон:$() $(br)4-7 на лёгком, 7-14 на нормальном, 10-19 на сложном $(br)> $(n)Поведение:$() Враждебный $(br)> $(n)Место появления:$() $(l:world/structures#bastion)Остатки бастиона$() $(br)> $(n)Свойства:$() $(br)$(thing)Пиглин-брут$() — враждебный и более сильный вариант $(l:creatures/monster-piglin)$(thing)пиглинов$(), встречающийся во всех видах $(l:world/structures#bastion)Остатков бастиона$(). Он всегда атакует $(l:creatures/human-player)$(thing)Игрока$(). Он не обменивается, не отступает и его нельзя отвлечь золотом. Вне $(l:world/dimensions#nether)$(thing)Нижнего мира$() он зомбифицируется."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin_brute",
+      "scale": "1.0",
+      "text": "$(n)Дроп:$() 8.5% шанс на $(item)Золотой топор$()  $(n)Опыт:$() 20"
+    }
+  ]
+}

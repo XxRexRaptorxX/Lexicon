@@ -1,0 +1,26 @@
+{
+  "name": "Подозрительное рагу",
+  "icon": "minecraft:suspicious_stew",
+  "category": "lexicon:brewing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Другой способ получить предметы с эффектами помимо зельеварения — это $(item)подозрительные рагу$(). $(br2)Это пища, которая может дать $(l:creatures/human-player)$(thing)игроку$() эффект состояния, зависящий от цветка, использованного при её создании."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/suspicious_stew_recipe.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/suspicious_stew_ingredients.png"
+      ],
+      "border": false
+    }
+  ]
+}

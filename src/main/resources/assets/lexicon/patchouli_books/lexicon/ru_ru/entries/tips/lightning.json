@@ -1,0 +1,15 @@
+{
+  "name": "Эффекты молнии",
+  "icon": "minecraft:lightning_rod",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Молния появляется во время грозы чаще на $(item)Lightning Rod$() или если бросить $(item)Trident$() с зачарованием $(l:enchanting/enchantments#channeling)$(thing)Channeling$(). $(br2)$(n)Молния может:$() $(li)Наносить урон сущностям и поджигать их$(br)$(li)Поджигать блоки при ударе $(br)$(li)С шансом 0.75–6.75% призывать $(thing)Skeleton Trap Horse$(), который превращается в 4 $(thing)Skeletal Horsemen$() при активации"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Удар молнии по-разному влияет на некоторых мобов:$() $(br)$(li)$(l:creatures/animal-pig)$(thing)Pig$() превращается в $(l:creatures/undead-zombified_piglin)$(thing)Zombified Piglin$() $(br)$(li)$(l:creatures/monster-creeper)$(thing)Creeper$() становится $(l:creatures/monster-creeper)$(thing)Charged Creeper$() $(br)$(li)$(l:creatures/human-villager)$(thing)Villager$() превращается в $(l:creatures/human-witch)$(thing)Witch$() $(br)$(li)Красный $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() становится бурым $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() $(br)$(li)Бурый $(l:creatures/animal-mooshroom)$(thing)Mooshroom$() становится красным $(l:creatures/animal-mooshroom)$(thing)Mooshroom$()"
+    }
+  ]
+}

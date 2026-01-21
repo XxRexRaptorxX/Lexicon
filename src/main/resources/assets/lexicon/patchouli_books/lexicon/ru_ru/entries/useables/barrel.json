@@ -1,0 +1,17 @@
+{
+  "name": "Бочка",
+  "icon": "minecraft:barrel",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrel",
+      "text": "$(item)Бочка$() — блок рабочего места $(l:creatures/human-villager#fisherman)$(thing)Рыбака$(), используемый для хранения предметов. $(br2)Она функционирует как один $(l:useables/chest)$(item)Сундук$(), но для её открытия не требуется свободное пространство сверху."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:barrel",
+      "title": " "
+    }
+  ]
+}

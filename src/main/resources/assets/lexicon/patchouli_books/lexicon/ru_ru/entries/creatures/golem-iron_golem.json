@@ -1,0 +1,38 @@
+{
+  "name": "Голем - Железный голем",
+  "icon": "minecraft:iron_block",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 100    $(br)> $(n)Attack Damage:$() 7,5-21,5 по мобам, 4,75-11,75 на лёгком, 7,5-21,5 на нормальном, 11,25-32,25 на сложном по игрокам $(br)> $(n)Behavior:$() Нейтральный     $(br)> $(n)Spawn:$() $(l:world/structures#village)$(thing)Деревни$(), $(l:world/structures#outpost)$(thing)Патрульные аванпосты$(), при создании $(l:creatures/human-player)$(thing)Игроком$() $(br)> $(n)Properties:$() $(br)$(thing)Железные големы$() создаются путём размещения 4 $(item)Железных блоков$() в форме T, затем сверху центрального верхнего блока ставится $(item)Вырезанная тыква$() или $(item)Светильник Джека$(). Атакуют монстров."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:iron_golem",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 3-5 Железных слитков, 0-2 Мака  $(n)XP:$() 0"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            " O0"
+          ],
+          [
+            "XXX"
+          ],
+          [
+            " X "
+          ]
+        ],
+        "mapping": {
+          "O": "minecraft:carved_pumpkin[facing=east]",
+          "X": "minecraft:iron_block"
+        }
+      },
+      "text": "Как создать $(thing)Железного голема$()."
+    }
+  ]
+}

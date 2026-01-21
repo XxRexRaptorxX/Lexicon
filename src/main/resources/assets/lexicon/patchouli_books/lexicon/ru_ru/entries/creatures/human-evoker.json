@@ -1,0 +1,17 @@
+{
+  "name": "Гуманоид - Заклинатель",
+  "icon": "minecraft:evoker_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() 6    $(br)> $(n)Behavior:$() Враждебный     $(br)> $(n)Spawn:$() $(l:world/structures#mansion)Особняки$(), Набеги $(br)> $(n)Properties:$() $(br)$(thing)Заклинатель$() имеет два разных способа атаки: атаку клыками и призыв $(l:creatures/monster-vex)$(thing)Вредин$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:evoker",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 1 $(l:rare/totem_of_undying)Тотем бессмертия$(), 0-1 Изумруд, 1 Зловещий флаг если появился как $(l:creatures/boss-raid_captain)$(thing)Капитан$()$(br)$(n)XP:$() 10"
+    }
+  ]
+}

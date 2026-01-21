@@ -1,0 +1,16 @@
+{
+  "name": "Trial Spawner",
+  "icon": "minecraft:trial_spawner",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:trial_spawner",
+      "text": "A $(item)Trial Spawner$() is a type of $(l:rare/spawner)$(item)Spawner$() found only within $(l:world/structures#trial_chambers)$(thing)Trial Chambers$(). $(br2)It spawns mobs in waves, which increase in number the more $(l:creatures/human-player)$(thing)Players$() are nearby. $(br2)When all of its spawned mobs are defeated, it ejects a combination of consumable items and/or $(l:rare/trial_keys)$(item)Trial Keys$(), then goes inactive for 30 minutes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)It cannot be obtained as an item or moved by a $(l:redstone/redstone_components#piston)$(item)Piston$(). $(br2)A $(item)Trial Spawner$() converts into an $(item)Ominous Trial Spawner$() during an $(thing)Ominous Trial$() which is triggered when a $(l:creatures/human-player)$(thing)Players$() with $(l:brewing/effects#bad_omen)$(thing)Bad Omen$() comes near the spawners. $(br2)The $(item)Ominous Trial Spawner$() releases more difficult mobs and ejects more powerful loot."
+    }
+  ]
+}

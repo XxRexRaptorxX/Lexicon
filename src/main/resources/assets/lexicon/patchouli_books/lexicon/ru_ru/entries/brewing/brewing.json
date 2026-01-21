@@ -1,0 +1,53 @@
+{
+  "name": "Зельеварение",
+  "icon": "minecraft:brewing_stand",
+  "category": "lexicon:brewing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Поместив хотя бы одну $(item)бутылку воды$() в нижние три слота $(l:useables/brewing_stand)$(item)варочной стойки$(), ингредиент в верхний слот и $(item)порошок ифрита$() в топливный слот, $(l:creatures/human-player)$(thing)игрок$() может перегнать ингредиенты в каждую $(l:brewing/ingredients_equipments)$(item)бутылку$() и сварить $(l:brewing/brewing#potions)$(item)зелья$(), которые можно выпить, чтобы получить эффект $(l:creatures/human-player)$(thing)игроку$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/brewing.png"
+      ],
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_types.png"
+      ],
+      "border": false,
+      "title": "Основные зелья",
+      "anchor": "potions",
+      "text": "Базовые зелья — это $(l:brewing/brewing#potions)$(item)зелья$() без эффектов, сваренные добавлением одного базового ингредиента к $(item)бутылке воды$(). Из них только $(item)неловкое зелье$() можно насытить эффектом, чтобы получить $(l:brewing/effects)$(thing)эффект зелья$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/effect_potion_types_1.png",
+        "lexicon:textures/pictures/effect_potion_types_2.png"
+      ],
+      "border": false,
+      "title": "Зелья с эффектами",
+      "text": "$(l:brewing/brewing#potions)$(item)Зелья$() — это вещества в бутылках, которые дают $(l:creatures/human-player)$(thing)игрокам$() и мобам временный или мгновенный эффект состояния при питье или если оказаться в радиусе их разбрызгивания при броске (в случае $(l:brewing/potion_types)$(item)туманного$() и $(l:brewing/potion_types)$(item)взрывного зелья$())."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/potion_upgrades.png"
+      ],
+      "border": false,
+      "title": "Улучшение зелий",
+      "text": "Улучшение $(l:brewing/brewing#potions)$(item)зелья$() предполагает компромисс между длительностью и силой. Усиленный эффект имеет меньшую длительность, а продлённый эффект не может быть усилен."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:brewing_stand",
+      "recipe2": "minecraft:glass_bottle"
+    }
+  ]
+}

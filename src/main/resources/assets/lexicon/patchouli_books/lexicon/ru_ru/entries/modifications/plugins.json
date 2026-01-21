@@ -1,0 +1,16 @@
+{
+  "name": "Плагины",
+  "icon": "minecraft:enchanted_book",
+  "category": "lexicon:modifications",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Плагин$() (или многопользовательский плагин) — это дополнительный файл для многопользовательского сервера Minecraft. $(br2)$(thing)Плагины$() часто используются для изменения определённых аспектов игры, например добавления рангов игроков, игровых режимов, экономики и многого другого."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(thing)Плагины$() не изменяют сам игровой код, как это делает $(l:modifications/mods)$(thing)Мод$(). $(br)$(li)Новые плагины можно найти $(l:https://www.curseforge.com/minecraft/bukkit-plugins)здесь$()"
+    }
+  ]
+}

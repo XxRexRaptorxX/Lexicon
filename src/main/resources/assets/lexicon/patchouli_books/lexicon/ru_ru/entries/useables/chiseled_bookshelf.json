@@ -1,0 +1,29 @@
+{
+  "name": "Резной книжный шкаф",
+  "icon": "minecraft:chiseled_bookshelf",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chiseled_bookshelf",
+      "text": "$(item)Резные книжные шкафы$() могут хранить до шести $(item)Книг$(), $(item)Книг с пером$(), $(item)Записанных книг$(), $(item)Зачарованных книг$() и других видов книг."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:chiseled_bookshelf",
+      "title": " "
+    },
+    {
+      "type": "patchouli:text",
+        "text": "Редстоуновый $(l:redstone/redstone_components#comparator)$(item)Компаратор$() посылает сигнал (1–6), указывающий на последний использованный слот. $(br2)Когда ни один слот ещё не использовался, он выдаёт 0. $(br2)$(l:redstone/redstone_components#observer)$(item)Наблюдатель$() может обнаружить, когда $(item)Книга$() добавляется или изымается из шкафа."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/chiseled_bookshelf_redstone.png"
+      ],
+        "text": "Соответствия между слотами и мощностью сигнала.",
+      "border": false
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "name": "Структуры",
+  "icon": "minecraft:compass",
+  "category": "lexicon:world",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Структуры — это случайно генерируемые объекты, встречающиеся по всему миру. $(br2)Структуры можно найти во многих биомах всех измерений. $(br2)Некоторые из этих структур можно обнаружить с помощью команды $(thing)/locate$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mineshaft.png"
+      ],
+      "border": false,
+      "title": "Шахта",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Обычная",
+      "anchor": "mineshaft"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/stronghold.png"
+      ],
+      "border": false,
+      "title": "Крепость",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Очень редкая",
+      "anchor": "stronghold"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/buried_treasure.png"
+      ],
+      "border": true,
+      "title": "Зарытое сокровище",
+      "text": "$(n)Расположение:$() Пляж (под землёй) $(br)$(n)Редкость:$() Редкая",
+      "anchor": "treasure"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/desert_pyramid.png"
+      ],
+      "border": false,
+      "title": "Пустынная пирамида",
+      "text": "$(n)Расположение:$() Пустыня $(br)$(n)Редкость:$() Необычная",
+      "anchor": "pyramid"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/igloo.png"
+      ],
+      "border": false,
+      "title": "Иглу",
+      "text": "$(n)Расположение:$() Заснеженные равнины, заснеженная тайга $(br)$(n)Редкость:$() Редкая",
+      "anchor": "igloo"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/jungle_temple.png"
+      ],
+      "border": false,
+      "title": "Храм джунглей",
+      "text": "$(n)Расположение:$() Джунгли $(br)$(n)Редкость:$() Редкая",
+      "anchor": "temple"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/pillager_outpost.png"
+      ],
+      "border": false,
+      "title": "Форт разбойников",
+      "text": "$(n)Расположение:$() Равнины, пустыня, саванна, (снежная) тайга $(br)$(n)Редкость:$() Редкая",
+      "anchor": "outpost"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/swamp_hut.png"
+      ],
+      "border": false,
+      "title": "Болотная хижина",
+      "text": "$(n)Расположение:$() Болото $(br)$(n)Редкость:$() Редкая",
+      "anchor": "hut"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/village.png"
+      ],
+      "border": true,
+      "title": "Деревня",
+      "text": "$(n)Расположение:$() (снежные) равнины, пустыня, саванна, тайга $(br)$(n)Редкость:$() Необычная",
+      "anchor": "village"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/mansion.png"
+      ],
+      "border": false,
+      "title": "Лесной особняк",
+      "text": "$(n)Расположение:$() Тёмный лес $(br)$(n)Редкость:$() Редкая",
+      "anchor": "mansion"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ruined_portal.png"
+      ],
+      "border": false,
+      "title": "Разрушенный портал",
+      "text": "$(n)Расположение:$() Верхний мир, Нижний мир $(br)$(n)Редкость:$() Обычная",
+      "anchor": "portal"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ocean_ruin.png"
+      ],
+      "border": false,
+      "title": "Морские руины",
+      "text": "$(n)Расположение:$() Океан, пляж $(br)$(n)Редкость:$() Обычная",
+      "anchor": "ocean_ruin"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ocean_monument.png"
+      ],
+      "border": false,
+      "title": "Океанский монумент",
+      "text": "$(n)Расположение:$() Океан $(br)$(n)Редкость:$() Редкая",
+      "anchor": "monument"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/nether_fortress.png"
+      ],
+      "border": true,
+      "title": "Адская крепость",
+      "text": "$(n)Расположение:$() Нижний мир $(br)$(n)Редкость:$() Необычная",
+      "anchor": "fortress"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bastion.png"
+      ],
+      "border": false,
+      "title": "Остатки бастиона",
+      "text": "$(n)Расположение:$() Нижний мир $(br)$(n)Редкость:$() Необычная",
+      "anchor": "bastion"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/fossil.png"
+      ],
+      "border": false,
+      "title": "Окаменелость",
+      "text": "$(n)Расположение:$() Пустыня, болото, долина душ $(br)$(n)Редкость:$() Редкая",
+      "anchor": "fossil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/end_city.png"
+      ],
+      "border": false,
+      "title": "Город Края",
+      "text": "$(n)Расположение:$() Край $(br)$(n)Редкость:$() Редкая",
+      "anchor": "end_city"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/dungeon.png"
+      ],
+      "border": false,
+      "title": "Подземелье",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Обычная",
+      "anchor": "dungeon"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/desert_well.png"
+      ],
+      "border": false,
+      "title": "Пустынный колодец",
+      "text": "$(n)Расположение:$() Пустыня $(br)$(n)Редкость:$() Необычная",
+      "anchor": "well"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/rock.png"
+      ],
+      "border": false,
+      "title": "Лесной валун",
+      "text": "$(n)Расположение:$() Старая еловая тайга $(br)$(n)Редкость:$() Необычная"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/geode.png"
+      ],
+      "border": false,
+      "title": "Геода",
+      "text": "$(n)Расположение:$() Верхний мир (под землёй) $(br)$(n)Редкость:$() Редкая",
+      "anchor": "geode"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/iceberg.png"
+      ],
+      "border": false,
+      "title": "Айсберг",
+      "text": "$(n)Расположение:$() Замёрзший океан $(br)$(n)Редкость:$() Необычная",
+      "anchor": "iceberg"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/trial_chambers_1.png",
+        "lexicon:textures/pictures/trial_chambers_2.png",
+        "lexicon:textures/pictures/trial_chambers_top.png"
+      ],
+      "border": false,
+      "title": "Палаты испытаний",
+      "text": "$(n)Расположение:$() Верхний мир (кроме Тёмной глубины) $(br)$(n)Редкость:$() Редкая",
+      "anchor": "trial_chambers"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/ancient_city_1.png",
+        "lexicon:textures/pictures/ancient_city_top.png",
+        "lexicon:textures/pictures/ancient_city_2.png"
+      ],
+      "border": false,
+      "title": "Древний город",
+      "text": "$(n)Расположение:$() Тёмная глубина $(br)$(n)Редкость:$() Редкая",
+      "anchor": "ancient_city"
+    }
+  ]
+}

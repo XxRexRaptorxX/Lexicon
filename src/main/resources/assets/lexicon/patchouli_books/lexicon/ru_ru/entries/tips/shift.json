@@ -1,0 +1,15 @@
+{
+  "name": "Важная клавиша Shift",
+  "icon": "minecraft:player_head",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Клавиша Shift имеет много полезных функций:$() $(li)При крафте $(thing)Shift$() + $(thing)clicking$() по результату автоматически создаёт максимум предметов и переносит их в инвентарь. $(li)Удержание $(thing)Shift$() + $(thing)Right click$() по используемому блоку с блоком в руке ставит блок вместо действия $(thing)USE$(). $(li)При удержании $(thing)Shift$() вы не можете упасть с края блока."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Когда открыт инвентарь, $(thing)Shift$() + $(thing)clicking$() перемещает предмет между инвентарём и хотбаром. $(li)$(thing)Shift$() + $(thing)clicking$() по броне, голове моба или $(item)Elytra$() перемещает их между инвентарём и соответствующим слотом. $(li)$(thing)Shift$() + $(thing)clicking$() по $(item)Shield$() перемещает его между инвентарём и второй рукой. $(li)Когда контейнер открыт, $(thing)Shift$() + $(thing)clicking$() перемещает до стака между контейнером и инвентарём. $(li)$(thing)Shift$() + $(thing)double clicking$() перемещает все предметы одного типа. Чтобы выполнить $(thing)Shift$() + $(thing)double click$(), возьмите один предмет в руку и, удерживая $(thing)Shift$(), $(thing)double click$() по другому предмету этого же типа."
+    }
+  ]
+}

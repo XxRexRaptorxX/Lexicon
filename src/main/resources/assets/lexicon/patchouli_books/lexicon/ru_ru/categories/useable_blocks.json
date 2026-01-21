@@ -1,0 +1,6 @@
+{
+  "name": "Функциональные блоки",
+  "description": "Здесь вы узнаете всё о функциональных блоках, таких как $(l:useables/furnace)$(item)Печи$(), $(l:useables/stonecutter)$(item)Камнерез$(), $(l:useables/grindstone)$(item)Точильный камень$() и другие.",
+  "icon": "minecraft:smithing_table",
+  "sortnum": 9
+}

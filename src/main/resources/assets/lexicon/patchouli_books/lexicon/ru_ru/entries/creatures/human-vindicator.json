@@ -1,0 +1,17 @@
+{
+  "name": "Гуманоид - Поборник",
+  "icon": "minecraft:vindicator_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Health:$() 24  $(br)> $(n)Attack Damage:$() $(br)7 на лёгком, 13 на нормальном, 19 на сложном $(br)> $(n)Behavior:$() Враждебный     $(br)> $(n)Spawn:$() $(l:world/structures#mansion)Лесные особняки$(), Набеги $(br)> $(n)Properties:$() $(br)$(thing)Поборник$() — $(thing)Илладжер$(), вооружённый $(item)Железным топором$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:vindicator",
+      "scale": "1.0",
+      "text": "$(n)Drops:$() 0-1 Изумруд, 1 Зловещий флаг если появился как $(l:creatures/boss-raid_captain)$(thing)Капитан$(), 8,5% шанс на Железный топор $(br)$(n)XP:$() 5"
+    }
+  ]
+}

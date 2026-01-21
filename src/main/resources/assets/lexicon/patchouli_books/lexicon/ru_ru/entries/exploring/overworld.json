@@ -1,0 +1,22 @@
+{
+  "name": "Исследование Верхнего мира",
+  "icon": "minecraft:grass_block",
+  "category": "lexicon:exploring",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вот несколько важных предметов, которые стоит всегда иметь с собой в приключениях в $(l:world/dimensions#overworld)$(thing)Верхнем мире$()!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/overworld_equipment.png",
+        "lexicon:textures/pictures/additional_equipment.png"
+      ],
+      "border": true,
+      "text": "На втором изображении показаны дополнительные редкие, но полезные предметы!"
+    }
+
+  ]
+}

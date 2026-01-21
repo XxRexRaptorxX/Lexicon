@@ -1,0 +1,156 @@
+{
+  "name": "Деревянные рецепты",
+  "icon": "minecraft:oak_planks",
+  "category": "lexicon:crafting",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_planks",
+      "recipe2": "minecraft:bamboo_planks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_planks",
+      "recipe2": "minecraft:cherry_planks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_planks",
+      "recipe2": "minecraft:dark_oak_planks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_planks",
+      "recipe2": "minecraft:mangrove_planks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_planks",
+      "recipe2": "minecraft:spruce_planks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_planks",
+      "recipe2": "minecraft:acacia_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_slab",
+      "recipe2": "minecraft:bamboo_mosaic_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_slab",
+      "recipe2": "minecraft:cherry_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_slab",
+      "recipe2": "minecraft:dark_oak_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_slab",
+      "recipe2": "minecraft:mangrove_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_slab",
+      "recipe2": "minecraft:spruce_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_planks",
+      "recipe2": "minecraft:acacia_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_stairs",
+      "recipe2": "minecraft:bamboo_mosaic_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_stairs",
+      "recipe2": "minecraft:cherry_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_stairs",
+      "recipe2": "minecraft:dark_oak_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_stairs",
+      "recipe2": "minecraft:mangrove_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_stairs",
+      "recipe2": "minecraft:spruce_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:acacia_wood",
+      "recipe2": "minecraft:dark_oak_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:birch_wood",
+      "recipe2": "minecraft:cherry_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jungle_wood",
+      "recipe2": "minecraft:mangrove_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:oak_wood",
+      "recipe2": "minecraft:spruce_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:warped_hyphae",
+      "recipe2": "minecraft:stripped_warped_hyphae"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_acacia_wood",
+      "recipe2": "minecraft:stripped_dark_oak_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_birch_wood",
+      "recipe2": "minecraft:stripped_cherry_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_jungle_wood",
+      "recipe2": "minecraft:stripped_mangrove_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:stripped_oak_wood",
+      "recipe2": "minecraft:stripped_spruce_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crimson_hyphae",
+      "recipe2": "minecraft:stripped_crimson_hyphae"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:bamboo_block",
+      "recipe2": "minecraft:bamboo_mosaic"
+    }
+  ]
+}

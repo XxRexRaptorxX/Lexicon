@@ -1,0 +1,25 @@
+{
+  "name": "Маяк",
+  "icon": "minecraft:beacon",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:beacon",
+      "text": "$(item)Маяк$() — блок, испускающий луч света в небо и обеспечивающий ближайших $(l:creatures/human-player)$(thing)игроков$() эффектами, такими как $(l:brewing/effects#speed)$(thing)Скорость$(), $(l:brewing/effects#jump_boost)$(thing)Прыгучесть$(), $(l:brewing/effects#haste)$(thing)Ускорение$(), $(l:brewing/effects#regeneration)$(thing)Регенерация$(), $(l:brewing/effects#resistance)$(thing)Сопротивление$() или $(l:brewing/effects#strength)$(thing)Сила$() при активации пирамидой."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:beacon",
+      "title": " "
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/beacon.png"
+      ],
+      "border": true,
+      "text": "Существует четыре возможных высоты пирамиды. Чем больше уровней, тем больше доступных эффектов. $(br)Можно строить из блоков $(item)железа/золота/изумруда/алмаза/незерита$()."
+    }
+  ]
+}

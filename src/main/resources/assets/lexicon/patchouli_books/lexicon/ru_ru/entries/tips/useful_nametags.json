@@ -1,0 +1,28 @@
+{
+  "name": "Полезные бирки",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Name Tag$() используется для именования мобов и предотвращения их естественного $(n)despawning$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:anvil",
+      "title": " ",
+      "text": "Чтобы использовать бирку, её нужно переименовать на $(l:useables/anvil)$(item)Anvil$(), что стоит 1 уровень опыта."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)Пасхалки:$() $(br)$(li)Большинство мобов с именем $(o)Dinnerbone$() или $(o)Grumm$() отображаются вверх ногами. $(br)$(li)Название $(l:creatures/animal-sheep)$(thing)Sheep$() $(o)jeb_$() заставляет её шерсть переливаться всеми цветами. $(br)$(li)$(l:creatures/animal-rabbit)$(thing)Rabbit$() по имени $(o)Toast$() получает особую текстуру. $(br)$(li)$(l:creatures/human-vindicator)$(thing)Vindicator$() по имени $(o)Johnny$() становится агрессивным ко всем мобам."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/upside-down.png"
+      ],
+      "border": true
+    }
+  ]
+}

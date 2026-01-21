@@ -1,0 +1,18 @@
+{
+  "name": "Животное - Хоглин",
+  "icon": "minecraft:hoglin_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 40  $(br)> $(n)Урон:$() $(br)взрослый: 2.5-5 на лёгком, 3-8 на нормальном, 4.5-12 на сложном $(br)детёныш: 0.5, 0.75 на сложном $(br)> $(n)Поведение:$() Враждебное     $(br)> $(n)Место появления:$() Багровый лес, $(l:world/structures#basion)останки бастиона$() $(br)> $(n)Размножение:$() Багровый гриб $(br)> $(n)Свойства:$() $(br)За пределами $(l:world/dimensions#nether)$(thing)Незера$() превращаются в $(l:creatures/undead-zoglin)$(thing)зоглинов$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:hoglin",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() 2-4 Сырая свинина, 2-4 Жареная свинина при смерти в огне, 0-1 Кожа $(br)$(n)Опыт:$() 5"
+    }
+  ]
+}
+

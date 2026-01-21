@@ -1,0 +1,17 @@
+{
+  "name": "Верстак",
+  "icon": "minecraft:crafting_table",
+  "category": "lexicon:useable_blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:crafting_table",
+      "text": "$(item)Верстак$() — утилитарный блок, позволяющий $(l:creatures/human-player)$(thing)Игроку$() создавать различные блоки и предметы. $(br2)Предоставляет сетку крафта 3x3."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafting_table",
+      "title": " "
+    }
+  ]
+}

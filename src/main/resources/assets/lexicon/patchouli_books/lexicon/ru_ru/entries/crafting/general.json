@@ -1,0 +1,22 @@
+{
+    "name": "Общее",
+  "icon": "minecraft:crafting_table",
+  "category": "lexicon:crafting",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+        "text": "Крафт — это процесс создания инструментов, предметов и блоков. $(br2)$(l:creatures/human-player)$(thing)Игроки$() могут крафтить, перемещая предметы из своего инвентаря в сетку крафта, размещая их по рецепту. $(br2)Сетка 2×2 доступна из инвентаря, а сетка 3×3 доступна при использовании $(l:useables/crafting_table)$(item)Верстака$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:crafting_table",
+        "text": "$(br)Предметы, созданные в сетке 2×2, можно также создать в сетке 3×3."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:knowledge_book",
+        "text": "$(item)Книга рецептов$() — это механика, служащая каталогом рецептов и руководством по крафту. $(br2)Она показывает каждый рецепт, для которого у $(l:creatures/human-player)$(thing)игрока$() когда-либо были материалы."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Скоростная лодка",
+  "icon": "minecraft:blue_ice",
+  "category": "lexicon:tips_tricks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если $(l:creatures/human-player)$(thing)Players$() ездят на $(item)Boats$() по $(item)Ice$(), они внезапно обнаружат невероятную скорость. $(br2)Это отличный способ быстро путешествовать. $(br2)Все виды $(thing)Ice$() дают этот эффект с $(item)Boats$(), но $(item)Blue Ice$() самый быстрый."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/speed_boat.png"
+      ],
+      "border": true
+    }
+  ]
+}

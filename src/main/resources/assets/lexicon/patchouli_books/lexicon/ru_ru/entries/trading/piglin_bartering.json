@@ -1,0 +1,29 @@
+{
+  "name": "Бартер с пиглинами",
+  "icon": "minecraft:gold_ingot",
+  "category": "lexicon:trading",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы обменяться с $(l:creatures/monster-piglin)$(thing)пиглином$(), бросьте рядом со взрослым $(l:creatures/monster-piglin)$(thing)пиглином$() $(item)золотой слиток$() или используйте его на нём. После того как $(l:creatures/monster-piglin)$(thing)пиглин$() возьмёт слиток и рассмотрит его 6 секунд, он бросит случайный предмет $(l:creatures/human-player)$(thing)игроку$(). $(br2)$(l:creatures/monster-piglin_brute)$(thing)брутальные пиглины$() игнорируют золото. $(br)$(l:creatures/monster-piglin)$(thing)детёныши пиглинов$() забирают слиток, ничего не отдавая взамен, просто держат его."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "lexicon:textures/pictures/bartering.png"
+      ],
+      "border": false
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin",
+      "scale": "1.0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:piglin_brute",
+      "scale": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Music Discs",
+  "icon": "minecraft:music_disc_strad",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_13",
+      "text": "A $(item)Music Disc$() can be played on a $(l:useables/jukebox)$(item)Jukebox$(), by holding the disc and pressing the use control on the $(l:useables/jukebox)$(item)Jukebox$(), or by using a $(l:redstone/redstone_components#hopper)$(item)Hopper$() or a $(l:redstone/redstone_components#dropper)$(item)Dropper$() facing toward the $(l:useables/jukebox)$(item)Jukebox$(). $(br2)Pressing use on the $(l:useables/jukebox)$(item)Jukebox$() again ejects the disc and stops any music playing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:jukebox"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_13",
+      "title": "Disc: 13",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$()mob$() $(li)Structure loot ($(l:world/structures#dungeon)$(thing)Dungeon$(), $(l:world/structures#ancient_city)$(thing)Ancient City$(), $(l:world/structures#mansion)$(thing)Mansion$()) $(br2)$(n)Redstone signal strength:$()$(br) 1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_cat",
+      "title": "Disc: Cat",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(li)Structure loot ($(l:world/structures#dungeon)$(thing)Dungeon$(), $(l:world/structures#ancient_city)$(thing)Ancient City$(), $(l:world/structures#mansion)$(thing)Mansion$()) $(br2)$(n)Redstone signal strength:$()$(br) 2"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_blocks",
+      "title": "Disc: Blocks",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_chirp",
+      "title": "Disc: Chirp",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 4"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_far",
+      "title": "Disc: Far",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 5"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_mall",
+      "title": "Disc: Mall",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 6"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_mellohi",
+      "title": "Disc: Mellohi",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 7"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_stal",
+      "title": "Disc: Stal",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 8"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_strad",
+      "title": "Disc: Strad",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 9"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_ward",
+      "title": "Disc: Ward",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 10"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_11",
+      "title": "Disc: 11",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 11"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_creator_music_box",
+      "title": "Disc: Creator (Music Box)",
+      "text": "$(n)Composer:$()$(br) Lena Raine $(br2)$(n)Obtaining:$() $(li)Structure loot in $(l:useables/decorated_pot)$(item)Pots$() from $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Redstone signal strength:$()$(br) 11"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_wait",
+      "title": "Disc: Wait",
+      "text": "$(n)Composer:$()$(br) C418 $(br2)$(n)Obtaining:$() $(li)Drops from a $(l:creatures/monster-creeper)$(thing)Creeper$() when it is killed by a $(l:creatures/undead-skeleton)$(thing)Skeleton$() mob $(br2)$(n)Redstone signal strength:$()$(br) 12"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_creator",
+      "title": "Disc: Creator",
+      "text": "$(n)Composer:$()$(br) Lena Raine $(br2)$(n)Obtaining:$() $(li)Structure loot in $(l:rare/vault)$(item)Ominous Vaults$() from $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Redstone signal strength:$()$(br) 12"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_pigstep",
+      "title": "Disc: Pigstep",
+      "text": "$(n)Composer:$()$(br) Lena Raine $(br2)$(n)Obtaining:$() $(li)Structure loot from $(l:world/structures#bastion)$(thing)Bastion Remnants$()  $(br2)$(n)Redstone signal strength:$()$(br) 13"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_precipice",
+      "title": "Disc: Precipice",
+      "text": "$(n)Composer:$()$(br) Aaron Cherof $(br2)$(n)Obtaining:$() $(li)Structure loot in $(l:rare/vault)$(item)Vaults$() from $(l:world/structures#trial_chambers)$(thing)Trial Chambers$() $(br2)$(n)Redstone signal strength:$()$(br) 13"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_otherside",
+      "title": "Disc: Otherside",
+      "text": "$(n)Composer:$()$(br) Lena Raine $(br2)$(n)Obtaining:$() $(li)Structure loot ($(l:world/structures#dungeon)$(thing)Dungeon$(), $(l:world/structures#ancient_city)$(thing)Ancient City$(), $(l:world/structures#stronghold)$(thing)Stronghold$()) $(br2)$(n)Redstone signal strength:$()$(br) 14"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_relic",
+      "title": "Disc: Relic",
+      "text": "$(n)Composer:$()$(br) Aaron Cherof $(br2)$(n)Obtaining:$() $(li)Drops from $(l:rare/suspicious_sand#gravel$()$(item)Suspicious Gravel$() in $(l:world/structures#trail_ruins)$(thing)Trail Ruins$() $(br2)$(n)Redstone signal strength:$()$(br) 14"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:music_disc_5",
+      "title": "Disc: 5",
+      "text": "$(n)Composer:$()$(br) Samuel Åberg $(br2)$(n)Obtaining:$() $(li)Craftable $(br2)$(n)Redstone signal strength:$()$(br) 15"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:music_disc_5",
+      "title": " ",
+      "text": "$(br)$(item)Disc Fragments$() can be obtained from $(l:world/structures#ancient_city)$(thing)Ancient Citys$()"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Данные NBT",
+  "icon": "minecraft:name_tag",
+  "category": "lexicon:commands",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Named Binary Tag (NBT)$() — это древовидная структура данных, используемая Minecraft в файлах сохранения для хранения произвольных данных. $(br2)$(l)Stringified Named Binary Tag (SNBT)$(), также известный как тег данных, часто используется в $(l:commands)$(thing)Командах$(). $(br2)Тег данных состоит из нуля или более пар атрибут-значение, разделённых запятыми и заключённых в фигурные скобки."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Каждая пара атрибут-значение состоит из имени тега и значения, разделённых двоеточием. $(br2)Некоторые значения, однако, могут быть составным тегом и сами содержать пары атрибут-значение, что позволяет тегу данных описывать иерархическую структуру. $(br2)$(n)Пример:$() $(br2)$(o){CustomName:'\"Bob\"', Invisible:true}$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(n)$(l)Ссылки:$()$(br) $(li)$(l:https://minecraft.wiki/w/NBT_format)Основы$()  $(li)$(l:https://minecraft.fandom.com/wiki/Tutorials/Command_NBT_tags)Команды с NBT — обучение$()$(li)$(l:https://minecraft.fandom.com/wiki/Chunk_format#Block_entity_format)NBT для блок-сущностей$()  $(li)$(l:https://minecraft.fandom.com/wiki/Player.dat_format#Item_structure)NBT для предметов$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Items_and_XPOrbs)NBT для сущностей предметов$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Mobs)NBT для мобов$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Projectiles)NBT для снарядов$()   $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Vehicles)NBT для транспортных средств$()  $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Dynamic_Tiles)NBT для динамических блоков$()   $(li)$(l:https://minecraft.fandom.com/wiki/Entity_format#Other)NBT для других сущностей$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Компоненты данных",
+      "text": "$(l)Компоненты данных$(), или просто $(l)Компоненты$(), — это структурированные данные, используемые для определения и хранения различных свойств. $(br2)Они используются на предметах, где их называют компонентами предметов или компонентами стека предметов, а также на блок-сущностях, частично заменяя $(l)формат NBT$() в новых версиях Майнкрафта. $(br2)Больше информации можно найти $(l:https://minecraft.wiki/w/Data_component_format)здесь$()"
+    }
+  ]
+}

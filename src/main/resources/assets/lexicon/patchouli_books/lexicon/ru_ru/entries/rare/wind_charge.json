@@ -1,0 +1,17 @@
+{
+  "name": "Заряд ветра",
+  "icon": "minecraft:wind_charge",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wind_charge",
+      "text": "$(item)Заряд ветра$() — расходуемое дальнобойное оружие, способное отбрасывать сущностей и взаимодействовать с некоторыми компонентами $(l:redstone/redstone_components)редстоуна$(). $(br2)Им пользуются $(l:creatures/monster-breeze)$(thing)бризы$() в своей основной атаке, а также его могут выстреливать $(l:creatures/human-player)$(thing)игроки$() и $(l:redstone/redstone_components#dispenser)$(item)раздатчики$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:wind_charge",
+      "title": " "
+    }
+  ]
+}

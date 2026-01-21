@@ -1,0 +1,52 @@
+{
+  "name": "Водное животное - Аксолотль",
+  "icon": "minecraft:axolotl_spawn_egg",
+  "category": "lexicon:creatures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "> $(n)Здоровье:$() 14     $(br)> $(n)Урон:$() 2     $(br)> $(n)Поведение:$() Пассивное      $(br)> $(n)Места появления:$() Пышные пещеры    $(br)> $(n)Размножение:$() Ведро тропических рыб  $(br)> $(n)Свойства:$() $(br)Если аксолотль получает урон под водой, он может притвориться мёртвым, падая на дно на 200 тиков (10 секунд), получая $(l:brewing/effects#regeneration)$(thing)Регенерацию I$(). Враждебные водные мобы игнорируют лечащихся аксолотлей."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl",
+      "scale": "0.5",
+      "text": "$(n)Дроп:$() -  $(n)Опыт:$() 0"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:4}",
+      "scale": "0.5",
+      "name": "Голубой аксолотль",
+      "text": "ID варианта: 4"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:3}",
+      "scale": "0.5",
+      "name": "Бирюзовый аксолотль",
+      "text": "ID варианта: 3"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:2}",
+      "scale": "0.5",
+      "name": "Золотой аксолотль",
+      "text": "ID варианта: 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:1}",
+      "scale": "0.5",
+      "name": "Дикий аксолотль",
+      "text": "ID варианта: 1"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl{Variant:0}",
+      "scale": "0.5",
+      "name": "Аксолотль Люси",
+      "text": "ID варианта: 0"
+    }
+  ]
+}

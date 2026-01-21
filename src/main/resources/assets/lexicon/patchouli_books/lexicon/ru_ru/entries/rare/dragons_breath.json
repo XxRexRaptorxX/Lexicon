@@ -1,0 +1,16 @@
+{
+  "name": "Дыхание дракона",
+  "icon": "minecraft:dragon_breath",
+  "category": "lexicon:rare_stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:dragon_breath",
+      "text": "$(item)Дыхание дракона$() можно получить, набрав в $(item)пустую бутылочку$() дыхание атаки $(l:creatures/boss-ender_dragon)$(thing)дракона Края$() или фиолетовые облака от его огненных шаров. $(br2)$(l:rare/dragons_breath)$(item)Дыхание дракона$() используется в варке для создания $(l:brewing/potion_types#lingering_potion)$(item)туманных зелий$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:glass_bottle"
+    }
+  ]
+}
